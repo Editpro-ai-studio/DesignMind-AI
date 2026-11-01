@@ -1,0 +1,675 @@
+{
+ "country": "France",
+ "slug": "france",
+ "researched_on": "2026-11-01",
+ "method": "snapshot",
+ "season_context": {
+  "hemisphere": "northern",
+  "current_fashion_season": "Autumn/Winter 2026 (AW26)",
+  "local_season_notes": "Cool, damp winter from November to March, so coats, knits and textured outerwear lead sell-through. Christmas gifting and party wear peak in December. National winter sales run from 6 January to 2 February 2027 (2 January in four eastern departments). Spring/Summer 2027 stock lands from February to March.",
+  "upcoming_season": "Spring/Summer 2027 (SS27)",
+  "sources": [
+   {
+    "title": "Soldes d'hiver 2027 : voici les dates à retenir en France et au Luxembourg",
+    "url": "https://tpeactu.fr/2026/08/12/soldes-hiver-2026-dates-france-luxembourg/",
+    "published": "2026-10-15"
+   },
+   {
+    "title": "Tendances : Ce qui va cartonner en boutiques pour l'automne-hiver 2026",
+    "url": "https://fashionunited.fr/actualite/mode/tendances-ce-qui-va-cartonner-en-boutiques-pour-lautomne-hiver-2026/2026080442582",
+    "published": "2026-08-04"
+   },
+   {
+    "title": "From top-to-toe gold to bruised hues - the 7 standout trends from Paris Fashion Week SS27",
+    "url": "https://www.hellomagazine.com/hfm/fashion-trends/927679/paris-fashion-week-ss27-trend-report/",
+    "published": "2026-10-07"
+   }
+  ]
+ },
+ "trends": [
+  {
+   "country": "france",
+   "countryName": "France",
+   "category": "fabrics",
+   "status": "observed",
+   "name": "Tactile, shaggy textures",
+   "summary": "Shops are stocked with plush and hairy knits, brushed surfaces, bouclé wools, fuzzy cotton canvas and towelling-like terry. Relief and volume in the cloth itself are the main selling point of the season.",
+   "season": "AW26",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "FashionUnited France",
+   "source_url": "https://fashionunited.fr/actualite/mode/tendances-ce-qui-va-cartonner-en-boutiques-pour-lautomne-hiver-2026/2026080442582",
+   "published": "2026-08-04",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "high",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "france",
+   "countryName": "France",
+   "category": "casual",
+   "status": "observed",
+   "name": "1990s outdoor and technical hybrids",
+   "summary": "Archive sportswear from labels such as Nike and K-Way is being reworked into everyday hybrid garments, giving technical outerwear a graphic, sporty-chic look for city wear.",
+   "season": "AW26",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "FashionUnited France",
+   "source_url": "https://fashionunited.fr/actualite/mode/tendances-ce-qui-va-cartonner-en-boutiques-pour-lautomne-hiver-2026/2026080442582",
+   "published": "2026-08-04",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "france",
+   "countryName": "France",
+   "category": "silhouettes",
+   "status": "observed",
+   "name": "Boxy leather jacket",
+   "summary": "The leather jacket returns in roomier, squarer cuts made from smooth, cleanly finished hides. Unlike the usual fitted biker shape, these give more freedom of movement.",
+   "season": "AW26",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "FashionUnited France",
+   "source_url": "https://fashionunited.fr/actualite/mode/tendances-ce-qui-va-cartonner-en-boutiques-pour-lautomne-hiver-2026/2026080442582",
+   "published": "2026-08-04",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "high",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "france",
+   "countryName": "France",
+   "category": "prints",
+   "status": "observed",
+   "name": "Tartan, Prince of Wales and windowpane checks",
+   "summary": "Checks appear on coats, pleated or tailored skirts and shirts, and lumberjack-style shirts are often paired with tailored skirts. Paris runways also showed brighter 90s plaid, such as sky blue at Louis Vuitton and army green at Dries Van Noten.",
+   "season": "AW26",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "FashionUnited France; Fashionista",
+   "source_url": "https://fashionunited.fr/actualite/mode/tendances-ce-qui-va-cartonner-en-boutiques-pour-lautomne-hiver-2026/2026080442582",
+   "published": "2026-08-04",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "high",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "france",
+   "countryName": "France",
+   "category": "seasonal",
+   "status": "observed",
+   "name": "Faux fur coats and trims",
+   "summary": "Long-pile faux fur and curly shearling-style textures appear on statement coats with structured volume, and on smaller pieces such as collars and hats.",
+   "season": "AW26",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "FashionUnited France",
+   "source_url": "https://fashionunited.fr/actualite/mode/tendances-ce-qui-va-cartonner-en-boutiques-pour-lautomne-hiver-2026/2026080442582",
+   "published": "2026-08-04",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "france",
+   "countryName": "France",
+   "category": "embroidery",
+   "status": "observed",
+   "name": "Daytime sequins and pearls",
+   "summary": "Small sequins, beads and pearl details are moving off eveningwear and onto ordinary daywear, adding some polish to everyday garments.",
+   "season": "AW26",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "FashionUnited France",
+   "source_url": "https://fashionunited.fr/actualite/mode/tendances-ce-qui-va-cartonner-en-boutiques-pour-lautomne-hiver-2026/2026080442582",
+   "published": "2026-08-04",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "france",
+   "countryName": "France",
+   "category": "emerging",
+   "status": "observed",
+   "name": "Craft and raw natural materials",
+   "summary": "Utilitarian garments use raw natural materials, visible handwork and sometimes wooden details, so each piece looks made by hand and one of a kind.",
+   "season": "AW26",
+   "gender": "unisex",
+   "ages": [
+    "26-40",
+    "41-60"
+   ],
+   "source": "FashionUnited France",
+   "source_url": "https://fashionunited.fr/actualite/mode/tendances-ce-qui-va-cartonner-en-boutiques-pour-lautomne-hiver-2026/2026080442582",
+   "published": "2026-08-04",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "france",
+   "countryName": "France",
+   "category": "dress_styles",
+   "status": "recent",
+   "name": "Extreme drop waist",
+   "summary": "At Paris AW26, Chanel and Mugler pushed waistlines down to just above the knee, building on the wider shift toward low-waisted dresses.",
+   "season": "AW26",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "Fashionista",
+   "source_url": "https://fashionista.com/2026/03/paris-fashion-week-fall-2026-trends",
+   "published": "2026-03-11",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "france",
+   "countryName": "France",
+   "category": "colors",
+   "status": "recent",
+   "name": "Tomato red",
+   "summary": "Tom Ford, Jean Paul Gaultier and Patou showed head-to-toe red, while Lacoste and Celine used it in smaller colour-blocked touches.",
+   "season": "AW26",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "Fashionista",
+   "source_url": "https://fashionista.com/2026/03/paris-fashion-week-fall-2026-trends",
+   "published": "2026-03-11",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "france",
+   "countryName": "France",
+   "category": "prints",
+   "status": "recent",
+   "name": "Oversized face graphics",
+   "summary": "Acne Studios, Balenciaga and Ann Demeulemeester printed large human faces on dresses, skirts, blouses and T-shirts.",
+   "season": "AW26",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "Fashionista",
+   "source_url": "https://fashionista.com/2026/03/paris-fashion-week-fall-2026-trends",
+   "published": "2026-03-11",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "france",
+   "countryName": "France",
+   "category": "silhouettes",
+   "status": "recent",
+   "name": "Exaggerated 80s shoulders",
+   "summary": "Architectural jackets and coats with heavily built-up shoulders were prominent in the AW26 shows, including Saint Laurent, Balenciaga, Mugler, Tom Ford, Alaïa and Stella McCartney.",
+   "season": "AW26",
+   "gender": "female",
+   "ages": [
+    "26-40",
+    "41-60"
+   ],
+   "source": "Luxus Plus",
+   "source_url": "https://luxus-plus.com/en/luxus-magazine-fringes-transparency-slits-5-trends-spotted-at-fashion-week-autumn-winter-2026-2027/",
+   "published": "2026-03-13",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "france",
+   "countryName": "France",
+   "category": "formal",
+   "status": "recent",
+   "name": "Suits and ties return in menswear",
+   "summary": "Paris men's AW26 leaned on suits worn with ties. Louis Vuitton showed single- and double-breasted cuts and Glencheck suits, Dior showed both 1940s and 1960s tailoring, and the palette stayed mostly black, grey, beige and brown with violet accents.",
+   "season": "AW26",
+   "gender": "male",
+   "ages": [
+    "26-40",
+    "41-60"
+   ],
+   "source": "FashionUnited Germany",
+   "source_url": "https://fashionunited.de/nachrichten/mode/pariser-herrenmode-setzt-auf-vernunft/2026012665134",
+   "published": "2026-01-26",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "france",
+   "countryName": "France",
+   "category": "luxury",
+   "status": "recent",
+   "name": "Couture arts-and-crafts embellishment",
+   "summary": "At July's AW26 couture shows, Chanel and Dior used beads, buttons, cut-outs and fabric loops, and Georges Hobeika showed dense, scale-like beadwork. The effect is collected, handmade ornament instead of conventional glamour.",
+   "season": "AW26 Couture",
+   "gender": "female",
+   "ages": [
+    "26-40",
+    "41-60"
+   ],
+   "source": "The Wed",
+   "source_url": "https://thewed.com/magazine/defining-trends-from-haute-couture-fall-2026",
+   "published": "2026-07-14",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "france",
+   "countryName": "France",
+   "category": "modest",
+   "status": "recent",
+   "name": "Paris Modest Fashion Week debut",
+   "summary": "Think Fashion held Paris's first modest fashion week in April 2026, with 30 shows and some French labels such as streetwear-influenced Soutoura. Headscarf debates in France make the segment politically sensitive.",
+   "season": "SS26",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "Hyphen",
+   "source_url": "https://hyphenonline.com/2026/04/15/paris-modest-fashion-week-france-headscarf-hijab-ban-controversy/",
+   "published": "2026-04-15",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "france",
+   "countryName": "France",
+   "category": "modest",
+   "status": "emerging",
+   "name": "Year-round modest assortments",
+   "summary": "Retailers are told to plan around Ramadan and Eid for long, elegant dresses and to stock modest brands all year. Galeries Lafayette is named among department stores responding, though French-specific data is lacking.",
+   "season": "2026-2027",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "FashionUnited France",
+   "source_url": "https://fashionunited.fr/actualite/mode/avis-aux-detaillants-la-mode-pudique-ou-modest-fashion-est-la-pour-durer/2026031941068",
+   "published": "2026-03-19",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "low",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "france",
+   "countryName": "France",
+   "category": "casual",
+   "status": "observed",
+   "name": "Kidswear in chocolate, ginger and ribbed velvet",
+   "summary": "A Paris kids concept store's AW26 edit uses chocolate, ginger, navy and ivory tones, needlecord, denim, fleece and intarsia knits, plus playful illustrated prints such as mushrooms and graphic flowers.",
+   "season": "AW26",
+   "gender": "kids",
+   "ages": [
+    "0-2",
+    "3-7",
+    "8-12"
+   ],
+   "source": "Bambinou",
+   "source_url": "https://www.bambinou.com/pret-a-porter-automne-hiver-2026",
+   "published": "unknown",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "low",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "france",
+   "countryName": "France",
+   "category": "streetwear",
+   "status": "observed",
+   "name": "Socks under heels and lace-trim street style",
+   "summary": "Paris SS27 street style showed socks worn with high heels, nodding to indie sleaze, and lace-edged camisoles over tailored trousers.",
+   "season": "SS27 fashion week (Sept-Oct 2026)",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "Who What Wear",
+   "source_url": "https://www.whowhatwear.com/fashion/street-style/paris-fashion-week-street-style-trends-september-2026",
+   "published": "2026-10-06",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "france",
+   "countryName": "France",
+   "category": "prints",
+   "status": "forecast",
+   "name": "Graphics and slogans",
+   "summary": "Dries Van Noten printed vintage-style movie posters, while Celine, Sacai, Marine Serre and Stella McCartney showed slogan or graphic T-shirts. Acne Studios showed graphic denim.",
+   "season": "SS27",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "The Zoe Report",
+   "source_url": "https://www.thezoereport.com/fashion/paris-fashion-weeks-spring-summer-2027-trends",
+   "published": "2026-10-07",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "france",
+   "countryName": "France",
+   "category": "colors",
+   "status": "forecast",
+   "name": "Citrus orange and bruised purples",
+   "summary": "Hermès, Chanel, Loewe and Mugler showed orange, while lilac and royal purple appeared at Chanel, Longchamp and Miu Miu. All-gold looks at Saint Laurent and head-to-toe single colours were also key.",
+   "season": "SS27",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "The Zoe Report; Hello! Fashion",
+   "source_url": "https://www.hellomagazine.com/hfm/fashion-trends/927679/paris-fashion-week-ss27-trend-report/",
+   "published": "2026-10-07",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "high",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "france",
+   "countryName": "France",
+   "category": "dress_styles",
+   "status": "forecast",
+   "name": "Rococo revival",
+   "summary": "Acne Studios, Schiaparelli, Valentino and Vivienne Westwood revisited the 18th century with nipped waists, ruffles, lace, brocade, velvet and watercolour florals, styled with modern pieces.",
+   "season": "SS27",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "Who What Wear",
+   "source_url": "https://www.whowhatwear.com/fashion/runway/paris-fashion-week-spring-summer-2027-trends",
+   "published": "2026-10-07",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "france",
+   "countryName": "France",
+   "category": "silhouettes",
+   "status": "forecast",
+   "name": "Edwardian drop waist and corsetry at Chanel",
+   "summary": "Matthieu Blazy's second Chanel ready-to-wear show drew on Coco Chanel's Edwardian childhood. Soft 1920s low-waisted shapes appeared alongside structured, corseted bodices.",
+   "season": "SS27",
+   "gender": "female",
+   "ages": [
+    "26-40",
+    "41-60"
+   ],
+   "source": "Dazed",
+   "source_url": "https://www.dazeddigital.com/fashion/article/71125/1/chanel-ss27-gimme-gimme-more-of-matthieu-blazy-s-magic",
+   "published": "2026-10-06",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "france",
+   "countryName": "France",
+   "category": "fabrics",
+   "status": "forecast",
+   "name": "Weightless layers and trailing skirts",
+   "summary": "Dior, Chanel and Aje used airy, delicate layers and long trailing skirts. L'Agence showed a featherweight trench.",
+   "season": "SS27",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "Hello! Fashion",
+   "source_url": "https://www.hellomagazine.com/hfm/fashion-trends/927679/paris-fashion-week-ss27-trend-report/",
+   "published": "2026-10-07",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "france",
+   "countryName": "France",
+   "category": "casual",
+   "status": "forecast",
+   "name": "Reworked denim",
+   "summary": "Ujoh deconstructed and layered denim, Zimmermann styled a denim dress formally, and Miu Miu's Wrangler collaboration added hand-customised crisscross lacing.",
+   "season": "SS27",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "Hello! Fashion",
+   "source_url": "https://www.hellomagazine.com/hfm/fashion-trends/927679/paris-fashion-week-ss27-trend-report/",
+   "published": "2026-10-07",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "france",
+   "countryName": "France",
+   "category": "formal",
+   "status": "forecast",
+   "name": "Pinstripe shirt as a staple",
+   "summary": "Dior paired asymmetric-collar pinstripe shirts with tiered floral skirts, and Tom Ford, Givenchy, Carven and Acne also used the pinstripe shirt. Pink or brown stripes keep it from looking nautical.",
+   "season": "SS27",
+   "gender": "female",
+   "ages": [
+    "26-40",
+    "41-60"
+   ],
+   "source": "Who What Wear",
+   "source_url": "https://www.whowhatwear.com/fashion/runway/paris-fashion-week-spring-summer-2027-trends",
+   "published": "2026-10-07",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "france",
+   "countryName": "France",
+   "category": "streetwear",
+   "status": "forecast",
+   "name": "Glamour goth",
+   "summary": "Ann Demeulemeester used black lace, sheer fabrics and leather, Dior and Balmain used shredded hems and ruffles, and Ester Manas showed lingerie-inspired black looks for summer.",
+   "season": "SS27",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "Who What Wear",
+   "source_url": "https://www.whowhatwear.com/fashion/runway/paris-fashion-week-spring-summer-2027-trends",
+   "published": "2026-10-07",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "france",
+   "countryName": "France",
+   "category": "colors",
+   "status": "forecast",
+   "name": "Première Vision SS27 key shades",
+   "summary": "Première Vision's SS27 palette centres on a grounded brown, a lively organic green, a light effervescent yellow that is growing in women's dresses and tops, and a regenerative white.",
+   "season": "SS27",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "Première Vision",
+   "source_url": "https://www.premierevision.com/articles/2a0d1f83-bafa-f011-832e-000d3a43e2d8/key-colors-for-spring-summer-2027-meaningful-shades",
+   "published": "2026-01-27",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "high",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "france",
+   "countryName": "France",
+   "category": "colors",
+   "status": "forecast",
+   "name": "Deep violet, plum and gender-neutral pink",
+   "summary": "At Première Vision Paris in September 2026, deep violet with cool yellow highlights led the colour story. Plum and deep red were offered as alternatives to black, neutrals shifted toward blue-grey and taupe, and pink and mauve moved into menswear.",
+   "season": "AW27/28",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "FashionUnited (Première Vision Paris)",
+   "source_url": "https://fashionunited.uk/news/fairs/premiere-vision-paris-what-fabrics-reveal-about-aw27-28-trends/2026090490139",
+   "published": "2026-09-04",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "high",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "france",
+   "countryName": "France",
+   "category": "printing_techniques",
+   "status": "forecast",
+   "name": "Double-face weaves, jacquards and performance suiting",
+   "summary": "Mills are reviving separable double-cloth wools for reversible, seam-free finishes, alongside tapestry and jacquard heritage. Suiting cloth is adding hidden waterproof membranes and bi-stretch so it keeps its tailored look.",
+   "season": "AW27/28",
+   "gender": "unisex",
+   "ages": [
+    "26-40",
+    "41-60"
+   ],
+   "source": "FashionUnited (Première Vision Paris)",
+   "source_url": "https://fashionunited.fr/actualite/salons/premiere-vision-paris-ce-que-les-matieres-disent-des-tendances-automne-hiver-2027-2028/2026090342874",
+   "published": "2026-09-03",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "france",
+   "countryName": "France",
+   "category": "fabrics",
+   "status": "forecast",
+   "name": "Evening fabrics and ultrafine wool",
+   "summary": "Satins, crushed velvets and wool blends borrowed from eveningwear are prominent. Very fine yarns and tight knits make wool feel as soft as silk or cotton, and mossy or fur-effect surfaces add texture.",
+   "season": "AW27/28",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "FashionUnited (Première Vision Paris)",
+   "source_url": "https://fashionunited.uk/news/fairs/premiere-vision-paris-what-fabrics-reveal-about-aw27-28-trends/2026090490139",
+   "published": "2026-09-04",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "high",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "france",
+   "countryName": "France",
+   "category": "seasonal",
+   "status": "forecast",
+   "name": "Kids SS27: red, navy and nautical stripes",
+   "summary": "Playtime Paris SS27 buyers saw red in bright and deep shades, navy with maritime themes, multidirectional stripes, sailor collars and a stronger, more varied use of denim in kidswear.",
+   "season": "SS27",
+   "gender": "kids",
+   "ages": [
+    "3-7",
+    "8-12",
+    "13-17"
+   ],
+   "source": "Junior Style",
+   "source_url": "https://juniorstyle.net/?p=35519",
+   "published": "2026-06-30",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  }
+ ]
+}

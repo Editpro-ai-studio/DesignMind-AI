@@ -1,0 +1,668 @@
+{
+ "country": "India",
+ "slug": "india",
+ "researched_on": "2026-11-01",
+ "method": "snapshot",
+ "season_context": {
+  "hemisphere": "northern",
+  "current_fashion_season": "Autumn/Winter 2026 (AW26); post-Diwali festive and wedding season",
+  "local_season_notes": "Diwali has just passed and the main wedding season runs about November to February, with cool northern winters and mild southern weather, so velvet, silks and layers dominate wedding buying. Spring/summer 2027 collections follow from March, with LFW typically held in March and October.",
+  "upcoming_season": "Spring/Summer 2027 (SS27) and 2027 wedding season",
+  "sources": [
+   {
+    "title": "Lakmé Fashion Week x FDCI October 2026 line-up",
+    "url": "https://news.webindia123.com/news/articles/Entertainment/20261001/4505988.html",
+    "published": "2026-10-01"
+   },
+   {
+    "title": "Winter Indian wedding guest outfits 2026",
+    "url": "https://www.azafashions.com/blog/winter-indian-wedding-guest-outfits-2026/",
+    "published": "2026-08-16"
+   },
+   {
+    "title": "Stars dazzle at Delhi Lakmé Fashion Week 2026",
+    "url": "https://www.outlookindia.com/art-entertainment/in-photos-stars-dazzle-at-delhi-lakme-fashion-week-2026",
+    "published": "2026-10-19"
+   }
+  ]
+ },
+ "trends": [
+  {
+   "country": "india",
+   "countryName": "India",
+   "category": "colors",
+   "status": "recent",
+   "name": "Saturated jewel tones",
+   "summary": "Fall 2026 wedding wear favours true emerald, sapphire and ruby over the dusty pinks of recent years, with emerald lehengas in gold zardozi a standout.",
+   "season": "Wedding season 2026-27",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "Aza Fashions",
+   "source_url": "https://www.azafashions.com/blog/2026/07/17/jewel-tones-fall-2026-indian-wedding-outfits/",
+   "published": "2026-08-22",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "high",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "india",
+   "countryName": "India",
+   "category": "colors",
+   "status": "recent",
+   "name": "Wine, plum and antique bronze",
+   "summary": "For winter wedding lehengas, deep plum, wine, bottle green and muted antique bronze or warm gold are recommended over bright reflective gold.",
+   "season": "Wedding season 2026-27",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "Aza Fashions",
+   "source_url": "https://www.azafashions.com/blog/lehenga-colour-trends-winter-weddings-2026/?amp=1",
+   "published": "2026-08-16",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "india",
+   "countryName": "India",
+   "category": "fabrics",
+   "status": "recent",
+   "name": "Velvet, Banarasi and brocade for winter",
+   "summary": "Winter guests are steered to velvet, Banarasi and Kanjivaram silk, raw silk, brocade and fully lined embroidered net instead of light georgette or chiffon.",
+   "season": "Wedding season 2026-27",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "Aza Fashions",
+   "source_url": "https://www.azafashions.com/blog/winter-indian-wedding-guest-outfits-2026/",
+   "published": "2026-08-16",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "india",
+   "countryName": "India",
+   "category": "silhouettes",
+   "status": "recent",
+   "name": "Covered-up winter ethnic shapes",
+   "summary": "Lehengas with full or three-quarter sleeve blouses, floor-length silk or velvet anarkalis, and sarees with structured long-sleeve blouses suit cooler November-December weddings.",
+   "season": "Wedding season 2026-27",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "Aza Fashions",
+   "source_url": "https://www.azafashions.com/blog/winter-indian-wedding-guest-outfits-2026/",
+   "published": "2026-08-16",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "india",
+   "countryName": "India",
+   "category": "seasonal",
+   "status": "recent",
+   "name": "Velvet dupattas and indo-western jackets",
+   "summary": "Instead of plain wool shawls, guests layer heavily embroidered or velvet dupattas used as wraps, or tailored velvet and embroidered indo-western jackets.",
+   "season": "Winter 2026",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "Aza Fashions",
+   "source_url": "https://www.azafashions.com/blog/winter-indian-wedding-guest-outfits-2026/",
+   "published": "2026-08-16",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "india",
+   "countryName": "India",
+   "category": "colors",
+   "status": "recent",
+   "name": "Ivory and white bridal looks",
+   "summary": "Ivory lehengas, white sarees and cream sets with gold or silver work are a major 2026 bridal direction, helped by destination weddings and shifting views of white.",
+   "season": "Wedding season 2026-27",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "Aza Fashions",
+   "source_url": "https://www.azafashions.com/blog/ivory-white-indian-wedding-outfits-2026/",
+   "published": "2026-08-22",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "high",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "india",
+   "countryName": "India",
+   "category": "luxury",
+   "status": "recent",
+   "name": "Ivory as understated luxury",
+   "summary": "A September 2026 bridal colour guide names ivory a defining shade of the year because it lets embroidery and textiles lead, alongside enduring reds, pinks and gold.",
+   "season": "Wedding season 2026-27",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "Aashni + Co Journal",
+   "source_url": "https://journal.aashniandco.com/?p=6255",
+   "published": "2026-09-04",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "india",
+   "countryName": "India",
+   "category": "dress_styles",
+   "status": "recent",
+   "name": "Corsets, bandeaus and capes",
+   "summary": "Bridal looks swap traditional cholis for structured corsets and bandeau bustiers, often topped with sheer embroidered capes or overlays alongside the dupatta.",
+   "season": "Wedding season 2026-27",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "WedMeGood",
+   "source_url": "https://www.wedmegood.com/blog/10-big-bridal-trends-india-couture-week-2026-just-predicted-that-every-bride-to-be-needs-to-see/",
+   "published": "2026-08-03",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "india",
+   "countryName": "India",
+   "category": "embroidery",
+   "status": "recent",
+   "name": "Texture over sparkle",
+   "summary": "Lace, tone-on-tone embroidery and appliqué are replacing heavy sequins, often in monochrome looks like ivory on ivory or champagne on champagne.",
+   "season": "Wedding season 2026-27",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "WedMeGood",
+   "source_url": "https://www.wedmegood.com/blog/10-big-bridal-trends-india-couture-week-2026-just-predicted-that-every-bride-to-be-needs-to-see/",
+   "published": "2026-08-03",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "india",
+   "countryName": "India",
+   "category": "formal",
+   "status": "recent",
+   "name": "Modular bridalwear",
+   "summary": "Separates, detachable sleeves and removable layers let one bridal outfit shift from ceremony to reception; fringes and tassels add movement.",
+   "season": "Wedding season 2026-27",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "WedMeGood",
+   "source_url": "https://www.wedmegood.com/blog/10-big-bridal-trends-india-couture-week-2026-just-predicted-that-every-bride-to-be-needs-to-see/",
+   "published": "2026-08-03",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "india",
+   "countryName": "India",
+   "category": "formal",
+   "status": "recent",
+   "name": "Tailoring-led groomswear",
+   "summary": "Grooms favour gold, ivory, cream and beige with cut and fabric doing the work, embroidery confined to a collar, cuff or panel, and personality added via brooches and jewelled buttons.",
+   "season": "Wedding season 2026-27",
+   "gender": "male",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "Rathore (brand journal)",
+   "source_url": "https://www.rathore.com/blogs/news/what-india-is-wearing-to-the-mandap-wedding-season-2026",
+   "published": "2026-08-17",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "low",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "india",
+   "countryName": "India",
+   "category": "luxury",
+   "status": "observed",
+   "name": "Festive luxury pret at LFW October",
+   "summary": "Lakmé Fashion Week x FDCI ran 13-18 October 2026 in Delhi; Manish Malhotra returned after three years with festive luxury pret, and Amit Aggarwal closed the season.",
+   "season": "Festive 2026",
+   "gender": "female",
+   "ages": [
+    "26-40",
+    "41-60"
+   ],
+   "source": "WebIndia123 / news wire",
+   "source_url": "https://news.webindia123.com/news/articles/Entertainment/20261001/4505988.html",
+   "published": "2026-10-01",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "high",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "india",
+   "countryName": "India",
+   "category": "emerging",
+   "status": "observed",
+   "name": "Regional craft and circular design",
+   "summary": "The October 2026 LFW x FDCI season spotlighted Ladakh artisans in a dedicated presentation and staged a circular-design challenge final with the UN in India.",
+   "season": "Festive 2026",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "Outlook India",
+   "source_url": "https://www.outlookindia.com/art-entertainment/in-photos-stars-dazzle-at-delhi-lakme-fashion-week-2026",
+   "published": "2026-10-19",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "high",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "india",
+   "countryName": "India",
+   "category": "colors",
+   "status": "observed",
+   "name": "Dark base, bright accents",
+   "summary": "The AW26 palette pairs wine, bottle green and ochre foundations with butter yellow, peach and turquoise accents; Indian labels use ochre, rust and indigo as entry points.",
+   "season": "AW26",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "Apparel Resources",
+   "source_url": "https://apparelresources.com/fashion-news/trends/autumn-winter-2026-palette-breaks-rules/",
+   "published": "2026-09-25",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "india",
+   "countryName": "India",
+   "category": "dress_styles",
+   "status": "observed",
+   "name": "Colour-blocked festive kurta sets",
+   "summary": "Colour blocking reaches Indian festive kurta sets, couture and menswear in softer contrasts, often anchored with neutrals or metallic embroidery for sangeets and cocktails.",
+   "season": "AW26",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "Apparel Resources",
+   "source_url": "https://apparelresources.com/fashion-news/trends/contrast-takes-centre-stage-colour-blocking-enters-w-2026-wardrobe/",
+   "published": "2026-09-19",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "india",
+   "countryName": "India",
+   "category": "silhouettes",
+   "status": "observed",
+   "name": "Balloon and puff sleeves",
+   "summary": "Sculptural balloon and gathered sleeves lead AW26 silhouettes globally; in India, puff and balloon sleeves are a common blouse detail on bridal and saree looks.",
+   "season": "AW26",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "Apparel Resources",
+   "source_url": "https://apparelresources.com/fashion-news/trends/fall-winter-2026s-biggest-silhouette-story-happening-sleeve/",
+   "published": "2026-09-11",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "india",
+   "countryName": "India",
+   "category": "emerging",
+   "status": "recent",
+   "name": "Tangerine at weddings",
+   "summary": "Tangerine is emerging as a fresh alternative to wedding reds and magentas for guests and some brides, paired with Banarasi weaves, zardozi and contrast dupattas.",
+   "season": "Wedding season 2026-27",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "Aza Fashions",
+   "source_url": "https://www.azafashions.com/blog/tangerine-is-taking-over/",
+   "published": "2026-08-20",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "india",
+   "countryName": "India",
+   "category": "luxury",
+   "status": "recent",
+   "name": "Kamarbandh waist jewellery",
+   "summary": "The kamarbandh waist belt is back on celebrity and bridal sarees and lehengas in 2026, used to structure heavy silk drapes.",
+   "season": "Wedding season 2026-27",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "Aza Fashions",
+   "source_url": "https://www.azafashions.com/blog/kamarbandh-is-back/",
+   "published": "2026-08-27",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "india",
+   "countryName": "India",
+   "category": "casual",
+   "status": "observed",
+   "name": "Craft-led knitwear",
+   "summary": "Evening knitwear is a fall theme, and Indian craft-led labels such as Nicobar and Khajoor Studio use hand-knitting, organic yarns and artisan partnerships.",
+   "season": "AW26",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "Apparel Resources",
+   "source_url": "https://apparelresources.com/fashion-news/trends/knits-evening-sweater-gets-dressed/",
+   "published": "2026-10-21",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "india",
+   "countryName": "India",
+   "category": "casual",
+   "status": "observed",
+   "name": "Tartan outerwear",
+   "summary": "Tartan is moving from shirting into Indian autumn-winter outerwear such as shackets, blazers and swing jackets.",
+   "season": "AW26",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "Apparel Resources",
+   "source_url": "https://apparelresources.com/fashion-news/trends/tartan-jackets-find-place-indias-autumn-winter-wardrobe/",
+   "published": "2026-10-15",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "low",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "india",
+   "countryName": "India",
+   "category": "silhouettes",
+   "status": "observed",
+   "name": "Narrow trousers return",
+   "summary": "Slimmer trousers are back for AW26, with Indian formal and smart-casual labels already offering narrower fits.",
+   "season": "AW26",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "Apparel Resources",
+   "source_url": "https://apparelresources.com/fashion-news/trends/narrow-trouser-returning-w-season/",
+   "published": "2026-10-16",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "low",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "india",
+   "countryName": "India",
+   "category": "colors",
+   "status": "observed",
+   "name": "Slate grey for menswear",
+   "summary": "Slate grey is positioned as a softer winter neutral than black, used by Indian labels for tailoring, kurta sets and menswear.",
+   "season": "AW26",
+   "gender": "male",
+   "ages": [
+    "26-40",
+    "41-60"
+   ],
+   "source": "Apparel Resources",
+   "source_url": "https://apparelresources.com/fashion-news/trends/slate-grey-neutral-softens-winter-dressing/",
+   "published": "2026-10-19",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "low",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "india",
+   "countryName": "India",
+   "category": "formal",
+   "status": "observed",
+   "name": "Opera dressing",
+   "summary": "Trade coverage argues quiet luxury is giving way to theatrical coats and shawls, a mood tied to India's velvet, brocade and embroidered festive wear.",
+   "season": "AW26",
+   "gender": "female",
+   "ages": [
+    "26-40",
+    "41-60"
+   ],
+   "source": "Apparel Resources",
+   "source_url": "https://apparelresources.com/fashion-news/trends/quiet-luxury-opera-dressing-new-fashion-mood/",
+   "published": "2026-10-22",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "low",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "india",
+   "countryName": "India",
+   "category": "embroidery",
+   "status": "observed",
+   "name": "Art Deco beads and fringe",
+   "summary": "Fall maximalism brings beading, fringe and feathers, which trade press links to Mumbai's Indo-Deco heritage for Indian labels.",
+   "season": "AW26",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "Apparel Resources",
+   "source_url": "https://apparelresources.com/fashion-news/trends/art-deco-dressing-back-beads-fringe-feathers-define-falls-maximalist-mood/",
+   "published": "2026-10-22",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "low",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "india",
+   "countryName": "India",
+   "category": "printing_techniques",
+   "status": "historical",
+   "name": "Block print and handweaving on the runway",
+   "summary": "At LFW in March 2026, designers built craft into collections through hand embroidery, handweaving, block printing, patchwork and natural fibres.",
+   "season": "SS26",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "Harper's Bazaar India",
+   "source_url": "https://www.harpersbazaar.in/fashion/story/lakme-fashion-week-2026-proved-runway-fashion-can-be-wearable-too-1364488-2026-03-24",
+   "published": "2026-03-24",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "india",
+   "countryName": "India",
+   "category": "streetwear",
+   "status": "historical",
+   "name": "Khadi denim and utility menswear",
+   "summary": "LFW March 2026 opened with a menswear showcase and featured khadi denim, utility pieces and gender-blurring tailoring, with fringe and tassels across several labels.",
+   "season": "SS26",
+   "gender": "male",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "The Nod Mag",
+   "source_url": "https://thenodmag.com/content/lakme-fashion-week-fdci-2026-trends-recap",
+   "published": "2026-03-23",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "india",
+   "countryName": "India",
+   "category": "formal",
+   "status": "forecast",
+   "name": "Cummerbunds and waist definition",
+   "summary": "SS27 shows revived the cummerbund; Indian menswear is adopting it in tuxedo styling, while womenswear uses kamarbandhs and structured skirt-corset sets.",
+   "season": "SS27",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "Apparel Resources",
+   "source_url": "https://apparelresources.com/fashion-news/trends/scarf-belts-cummerbunds-waistlines-next-chapter/",
+   "published": "2026-10-21",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "india",
+   "countryName": "India",
+   "category": "dress_styles",
+   "status": "forecast",
+   "name": "Corset bodices and short capes for 2027 brides",
+   "summary": "For 2027 weddings, corset bodices over sarees or anarkalis, short embellished capes with mirror or Parsi gara work, and jewelled blouses are tipped to lead.",
+   "season": "Wedding season 2027",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "Aza Fashions",
+   "source_url": "https://www.azafashions.com/blog/biggest-bridal-trends-2027/",
+   "published": "2026-08-16",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "india",
+   "countryName": "India",
+   "category": "embroidery",
+   "status": "forecast",
+   "name": "Architectural cutwork",
+   "summary": "2027 bridal forecasts highlight cutwork that removes fabric to make latticed negative-space designs, often finished with cutdana.",
+   "season": "Wedding season 2027",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "Aza Fashions",
+   "source_url": "https://www.azafashions.com/blog/biggest-bridal-trends-2027/",
+   "published": "2026-08-16",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "india",
+   "countryName": "India",
+   "category": "prints",
+   "status": "forecast",
+   "name": "Oversized placed florals",
+   "summary": "Bridal prints for 2027 are expected to scale botanicals up and place them deliberately rather than repeating small motifs.",
+   "season": "Wedding season 2027",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "Aza Fashions",
+   "source_url": "https://www.azafashions.com/blog/biggest-bridal-trends-2027/",
+   "published": "2026-08-16",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  }
+ ]
+}

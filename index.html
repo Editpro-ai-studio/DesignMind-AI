@@ -1,0 +1,851 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="description" content="Personal studio for fashion trend research, fabric intelligence and textile design.">
+<link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#2C3C93">
+<link rel="apple-touch-icon" href="assets/icon-180.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="DesignMind">
+<title>DesignMind AI</title>
+<style>:root{color-scheme:light;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0;font:14px system-ui,sans-serif}img{max-width:100%}[hidden]{display:none!important}</style>
+<script src="assets/static.js"></script>
+</head>
+<body>
+<title>DesignMind AI</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Young+Serif&family=Figtree:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a dyer's swatch book. Sticky header with a selvedge stripe, section tabs, then a filter rail + record grid. */
+:root{
+  --bg:#F4F5F8; --panel:#FFFFFF; --sunk:#ECEEF3; --line:#D9DCE6; --fg:#161A2B; --muted:#5B6177;
+  --indigo:#2C3C93; --indigo-soft:#E3E7F8; --saffron:#B67A0E; --saffron-soft:#FBEFD6;
+  --ok:#1F7A4D; --ok-soft:#DDF2E6; --warn:#9A5B00; --warn-soft:#FCEBCB; --bad:#A23232; --bad-soft:#F8E0E0;
+  --fc:#6A3FA0; --fc-soft:#EEE5F8;
+  --display:"Young Serif",Georgia,"Times New Roman",serif;
+  --body:"Figtree",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --mono:"JetBrains Mono",ui-monospace,Menlo,Consolas,monospace;
+  --r:10px;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0F121B; --panel:#171B28; --sunk:#1D2232; --line:#2B3146; --fg:#E8EAF3; --muted:#9AA1BA;
+  --indigo:#93A3FF; --indigo-soft:#232B52; --saffron:#E8B652; --saffron-soft:#3A2D12;
+  --ok:#6FD3A0; --ok-soft:#173528; --warn:#F0B95A; --warn-soft:#3B2C10; --bad:#F09090; --bad-soft:#3E1C1C;
+  --fc:#C6A6F2; --fc-soft:#2D2244; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0F121B; --panel:#171B28; --sunk:#1D2232; --line:#2B3146; --fg:#E8EAF3; --muted:#9AA1BA;
+  --indigo:#93A3FF; --indigo-soft:#232B52; --saffron:#E8B652; --saffron-soft:#3A2D12;
+  --ok:#6FD3A0; --ok-soft:#173528; --warn:#F0B95A; --warn-soft:#3B2C10; --bad:#F09090; --bad-soft:#3E1C1C;
+  --fc:#C6A6F2; --fc-soft:#2D2244; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:15px;line-height:1.5}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--panel)}
+a{color:var(--indigo)}
+button,input,select,textarea{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--indigo);outline-offset:2px}
+.wrap{max-width:1240px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+header.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--panel);border-bottom:1px solid var(--line)}
+.selvedge{height:6px;background:repeating-linear-gradient(90deg,var(--indigo) 0 18px,var(--saffron) 18px 24px,var(--indigo) 24px 30px,transparent 30px 34px)}
+.bar{display:flex;align-items:center;gap:16px;flex-wrap:wrap;padding-block:10px}
+.brand{font-family:var(--display);font-size:22px;letter-spacing:.2px;white-space:nowrap}
+.brand b{color:var(--indigo);font-weight:400}
+.today{font-family:var(--mono);font-size:12px;color:var(--muted)}
+nav.tabs{display:flex;gap:4px;flex-wrap:wrap;margin-left:auto}
+nav.tabs a{padding:7px 12px;border-radius:8px;text-decoration:none;color:var(--muted);font-weight:600;font-size:14px}
+nav.tabs a[aria-current="page"]{background:var(--indigo-soft);color:var(--indigo)}
+.iconbtn{border:1px solid var(--line);background:var(--panel);border-radius:8px;padding:6px 10px;cursor:pointer;font-size:13px}
+main{padding-block:20px 60px}
+h1,h2,h3{font-family:var(--display);font-weight:400;text-wrap:balance;margin:0}
+h1{font-size:28px} h2{font-size:21px} h3{font-size:17px}
+.eyebrow{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);font-weight:700}
+.muted{color:var(--muted)}
+.mono{font-family:var(--mono);font-variant-numeric:tabular-nums}
+.season{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1px;background:var(--line);border:1px solid var(--line);border-radius:var(--r);overflow:hidden;margin-block:14px 18px}
+.season>div{background:var(--panel);padding:12px 14px;min-width:0}
+.season .v{font-family:var(--display);font-size:18px}
+.layout{display:grid;grid-template-columns:250px minmax(0,1fr);gap:22px;align-items:start}
+@media (max-width:860px){.layout{grid-template-columns:minmax(0,1fr)}}
+.rail{display:flex;flex-direction:column;gap:14px;background:var(--panel);border:1px solid var(--line);border-radius:var(--r);padding:14px}
+@media (min-width:861px){.rail{position:sticky;top:calc(env(safe-area-inset-top,0px) + 110px)}}
+label.f{display:flex;flex-direction:column;gap:4px;font-size:12px;font-weight:600;color:var(--muted)}
+select,input[type=text],input[type=search],textarea,input[type=number]{background:var(--sunk);border:1px solid var(--line);border-radius:8px;padding:8px 10px;width:100%;min-width:0}
+textarea{resize:vertical;min-height:70px}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{border:1px solid var(--line);background:var(--panel);border-radius:999px;padding:4px 11px;font-size:13px;cursor:pointer;color:var(--fg)}
+.chip[aria-pressed="true"]{background:var(--indigo);border-color:var(--indigo);color:var(--panel)}
+.chip .n{font-family:var(--mono);font-size:11px;opacity:.75;margin-left:4px}
+.btn{border:1px solid var(--indigo);background:var(--indigo);color:var(--panel);border-radius:8px;padding:8px 14px;font-weight:600;cursor:pointer}
+.btn.ghost{background:transparent;color:var(--indigo)}
+.btn.small{padding:5px 10px;font-size:13px}
+.btn:disabled{opacity:.5;cursor:not-allowed}
+.row{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:14px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:var(--r);padding:14px;display:flex;flex-direction:column;gap:8px;min-width:0}
+.card h3{font-size:16.5px}
+.card p{margin:0}
+.meta{display:grid;grid-template-columns:auto 1fr;gap:2px 10px;font-size:12px;color:var(--muted);margin-top:auto;padding-top:8px;border-top:1px dashed var(--line)}
+.meta b{font-weight:600;color:var(--muted)}
+.meta span{color:var(--fg);min-width:0;overflow-wrap:anywhere}
+.pill{display:inline-flex;align-items:center;gap:4px;font-size:11px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;padding:2px 8px;border-radius:999px;white-space:nowrap}
+.p-observed{background:var(--ok-soft);color:var(--ok)}
+.p-recent{background:var(--indigo-soft);color:var(--indigo)}
+.p-emerging{background:var(--saffron-soft);color:var(--saffron)}
+.p-forecast{background:var(--fc-soft);color:var(--fc)}
+.p-historical,.p-unknown{background:var(--sunk);color:var(--muted)}
+.p-warn{background:var(--warn-soft);color:var(--warn)}
+.p-high{background:var(--ok-soft);color:var(--ok)} .p-medium{background:var(--saffron-soft);color:var(--saffron)} .p-low{background:var(--bad-soft);color:var(--bad)}
+.p-sourced{background:var(--ok-soft);color:var(--ok)} .p-estimate{background:var(--warn-soft);color:var(--warn)}
+.cardtop{display:flex;gap:6px;flex-wrap:wrap;align-items:center}
+.star{margin-left:auto;background:none;border:none;cursor:pointer;font-size:18px;line-height:1;color:var(--muted);padding:2px 4px}
+.star[aria-pressed="true"]{color:var(--saffron)}
+.sec-h{display:flex;align-items:baseline;gap:10px;margin:22px 0 10px}
+.sec-h .n{font-family:var(--mono);font-size:12px;color:var(--muted)}
+.notice{border:1px solid var(--line);background:var(--sunk);border-radius:var(--r);padding:12px 14px;font-size:14px}
+.notice.warn{background:var(--warn-soft);border-color:transparent;color:var(--fg)}
+.empty{padding:28px;text-align:center;color:var(--muted);border:1px dashed var(--line);border-radius:var(--r)}
+.brief{background:var(--panel);border:1px solid var(--line);border-left:4px solid var(--saffron);border-radius:var(--r);padding:16px;white-space:pre-wrap;margin-bottom:14px}
+.tablewrap{overflow-x:auto;border:1px solid var(--line);border-radius:var(--r);background:var(--panel)}
+table{border-collapse:collapse;width:100%;font-size:14px}
+th,td{text-align:left;vertical-align:top;padding:9px 12px;border-bottom:1px solid var(--line)}
+th{font-size:12px;color:var(--muted);font-weight:700;white-space:nowrap}
+tr:last-child td{border-bottom:none}
+.fablist{display:flex;flex-direction:column;gap:2px;max-height:60vh;overflow:auto}
+.fablist button{display:flex;justify-content:space-between;gap:8px;text-align:left;background:none;border:none;border-radius:6px;padding:7px 8px;cursor:pointer}
+.fablist button[aria-current="true"]{background:var(--indigo-soft);color:var(--indigo);font-weight:600}
+.fablist .g{font-family:var(--mono);font-size:11px;color:var(--muted)}
+.swatches{display:flex;flex-wrap:wrap;gap:6px}
+.sw{display:flex;flex-direction:column;gap:3px;width:78px}
+.sw i{display:block;height:44px;border-radius:6px;border:1px solid var(--line)}
+.sw small{font-family:var(--mono);font-size:10.5px;line-height:1.25;color:var(--muted);overflow-wrap:anywhere}
+.sw input[type=color]{width:100%;height:44px;border:1px solid var(--line);border-radius:6px;padding:0;background:none;cursor:pointer}
+.subtabs{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:14px}
+.two{display:grid;grid-template-columns:minmax(0,340px) minmax(0,1fr);gap:20px;align-items:start}
+@media (max-width:860px){.two{grid-template-columns:minmax(0,1fr)}}
+.form{display:flex;flex-direction:column;gap:10px;background:var(--panel);border:1px solid var(--line);border-radius:var(--r);padding:14px}
+.form .g2{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.drop{border:1.5px dashed var(--line);border-radius:var(--r);padding:14px;text-align:center;color:var(--muted);cursor:pointer;background:var(--sunk);font-size:13px}
+.drop img{max-height:160px;margin:0 auto 6px;display:block;border-radius:6px}
+input[type=range]{width:100%;accent-color:var(--indigo)}
+.rng{display:grid;grid-template-columns:1fr auto;gap:2px 8px;font-size:12px;color:var(--muted);align-items:center}
+.rng input{grid-column:1/-1}
+.concept{gap:10px}
+.concept .num{font-family:var(--mono);font-size:12px;color:var(--saffron);font-weight:500}
+.kv{font-size:13px;display:grid;grid-template-columns:96px 1fr;gap:3px 10px}
+.kv b{color:var(--muted);font-weight:600}
+.kv span{min-width:0;overflow-wrap:anywhere}
+canvas{max-width:100%;border-radius:8px;border:1px solid var(--line);display:block;background:var(--sunk)}
+.preview-tag{font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--warn)}
+.status{font-size:13px;color:var(--muted);min-height:20px}
+.status.err{color:var(--bad)}
+.analysis{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px;margin-bottom:14px}
+.analysis div{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:10px 12px;font-size:13.5px;min-width:0}
+.analysis b{display:block;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-bottom:2px}
+.toast{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(20px + env(safe-area-inset-bottom,0px));background:var(--fg);color:var(--bg);padding:9px 16px;border-radius:8px;font-size:14px;z-index:20}
+.confirm{display:inline-flex;gap:6px;align-items:center;font-size:13px}
+details summary{cursor:pointer;font-weight:600;font-size:13px}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+</style>
+
+<header class="top">
+  <div class="selvedge" aria-hidden="true"></div>
+  <div class="wrap bar">
+    <div class="brand">Design<b>Mind</b> AI</div>
+    <span class="today mono" id="today"></span>
+    <nav class="tabs" aria-label="Sections">
+      <a href="#trends" data-v="trends">Trend Research</a>
+      <a href="#fabrics" data-v="fabrics">Fabric Intelligence</a>
+      <a href="#design" data-v="design">Design Generator</a>
+      <a href="#projects" data-v="projects">My Projects</a>
+      <a href="#settings" data-v="settings" id="navSettings" hidden>Settings</a>
+    </nav>
+    <button class="iconbtn" id="installBtn" type="button" hidden>Install app</button>
+    <button class="iconbtn" id="themeBtn" type="button" aria-label="Switch theme">Theme</button>
+  </div>
+</header>
+
+<main class="wrap">
+  <!-- TRENDS -->
+  <section id="v-trends" hidden>
+    <div class="row" style="justify-content:space-between">
+      <div><div class="eyebrow">Global fashion intelligence</div><h1 id="tTitle">Trend Research</h1></div>
+      <div class="row">
+        <button class="btn ghost small" id="liveBtn" type="button" hidden>Run live research</button>
+        <a class="btn ghost small" id="liveLink" href="#settings" hidden style="text-decoration:none">Update research</a>
+        <button class="btn ghost small" id="briefBtn" type="button">Write a design brief from these</button>
+        <button class="btn ghost small" id="reportBtn" type="button">Download report</button>
+      </div>
+    </div>
+    <div class="season" id="seasonBox"></div>
+    <div id="staleBox"></div>
+    <div class="layout">
+      <aside class="rail" aria-label="Filters">
+        <label class="f">Country<select id="fCountry"></select></label>
+        <label class="f">Search<input type="search" id="fQ" placeholder="e.g. velvet, half-drop, olive"></label>
+        <label class="f">Gender<select id="fGender"><option value="all">All</option><option value="female">Female</option><option value="male">Male</option><option value="unisex">Unisex</option><option value="kids">Kids</option></select></label>
+        <label class="f">Age group<select id="fAge"></select></label>
+        <div><div class="f" style="margin-bottom:6px;font-size:12px;font-weight:600;color:var(--muted)">Status</div><div class="chips" id="fStatus"></div></div>
+        <div><div class="f" style="margin-bottom:6px;font-size:12px;font-weight:600;color:var(--muted)">Category</div><div class="chips" id="fCat"></div></div>
+        <label class="row" style="font-size:13px;gap:6px"><input type="checkbox" id="fFav"> Favourites only</label>
+      </aside>
+      <div style="min-width:0">
+        <div id="briefOut"></div>
+        <div id="trendList"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FABRICS -->
+  <section id="v-fabrics" hidden>
+    <div class="eyebrow">Smart fabric database</div><h1>Fabric Intelligence</h1>
+    <p class="muted" style="max-width:68ch">Every specification carries its basis. <span class="pill p-sourced">Sourced</span> means a cited source states it, usually as a typical range. <span class="pill p-estimate">Estimate</span> is general textile knowledge without a cited source. <span class="pill p-unknown">Not verified</span> means no reliable figure was found. Always confirm GSM and composition with your mill's spec sheet.</p>
+    <div class="layout" style="margin-top:14px">
+      <aside class="rail">
+        <label class="f">Search fabrics<input type="search" id="fabQ" placeholder="name, season, use"></label>
+        <div class="fablist" id="fabList"></div>
+        <div class="muted" style="font-size:12px">Tick up to 4 to compare.</div>
+        <button class="btn small" id="cmpBtn" type="button" disabled>Compare selected</button>
+      </aside>
+      <div id="fabDetail" style="min-width:0"></div>
+    </div>
+  </section>
+
+  <!-- DESIGN -->
+  <section id="v-design" hidden>
+    <div class="eyebrow">Textile &amp; graphic studio</div><h1>Design Generator</h1>
+    <div class="subtabs" role="tablist" style="margin-top:12px">
+      <button class="chip" data-st="concepts" aria-pressed="true" type="button">Reference → concepts</button>
+      <button class="chip" data-st="colour" aria-pressed="false" type="button">Colourways</button>
+      <button class="chip" data-st="repeat" aria-pressed="false" type="button">Repeat preview</button>
+      <button class="chip" data-st="critique" aria-pressed="false" type="button">Graphic design critique</button>
+    </div>
+
+    <div id="st-concepts" class="two">
+      <form class="form" id="cForm">
+        <div class="drop" id="cDrop" tabindex="0">Drop or choose a reference image (optional)<input type="file" id="cFile" accept="image/*" hidden></div>
+        <label class="f">Written brief<textarea id="cBrief" placeholder="e.g. Winter khaddar 3-piece for women, Mughal jaali inspiration, muted jewel tones"></textarea></label>
+        <div class="g2">
+          <label class="f">Country<select id="cCountry"></select></label>
+          <label class="f">Market<select id="cMarket"><option>Mid-market</option><option>Premium pret</option><option>Luxury</option><option>Mass / value</option><option>Export</option><option>Home textiles</option></select></label>
+          <label class="f">Age group<select id="cAge"></select></label>
+          <label class="f">Gender<select id="cGender"><option>Female</option><option>Male</option><option>Unisex</option></select></label>
+          <label class="f">Season<select id="cSeason"></select></label>
+          <label class="f">Fabric<select id="cFabric"></select></label>
+          <label class="f">Category<select id="cCat"><option>All-over print</option><option>Placement print</option><option>Border print</option><option>Panel print</option><option>Embroidery layout</option><option>Coordinates set</option><option>Home textile</option></select></label>
+          <label class="f">Direction<select id="cDir"><option>Same style, new motifs</option><option>More modern</option><option>More minimal</option><option>Luxury</option><option>Traditional</option><option>Contemporary</option><option>Abstract</option><option>Artistic</option><option>Geometric</option><option>Floral</option><option>Experimental</option><option>Country-specific interpretation</option><option>Mixed directions</option></select></label>
+        </div>
+        <label class="f">Preferred colours<input type="text" id="cColors" placeholder="e.g. rust, bottle green, ivory"></label>
+        <div class="g2">
+          <label class="f">Concepts<select id="cN"><option>4</option><option>6</option><option selected>10</option></select></label>
+          <label class="f">Complexity<select id="cCx"><option>Simple</option><option selected>Balanced</option><option>Intricate</option></select></label>
+        </div>
+        <details><summary>Similarity &amp; layout controls</summary>
+          <div style="display:flex;flex-direction:column;gap:8px;margin-top:8px">
+            <div class="rng"><span>Motif similarity</span><span class="mono" id="vMot">30%</span><input type="range" id="cMot" min="0" max="80" value="30"></div>
+            <div class="rng"><span>Colour similarity</span><span class="mono" id="vCol">50%</span><input type="range" id="cCol" min="0" max="100" value="50"></div>
+            <div class="rng"><span>Print density</span><span class="mono" id="vDen">Medium</span><input type="range" id="cDen" min="1" max="5" value="3"></div>
+            <div class="rng"><span>Pattern scale</span><span class="mono" id="vSca">Medium</span><input type="range" id="cSca" min="1" max="5" value="3"></div>
+            <label class="f">Background<select id="cBg"><option>Keep similar</option><option>Light ground</option><option>Dark ground</option><option>Textured ground</option><option>Plain solid</option></select></label>
+            <label class="f">Composition / placement<select id="cComp"><option>Keep similar</option><option>Tossed all-over</option><option>Ogee / trellis</option><option>Stripe-led</option><option>Daman border + plain body</option><option>Neckline + sleeve placement</option></select></label>
+          </div>
+        </details>
+        <p class="muted" style="font-size:12px;margin:0">Motif similarity is capped at 80% so results stay original work, not copies.</p>
+        <button class="btn" id="cGo" type="submit">Generate concepts</button>
+        <div class="status" id="cStatus" role="status"></div>
+      </form>
+      <div id="cOut" style="min-width:0"></div>
+    </div>
+
+    <div id="st-colour" class="two" hidden>
+      <div class="form">
+        <div class="drop" id="kDrop" tabindex="0">Drop or choose a textile design<input type="file" id="kFile" accept="image/*" hidden></div>
+        <label class="f">Colours to extract<select id="kN"><option>4</option><option>5</option><option selected>6</option><option>8</option></select></label>
+        <div class="eyebrow" style="margin-top:4px">Instant palettes</div>
+        <div class="chips" id="kFam"></div>
+        <div class="eyebrow" style="margin-top:4px">Research-grounded (Claude)</div>
+        <label class="f">Country<select id="kCountry"></select></label>
+        <button class="btn small ghost" id="kAI" type="button">Generate trend &amp; seasonal colourways</button>
+        <div class="status" id="kStatus" role="status"></div>
+      </div>
+      <div style="min-width:0;display:flex;flex-direction:column;gap:14px">
+        <div class="row" style="justify-content:space-between"><span class="preview-tag">Preview recolour, not separation-ready artwork</span>
+          <div class="row"><button class="btn small ghost" id="kSave" type="button">Save to project</button><button class="btn small ghost" id="kPng" type="button">Download PNG</button><button class="btn small ghost" id="kToRepeat" type="button">Send to repeat preview</button></div></div>
+        <div class="row" style="align-items:flex-start;gap:14px">
+          <div style="flex:1 1 260px;min-width:0"><div class="eyebrow">Original</div><canvas id="kSrc" width="400" height="300"></canvas></div>
+          <div style="flex:1 1 260px;min-width:0"><div class="eyebrow">Colourway</div><canvas id="kDst" width="400" height="300"></canvas></div>
+        </div>
+        <div><div class="eyebrow" style="margin-bottom:6px">Extracted palette</div><div class="swatches" id="kOrig"></div></div>
+        <div><div class="eyebrow" style="margin-bottom:6px">Active colourway (click a swatch to edit)</div><div class="swatches" id="kActive"></div></div>
+        <div id="kList" style="display:flex;flex-direction:column;gap:10px"></div>
+      </div>
+    </div>
+
+    <div id="st-repeat" class="two" hidden>
+      <div class="form">
+        <div class="drop" id="rDrop" tabindex="0">Drop or choose a repeat tile<input type="file" id="rFile" accept="image/*" hidden></div>
+        <label class="f">Repeat<select id="rType"><option value="straight">Straight (block)</option><option value="halfdrop">Half-drop</option><option value="brick">Brick (half-step)</option><option value="mirror">Mirror</option></select></label>
+        <div class="rng"><span>Tile scale</span><span class="mono" id="vRs">50%</span><input type="range" id="rScale" min="10" max="100" value="50"></div>
+        <div class="rng"><span>Spacing (density)</span><span class="mono" id="vRg">0 px</span><input type="range" id="rGap" min="0" max="80" value="0"></div>
+        <label class="f">Ground colour (shows through gaps and transparency)<input type="color" id="rBg" value="#f2efe6" style="width:100%;height:36px;border:1px solid var(--line);border-radius:8px;background:none"></label>
+        <label class="f">Tile size at print (cm, for scale notes)<input type="number" id="rCm" value="64" min="1" max="300"></label>
+        <div class="notice" id="rSeam">Load a tile to check its edges.</div>
+      </div>
+      <div style="min-width:0;display:flex;flex-direction:column;gap:10px">
+        <div class="row" style="justify-content:space-between"><span class="preview-tag">Repeat preview, not production artwork</span>
+          <div class="row"><button class="btn small ghost" id="rPng" type="button">Download PNG (2400 px)</button></div></div>
+        <canvas id="rCan" width="900" height="600"></canvas>
+        <p class="muted" style="font-size:13px;margin:0" id="rNote">The seam check compares opposite edges of your tile, offset for the chosen repeat. A low score means the tile probably joins cleanly; still confirm in your CAD or RIP software before printing.</p>
+      </div>
+    </div>
+
+    <div id="st-critique" class="two" hidden>
+      <form class="form" id="gForm">
+        <div class="drop" id="gDrop" tabindex="0">Drop or choose a design (poster, post, logo, layout)<input type="file" id="gFile" accept="image/*" hidden></div>
+        <label class="f">What is it and who is it for?<textarea id="gCtx" placeholder="e.g. Instagram post for a winter lawn launch, women 25–40, premium"></textarea></label>
+        <label class="f">Ask for<select id="gMode"><option>Full critique</option><option>Typography suggestions</option><option>Colour palette options</option><option>Layout &amp; visual hierarchy</option><option>Campaign &amp; social concepts</option><option>Branding concepts</option><option>Moodboard direction</option></select></label>
+        <button class="btn" type="submit" id="gGo">Review design</button>
+        <div class="status" id="gStatus" role="status"></div>
+      </form>
+      <div id="gOut" style="min-width:0"></div>
+    </div>
+  </section>
+
+  <!-- SETTINGS (GitHub Pages version only) -->
+  <section id="v-settings" hidden>
+    <div class="eyebrow">This browser</div><h1>Settings</h1>
+    <div class="two" style="margin-top:14px">
+      <form class="form" id="setForm">
+        <div class="eyebrow">AI provider</div>
+        <label class="f">Provider<select id="sProv"></select></label>
+        <label class="f" id="sKeyWrap">API key<input type="text" id="sKey" autocomplete="off" spellcheck="false" placeholder="Paste your key"></label>
+        <label class="f">Model<input type="text" id="sModel" spellcheck="false"></label>
+        <label class="f" id="sBaseWrap">Service address<input type="text" id="sBase" spellcheck="false"></label>
+        <label class="row" style="font-size:13px;gap:6px"><input type="checkbox" id="sImg" checked> Allow free AI image previews (Pollinations)</label>
+        <div class="row"><button class="btn" type="submit">Save settings</button><button class="btn ghost" type="button" id="sTest">Test AI</button></div>
+        <div class="status" id="sStatus" role="status"></div>
+        <p class="muted" style="font-size:12.5px;margin:0">Your key is stored only in this browser on this device. It is never written into the website's code or sent anywhere except the AI service you choose.</p>
+      </form>
+      <div style="display:flex;flex-direction:column;gap:14px;min-width:0">
+        <div class="card" id="installCard"><h3>Install on this device</h3>
+          <p style="font-size:14px">Install DesignMind once and open it from its own icon, in its own window. It works offline for trends, fabrics, colourways, repeats and projects.</p>
+          <ul style="margin:0;padding-left:18px;font-size:14px;display:flex;flex-direction:column;gap:4px">
+            <li><b>Windows / Mac (Chrome or Edge):</b> press Install app at the top, or the install icon at the right end of the address bar.</li>
+            <li><b>Android (Chrome):</b> menu ⋮ → Install app (or Add to Home screen).</li>
+            <li><b>iPhone / iPad (Safari):</b> Share button → Add to Home Screen.</li>
+          </ul>
+          <div class="status" id="installState"></div></div>
+        <div class="card"><h3>Get a free Gemini key</h3><p style="font-size:14px">Open <a href="https://aistudio.google.com/apikey" target="_blank" rel="noopener">aistudio.google.com/apikey</a>, sign in with a Google account, choose Create API key, then paste it here. Free-tier limits are set by Google and can change.</p></div>
+        <div class="card"><h3>Update trend research</h3><p style="font-size:14px" id="sResearch">Research is refreshed every week by the GitHub workflow in your repository. To run it now, open your repository, go to Actions, choose <b>Update trend research</b> and press Run workflow.</p></div>
+        <div class="card"><h3>Backup</h3><p style="font-size:14px">Projects and favourites live in this browser. Download a backup now and then, and import it on a new device.</p>
+          <div class="row"><button class="btn small" type="button" id="bExp">Download backup</button><button class="btn small ghost" type="button" id="bImp">Import backup</button><input type="file" id="bFile" accept="application/json,.json" hidden></div><div class="status" id="bStatus"></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="v-projects" hidden>
+    <div class="eyebrow">Saved work</div><h1>My Projects</h1>
+    <p class="muted">Concepts, colourways, briefs and favourite trends you save are kept privately for you.</p>
+    <div id="projList" style="margin-top:14px"></div>
+  </section>
+</main>
+
+<script>
+(function(){
+"use strict";
+const COUNTRIES=[["pakistan","Pakistan"],["turkiye","Türkiye"],["united-kingdom","United Kingdom"],["united-states","United States"],["italy","Italy"],["france","France"],["japan","Japan"],["south-korea","South Korea"],["india","India"],["uae","United Arab Emirates"],["saudi-arabia","Saudi Arabia"],["china","China"],["spain","Spain"],["germany","Germany"],["global","Global"]];
+const SOUTH=new Set([]); // all listed markets are northern hemisphere; add slugs here for southern markets
+const AGES=[["all","All ages"],["0-2","Baby 0–2"],["3-7","Kids 3–7"],["8-12","Junior 8–12"],["13-17","Teen 13–17"],["18-25","Young adult 18–25"],["26-40","Adult 26–40"],["41-60","Mature 41–60"],["60+","Senior 60+"]];
+const STATUSES=["observed","recent","emerging","forecast","historical"];
+const ST_LABEL={observed:"Currently observed",recent:"Recently published",emerging:"Emerging",forecast:"Upcoming forecast",historical:"Historical"};
+const CATS=[["prints","Prints"],["dress_styles","Dress styles"],["fabrics","Fabrics"],["colors","Colours"],["silhouettes","Silhouettes"],["embroidery","Embroidery"],["printing_techniques","Print techniques"],["casual","Casual"],["formal","Formal"],["luxury","Luxury"],["modest","Modest"],["streetwear","Streetwear"],["seasonal","Seasonal"],["emerging","Emerging"]];
+const SPEC_ROWS=[["composition","Composition"],["cotton_percentage","Cotton % / blend"],["gsm","GSM"],["construction","Weave / construction"],["weight_class","Weight"],["texture","Texture"],["surface","Surface"],["breathability","Breathability"],["drape","Drape & fall"],["seasons","Seasons"],["printing","Printing"],["embroidery","Embroidery"],["dyeing","Dyeing"],["garments","Garments"],["care","Care"]];
+
+const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
+const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const safeUrl=u=>/^https?:\/\//i.test(String(u||""))?String(u):"";
+const host=u=>{try{return new URL(u).hostname.replace(/^www\./,"")}catch(e){return ""}};
+const NOW=new Date();
+const DAY=864e5;
+function toast(m){const t=document.createElement("div");t.className="toast";t.textContent=m;document.body.appendChild(t);setTimeout(()=>t.remove(),2600)}
+function parseD(s){if(!s||s==="unknown")return null;const m=String(s).match(/^(\d{4})(?:-(\d{2}))?(?:-(\d{2}))?/);if(!m)return null;return new Date(+m[1],(+m[2]||1)-1,+m[3]||1)}
+function fmtD(s){const d=parseD(s);if(!d)return "Unknown";const hasDay=/^\d{4}-\d{2}-\d{2}/.test(s),hasMon=/^\d{4}-\d{2}/.test(s);return d.toLocaleDateString("en-GB",hasDay?{day:"numeric",month:"short",year:"numeric"}:hasMon?{month:"short",year:"numeric"}:{year:"numeric"})}
+function monthsAgo(s){const d=parseD(s);if(!d)return null;return (NOW-d)/(DAY*30.44)}
+function json(text){const a=text.indexOf("{"),b=text.lastIndexOf("}");if(a<0||b<a)throw new Error("The reply was not in the expected format. Try again.");return JSON.parse(text.slice(a,b+1))}
+const hex2rgb=h=>{h=h.replace("#","");if(h.length===3)h=h.split("").map(c=>c+c).join("");const n=parseInt(h,16);return [n>>16&255,n>>8&255,n&255]};
+const rgb2hex=(r,g,b)=>"#"+[r,g,b].map(v=>Math.max(0,Math.min(255,Math.round(v))).toString(16).padStart(2,"0")).join("");
+const validHex=h=>/^#?[0-9a-f]{6}$/i.test(String(h||"").trim());
+const normHex=h=>("#"+String(h).trim().replace("#","")).toLowerCase();
+function store(k,v){try{if(v===undefined)return JSON.parse(localStorage.getItem(k));localStorage.setItem(k,JSON.stringify(v))}catch(e){return null}}
+
+/* ---------- Season system (always from the live clock) ---------- */
+function seasonInfo(date,south){
+  const m=date.getMonth(), y=date.getFullYear();
+  const climN=["Winter","Winter","Spring","Spring","Spring","Summer","Summer","Summer","Autumn","Autumn","Autumn","Winter"];
+  const flip={Winter:"Summer",Summer:"Winter",Spring:"Autumn",Autumn:"Spring"};
+  const climate=south?flip[climN[m]]:climN[m];
+  // Northern retail calendar: Spring/Summer runs Feb–Jul, Autumn/Winter Aug–Jan (January belongs to the previous AW).
+  let cur,next,curY,nextY;
+  if(!south){
+    if(m>=1&&m<=6){cur="SS";curY=y;next="AW";nextY=y}
+    else{cur="AW";curY=m===0?y-1:y;next="SS";nextY=curY+1}
+  }else{
+    if(m>=7||m===0){cur="SS";curY=m===0?y-1:y;next="AW";nextY=curY+1}
+    else{cur="AW";curY=y;next="SS";nextY=y}
+  }
+  const yy=n=>String(n).slice(-2);
+  const end=new Date(y,m+6,1);
+  return {climate,current:`${cur}${yy(curY)}`,currentLong:`${cur==="SS"?"Spring/Summer":"Autumn/Winter"} ${curY}`,next:`${next}${yy(nextY)}`,nextLong:`${next==="SS"?"Spring/Summer":"Autumn/Winter"} ${nextY}`,window:`${date.toLocaleDateString("en-GB",{month:"short",year:"numeric"})} – ${end.toLocaleDateString("en-GB",{month:"short",year:"numeric"})}`};
+}
+
+/* ---------- State ---------- */
+const S={view:"trends",country:store("dm.country")||"pakistan",trends:{},countryDocs:{},fabrics:[],favs:new Map(),uid:null,
+  f:{status:"all",cat:new Set(),gender:"all",age:"all",q:"",fav:false},fab:{sel:null,cmp:new Set(),q:""},projects:[],dbState:"loading"};
+let db=null,user=null,sample=null,downloads=null;
+
+$("#today").textContent=NOW.toLocaleDateString("en-GB",{weekday:"short",day:"numeric",month:"short",year:"numeric"});
+
+/* ---------- Theme ---------- */
+(function(){const t=store("dm.theme");if(t)document.documentElement.setAttribute("data-theme",t);
+  $("#themeBtn").addEventListener("click",()=>{const cur=document.documentElement.getAttribute("data-theme")||(matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");const n=cur==="dark"?"light":"dark";document.documentElement.setAttribute("data-theme",n);store("dm.theme",n)})})();
+
+/* ---------- Routing ---------- */
+const VIEWS=window.DM_STATIC?["trends","fabrics","design","projects","settings"]:["trends","fabrics","design","projects"];
+function route(){const h=location.hash.replace("#","");S.view=VIEWS.includes(h)?h:"trends";VIEWS.forEach(v=>{$("#v-"+v).hidden=v!==S.view});if(!VIEWS.includes("settings"))$("#v-settings").hidden=true;$$("nav.tabs a").forEach(a=>a.setAttribute("aria-current",a.dataset.v===S.view?"page":"false"));
+  if(S.view==="projects")renderProjects();if(S.view==="fabrics")renderFabrics()}
+addEventListener("hashchange",route);
+
+/* ---------- Selects ---------- */
+function fillSel(el,opts,val){el.innerHTML=opts.map(([v,l])=>`<option value="${esc(v)}">${esc(l)}</option>`).join("");if(val!=null)el.value=val}
+fillSel($("#fCountry"),COUNTRIES,S.country);fillSel($("#cCountry"),COUNTRIES,S.country);fillSel($("#kCountry"),COUNTRIES,S.country);
+fillSel($("#fAge"),AGES,"all");fillSel($("#cAge"),AGES.slice(1),"26-40");
+(function(){const s=seasonInfo(NOW,false);fillSel($("#cSeason"),[[s.currentLong,s.currentLong+" (now)"],[s.nextLong,s.nextLong+" (next)"],["Festive / wedding","Festive / wedding"],["Ramadan / Eid","Ramadan / Eid"],["Trans-seasonal","Trans-seasonal"]])})();
+
+/* ---------- Trends ---------- */
+function statusOf(t){
+  // Never let old information present as current: anything over 12 months old shows as historical.
+  const age=monthsAgo(t.published);
+  if(t.status!=="forecast"&&age!=null&&age>12)return "historical";
+  return STATUSES.includes(t.status)?t.status:"historical";
+}
+function trendMatches(t){
+  const f=S.f;const st=statusOf(t);
+  if(f.status!=="all"&&st!==f.status)return false;
+  if(f.cat.size&&!f.cat.has(t.category))return false;
+  if(f.gender!=="all"){const g=(t.gender||"").toLowerCase();if(!(g===f.gender||(g==="unisex"&&(f.gender==="female"||f.gender==="male"))))return false}
+  if(f.age!=="all"){const a=t.ages||[];if(a.length&&!a.includes(f.age))return false}
+  if(f.fav&&!S.favs.has(t._id))return false;
+  if(f.q){const q=f.q.toLowerCase();if(!(`${t.name} ${t.summary} ${t.category} ${t.source} ${t.season}`.toLowerCase().includes(q)))return false}
+  return true;
+}
+function renderSeason(){
+  const s=seasonInfo(NOW,SOUTH.has(S.country));const cd=S.countryDocs[S.country];const sc=cd&&cd.season_context;
+  const name=COUNTRIES.find(c=>c[0]===S.country)[1];
+  $("#tTitle").textContent=name==="Global"?"Global trends":`${name} trends`;
+  $("#seasonBox").innerHTML=`
+    <div><div class="eyebrow">In stores now</div><div class="v">${esc(s.currentLong)}</div><div class="muted mono" style="font-size:12px">${esc(s.current)} · ${esc(s.climate.toLowerCase())} (${SOUTH.has(S.country)?"southern":"northern"} hemisphere)</div></div>
+    <div><div class="eyebrow">Next season (forecasts only)</div><div class="v">${esc(s.nextLong)}</div><div class="muted mono" style="font-size:12px">${esc(s.next)} · planning window ${esc(s.window)}</div></div>
+    <div style="grid-column:span 2;min-width:0" class="sc"><div class="eyebrow">Local calendar${sc&&sc.current_fashion_season?" · "+esc(sc.current_fashion_season):""}</div>
+      <div style="font-size:13.5px">${sc?esc(sc.local_season_notes||""):'<span class="muted">Loading the researched season notes…</span>'}</div>
+      ${sc&&sc.sources&&sc.sources.length?`<div class="muted" style="font-size:12px;margin-top:4px">Sources: ${sc.sources.filter(x=>safeUrl(x.url)).slice(0,3).map(x=>`<a href="${esc(safeUrl(x.url))}" target="_blank" rel="noopener">${esc(x.title||host(x.url))}</a>`).join(" · ")}</div>`:""}</div>`;
+  if(matchMedia("(max-width:640px)").matches)$$(".sc").forEach(e=>e.style.gridColumn="auto");
+  const stale=$("#staleBox");stale.innerHTML="";
+  if(cd&&cd.researched_on){const days=Math.floor((NOW-parseD(cd.researched_on))/DAY);
+    if(days>45)stale.innerHTML=`<div class="notice warn" style="margin-bottom:14px">This country's research snapshot was last verified ${days} days ago (${esc(fmtD(cd.researched_on))}). Treat "observed" items with care. ${window.DM_STATIC?"Run the Update trend research workflow on GitHub to refresh it.":window.DM_SERVER?"Use Run live research to refresh it.":"Ask Claude to refresh this market."}</div>`;}
+}
+function renderStatusChips(){
+  const list=S.trends[S.country]||[];const counts={all:list.length};STATUSES.forEach(s=>counts[s]=0);list.forEach(t=>counts[statusOf(t)]++);
+  $("#fStatus").innerHTML=[["all","All"],...STATUSES.map(s=>[s,ST_LABEL[s].replace("Currently ","").replace("Recently published","Recent").replace("Upcoming forecast","Forecast")])].map(([v,l])=>`<button type="button" class="chip" data-v="${v}" aria-pressed="${S.f.status===v}">${esc(l)}<span class="n">${counts[v]||0}</span></button>`).join("");
+  const cc={};list.forEach(t=>cc[t.category]=(cc[t.category]||0)+1);
+  $("#fCat").innerHTML=CATS.filter(([v])=>cc[v]).map(([v,l])=>`<button type="button" class="chip" data-v="${v}" aria-pressed="${S.f.cat.has(v)}">${esc(l)}<span class="n">${cc[v]}</span></button>`).join("")||'<span class="muted" style="font-size:12px">No categories yet</span>';
+}
+function trendCard(t){
+  const st=statusOf(t);const age=monthsAgo(t.published);const url=safeUrl(t.source_url);
+  const aging=st!=="historical"&&st!=="forecast"&&age!=null&&age>8;
+  return `<article class="card">
+    <div class="cardtop"><span class="pill p-${st}">${esc(ST_LABEL[st])}</span>${t.status!==st?'<span class="pill p-warn">Reclassified: over 12 months old</span>':""}${aging?'<span class="pill p-warn">Ageing source</span>':""}${t.published==="unknown"||!parseD(t.published)?'<span class="pill p-unknown">Date unknown</span>':""}
+      <button type="button" class="star" data-fav="${esc(t._id)}" aria-pressed="${S.favs.has(t._id)}" aria-label="Favourite">★</button></div>
+    <h3>${esc(t.name)}</h3>
+    <p style="font-size:14px">${esc(t.summary)}</p>
+    <div class="row" style="gap:6px"><span class="pill p-unknown">${esc((CATS.find(c=>c[0]===t.category)||[0,t.category])[1])}</span>${t.season?`<span class="pill p-unknown">${esc(t.season)}</span>`:""}${t.gender?`<span class="pill p-unknown">${esc(t.gender)}</span>`:""}${(t.ages||[]).length?`<span class="pill p-unknown">${esc(t.ages.join(", "))}</span>`:""}</div>
+    <div class="meta">
+      <b>Source</b><span>${url?`<a href="${esc(url)}" target="_blank" rel="noopener">${esc(t.source||host(url))}</a>`:'<span class="muted">Unverified: no source link</span>'}</span>
+      <b>Published</b><span class="mono">${esc(fmtD(t.published))}</span>
+      <b>Observed</b><span class="mono">${esc(fmtD(t.observed||t.verified))}</span>
+      <b>Verified</b><span class="mono">${esc(fmtD(t.verified))}</span>
+      <b>Confidence</b><span><span class="pill p-${esc(t.confidence||"low")}">${esc(t.confidence||"low")}</span></span>
+      <b>Country</b><span>${esc(t.countryName||"")}</span>
+    </div></article>`;
+}
+function renderTrends(){
+  renderSeason();renderStatusChips();
+  const box=$("#trendList");
+  if(S.dbState==="unavailable"){box.innerHTML='<div class="empty">The research library could not be opened in this view. Open the page signed in to claude.ai to load trend records.</div>';return}
+  const list=S.trends[S.country];
+  if(!list){box.innerHTML='<div class="empty">Loading research for this market…</div>';return}
+  if(!list.length){box.innerHTML='<div class="empty">No verified research is stored for this market yet. Ask Claude to research it; nothing is shown until sources are found.</div>';return}
+  const shown=list.filter(trendMatches);
+  if(!shown.length){box.innerHTML='<div class="empty">No records match these filters. Clear a filter to see more.</div>';return}
+  const order=S.f.status==="all"?STATUSES:[S.f.status];
+  box.innerHTML=order.map(st=>{const g=shown.filter(t=>statusOf(t)===st);if(!g.length)return "";
+    return `<div class="sec-h"><h2>${esc(ST_LABEL[st])}</h2><span class="n">${g.length}</span></div>${st==="forecast"?'<p class="muted" style="margin:-4px 0 10px;font-size:13px">Predictions for coming seasons. Not yet established in the market.</p>':""}<div class="grid">${g.map(trendCard).join("")}</div>`}).join("");
+}
+async function loadCountry(slug){
+  if(S.trends[slug]||!db)return;
+  try{
+    const [cs,ts]=await Promise.all([db.doc("countries/"+slug).get(),db.collection("trends").where("country","==",slug).limit(400).get()]);
+    S.countryDocs[slug]=cs.exists?cs.data():null;
+    S.trends[slug]=ts.docs.map(d=>({...d.data(),_id:d.id}));
+  }catch(e){S.trends[slug]=S.trends[slug]||[];toast("Could not load research: "+(e.message||e.code))}
+  if(slug===S.country)renderTrends();
+}
+$("#fCountry").addEventListener("change",e=>{S.country=e.target.value;store("dm.country",S.country);$("#briefOut").innerHTML="";S.f.cat.clear();renderTrends();loadCountry(S.country)});
+$("#fQ").addEventListener("input",e=>{S.f.q=e.target.value.trim();renderTrends()});
+$("#fGender").addEventListener("change",e=>{S.f.gender=e.target.value;renderTrends()});
+$("#fAge").addEventListener("change",e=>{S.f.age=e.target.value;renderTrends()});
+$("#fFav").addEventListener("change",e=>{S.f.fav=e.target.checked;renderTrends()});
+$("#fStatus").addEventListener("click",e=>{const b=e.target.closest(".chip");if(!b)return;S.f.status=b.dataset.v;renderTrends()});
+$("#fCat").addEventListener("click",e=>{const b=e.target.closest(".chip");if(!b)return;const v=b.dataset.v;S.f.cat.has(v)?S.f.cat.delete(v):S.f.cat.add(v);renderTrends()});
+$("#trendList").addEventListener("click",async e=>{const b=e.target.closest("[data-fav]");if(!b)return;const id=b.dataset.fav;const t=(S.trends[S.country]||[]).find(x=>x._id===id);
+  if(!db||!S.uid){toast("Sign in to keep favourites");return}
+  const ref=mine().doc("f_"+id);
+  try{if(S.favs.has(id)){S.favs.delete(id);b.setAttribute("aria-pressed","false");await ref.delete()}else{S.favs.set(id,t);b.setAttribute("aria-pressed","true");await ref.set({kind:"fav",trendId:id,trend:t,saved:new Date().toISOString()})}}catch(err){toast("Could not save favourite")}});
+
+function currentShown(){return (S.trends[S.country]||[]).filter(trendMatches)}
+function trendLines(list,max){return list.slice(0,max).map(t=>`- [${statusOf(t)}|${t.category}|${t.season||""}|${t.gender||""}] ${t.name}: ${t.summary} (source: ${t.source}, published ${t.published}, confidence ${t.confidence})`).join("\n")}
+
+/* Self-hosted only: live web research through the server. Hidden on claude.ai, where research is a dated snapshot. */
+if(window.DM_SERVER&&window.DM_SERVER.research){const lb=$("#liveBtn");lb.hidden=false;lb.addEventListener("click",async()=>{
+  const slug=S.country;lb.disabled=true;lb.textContent="Researching… (1–3 min)";
+  try{const r=await window.DM_SERVER.research(slug);delete S.trends[slug];await loadCountry(slug);toast(`Stored ${r.stored} verified records (${r.dropped} dropped without a matching source)`)}
+  catch(e){toast(e.message||"Research failed")}finally{lb.disabled=false;lb.textContent="Run live research"}})}
+
+$("#reportBtn").addEventListener("click",async()=>{
+  const list=currentShown();if(!list.length){toast("Nothing to export with these filters");return}
+  const name=COUNTRIES.find(c=>c[0]===S.country)[1];const s=seasonInfo(NOW,SOUTH.has(S.country));
+  let md=`# ${name} fashion & textile trends\n\nGenerated ${NOW.toISOString().slice(0,10)} · In stores: ${s.currentLong} · Next: ${s.nextLong}\n\n`;
+  STATUSES.forEach(st=>{const g=list.filter(t=>statusOf(t)===st);if(!g.length)return;md+=`## ${ST_LABEL[st]}\n\n`;g.forEach(t=>{md+=`### ${t.name}\n${t.summary}\n\n- Category: ${t.category} · Season: ${t.season||"n/a"} · Gender: ${t.gender||"n/a"} · Ages: ${(t.ages||[]).join(", ")||"n/a"}\n- Source: ${t.source} — ${t.source_url||"no link"}\n- Published: ${t.published} · Verified: ${t.verified} · Confidence: ${t.confidence}\n\n`})});
+  await saveFile(`designmind-${S.country}-trends-${NOW.toISOString().slice(0,10)}.md`,md,"text/markdown");
+});
+$("#briefBtn").addEventListener("click",async()=>{
+  const list=currentShown();const out=$("#briefOut");
+  if(!sample){out.innerHTML='<div class="notice">AI is not available here. Turn it on in Settings.</div>';return}
+  if(!list.length){toast("No records to summarise");return}
+  const name=COUNTRIES.find(c=>c[0]===S.country)[1];const s=seasonInfo(NOW,SOUTH.has(S.country));
+  out.innerHTML='<div class="brief" id="briefText">Reading the records…</div>';
+  const prompt=`You are a senior textile and fashion creative director. Today is ${NOW.toDateString()}. Market: ${name}. In stores: ${s.currentLong}; next: ${s.nextLong}.
+Using ONLY the research records below (do not add facts, brands, statistics or trends that are not in them), write a concise design brief for a print/textile designer:
+1) What is selling now (observed/recent only) 2) Emerging signals 3) Forecasts for next season, clearly labelled as forecasts 4) Recommended print directions, colours, fabrics and silhouettes 5) Three concrete starter concepts.
+Mention the trend names you rely on. Plain text with short headed sections, under 350 words. No markdown symbols like ** or #.
+RECORDS:
+${trendLines(list,60)}`;
+  try{const r=await sample(prompt,{modelTier:"default",onText:({text})=>{$("#briefText").textContent=text}});
+    $("#briefText").textContent=r.text;
+    const sv=document.createElement("div");sv.className="row";sv.style.marginBottom="14px";sv.innerHTML='<button class="btn small ghost" type="button">Save brief to projects</button>';out.appendChild(sv);
+    sv.querySelector("button").onclick=()=>saveProject({type:"brief",title:`${name} brief · ${s.current}`,data:{text:r.text,country:S.country,count:list.length}});
+  }catch(e){out.innerHTML=`<div class="notice warn">${esc(sampleErr(e))}</div>`}
+});
+function sampleErr(e){const c=e&&e.code;if(c==="not_granted")return "Claude access was not allowed for this page. Allow it from the page's permissions to use AI features.";if(c==="rate_limited")return "Too many requests just now. Wait a minute and try again.";if(c==="images_unavailable")return "Image analysis isn't available in this view. Use a written brief instead.";if(c==="prompt_too_large")return "That request is too large. Use a smaller image or fewer filters.";return (e&&e.message)||"Claude could not complete the request."}
+
+/* ---------- Fabrics ---------- */
+function specCell(sp,fab){if(!sp)return '<span class="pill p-unknown">Not verified</span>';
+  const basis=sp.basis==="sourced"?"sourced":sp.basis==="estimate"?"estimate":"unknown";
+  const v=basis==="unknown"&&(!sp.value||/^not verified$/i.test(sp.value))?"":esc(sp.value);
+  const src=(sp.source_ids||[]).map(i=>fab.sources&&fab.sources[i]).filter(x=>x&&safeUrl(x.url)).map((x)=>`<a href="${esc(safeUrl(x.url))}" target="_blank" rel="noopener" title="${esc(x.title||"")}">[${(fab.sources.indexOf(x))+1}]</a>`).join(" ");
+  return `${v?`<span>${v}</span> `:""}<span class="pill p-${basis}">${basis==="sourced"?"Sourced":basis==="estimate"?"Estimate":"Not verified"}</span> ${src}`;}
+function gsmShort(f){const g=f.specs&&f.specs.gsm;if(!g||g.basis==="unknown")return "";const m=String(g.value).match(/\d+\s*[–-]\s*\d+|\d+/);return m?m[0].replace(/\s/g,"")+" gsm":""}
+function renderFabrics(){
+  const list=$("#fabList");const q=S.fab.q.toLowerCase();
+  if(!S.fabrics.length){list.innerHTML='<div class="muted" style="font-size:13px">'+(S.dbState==="unavailable"?"Fabric library unavailable in this view.":"Loading fabrics…")+'</div>';$("#fabDetail").innerHTML="";return}
+  const shown=S.fabrics.filter(f=>!q||JSON.stringify(f).toLowerCase().includes(q));
+  list.innerHTML=shown.map(f=>`<div class="row" style="gap:4px;flex-wrap:nowrap"><input type="checkbox" aria-label="Compare ${esc(f.name)}" data-cmp="${esc(f.id)}" ${S.fab.cmp.has(f.id)?"checked":""}><button type="button" data-fab="${esc(f.id)}" aria-current="${S.fab.sel===f.id}" style="flex:1"><span>${esc(f.name)}</span><span class="g">${esc(gsmShort(f))}</span></button></div>`).join("")||'<div class="muted">No match</div>';
+  $("#cmpBtn").disabled=S.fab.cmp.size<2;
+  if(S.fab.mode==="compare")return renderCompare();
+  const f=S.fabrics.find(x=>x.id===S.fab.sel)||shown[0];if(!f)return;S.fab.sel=f.id;
+  $("#fabDetail").innerHTML=`<div class="card" style="gap:12px">
+    <div><div class="eyebrow">${esc((f.aka||[]).join(" · "))}</div><h2 style="font-size:26px">${esc(f.name)}</h2></div>
+    ${f.notes?`<p class="muted" style="max-width:70ch">${esc(f.notes)}</p>`:""}
+    <div class="tablewrap"><table><tbody>${SPEC_ROWS.map(([k,l])=>`<tr><th scope="row">${esc(l)}</th><td>${specCell(f.specs&&f.specs[k],f)}</td></tr>`).join("")}</tbody></table></div>
+    <div class="row" style="align-items:flex-start;gap:20px">
+      <div style="flex:1 1 240px;min-width:0"><div class="eyebrow">Advantages</div><ul style="margin:6px 0;padding-left:18px">${(f.advantages||[]).map(a=>`<li>${esc(a)}</li>`).join("")||"<li class='muted'>Not recorded</li>"}</ul></div>
+      <div style="flex:1 1 240px;min-width:0"><div class="eyebrow">Limitations</div><ul style="margin:6px 0;padding-left:18px">${(f.limitations||[]).map(a=>`<li>${esc(a)}</li>`).join("")||"<li class='muted'>Not recorded</li>"}</ul></div>
+    </div>
+    <div><div class="eyebrow">Sources</div><ol style="margin:6px 0;padding-left:20px;font-size:13px">${(f.sources||[]).map(s=>`<li>${safeUrl(s.url)?`<a href="${esc(safeUrl(s.url))}" target="_blank" rel="noopener">${esc(s.title||host(s.url))}</a>`:esc(s.title)} <span class="muted">${esc(s.publisher||"")}${s.published&&s.published!=="unknown"?" · "+esc(fmtD(s.published)):""}</span></li>`).join("")||"<li class='muted'>No sources recorded</li>"}</ol></div>
+    <form class="row" id="fabAsk" style="align-items:stretch"><input type="text" id="fabQIn" placeholder="Ask about ${esc(f.name)}, e.g. is it right for digital print on kids' wear?" style="flex:1 1 260px"><button class="btn small" type="submit">Ask</button></form>
+    <div id="fabAns"></div>
+  </div>`;
+  $("#fabAsk").onsubmit=async ev=>{ev.preventDefault();const q=$("#fabQIn").value.trim();if(!q)return;const out=$("#fabAns");
+    if(!sample){out.innerHTML='<div class="notice">AI is not available here.</div>';return}
+    out.innerHTML='<div class="brief" id="fabAnsT">Thinking…</div>';
+    try{const r=await sample(`You are a textile technologist. Answer the designer's question about ${f.name}. Ground every specification in the record below; if the record marks a value as estimate or not verified, say so and do not state a precise figure. Advise confirming with mill spec sheets for production. Plain text, under 180 words.\nRECORD: ${JSON.stringify({name:f.name,specs:f.specs,advantages:f.advantages,limitations:f.limitations,notes:f.notes})}\nQUESTION: ${q}`,{modelTier:"quick",onText:({text})=>{$("#fabAnsT").textContent=text}});$("#fabAnsT").textContent=r.text}catch(e){out.innerHTML=`<div class="notice warn">${esc(sampleErr(e))}</div>`}};
+}
+function renderCompare(){
+  const fs=[...S.fab.cmp].map(id=>S.fabrics.find(f=>f.id===id)).filter(Boolean);
+  $("#fabDetail").innerHTML=`<div class="row" style="justify-content:space-between;margin-bottom:10px"><h2>Compare ${fs.length} fabrics</h2><button class="btn small ghost" id="cmpClose" type="button">Back to detail</button></div>
+  <div class="tablewrap"><table><thead><tr><th></th>${fs.map(f=>`<th style="font-size:14px;color:var(--fg)">${esc(f.name)}</th>`).join("")}</tr></thead><tbody>${SPEC_ROWS.map(([k,l])=>`<tr><th scope="row">${esc(l)}</th>${fs.map(f=>`<td style="min-width:180px">${specCell(f.specs&&f.specs[k],f)}</td>`).join("")}</tr>`).join("")}</tbody></table></div>`;
+  $("#cmpClose").onclick=()=>{S.fab.mode=null;renderFabrics()};
+}
+$("#fabQ").addEventListener("input",e=>{S.fab.q=e.target.value.trim();renderFabrics()});
+$("#fabList").addEventListener("click",e=>{const b=e.target.closest("[data-fab]");if(b){S.fab.sel=b.dataset.fab;S.fab.mode=null;renderFabrics()}});
+$("#fabList").addEventListener("change",e=>{const c=e.target.closest("[data-cmp]");if(!c)return;const id=c.dataset.cmp;if(c.checked){if(S.fab.cmp.size>=4){c.checked=false;toast("Compare up to 4 fabrics");return}S.fab.cmp.add(id)}else S.fab.cmp.delete(id);$("#cmpBtn").disabled=S.fab.cmp.size<2});
+$("#cmpBtn").addEventListener("click",()=>{S.fab.mode="compare";renderFabrics()});
+function fillFabricSelect(){fillSel($("#cFabric"),[["Any suitable","Any suitable"],...S.fabrics.map(f=>[f.name,f.name])],"Any suitable")}
+
+/* ---------- Images ---------- */
+function loadImage(file){return new Promise((res,rej)=>{const url=URL.createObjectURL(file);const im=new Image();im.onload=()=>res(im);im.onerror=()=>rej(new Error("That file could not be opened as an image."));im.src=url})}
+function downscale(im,max){const s=Math.min(1,max/Math.max(im.naturalWidth,im.naturalHeight));const c=document.createElement("canvas");c.width=Math.round(im.naturalWidth*s);c.height=Math.round(im.naturalHeight*s);c.getContext("2d").drawImage(im,0,0,c.width,c.height);return c}
+const toBlob=(c,type,q)=>new Promise(r=>c.toBlob(r,type||"image/jpeg",q||.86));
+function wireDrop(dropSel,fileSel,onFile){const d=$(dropSel),f=$(fileSel);
+  d.addEventListener("click",()=>f.click());d.addEventListener("keydown",e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();f.click()}});
+  d.addEventListener("dragover",e=>{e.preventDefault()});d.addEventListener("drop",e=>{e.preventDefault();const x=e.dataTransfer.files[0];if(x)onFile(x)});
+  f.addEventListener("change",()=>{if(f.files[0])onFile(f.files[0])});}
+function showThumb(dropSel,im,label){const d=$(dropSel);const inp=d.querySelector("input");const c=downscale(im,320);d.innerHTML=`<img alt="" src="${c.toDataURL("image/jpeg",.8)}"><div>${esc(label)} · click to replace</div>`;d.appendChild(inp)}
+async function imageBlobForClaude(im){let max=1568;const lim=sample&&sample.limits?await sample.limits().catch(()=>null):null;
+  if(!lim||!lim.images)return null;let c=downscale(im,max),b=await toBlob(c,"image/jpeg",.86);
+  while(b.size>lim.images.maxInputBytes&&max>400){max=Math.round(max*.75);c=downscale(im,max);b=await toBlob(c,"image/jpeg",.8)}return b}
+
+/* ---------- Design: sub-tabs ---------- */
+$$(".subtabs .chip").forEach(b=>b.addEventListener("click",()=>{$$(".subtabs .chip").forEach(x=>x.setAttribute("aria-pressed",String(x===b)));["concepts","colour","repeat","critique"].forEach(k=>$("#st-"+k).hidden=k!==b.dataset.st)}));
+const lv=["Very low","Low","Medium","High","Very high"];
+[["cMot","vMot",v=>v+"%"],["cCol","vCol",v=>v+"%"],["cDen","vDen",v=>lv[v-1]],["cSca","vSca",v=>["Very small","Small","Medium","Large","Very large"][v-1]]].forEach(([i,o,f])=>{const el=$("#"+i);const u=()=>$("#"+o).textContent=f(+el.value);el.addEventListener("input",u);u()});
+
+/* ---------- Concepts ---------- */
+let cImg=null;
+wireDrop("#cDrop","#cFile",async f=>{try{cImg=await loadImage(f);showThumb("#cDrop",cImg,f.name)}catch(e){toast(e.message)}});
+function swatchRow(colors){return `<div class="swatches">${(colors||[]).filter(validHex).map(h=>{h=normHex(h);const [r,g,b]=hex2rgb(h);return `<div class="sw"><i style="background:${h}"></i><small>${h.toUpperCase()}<br>${r},${g},${b}</small></div>`}).join("")}</div>`}
+function renderConcepts(res,box,meta){
+  const a=res.analysis||{};
+  const an=a&&Object.keys(a).length?`<div class="sec-h"><h2>Reference analysis</h2></div><div class="analysis">${[["motifs","Motifs"],["shapes","Shapes"],["composition","Composition"],["density","Pattern density"],["repeat_structure","Repeat structure"],["print_style","Print style"],["hierarchy","Visual hierarchy"],["background","Background"],["border","Border"],["placement","Placement"]].filter(([k])=>a[k]).map(([k,l])=>`<div><b>${l}</b>${esc(Array.isArray(a[k])?a[k].join(", "):a[k])}</div>`).join("")}</div>${a.colors&&a.colors.length?`<div class="eyebrow" style="margin-bottom:6px">Reference colours</div>${swatchRow(a.colors.map(c=>c.hex||c))}`:""}`:"";
+  box.innerHTML=`${an}<div class="sec-h"><h2>Original concepts</h2><span class="n">${(res.concepts||[]).length}</span></div>
+  <div class="row" style="margin-bottom:12px"><span class="preview-tag">Written concepts and palettes. Motif sketches below are generative previews, not artwork.</span>${meta.saved?"":'<button class="btn small" type="button" id="cSave">Save to project</button>'}</div>
+  <div class="grid">${(res.concepts||[]).map((c,i)=>`<article class="card concept">
+    <div class="row" style="justify-content:space-between"><span class="num">CONCEPT ${String(i+1).padStart(2,"0")}</span><span class="pill p-unknown">${esc(c.direction||"")}</span></div>
+    <h3>${esc(c.title)}</h3><p style="font-size:14px">${esc(c.description)}</p>
+    <canvas width="560" height="240" data-sketch="${i}" aria-label="Generative motif preview"></canvas>
+    <div class="kv">${[["Motifs",c.motifs],["Composition",c.composition],["Repeat",c.repeat],["Scale",c.scale],["Placement",c.placement],["Technique",c.technique],["Fabric",c.fabric_fit],["Garment",c.garment_use],["Trend link",c.trend_link],["Originality",c.originality_note]].filter(x=>x[1]).map(([k,v])=>`<b>${k}</b><span>${esc(Array.isArray(v)?v.join(", "):v)}</span>`).join("")}</div>
+    ${window.DM_SERVER&&window.DM_SERVER.image?`<button class="btn small ghost" type="button" data-gen="${i}">Generate AI visual preview</button><div data-genout="${i}"></div>`:""}
+    ${(c.colorways||[]).map(cw=>`<div><div style="font-size:12.5px;font-weight:600;margin-bottom:4px">${esc(cw.name)} <span class="muted" style="font-weight:400">${esc(cw.mood||"")}</span></div>${swatchRow(cw.colors)}</div>`).join("")}
+  </article>`).join("")}</div>`;
+  box.querySelectorAll("[data-sketch]").forEach(cv=>{const c=res.concepts[+cv.dataset.sketch];const cols=((c.colorways&&c.colorways[0]&&c.colorways[0].colors)||["#2c3c93","#b67a0e","#f2efe6"]).filter(validHex).map(normHex);drawSketch(cv,c,cols)});
+  box.querySelectorAll("[data-gen]").forEach(b=>b.onclick=async()=>{const c=res.concepts[+b.dataset.gen];const o=box.querySelector(`[data-genout="${b.dataset.gen}"]`);b.disabled=true;o.innerHTML='<div class="status">Generating image…</div>';
+    try{const url=await window.DM_SERVER.image(`Flat textile print design swatch, seamless ${c.repeat||"all-over"} repeat, ${c.motifs}; ${c.composition}; colours ${((c.colorways&&c.colorways[0]&&c.colorways[0].colors)||[]).join(", ")}; ${c.technique}. Original design, no text, no logos, top-down flat fabric artwork.`);
+      o.innerHTML=`<span class="preview-tag">AI visual preview, not production artwork</span><img src="${esc(url)}" alt="AI preview of ${esc(c.title)}" loading="lazy" style="border-radius:6px;margin-top:4px">`}catch(e){o.innerHTML=`<div class="status err">${esc(e.message||"Image generation failed")}</div>`}finally{b.disabled=false}});
+  const sb=box.querySelector("#cSave");if(sb)sb.onclick=()=>saveProject({type:"concepts",title:meta.title,data:{res,brief:meta.brief}});
+}
+/* Deterministic motif sketch so each concept gets a quick visual cue of motif family, density and repeat. */
+function drawSketch(cv,c,cols){const x=cv.getContext("2d");const W=cv.width,H=cv.height;
+  const txt=`${c.direction} ${c.motifs} ${c.title}`.toLowerCase();
+  let seed=[...txt].reduce((a,ch)=>(a*31+ch.charCodeAt(0))>>>0,7);const rnd=()=>(seed=(seed*1664525+1013904223)>>>0)/4294967296;
+  const bg=cols[cols.length-1]||"#f2efe6";x.fillStyle=bg;x.fillRect(0,0,W,H);
+  const kind=/geometr|grid|stripe|check|jaali|lattice|tile/.test(txt)?"geo":/abstract|brush|experimental|artistic|marble|texture/.test(txt)?"abs":/paisley|boteh|ambi/.test(txt)?"pais":"flor";
+  const dens=/minimal|sparse|small/.test(txt)?0.6:/dense|intricate|all-over/.test(txt)?1.4:1;
+  const step=Math.round(70/dens);const half=/half-drop|half drop/.test((c.repeat||"").toLowerCase());
+  for(let gx=-step;gx<W+step;gx+=step){for(let gy=-step;gy<H+step;gy+=step){const ox=gx+step/2,oy=gy+step/2+(half&&((gx/step)&1)?step/2:0);
+    const col=cols[Math.floor(rnd()*Math.max(1,cols.length-1))]||"#2c3c93";x.fillStyle=col;x.strokeStyle=col;x.lineWidth=2;
+    if(kind==="geo"){x.save();x.translate(ox,oy);x.rotate(Math.PI/4);x.strokeRect(-step*.25,-step*.25,step*.5,step*.5);x.restore();x.beginPath();x.arc(ox,oy,step*.06,0,7);x.fill()}
+    else if(kind==="abs"){x.globalAlpha=.55;x.beginPath();x.ellipse(ox+rnd()*10,oy,step*.35*rnd()+6,step*.12+4,rnd()*3,0,7);x.fill();x.globalAlpha=1}
+    else if(kind==="pais"){x.beginPath();x.moveTo(ox,oy-step*.28);x.bezierCurveTo(ox+step*.3,oy-step*.2,ox+step*.22,oy+step*.25,ox,oy+step*.25);x.bezierCurveTo(ox-step*.22,oy+step*.25,ox-step*.12,oy,ox,oy-step*.28);x.stroke();x.beginPath();x.arc(ox,oy+step*.1,step*.07,0,7);x.fill()}
+    else{const p=5+Math.floor(rnd()*3),r=step*.2;for(let k=0;k<p;k++){const a=k/p*Math.PI*2;x.beginPath();x.ellipse(ox+Math.cos(a)*r*.7,oy+Math.sin(a)*r*.7,r*.55,r*.28,a,0,7);x.fill()}x.fillStyle=bg;x.beginPath();x.arc(ox,oy,r*.28,0,7);x.fill()}
+  }}}
+$("#cForm").addEventListener("submit",async e=>{e.preventDefault();const st=$("#cStatus");st.className="status";
+  if(!sample){st.className="status err";st.textContent="AI is not available here, so concepts can't be generated.";return}
+  const brief=$("#cBrief").value.trim();if(!cImg&&!brief){st.className="status err";st.textContent="Add a reference image or write a brief first.";return}
+  const country=$("#cCountry").value;const cname=COUNTRIES.find(c=>c[0]===country)[1];await loadCountry(country);
+  const rel=(S.trends[country]||[]).filter(t=>["prints","colors","fabrics","embroidery","printing_techniques","emerging","seasonal","dress_styles","silhouettes"].includes(t.category)&&statusOf(t)!=="historical");
+  const n=+$("#cN").value;const opts={country:cname,market:$("#cMarket").value,age:$("#cAge").value,gender:$("#cGender").value,season:$("#cSeason").value,fabric:$("#cFabric").value,category:$("#cCat").value,direction:$("#cDir").value,colors:$("#cColors").value,complexity:$("#cCx").value,motif_similarity:$("#cMot").value+"%",colour_similarity:$("#cCol").value+"%",density:$("#vDen").textContent,scale:$("#vSca").textContent,background:$("#cBg").value,composition:$("#cComp").value};
+  let blob=null;if(cImg){blob=await imageBlobForClaude(cImg);if(!blob){st.className="status err";st.textContent="Image analysis isn't available in this view. Remove the image and use a written brief.";return}}
+  const prompt=`You are an experienced textile designer and creative director. Today is ${NOW.toDateString()}.
+${cImg?"Analyse the attached reference textile design, then":"Using the written brief,"} create ${n} ORIGINAL textile design concepts. Never reproduce or trace the reference or any protected design: keep motif similarity at or below ${opts.motif_similarity}, change motif drawing, arrangement and proportions, and explain what makes each original.
+Brief: ${brief||"(none, work from the image)"}
+Settings: ${JSON.stringify(opts)}
+Current research for ${cname} (use where relevant; name the trend in trend_link; forecasts are forecasts, do not call them current; do not invent other trends or statistics):
+${trendLines(rel,30)||"(no stored research for this market)"}
+Return ONLY JSON:
+{"analysis": ${cImg?'{"motifs":[..],"shapes":"..","colors":[{"hex":"#rrggbb","name":"..","role":"ground|main|accent"}],"composition":"..","density":"..","repeat_structure":"..","print_style":"..","hierarchy":"..","background":"..","border":"..","placement":".."}':"{}"},
+ "concepts":[{"title":"..","direction":"..","description":"<=45 words","motifs":"..","composition":"..","repeat":"straight|half-drop|brick|mirror|placement|border|panel","scale":"..","placement":"..","technique":"e.g. digital print, rotary screen, block print, embroidery","fabric_fit":"..","garment_use":"..","trend_link":"trend name or 'none'","originality_note":"..","colorways":[{"name":"..","mood":"..","colors":["#rrggbb", "... 4-6 hex, last = ground"]}]}]}
+Give each concept 3 colorways.`;
+  $("#cGo").disabled=true;st.textContent="Working on the analysis and concepts…";$("#cOut").innerHTML='<div class="empty">Concepts will appear here.</div>';
+  try{const r=await sample(prompt,{modelTier:"complex",images:blob?[blob]:undefined,onText:({text})=>{const k=(text.match(/"title"/g)||[]).length;st.textContent=k?`Drafted ${k} of ${n} concepts…`:"Analysing…"}});
+    const res=json(r.text);st.textContent=`Done. ${res.concepts?res.concepts.length:0} concepts for ${cname}.`;
+    renderConcepts(res,$("#cOut"),{title:`${cname} · ${opts.category} · ${opts.direction}`,brief:{...opts,text:brief}});
+  }catch(err){st.className="status err";st.textContent=err.code?sampleErr(err):(err.message||"Something went wrong. Try again.")}
+  finally{$("#cGo").disabled=false}});
+
+/* ---------- Colourways (real recolour on canvas) ---------- */
+const K={img:null,centers:[],labels:null,w:0,h:0,src:null,active:[],family:null,ai:[]};
+wireDrop("#kDrop","#kFile",async f=>{try{const im=await loadImage(f);showThumb("#kDrop",im,f.name);K.img=im;extract()}catch(e){toast(e.message)}});
+$("#kN").addEventListener("change",()=>K.img&&extract());
+function extract(){const c=downscale(K.img,700);K.w=c.width;K.h=c.height;const ctx=c.getContext("2d");K.src=ctx.getImageData(0,0,K.w,K.h);
+  const d=K.src.data,n=+$("#kN").value,px=K.w*K.h;
+  // k-means on a sample of pixels
+  const samp=[];const stepS=Math.max(1,Math.floor(px/6000));for(let i=0;i<px;i+=stepS){if(d[i*4+3]<16)continue;samp.push([d[i*4],d[i*4+1],d[i*4+2]])}
+  let cen=[];for(let i=0;i<n;i++)cen.push(samp[Math.floor((i+.5)/n*samp.length)].slice());
+  for(let it=0;it<12;it++){const acc=cen.map(()=>[0,0,0,0]);for(const p of samp){let bi=0,bd=1e9;for(let j=0;j<n;j++){const q=cen[j],dd=(p[0]-q[0])**2+(p[1]-q[1])**2+(p[2]-q[2])**2;if(dd<bd){bd=dd;bi=j}}const a=acc[bi];a[0]+=p[0];a[1]+=p[1];a[2]+=p[2];a[3]++}
+    cen=cen.map((q,j)=>acc[j][3]?[acc[j][0]/acc[j][3],acc[j][1]/acc[j][3],acc[j][2]/acc[j][3]]:q)}
+  const labels=new Uint8Array(px);const cnt=new Array(n).fill(0);for(let i=0;i<px;i++){let bi=0,bd=1e9;for(let j=0;j<n;j++){const q=cen[j],dd=(d[i*4]-q[0])**2+(d[i*4+1]-q[1])**2+(d[i*4+2]-q[2])**2;if(dd<bd){bd=dd;bi=j}}labels[i]=bi;cnt[bi]++}
+  const order=cnt.map((c,i)=>[c,i]).sort((a,b)=>b[0]-a[0]).map(x=>x[1]);const remap=new Uint8Array(n);order.forEach((o,i)=>remap[o]=i);for(let i=0;i<px;i++)labels[i]=remap[labels[i]];
+  K.centers=order.map(o=>rgb2hex(...cen[o]));K.share=order.map(o=>cnt[o]/px);K.labels=labels;
+  const sc=$("#kSrc");sc.width=K.w;sc.height=K.h;sc.getContext("2d").putImageData(K.src,0,0);
+  $("#kOrig").innerHTML=K.centers.map((h,i)=>{const [r,g,b]=hex2rgb(h);return `<div class="sw"><i style="background:${h}"></i><small>${h.toUpperCase()}<br>${r},${g},${b}<br>${Math.round(K.share[i]*100)}%</small></div>`}).join("");
+  K.active=K.centers.slice();K.family=null;renderFamilies();applyActive();}
+function hsl(h){let [r,g,b]=hex2rgb(h).map(v=>v/255);const mx=Math.max(r,g,b),mn=Math.min(r,g,b);let H=0,S2=0;const L=(mx+mn)/2;if(mx!==mn){const dd=mx-mn;S2=L>.5?dd/(2-mx-mn):dd/(mx+mn);H=mx===r?(g-b)/dd+(g<b?6:0):mx===g?(b-r)/dd+2:(r-g)/dd+4;H*=60}return [H,S2,L]}
+function fromHsl(H,S2,L){H=((H%360)+360)%360;S2=Math.max(0,Math.min(1,S2));L=Math.max(0,Math.min(1,L));const c=(1-Math.abs(2*L-1))*S2,x=c*(1-Math.abs((H/60)%2-1)),m=L-c/2;let r=0,g=0,b=0;if(H<60)[r,g,b]=[c,x,0];else if(H<120)[r,g,b]=[x,c,0];else if(H<180)[r,g,b]=[0,c,x];else if(H<240)[r,g,b]=[0,x,c];else if(H<300)[r,g,b]=[x,0,c];else[r,g,b]=[c,0,x];return rgb2hex((r+m)*255,(g+m)*255,(b+m)*255)}
+// Each family keeps the design's light/dark structure (rank of lightness) so motifs stay legible.
+const FAM={
+ pastel:{l:"Pastel",f:(c,i,n)=>{const [h,s,l]=hsl(c);return fromHsl(h,Math.min(.55,s*.6+.15),.72+.18*(l))}},
+ dark:{l:"Dark",f:c=>{const [h,s,l]=hsl(c);return fromHsl(h,Math.min(1,s*1.05),.1+l*.38)}},
+ light:{l:"Light",f:c=>{const [h,s,l]=hsl(c);return fromHsl(h,s*.7,.55+l*.4)}},
+ earthy:{l:"Earthy",f:(c,i)=>{const [h,s,l]=hsl(c);const hues=[24,38,85,15,52,100,30,60];return fromHsl(hues[i%hues.length],.22+s*.25,.18+l*.62)}},
+ luxury:{l:"Luxury",f:(c,i)=>{const [,,l]=hsl(c);const set=[[220,.55],[44,.62],[345,.5],[160,.35],[270,.35],[30,.25]];const [h,s]=set[i%set.length];return fromHsl(h,s,.08+l*.7)}},
+ mono:{l:"Tonal indigo",f:c=>{const [,,l]=hsl(c);return fromHsl(228,.5,.1+l*.82)}},
+ rotate:{l:"Hue shift",f:c=>{const [h,s,l]=hsl(c);return fromHsl(h+150,s,l)}},
+};
+function renderFamilies(){$("#kFam").innerHTML=Object.entries(FAM).map(([k,v])=>`<button type="button" class="chip" data-fam="${k}" aria-pressed="${K.family===k}">${esc(v.l)}</button>`).join("")+`<button type="button" class="chip" data-fam="orig" aria-pressed="${K.family==="orig"}">Original</button>`}
+$("#kFam").addEventListener("click",e=>{const b=e.target.closest("[data-fam]");if(!b||!K.img)return toast("Load a design first");K.family=b.dataset.fam;K.active=K.family==="orig"?K.centers.slice():K.centers.map((c,i)=>FAM[K.family].f(c,i,K.centers.length));renderFamilies();applyActive()});
+function applyActive(){if(!K.src)return;const d=K.src.data,px=K.w*K.h;const out=new ImageData(K.w,K.h);const o=out.data;
+  const C=K.centers.map(hex2rgb),T=K.active.map(hex2rgb);
+  for(let i=0;i<px;i++){const l=K.labels[i],c=C[l],t=T[l]||c;
+    // keep fine texture: add 70% of the pixel's deviation from its cluster centre
+    o[i*4]=t[0]+(d[i*4]-c[0])*.7;o[i*4+1]=t[1]+(d[i*4+1]-c[1])*.7;o[i*4+2]=t[2]+(d[i*4+2]-c[2])*.7;o[i*4+3]=d[i*4+3]}
+  const dc=$("#kDst");dc.width=K.w;dc.height=K.h;dc.getContext("2d").putImageData(out,0,0);
+  $("#kActive").innerHTML=K.active.map((h,i)=>{const [r,g,b]=hex2rgb(h);return `<label class="sw"><input type="color" value="${h}" data-ki="${i}" aria-label="Edit colour ${i+1}"><small>${h.toUpperCase()}<br>${r},${g},${b}</small></label>`}).join("")}
+$("#kActive").addEventListener("input",e=>{const i=e.target.dataset.ki;if(i==null)return;K.active[+i]=e.target.value;clearTimeout(K.t);K.t=setTimeout(applyActive,60)});
+$("#kAI").addEventListener("click",async()=>{const st=$("#kStatus");st.className="status";if(!K.img){st.className="status err";st.textContent="Load a design first.";return}
+  if(!sample){st.className="status err";st.textContent="AI is not available here.";return}
+  const country=$("#kCountry").value;const cname=COUNTRIES.find(c=>c[0]===country)[1];await loadCountry(country);
+  const cols=(S.trends[country]||[]).filter(t=>(t.category==="colors"||t.category==="seasonal")&&statusOf(t)!=="historical");
+  const s=seasonInfo(NOW,SOUTH.has(country));st.textContent="Building colourways from the research…";
+  try{const r=await sample(`You are a textile colourist. Today is ${NOW.toDateString()}. The design has ${K.centers.length} colours, ordered by coverage (first = largest area, usually the ground): ${K.centers.map((h,i)=>`${h} (${Math.round(K.share[i]*100)}%)`).join(", ")}.
+Create 6 colourways for ${cname}: 2 trend-inspired (use ONLY these colour research records, name the record), 2 seasonal for ${s.currentLong}/${s.nextLong} (label forecast-based ones as forecast), 2 country-market palettes. Keep good contrast between motif colours and ground.
+Research:\n${trendLines(cols,25)||"(no colour research stored; say so in basis and use general seasonal colour logic)"}
+Return ONLY JSON {"colorways":[{"name":"..","type":"trend|seasonal|country","basis":"<=25 words: which record or reasoning","colors":["#rrggbb" x ${K.centers.length} in the same order as the design colours]}]}`,{modelTier:"default"});
+    const res=json(r.text);K.ai=(res.colorways||[]).filter(c=>Array.isArray(c.colors)&&c.colors.filter(validHex).length===K.centers.length).map(c=>({...c,colors:c.colors.map(normHex)}));
+    st.textContent=`${K.ai.length} colourways ready. Click one to apply.`;renderAI();
+  }catch(e){st.className="status err";st.textContent=e.code?sampleErr(e):e.message}});
+function renderAI(){$("#kList").innerHTML=K.ai.map((c,i)=>`<button type="button" class="card" data-ai="${i}" style="text-align:left;cursor:pointer"><div class="row" style="justify-content:space-between"><b>${esc(c.name)}</b><span class="pill ${c.type==="trend"?"p-recent":c.type==="seasonal"?"p-emerging":"p-unknown"}">${esc(c.type)}</span></div><div class="muted" style="font-size:12.5px">${esc(c.basis||"")}</div>${swatchRow(c.colors)}</button>`).join("")}
+$("#kList").addEventListener("click",e=>{const b=e.target.closest("[data-ai]");if(!b)return;K.active=K.ai[+b.dataset.ai].colors.slice();K.family=null;renderFamilies();applyActive()});
+$("#kPng").addEventListener("click",async()=>{if(!K.src)return toast("Load a design first");const full=document.createElement("canvas");full.width=K.w;full.height=K.h;full.getContext("2d").drawImage($("#kDst"),0,0);const b=await toBlob(full,"image/png");saveFile("designmind-colourway.png",b,"image/png")});
+$("#kSave").addEventListener("click",()=>{if(!K.src)return toast("Load a design first");const thumb=downscale($("#kDst"),360).toDataURL("image/jpeg",.75);saveProject({type:"colourway",title:"Colourway · "+K.active.map(h=>h.toUpperCase()).join(" "),data:{original:K.centers,colors:K.active,thumb,ai:K.ai}})});
+$("#kToRepeat").addEventListener("click",()=>{if(!K.src)return toast("Load a design first");const im=new Image();im.onload=()=>{R.img=im;showThumb("#rDrop",im,"Colourway");drawRepeat();$$(".subtabs .chip")[2].click()};im.src=$("#kDst").toDataURL("image/png")});
+
+/* ---------- Repeat preview + seam check ---------- */
+const R={img:null};
+wireDrop("#rDrop","#rFile",async f=>{try{R.img=await loadImage(f);showThumb("#rDrop",R.img,f.name);drawRepeat()}catch(e){toast(e.message)}});
+["rType","rScale","rGap","rBg","rCm"].forEach(id=>$("#"+id).addEventListener("input",()=>{$("#vRs").textContent=$("#rScale").value+"%";$("#vRg").textContent=$("#rGap").value+" px";drawRepeat()}));
+function tileCanvas(){const im=R.img;const c=document.createElement("canvas");c.width=im.naturalWidth;c.height=im.naturalHeight;c.getContext("2d").drawImage(im,0,0);return c}
+function paintRepeat(cv,W,H,scaleMul){const ctx=cv.getContext("2d");cv.width=W;cv.height=H;ctx.fillStyle=$("#rBg").value;ctx.fillRect(0,0,W,H);if(!R.img)return;
+  const type=$("#rType").value;const s=(+$("#rScale").value/100)*scaleMul;const tw=Math.max(8,R.img.naturalWidth*s),th=Math.max(8,R.img.naturalHeight*s);const gap=+$("#rGap").value*scaleMul;const cw=tw+gap,ch=th+gap;
+  for(let col=-1;col*cw<W+cw;col++){for(let row=-2;row*ch<H+ch;row++){let x=col*cw,y=row*ch;
+    if(type==="halfdrop"&&(col&1))y+=ch/2; if(type==="brick"&&(row&1))x+=cw/2;
+    if(type==="mirror"){ctx.save();const fx=(col&1)?-1:1,fy=(row&1)?-1:1;ctx.translate(x+(fx<0?tw:0),y+(fy<0?th:0));ctx.scale(fx,fy);ctx.drawImage(R.img,0,0,tw,th);ctx.restore()}
+    else ctx.drawImage(R.img,x,y,tw,th)}}}
+function seamScore(){const c=tileCanvas();const w=c.width,h=c.height;const d=c.getContext("2d").getImageData(0,0,w,h).data;const type=$("#rType").value;
+  const px=(x,y)=>{y=((y%h)+h)%h;const i=(y*w+x)*4;return [d[i],d[i+1],d[i+2]]};const diff=(a,b)=>(Math.abs(a[0]-b[0])+Math.abs(a[1]-b[1])+Math.abs(a[2]-b[2]))/3;
+  if(type==="mirror")return {h:0,v:0,mirror:true};
+  let hs=0;for(let y=0;y<h;y++)hs+=diff(px(w-1,y),px(0,y+(type==="halfdrop"?Math.round(h/2):0)));
+  let vs=0;const px2=(x,y)=>{x=((x%w)+w)%w;const i=(y*w+x)*4;return [d[i],d[i+1],d[i+2]]};for(let x=0;x<w;x++)vs+=diff(px2(x,h-1),px2(x+(type==="brick"?Math.round(w/2):0),0));
+  return {h:hs/h,v:vs/w}}
+function verdict(v){return v<12?["Clean","p-observed"]:v<28?["Check","p-emerging"]:["Visible seam likely","p-low"]}
+function drawRepeat(){const cv=$("#rCan");const W=Math.min(1200,Math.max(600,cv.parentElement.clientWidth*1.5)),H=Math.round(W*.62);paintRepeat(cv,W,H,1);
+  if(!R.img)return;const sc=seamScore();const cm=+$("#rCm").value||0;
+  if(sc.mirror){$("#rSeam").innerHTML='<b>Mirror repeat</b><br>Edges meet their own reflection, so joins are seamless by construction. Watch for obvious mirror lines through motifs.';return}
+  const [hv,hc]=verdict(sc.h),[vv,vc]=verdict(sc.v);
+  $("#rSeam").innerHTML=`<div class="eyebrow" style="margin-bottom:6px">Seam check</div>
+   <div class="kv"><b>Left ↔ right</b><span><span class="pill ${hc}">${hv}</span> <span class="mono">${sc.h.toFixed(1)}</span></span><b>Top ↔ bottom</b><span><span class="pill ${vc}">${vv}</span> <span class="mono">${sc.v.toFixed(1)}</span></span>
+   <b>Tile</b><span class="mono">${R.img.naturalWidth}×${R.img.naturalHeight}px${cm?` · ${(R.img.naturalWidth/(cm/2.54)).toFixed(0)} dpi at ${cm} cm wide`:""}</span></div>
+   <div class="muted" style="font-size:12px;margin-top:6px">Score is the mean colour difference (0–255) across opposite edges, offset for ${$("#rType").selectedOptions[0].text.toLowerCase()}. Production printing usually wants 150–300 dpi at final size.</div>`}
+$("#rPng").addEventListener("click",async()=>{if(!R.img)return toast("Load a tile first");const c=document.createElement("canvas");const cv=$("#rCan");const mul=2400/cv.width;paintRepeat(c,2400,Math.round(cv.height*mul),mul);const b=await toBlob(c,"image/png");saveFile(`designmind-repeat-${$("#rType").value}.png`,b,"image/png")});
+addEventListener("resize",()=>{if(!$("#st-repeat").hidden)drawRepeat()});
+drawRepeat();
+
+/* ---------- Graphic design critique ---------- */
+let gImg=null;
+wireDrop("#gDrop","#gFile",async f=>{try{gImg=await loadImage(f);showThumb("#gDrop",gImg,f.name)}catch(e){toast(e.message)}});
+$("#gForm").addEventListener("submit",async e=>{e.preventDefault();const st=$("#gStatus");st.className="status";
+  if(!sample){st.className="status err";st.textContent="AI is not available here.";return}
+  const ctxT=$("#gCtx").value.trim();if(!gImg&&!ctxT){st.className="status err";st.textContent="Add a design image or describe the project.";return}
+  let blob=null;if(gImg){blob=await imageBlobForClaude(gImg);if(!blob){st.className="status err";st.textContent="Image review isn't available in this view. Describe the design instead.";return}}
+  const mode=$("#gMode").value;$("#gGo").disabled=true;st.textContent="Reviewing…";$("#gOut").innerHTML='<div class="brief" id="gT"></div>';
+  try{const r=await sample(`You are a senior graphic designer and creative director giving a professional review. Task: ${mode}. Context: ${ctxT||"(none given)"}.
+${gImg?"Review the attached design.":"No image; work from the description."} Be specific and actionable: name what works, what to fix (with concrete changes: sizes, weights, spacing, colour HEX values, alignment), and give 3 alternative directions. For typography suggest real typeface families with a reason. Do not invent facts about brands. Plain text with short headed sections, under 450 words, no markdown symbols.`,{modelTier:"complex",images:blob?[blob]:undefined,onText:({text})=>{$("#gT").textContent=text}});
+    $("#gT").textContent=r.text;st.textContent="Done.";const b=document.createElement("button");b.className="btn small ghost";b.type="button";b.textContent="Save to project";b.onclick=()=>saveProject({type:"critique",title:`${mode} · ${(ctxT||"design").slice(0,40)}`,data:{text:r.text,context:ctxT}});$("#gOut").appendChild(b);
+  }catch(err){st.className="status err";st.textContent=sampleErr(err)}finally{$("#gGo").disabled=false}});
+
+/* ---------- Files ---------- */
+async function saveFile(name,data,type){if(!downloads){toast("Downloads aren't available in this view");return}
+  try{await downloads.save({filename:name,data:typeof data==="string"?new Blob([data],{type}):data});toast("Saved "+name)}catch(e){if(e&&e.code!=="cancelled"&&e.code!=="declined")toast("Download didn't complete")}}
+
+/* ---------- Projects ---------- */
+const mine=()=>db.collection("data/users/"+S.uid);
+async function saveProject(p){if(!db||!S.uid){toast("Sign in to save projects");return}
+  try{const doc={...p,kind:"project",created:new Date().toISOString()};const s=JSON.stringify(doc);if(s.length>240000){toast("Too large to save");return}
+    const id="p_"+Date.now().toString(36)+Math.random().toString(36).slice(2,7);await mine().doc(id).set(doc);S.projects.unshift({...doc,_id:id});toast("Saved to My Projects")}catch(e){toast("Could not save: "+(e.message||e.code))}}
+async function loadProjects(){if(!db||!S.uid)return;try{const q=await mine().limit(1000).get();const all=q.docs.map(d=>({...d.data(),_id:d.id}));
+  S.projects=all.filter(x=>x.kind==="project").sort((a,b)=>String(b.created).localeCompare(String(a.created)));all.filter(x=>x.kind==="fav").forEach(x=>S.favs.set(x.trendId,x.trend));}catch(e){}
+  if(S.view==="projects")renderProjects();renderTrends()}
+const TYPE_L={concepts:"Design concepts",colourway:"Colourway",brief:"Trend brief",critique:"Design review"};
+function renderProjects(){const box=$("#projList");
+  if(!db||!S.uid){box.innerHTML='<div class="empty">Sign in to claude.ai to save and see projects.</div>';return}
+  const favs=[...S.favs.entries()];
+  let html="";
+  html+=`<div class="sec-h"><h2>Saved work</h2><span class="n">${S.projects.length}</span></div>`;
+  html+=S.projects.length?`<div class="grid">${S.projects.map(p=>`<article class="card"><div class="cardtop"><span class="pill p-recent">${esc(TYPE_L[p.type]||p.type)}</span><span class="muted mono" style="font-size:12px;margin-left:auto">${esc(fmtD((p.created||"").slice(0,10)))}</span></div><h3>${esc(p.title)}</h3>
+    ${p.type==="colourway"&&p.data&&p.data.thumb&&/^data:image\//.test(p.data.thumb)?`<img src="${esc(p.data.thumb)}" alt="Colourway preview" loading="lazy" style="border-radius:6px">${swatchRow(p.data.colors)}`:""}
+    ${p.data&&p.data.text?`<p style="font-size:13px;white-space:pre-wrap;max-height:120px;overflow:hidden">${esc(p.data.text.slice(0,400))}…</p>`:""}
+    ${p.type==="concepts"?`<p class="muted" style="font-size:13px">${(p.data.res.concepts||[]).length} concepts · ${esc(p.data.brief&&p.data.brief.season||"")}</p>`:""}
+    <div class="row" style="margin-top:auto"><button class="btn small" type="button" data-open="${esc(p._id)}">Open</button><button class="btn small ghost" type="button" data-dl="${esc(p._id)}">Download</button><span data-delwrap="${esc(p._id)}"><button class="btn small ghost" type="button" data-del="${esc(p._id)}">Delete</button></span></div></article>`).join("")}</div>`:'<div class="empty">Nothing saved yet. Save concepts, colourways, briefs or reviews from the Design Generator and Trend Research.</div>';
+  html+=`<div class="sec-h"><h2>Favourite trends</h2><span class="n">${favs.length}</span></div>`;
+  html+=favs.length?`<div class="grid">${favs.map(([id,t])=>t?trendCard({...t,_id:id}):"").join("")}</div>`:'<div class="empty">Star a trend card to keep it here.</div>';
+  html+='<div id="projOpen" style="margin-top:20px"></div>';
+  box.innerHTML=html;}
+$("#projList").addEventListener("click",async e=>{const t=e.target;
+  if(t.dataset.open){const p=S.projects.find(x=>x._id===t.dataset.open);const o=$("#projOpen");
+    if(p.type==="concepts"){o.innerHTML="";renderConcepts(p.data.res,o,{saved:true});}
+    else if(p.data&&p.data.text)o.innerHTML=`<div class="sec-h"><h2>${esc(p.title)}</h2></div><div class="brief">${esc(p.data.text)}</div>`;
+    else o.innerHTML=`<div class="sec-h"><h2>${esc(p.title)}</h2></div>${p.data.thumb&&/^data:image\//.test(p.data.thumb)?`<img src="${esc(p.data.thumb)}" alt="" style="border-radius:8px;max-width:420px">`:""}<div class="eyebrow" style="margin:10px 0 6px">Original</div>${swatchRow(p.data.original)}<div class="eyebrow" style="margin:10px 0 6px">Colourway</div>${swatchRow(p.data.colors)}`;
+    o.scrollIntoView({behavior:"smooth",block:"start"})}
+  if(t.dataset.dl){const p=S.projects.find(x=>x._id===t.dataset.dl);await saveFile(`designmind-${p.type}-${p._id}.json`,JSON.stringify(p,null,2),"application/json")}
+  if(t.dataset.del){const w=t.parentElement;const id=t.dataset.del;w.innerHTML=`<span class="confirm">Delete for good? <button class="btn small" type="button" data-delyes="${esc(id)}">Delete</button><button class="btn small ghost" type="button" data-delno="1">Keep</button></span>`}
+  if(t.dataset.delno){renderProjects()}
+  if(t.dataset.delyes){try{await mine().doc(t.dataset.delyes).delete();S.projects=S.projects.filter(x=>x._id!==t.dataset.delyes);toast("Deleted");renderProjects()}catch(err){toast("Could not delete")}}
+  const fb=t.closest&&t.closest("[data-fav]");if(fb){const id=fb.dataset.fav;S.favs.delete(id);try{await mine().doc("f_"+id).delete()}catch(err){}renderProjects()}
+});
+
+/* ---------- Settings (GitHub Pages version) ---------- */
+if(window.DM_STATIC){const D=window.DM_STATIC;$("#navSettings").hidden=false;$("#liveLink").hidden=false;
+  const repo=D.repoUrl();if(repo){$("#liveLink").href=repo+"/actions";$("#liveLink").target="_blank";$("#liveLink").rel="noopener";$("#sResearch").innerHTML=`Research is refreshed every week by GitHub. To run it now, open <a href="${esc(repo)}/actions" target="_blank" rel="noopener">your repository's Actions</a>, choose <b>Update trend research</b> and press Run workflow.`}
+  fillSel($("#sProv"),Object.entries(D.presets).map(([k,v])=>[k,v.label]));
+  const showS=()=>{const s=D.loadSettings();const p=s.provider||"gemini";$("#sProv").value=p;const pre=D.presets[p]||{};$("#sKey").value=s.key||"";$("#sModel").value=s.model||pre.model||"";$("#sBase").value=s.base||pre.base||"";$("#sImg").checked=s.images!==false;
+    $("#sKeyWrap").hidden=p==="ollama"||p==="off";$("#sBaseWrap").hidden=!pre.base;$("#sModel").parentElement.hidden=p==="off"};
+  $("#sProv").addEventListener("change",()=>{const p=$("#sProv").value,pre=D.presets[p]||{},s=D.loadSettings();D.saveSettings({...s,provider:p,model:pre.model||"",base:pre.base||"",key:p===s.provider?s.key:""});showS()});
+  $("#setForm").addEventListener("submit",e=>{e.preventDefault();D.saveSettings({provider:$("#sProv").value,key:$("#sKey").value.trim(),model:$("#sModel").value.trim(),base:$("#sBase").value.trim(),images:$("#sImg").checked});$("#sStatus").className="status";$("#sStatus").textContent="Saved."});
+  $("#sTest").addEventListener("click",async()=>{$("#setForm").requestSubmit();const st=$("#sStatus");st.className="status";st.textContent="Testing…";try{const sm=sample||await window.claude.use("sample");const r=await sm("Reply with exactly: DesignMind AI is connected.",{cache:false});st.textContent="Working: "+r.text.trim().slice(0,80)}catch(e){st.className="status err";st.textContent=e.message||"Test failed"}});
+  $("#bExp").addEventListener("click",async()=>{try{await saveFile(`designmind-backup-${new Date().toISOString().slice(0,10)}.json`,await D.exportBackup(),"application/json");$("#bStatus").textContent="Backup downloaded."}catch(e){$("#bStatus").textContent="Backup failed."}});
+  $("#bImp").addEventListener("click",()=>$("#bFile").click());
+  $("#bFile").addEventListener("change",async()=>{const f=$("#bFile").files[0];if(!f)return;try{const n=await D.importBackup(await f.text());$("#bStatus").textContent=`Imported ${n} items.`;S.projects=[];S.favs.clear();loadProjects()}catch(e){$("#bStatus").textContent=e.message}});
+  showS();
+  const ib=$("#installBtn");const syncInstall=()=>{ib.hidden=!D.canInstall();$("#installState").textContent=D.installed()?"Installed: you are using the app version.":""};
+  document.addEventListener("dm-installable",syncInstall);document.addEventListener("dm-installed",()=>{syncInstall();toast("DesignMind installed")});
+  ib.addEventListener("click",async()=>{if(await D.install())toast("Installing…");syncInstall()});syncInstall();}
+
+/* ---------- Boot ---------- */
+route();renderTrends();renderFabrics();
+(async function boot(){
+  const timer=setTimeout(()=>{if(S.dbState==="loading"){S.dbState="unavailable";renderTrends();renderFabrics()}},10000);
+  const [d,u,s,dl]=await Promise.all(["db","user","sample","downloads"].map(n=>window.claude&&window.claude.use?window.claude.use(n).catch(()=>null):Promise.resolve(null)));
+  db=d;user=u;sample=s;downloads=dl;
+  if(!db){clearTimeout(timer);S.dbState="unavailable";renderTrends();renderFabrics();return}
+  try{if(user&&user.id)S.uid=await user.id()}catch(e){}
+  try{const fq=await db.collection("fabrics").limit(100).get();S.fabrics=fq.docs.map(x=>({...x.data(),id:x.data().id||x.id})).sort((a,b)=>(a.order??99)-(b.order??99));fillFabricSelect()}catch(e){}
+  S.dbState="ready";clearTimeout(timer);
+  await loadCountry(S.country);renderFabrics();loadProjects();
+})();
+})();
+</script>
+
+</body>
+</html>

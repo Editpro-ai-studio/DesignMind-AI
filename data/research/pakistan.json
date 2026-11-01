@@ -1,0 +1,672 @@
+{
+ "country": "Pakistan",
+ "slug": "pakistan",
+ "researched_on": "2026-11-01",
+ "method": "snapshot",
+ "season_context": {
+  "hemisphere": "northern",
+  "current_fashion_season": "Autumn/Winter 2026 (AW26); winter and wedding season",
+  "local_season_notes": "Cool, dry winter from November to February, colder in the north, so khaddar, karandi and velvet ranges sell now. Wedding season runs roughly November to February. Ramadan is expected around February 2027, with Eid ul-Fitr around 9-11 March 2027, followed by the summer lawn season.",
+  "upcoming_season": "Spring/Summer 2027 (Eid ul-Fitr and lawn 2027)",
+  "sources": [
+   {
+    "title": "Winter Dresses 2026 - Gul Ahmed",
+    "url": "https://www.gulahmedshop.com/blogs/news/winter-dresses",
+    "published": "2026-10-13"
+   },
+   {
+    "title": "Eid ul-Fitr in Pakistan (2027)",
+    "url": "https://www.officeholidays.com/amp/holidays/pakistan/eid-al-fitr",
+    "published": "unknown"
+   },
+   {
+    "title": "The complete guide to choosing your Pakistani bridal dress in 2026",
+    "url": "https://zarashahjahan.com/blogs/news/the-complete-guide-to-choosing-your-pakistani-bridal-dress-in-2026",
+    "published": "2026-06-11"
+   }
+  ]
+ },
+ "trends": [
+  {
+   "country": "pakistan",
+   "countryName": "Pakistan",
+   "category": "fabrics",
+   "status": "observed",
+   "name": "Heavier printed khaddar",
+   "summary": "Gul Ahmed's winter 2026 range centres on printed khaddar and cotton, with this season's khaddar given a weightier hand aimed at shoppers in colder parts of the country; some unstitched sets add small embroidered panels or borders.",
+   "season": "Winter 2026",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "Gul Ahmed (brand blog)",
+   "source_url": "https://www.gulahmedshop.com/blogs/news/winter-dresses",
+   "published": "2026-10-13",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "pakistan",
+   "countryName": "Pakistan",
+   "category": "prints",
+   "status": "observed",
+   "name": "Geometric and abstract over florals",
+   "summary": "For winter 2026, Gul Ahmed reports that bolder geometric and abstract motifs are displacing classic floral layouts on printed winter suits.",
+   "season": "Winter 2026",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "Gul Ahmed (brand blog)",
+   "source_url": "https://www.gulahmedshop.com/blogs/news/winter-dresses",
+   "published": "2026-10-13",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "pakistan",
+   "countryName": "Pakistan",
+   "category": "colors",
+   "status": "observed",
+   "name": "Earthy winter neutrals",
+   "summary": "Winter 2026 prints lean on warm, grounded shades such as burnt sienna, camel, moss green and a dusty rose, per Gul Ahmed's season guide.",
+   "season": "Winter 2026",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "Gul Ahmed (brand blog)",
+   "source_url": "https://www.gulahmedshop.com/blogs/news/winter-dresses",
+   "published": "2026-10-13",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "pakistan",
+   "countryName": "Pakistan",
+   "category": "fabrics",
+   "status": "observed",
+   "name": "Embroidered karandi three-piece suits",
+   "summary": "NAQSHI's winter launch uses textured karandi as the base for three-piece suits with embroidered shirts, matching trousers and dupatta, combining contrast trims with traditional shalwar-and-long-shirt shapes.",
+   "season": "Winter 2026",
+   "gender": "female",
+   "ages": [
+    "26-40",
+    "41-60"
+   ],
+   "source": "NAQSHI press release via AB Newswire",
+   "source_url": "https://www.abnewswire.com/pressreleases/naqshi-introduces-velvet-and-karandi-designs-for-pakistans-winter-fashion-season_842472.html",
+   "published": "2026-10-19",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "pakistan",
+   "countryName": "Pakistan",
+   "category": "silhouettes",
+   "status": "observed",
+   "name": "Velvet capes, gowns and culottes",
+   "summary": "Velvet is being cut into fluid shapes such as capes, long gown-style shirts and flared or culotte bottoms, sometimes with silk accents, according to NAQSHI's October winter release.",
+   "season": "Winter 2026",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "NAQSHI press release via AB Newswire",
+   "source_url": "https://www.abnewswire.com/pressreleases/naqshi-introduces-velvet-and-karandi-designs-for-pakistans-winter-fashion-season_842472.html",
+   "published": "2026-10-19",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "pakistan",
+   "countryName": "Pakistan",
+   "category": "luxury",
+   "status": "observed",
+   "name": "Luxury pret in raw silk and khaddar",
+   "summary": "Zara Shahjahan's fall 2026 luxury pret uses dense slub cotton, fine cambric, pure raw silk and textured khaddar, with sleek cuts and vintage hand-knit references for an autumn wardrobe.",
+   "season": "Fall 2026",
+   "gender": "female",
+   "ages": [
+    "26-40",
+    "41-60"
+   ],
+   "source": "Zara Shahjahan (brand journal)",
+   "source_url": "https://us.zarashahjahan.com/blogs/news/pakistani-luxury-pret-fall-2026-shop-zara-shahjahan-intl",
+   "published": "2026-09-03",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "pakistan",
+   "countryName": "Pakistan",
+   "category": "embroidery",
+   "status": "observed",
+   "name": "Resham garlands and lattice borders",
+   "summary": "Fall luxury pret features fine resham floral garlands, geometric lattice borders and collar embroidery, finished with scalloped hems, organza panels and buttoned sleeves.",
+   "season": "Fall 2026",
+   "gender": "female",
+   "ages": [
+    "26-40",
+    "41-60"
+   ],
+   "source": "Zara Shahjahan (brand journal)",
+   "source_url": "https://us.zarashahjahan.com/blogs/news/pakistani-luxury-pret-fall-2026-shop-zara-shahjahan-intl",
+   "published": "2026-09-03",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "pakistan",
+   "countryName": "Pakistan",
+   "category": "seasonal",
+   "status": "observed",
+   "name": "Jewel tones replace summer pastels",
+   "summary": "Autumn collections swap pastels for deep shades such as midnight black, emerald, ochre, terracotta and sapphire, per Zara Shahjahan's fall 2026 pret notes.",
+   "season": "Fall 2026",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "Zara Shahjahan (brand journal)",
+   "source_url": "https://us.zarashahjahan.com/blogs/news/pakistani-luxury-pret-fall-2026-shop-zara-shahjahan-intl",
+   "published": "2026-09-03",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "pakistan",
+   "countryName": "Pakistan",
+   "category": "dress_styles",
+   "status": "recent",
+   "name": "Sheer organza peshwas",
+   "summary": "Multi-panelled peshwas in very light sheer organza or net are being pitched for daytime nikkah events and family gatherings ahead of the wedding season.",
+   "season": "Wedding season 2026-27",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "Zara Shahjahan (brand journal)",
+   "source_url": "https://zarashahjahan.com/blogs/news/top-festive-dress-trends-for-weddings-and-mehndi-ceremonies-in-2026",
+   "published": "2026-06-29",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "pakistan",
+   "countryName": "Pakistan",
+   "category": "embroidery",
+   "status": "recent",
+   "name": "Gota and mukesh over plastic sequins",
+   "summary": "Handmade metallic gota and mukesh appliqué is favoured over cheap sequins for mehndi and festive wear, alongside tone-on-tone threadwork and white chikankari shadow edges.",
+   "season": "Wedding season 2026-27",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "Zara Shahjahan (brand journal)",
+   "source_url": "https://zarashahjahan.com/blogs/news/top-festive-dress-trends-for-weddings-and-mehndi-ceremonies-in-2026",
+   "published": "2026-06-29",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "pakistan",
+   "countryName": "Pakistan",
+   "category": "formal",
+   "status": "recent",
+   "name": "Festive ready-to-wear instead of tailoring",
+   "summary": "Shoppers are buying pre-stitched luxury festive outfits rather than waiting on custom tailoring, with ready pieces also used for dholkis and pre-wedding dinners.",
+   "season": "Wedding season 2026-27",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "Zara Shahjahan (brand journal)",
+   "source_url": "https://zarashahjahan.com/blogs/news/top-festive-dress-trends-for-weddings-and-mehndi-ceremonies-in-2026",
+   "published": "2026-06-29",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "pakistan",
+   "countryName": "Pakistan",
+   "category": "dress_styles",
+   "status": "recent",
+   "name": "Farshi gharara revival",
+   "summary": "Floor-sweeping farshi ghararas, often in jamawar or Banarasi silk, are returning for main wedding days, typically paired with a double-dupatta drape on the barat.",
+   "season": "Wedding season 2026-27",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "Zara Shahjahan (brand journal)",
+   "source_url": "https://zarashahjahan.com/blogs/news/the-complete-guide-to-choosing-your-pakistani-bridal-dress-in-2026",
+   "published": "2026-06-11",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "pakistan",
+   "countryName": "Pakistan",
+   "category": "luxury",
+   "status": "recent",
+   "name": "Hand vasli, marori and tilla work",
+   "summary": "Bridal ateliers are leaning back toward hand-guided vasli embroidery, marori threadwork and tilla wiring instead of machine beadwork, with softer drape and historical motifs.",
+   "season": "Wedding season 2026-27",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "Zara Shahjahan (brand journal)",
+   "source_url": "https://zarashahjahan.com/blogs/news/the-complete-guide-to-choosing-your-pakistani-bridal-dress-in-2026",
+   "published": "2026-06-11",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "pakistan",
+   "countryName": "Pakistan",
+   "category": "colors",
+   "status": "recent",
+   "name": "Ceremony-coded bridal palette",
+   "summary": "Bridal guidance maps colour to event: ivory, alabaster or blush for nikkah; deep reds and wine for barat; sage, tea rose and gold for walima.",
+   "season": "Wedding season 2026-27",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "Zara Shahjahan (brand journal)",
+   "source_url": "https://zarashahjahan.com/blogs/news/the-complete-guide-to-choosing-your-pakistani-bridal-dress-in-2026",
+   "published": "2026-06-11",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "pakistan",
+   "countryName": "Pakistan",
+   "category": "silhouettes",
+   "status": "historical",
+   "name": "Elongated angrakha-style pishwas",
+   "summary": "At the December 2025 Bridal Couture Week in Lahore, bridal looks moved toward longer, fluid shapes such as angrakha-cut pishwas, in muted maroon, ivory and cream so the handwork stands out.",
+   "season": "Wedding season 2025-26",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "The Express Tribune",
+   "source_url": "https://tribune.com.pk/story/2583155/pakistan-bridal-couture-week-kicks-off-in-lahore",
+   "published": "2025-12-20",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "pakistan",
+   "countryName": "Pakistan",
+   "category": "formal",
+   "status": "historical",
+   "name": "Fusion groomswear",
+   "summary": "Menswear at Bridal Couture Week in December 2025 blended sherwanis with suits, waistcoats and structured jackets in browns, blacks and muted neutrals.",
+   "season": "Wedding season 2025-26",
+   "gender": "male",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "The Express Tribune",
+   "source_url": "https://tribune.com.pk/story/2583155/pakistan-bridal-couture-week-kicks-off-in-lahore",
+   "published": "2025-12-20",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "pakistan",
+   "countryName": "Pakistan",
+   "category": "formal",
+   "status": "historical",
+   "name": "Pale winter glam for weddings",
+   "summary": "A January 2026 YOU magazine shoot of Yasmin Zaman pieces showed icy mint, sage, blush and champagne lehengas, sarees and kurtas with dense handwork for winter weddings.",
+   "season": "Wedding season 2025-26",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "The News (YOU magazine)",
+   "source_url": "https://www.thenews.pk/magazine/you/1390796-turn-up-the-winter-glam",
+   "published": "2026-01-06",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "pakistan",
+   "countryName": "Pakistan",
+   "category": "casual",
+   "status": "recent",
+   "name": "Slimmer, quieter menswear",
+   "summary": "Men's 2026 eastern wear is moving to slimmer kameez, tapered shalwar and minimal detailing in earthy beige, olive, terracotta and brown, with kurtas paired with slim trousers.",
+   "season": "2026",
+   "gender": "male",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "Alkaram Studio (brand blog)",
+   "source_url": "https://www.alkaramstudio.com/blogs/pages/gents-cloth-design-top-trends-for-mens-clothing-in-2026",
+   "published": "2026-05-21",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "low",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "pakistan",
+   "countryName": "Pakistan",
+   "category": "formal",
+   "status": "recent",
+   "name": "Textured waistcoats over kurtas",
+   "summary": "Textured waistcoats in jacquard, raw silk or light embroidery, often in maroon, navy or bottle green, are used to dress up kurtas for winter functions; kurta-trouser pairings are gaining ground at weddings.",
+   "season": "Winter 2026",
+   "gender": "male",
+   "ages": [
+    "26-40",
+    "41-60"
+   ],
+   "source": "Alkaram Studio (brand blog)",
+   "source_url": "https://www.alkaramstudio.com/blogs/pages/men-kurta-shalwar-kameez-and-waistcoat-the-complete-stitched-menswear-guide-pakistan-2026",
+   "published": "2026-07-24",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "low",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "pakistan",
+   "countryName": "Pakistan",
+   "category": "streetwear",
+   "status": "observed",
+   "name": "Craft-led streetwear goes global",
+   "summary": "Lahore label Rastah, which merges handloom and block printing with streetwear shapes, joined the BoF 500 in 2026; the US is its largest overseas market.",
+   "season": "2026",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "Arab News Pakistan",
+   "source_url": "https://www.arabnews.pk/pakistan/two-pakistani-designers-feature-in-influential-bof-500-global-fashion-index-3003213",
+   "published": "2026-10-05",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "high",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "pakistan",
+   "countryName": "Pakistan",
+   "category": "printing_techniques",
+   "status": "observed",
+   "name": "Hand block printing in contemporary wear",
+   "summary": "Rastah's profitability is credited to using traditional hand looms and block printing on streetwear-inflected garments, showing heritage techniques moving into youth fashion.",
+   "season": "2026",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "Arab News Pakistan",
+   "source_url": "https://www.arabnews.pk/pakistan/two-pakistani-designers-feature-in-influential-bof-500-global-fashion-index-3003213",
+   "published": "2026-10-05",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "pakistan",
+   "countryName": "Pakistan",
+   "category": "modest",
+   "status": "recent",
+   "name": "Longer shirts and fuller sleeves",
+   "summary": "Everyday women's wear in 2026 keeps modest proportions, with longer shirts, fuller sleeves and optional dupattas, while still using colour and print.",
+   "season": "2026",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "Sahraa (brand style journal)",
+   "source_url": "https://sahraapk.com/blogs/style-journal/pakistani-women-trends-2026",
+   "published": "2026-07-29",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "low",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "pakistan",
+   "countryName": "Pakistan",
+   "category": "casual",
+   "status": "recent",
+   "name": "Relaxed two- and three-piece suits",
+   "summary": "Straight, relaxed and A-line shirts worn with straight, wide-leg or cigarette trousers dominate everyday two- and three-piece suits, often with the dupatta as the focal point.",
+   "season": "2026",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "Sahraa (brand style journal)",
+   "source_url": "https://sahraapk.com/blogs/style-journal/pakistani-women-trends-2026",
+   "published": "2026-07-29",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "low",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "pakistan",
+   "countryName": "Pakistan",
+   "category": "emerging",
+   "status": "emerging",
+   "name": "Eco and year-round fabrics",
+   "summary": "Retailers note growing interest in organic cotton, bamboo and other lower-impact cloths, plus mid-weight cambric that works across seasons.",
+   "season": "2026",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "MTJ (brand blog)",
+   "source_url": "https://mtjonline.com/blogs/blog/top-unstitched-3-piece-suit-trends-pakistani-women-are-loving-in-2026",
+   "published": "2026-05-04",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "low",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "pakistan",
+   "countryName": "Pakistan",
+   "category": "emerging",
+   "status": "recent",
+   "name": "Woven garments lead export growth",
+   "summary": "In July-March FY26, Pakistan's woven (non-knit) apparel exports grew about 3.8% while knitwear slipped, making finished garments the most resilient part of textile exports.",
+   "season": "FY26",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "TEXtalks",
+   "source_url": "https://textalks.com/pakistans-value-added-textile-exports-rise-to-11-3bn-as-garments-cushion-sector-pressure/",
+   "published": "2026-05-14",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "pakistan",
+   "countryName": "Pakistan",
+   "category": "casual",
+   "status": "recent",
+   "name": "Quiet-luxury pastel co-ords",
+   "summary": "Summer 2026 favoured solid pastel two-piece sets with contrast stitching, botanical watercolour prints and mid-length straight shirts with wide culottes.",
+   "season": "Summer 2026",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "Coco by Zara Shahjahan (brand journal)",
+   "source_url": "https://www.cocobyzarashahjahan.com/blogs/news/top-summer-fashion-trends-in-pakistan-2026-the-ultimate-style-guide",
+   "published": "2026-06-29",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "low",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "pakistan",
+   "countryName": "Pakistan",
+   "category": "printing_techniques",
+   "status": "historical",
+   "name": "Digital printing on lawn",
+   "summary": "Lawn guidance for summer 2026 credited digital printing with sharper detail and smoother colour gradation, used for cleaner floral and nature motifs.",
+   "season": "Summer 2026",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "Iznik Fashions (brand blog)",
+   "source_url": "https://iznikfashions.com/blogs/news/lawn-trends-2026-colours-prints-design-direction-for-pakistani-summers",
+   "published": "2026-02-13",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "low",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "pakistan",
+   "countryName": "Pakistan",
+   "category": "prints",
+   "status": "forecast",
+   "name": "Zoomed florals and reworked paisley",
+   "summary": "Global SS27 print forecasts point to oversized close-up florals, soft-focus gradients and a paisley revival; relevant to Pakistan's 2027 lawn season, though not Pakistan-specific.",
+   "season": "SS27 / Lawn 2027",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "The Design Agent (citing WGSN)",
+   "source_url": "https://www.thedesignagent.com/blog-posts/ss27-trend-forecast",
+   "published": "2026-09-30",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "low",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "pakistan",
+   "countryName": "Pakistan",
+   "category": "prints",
+   "status": "forecast",
+   "name": "Nautical, gingham and retro geometrics for kids",
+   "summary": "SS27 kidswear print forecasts highlight sea-creature and anchor motifs, vintage geometric shapes and gingham mixed with fruit or flowers; a global signal for 2027 kids lawn and casual lines.",
+   "season": "SS27",
+   "gender": "kids",
+   "ages": [
+    "0-2",
+    "3-7",
+    "8-12"
+   ],
+   "source": "The Design Agent (citing WGSN)",
+   "source_url": "https://www.thedesignagent.com/blog-posts/ss27-trend-forecast",
+   "published": "2026-09-30",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "low",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "pakistan",
+   "countryName": "Pakistan",
+   "category": "seasonal",
+   "status": "forecast",
+   "name": "Early-March Eid 2027 window",
+   "summary": "Eid ul-Fitr 2027 is expected around 9-11 March, subject to moon sighting, so Eid festive launches will fall at the end of winter in 2027.",
+   "season": "Eid 2027",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "Office Holidays",
+   "source_url": "https://www.officeholidays.com/amp/holidays/pakistan/eid-al-fitr",
+   "published": "unknown",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "low",
+   "method": "researched-snapshot"
+  }
+ ]
+}

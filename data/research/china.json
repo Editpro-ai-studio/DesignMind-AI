@@ -1,0 +1,644 @@
+{
+ "country": "China",
+ "slug": "china",
+ "researched_on": "2026-11-01",
+ "method": "snapshot",
+ "season_context": {
+  "hemisphere": "northern",
+  "current_fashion_season": "Autumn/Winter 2026 (AW26)",
+  "local_season_notes": "Climate ranges from harsh northern winters, where down outerwear is essential, to milder southern cities. November's Singles' Day sales open peak season, followed by year-end and Spring Festival (Lunar New Year, early 2027) buying of red, festive and new-Chinese-style clothing. Shanghai Fashion Week SS27 ran in October.",
+  "upcoming_season": "Spring/Summer 2027 (SS27)",
+  "sources": [
+   {
+    "title": "Shanghai Fashion Week SS27 to draw nearly a thousand brands (Yicai Global)",
+    "url": "https://www.yicaiglobal.com/news/shanghai-fashion-week-springsummer-2027-to-draw-nearly-a-thousand-brands",
+    "published": "2026-09-23"
+   },
+   {
+    "title": "Bosideng Paris Fashion Week debut (Malay Mail / Media Outreach)",
+    "url": "https://www.malaymail.com/news/money/mediaoutreach/2026/10/15/bosideng-makes-official-paris-fashion-week-debut-with-50th-anniversary-show-the-bloom/494083",
+    "published": "2026-10-15"
+   },
+   {
+    "title": "Adidas taps New Chinese Style (China Daily)",
+    "url": "https://global.chinadaily.com.cn/a/202604/08/WS69d66f23a310d6866eb424db_2.html",
+    "published": "2026-04-08"
+   }
+  ]
+ },
+ "trends": [
+  {
+   "country": "china",
+   "countryName": "China",
+   "category": "dress_styles",
+   "status": "recent",
+   "name": "New Chinese style goes mainstream and global",
+   "summary": "Xin zhongshi blends Chinese elements with modern design using easier fabrics and looser cuts, such as relaxed qipao shapes; after a viral clip, Western houses including Ralph Lauren, Kenzo and Lemaire echoed it for fall 2026.",
+   "season": "AW26",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "China Daily",
+   "source_url": "https://global.chinadaily.com.cn/a/202604/08/WS69d66f23a310d6866eb424db_2.html",
+   "published": "2026-04-08",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "high",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "china",
+   "countryName": "China",
+   "category": "streetwear",
+   "status": "recent",
+   "name": "Frog-button track tops",
+   "summary": "Adidas Originals' Lunar New Year track jacket, with mandarin collar and frog fastenings at around 1,000 yuan, sold out across China before Spring Festival and spawned resale premiums and lookalikes abroad.",
+   "season": "AW26",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "China Daily Hong Kong",
+   "source_url": "https://www.chinadailyhk.com/article/631689",
+   "published": "2026-04-09",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "high",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "china",
+   "countryName": "China",
+   "category": "dress_styles",
+   "status": "recent",
+   "name": "Horse-face skirt demand surge",
+   "summary": "Orders for the pleated mamianqun in Caoxian, China's hanfu hub, reportedly ran about ten times higher in early 2026 than a year earlier, with makers blending in international styling and exporting to dozens of countries.",
+   "season": "2026",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "People's Daily Online",
+   "source_url": "https://en.people.cn/n3/2026/0413/c98649-20445920.html",
+   "published": "2026-04-13",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "china",
+   "countryName": "China",
+   "category": "fabrics",
+   "status": "recent",
+   "name": "Lighter heritage brocades",
+   "summary": "Producers are modernising traditional brocades: Yun brocade patterns on horse-face skirts and Zhuang brocade woven on jacquard lines to cut weight, feeding a new-Chinese-style market said to exceed 100 billion yuan.",
+   "season": "2026",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "People's Daily Online",
+   "source_url": "https://en.people.cn/n3/2026/0122/c90000-20417414.html",
+   "published": "2026-01-22",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "china",
+   "countryName": "China",
+   "category": "embroidery",
+   "status": "recent",
+   "name": "Metallic embroidery and cross-stitch zodiac motifs",
+   "summary": "For Lunar New Year 2026, Burberry redrew its Knight emblem as an ink-and-watercolour horse rendered in metallic embroidery, cross-stitch and appliqued badges, anchored by an exclusive red check.",
+   "season": "CNY 2026",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "Burberry plc",
+   "source_url": "https://www.burberryplc.com/news/brand/2026/burberry-celebrates-the-year-of-the-horse-2026",
+   "published": "2026-01-05",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "high",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "china",
+   "countryName": "China",
+   "category": "luxury",
+   "status": "recent",
+   "name": "Zodiac jacquard and red knitwear capsules",
+   "summary": "Thom Browne's Year of the Horse range used horse embroidery, jacquard and leatherwork, intarsia cardigans and red knits, showing how luxury houses localise festive drops for Chinese shoppers.",
+   "season": "CNY 2026",
+   "gender": "unisex",
+   "ages": [
+    "26-40",
+    "41-60"
+   ],
+   "source": "Jing Daily",
+   "source_url": "https://jingdaily.com/intels/2026-01/07/thom-browne-unveils-chinese-new-year-collection",
+   "published": "unknown",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "low",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "china",
+   "countryName": "China",
+   "category": "luxury",
+   "status": "recent",
+   "name": "Cautious recovery, local brands and resale",
+   "summary": "Bain expects China's personal luxury market to edge back to modest growth in 2026 after two years of decline, with domestic brands gaining share and secondhand luxury expanding 15-20 percent in 2025.",
+   "season": "2026",
+   "gender": "unisex",
+   "ages": [
+    "26-40",
+    "41-60"
+   ],
+   "source": "Jing Daily",
+   "source_url": "https://jingdaily.com/intels/2026-01/29/bain-forecasts-modest-growth-for-china-luxury-in-2026",
+   "published": "unknown",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "low",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "china",
+   "countryName": "China",
+   "category": "luxury",
+   "status": "recent",
+   "name": "Artisanal upcycling on the Shanghai runway",
+   "summary": "Maison Margiela's first show outside Paris closed Shanghai AW26, mixing ready-to-wear with couture built from porcelain, beeswax and upcycled vintage pieces.",
+   "season": "AW26",
+   "gender": "unisex",
+   "ages": [
+    "26-40",
+    "41-60"
+   ],
+   "source": "Pameyla / Lifestyle Asia",
+   "source_url": "https://pameyla.bearblog.dev/shanghai-fashion-week-fall-winter-2026-shows-maison-margiela-shushutong-mark-gong-susan-fang/",
+   "published": "2026-04-02",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "high",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "china",
+   "countryName": "China",
+   "category": "seasonal",
+   "status": "observed",
+   "name": "Down jackets as fashion statements",
+   "summary": "Bosideng's 50th-anniversary Paris debut presented down as sculptural eveningwear and city tailoring, mixing Song brocade, Shanghai qipao-style cutting and Art Deco lines and ending with pink down evening looks.",
+   "season": "AW26",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "Malay Mail / Media Outreach",
+   "source_url": "https://www.malaymail.com/news/money/mediaoutreach/2026/10/15/bosideng-makes-official-paris-fashion-week-debut-with-50th-anniversary-show-the-bloom/494083",
+   "published": "2026-10-15",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "china",
+   "countryName": "China",
+   "category": "seasonal",
+   "status": "recent",
+   "name": "Coquettish bows and faux fur",
+   "summary": "Shanghai AW26 leaned on girlish bows, nostalgic colour pairings and faux fur, often fusing them as fur stoles knotted into oversized bows on 1930s-inspired silhouettes at labels such as Shushu/Tong.",
+   "season": "AW26",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "Harper's Bazaar Malaysia",
+   "source_url": "https://harpersbazaar.my/fashion/runway/shanghai-fashion-aw2026-highlights/",
+   "published": "2026-05-01",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "china",
+   "countryName": "China",
+   "category": "prints",
+   "status": "recent",
+   "name": "Animal prints and bubble skirts",
+   "summary": "Jacques Wei paired leopard and other animal-print outerwear with bubble skirts, colourful tights and leather for AW26, while Xu Zhi moved from military coats to leopard and iridescent satins.",
+   "season": "AW26",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "Hypebae",
+   "source_url": "https://hypebae.com/2026/3/shanghai-fashion-week-fw26-shushu-tong-mark-gong-oude-waag-runways",
+   "published": "2026-04-04",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "china",
+   "countryName": "China",
+   "category": "fabrics",
+   "status": "observed",
+   "name": "Premium natural fibres and elastane-free stretch",
+   "summary": "Intertextile Shanghai's August fair spotlighted organic cotton, linen, Lenzing fibres, silk and cashmere, plus wool-cashmere-mohair stretch cloth made without elastane that resists creasing.",
+   "season": "AW26",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "Textile World",
+   "source_url": "https://www.textileworld.com/textile-world/knitting-apparel/2026/08/global-sourcing-re-imagined-as-intertextile-apparel-champions-sustainability-craftsmanship-and-digitalization/",
+   "published": "2026-08-16",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "china",
+   "countryName": "China",
+   "category": "printing_techniques",
+   "status": "observed",
+   "name": "Low-impact dyeing and finishing",
+   "summary": "Denim mills at Intertextile Shanghai showed waterless finishing and lower-impact indigo dyeing, while surface-design and embroidery exhibitors mixed technical innovation with handwork and handloomed heritage cloth.",
+   "season": "AW26",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "Textile World",
+   "source_url": "https://www.textileworld.com/textile-world/knitting-apparel/2026/08/global-sourcing-re-imagined-as-intertextile-apparel-champions-sustainability-craftsmanship-and-digitalization/",
+   "published": "2026-08-16",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "china",
+   "countryName": "China",
+   "category": "emerging",
+   "status": "emerging",
+   "name": "Climate-adaptive and pet textiles",
+   "summary": "Intertextile's 2026 autumn edition added a pet-apparel fabric zone and a lab for fabrics that regulate temperature and humidity, signalling new demand from pet fashion and hotter, more variable climates.",
+   "season": "2026",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "Textile World",
+   "source_url": "https://www.textileworld.com/textile-world/2026/05/intertextile-apparel-returns-this-august-with-new-focus-on-pet-textiles-and-climate-adaptive-innovation/",
+   "published": "2026-05-15",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "china",
+   "countryName": "China",
+   "category": "casual",
+   "status": "recent",
+   "name": "Premium activewear as new luxury",
+   "summary": "Chinese shoppers kept trading up in sports and outdoor gear, treating premium activewear as health-linked luxury; running and hiking lead activities and outdoor events for children have multiplied over the past decade.",
+   "season": "2026",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "SGI Europe",
+   "source_url": "https://www.sgieurope.com/consumer/chinese-consumers-between-love-for-the-outdoors-and-pursuit-of-premium-activewear/118369.article",
+   "published": "unknown",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "low",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "china",
+   "countryName": "China",
+   "category": "streetwear",
+   "status": "historical",
+   "name": "Gorpcore as a fashion cycle",
+   "summary": "Context from late 2025: much technical outdoor gear in China is bought for status and style rather than performance, with rental and resale growing and analysts expecting a split between image-led and specialist brands.",
+   "season": "Context",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "KrASIA",
+   "source_url": "https://kr-asia.com/in-china-the-outdoor-boom-is-starting-to-look-more-like-a-fashion-cycle-than-a-lifestyle-shift",
+   "published": "2025-10-16",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "china",
+   "countryName": "China",
+   "category": "colors",
+   "status": "recent",
+   "name": "Samoyed white",
+   "summary": "Pantone's white colour of the year was renamed Samoyed white on Xiaohongshu, with young consumers linking white clothing to calm, healing and emotional-luxury moods.",
+   "season": "2026",
+   "gender": "female",
+   "ages": [
+    "18-25"
+   ],
+   "source": "Jing Daily",
+   "source_url": "https://jingdaily.com/posts/chinese-consumers-react-to-cloud-dancer",
+   "published": "2025-12-10",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "china",
+   "countryName": "China",
+   "category": "colors",
+   "status": "historical",
+   "name": "Autumn palette from China Fashion Week",
+   "summary": "Earlier season context: Pantone's Beijing AW25/26 report featured calming greens, blue-greys, red ochre, creamy beige, soft pink and roast brown as key runway shades.",
+   "season": "AW25",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "Pantone",
+   "source_url": "https://www.pantone.com/articles/fashion-color-trend-report/china-fashion-week-report-2526",
+   "published": "2025-09-16",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "china",
+   "countryName": "China",
+   "category": "emerging",
+   "status": "emerging",
+   "name": "Guochao 3.0: heritage and regional craft",
+   "summary": "Jing Daily lists a third wave of national-trend consumption centred on intangible cultural heritage and regional identity, alongside a 'less but better' shift toward fewer, higher-quality purchases.",
+   "season": "2026",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "Jing Daily",
+   "source_url": "https://jingdaily.com/posts/top-12-chinese-consumer-trends-to-watch-in-2026",
+   "published": "2026-03-16",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "low",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "china",
+   "countryName": "China",
+   "category": "formal",
+   "status": "recent",
+   "name": "Bespoke qipao and heritage tailoring",
+   "summary": "Shanghai's couture and tailoring festival pushed made-to-measure qipao, suits and new-Chinese-style wear, with kesi weaving, blue calico and hand embroidery demonstrations and AI-based remote measuring.",
+   "season": "2026",
+   "gender": "unisex",
+   "ages": [
+    "26-40",
+    "41-60"
+   ],
+   "source": "Shanghai Municipal Government",
+   "source_url": "https://english.shanghai.gov.cn/en-MajorConsumerEvents/20260402/663fde2f804b4e3d9e2d0cb28bc6e433.html",
+   "published": "unknown",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "low",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "china",
+   "countryName": "China",
+   "category": "casual",
+   "status": "recent",
+   "name": "Domestic designer labels lead Gen Z wardrobes",
+   "summary": "Chinese Gen Z increasingly favours home-grown, digitally savvy labels such as Shushu/Tong, Yvmin, Ming Ma and Rocksteady over imported brands.",
+   "season": "2026",
+   "gender": "unisex",
+   "ages": [
+    "18-25"
+   ],
+   "source": "Jing Daily",
+   "source_url": "https://jingdaily.com/posts/which-brands-are-chinese-gen-z-wearing-in-2026",
+   "published": "2026-02-04",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "china",
+   "countryName": "China",
+   "category": "formal",
+   "status": "forecast",
+   "name": "Nineties Hong Kong noir tailoring",
+   "summary": "Shao's SS27 drew on 1990s Hong Kong gangster films: open chalk-stripe waistcoats, sharp shoulders, high-slit satin skirts and draped puff-sleeve menswear clipped with metal fasteners.",
+   "season": "SS27",
+   "gender": "unisex",
+   "ages": [
+    "26-40"
+   ],
+   "source": "The Blueprint",
+   "source_url": "https://theblueprint.ru/fashion/industry/shanghai-fashion-week-ss27",
+   "published": "2026-10-16",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "china",
+   "countryName": "China",
+   "category": "dress_styles",
+   "status": "forecast",
+   "name": "Reworked qipao and Tang jackets",
+   "summary": "Ao Yes updated qipao and Tang-dynasty jackets for SS27 with stand collars, tiered ruffles, sequins, rippling water-like stripes, sunlight polka dots and Song-court textile references.",
+   "season": "SS27",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "The Blueprint",
+   "source_url": "https://theblueprint.ru/fashion/industry/shanghai-fashion-week-ss27",
+   "published": "2026-10-16",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "china",
+   "countryName": "China",
+   "category": "silhouettes",
+   "status": "forecast",
+   "name": "Lace softness against armoured shoulders",
+   "summary": "Yirantian contrasted sheer lace tops, asymmetric skirts and capes with rigid corsets and padded, armour-like jackets with exaggerated shoulders and chests for SS27.",
+   "season": "SS27",
+   "gender": "female",
+   "ages": [
+    "26-40"
+   ],
+   "source": "The Blueprint",
+   "source_url": "https://theblueprint.ru/fashion/industry/shanghai-fashion-week-ss27",
+   "published": "2026-10-16",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "china",
+   "countryName": "China",
+   "category": "fabrics",
+   "status": "forecast",
+   "name": "Lingerie sheers and lace",
+   "summary": "Xu Zhi's SS27 used sheer slips, ruffled chemises, lace-edged bloomers and crinoline pinafores, with thread-built corset tops and skirts that split into ribbons, including menswear.",
+   "season": "SS27",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "The Blueprint",
+   "source_url": "https://theblueprint.ru/fashion/industry/shanghai-fashion-week-ss27",
+   "published": "2026-10-16",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "china",
+   "countryName": "China",
+   "category": "emerging",
+   "status": "forecast",
+   "name": "Office-uniform subversion",
+   "summary": "Staffonly played with corporate dress for SS27: off-centre plackets, ties worn backwards or knotted into bows, jackets fastened with stationery clips, schoolboy shorts and wire-shaped hoodies.",
+   "season": "SS27",
+   "gender": "male",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "The Blueprint",
+   "source_url": "https://theblueprint.ru/fashion/industry/shanghai-fashion-week-ss27",
+   "published": "2026-10-16",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "china",
+   "countryName": "China",
+   "category": "colors",
+   "status": "forecast",
+   "name": "Intense colour blocking with satin and lace",
+   "summary": "Shushu/Tong's SS27 paired intense colour blocks with flower-shaped puff skirts, petal edges, handmade lace, coloured satin and schoolgirl dresses and sets.",
+   "season": "SS27",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "Neo2",
+   "source_url": "https://www.neo2.com/?p=755903",
+   "published": "2026-10-19",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "china",
+   "countryName": "China",
+   "category": "prints",
+   "status": "forecast",
+   "name": "Naive and blurred florals",
+   "summary": "Shushu/Tong scattered childlike buds on knits, daisies on a sheer mini and a softly blurred floral across a knee-length coat in its SS27 collection.",
+   "season": "SS27",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "The Blueprint",
+   "source_url": "https://theblueprint.ru/fashion/industry/shanghai-fashion-week-ss27",
+   "published": "2026-10-16",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "china",
+   "countryName": "China",
+   "category": "emerging",
+   "status": "forecast",
+   "name": "Virtual and AI-generated fashion",
+   "summary": "Beijing's SS27 fashion week included immersive showcases by more than ten virtual designers, 3D and AIGC artists, plus support schemes for young designers working with intangible heritage.",
+   "season": "SS27",
+   "gender": "unisex",
+   "ages": [
+    "18-25"
+   ],
+   "source": "Beijing Municipal Government",
+   "source_url": "https://english.beijing.gov.cn/consuminginbeijing/news/202609/t20260908_4855043.html",
+   "published": "2026-09-08",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  }
+ ]
+}

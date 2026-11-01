@@ -1,0 +1,572 @@
+{
+ "country": "Japan",
+ "slug": "japan",
+ "researched_on": "2026-11-01",
+ "method": "snapshot",
+ "season_context": {
+  "hemisphere": "northern",
+  "current_fashion_season": "Autumn/Winter 2026 (AW26)",
+  "local_season_notes": "Trade press notes an extended hot autumn that delays seasonal buying, so retailers lean on suede, leather and colour to signal autumn. Nov-Apr spans Shichi-Go-San in November, New Year sales, Coming-of-Age ceremonies in January and March graduations, followed by the April new-school and new-job season.",
+  "upcoming_season": "Spring/Summer 2027 (SS27)",
+  "sources": [
+   {
+    "title": "WWDJAPAN 2026-27 AW women's real trend issue (PR Times)",
+    "url": "https://prtimes.jp/main/html/rd/p/000000199.000080364.html",
+    "published": "2026-06-23"
+   },
+   {
+    "title": "Fashion Week de Tokyo PE27 (FashionUnited FR)",
+    "url": "https://fashionunited.fr/actualite/mode/fashion-week-de-tokyo-pe27-des-debuts-europeens-a-limmersion-tech-avec-les-lunettes-meta/2026072842531",
+    "published": "2026-07-28"
+   },
+   {
+    "title": "Rakuten Fashion Week TOKYO 27SS show schedule",
+    "url": "https://rakutenfashionweektokyo.com/en/topics/information/art_20270728_01/",
+    "published": "unknown"
+   }
+  ]
+ },
+ "trends": [
+  {
+   "country": "japan",
+   "countryName": "Japan",
+   "category": "colors",
+   "status": "observed",
+   "name": "Earth tones sharpened with burgundy and black",
+   "summary": "Tokyo street crowds in early September favoured browns, khaki and olive, made sharper with deep burgundy accents and black pieces such as faux-leather barrel trousers; observers noted the palette reads more autumnal than summery.",
+   "season": "AW26",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "FashionUnited / Hypebeast",
+   "source_url": "https://fashionunited.com/news/fashion/tokyo-street-style-at-rakuten-fashion-week-ss27/2026090574447",
+   "published": "2026-09-05",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "high",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "japan",
+   "countryName": "Japan",
+   "category": "prints",
+   "status": "observed",
+   "name": "Harajuku-style print clashing",
+   "summary": "Maximalist dressing mixes clashing prints and colours: collage-printed mesh with tulle, playing-card and baroque prints, camo denim and sheer leopard skirts layered together for a personal, rule-breaking look.",
+   "season": "AW26",
+   "gender": "female",
+   "ages": [
+    "18-25"
+   ],
+   "source": "FashionUnited",
+   "source_url": "https://fashionunited.de/nachrichten/mode/erdtone-fransen-und-denim-tokios-streetstyle-trends-fur-ss27/2026090568393",
+   "published": "2026-09-05",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "japan",
+   "countryName": "Japan",
+   "category": "fabrics",
+   "status": "observed",
+   "name": "Denim as the wardrobe base",
+   "summary": "Denim appeared everywhere in Tokyo street style, from heavy structured jeans and shirts to jackets, culottes and tonal layering, sometimes with Western touches like cowboy hats and embroidered boots.",
+   "season": "AW26",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "FashionUnited",
+   "source_url": "https://fashionunited.com/news/fashion/tokyo-street-style-at-rakuten-fashion-week-ss27/2026090574447",
+   "published": "2026-09-05",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "high",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "japan",
+   "countryName": "Japan",
+   "category": "silhouettes",
+   "status": "observed",
+   "name": "Oversized, deliberately unbalanced layering",
+   "summary": "Street style around the SS27 shows centred on oversized cuts, dropped shoulders and intentionally off-kilter layering, with men leaning on minimal monochrome tailoring and low-key technical outerwear plus wide-leg trousers and culottes.",
+   "season": "AW26",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "Hypebeast",
+   "source_url": "https://hypebeast.com/2026/09/tokyo-fashion-week-ss27-street-style",
+   "published": "2026-09-09",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "high",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "japan",
+   "countryName": "Japan",
+   "category": "streetwear",
+   "status": "observed",
+   "name": "Fringe as accent or statement",
+   "summary": "Fringing showed up on boots, corsets, dresses and skirts, from long macrame fringe on a denim trucker jacket to laser-cut fringe dresses and yellow leather fringe boots.",
+   "season": "AW26",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "FashionUnited",
+   "source_url": "https://fashionunited.de/nachrichten/mode/erdtone-fransen-und-denim-tokios-streetstyle-trends-fur-ss27/2026090568393",
+   "published": "2026-09-05",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "japan",
+   "countryName": "Japan",
+   "category": "dress_styles",
+   "status": "observed",
+   "name": "Kimono and hakama references in daywear",
+   "summary": "Attendees reworked Japanese dress codes into street outfits: kimono-like wraps cinched with obi-style belts, hakama-cut skirt-trousers in jacquard and deconstructed oversized shapes in the avant-garde Tokyo tradition.",
+   "season": "AW26",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "FashionUnited",
+   "source_url": "https://fashionunited.com/news/fashion/tokyo-street-style-at-rakuten-fashion-week-ss27/2026090574447",
+   "published": "2026-09-05",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "japan",
+   "countryName": "Japan",
+   "category": "luxury",
+   "status": "observed",
+   "name": "Kimono-derived cutting at Yohji Yamamoto",
+   "summary": "The label's AW26 womenswear builds its pattern-cutting around the kimono, reinterpreting the traditional garment in several ways across the line now in its stores.",
+   "season": "AW26",
+   "gender": "female",
+   "ages": [
+    "26-40",
+    "41-60"
+   ],
+   "source": "The Shop Yohji Yamamoto",
+   "source_url": "https://theshopyohjiyamamoto.com/blogs/news/yy-2026aw",
+   "published": "2026-07-22",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "high",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "japan",
+   "countryName": "Japan",
+   "category": "formal",
+   "status": "recent",
+   "name": "Classic tailoring loosened with accent colour",
+   "summary": "WWDJAPAN's real-trend issue frames AW26-27 womenswear around classic, elegant tailored jackets that brands personalise, with a pop of accent colour as the key styling move alongside browns and greys.",
+   "season": "AW26",
+   "gender": "female",
+   "ages": [
+    "26-40",
+    "41-60"
+   ],
+   "source": "WWDJAPAN",
+   "source_url": "https://prtimes.jp/main/html/rd/p/000000199.000080364.html",
+   "published": "2026-06-23",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "japan",
+   "countryName": "Japan",
+   "category": "seasonal",
+   "status": "recent",
+   "name": "Suede and leather to signal autumn in a long summer",
+   "summary": "Because hot weather now stretches into autumn, Japanese retailers use suede and leather pieces to create an autumn mood early, a tactic highlighted by select-shop directors coping with cautious spending.",
+   "season": "AW26",
+   "gender": "female",
+   "ages": [
+    "26-40"
+   ],
+   "source": "WWDJAPAN",
+   "source_url": "https://prtimes.jp/main/html/rd/p/000000199.000080364.html",
+   "published": "2026-06-23",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "japan",
+   "countryName": "Japan",
+   "category": "colors",
+   "status": "recent",
+   "name": "Cream, cocoa, teal and vivid purple palette",
+   "summary": "A Japanese fabric-sourcing platform names warm cream white and chocolate brown as neutrals, deep blue-green teal and bright purple as rich tones, and a yellow-green as the accent for AW26-27 outerwear fabrics.",
+   "season": "AW26",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "ApparelX Trend Blog",
+   "source_url": "https://us.apparel-x.com/blog/AX_TREND/202627AWtrend",
+   "published": "2026-04-06",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "low",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "japan",
+   "countryName": "Japan",
+   "category": "fabrics",
+   "status": "recent",
+   "name": "Lustre and napped textures with PFAS-free finishes",
+   "summary": "Fabric picks for AW26-27 stress sheen and touch: rayon-cotton satin, triacetate velour, organza, napped double-weave suede and corduroy, plus recycled nylon, plant-based faux leather and fluorine-free water repellents.",
+   "season": "AW26",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "ApparelX Trend Blog",
+   "source_url": "https://us.apparel-x.com/blog/AX_TREND/202627AWtrend",
+   "published": "2026-04-06",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "low",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "japan",
+   "countryName": "Japan",
+   "category": "silhouettes",
+   "status": "recent",
+   "name": "Sculptural, curved silhouettes",
+   "summary": "Tokyo's AW26 runways pushed garments into sculpture: Enfold's curved asymmetric cuts, Ryunosuke Okazaki's wire and stretch constructions and a dramatically flared-shoulder long dress at Grounds.",
+   "season": "AW26",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "FashionUnited",
+   "source_url": "https://fashionunited.in/news/fashion/from-fairy-dust-to-sculptural-fashion-aw26-trends-from-tokyo/2026032653765",
+   "published": "2026-03-26",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "japan",
+   "countryName": "Japan",
+   "category": "printing_techniques",
+   "status": "recent",
+   "name": "Photographic prints of everyday scenes",
+   "summary": "Kotohayokozawa, Yoshiokubo and Agnes B printed photographs of ordinary objects and places onto clothes, either as one large image or tiled into collages.",
+   "season": "AW26",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "FashionUnited",
+   "source_url": "https://fashionunited.in/news/fashion/from-fairy-dust-to-sculptural-fashion-aw26-trends-from-tokyo/2026032653765",
+   "published": "2026-03-26",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "japan",
+   "countryName": "Japan",
+   "category": "seasonal",
+   "status": "recent",
+   "name": "Diamond-quilted outerwear",
+   "summary": "Diamond quilting ran through AW26 Tokyo collections from Pays des Fees, Viviano and Eitaro, used mostly on knee-length coats and other cold-weather layers.",
+   "season": "AW26",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "FashionUnited",
+   "source_url": "https://fashionunited.in/news/fashion/from-fairy-dust-to-sculptural-fashion-aw26-trends-from-tokyo/2026032653765",
+   "published": "2026-03-26",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "japan",
+   "countryName": "Japan",
+   "category": "dress_styles",
+   "status": "recent",
+   "name": "18th and 19th century references",
+   "summary": "Houga, Agnes B and Mukcyen drew on period dress for AW26, using high necklines, layered construction and subdued colour.",
+   "season": "AW26",
+   "gender": "female",
+   "ages": [
+    "26-40"
+   ],
+   "source": "FashionUnited",
+   "source_url": "https://fashionunited.in/news/fashion/from-fairy-dust-to-sculptural-fashion-aw26-trends-from-tokyo/2026032653765",
+   "published": "2026-03-26",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "japan",
+   "countryName": "Japan",
+   "category": "emerging",
+   "status": "emerging",
+   "name": "Creepy-cute kawaii",
+   "summary": "Designers blended tulle and ruffles with streetwear, early-2000s nostalgia, patchwork and childlike motifs, giving the kawaii aesthetic a slightly eerie edge; Taiwanese labels and Yusho Kobayashi led the look in Tokyo.",
+   "season": "AW26",
+   "gender": "female",
+   "ages": [
+    "18-25"
+   ],
+   "source": "FashionUnited",
+   "source_url": "https://fashionunited.in/news/fashion/from-fairy-dust-to-sculptural-fashion-aw26-trends-from-tokyo/2026032653765",
+   "published": "2026-03-26",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "japan",
+   "countryName": "Japan",
+   "category": "streetwear",
+   "status": "recent",
+   "name": "Utility outerwear with tartan, fur and distressing",
+   "summary": "Tokyo FW26 street style layered heavy zip denim jackets and technical coats over tartan and fur-trimmed pieces, with frayed hems, aged fabrics and asymmetric deconstruction mixing designer and outdoor gear.",
+   "season": "AW26",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "Hypebeast",
+   "source_url": "https://hypebeast.com/th/2026/3/tokyo-fashion-week-fw26-street-style",
+   "published": "2026-03-23",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "japan",
+   "countryName": "Japan",
+   "category": "casual",
+   "status": "recent",
+   "name": "Quiet, fabric-led Japanese menswear",
+   "summary": "Labels such as Auralee, Comoli, A.Presse, Kaptain Sunshine, Nanamica and Goldwin are championed for relaxed, worn-in fits, softened workwear, archival references and technical outerwear made for daily city wear rather than logos.",
+   "season": "AW26",
+   "gender": "male",
+   "ages": [
+    "26-40",
+    "41-60"
+   ],
+   "source": "Lyst",
+   "source_url": "https://www.lyst.co.uk/stories/japanese-menswear-brands-2026/",
+   "published": "2026-03-31",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "japan",
+   "countryName": "Japan",
+   "category": "luxury",
+   "status": "recent",
+   "name": "Fit-first, value-driven luxury buying",
+   "summary": "Japan's luxury market is projected to grow slightly in 2026, with tourists about a third of sales; young Japanese shoppers rank fit, design and durability far above brand name and still prefer buying in stores.",
+   "season": "2026",
+   "gender": "unisex",
+   "ages": [
+    "18-25"
+   ],
+   "source": "nss magazine",
+   "source_url": "https://nssmag.com/en/fashion/44839/japan-luxury-market-2026-made-in-italy-gen-z",
+   "published": "2026-04-01",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "japan",
+   "countryName": "Japan",
+   "category": "prints",
+   "status": "forecast",
+   "name": "Underwater and mermaid motifs",
+   "summary": "SS27 Tokyo shows dived under the sea: scale-like sequin dresses and knitted octopus bags at Yushokobayashi, coral skirts with dolphin and jellyfish prints at Charinyeh, and Breton tops with sailor hats at Meg Miura Wardrobe.",
+   "season": "SS27",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "FashionUnited",
+   "source_url": "https://fashionunited.uk/news/fashion/from-mermaids-and-athletic-nomads-ss27-trends-from-tokyo/2026090890213",
+   "published": "2026-09-08",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "japan",
+   "countryName": "Japan",
+   "category": "casual",
+   "status": "forecast",
+   "name": "Athletic nomad",
+   "summary": "Yoshiokubo mixed Mongolian references with running kit for SS27: short running shorts, running vests and light jackets finished with flowers and cord details borrowed from quick-release fasteners.",
+   "season": "SS27",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "FashionUnited",
+   "source_url": "https://fashionunited.uk/news/fashion/from-mermaids-and-athletic-nomads-ss27-trends-from-tokyo/2026090890213",
+   "published": "2026-09-08",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "japan",
+   "countryName": "Japan",
+   "category": "fabrics",
+   "status": "forecast",
+   "name": "Sheer, flowing layers",
+   "summary": "Charinyeh, Anna Choi and Eitaro used transparent, fluid fabrics in wide flared or enveloping shapes, building outfits through layering and gradient colour for SS27.",
+   "season": "SS27",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "FashionUnited",
+   "source_url": "https://fashionunited.uk/news/fashion/from-mermaids-and-athletic-nomads-ss27-trends-from-tokyo/2026090890213",
+   "published": "2026-09-08",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "japan",
+   "countryName": "Japan",
+   "category": "formal",
+   "status": "forecast",
+   "name": "Black power suits with 1970s collars",
+   "summary": "Perry Jones, Keisukeyoshida and Fetico showed all-black suits with flared shoulders, long pointed seventies-style shirt collars or contrast lapels, boxy or waisted jackets and wider trousers, styled with heels.",
+   "season": "SS27",
+   "gender": "unisex",
+   "ages": [
+    "26-40"
+   ],
+   "source": "FashionUnited",
+   "source_url": "https://fashionunited.uk/news/fashion/from-mermaids-and-athletic-nomads-ss27-trends-from-tokyo/2026090890213",
+   "published": "2026-09-08",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "japan",
+   "countryName": "Japan",
+   "category": "emerging",
+   "status": "forecast",
+   "name": "Multiplied and displaced collars",
+   "summary": "RequaL stretched several collars over the shoulders with stacked ties, Mitsuru Okazaki ringed collars as a central motif and Seivson rebuilt a pleated piece into an asymmetric corseted coat-dress.",
+   "season": "SS27",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "FashionUnited",
+   "source_url": "https://fashionunited.uk/news/fashion/from-mermaids-and-athletic-nomads-ss27-trends-from-tokyo/2026090890213",
+   "published": "2026-09-08",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "japan",
+   "countryName": "Japan",
+   "category": "printing_techniques",
+   "status": "forecast",
+   "name": "Wax-resist dyeing and lacquer craft",
+   "summary": "C JEAN's Tokyo debut for SS27 used roketsu wax-resist dyeing from a Kyoto workshop and lacquered bags made with a Taiwanese lacquer artist, foregrounding artisanal surface techniques.",
+   "season": "SS27",
+   "gender": "female",
+   "ages": [
+    "26-40",
+    "41-60"
+   ],
+   "source": "Have a Good Holiday",
+   "source_url": "https://www.haveagood-holiday.com/es/articles/rakuten-fashion-week-tokyo-2027ss-second-half",
+   "published": "2026-09-03",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "japan",
+   "countryName": "Japan",
+   "category": "embroidery",
+   "status": "forecast",
+   "name": "Marine embroidery and sequin embellishment",
+   "summary": "Charinyeh embroidered octopus motifs onto coral-like skirts while Yushokobayashi covered dresses in glossy scale-like sequins and layered rough netting with lace for SS27.",
+   "season": "SS27",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "FashionUnited",
+   "source_url": "https://fashionunited.uk/news/fashion/from-mermaids-and-athletic-nomads-ss27-trends-from-tokyo/2026090890213",
+   "published": "2026-09-08",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  }
+ ]
+}

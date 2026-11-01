@@ -1,0 +1,563 @@
+{
+ "country": "United Arab Emirates",
+ "slug": "uae",
+ "researched_on": "2026-11-01",
+ "method": "snapshot",
+ "season_context": {
+  "hemisphere": "northern",
+  "current_fashion_season": "Autumn/Winter 2026 (AW26)",
+  "local_season_notes": "Cooler months from November to March are the main season for going out and shopping. Dubai Fashion Week showed SS27 at d3 from 22 to 26 October 2026. Ramadan 2027 is expected to start around 8 February, with Eid al-Fitr around 9 or 10 March, depending on moon sighting. That makes January and February the key buying window for abayas, kaftans and occasionwear.",
+  "upcoming_season": "Spring/Summer 2027 (SS27) / Ramadan & Eid 2027",
+  "sources": [
+   {
+    "title": "Ramadan 2027 in UAE: expected dates and Eid Al Fitr holiday (The National)",
+    "url": "https://www.thenationalnews.com/news/uae/2026/10/06/ramadan-2027-uae-dates-eid-al-fitr-holiday/",
+    "published": "2026-09-09"
+   },
+   {
+    "title": "Dubai Fashion Week October SS27 announcement (Grazia Middle East)",
+    "url": "https://graziamagazine.com/me/articles/dubai-fashion-week-october-spring-summer-2027/",
+    "published": "unknown"
+   },
+   {
+    "title": "UAE Autumn style guide 2026 (Gulf News)",
+    "url": "https://gulfnews.com/lifestyle/fashion/uae-autumn-style-guide-2026-the-colours-textures-and-trends-to-know-1.500693687",
+    "published": "2026-09-30"
+   }
+  ]
+ },
+ "trends": [
+  {
+   "country": "uae",
+   "countryName": "United Arab Emirates",
+   "category": "colors",
+   "status": "observed",
+   "name": "Autumn rich browns and burgundy",
+   "summary": "UAE autumn edits lean on bordeaux, chocolate and red-brown, deep olive and khaki. Deep purple works as an accent, and menswear favours quieter tonal colour.",
+   "season": "AW26",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "Gulf News",
+   "source_url": "https://gulfnews.com/lifestyle/fashion/uae-autumn-style-guide-2026-the-colours-textures-and-trends-to-know-1.500693687",
+   "published": "2026-09-30",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "uae",
+   "countryName": "United Arab Emirates",
+   "category": "silhouettes",
+   "status": "observed",
+   "name": "Barrel legs and pooling trousers",
+   "summary": "Proportions are exaggerated this autumn. Trousers are barrel-leg or so long they pool on the floor, worn with sharply shaped blazers and fitted jackets.",
+   "season": "AW26",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "Gulf News",
+   "source_url": "https://gulfnews.com/lifestyle/fashion/uae-autumn-style-guide-2026-the-colours-textures-and-trends-to-know-1.500693687",
+   "published": "2026-09-30",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "uae",
+   "countryName": "United Arab Emirates",
+   "category": "prints",
+   "status": "observed",
+   "name": "Animal print, plaid and checks",
+   "summary": "Animal patterns run across clothing, shoes and bags. Plaid, checked shirts and croc-effect textures add character to otherwise relaxed autumn wardrobes in the UAE.",
+   "season": "AW26",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "Gulf News",
+   "source_url": "https://gulfnews.com/lifestyle/fashion/uae-autumn-style-guide-2026-the-colours-textures-and-trends-to-know-1.500693687",
+   "published": "2026-09-30",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "uae",
+   "countryName": "United Arab Emirates",
+   "category": "casual",
+   "status": "observed",
+   "name": "Lightweight preppy layering",
+   "summary": "Practical, light layers suited to the Gulf climate: fine knits, crisp shirts, relaxed jeans and fringe accents, with a single trend piece mixed into an existing wardrobe rather than full looks.",
+   "season": "AW26",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "Gulf News",
+   "source_url": "https://gulfnews.com/lifestyle/fashion/uae-autumn-style-guide-2026-the-colours-textures-and-trends-to-know-1.500693687",
+   "published": "2026-09-30",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "uae",
+   "countryName": "United Arab Emirates",
+   "category": "formal",
+   "status": "forecast",
+   "name": "Monochrome Gulf couture at DFW SS27",
+   "summary": "Kuwaiti couturier Yousef AlJasmi debuted a couture line in black, cream and silver at Dubai Fashion Week's October edition, part of a lineup of designers from more than a dozen countries.",
+   "season": "SS27",
+   "gender": "female",
+   "ages": [
+    "26-40",
+    "41-60"
+   ],
+   "source": "Gulf News (The Kurator)",
+   "source_url": "https://gulfnews.com/the-kurator/the-kurators-dubai-fashion-week-ss27-round-up-1.500725939",
+   "published": "2026-10-27",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "uae",
+   "countryName": "United Arab Emirates",
+   "category": "silhouettes",
+   "status": "forecast",
+   "name": "Corsetry and architectural tailoring",
+   "summary": "Ukrainian label KEL' showed corset-led, architectural tailoring built around a butterfly motif, and Colombian designer Adriana Capasso showed sculptural shapes at DFW SS27.",
+   "season": "SS27",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "Gulf News (The Kurator)",
+   "source_url": "https://gulfnews.com/the-kurator/style/dubai-fashion-week-2027-from-emirati-debuts-to-global-designers-the-looks-that-stood-out-1.500726758",
+   "published": "2026-10-28",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "uae",
+   "countryName": "United Arab Emirates",
+   "category": "embroidery",
+   "status": "forecast",
+   "name": "Multi-craft artisan couture",
+   "summary": "Pallavi Puri's 50-look DFW debut drew on more than 150 artisans across over 21 traditional crafts, and Tarun Tahiliani mixed Indian handwork with Arab couture codes.",
+   "season": "SS27",
+   "gender": "female",
+   "ages": [
+    "26-40",
+    "41-60"
+   ],
+   "source": "Gulf News (The Kurator)",
+   "source_url": "https://gulfnews.com/the-kurator/the-kurators-dubai-fashion-week-ss27-round-up-1.500725939",
+   "published": "2026-10-27",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "uae",
+   "countryName": "United Arab Emirates",
+   "category": "printing_techniques",
+   "status": "forecast",
+   "name": "Hand-painted gowns",
+   "summary": "Sara Pedram's Simorgh collection, inspired by the mythical bird, combined hand-painted surfaces with hand embroidery on evening gowns shown at Dubai Fashion Week SS27.",
+   "season": "SS27",
+   "gender": "female",
+   "ages": [
+    "26-40",
+    "41-60"
+   ],
+   "source": "Gulf News (The Kurator)",
+   "source_url": "https://gulfnews.com/the-kurator/style/dubai-fashion-week-2027-from-emirati-debuts-to-global-designers-the-looks-that-stood-out-1.500726758",
+   "published": "2026-10-28",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "uae",
+   "countryName": "United Arab Emirates",
+   "category": "emerging",
+   "status": "emerging",
+   "name": "Emirati debuts and runway-to-retail",
+   "summary": "Emirati label Onori by Sharifa AlHashemi joined the official calendar, FAD school graduates showed together, and a buyers' programme plus a Harvey Nichols pop-up sent runway pieces straight into stores.",
+   "season": "SS27",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "Gulf News (The Kurator)",
+   "source_url": "https://gulfnews.com/the-kurator/the-kurators-dubai-fashion-week-ss27-round-up-1.500725939",
+   "published": "2026-10-27",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "uae",
+   "countryName": "United Arab Emirates",
+   "category": "luxury",
+   "status": "recent",
+   "name": "Victorian-inspired Italian luxury",
+   "summary": "Alberta Ferretti opened Dubai Fashion Week AW26 with a Victorian-themed collection mixing chiffon, leather and tulle, velvet evening capes and feather touches in black, ivory, ruby and aubergine.",
+   "season": "AW26",
+   "gender": "female",
+   "ages": [
+    "26-40",
+    "41-60"
+   ],
+   "source": "Dubai Design District (press release)",
+   "source_url": "https://dubaidesigndistrict.com/media/press-release/opening-day-of-dubai-fashion-week-autumn-winter-2026-27-sets-the-tone-with-alberta-ferretti",
+   "published": "2026-02-02",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "high",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "uae",
+   "countryName": "United Arab Emirates",
+   "category": "embroidery",
+   "status": "recent",
+   "name": "Kashmiri embroidery in Indian couture",
+   "summary": "Manish Malhotra closed DFW AW26 with an India-themed couture finale that featured Kashmiri embroidery, Mijwan handcraft and sculpted draping, reflecting the strong South Asian couture presence in Dubai.",
+   "season": "AW26",
+   "gender": "female",
+   "ages": [
+    "26-40",
+    "41-60"
+   ],
+   "source": "Style of Eurasia",
+   "source_url": "https://www.styleofeurasia.com/podium-1/item/3963-dubai-fashion-week-autumn-winter-2026-27-a-global-dialogue-of-fashion-craft-and-identity",
+   "published": "unknown",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "low",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "uae",
+   "countryName": "United Arab Emirates",
+   "category": "emerging",
+   "status": "emerging",
+   "name": "AI-assisted eveningwear",
+   "summary": "At DFW AW26, NŪRA by Tryano presented evening pieces developed with AI tools, combining Arabic heritage references with technology. It is an early signal, not yet a retail trend.",
+   "season": "AW26",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "Style of Eurasia",
+   "source_url": "https://www.styleofeurasia.com/podium-1/item/3963-dubai-fashion-week-autumn-winter-2026-27-a-global-dialogue-of-fashion-craft-and-identity",
+   "published": "unknown",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "low",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "uae",
+   "countryName": "United Arab Emirates",
+   "category": "dress_styles",
+   "status": "recent",
+   "name": "Coloured abaya dresses",
+   "summary": "For Ramadan 2026, Gulf celebrities moved beyond black to abaya dresses in red, peach, dark mustard, turquoise and emerald with burgundy, finished with floral embroidery, braided trims or crystals.",
+   "season": "Ramadan 2026",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "An-Nahar",
+   "source_url": "https://www.annahar.com/lifestyle/fashion/279114/عباية-ملونة-بتصاميم-فاخرة-خيار-جميلات-الشهرة-في-رمضان-2026-صور-وفيديو",
+   "published": "2026-02-19",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "uae",
+   "countryName": "United Arab Emirates",
+   "category": "casual",
+   "status": "recent",
+   "name": "Abaya over denim",
+   "summary": "Open, flowing or cape-style abayas paired with straight, flared or wide jeans became a Ramadan street look across the Gulf. Dark denim suits evenings and lighter washes suit daytime.",
+   "season": "Ramadan 2026",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "An-Nahar",
+   "source_url": "https://www.annahar.com/lifestyle/fashion/279293/عباية-مع-الجينز-تتصدر-موضة-رمضان-2026-هيبة-شرقية-بأسلوب-الرفاهية-المعاصرة-صور-وفيديو",
+   "published": "2026-02-20",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "uae",
+   "countryName": "United Arab Emirates",
+   "category": "modest",
+   "status": "recent",
+   "name": "Homegrown made-to-order abayas",
+   "summary": "Small Emirati labels such as Saintly, Boujee Line and Arod sell playful, statement abayas through Instagram for roughly Dh350 to Dh700, each made to order within about ten days.",
+   "season": "Ramadan 2026",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "Gulf News",
+   "source_url": "https://gulfnews.com/lifestyle/ramadan-and-eid-abayas-2026-three-uae-labels-bringing-style-and-elegance-1.500438993",
+   "published": "2026-02-12",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "uae",
+   "countryName": "United Arab Emirates",
+   "category": "luxury",
+   "status": "recent",
+   "name": "Luxury-house Ramadan capsules",
+   "summary": "Valentino, Louis Vuitton, Burberry and Celine released Ramadan capsules of fluid gowns, silk sets, pyjama-style tailoring and embellished bags. Regional labels such as Mauzan and Dima Ayad offered embellished abayas.",
+   "season": "Ramadan 2026",
+   "gender": "female",
+   "ages": [
+    "26-40",
+    "41-60"
+   ],
+   "source": "Soul Arabia",
+   "source_url": "https://soularabia.net/ramadan-2026-fashion-trends/",
+   "published": "2026-02-26",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "uae",
+   "countryName": "United Arab Emirates",
+   "category": "colors",
+   "status": "recent",
+   "name": "Sand base with jewel depth",
+   "summary": "The Ramadan palette started from ivory, cream and sand, then added depth with burgundy, midnight blue and olive, finished with gold, pearl and champagne metallics.",
+   "season": "Ramadan 2026",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "Soul Arabia",
+   "source_url": "https://soularabia.net/ramadan-2026-fashion-trends/",
+   "published": "2026-02-26",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "uae",
+   "countryName": "United Arab Emirates",
+   "category": "fabrics",
+   "status": "recent",
+   "name": "Breathable fabrics for iftar",
+   "summary": "Guidance for UAE iftars favoured linen, cotton, georgette and cupro satin, with silk or satin for a light sheen. Heavier velvet and wool were mostly avoided.",
+   "season": "Ramadan 2026",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "Khaleej Times",
+   "source_url": "https://www.khaleejtimes.com/ramadan-2026-tips-to-elevate-your-wardrobe",
+   "published": "2026-02-19",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "uae",
+   "countryName": "United Arab Emirates",
+   "category": "embroidery",
+   "status": "recent",
+   "name": "Zari and gota detailing",
+   "summary": "South Asian modest sets worn in the UAE during Ramadan used gold and silver zari, gota strips and hand threadwork, often on chikankari kurtas with palazzos or Anarkali gowns.",
+   "season": "Ramadan 2026",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "Khaleej Times",
+   "source_url": "https://www.khaleejtimes.com/ramadan-2026-tips-to-elevate-your-wardrobe",
+   "published": "2026-02-19",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "uae",
+   "countryName": "United Arab Emirates",
+   "category": "formal",
+   "status": "recent",
+   "name": "Eid occasionwear in airy fabrics",
+   "summary": "Eid 2026 styling for Gulf women paired organza, chiffon, satin and velvet with blush, lavender and mint, or with emerald, deep red and royal blue for evening.",
+   "season": "Eid 2026",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "Selectives (retailer blog)",
+   "source_url": "https://www.shopselectives.com/blogs/news/eid-2026-style-guide-trendy-elegant-outfit-ideas-for-women-in-uae-saudi-arabia",
+   "published": "2026-04-26",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "low",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "uae",
+   "countryName": "United Arab Emirates",
+   "category": "emerging",
+   "status": "recent",
+   "name": "Pre-owned luxury for Ramadan",
+   "summary": "UAE resale platforms promote pre-owned designer kaftans, silk maxis and abayas as an affordable, more sustainable way to build a Ramadan capsule wardrobe.",
+   "season": "Ramadan 2026",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "The Luxury Closet",
+   "source_url": "https://theluxurycloset.com/blog/2026/02/24/ramadan-outfit-ideas-in-the-uae-5-modest-luxury-looks-under-2500-aed/",
+   "published": "unknown",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "low",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "uae",
+   "countryName": "United Arab Emirates",
+   "category": "modest",
+   "status": "recent",
+   "name": "Modest fashion beyond Ramadan",
+   "summary": "At Shoptalk Abu Dhabi, Chalhoub Group stressed understanding the modest consumer. Commentators urge buyers to stock modest labels year-round instead of only for Ramadan and Eid.",
+   "season": "2026",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "FashionUnited",
+   "source_url": "https://fashionunited.nz/news/fashion/retailers-take-note-modest-fashion-is-here-to-stay/2026021640604",
+   "published": "2026-02-16",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "uae",
+   "countryName": "United Arab Emirates",
+   "category": "seasonal",
+   "status": "forecast",
+   "name": "Ramadan 2027 lands in February",
+   "summary": "Ramadan 2027 is expected to begin around 8 February, with Eid al-Fitr around 9 or 10 March, depending on moon sighting. That pulls modest occasionwear buying into January.",
+   "season": "Ramadan & Eid 2027",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "The National",
+   "source_url": "https://www.thenationalnews.com/news/uae/2026/10/06/ramadan-2027-uae-dates-eid-al-fitr-holiday/",
+   "published": "2026-09-09",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "high",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "uae",
+   "countryName": "United Arab Emirates",
+   "category": "prints",
+   "status": "historical",
+   "name": "Florals on coloured abayas",
+   "summary": "Late 2025 coverage found UAE women choosing abayas in soft blue, lavender, butter yellow and deep red with floral and abstract prints and more tailored cuts. Useful background for 2027 assortments.",
+   "season": "2025",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "Gulf News",
+   "source_url": "https://gulfnews.com/amp/story/lifestyle%2Fwhy-uae-women-are-falling-in-love-with-coloured-abayas-with-a-unique-twist-1.500303175",
+   "published": "2025-10-11",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "low",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "uae",
+   "countryName": "United Arab Emirates",
+   "category": "streetwear",
+   "status": "historical",
+   "name": "Heritage-referencing Gulf sneakers",
+   "summary": "Gulf streetwear grew on youth and music culture. Amongst Few's Reebok Club C collaboration used Arabic-English branding and carpet-inspired interiors, an example of heritage-led streetwear.",
+   "season": "2025",
+   "gender": "unisex",
+   "ages": [
+    "18-25"
+   ],
+   "source": "Jing Daily",
+   "source_url": "https://jingdaily.com/posts/middle-east-streetwear-2025-saudi-arabia-uae-fashion-trends",
+   "published": "2025-05-23",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "low",
+   "method": "researched-snapshot"
+  }
+ ]
+}

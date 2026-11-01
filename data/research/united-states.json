@@ -1,0 +1,588 @@
+{
+ "country": "United States",
+ "slug": "united-states",
+ "researched_on": "2026-11-01",
+ "method": "snapshot",
+ "season_context": {
+  "hemisphere": "northern",
+  "current_fashion_season": "Fall/Winter 2026 (FW26)",
+  "local_season_notes": "Climate ranges from cold northern winters to mild Sun Belt states, so layering and transitional pieces matter. Retail calendar runs Thanksgiving, Black Friday and holiday party season through December, then winter clearance, resort/cruise drops, and SS27 deliveries from February.",
+  "upcoming_season": "Spring/Summer 2027 (SS27)",
+  "sources": [
+   {
+    "title": "Who What Wear: Shopbop fall 2026 trends in and out",
+    "url": "https://www.whowhatwear.com/fashion/trends/shopbop-fall-fashion-trends-2026-in-out",
+    "published": "2026-08-26"
+   },
+   {
+    "title": "Who What Wear: NYFW SS27 trends",
+    "url": "https://www.whowhatwear.com/fashion/runway/new-york-fashion-week-trends-spring-summer-2027",
+    "published": "2026-09-17"
+   },
+   {
+    "title": "SGB Media: Coresight back-to-school 2026",
+    "url": "https://sgbonline.com/exec-coresight-research-highlights-athleisure-as-top-back-to-school-trend/",
+    "published": "2026-07-09"
+   }
+  ]
+ },
+ "trends": [
+  {
+   "country": "united-states",
+   "countryName": "United States",
+   "category": "prints",
+   "status": "observed",
+   "name": "Abstract animal prints",
+   "summary": "Retail buyers are steering past classic leopard toward tortoiseshell, irregular spots and terrain-like markings, ideally in small doses on bags or shoes; runway coverage also flags a broad leopard, cheetah and zebra comeback.",
+   "season": "Fall 2026",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "Who What Wear (Shopbop)",
+   "source_url": "https://www.whowhatwear.com/fashion/trends/shopbop-fall-fashion-trends-2026-in-out",
+   "published": "2026-08-26",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "high",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "united-states",
+   "countryName": "United States",
+   "category": "colors",
+   "status": "observed",
+   "name": "Spiced hues replace quiet neutrals",
+   "summary": "Cinnamon, paprika and deep earthy shades are being sold as the new base neutrals for fall, ideally lifted with print, texture or embellishment.",
+   "season": "Fall 2026",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "Who What Wear (Shopbop)",
+   "source_url": "https://www.whowhatwear.com/fashion/trends/shopbop-fall-fashion-trends-2026-in-out",
+   "published": "2026-08-26",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "united-states",
+   "countryName": "United States",
+   "category": "casual",
+   "status": "observed",
+   "name": "Wide, slouchy chinos",
+   "summary": "Basic khakis give way to chinos with wider legs and more volume, balanced with a fitted knit; Complex had also predicted upgraded khakis as a 2026 menswear staple.",
+   "season": "Fall 2026",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "Who What Wear (Shopbop)",
+   "source_url": "https://www.whowhatwear.com/fashion/trends/shopbop-fall-fashion-trends-2026-in-out",
+   "published": "2026-08-26",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "united-states",
+   "countryName": "United States",
+   "category": "seasonal",
+   "status": "observed",
+   "name": "Bermuda shorts carried into fall",
+   "summary": "Longer tailored or skater-style Bermudas are styled with cardigans, blazers or light jackets as temperatures drop, rather than being packed away with summer.",
+   "season": "Fall 2026",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "Who What Wear (Shopbop)",
+   "source_url": "https://www.whowhatwear.com/fashion/trends/shopbop-fall-fashion-trends-2026-in-out",
+   "published": "2026-08-26",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "united-states",
+   "countryName": "United States",
+   "category": "silhouettes",
+   "status": "observed",
+   "name": "Modern bootcut and slouchy jeans",
+   "summary": "Denim is moving on from barrel shapes toward high-rise bootcuts, looser legs that pool slightly at the ankle, and a return of cropped lengths.",
+   "season": "Fall 2026",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "Who What Wear",
+   "source_url": "https://www.whowhatwear.com/fashion/denim/fall-denim-trends-2026",
+   "published": "2026-09-05",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "united-states",
+   "countryName": "United States",
+   "category": "casual",
+   "status": "observed",
+   "name": "Saturated and earth-wash denim",
+   "summary": "Jeans arrive in strong colours such as cherry red, ballet pink and cobalt, alongside sand, khaki and brown washes worn with knits and big-buckle belts.",
+   "season": "Fall 2026",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "Who What Wear",
+   "source_url": "https://www.whowhatwear.com/fashion/denim/fall-denim-trends-2026",
+   "published": "2026-09-05",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "united-states",
+   "countryName": "United States",
+   "category": "formal",
+   "status": "observed",
+   "name": "Slim power suiting and pinstripes",
+   "summary": "Sharper, narrower dark suits with pinstripes are replacing oversized borrowed-from-the-boys tailoring, citing Tom Ford, Gucci and Saint Laurent fall collections.",
+   "season": "Fall 2026",
+   "gender": "female",
+   "ages": [
+    "26-40",
+    "41-60"
+   ],
+   "source": "W Magazine",
+   "source_url": "https://wmagazine.com/fashion/fall-2026-fashion-trends",
+   "published": "2026-04-03",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "high",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "united-states",
+   "countryName": "United States",
+   "category": "luxury",
+   "status": "observed",
+   "name": "Faux fur and statement shearling",
+   "summary": "Mink-like faux fur and dramatic, volume-heavy shearling coats from Gucci, Valentino, Saint Laurent and The Row are a key luxury outerwear story.",
+   "season": "Fall 2026",
+   "gender": "female",
+   "ages": [
+    "26-40",
+    "41-60"
+   ],
+   "source": "Who What Wear",
+   "source_url": "https://www.whowhatwear.com/fashion/trends/autumn-winter-2026-trends",
+   "published": "2026-08-30",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "high",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "united-states",
+   "countryName": "United States",
+   "category": "casual",
+   "status": "recent",
+   "name": "Men's chore coats and shirt jackets",
+   "summary": "US menswear retailers told MR Magazine that chore coats and shirt jackets would be the go-to outerwear purchase for fall, with vests and reversible knits also strong.",
+   "season": "Fall 2026",
+   "gender": "male",
+   "ages": [
+    "26-40",
+    "41-60"
+   ],
+   "source": "MR Magazine",
+   "source_url": "https://mr-mag.com/looking-toward-fall-retailer-thoughts-on-show-season/",
+   "published": "2026-02-10",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "united-states",
+   "countryName": "United States",
+   "category": "fabrics",
+   "status": "recent",
+   "name": "Men's suede and cashmere outerwear",
+   "summary": "Buyers for US specialty stores highlighted texture-led classics, especially suede and cashmere jackets and woven shirts, over trend-driven pieces.",
+   "season": "Fall 2026",
+   "gender": "male",
+   "ages": [
+    "26-40",
+    "41-60"
+   ],
+   "source": "MR Magazine",
+   "source_url": "https://mr-mag.com/looking-toward-fall-retailer-thoughts-on-show-season/",
+   "published": "2026-02-10",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "united-states",
+   "countryName": "United States",
+   "category": "fabrics",
+   "status": "observed",
+   "name": "Suede, faux fur and velvet in street style",
+   "summary": "New York street style during September shows mixed suede and distressed leather jackets with faux fur, fringe and velvet under a broadly maximalist mood.",
+   "season": "Fall 2026",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "The Zoe Report",
+   "source_url": "https://www.thezoereport.com/fashion/new-york-fashion-week-spring-summer-2027-street-style",
+   "published": "2026-09-10",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "united-states",
+   "countryName": "United States",
+   "category": "seasonal",
+   "status": "recent",
+   "name": "Extreme-weather protective outerwear",
+   "summary": "Thick PVC trenches and other storm-ready pieces from Saint Laurent, Junya Watanabe and Loewe signal outerwear designed for harsher weather.",
+   "season": "Fall/Winter 2026",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "W Magazine",
+   "source_url": "https://wmagazine.com/fashion/fall-2026-fashion-trends",
+   "published": "2026-04-03",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "united-states",
+   "countryName": "United States",
+   "category": "emerging",
+   "status": "emerging",
+   "name": "Indie sleaze revival",
+   "summary": "A Y2K and 2010s party-girl attitude with rebellious styling resurfaced on fall runways at 7 For All Mankind, Valentino and Marc Jacobs.",
+   "season": "Fall 2026",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "W Magazine",
+   "source_url": "https://wmagazine.com/fashion/fall-2026-fashion-trends",
+   "published": "2026-04-03",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "united-states",
+   "countryName": "United States",
+   "category": "streetwear",
+   "status": "emerging",
+   "name": "Rockstar slim fits over baggy",
+   "summary": "Complex predicted skinny trousers, fitted tees and leather biker jackets would challenge oversized streetwear in 2026, with slimmer Chelsea boots following.",
+   "season": "2026",
+   "gender": "male",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "Complex",
+   "source_url": "https://www.complex.com/style/a/mike-destefano/10-fashion-trends-we-think-will-run-streetwear-2026",
+   "published": "2026-01-06",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "low",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "united-states",
+   "countryName": "United States",
+   "category": "streetwear",
+   "status": "emerging",
+   "name": "Bright camo and hockey jerseys",
+   "summary": "Colourful camouflage and reworked throwback hockey jerseys were tipped as streetwear revivals as consumers move away from earth tones.",
+   "season": "2026",
+   "gender": "male",
+   "ages": [
+    "13-17",
+    "18-25"
+   ],
+   "source": "Complex",
+   "source_url": "https://www.complex.com/style/a/mike-destefano/10-fashion-trends-we-think-will-run-streetwear-2026",
+   "published": "2026-01-06",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "low",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "united-states",
+   "countryName": "United States",
+   "category": "casual",
+   "status": "observed",
+   "name": "Kids: athleisure leads back to school",
+   "summary": "A Coresight survey found athleisure was the trend US parents were most excited about, ahead of collared tees, monochrome, preppy and bold prints; Nike and Adidas were the top brands.",
+   "season": "Back to School 2026",
+   "gender": "kids",
+   "ages": [
+    "3-7",
+    "8-12",
+    "13-17"
+   ],
+   "source": "SGB Media (Coresight Research)",
+   "source_url": "https://sgbonline.com/exec-coresight-research-highlights-athleisure-as-top-back-to-school-trend/",
+   "published": "2026-07-09",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "high",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "united-states",
+   "countryName": "United States",
+   "category": "emerging",
+   "status": "observed",
+   "name": "Kids: 90s nostalgia and sparkle shoes",
+   "summary": "A Maryland boutique reports girls buying 90s-inspired looks recognised from social media plus rhinestone and metallic footwear, while boys go for neon and playful graphics.",
+   "season": "Back to School 2026",
+   "gender": "kids",
+   "ages": [
+    "3-7",
+    "8-12"
+   ],
+   "source": "WTOP",
+   "source_url": "https://new.wtop.com/local/2026/08/local-boutique-says-kids-are-calling-the-shots-on-back-to-school-fashion/",
+   "published": "2026-08",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "low",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "united-states",
+   "countryName": "United States",
+   "category": "fabrics",
+   "status": "observed",
+   "name": "Kids: soft, sensory-friendly basics",
+   "summary": "Parents are seeking tagless bamboo and cotton blends that wash well and resist pilling, partly for children with sensory sensitivities.",
+   "season": "Back to School 2026",
+   "gender": "kids",
+   "ages": [
+    "3-7",
+    "8-12"
+   ],
+   "source": "WTOP",
+   "source_url": "https://new.wtop.com/local/2026/08/local-boutique-says-kids-are-calling-the-shots-on-back-to-school-fashion/",
+   "published": "2026-08",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "low",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "united-states",
+   "countryName": "United States",
+   "category": "colors",
+   "status": "forecast",
+   "name": "Cobalt blue",
+   "summary": "Yves Klein-style cobalt was the standout NYFW SS27 colour at Ralph Lauren, Calvin Klein Collection, Kallmeyer and TWP, and was also prominent in show-goers' street style.",
+   "season": "SS27",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "Who What Wear",
+   "source_url": "https://www.whowhatwear.com/fashion/runway/new-york-fashion-week-trends-spring-summer-2027",
+   "published": "2026-09-17",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "high",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "united-states",
+   "countryName": "United States",
+   "category": "fabrics",
+   "status": "forecast",
+   "name": "Liquid satin and modern jacquard",
+   "summary": "Fluid satin takes over from stiff taffeta at Ralph Lauren and Sandy Liang, while jacquards appear in contemporary cuts at Proenza Schouler, Altuzarra and Tory Burch.",
+   "season": "SS27",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "Who What Wear",
+   "source_url": "https://www.whowhatwear.com/fashion/runway/new-york-fashion-week-trends-spring-summer-2027",
+   "published": "2026-09-17",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "united-states",
+   "countryName": "United States",
+   "category": "dress_styles",
+   "status": "forecast",
+   "name": "Full midi skirts and romantic corsets",
+   "summary": "Voluminous midi skirts at Khaite and Brandon Maxwell, softer corsets with peplums and appliqué, and wavy crinoline hems were recurring shapes in New York.",
+   "season": "SS27",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "Who What Wear",
+   "source_url": "https://www.whowhatwear.com/fashion/runway/new-york-fashion-week-trends-spring-summer-2027",
+   "published": "2026-09-17",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "high",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "united-states",
+   "countryName": "United States",
+   "category": "prints",
+   "status": "forecast",
+   "name": "Small vintage florals and tiger stripes",
+   "summary": "Golden-toned, faded ditsy florals at Khaite, Altuzarra and Ralph Lauren sat alongside a wider adoption of tiger and feline stripes.",
+   "season": "SS27",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "Hello! Fashion",
+   "source_url": "https://www.hellomagazine.com/hfm/fashion-trends/923700/new-york-fashion-week-ss27-trend-report/",
+   "published": "2026-09-16",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "united-states",
+   "countryName": "United States",
+   "category": "embroidery",
+   "status": "forecast",
+   "name": "Appliqué and tactile surfaces",
+   "summary": "Appliqué, feathers, fringe, puckering and woven textures added hand-worked depth at Diotima, Khaite, Michael Kors and Tory Burch.",
+   "season": "SS27",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "Who What Wear",
+   "source_url": "https://www.whowhatwear.com/fashion/runway/new-york-fashion-week-trends-spring-summer-2027",
+   "published": "2026-09-17",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "high",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "united-states",
+   "countryName": "United States",
+   "category": "formal",
+   "status": "forecast",
+   "name": "Daytime sequins and gold",
+   "summary": "Sequins and golden metallics were dressed down with basics such as Bermuda shorts, seen at Ralph Lauren, Cult Gaia and Altuzarra.",
+   "season": "SS27",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "Who What Wear",
+   "source_url": "https://www.whowhatwear.com/fashion/runway/new-york-fashion-week-trends-spring-summer-2027",
+   "published": "2026-09-17",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "high",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "united-states",
+   "countryName": "United States",
+   "category": "silhouettes",
+   "status": "forecast",
+   "name": "Low-slung bumster waists",
+   "summary": "Very low-rise waistbands returned in New York at Ben Doctor and Ella Mae, in some looks revealing the top of the hips and lower back.",
+   "season": "SS27",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "The Fader",
+   "source_url": "https://www.thefader.com/2026/09/18/7-surprising-takeaways-from-new-york-fashion-week-spring-2027",
+   "published": "2026-09-18",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "united-states",
+   "countryName": "United States",
+   "category": "streetwear",
+   "status": "forecast",
+   "name": "Utility details replace bows",
+   "summary": "Girlish dressing turned functional at Sandy Liang and Collina Strada, swapping ribbons for cargo pockets and drawstrings, while Kai Cenat's Vivet debut fused tailoring with streetwear.",
+   "season": "SS27",
+   "gender": "unisex",
+   "ages": [
+    "13-17",
+    "18-25"
+   ],
+   "source": "The Fader",
+   "source_url": "https://www.thefader.com/2026/09/18/7-surprising-takeaways-from-new-york-fashion-week-spring-2027",
+   "published": "2026-09-18",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  }
+ ]
+}

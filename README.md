@@ -1,0 +1,78 @@
+# DesignMind AI
+
+Personal studio for textile, fashion and graphic designers: sourced trend research for 15 markets, a fabric database with honest specification labels, reference-to-concept design generation, colourways, repeat previews and design critique.
+
+**Free to run.** Hosted on GitHub Pages, installs like an app on Windows, Mac, Android and iPhone, and needs no Node.js or server on your computer.
+
+---
+
+## Setup (ek dafa, ~10 minute)
+
+### 1. Upload to GitHub
+1. Make a free account at **github.com** (if you don't have one).
+2. Top right **+** → **New repository** → name it `designmind-ai` → **Public** → **Create repository**.
+3. On the new page click **uploading an existing file**.
+4. Unzip `designmind-ai.zip` on your computer, open the folder, select **everything inside it** (including the `.github` folder) and drag it into the page. Click **Commit changes**.
+   - Mac: press `Cmd + Shift + .` in Finder to see the hidden `.github` folder.
+   - If `.github` does not upload, create the two workflow files by hand: **Add file → Create new file**, name `.github/workflows/pages.yml`, paste its content; same for `update-research.yml`.
+
+### 2. Turn on the website
+1. In the repository: **Settings → Pages**.
+2. Under **Source** choose **GitHub Actions**.
+3. Go to **Actions** → **Publish website** → **Run workflow**.
+4. After about a minute your app is live at `https://YOUR-USERNAME.github.io/designmind-ai/`.
+
+### 3. Free AI key (for concepts, briefs, critique, and weekly research)
+1. Open **aistudio.google.com/apikey**, sign in with Google, **Create API key**, copy it.
+2. **In the app:** Settings → Provider *Google Gemini* → paste key → **Save settings** → **Test AI**.
+3. **For automatic research:** repository **Settings → Secrets and variables → Actions → New repository secret**, name `GEMINI_API_KEY`, paste the same key.
+
+### 4. Install the app
+- **Windows / Mac (Chrome or Edge):** open your app link → click **Install app** (top bar) or the install icon in the address bar.
+- **Android (Chrome):** menu ⋮ → **Install app**.
+- **iPhone / iPad (Safari):** Share → **Add to Home Screen**.
+
+After that, open DesignMind from its own icon. It runs in its own window and works offline for trends, fabrics, colourways, repeats and projects.
+
+---
+
+## What works without AI or internet
+Trend research (saved snapshot), fabric database and comparison, colourway extraction and recolouring (HEX + RGB, manual edit), repeat preview with seam check and PNG export, projects, favourites, reports and backups.
+
+## What needs the free AI key
+Reference analysis and original concepts, research-based colourways, trend briefs, fabric Q&A, graphic design critique.
+
+## Updating trend research
+- Runs automatically **every Monday** on GitHub (free).
+- To run now: **Actions → Update trend research → Run workflow** (choose `all` or one market).
+- The script searches the web for free (DuckDuckGo), opens the pages, and asks the AI to extract trends **only from those pages**. A trend is kept only if it links to a page the script actually opened; publication dates come from the page itself; anything over 12 months old is marked historical; forecasts are kept separate.
+- If searches come back empty (search sites sometimes block GitHub's computers), add a free **Tavily** key as secret `TAVILY_API_KEY` (tavily.com, free monthly allowance).
+
+## Other free AI options
+In Settings you can also choose **Groq** or **OpenRouter** (free keys), or **Ollama** to run AI fully offline on your own computer. For Ollama, allow the app to reach it by starting Ollama with `OLLAMA_ORIGINS=https://YOUR-USERNAME.github.io`.
+
+## Your data
+- Projects and favourites are saved in the browser/app on each device. Use **Settings → Download backup** regularly and **Import backup** on a new device.
+- Your AI key stays in your browser on your device. It is never written into the repository.
+
+## Accuracy rules
+- Every trend shows source, URL, publication date, observation date, last verified date and confidence.
+- Fabric specs are labelled **Sourced**, **Estimate** or **Not verified**; GSM is never invented.
+- Season (in stores now / next season) is calculated from today's date, never hardcoded.
+- AI previews are labelled as previews, not production artwork.
+
+## Files
+```
+index.html              the app
+assets/static.js        browser runtime: data, AI, storage, install
+sw.js, manifest.webmanifest   offline + install support
+data/research/*.json    trend records per market
+data/fabrics.json       fabric database
+scripts/update-research.js    weekly research (runs on GitHub)
+.github/workflows/      publish website + weekly research
+```
+
+## Limits to know
+- Free tiers (Gemini, Tavily, Pollinations images) are set by those companies and can change.
+- AI image previews use Pollinations, a free community service; they can be slow and are sketches, not artwork.
+- Not built yet: dedicated dress-style gallery with garment specs, collection builder, SVG export.

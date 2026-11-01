@@ -1,0 +1,551 @@
+{
+ "country": "Italy",
+ "slug": "italy",
+ "researched_on": "2026-11-01",
+ "method": "snapshot",
+ "season_context": {
+  "hemisphere": "northern",
+  "current_fashion_season": "Autunno/Inverno 2026 (AW26)",
+  "local_season_notes": "Cold north (Milan) and milder south shape outerwear and knit demand. Christmas and Epiphany shopping run to early January, when regional winter sales (saldi) start. Pitti Uomo and Milano Moda Uomo in January and Milan Fashion Week in February set AW27, and SS27 stock arrives in early spring.",
+  "upcoming_season": "Primavera/Estate 2027 (SS27)",
+  "sources": [
+   {
+    "title": "DiLei: colori moda autunno 2026",
+    "url": "https://dilei.it/moda/colori-moda-autunno-2026/2781946/",
+    "published": "2026-10-06"
+   },
+   {
+    "title": "WWD via Yahoo Finance: Milano Unica textile makers",
+    "url": "https://finance.yahoo.com/news/textile-makers-milano-unica-optimistic-204454872.html",
+    "published": "2026-01-23"
+   },
+   {
+    "title": "Who What Wear: Milan Fashion Week SS27 trends",
+    "url": "https://www.whowhatwear.com/fashion/runway/milan-fashion-week-trends-spring-summer-2027",
+    "published": "2026-09-30"
+   }
+  ]
+ },
+ "trends": [
+  {
+   "country": "italy",
+   "countryName": "Italy",
+   "category": "colors",
+   "status": "observed",
+   "name": "Scarlet, violet and cobalt",
+   "summary": "Italian autumn colour coverage spotlights saturated scarlet, amethyst violet, navy and cobalt (often with orange), custard yellow as a bright neutral, and head-to-toe burgundy.",
+   "season": "AI 2026",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "DiLei",
+   "source_url": "https://dilei.it/moda/colori-moda-autunno-2026/2781946/",
+   "published": "2026-10-06",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "italy",
+   "countryName": "Italy",
+   "category": "colors",
+   "status": "observed",
+   "name": "Pantone AW26 palette: olive, mahogany, clay",
+   "summary": "An Italian guide to Pantone's AW26 selection highlights burnt olive, red mahogany, dusty muted clay, chartreuse-leaning green, warm acacia yellow and pale sky blue.",
+   "season": "AI 2026",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "nss G-Club",
+   "source_url": "https://www.nssgclub.com/it/fashion/47069/colori-moda-autunno-inverno-2026-pantone-tendenze-abbinamenti",
+   "published": "2026-10-02",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "italy",
+   "countryName": "Italy",
+   "category": "silhouettes",
+   "status": "observed",
+   "name": "Balloon volumes and 80s blazers",
+   "summary": "Puffed mini and maxi skirts and roomy capri or harem trousers are balanced with basics, while strong-shouldered 1980s blazers are cinched with wide belts.",
+   "season": "AI 2026",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "DiLei",
+   "source_url": "https://dilei.it/moda/tendenze-moda-autunno-2026/2680330/",
+   "published": "2026-09-03",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "italy",
+   "countryName": "Italy",
+   "category": "fabrics",
+   "status": "observed",
+   "name": "Soft leather total looks",
+   "summary": "Head-to-toe leather with a softer, almost tailored drape, chocolate leather bombers and long leather trenches are key autumn buys.",
+   "season": "AI 2026",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "DiLei",
+   "source_url": "https://dilei.it/moda/tendenze-moda-autunno-2026/2680330/",
+   "published": "2026-09-03",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "italy",
+   "countryName": "Italy",
+   "category": "seasonal",
+   "status": "observed",
+   "name": "Autumn layering over silk slips",
+   "summary": "Back-to-work dressing layers oversized jackets over cardigans and shirts, with silk slips and lingerie tops under heavy knits and semi-sheer skirts over trousers.",
+   "season": "AI 2026",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "DiLei",
+   "source_url": "https://dilei.it/moda/tendenze-moda-autunno-2026/2680330/",
+   "published": "2026-09-03",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "italy",
+   "countryName": "Italy",
+   "category": "formal",
+   "status": "recent",
+   "name": "Soft 70s men's tailoring",
+   "summary": "Milan and Florence AW26 menswear brought back looser, 1970s-flavoured suits and relaxed trousers, with suede utility jackets at Zegna and louche suiting at Canali.",
+   "season": "AI 2026",
+   "gender": "male",
+   "ages": [
+    "26-40",
+    "41-60"
+   ],
+   "source": "Man's World India",
+   "source_url": "https://www.mansworldindia.com/fashion/milan-fashion-week-highlights-all-the-shows-and-trends-shaping-menswear-in-2026",
+   "published": "2026-01-28",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "italy",
+   "countryName": "Italy",
+   "category": "luxury",
+   "status": "recent",
+   "name": "Heritage over hype",
+   "summary": "Italian houses built AW26 men's collections from archives and family wardrobes, as at Zegna, while Armani revisited the founder's 1980s codes.",
+   "season": "AI 2026",
+   "gender": "male",
+   "ages": [
+    "26-40",
+    "41-60"
+   ],
+   "source": "Man's World India",
+   "source_url": "https://www.mansworldindia.com/fashion/milan-fashion-week-highlights-all-the-shows-and-trends-shaping-menswear-in-2026",
+   "published": "2026-01-28",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "italy",
+   "countryName": "Italy",
+   "category": "casual",
+   "status": "recent",
+   "name": "Pitti street style: workwear and volume",
+   "summary": "Street style at Pitti Uomo 110 mixed Italian tailoring with Scandinavian ease, workwear pieces, oversized proportions and quirky details.",
+   "season": "SS26 / SS27",
+   "gender": "male",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "NSS Magazine",
+   "source_url": "https://www.nssmag.com/en/fashion/45851/the-best-street-style-looks-from-pitti-uomo-110",
+   "published": "2026-06-18",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "low",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "italy",
+   "countryName": "Italy",
+   "category": "modest",
+   "status": "recent",
+   "name": "Made-in-Italy modestwear at Milan Fashion Week",
+   "summary": "Afraa showed a loose, wide-cut AW26-27 modestwear line in Milan using silk, cashmere, wool, nappa and jersey in mineral and dusty tones, backed by the Italian fashion chamber.",
+   "season": "AI 2026-27",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "iMore",
+   "source_url": "https://www.imore.it/rivista/?p=51105",
+   "published": "2026-04-21",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "italy",
+   "countryName": "Italy",
+   "category": "fabrics",
+   "status": "forecast",
+   "name": "Linen-led summer textiles",
+   "summary": "Italian mills at Milano Unica made linen the lead fibre for SS27, blending it with fine wool, cashmere and nylon for suiting, outerwear and denim, alongside seersucker and open weaves.",
+   "season": "SS27",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "WWD (via Yahoo Finance)",
+   "source_url": "https://finance.yahoo.com/news/textile-makers-milano-unica-optimistic-204454872.html",
+   "published": "2026-01-23",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "high",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "italy",
+   "countryName": "Italy",
+   "category": "colors",
+   "status": "forecast",
+   "name": "Washed pastels and candy tones",
+   "summary": "Mills pointed to earthy shades and sun-faded pastels for SS27, and Milan's September shows confirmed soft peach, mint, lemon and pastel pink replacing fall's bold tones.",
+   "season": "SS27",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "Who What Wear",
+   "source_url": "https://www.whowhatwear.com/fashion/runway/milan-fashion-week-trends-spring-summer-2027",
+   "published": "2026-09-30",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "high",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "italy",
+   "countryName": "Italy",
+   "category": "prints",
+   "status": "forecast",
+   "name": "Archive checks, stripes and 80s graphics",
+   "summary": "Vintage-feeling checks, stripes and bold 80s graphics ran through Prada, Marni, Diesel, MSGM and Gucci in Milan SS27.",
+   "season": "SS27",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "NSS Magazine",
+   "source_url": "https://www.nssmag.com/en/fashion/47050/trend-report-milan-fashion-week-womenswear-ss27-update",
+   "published": "2026-09-29",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "italy",
+   "countryName": "Italy",
+   "category": "printing_techniques",
+   "status": "forecast",
+   "name": "Coated, lacquered and gradient finishes",
+   "summary": "Milano Unica showcased lacquered leather-look coatings and iridescent jerseys for SS27, and distressed coated fabrics, gradient prints and metallic lamé for the FW27/28 cycle.",
+   "season": "SS27 / FW27",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "FashionUnited UK",
+   "source_url": "https://fashionunited.uk/news/fashion/spring-summer-2027-trends-seen-at-milano-unica/2026012785956",
+   "published": "2026-01-27",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "italy",
+   "countryName": "Italy",
+   "category": "emerging",
+   "status": "forecast",
+   "name": "Handcraft is punk",
+   "summary": "Milano Unica's July 2026 fair framed FW27/28 around artisanal craft as rebellion, grouping Biella wools, technical denims and ripstops, chenille macramé and sequinned tulle into Classic, Freestyle and Romance stories.",
+   "season": "FW27/28",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "Milano Unica",
+   "source_url": "https://www.milanounica.it/en/milano-unica-presents-mu-is-punk-handcraft-is-punk",
+   "published": "2026-07-07",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "high",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "italy",
+   "countryName": "Italy",
+   "category": "dress_styles",
+   "status": "forecast",
+   "name": "Visible bras and lingerie layers",
+   "summary": "Bra tops worn alone, under sheer layers or with skirts were a defining Milan SS27 look, especially at Prada and Fendi.",
+   "season": "SS27",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "NSS Magazine",
+   "source_url": "https://www.nssmag.com/en/fashion/47050/trend-report-milan-fashion-week-womenswear-ss27-update",
+   "published": "2026-09-29",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "high",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "italy",
+   "countryName": "Italy",
+   "category": "silhouettes",
+   "status": "forecast",
+   "name": "Knee-length skirts and fitted tailoring",
+   "summary": "Milan treated the knee skirt as an everyday base at Prada, Ferragamo and Marni, and replaced big blazers with close, waist-cinched jackets.",
+   "season": "SS27",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "Who What Wear",
+   "source_url": "https://www.whowhatwear.com/fashion/runway/milan-fashion-week-trends-spring-summer-2027",
+   "published": "2026-09-30",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "high",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "italy",
+   "countryName": "Italy",
+   "category": "embroidery",
+   "status": "forecast",
+   "name": "Lace and embroidered denim",
+   "summary": "Jeans patched with lace, embroidery and flower motifs appeared at Dolce & Gabbana, Ermanno Scervino and Genny; D&G also showed black embroidered looks.",
+   "season": "SS27",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "Who What Wear",
+   "source_url": "https://www.whowhatwear.com/fashion/runway/milan-fashion-week-spring-summer-2027-trends",
+   "published": "2026-09-29",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "high",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "italy",
+   "countryName": "Italy",
+   "category": "fabrics",
+   "status": "forecast",
+   "name": "Sheer silks and glossy PVC",
+   "summary": "Translucent organza, tulle and silk mixed with latex-like vinyl and clear PVC at Ferragamo, MSGM, Jil Sander and Fendi.",
+   "season": "SS27",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "NSS Magazine",
+   "source_url": "https://www.nssmag.com/en/fashion/47050/trend-report-milan-fashion-week-womenswear-ss27-update",
+   "published": "2026-09-29",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "high",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "italy",
+   "countryName": "Italy",
+   "category": "luxury",
+   "status": "forecast",
+   "name": "House craft codes: woven leather",
+   "summary": "Bottega Veneta extended its woven-leather signature to a men's trench and tall boots and doubled bag sizes, as Milan houses leaned on their own craft heritage.",
+   "season": "SS27",
+   "gender": "unisex",
+   "ages": [
+    "26-40",
+    "41-60"
+   ],
+   "source": "Malay Mail (AFP)",
+   "source_url": "https://www.malaymail.com/news/life/2026/09/27/louise-trotter-expands-bottega-veneta-palette-as-milan-fashion-week-highlights-dolce-gabbana-scervino-and-msgm/236740",
+   "published": "2026-09-27",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "high",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "italy",
+   "countryName": "Italy",
+   "category": "fabrics",
+   "status": "forecast",
+   "name": "Men's perforated and woven leather",
+   "summary": "Milan's SS27 men's shows made leather breathable with weaving and perforation, notably slim leather jeans at Prada, plus seersucker suiting at Thom Browne.",
+   "season": "SS27",
+   "gender": "male",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "Asharq Al-Awsat (AP)",
+   "source_url": "https://english.aawsat.com/fashion/5287156-milan-designers-go-lighter-silhouette-if-not-materials-next-summer",
+   "published": "2026-06-22",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "italy",
+   "countryName": "Italy",
+   "category": "silhouettes",
+   "status": "forecast",
+   "name": "Closer cuts and short shorts for men",
+   "summary": "Menswear moved away from oversize toward body-skimming cuts and lighter, open-neck suits, with Dolce & Gabbana pushing to micro shorts.",
+   "season": "SS27",
+   "gender": "male",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "Asharq Al-Awsat (AP)",
+   "source_url": "https://english.aawsat.com/fashion/5287156-milan-designers-go-lighter-silhouette-if-not-materials-next-summer",
+   "published": "2026-06-22",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "italy",
+   "countryName": "Italy",
+   "category": "formal",
+   "status": "forecast",
+   "name": "Summer ties and bold checks",
+   "summary": "Pitti Uomo's June edition showed lightweight ties and neckerchiefs worn in heat, sport jackets with jeans, summer stripes and checks scaled up or patchworked.",
+   "season": "SS27",
+   "gender": "male",
+   "ages": [
+    "26-40",
+    "41-60"
+   ],
+   "source": "Harry Rosen",
+   "source_url": "https://www.harryrosen.com/en/editorial/pitti-uomo-2026-trends",
+   "published": "unknown",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "low",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "italy",
+   "countryName": "Italy",
+   "category": "streetwear",
+   "status": "forecast",
+   "name": "Pop-art urban colour",
+   "summary": "MSGM based its SS27 men's and women's line on Mario Schifano art with fluorescent palm and star motifs on relaxed, comfortable shapes with a pop, urban feel.",
+   "season": "SS27",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "Malay Mail (AFP)",
+   "source_url": "https://www.malaymail.com/news/life/2026/09/27/louise-trotter-expands-bottega-veneta-palette-as-milan-fashion-week-highlights-dolce-gabbana-scervino-and-msgm/236740",
+   "published": "2026-09-27",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "low",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "italy",
+   "countryName": "Italy",
+   "category": "prints",
+   "status": "forecast",
+   "name": "Kids: illustration-led storytelling prints",
+   "summary": "Pitti Bimbo's June 2026 edition favoured artist-illustrated print worlds and storybooks tied to collections, alongside stripe-only minimal basics and unisex ranges spanning children to preteens.",
+   "season": "SS27",
+   "gender": "kids",
+   "ages": [
+    "3-7",
+    "8-12",
+    "13-17"
+   ],
+   "source": "FashionUnited ES",
+   "source_url": "https://fashionunited.es/noticias/ferias/en-florencia-pitti-bimbo-demuestra-que-el-formato-intimista-tiene-sus-ventajas/2026062649851",
+   "published": "2026-06-26",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  }
+ ]
+}

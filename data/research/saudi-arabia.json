@@ -1,0 +1,608 @@
+{
+ "country": "Saudi Arabia",
+ "slug": "saudi-arabia",
+ "researched_on": "2026-11-01",
+ "method": "snapshot",
+ "season_context": {
+  "hemisphere": "northern",
+  "current_fashion_season": "Autumn/Winter 2026 (AW26)",
+  "local_season_notes": "Riyadh Fashion Week was due on 15 to 20 October 2026 but was postponed to 2027, and other major events were deferred as well. Founding Day falls in late February and Ramadan 2027 is expected from about 8 February, so heritage dress, abayas and Eid occasionwear dominate the November to March calendar.",
+  "upcoming_season": "Spring/Summer 2027 / Ramadan & Eid 2027",
+  "sources": [
+   {
+    "title": "Riyadh Fashion Week postponed to next year (The National)",
+    "url": "https://www.thenationalnews.com/lifestyle/fashion-beauty/2026/10/15/riyadh-fashion-week-2026-postponed/",
+    "published": "2026-10-15"
+   },
+   {
+    "title": "Ramadan 2027 expected dates (The National)",
+    "url": "https://www.thenationalnews.com/news/uae/2026/10/06/ramadan-2027-uae-dates-eid-al-fitr-holiday/",
+    "published": "2026-09-09"
+   },
+   {
+    "title": "Saudi Founding Day brings heritage to life (KFUPM)",
+    "url": "https://news.kfupm.edu.sa/news/saudi-founding-day-brings-heritage-to-life/291/",
+    "published": "2026-02-23"
+   },
+   {
+    "title": "Saudi National Day 2026 identity (AE World)",
+    "url": "https://aeworld.com/?p=153825",
+    "published": "2026-08-04"
+   }
+  ]
+ },
+ "trends": [
+  {
+   "country": "saudi-arabia",
+   "countryName": "Saudi Arabia",
+   "category": "seasonal",
+   "status": "observed",
+   "name": "Riyadh Fashion Week postponed",
+   "summary": "The fourth Riyadh Fashion Week, planned for 15 to 20 October 2026, was postponed a day before opening. Organisers have not announced new dates or a lineup.",
+   "season": "AW26",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "The National",
+   "source_url": "https://www.thenationalnews.com/lifestyle/fashion-beauty/2026/10/15/riyadh-fashion-week-2026-postponed/",
+   "published": "2026-10-15",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "high",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "saudi-arabia",
+   "countryName": "Saudi Arabia",
+   "category": "luxury",
+   "status": "observed",
+   "name": "Global houses localise in KSA",
+   "summary": "Luxury brands are moving from serving Saudi clients remotely to holding fittings in Riyadh and Jeddah. Missoni, Eleventy, Corneliani and ISAIA have opened first stores, joining Louis Vuitton, Dior and Celine.",
+   "season": "2026",
+   "gender": "unisex",
+   "ages": [
+    "26-40",
+    "41-60"
+   ],
+   "source": "Arab News",
+   "source_url": "https://www.arabnews.pk/business/why-global-luxury-brands-are-expanding-in-saudi-arabia-2656217",
+   "published": "2026-08-29",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "high",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "saudi-arabia",
+   "countryName": "Saudi Arabia",
+   "category": "modest",
+   "status": "observed",
+   "name": "Modest cuts in luxury collections",
+   "summary": "Saudi luxury shoppers are steering houses toward modest silhouettes, rich embroidery and Arab-influenced design. Craft, provenance and exclusivity increasingly outrank logos.",
+   "season": "2026",
+   "gender": "female",
+   "ages": [
+    "26-40",
+    "41-60"
+   ],
+   "source": "Communicate Online",
+   "source_url": "https://communicateonline.me/brands/global-luxury-brands-expand-saudi-presence-as-domestic-demand-grows/",
+   "published": "2026-08-30",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "high",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "saudi-arabia",
+   "countryName": "Saudi Arabia",
+   "category": "formal",
+   "status": "observed",
+   "name": "Couture beyond weddings",
+   "summary": "Saudi couture spending is spreading from weddings to galas, red carpets, eveningwear and polished daywear. Georges Hobeika reports more fittings in Riyadh and Jeddah.",
+   "season": "2026",
+   "gender": "female",
+   "ages": [
+    "26-40",
+    "41-60"
+   ],
+   "source": "Communicate Online",
+   "source_url": "https://communicateonline.me/brands/global-luxury-brands-expand-saudi-presence-as-domestic-demand-grows/",
+   "published": "2026-08-30",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "saudi-arabia",
+   "countryName": "Saudi Arabia",
+   "category": "emerging",
+   "status": "observed",
+   "name": "Craftsmanship over logos",
+   "summary": "Saudi consumers are described as better informed and more selective, able to tell couture from ready-to-wear. Local labels are gaining demand, though shoppers still resist luxury pricing for them.",
+   "season": "2026",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "Arab News",
+   "source_url": "https://www.arabnews.pk/business/why-global-luxury-brands-are-expanding-in-saudi-arabia-2656217",
+   "published": "2026-08-29",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "saudi-arabia",
+   "countryName": "Saudi Arabia",
+   "category": "streetwear",
+   "status": "observed",
+   "name": "Saudi streetwear goes global",
+   "summary": "Riyadh label 1886 sells hoodies, joggers, tees and dresses shaped by Saudi youth, music and art culture. It is stocked at Selfridges' Saudi pop-up after a Galeries Lafayette Paris run.",
+   "season": "2026",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "Arab News",
+   "source_url": "https://www.arabnews.pk/node/2652550/lifestyle",
+   "published": "2026-07-28",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "saudi-arabia",
+   "countryName": "Saudi Arabia",
+   "category": "emerging",
+   "status": "recent",
+   "name": "Regional heritage as a design brief",
+   "summary": "Graduates at Riyadh's Arts and Skills Institute built collections from Najdi desert landscapes, Jazan's khawlani coffee harvest and Hejazi architecture, reflecting design students' interest in regional identity.",
+   "season": "2026",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "Arab News",
+   "source_url": "https://www.arabnews.com/node/2647706/lifestyle",
+   "published": "2026-06-18",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "saudi-arabia",
+   "countryName": "Saudi Arabia",
+   "category": "silhouettes",
+   "status": "emerging",
+   "name": "1980s power shoulders",
+   "summary": "One Saudi graduate reworked her mother's 1980s wedding dress with bold colour and broad shoulders, an early sign of local interest in eighties-era proportions.",
+   "season": "2026",
+   "gender": "female",
+   "ages": [
+    "18-25"
+   ],
+   "source": "Arab News",
+   "source_url": "https://www.arabnews.com/node/2647706/lifestyle",
+   "published": "2026-06-18",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "low",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "saudi-arabia",
+   "countryName": "Saudi Arabia",
+   "category": "modest",
+   "status": "emerging",
+   "name": "South Asian and Hejazi modesty fusion",
+   "summary": "A Riyadh graduate collection merged Pakistani, Najdi and Hejazi dress codes, including burqa-derived face pieces, framing modesty as common ground between South Asian and Gulf cultures.",
+   "season": "2026",
+   "gender": "female",
+   "ages": [
+    "18-25"
+   ],
+   "source": "Arab News",
+   "source_url": "https://www.arabnews.com/node/2647706/lifestyle",
+   "published": "2026-06-18",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "low",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "saudi-arabia",
+   "countryName": "Saudi Arabia",
+   "category": "colors",
+   "status": "recent",
+   "name": "Lavender and burgundy at the Saudi Cup",
+   "summary": "At the February 2026 Saudi Cup, lavender stood out, from a Najdi-style women's outfit to men's thobes, with burgundy thobes appearing alongside.",
+   "season": "Spring 2026",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "Arab News",
+   "source_url": "https://www.arabnews.pk/fashion/saudi-cup-2026-fashion-stars-spend-a-day-at-the-races-2632914",
+   "published": "2026-02-13",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "saudi-arabia",
+   "countryName": "Saudi Arabia",
+   "category": "dress_styles",
+   "status": "recent",
+   "name": "Regional dress at society events",
+   "summary": "Women at the 2026 Saudi Cup wore traditional garments from across the Kingdom, including Najdi styles, paired with race-day headwear.",
+   "season": "Spring 2026",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "Arab News",
+   "source_url": "https://www.arabnews.pk/fashion/saudi-cup-2026-fashion-stars-spend-a-day-at-the-races-2632914",
+   "published": "2026-02-13",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "saudi-arabia",
+   "countryName": "Saudi Arabia",
+   "category": "embroidery",
+   "status": "recent",
+   "name": "Patterned thobes and Saudi embroidery",
+   "summary": "Menswear at the 2026 Saudi Cup included patterned thobes and Saudi-inspired embroidery, showing a gradual move away from plain white for occasions.",
+   "season": "Spring 2026",
+   "gender": "male",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "Arab News",
+   "source_url": "https://www.arabnews.pk/fashion/saudi-cup-2026-fashion-stars-spend-a-day-at-the-races-2632914",
+   "published": "2026-02-13",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "saudi-arabia",
+   "countryName": "Saudi Arabia",
+   "category": "emerging",
+   "status": "recent",
+   "name": "Saudi 100 Brands runways",
+   "summary": "The Fashion Commission's Saudi 100 Brands staged runways at the Saudi Cup for THEXO, Enays, Sulitude, MD29, Adara By Fa and Hajruss, plus a jewellery and accessories exhibition.",
+   "season": "Spring 2026",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "Arab News",
+   "source_url": "https://www.arabnews.pk/fashion/saudi-cup-2026-fashion-stars-spend-a-day-at-the-races-2632914",
+   "published": "2026-02-13",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "saudi-arabia",
+   "countryName": "Saudi Arabia",
+   "category": "dress_styles",
+   "status": "recent",
+   "name": "Coloured abaya dresses",
+   "summary": "Gulf influencers wore abaya dresses in red, peach, mustard, turquoise and emerald for Ramadan 2026, with embroidery, braided trims and crystal belts replacing plain black.",
+   "season": "Ramadan 2026",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "An-Nahar",
+   "source_url": "https://www.annahar.com/lifestyle/fashion/279114/عباية-ملونة-بتصاميم-فاخرة-خيار-جميلات-الشهرة-في-رمضان-2026-صور-وفيديو",
+   "published": "2026-02-19",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "saudi-arabia",
+   "countryName": "Saudi Arabia",
+   "category": "casual",
+   "status": "recent",
+   "name": "Abaya with jeans",
+   "summary": "Across the Gulf, open abayas styled over straight or flared jeans with silk tops and metallic accessories became a daytime and suhoor look for Ramadan 2026.",
+   "season": "Ramadan 2026",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "An-Nahar",
+   "source_url": "https://www.annahar.com/lifestyle/fashion/279293/عباية-مع-الجينز-تتصدر-موضة-رمضان-2026-هيبة-شرقية-بأسلوب-الرفاهية-المعاصرة-صور-وفيديو",
+   "published": "2026-02-20",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "saudi-arabia",
+   "countryName": "Saudi Arabia",
+   "category": "modest",
+   "status": "recent",
+   "name": "Gulf abayas on Paris modest runway",
+   "summary": "At Paris Modest Fashion Week in April 2026, Gulf labels such as Qatar's Hindami showed occasion and everyday abayas and jalabiyas, and Kuwait's Roqaia used sculptural turbans.",
+   "season": "Spring 2026",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "Bahrain Confidential",
+   "source_url": "https://www.bahrain-confidential.com/paris-modest-fashion-week-26/",
+   "published": "2026-04-26",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "saudi-arabia",
+   "countryName": "Saudi Arabia",
+   "category": "emerging",
+   "status": "recent",
+   "name": "Modest fashion week goes mainstream",
+   "summary": "Paris held its first Modest Fashion Week in April 2026. Labels showed fully covering silhouettes and tailored headscarf styling, such as a beret worn over a hijab.",
+   "season": "2026",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "Elle Egypt",
+   "source_url": "https://www.elle.eg/modest-fashion-goes-mainstream-in-2026/",
+   "published": "2026-05-14",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "saudi-arabia",
+   "countryName": "Saudi Arabia",
+   "category": "seasonal",
+   "status": "forecast",
+   "name": "Ramadan 2027 from early February",
+   "summary": "Ramadan 2027 is projected to start around 8 February, with Eid al-Fitr around 9 or 10 March, depending on moon sighting. Modest and festive buying will peak from January.",
+   "season": "Ramadan & Eid 2027",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "The National",
+   "source_url": "https://www.thenationalnews.com/news/uae/2026/10/06/ramadan-2027-uae-dates-eid-al-fitr-holiday/",
+   "published": "2026-09-09",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "high",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "saudi-arabia",
+   "countryName": "Saudi Arabia",
+   "category": "formal",
+   "status": "forecast",
+   "name": "Riyadh Fashion Week 2027 return",
+   "summary": "Organisers say the fourth Riyadh Fashion Week will take place in 2027 and promise a larger edition, though dates and designers have not been announced.",
+   "season": "2027",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "Time Out Riyadh",
+   "source_url": "https://www.timeoutriyadh.com/news/riyadh-fashion-week-2027",
+   "published": "2026-10-15",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "saudi-arabia",
+   "countryName": "Saudi Arabia",
+   "category": "luxury",
+   "status": "forecast",
+   "name": "GCC luxury toward $15bn by 2027",
+   "summary": "Chalhoub expects GCC personal luxury to reach about $15 billion by 2027. Saudi Arabia is the largest and fastest-growing jewellery market in the region and leads fragrance growth.",
+   "season": "2027",
+   "gender": "unisex",
+   "ages": [
+    "26-40",
+    "41-60"
+   ],
+   "source": "Arab News",
+   "source_url": "https://www.arabnews.pk/business/why-global-luxury-brands-are-expanding-in-saudi-arabia-2656217",
+   "published": "2026-08-29",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "saudi-arabia",
+   "countryName": "Saudi Arabia",
+   "category": "prints",
+   "status": "historical",
+   "name": "Arabic lettering and animal prints",
+   "summary": "HINDAMME's Hejaz collection at Riyadh Fashion Week 2025 ran Arabic script across mostly monochrome looks, with leopard and zebra-print hats and scarves.",
+   "season": "SS26",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "Arab News",
+   "source_url": "https://www.arabnews.pk/node/2619647",
+   "published": "2025-10-21",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "saudi-arabia",
+   "countryName": "Saudi Arabia",
+   "category": "fabrics",
+   "status": "historical",
+   "name": "Silk, leather and metallics",
+   "summary": "The same HINDAMME show mixed silk shirts, knits, a floor-length unisex leather coat, boxy metallic jackets and an embroidered mesh veil referencing Jeddah's Red Sea coast.",
+   "season": "SS26",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "Arab News",
+   "source_url": "https://www.arabnews.pk/node/2619647",
+   "published": "2025-10-21",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "saudi-arabia",
+   "countryName": "Saudi Arabia",
+   "category": "embroidery",
+   "status": "historical",
+   "name": "Sadu and Al-Qatt Al-Asiri motifs",
+   "summary": "Saudi designers reworked Sadu weaving geometry, Asiri Al-Qatt painting and precise Najdi embroidery into minimal and couture garments during the Kingdom's 2025 Year of Handicrafts.",
+   "season": "2025",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "Arab News",
+   "source_url": "https://www.arabnews.pk/saudi-arabia/saudi-designers-weave-heritage-into-fashions-global-tapestry-2616281",
+   "published": "2025-09-22",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "saudi-arabia",
+   "countryName": "Saudi Arabia",
+   "category": "silhouettes",
+   "status": "historical",
+   "name": "Sculptural couture corsetry",
+   "summary": "Saudi-led Ashi Studio's couture used cinched corsets, fishtails, high slits and exaggerated shoulders in black, ivory and champagne, a reference point for Saudi eveningwear.",
+   "season": "FW25 couture",
+   "gender": "female",
+   "ages": [
+    "26-40",
+    "41-60"
+   ],
+   "source": "Arab News",
+   "source_url": "https://www.arabnews.pk/fashion/ashi-studio-unveils-sculptural-silhouettes-in-paris-2607457",
+   "published": "2025-07-09",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "saudi-arabia",
+   "countryName": "Saudi Arabia",
+   "category": "printing_techniques",
+   "status": "historical",
+   "name": "3D printing meets handcraft",
+   "summary": "A Saudi handcraft-to-couture competition showed 3D-printed metal with camel leather alongside natural dyeing and hand embroidery, a sign of tech-craft hybrid techniques.",
+   "season": "2025",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "Arab News",
+   "source_url": "https://www.arabnews.com/node/2590595",
+   "published": "2025-02-17",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "low",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "saudi-arabia",
+   "countryName": "Saudi Arabia",
+   "category": "formal",
+   "status": "historical",
+   "name": "Founding Day heritage dress",
+   "summary": "Saudi personalities marked Founding Day in green jalabiyas, an embroidered Hijazi darfat al bab, maroon regional dress, and a bisht over thobe for men.",
+   "season": "Founding Day",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "Harper's Bazaar Arabia",
+   "source_url": "https://www.harpersbazaararabia.com/fashion/saudi-founding-day-dress",
+   "published": "unknown",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "low",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "saudi-arabia",
+   "countryName": "Saudi Arabia",
+   "category": "streetwear",
+   "status": "historical",
+   "name": "Streetwear day at Riyadh Fashion Week",
+   "summary": "The 2025 Riyadh Fashion Week gave a full day to local labels such as 1886, Cargo and Eleven, framing streetwear as part of a confident new Saudi fashion identity.",
+   "season": "SS26",
+   "gender": "unisex",
+   "ages": [
+    "18-25"
+   ],
+   "source": "Emirates Woman",
+   "source_url": "https://emirateswoman.com/the-third-edition-of-riyadh-fashion-week-cements-the-kingdoms-style-ascent/",
+   "published": "2025-10-17",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  }
+ ]
+}

@@ -1,0 +1,562 @@
+{
+ "country": "Germany",
+ "slug": "germany",
+ "researched_on": "2026-11-01",
+ "method": "snapshot",
+ "season_context": {
+  "hemisphere": "northern",
+  "current_fashion_season": "Autumn/Winter 2026 (AW26)",
+  "local_season_notes": "Cold, grey winters from November to March favour coats, knitwear, boots and layering. Christmas markets and gifting in December drive sales, followed by end-of-season markdowns in January. Berlin Fashion Week runs in late January/early February, and Munich Fabric Start in July and January sets the textile direction. SS27 enters stores from February.",
+  "upcoming_season": "Spring/Summer 2027 (SS27)",
+  "sources": [
+   {
+    "title": "Herbst/Winter 2026: Diese Modetrends erobern die Geschäfte",
+    "url": "https://fashionunited.de/nachrichten/mode/herbst-winter-2026-diese-modetrends-erobern-die-geschafte/2026081068019",
+    "published": "2026-08-10"
+   },
+   {
+    "title": "MFS Pressemitteilung Schlussbericht Juli 2026",
+    "url": "https://www.munichfabricstart.com/wp-content/uploads/2026/07/MFS_Pressemitteilung_Schlussbericht-Juli2026_DE_final.pdf",
+    "published": "2026-07-20"
+   }
+  ]
+ },
+ "trends": [
+  {
+   "country": "germany",
+   "countryName": "Germany",
+   "category": "fabrics",
+   "status": "observed",
+   "name": "Plush, loop-yarn and brushed textures",
+   "summary": "German stores are stocking shaggy plush knits, brushed surfaces, loop yarns, fuzzy cotton and terry details. Volume and tactility are treated as a deliberately sensual statement.",
+   "season": "AW26",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "FashionUnited Germany",
+   "source_url": "https://fashionunited.de/nachrichten/mode/herbst-winter-2026-diese-modetrends-erobern-die-geschafte/2026081068019",
+   "published": "2026-08-10",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "high",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "germany",
+   "countryName": "Germany",
+   "category": "casual",
+   "status": "observed",
+   "name": "Neo-gorpcore and 90s outdoor",
+   "summary": "Outdoor classics are updated for city wear, with archive technical sportswear from brands such as Nike and K-Way becoming hybrid everyday pieces. Zalando's German trend hub also lists neo-gorpcore.",
+   "season": "AW26",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "FashionUnited Germany; Zalando",
+   "source_url": "https://www.zalando.de/modetrends/",
+   "published": "unknown",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "low",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "germany",
+   "countryName": "Germany",
+   "category": "colors",
+   "status": "observed",
+   "name": "Chocolate brown",
+   "summary": "Zalando Germany names a rich chocolate brown as its colour of the season, alongside an animal print edit and layered autumn looks.",
+   "season": "AW26",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "Zalando",
+   "source_url": "https://www.zalando.de/modetrends/",
+   "published": "unknown",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "low",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "germany",
+   "countryName": "Germany",
+   "category": "silhouettes",
+   "status": "observed",
+   "name": "Boxy leather jacket",
+   "summary": "Leather jackets come in boxy, slightly relaxed cuts with structured shoulders, in smooth clean leather, replacing tight traditional fits.",
+   "season": "AW26",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "FashionUnited Germany",
+   "source_url": "https://fashionunited.de/nachrichten/mode/herbst-winter-2026-diese-modetrends-erobern-die-geschafte/2026081068019",
+   "published": "2026-08-10",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "high",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "germany",
+   "countryName": "Germany",
+   "category": "prints",
+   "status": "observed",
+   "name": "Tartan, Glencheck and windowpane",
+   "summary": "Checks appear on oversized coats, tailored skirts and shirts. In menswear they come back in larger, textured versions that feel less traditionally British.",
+   "season": "AW26",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "FashionUnited Germany",
+   "source_url": "https://fashionunited.de/nachrichten/mode/herbst-und-winter-das-sind-die-trends-in-der-mannermode/2026081768112",
+   "published": "2026-08-17",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "high",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "germany",
+   "countryName": "Germany",
+   "category": "casual",
+   "status": "observed",
+   "name": "Menswear: knit vest over long shirt",
+   "summary": "German stylists recommend sleeveless chunky-knit vests worn over shirts with a clearly visible hem, plus thick roll necks and plain wool coats styled with faded jeans for a less polished look.",
+   "season": "AW26",
+   "gender": "male",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "FashionUnited Germany (dpa)",
+   "source_url": "https://fashionunited.de/nachrichten/mode/herbst-und-winter-das-sind-die-trends-in-der-mannermode/2026081768112",
+   "published": "2026-08-17",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "germany",
+   "countryName": "Germany",
+   "category": "formal",
+   "status": "observed",
+   "name": "Slimmer, relaxed men's suiting",
+   "summary": "Oversized looks are fading. Men's suits are narrower, often with pleated trousers and a tie, but are worn with sneakers or sturdy boots and don't need to match.",
+   "season": "AW26",
+   "gender": "male",
+   "ages": [
+    "26-40",
+    "41-60"
+   ],
+   "source": "FashionUnited Germany (dpa)",
+   "source_url": "https://fashionunited.de/nachrichten/mode/herbst-und-winter-das-sind-die-trends-in-der-mannermode/2026081768112",
+   "published": "2026-08-17",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "germany",
+   "countryName": "Germany",
+   "category": "colors",
+   "status": "observed",
+   "name": "Red replaces burgundy in menswear",
+   "summary": "Brown, camel and olive remain the menswear base, while red from signal red to deep wine takes over as the accent. Wine-red leather blousons with shearling collars are a key piece.",
+   "season": "AW26",
+   "gender": "male",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "FashionUnited Germany (dpa)",
+   "source_url": "https://fashionunited.de/nachrichten/mode/herbst-und-winter-das-sind-die-trends-in-der-mannermode/2026081768112",
+   "published": "2026-08-17",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "germany",
+   "countryName": "Germany",
+   "category": "emerging",
+   "status": "emerging",
+   "name": "Brooches and sheer pieces for men",
+   "summary": "Sheer tops, deep necklines and sequins are entering men's collections, and brooches are flagged as a menswear accessory likely to grow in coming seasons.",
+   "season": "AW26-SS27",
+   "gender": "male",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "FashionUnited Germany (dpa)",
+   "source_url": "https://fashionunited.de/nachrichten/mode/herbst-und-winter-das-sind-die-trends-in-der-mannermode/2026081768112",
+   "published": "2026-08-17",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "low",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "germany",
+   "countryName": "Germany",
+   "category": "embroidery",
+   "status": "observed",
+   "name": "Crystal and pearl embellishment on daywear",
+   "summary": "Crystal and pearl appliqués are migrating from evening dresses to everyday garments to lift them, and sheer layering continues from summer into practical silhouettes.",
+   "season": "AW26",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "FashionUnited Germany",
+   "source_url": "https://fashionunited.de/nachrichten/mode/herbst-winter-2026-diese-modetrends-erobern-die-geschafte/2026081068019",
+   "published": "2026-08-10",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "germany",
+   "countryName": "Germany",
+   "category": "seasonal",
+   "status": "observed",
+   "name": "Oktoberfest: tonal, apron-free Tracht",
+   "summary": "Wiesn 2026 favoured tonal brown and burgundy outfits, dirndl dresses without aprons, chain belts, two-piece bodice sets with capri trousers, velvet Miesbach vests, sheer blouses and matching children's Tracht.",
+   "season": "Oktoberfest 2026",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "TextilWirtschaft",
+   "source_url": "https://www.textilwirtschaft.de/fashion-management/wiesn-must-haves-diese-trends-praegen-das-oktoberfest-214091",
+   "published": "2026-08-17",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "high",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "germany",
+   "countryName": "Germany",
+   "category": "dress_styles",
+   "status": "observed",
+   "name": "Two-piece dirndls with mesh blouses",
+   "summary": "Separable blouse-and-skirt dirndls, high-necked mesh blouses replacing lace, velvet and shimmering jacquard, and dark midnight blue, wine and olive tones led the 2026 dirndl season. Adidas launched a sporty dirndl.",
+   "season": "Oktoberfest 2026",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "desired.de",
+   "source_url": "https://www.desired.de/fashion/dirndl-trends-2026-diese-farben-schnitte-und-details-traegt-man-dieses-jahr-zum-oktoberfest--01M2TEGF4F5Q4T6YFT61P0HENM",
+   "published": "2026-09-24",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "germany",
+   "countryName": "Germany",
+   "category": "seasonal",
+   "status": "observed",
+   "name": "Kids' Tracht mirroring adult looks",
+   "summary": "Children's traditional wear for the 2026 Wiesn matched adult styles, with authentic outfits for both boys and girls instead of costume-like versions.",
+   "season": "Oktoberfest 2026",
+   "gender": "kids",
+   "ages": [
+    "3-7",
+    "8-12",
+    "13-17"
+   ],
+   "source": "TextilWirtschaft",
+   "source_url": "https://www.textilwirtschaft.de/fashion-management/wiesn-must-haves-diese-trends-praegen-das-oktoberfest-214091",
+   "published": "2026-08-17",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "low",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "germany",
+   "countryName": "Germany",
+   "category": "silhouettes",
+   "status": "recent",
+   "name": "Protective, forward-leaning outerwear",
+   "summary": "Berlin AW26 favoured guarded shapes. John Lawrence Sullivan used forward-set sleeves and rounded backs, Dagger showed baggy, imperfect proportions, and elongated oversized coats compressed the upper body.",
+   "season": "AW26",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "Fashion Capital",
+   "source_url": "https://www.fashioncapital.co.uk/insights/berlin-fashion-week-aw26-27-dark-minimalism-reused-fabrics-and-protective-layers-set-the-tone/",
+   "published": "2026-02-05",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "germany",
+   "countryName": "Germany",
+   "category": "colors",
+   "status": "recent",
+   "name": "Black, ice metallics and crimson",
+   "summary": "Black anchored Berlin AW26, with sparing silver and snow-white metallics, crimson on shoes and jackets, and faded denim blues, greys and earth tones.",
+   "season": "AW26",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "Fashion Capital",
+   "source_url": "https://www.fashioncapital.co.uk/insights/berlin-fashion-week-aw26-27-dark-minimalism-reused-fabrics-and-protective-layers-set-the-tone/",
+   "published": "2026-02-05",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "germany",
+   "countryName": "Germany",
+   "category": "emerging",
+   "status": "recent",
+   "name": "Reuse and repair as design method",
+   "summary": "Buzigahill rebuilt second-hand garments into 60s and 70s East African shapes, and Kenneth Ize layered aso oke with velvet, denim and lining fabrics with seams left visible.",
+   "season": "AW26",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "Fashion Capital",
+   "source_url": "https://www.fashioncapital.co.uk/insights/berlin-fashion-week-aw26-27-dark-minimalism-reused-fabrics-and-protective-layers-set-the-tone/",
+   "published": "2026-02-05",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "germany",
+   "countryName": "Germany",
+   "category": "streetwear",
+   "status": "forecast",
+   "name": "Berlin grunge, skate and DIY",
+   "summary": "Berlin SS27 brought grunge back. Dagger mixed ripped baggy denim, Hawaiian shirts, tie-dye and star prints, Unvain showed red leather and low-rise jeans, and DIY cut-outs and laced tees were widespread.",
+   "season": "SS27",
+   "gender": "male",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "nss magazine; Highsnobiety",
+   "source_url": "https://www.nssmag.com/en/fashion/46080/best-highlights-berlin-fashion-week-mens-ss27-barragan-gmbh-emerging-designers",
+   "published": "2026-07-06",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "high",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "germany",
+   "countryName": "Germany",
+   "category": "printing_techniques",
+   "status": "forecast",
+   "name": "Graphic prints, tie-dye and 3D-printed surfaces",
+   "summary": "Dagger relied on printed stars, yin-yang, tie-dye, camo and lipstick-kiss graphics. Kasia Kucharska used 3D printing to warp pastel shirting and add squiggly textures to latex trenches.",
+   "season": "SS27",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "Sleek; Highsnobiety",
+   "source_url": "https://www.sleek-mag.com/article/runway-roundup-best-of-berlin-fashion-week-ss27/",
+   "published": "2026-07-07",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "germany",
+   "countryName": "Germany",
+   "category": "luxury",
+   "status": "forecast",
+   "name": "GmbH's polished sport-tailoring",
+   "summary": "For its tenth anniversary, GmbH paired technical sportswear with precise tailoring and added reflective and metallic finishes, subtle sequins and glossy equestrian boots for a more luxurious Berlin look.",
+   "season": "SS27",
+   "gender": "male",
+   "ages": [
+    "26-40"
+   ],
+   "source": "Sleek",
+   "source_url": "https://www.sleek-mag.com/article/runway-roundup-best-of-berlin-fashion-week-ss27/",
+   "published": "2026-07-07",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "germany",
+   "countryName": "Germany",
+   "category": "modest",
+   "status": "forecast",
+   "name": "Coverage-led pleats at William Fan",
+   "summary": "William Fan's SS27 collection centred on coverage and inclusive cuts, with flowing pleated silhouettes, ruffs, extra-long sleeves and layering in a restrained palette.",
+   "season": "SS27",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "FashionUnited",
+   "source_url": "https://fashionunited.uk/news/fashion/between-utopia-and-dystopia-highlights-of-ss27-berlin-fashion-week/2026070789019",
+   "published": "2026-07-07",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "low",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "germany",
+   "countryName": "Germany",
+   "category": "dress_styles",
+   "status": "forecast",
+   "name": "Sculptural volume and blurred gender codes",
+   "summary": "Berlin SS27 featured voluminous skirts with trains at Rebekka Ruétz, low-crotch wide trousers at Milk of Lime, and Renaissance breeches with tailcoats at Marke. Men's and women's codes increasingly overlapped.",
+   "season": "SS27",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "FashionUnited",
+   "source_url": "https://fashionunited.uk/news/fashion/between-utopia-and-dystopia-highlights-of-ss27-berlin-fashion-week/2026070789019",
+   "published": "2026-07-07",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "germany",
+   "countryName": "Germany",
+   "category": "fabrics",
+   "status": "forecast",
+   "name": "Imperfect denim and crinkle textures",
+   "summary": "Munich Fabric Start's SS27 edition made imperfection the denim theme. Heat-shrunk yarns create crinkle, colourful flock prints add interest, and digitally printed denim-look twill replaces washes. Lace, embroidery and loop yarns are gaining.",
+   "season": "SS27",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "FashionUnited (Munich Fabric Start)",
+   "source_url": "https://fashionunited.com/news/fairs/munich-fabric-start-bluezone-pleasure-imperfection-and-the-return-of-elegance/2026012970306",
+   "published": "2026-01-29",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "high",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "germany",
+   "countryName": "Germany",
+   "category": "colors",
+   "status": "forecast",
+   "name": "Yellow and orange for summer 2027",
+   "summary": "Fabric suppliers at Munich Fabric Start expect a range of yellow and orange shades to lead summer 2027 colour.",
+   "season": "SS27",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "FashionUnited (Munich Fabric Start)",
+   "source_url": "https://fashionunited.com/news/fairs/munich-fabric-start-bluezone-pleasure-imperfection-and-the-return-of-elegance/2026012970306",
+   "published": "2026-01-29",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "germany",
+   "countryName": "Germany",
+   "category": "fabrics",
+   "status": "forecast",
+   "name": "TASTE: heritage classics and non-synthetic stretch",
+   "summary": "Munich Fabric Start's July 2026 AW27/28 theme, TASTE, revived British heritage, outdoor folklore and functional tailoring. It highlighted deep atmospheric colours and stretch without synthetic fibres, plus cashmere-silk blends and new lyocell types.",
+   "season": "AW27/28",
+   "gender": "unisex",
+   "ages": [
+    "26-40",
+    "41-60"
+   ],
+   "source": "Munich Fabric Start",
+   "source_url": "https://www.munichfabricstart.com/wp-content/uploads/2026/07/MFS_Pressemitteilung_Schlussbericht-Juli2026_DE_final.pdf",
+   "published": "2026-07-20",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "high",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "germany",
+   "countryName": "Germany",
+   "category": "colors",
+   "status": "forecast",
+   "name": "Menswear grey-black-blue with muted orange-yellow",
+   "summary": "For AW27/28 menswear, Munich exhibitors built the palette on grey, black and blue with a muted orange-yellow accent, along with brushed shirting, brown and olive tones and blurred prints.",
+   "season": "AW27/28",
+   "gender": "male",
+   "ages": [
+    "26-40",
+    "41-60"
+   ],
+   "source": "Munich Fabric Start",
+   "source_url": "https://www.munichfabricstart.com/wp-content/uploads/2026/07/MFS_Pressemitteilung_Schlussbericht-Juli2026_DE_final.pdf",
+   "published": "2026-07-20",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  }
+ ]
+}

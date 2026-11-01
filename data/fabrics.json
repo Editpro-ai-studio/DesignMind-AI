@@ -1,0 +1,2880 @@
+[
+ {
+  "id": "lawn",
+  "name": "Lawn",
+  "aka": [
+   "cotton lawn",
+   "lawn cloth",
+   "linen lawn / handkerchief linen (linen version)",
+   "nainsook (combed-yarn variant)"
+  ],
+  "specs": {
+   "composition": {
+    "value": "Usually cotton (combed or carded yarn); historically linen",
+    "basis": "sourced",
+    "source_ids": [
+     0,
+     1
+    ]
+   },
+   "cotton_percentage": {
+    "value": "Typically 100% cotton for cotton lawn; blended or linen versions exist",
+    "basis": "sourced",
+    "source_ids": [
+     2,
+     0
+    ]
+   },
+   "gsm": {
+    "value": "About 50-100 GSM in trade listings (e.g. one Lahore supplier lists printed cotton lawn at 60 GSM); individual specs, not an industry standard",
+    "basis": "sourced",
+    "source_ids": [
+     3,
+     2
+    ]
+   },
+   "construction": {
+    "value": "Plain weave from fine, high-count yarns; thread count roughly 150-200 cited",
+    "basis": "sourced",
+    "source_ids": [
+     0,
+     1
+    ]
+   },
+   "weight_class": {
+    "value": "Light",
+    "basis": "sourced",
+    "source_ids": [
+     0,
+     1
+    ]
+   },
+   "texture": {
+    "value": "Smooth and silky with a crisp hand: crisper than voile, softer than organza/organdy",
+    "basis": "sourced",
+    "source_ids": [
+     0,
+     1
+    ]
+   },
+   "surface": {
+    "value": "Flat and even with no surface texture; semi-sheer, ranging from gauzy to near-opaque",
+    "basis": "sourced",
+    "source_ids": [
+     0
+    ]
+   },
+   "breathability": {
+    "value": "High: fine open plain weave suited to hot weather",
+    "basis": "sourced",
+    "source_ids": [
+     1
+    ]
+   },
+   "drape": {
+    "value": "Light, soft-to-semi-crisp drape depending on finish; never fully stiff",
+    "basis": "sourced",
+    "source_ids": [
+     0
+    ]
+   },
+   "seasons": {
+    "value": "Spring and summer; Pakistani lawn collections launch around February",
+    "basis": "sourced",
+    "source_ids": [
+     1,
+     0
+    ]
+   },
+   "printing": {
+    "value": "Excellent; South Asian lawn is almost always bleached and then printed. [Method, estimate: reactive and digital printing are the usual cotton routes]",
+    "basis": "sourced",
+    "source_ids": [
+     1
+    ]
+   },
+   "embroidery": {
+    "value": "Good; widely embroidered (necklines, borders, dupatta panels) in Pakistani lawn suits, though very fine lawn may need stabiliser",
+    "basis": "estimate",
+    "source_ids": []
+   },
+   "dyeing": {
+    "value": "Takes dye well; may be piece-dyed and then printed",
+    "basis": "sourced",
+    "source_ids": [
+     1,
+     0
+    ]
+   },
+   "garments": {
+    "value": "Dresses, blouses, shirts, nightwear, handkerchiefs, lingerie; 3-piece unstitched lawn suits (shirt, dupatta, trouser) in Pakistan",
+    "basis": "sourced",
+    "source_ids": [
+     1,
+     0
+    ]
+   },
+   "care": {
+    "value": "Machine or hand wash; Sewport lists medium-to-hot washing for the fibre, but printed suits are better washed cool and dried in shade to protect colour; iron while slightly damp",
+    "basis": "estimate",
+    "source_ids": []
+   }
+  },
+  "advantages": [
+   "Very breathable and cool in heat",
+   "Takes prints with sharp detail",
+   "Comfortable against skin",
+   "Relatively inexpensive"
+  ],
+  "limitations": [
+   "Semi-sheer; lighter lawn often needs lining",
+   "Wrinkles easily",
+   "Colours of printed lawn can fade with sun and hot washing",
+   "Not warm enough for winter"
+  ],
+  "notes": "Lawn is the flagship summer fabric of the Pakistani market: brands release printed 2- and 3-piece unstitched lawn collections each year from around February. Pakistan and India are now the main producers. Combed lawn costs more than carded lawn.",
+  "sources": [
+   {
+    "title": "Lawn cloth",
+    "url": "https://en.wikipedia.org/wiki/Lawn_cloth",
+    "publisher": "Wikipedia",
+    "published": "unknown"
+   },
+   {
+    "title": "Lawn Fabric: What is it, How is it Made",
+    "url": "https://sewport.com/fabrics-directory/lawn-fabric",
+    "publisher": "Sewport",
+    "published": "unknown"
+   },
+   {
+    "title": "Cotton Lawn Fabric (supplier listing, ref 19162732, Lahore)",
+    "url": "https://fibre2fashion.com/fabrics/cotton-lawn-fabric-suppliers-19162732",
+    "publisher": "Fibre2Fashion",
+    "published": "unknown"
+   },
+   {
+    "title": "Cotton Lawn Fabric (buyer listing, ref 24218596)",
+    "url": "https://www.fibre2fashion.com/fabrics/cotton-lawn-fabric-buyers-24218596",
+    "publisher": "Fibre2Fashion",
+    "published": "unknown"
+   }
+  ]
+ },
+ {
+  "id": "cotton",
+  "name": "Cotton",
+  "aka": [
+   "pure cotton",
+   "100% cotton"
+  ],
+  "specs": {
+   "composition": {
+    "value": "Natural cellulose fibre from the cotton plant",
+    "basis": "sourced",
+    "source_ids": [
+     0
+    ]
+   },
+   "cotton_percentage": {
+    "value": "100% for pure cotton fabrics",
+    "basis": "estimate",
+    "source_ids": []
+   },
+   "gsm": {
+    "value": "Varies widely by construction: sheer voile/lawn sit at the light end, denim and canvas at the heavy end. There is no single GSM for 'cotton'",
+    "basis": "estimate",
+    "source_ids": []
+   },
+   "construction": {
+    "value": "Any: woven (plain, twill, satin) or knit (jersey, interlock, fleece)",
+    "basis": "estimate",
+    "source_ids": []
+   },
+   "weight_class": {
+    "value": "Light to heavy depending on construction",
+    "basis": "estimate",
+    "source_ids": []
+   },
+   "texture": {
+    "value": "Soft and comfortable; hand depends on yarn and finish",
+    "basis": "sourced",
+    "source_ids": [
+     0
+    ]
+   },
+   "surface": {
+    "value": "Matte unless mercerised or calendered",
+    "basis": "estimate",
+    "source_ids": []
+   },
+   "breathability": {
+    "value": "High: natural fibre that absorbs moisture",
+    "basis": "sourced",
+    "source_ids": [
+     0
+    ]
+   },
+   "drape": {
+    "value": "Medium; varies with weight and weave",
+    "basis": "estimate",
+    "source_ids": []
+   },
+   "seasons": {
+    "value": "All seasons depending on weight; light cottons for summer",
+    "basis": "estimate",
+    "source_ids": []
+   },
+   "printing": {
+    "value": "Not suited to sublimation: disperse dye does not bond to cotton and washes out. [Estimate: reactive (screen/rotary/digital) and pigment printing are the standard cotton methods]",
+    "basis": "sourced",
+    "source_ids": [
+     1
+    ]
+   },
+   "embroidery": {
+    "value": "Very good on medium and stable weaves",
+    "basis": "estimate",
+    "source_ids": []
+   },
+   "dyeing": {
+    "value": "Reactive, vat and direct dyes; dyes evenly",
+    "basis": "estimate",
+    "source_ids": []
+   },
+   "garments": {
+    "value": "T-shirts, shirts, underwear, casualwear, shalwar kameez, bedding",
+    "basis": "sourced",
+    "source_ids": [
+     0
+    ]
+   },
+   "care": {
+    "value": "Machine washable; may shrink unless pre-shrunk; can wrinkle",
+    "basis": "sourced",
+    "source_ids": [
+     0
+    ]
+   }
+  },
+  "advantages": [
+   "Breathable and absorbent",
+   "Soft against skin",
+   "Easy to dye and print",
+   "Durable and washable"
+  ],
+  "limitations": [
+   "Shrinks if not pre-shrunk",
+   "Wrinkles",
+   "Slow to dry",
+   "Can fade with repeated hot washes"
+  ],
+  "notes": "In Pakistan, 'cotton' on a suit label is often a generic tag for medium-weight plain-woven cotton; lawn, cambric, poplin, voile and khaddar are all cotton fabrics that differ by yarn and construction.",
+  "sources": [
+   {
+    "title": "The Ultimate Guide to Different Types of Fabric",
+    "url": "https://www.tapstitch.com/blog/post/types-of-fabric",
+    "publisher": "Tapstitch",
+    "published": "2026-03-24"
+   },
+   {
+    "title": "Understanding Polyester Fabrics and Dye Sublimation Compatibility",
+    "url": "https://www.education.sanmar.com/decorator-relations/understanding-polyester-fabrics-and-dye-sublimation-compatibility",
+    "publisher": "SanMar U",
+    "published": "2024-03-01"
+   }
+  ]
+ },
+ {
+  "id": "cambric",
+  "name": "Cambric",
+  "aka": [
+   "cambrick",
+   "batiste (related fine cloth)",
+   "cambric lawn (trade usage)"
+  ],
+  "specs": {
+   "composition": {
+    "value": "Cotton (traditionally fine long-staple); occasionally flax/linen",
+    "basis": "sourced",
+    "source_ids": [
+     0,
+     1
+    ]
+   },
+   "cotton_percentage": {
+    "value": "Typically 100% cotton in trade specs",
+    "basis": "sourced",
+    "source_ids": [
+     2
+    ]
+   },
+   "gsm": {
+    "value": "About 100-180 GSM in trade buyer specs (one listing 100-150, another 150-180); not an industry standard",
+    "basis": "sourced",
+    "source_ids": [
+     3,
+     2
+    ]
+   },
+   "construction": {
+    "value": "Closely woven, firm plain weave; trade constructions quoted include 90x88, 80x100, 100x110",
+    "basis": "sourced",
+    "source_ids": [
+     0,
+     3
+    ]
+   },
+   "weight_class": {
+    "value": "Light to light-medium",
+    "basis": "sourced",
+    "source_ids": [
+     0,
+     3
+    ]
+   },
+   "texture": {
+    "value": "Smooth with a firm, slightly papery hand",
+    "basis": "sourced",
+    "source_ids": [
+     0
+    ]
+   },
+   "surface": {
+    "value": "Even, with a slight gloss from calendering that fades over washes; more opaque than lawn",
+    "basis": "sourced",
+    "source_ids": [
+     0
+    ]
+   },
+   "breathability": {
+    "value": "High: fine cotton weave",
+    "basis": "sourced",
+    "source_ids": [
+     1
+    ]
+   },
+   "drape": {
+    "value": "Crisp and structured rather than fluid",
+    "basis": "estimate",
+    "source_ids": []
+   },
+   "seasons": {
+    "value": "Thicker cambric is sold in Pakistani winter collections for warmth without heaviness; lighter cambric is worn in warmer months",
+    "basis": "sourced",
+    "source_ids": [
+     1
+    ]
+   },
+   "printing": {
+    "value": "Very good; reactive or pigment printing on cotton, digital for premium lines",
+    "basis": "estimate",
+    "source_ids": []
+   },
+   "embroidery": {
+    "value": "Very good; traditionally a ground cloth for lace and needlework",
+    "basis": "sourced",
+    "source_ids": [
+     0
+    ]
+   },
+   "dyeing": {
+    "value": "Sold as greige and dyed; dyes well with cotton dyes",
+    "basis": "sourced",
+    "source_ids": [
+     3
+    ]
+   },
+   "garments": {
+    "value": "Shirts, handkerchiefs, lingerie, baby clothes; shalwar kameez in Pakistan",
+    "basis": "sourced",
+    "source_ids": [
+     0,
+     3
+    ]
+   },
+   "care": {
+    "value": "Machine or hand wash; iron while damp; the calendered gloss fades with washing",
+    "basis": "sourced",
+    "source_ids": [
+     0
+    ]
+   }
+  },
+  "advantages": [
+   "More opaque than lawn yet still breathable",
+   "Firm hand that holds shape",
+   "Good base for embroidery"
+  ],
+  "limitations": [
+   "Wrinkles",
+   "Calendered sheen fades",
+   "Less soft and flowing than lawn or voile"
+  ],
+  "notes": "In Pakistan, cambric is a staple unstitched fabric, often sold as a heavier summer cloth or a mid-season option. Brands such as Alkaram also sell a thicker cambric for winter.",
+  "sources": [
+   {
+    "title": "Cambric fabric - Definition",
+    "url": "https://www.apparelsearch.com/definitions/fabric/cambric_fabric_definition.htm",
+    "publisher": "Apparel Search",
+    "published": "unknown"
+   },
+   {
+    "title": "Top 5 Unstitched Fabrics for Women in the Winter Collection",
+    "url": "https://alkaramstudio.com/blogs/pages/top-5-unstitched-fabrics-winter-collection-women",
+    "publisher": "Alkaram Studio",
+    "published": "2023-10-19"
+   },
+   {
+    "title": "Cambric fabric buyer listing: 150-180 gsm, 100% cotton, dyed, plain (ref 1487384)",
+    "url": "https://www.fibre2fashion.com/fabrics/cambric-fabric-buyers-1487384",
+    "publisher": "Fibre2Fashion",
+    "published": "unknown"
+   },
+   {
+    "title": "Cambric fabric buyer listing: 100-150 GSM, dyed & greige (ref 1344934)",
+    "url": "https://www.fibre2fashion.com/fabrics/cambric-fabric-buyers-1344934",
+    "publisher": "Fibre2Fashion",
+    "published": "unknown"
+   }
+  ]
+ },
+ {
+  "id": "linen",
+  "name": "Linen",
+  "aka": [
+   "flax fabric"
+  ],
+  "specs": {
+   "composition": {
+    "value": "Flax fibre (natural bast fibre)",
+    "basis": "sourced",
+    "source_ids": [
+     0
+    ]
+   },
+   "cotton_percentage": {
+    "value": "0% in pure linen; cotton-linen blends are common",
+    "basis": "estimate",
+    "source_ids": []
+   },
+   "gsm": {
+    "value": "Wide range, roughly 100-300 GSM; one guide gives 110-220 GSM and another 130-150 GSM for airy shirts and 180-200 GSM for thicker shirts",
+    "basis": "sourced",
+    "source_ids": [
+     1,
+     2,
+     3
+    ]
+   },
+   "construction": {
+    "value": "Woven, usually plain weave",
+    "basis": "estimate",
+    "source_ids": []
+   },
+   "weight_class": {
+    "value": "Light to medium",
+    "basis": "sourced",
+    "source_ids": [
+     4
+    ]
+   },
+   "texture": {
+    "value": "Crisp and slightly textured, with slubs; softens with washing",
+    "basis": "sourced",
+    "source_ids": [
+     0
+    ]
+   },
+   "surface": {
+    "value": "Matte with natural slub irregularities",
+    "basis": "estimate",
+    "source_ids": []
+   },
+   "breathability": {
+    "value": "High",
+    "basis": "sourced",
+    "source_ids": [
+     0
+    ]
+   },
+   "drape": {
+    "value": "Crisp body that softens over time",
+    "basis": "estimate",
+    "source_ids": []
+   },
+   "seasons": {
+    "value": "Summer (true flax linen); in Pakistan 'winter linen' blends are also sold",
+    "basis": "sourced",
+    "source_ids": [
+     0,
+     5
+    ]
+   },
+   "printing": {
+    "value": "Good with reactive or pigment printing; slub texture slightly softens fine detail",
+    "basis": "estimate",
+    "source_ids": []
+   },
+   "embroidery": {
+    "value": "Good on medium weights",
+    "basis": "estimate",
+    "source_ids": []
+   },
+   "dyeing": {
+    "value": "Dyes with cellulosic (reactive/vat) dyes; colours can look slightly heathered",
+    "basis": "estimate",
+    "source_ids": []
+   },
+   "garments": {
+    "value": "Summer shirts, dresses, lightweight trousers",
+    "basis": "sourced",
+    "source_ids": [
+     0
+    ]
+   },
+   "care": {
+    "value": "Wrinkles easily; one Pakistani guide recommends hand-washing",
+    "basis": "sourced",
+    "source_ids": [
+     0,
+     6
+    ]
+   }
+  },
+  "advantages": [
+   "Very breathable and cool",
+   "Strong fibre",
+   "Gets softer with use"
+  ],
+  "limitations": [
+   "Wrinkles readily",
+   "Can be costly",
+   "Stiff when new"
+  ],
+  "notes": "In the Pakistani market, 'linen' on unstitched women's suits often means a softer, wrinkle-resistant fabric (frequently a blend) sold for autumn and winter. It is not necessarily pure flax, so check the label.",
+  "sources": [
+   {
+    "title": "The Ultimate Guide to Different Types of Fabric",
+    "url": "https://www.tapstitch.com/blog/post/types-of-fabric",
+    "publisher": "Tapstitch",
+    "published": "2026-03-24"
+   },
+   {
+    "title": "What Is GSM In Fabrics & Why Does It Matter? The Complete Guide",
+    "url": "https://thygesenapparel.com/blog/what-is-gsm-in-fabric",
+    "publisher": "Thygesen Textile Vietnam",
+    "published": "2026-09-28"
+   },
+   {
+    "title": "Fabric GSM in dressmaking",
+    "url": "https://sewguide.com/gsm-of-fabric/",
+    "publisher": "SewGuide",
+    "published": "2023-05-04"
+   },
+   {
+    "title": "What is GSM in Fabrics?",
+    "url": "https://www.gentelle.com/blog/what-is-gsm-in-fabrics/",
+    "publisher": "Gentelle",
+    "published": "2017-09-13"
+   },
+   {
+    "title": "Understanding Fabric Weight (gsm): A Beginner-Friendly Guide",
+    "url": "https://lestissees.com/blogs/journal/understanding-fabric-weight-gsm-a-beginner-friendly-guide",
+    "publisher": "Les Tissees",
+    "published": "2026-05-08"
+   },
+   {
+    "title": "Men's Winter Shalwar Kameez Fabrics That Keep You Warm",
+    "url": "https://www.alkaramstudio.com/blogs/pages/men-s-winter-shalwar-kameez-fabrics-that-keep-you-warm",
+    "publisher": "Alkaram Studio",
+    "published": "2026-01-20"
+   },
+   {
+    "title": "Best Winter Fabrics for Women in Pakistan: 2025 Guide",
+    "url": "https://mtjonline.com/blogs/blog/best-winter-fabrics-for-women-in-pakistan-2025-guide",
+    "publisher": "MTJ (Javeria Chottani)",
+    "published": "2025-10-13"
+   }
+  ]
+ },
+ {
+  "id": "khaddar",
+  "name": "Khaddar",
+  "aka": [
+   "khadi",
+   "khaddar cloth"
+  ],
+  "specs": {
+   "composition": {
+    "value": "Cotton-based; also wool-blended versions",
+    "basis": "sourced",
+    "source_ids": [
+     0,
+     1,
+     2
+    ]
+   },
+   "cotton_percentage": {
+    "value": "Pure-cotton and wool-blended versions both sold; exact percentages not verified",
+    "basis": "sourced",
+    "source_ids": [
+     0
+    ]
+   },
+   "gsm": {
+    "value": "Not verified",
+    "basis": "unknown",
+    "source_ids": []
+   },
+   "construction": {
+    "value": "Woven from thicker yarns; traditionally hand-spun and handwoven, now largely mill-made in Pakistan",
+    "basis": "sourced",
+    "source_ids": [
+     2,
+     1,
+     0
+    ]
+   },
+   "weight_class": {
+    "value": "Medium to heavy (substantial without feeling heavy)",
+    "basis": "sourced",
+    "source_ids": [
+     1
+    ]
+   },
+   "texture": {
+    "value": "Coarse and slightly textured; modern mill versions are softer",
+    "basis": "sourced",
+    "source_ids": [
+     0,
+     2,
+     1
+    ]
+   },
+   "surface": {
+    "value": "Matte and textured, with a rustic look",
+    "basis": "sourced",
+    "source_ids": [
+     1,
+     0
+    ]
+   },
+   "breathability": {
+    "value": "Medium to high: breathable for a winter cloth because it is cotton-based",
+    "basis": "sourced",
+    "source_ids": [
+     1,
+     0
+    ]
+   },
+   "drape": {
+    "value": "Stiff and structured; holds its shape",
+    "basis": "sourced",
+    "source_ids": [
+     1,
+     3
+    ]
+   },
+   "seasons": {
+    "value": "Winter (pure cotton for mild winters, wool blends for colder regions)",
+    "basis": "sourced",
+    "source_ids": [
+     0
+    ]
+   },
+   "printing": {
+    "value": "Widely printed (florals, abstracts, geometrics). [Method not stated in sources; reactive or pigment printing is the usual cotton route - estimate]",
+    "basis": "sourced",
+    "source_ids": [
+     0,
+     1
+    ]
+   },
+   "embroidery": {
+    "value": "Good; embroidered khaddar is made for formal and festive wear",
+    "basis": "sourced",
+    "source_ids": [
+     0
+    ]
+   },
+   "dyeing": {
+    "value": "Solid-dyed khaddar comes in jewel and earth tones",
+    "basis": "sourced",
+    "source_ids": [
+     0
+    ]
+   },
+   "garments": {
+    "value": "Winter shalwar kameez (men and women), unstitched 2- and 3-piece suits, kurtas",
+    "basis": "sourced",
+    "source_ids": [
+     0,
+     3
+    ]
+   },
+   "care": {
+    "value": "Wash cold with mild detergent, no bleach, dry in shade, iron on medium, store in cotton bags",
+    "basis": "sourced",
+    "source_ids": [
+     0
+    ]
+   }
+  },
+  "advantages": [
+   "Warm yet breathable",
+   "Durable and holds shape",
+   "Softens with wear"
+  ],
+  "limitations": [
+   "Coarse hand in traditional versions",
+   "Bulkier than summer fabrics",
+   "GSM is seldom published by brands"
+  ],
+  "notes": "Khaddar is the South Asian name from which 'khadi' derives. In Pakistan it is the standard mass-market winter cotton for shalwar kameez. GSM is not verified: Pakistani brands rarely publish it. Handwoven Indian khadi product listings show values as different as 122 GSM (anuprerna listing) and 305 GSM, so khadi/khaddar weight varies widely.",
+  "sources": [
+   {
+    "title": "What Is Khaddar Fabric? A Complete Guide for Pakistanis",
+    "url": "https://mtjonline.com/blogs/blog/what-is-khaddar-fabric-a-complete-guide-for-pakistanis",
+    "publisher": "MTJ (Javeria Chottani)",
+    "published": "2025-10-03"
+   },
+   {
+    "title": "What Is Khaddar Fabric? The Heritage, Texture & Why It's Perfect for Winter",
+    "url": "https://iznikfashions.com/blogs/news/what-is-khaddar-fabric-the-heritage-texture-why-it-s-perfect-for-winter",
+    "publisher": "Iznik Fashions",
+    "published": "2025-11-20"
+   },
+   {
+    "title": "Khadi",
+    "url": "https://en.wikipedia.org/wiki/Khadi",
+    "publisher": "Wikipedia",
+    "published": "unknown"
+   },
+   {
+    "title": "Men's Winter Shalwar Kameez Fabrics That Keep You Warm",
+    "url": "https://www.alkaramstudio.com/blogs/pages/men-s-winter-shalwar-kameez-fabrics-that-keep-you-warm",
+    "publisher": "Alkaram Studio",
+    "published": "2026-01-20"
+   }
+  ]
+ },
+ {
+  "id": "karandi",
+  "name": "Karandi",
+  "aka": [
+   "karandi suit",
+   "karandi cloth"
+  ],
+  "specs": {
+   "composition": {
+    "value": "Typically cotton or wool per one Pakistani retailer; exact blend varies by brand and is rarely disclosed",
+    "basis": "sourced",
+    "source_ids": [
+     0
+    ]
+   },
+   "cotton_percentage": {
+    "value": "Not verified",
+    "basis": "unknown",
+    "source_ids": []
+   },
+   "gsm": {
+    "value": "Not verified",
+    "basis": "unknown",
+    "source_ids": []
+   },
+   "construction": {
+    "value": "Woven; described as a thick weave with a slightly textured surface",
+    "basis": "sourced",
+    "source_ids": [
+     0,
+     1
+    ]
+   },
+   "weight_class": {
+    "value": "Medium to heavy: thick but described as lighter than khaddar by one brand",
+    "basis": "sourced",
+    "source_ids": [
+     0,
+     2
+    ]
+   },
+   "texture": {
+    "value": "Fine, slightly textured weave; smoother than khaddar",
+    "basis": "sourced",
+    "source_ids": [
+     2,
+     1
+    ]
+   },
+   "surface": {
+    "value": "Slightly lustrous finish",
+    "basis": "sourced",
+    "source_ids": [
+     2
+    ]
+   },
+   "breathability": {
+    "value": "Medium (estimate): a warm winter fabric",
+    "basis": "estimate",
+    "source_ids": []
+   },
+   "drape": {
+    "value": "Structured; holds shape with regular wear",
+    "basis": "sourced",
+    "source_ids": [
+     1
+    ]
+   },
+   "seasons": {
+    "value": "Winter",
+    "basis": "sourced",
+    "source_ids": [
+     0,
+     1
+    ]
+   },
+   "printing": {
+    "value": "Printed karandi is sold; method not verified",
+    "basis": "estimate",
+    "source_ids": []
+   },
+   "embroidery": {
+    "value": "Good; commonly sold embroidered (necklines, borders, motifs)",
+    "basis": "sourced",
+    "source_ids": [
+     1,
+     2
+    ]
+   },
+   "dyeing": {
+    "value": "Solid-dyed plain karandi is sold; dye class depends on fibre blend (not verified)",
+    "basis": "estimate",
+    "source_ids": []
+   },
+   "garments": {
+    "value": "Winter shalwar kameez, unstitched suits for men and women",
+    "basis": "sourced",
+    "source_ids": [
+     0,
+     1
+    ]
+   },
+   "care": {
+    "value": "Not verified",
+    "basis": "unknown",
+    "source_ids": []
+   }
+  },
+  "advantages": [
+   "Warm",
+   "Smoother and more refined than khaddar",
+   "Takes embroidery well"
+  ],
+  "limitations": [
+   "Fibre content is often not disclosed",
+   "No published GSM",
+   "Care guidance depends on unknown blend"
+  ],
+  "notes": "Karandi is a Pakistani market name for a winter suiting fabric. Sources disagree on its fibre: one retailer says cotton or wool, and blends are common. Its exact composition, cotton percentage and GSM could not be verified from published sources.",
+  "sources": [
+   {
+    "title": "Top 5 Unstitched Fabrics for Women in the Winter Collection",
+    "url": "https://alkaramstudio.com/blogs/pages/top-5-unstitched-fabrics-winter-collection-women",
+    "publisher": "Alkaram Studio",
+    "published": "2023-10-19"
+   },
+   {
+    "title": "Shop Winter Luxury Unstitched Suits in Pakistan - Embroidered Karandi Collection",
+    "url": "https://taanabaana.pk/blogs/articles/shop-winter-luxury-unstitched-suits-in-pakistan-discover-our-embroidered-karandi-collection",
+    "publisher": "Taana Baana",
+    "published": "2026-01-20"
+   },
+   {
+    "title": "Khaddar or Karandi - Your Serin Winter Favorite Awaits",
+    "url": "https://batik.com.pk/blogs/news/khaddar-or-karandi-your-serin-winter-favorite-awaits",
+    "publisher": "Batik",
+    "published": "unknown"
+   }
+  ]
+ },
+ {
+  "id": "chiffon",
+  "name": "Chiffon",
+  "aka": [
+   "silk chiffon",
+   "polyester chiffon",
+   "pearl chiffon"
+  ],
+  "specs": {
+   "composition": {
+    "value": "Silk originally; now mostly polyester; also nylon, rayon or cotton",
+    "basis": "sourced",
+    "source_ids": [
+     0
+    ]
+   },
+   "cotton_percentage": {
+    "value": "0% typically (cotton chiffon exists but is uncommon)",
+    "basis": "sourced",
+    "source_ids": [
+     0
+    ]
+   },
+   "gsm": {
+    "value": "About 40-70 GSM for polyester chiffon (typical dressmaking range)",
+    "basis": "sourced",
+    "source_ids": [
+     1
+    ]
+   },
+   "construction": {
+    "value": "Plain weave with alternating S- and Z-twist yarns",
+    "basis": "sourced",
+    "source_ids": [
+     0
+    ]
+   },
+   "weight_class": {
+    "value": "Light",
+    "basis": "sourced",
+    "source_ids": [
+     2
+    ]
+   },
+   "texture": {
+    "value": "Slightly puckered and a little rough to the touch",
+    "basis": "sourced",
+    "source_ids": [
+     0
+    ]
+   },
+   "surface": {
+    "value": "Sheer and semi-transparent, matte",
+    "basis": "sourced",
+    "source_ids": [
+     0
+    ]
+   },
+   "breathability": {
+    "value": "High per Sewport rating; polyester chiffon breathes less than silk [estimate]",
+    "basis": "sourced",
+    "source_ids": [
+     0
+    ]
+   },
+   "drape": {
+    "value": "Very fluid and floaty",
+    "basis": "estimate",
+    "source_ids": []
+   },
+   "seasons": {
+    "value": "Summer and formal wear year-round (usually lined or layered)",
+    "basis": "estimate",
+    "source_ids": []
+   },
+   "printing": {
+    "value": "Polyester chiffon suits disperse/sublimation and digital printing; silk uses acid-dye printing",
+    "basis": "estimate",
+    "source_ids": []
+   },
+   "embroidery": {
+    "value": "Possible but delicate; needs stabiliser; very common for formal dupattas and shirts in South Asia",
+    "basis": "estimate",
+    "source_ids": []
+   },
+   "dyeing": {
+    "value": "Disperse dyes for polyester, acid dyes for silk",
+    "basis": "estimate",
+    "source_ids": []
+   },
+   "garments": {
+    "value": "Evening wear, blouses, scarves, overlays, wedding dresses, saris",
+    "basis": "sourced",
+    "source_ids": [
+     0
+    ]
+   },
+   "care": {
+    "value": "Hand wash cold or dry clean",
+    "basis": "sourced",
+    "source_ids": [
+     0
+    ]
+   }
+  },
+  "advantages": [
+   "Very light and flowing",
+   "Elegant sheer look",
+   "Polyester version is affordable"
+  ],
+  "limitations": [
+   "Slippery and hard to sew",
+   "Snags and frays easily",
+   "Needs lining",
+   "Polyester version less breathable"
+  ],
+  "notes": "Chiffon is a mainstay of Pakistani formal and festive wear, especially embroidered chiffon suits and dupattas.",
+  "sources": [
+   {
+    "title": "Chiffon Fabric: What is it, How is it Made",
+    "url": "https://sewport.com/fabrics-directory/chiffon-fabric",
+    "publisher": "Sewport",
+    "published": "unknown"
+   },
+   {
+    "title": "Fabric GSM in dressmaking",
+    "url": "https://sewguide.com/gsm-of-fabric/",
+    "publisher": "SewGuide",
+    "published": "2023-05-04"
+   },
+   {
+    "title": "What is GSM in Fabrics?",
+    "url": "https://www.gentelle.com/blog/what-is-gsm-in-fabrics/",
+    "publisher": "Gentelle",
+    "published": "2017-09-13"
+   }
+  ]
+ },
+ {
+  "id": "organza",
+  "name": "Organza",
+  "aka": [
+   "silk organza",
+   "polyester organza",
+   "shot organza"
+  ],
+  "specs": {
+   "composition": {
+    "value": "Traditionally silk; commonly polyester or nylon",
+    "basis": "sourced",
+    "source_ids": [
+     0,
+     1
+    ]
+   },
+   "cotton_percentage": {
+    "value": "0% typically",
+    "basis": "sourced",
+    "source_ids": [
+     0
+    ]
+   },
+   "gsm": {
+    "value": "Example: pure silk organza at 18 GSM (4 momme) from one seller; polyester organza weights not verified",
+    "basis": "sourced",
+    "source_ids": [
+     2
+    ]
+   },
+   "construction": {
+    "value": "Plain weave from fine, highly twisted multifilament yarns",
+    "basis": "sourced",
+    "source_ids": [
+     0,
+     1
+    ]
+   },
+   "weight_class": {
+    "value": "Light",
+    "basis": "sourced",
+    "source_ids": [
+     3
+    ]
+   },
+   "texture": {
+    "value": "Crisp and wiry, smooth but firm",
+    "basis": "sourced",
+    "source_ids": [
+     0,
+     1
+    ]
+   },
+   "surface": {
+    "value": "Sheer; pearly lustre (silk) or brighter shimmer (polyester)",
+    "basis": "sourced",
+    "source_ids": [
+     1
+    ]
+   },
+   "breathability": {
+    "value": "Medium (estimate): open weave but synthetic versions trap less air than natural fibres",
+    "basis": "estimate",
+    "source_ids": []
+   },
+   "drape": {
+    "value": "Minimal; stiff and holds volume away from the body",
+    "basis": "sourced",
+    "source_ids": [
+     0,
+     1
+    ]
+   },
+   "seasons": {
+    "value": "Formal and festive wear year-round",
+    "basis": "estimate",
+    "source_ids": []
+   },
+   "printing": {
+    "value": "Printed organza is available; digital or sublimation for polyester",
+    "basis": "sourced",
+    "source_ids": [
+     1
+    ]
+   },
+   "embroidery": {
+    "value": "Excellent; a common base for embroidery, gota and sequins",
+    "basis": "sourced",
+    "source_ids": [
+     0,
+     1
+    ]
+   },
+   "dyeing": {
+    "value": "Disperse dyes for polyester, acid dyes for silk; shot organza uses different-coloured warp and weft",
+    "basis": "sourced",
+    "source_ids": [
+     0
+    ]
+   },
+   "garments": {
+    "value": "Bridal and evening wear, overlays, sleeves, dupattas, sarees, lehengas",
+    "basis": "sourced",
+    "source_ids": [
+     0,
+     1
+    ]
+   },
+   "care": {
+    "value": "Hand wash cold or dry clean; dry flat; low iron with press cloth",
+    "basis": "sourced",
+    "source_ids": [
+     0,
+     1
+    ]
+   }
+  },
+  "advantages": [
+   "Holds volume and structure",
+   "Great for embroidery",
+   "Luxurious sheen"
+  ],
+  "limitations": [
+   "Scratchy against skin",
+   "Frays readily",
+   "Snags",
+   "Hard to sew"
+  ],
+  "notes": "Embroidered organza is widely used for Pakistani formal and bridal shirts, dupattas and sleeve panels.",
+  "sources": [
+   {
+    "title": "Organza fabric",
+    "url": "https://sewguide.com/organza-fabric/",
+    "publisher": "SewGuide",
+    "published": "2022-04-24"
+   },
+   {
+    "title": "What is Organza Fabric? Guide",
+    "url": "https://www.azafashions.com/blog/what-is-organza-fabric-guide/",
+    "publisher": "Aza Fashions",
+    "published": "2025-11-02"
+   },
+   {
+    "title": "Organza Margilan pure silk fabric 18 GSM 4 momme (product listing)",
+    "url": "https://sogdianacrafts.com/products/organza-margilan-pure-silk-fabric-18-gsm-4-momme-sheer-unbleached-undyed-natural-ivory-material-by-metre-decor-fashion-bridalwear-ms001003",
+    "publisher": "Sogdiana Crafts",
+    "published": "unknown"
+   },
+   {
+    "title": "What is GSM in Fabrics?",
+    "url": "https://www.gentelle.com/blog/what-is-gsm-in-fabrics/",
+    "publisher": "Gentelle",
+    "published": "2017-09-13"
+   }
+  ]
+ },
+ {
+  "id": "silk",
+  "name": "Silk",
+  "aka": [
+   "pure silk",
+   "raw silk",
+   "katan (South Asian silk)"
+  ],
+  "specs": {
+   "composition": {
+    "value": "Natural protein fibre from silkworm cocoons",
+    "basis": "sourced",
+    "source_ids": [
+     0
+    ]
+   },
+   "cotton_percentage": {
+    "value": "0% for pure silk",
+    "basis": "estimate",
+    "source_ids": []
+   },
+   "gsm": {
+    "value": "Varies widely by weave (organza, chiffon, charmeuse, dupioni); silk is usually specified in momme rather than GSM",
+    "basis": "estimate",
+    "source_ids": []
+   },
+   "construction": {
+    "value": "Woven in many weaves (plain, satin, twill, crepe) and occasionally knit",
+    "basis": "estimate",
+    "source_ids": []
+   },
+   "weight_class": {
+    "value": "Light to medium mostly",
+    "basis": "estimate",
+    "source_ids": []
+   },
+   "texture": {
+    "value": "Smooth and soft",
+    "basis": "sourced",
+    "source_ids": [
+     0
+    ]
+   },
+   "surface": {
+    "value": "Lustrous",
+    "basis": "sourced",
+    "source_ids": [
+     0
+    ]
+   },
+   "breathability": {
+    "value": "High",
+    "basis": "estimate",
+    "source_ids": []
+   },
+   "drape": {
+    "value": "Fluid to structured depending on weave",
+    "basis": "estimate",
+    "source_ids": []
+   },
+   "seasons": {
+    "value": "All seasons; regulates temperature well",
+    "basis": "estimate",
+    "source_ids": []
+   },
+   "printing": {
+    "value": "Acid-dye or reactive printing, and digital printing; not sublimation",
+    "basis": "estimate",
+    "source_ids": []
+   },
+   "embroidery": {
+    "value": "Excellent on medium-weight silks",
+    "basis": "estimate",
+    "source_ids": []
+   },
+   "dyeing": {
+    "value": "Acid dyes give vivid colours",
+    "basis": "estimate",
+    "source_ids": []
+   },
+   "garments": {
+    "value": "Luxury garments, blouses, scarves",
+    "basis": "sourced",
+    "source_ids": [
+     0
+    ]
+   },
+   "care": {
+    "value": "Delicate; dry clean or gentle cold hand wash, avoid direct sun",
+    "basis": "estimate",
+    "source_ids": []
+   }
+  },
+  "advantages": [
+   "Luxurious lustre",
+   "Strong for its weight",
+   "Comfortable"
+  ],
+  "limitations": [
+   "Expensive",
+   "Delicate; water and sunlight can damage it",
+   "Needs careful care"
+  ],
+  "notes": "In Pakistan, 'silk' on formal wear labels often means polyester or viscose imitation silk. Check the fibre content.",
+  "sources": [
+   {
+    "title": "The Ultimate Guide to Different Types of Fabric",
+    "url": "https://www.tapstitch.com/blog/post/types-of-fabric",
+    "publisher": "Tapstitch",
+    "published": "2026-03-24"
+   }
+  ]
+ },
+ {
+  "id": "satin",
+  "name": "Satin",
+  "aka": [
+   "silk satin",
+   "polyester satin",
+   "charmeuse (lightweight satin)"
+  ],
+  "specs": {
+   "composition": {
+    "value": "Silk, polyester, acetate or nylon",
+    "basis": "sourced",
+    "source_ids": [
+     0,
+     1
+    ]
+   },
+   "cotton_percentage": {
+    "value": "0% typically (cotton satin-weave is called sateen)",
+    "basis": "estimate",
+    "source_ids": []
+   },
+   "gsm": {
+    "value": "About 80-100 GSM for polyester dressmaking satin; heavier satins exist",
+    "basis": "sourced",
+    "source_ids": [
+     2
+    ]
+   },
+   "construction": {
+    "value": "Satin weave: warp yarns float over several weft yarns with few interlacings",
+    "basis": "sourced",
+    "source_ids": [
+     0
+    ]
+   },
+   "weight_class": {
+    "value": "Light to medium",
+    "basis": "estimate",
+    "source_ids": []
+   },
+   "texture": {
+    "value": "Smooth and supple",
+    "basis": "sourced",
+    "source_ids": [
+     0
+    ]
+   },
+   "surface": {
+    "value": "Glossy face, matte back",
+    "basis": "sourced",
+    "source_ids": [
+     0
+    ]
+   },
+   "breathability": {
+    "value": "Low to medium for polyester satin; higher for silk",
+    "basis": "estimate",
+    "source_ids": []
+   },
+   "drape": {
+    "value": "Flowing, high drape",
+    "basis": "sourced",
+    "source_ids": [
+     0
+    ]
+   },
+   "seasons": {
+    "value": "Formal wear year-round",
+    "basis": "estimate",
+    "source_ids": []
+   },
+   "printing": {
+    "value": "Polyester satin is well suited to sublimation and digital printing",
+    "basis": "estimate",
+    "source_ids": []
+   },
+   "embroidery": {
+    "value": "Possible; the floats snag easily so use fine needles and stabiliser",
+    "basis": "estimate",
+    "source_ids": []
+   },
+   "dyeing": {
+    "value": "Disperse dyes (polyester), acid dyes (silk)",
+    "basis": "estimate",
+    "source_ids": []
+   },
+   "garments": {
+    "value": "Evening and bridal wear, lingerie, nightwear, scarves, bedding",
+    "basis": "sourced",
+    "source_ids": [
+     0
+    ]
+   },
+   "care": {
+    "value": "Cold hand wash or delicate cycle; do not wring; dry flat; iron on reverse at low heat",
+    "basis": "sourced",
+    "source_ids": [
+     0
+    ]
+   }
+  },
+  "advantages": [
+   "High lustre",
+   "Smooth drape",
+   "Polyester version affordable"
+  ],
+  "limitations": [
+   "Snags easily",
+   "Slippery to sew",
+   "Shows water marks and seam puckers"
+  ],
+  "notes": "Silk and polyester satin are used for formal shirts, trousers and dupattas in Pakistani festive wear.",
+  "sources": [
+   {
+    "title": "Satin - fabric guide",
+    "url": "https://stoffmarktholland.de/en/fabric-guide/satin/",
+    "publisher": "Stoffmarkt Holland",
+    "published": "unknown"
+   },
+   {
+    "title": "The Ultimate Guide to Different Types of Fabric",
+    "url": "https://www.tapstitch.com/blog/post/types-of-fabric",
+    "publisher": "Tapstitch",
+    "published": "2026-03-24"
+   },
+   {
+    "title": "Fabric GSM in dressmaking",
+    "url": "https://sewguide.com/gsm-of-fabric/",
+    "publisher": "SewGuide",
+    "published": "2023-05-04"
+   }
+  ]
+ },
+ {
+  "id": "georgette",
+  "name": "Georgette",
+  "aka": [
+   "crepe georgette",
+   "double georgette",
+   "poly georgette"
+  ],
+  "specs": {
+   "composition": {
+    "value": "Silk originally; now commonly polyester or viscose/rayon; stretch versions add elastane",
+    "basis": "sourced",
+    "source_ids": [
+     0
+    ]
+   },
+   "cotton_percentage": {
+    "value": "0% typically",
+    "basis": "sourced",
+    "source_ids": [
+     0
+    ]
+   },
+   "gsm": {
+    "value": "Not verified",
+    "basis": "unknown",
+    "source_ids": []
+   },
+   "construction": {
+    "value": "Plain weave of highly twisted S- and Z-twist yarns",
+    "basis": "sourced",
+    "source_ids": [
+     0
+    ]
+   },
+   "weight_class": {
+    "value": "Light (slightly heavier than chiffon)",
+    "basis": "sourced",
+    "source_ids": [
+     0
+    ]
+   },
+   "texture": {
+    "value": "Grainy, slightly rough, crinkled",
+    "basis": "sourced",
+    "source_ids": [
+     0
+    ]
+   },
+   "surface": {
+    "value": "Matte and puckered; sheer to semi-sheer",
+    "basis": "sourced",
+    "source_ids": [
+     0
+    ]
+   },
+   "breathability": {
+    "value": "High for silk; lower for polyester",
+    "basis": "sourced",
+    "source_ids": [
+     0
+    ]
+   },
+   "drape": {
+    "value": "Fluid and graceful",
+    "basis": "sourced",
+    "source_ids": [
+     0
+    ]
+   },
+   "seasons": {
+    "value": "All seasons for formal wear; summer-friendly",
+    "basis": "estimate",
+    "source_ids": []
+   },
+   "printing": {
+    "value": "Good base for detailed prints; sublimation/digital for polyester",
+    "basis": "sourced",
+    "source_ids": [
+     0
+    ]
+   },
+   "embroidery": {
+    "value": "Common; embroidered and sequinned georgette is widely sold",
+    "basis": "estimate",
+    "source_ids": []
+   },
+   "dyeing": {
+    "value": "Holds dye well, giving deep colours",
+    "basis": "sourced",
+    "source_ids": [
+     0
+    ]
+   },
+   "garments": {
+    "value": "Sarees, dupattas, anarkalis, gowns, blouses, abayas, scarves",
+    "basis": "sourced",
+    "source_ids": [
+     0
+    ]
+   },
+   "care": {
+    "value": "Dry clean silk; hand wash poly/viscose cold, no wringing, dry in shade",
+    "basis": "sourced",
+    "source_ids": [
+     0
+    ]
+   }
+  },
+  "advantages": [
+   "Beautiful drape",
+   "Less sheer than chiffon",
+   "Holds dye well"
+  ],
+  "limitations": [
+   "Snags",
+   "Slippery to cut",
+   "Polyester version less breathable"
+  ],
+  "notes": "Georgette is widely used for Pakistani formal and party wear and for dupattas. No reliable GSM range was found.",
+  "sources": [
+   {
+    "title": "What is Georgette Fabric? Guide",
+    "url": "https://www.azafashions.com/blog/what-is-georgette-fabric-guide",
+    "publisher": "Aza Fashions",
+    "published": "2025-10-31"
+   }
+  ]
+ },
+ {
+  "id": "denim",
+  "name": "Denim",
+  "aka": [
+   "jeans fabric",
+   "selvedge denim (variant)"
+  ],
+  "specs": {
+   "composition": {
+    "value": "Usually cotton-based; stretch denim adds elastane",
+    "basis": "sourced",
+    "source_ids": [
+     0
+    ]
+   },
+   "cotton_percentage": {
+    "value": "Typically high (often 100% or cotton-rich blends); exact % varies",
+    "basis": "estimate",
+    "source_ids": []
+   },
+   "gsm": {
+    "value": "Common jeans denim about 270-500+ GSM (8-15 oz); conversion 1 oz/yd2 = about 33.9 GSM; classes: light <12 oz, mid 12-16 oz, heavy >16 oz (conventions vary)",
+    "basis": "sourced",
+    "source_ids": [
+     1,
+     2,
+     3
+    ]
+   },
+   "construction": {
+    "value": "Warp-faced twill weave, classically indigo warp with undyed weft",
+    "basis": "estimate",
+    "source_ids": []
+   },
+   "weight_class": {
+    "value": "Medium to heavy",
+    "basis": "sourced",
+    "source_ids": [
+     4,
+     2
+    ]
+   },
+   "texture": {
+    "value": "Thick, sturdy, structured",
+    "basis": "sourced",
+    "source_ids": [
+     0
+    ]
+   },
+   "surface": {
+    "value": "Diagonal twill line; colour fades with wear",
+    "basis": "estimate",
+    "source_ids": []
+   },
+   "breathability": {
+    "value": "Medium-low (heavy weights)",
+    "basis": "estimate",
+    "source_ids": []
+   },
+   "drape": {
+    "value": "Stiff; softens with wear",
+    "basis": "estimate",
+    "source_ids": []
+   },
+   "seasons": {
+    "value": "All year; lightweight in summer",
+    "basis": "estimate",
+    "source_ids": []
+   },
+   "printing": {
+    "value": "Rarely printed; pigment/discharge printing used for designs",
+    "basis": "estimate",
+    "source_ids": []
+   },
+   "embroidery": {
+    "value": "Good; stable base",
+    "basis": "estimate",
+    "source_ids": []
+   },
+   "dyeing": {
+    "value": "Indigo (vat) yarn dyeing; garment washes for effects",
+    "basis": "estimate",
+    "source_ids": []
+   },
+   "garments": {
+    "value": "Jeans, jackets",
+    "basis": "sourced",
+    "source_ids": [
+     0
+    ]
+   },
+   "care": {
+    "value": "Wash inside-out in cold water to slow fading",
+    "basis": "estimate",
+    "source_ids": []
+   }
+  },
+  "advantages": [
+   "Very durable",
+   "Ages well",
+   "Versatile"
+  ],
+  "limitations": [
+   "Heavy and slow to dry",
+   "Indigo can bleed",
+   "Less breathable"
+  ],
+  "notes": "Denim weight is traditionally quoted in oz/yd2, not GSM. Pakistan has a large export denim industry, with mills in Karachi and Lahore (general industry knowledge, not verified from a source here).",
+  "sources": [
+   {
+    "title": "The Ultimate Guide to Different Types of Fabric",
+    "url": "https://www.tapstitch.com/blog/post/types-of-fabric",
+    "publisher": "Tapstitch",
+    "published": "2026-03-24"
+   },
+   {
+    "title": "What Is GSM In Fabrics & Why Does It Matter? The Complete Guide",
+    "url": "https://thygesenapparel.com/blog/what-is-gsm-in-fabric",
+    "publisher": "Thygesen Textile Vietnam",
+    "published": "2026-09-28"
+   },
+   {
+    "title": "Denim Weight: What Is 'Ounce' and Why Does It Matter?",
+    "url": "https://denimhunters.com/denim-wiki/denim-explained/denim-weight/",
+    "publisher": "Denimhunters",
+    "published": "unknown"
+   },
+   {
+    "title": "Why Denim Fabrics Are Measured in Ounces and Not in Grams",
+    "url": "https://www.onlineclothingstudy.com/2025/09/the-denim-oz-mystery-why-denim-fabrics.html",
+    "publisher": "Online Clothing Study",
+    "published": "2025-09-18"
+   },
+   {
+    "title": "Understanding Fabric Weight (gsm): A Beginner-Friendly Guide",
+    "url": "https://lestissees.com/blogs/journal/understanding-fabric-weight-gsm-a-beginner-friendly-guide",
+    "publisher": "Les Tissees",
+    "published": "2026-05-08"
+   }
+  ]
+ },
+ {
+  "id": "jersey",
+  "name": "Jersey",
+  "aka": [
+   "single jersey",
+   "T-shirt fabric",
+   "interlock (double jersey)"
+  ],
+  "specs": {
+   "composition": {
+    "value": "Cotton, synthetics, blends (e.g. 50/50, 60/40); viscose and elastane common",
+    "basis": "sourced",
+    "source_ids": [
+     0
+    ]
+   },
+   "cotton_percentage": {
+    "value": "0-100% depending on blend",
+    "basis": "sourced",
+    "source_ids": [
+     0
+    ]
+   },
+   "gsm": {
+    "value": "Single jersey about 120-220 GSM; cotton jersey for dressmaking about 120-150 GSM",
+    "basis": "sourced",
+    "source_ids": [
+     1,
+     0,
+     2
+    ]
+   },
+   "construction": {
+    "value": "Weft knit (single jersey on one needle set; double/interlock on two)",
+    "basis": "sourced",
+    "source_ids": [
+     0
+    ]
+   },
+   "weight_class": {
+    "value": "Light to medium",
+    "basis": "sourced",
+    "source_ids": [
+     0,
+     3
+    ]
+   },
+   "texture": {
+    "value": "Soft and stretchy",
+    "basis": "sourced",
+    "source_ids": [
+     4,
+     0
+    ]
+   },
+   "surface": {
+    "value": "Flat face with loops on the back (single jersey)",
+    "basis": "sourced",
+    "source_ids": [
+     0
+    ]
+   },
+   "breathability": {
+    "value": "High for cotton single jersey",
+    "basis": "sourced",
+    "source_ids": [
+     0
+    ]
+   },
+   "drape": {
+    "value": "Soft, clingy drape",
+    "basis": "estimate",
+    "source_ids": []
+   },
+   "seasons": {
+    "value": "All year; single jersey suits warm weather",
+    "basis": "sourced",
+    "source_ids": [
+     0
+    ]
+   },
+   "printing": {
+    "value": "Screen (plastisol/water-based), DTG and DTF for cotton; sublimation for polyester",
+    "basis": "estimate",
+    "source_ids": []
+   },
+   "embroidery": {
+    "value": "Possible with stabiliser; stretch can pucker stitches",
+    "basis": "estimate",
+    "source_ids": []
+   },
+   "dyeing": {
+    "value": "Reactive for cotton, disperse for polyester",
+    "basis": "estimate",
+    "source_ids": []
+   },
+   "garments": {
+    "value": "T-shirts, baby clothes, casualwear, yoga wear",
+    "basis": "sourced",
+    "source_ids": [
+     0
+    ]
+   },
+   "care": {
+    "value": "Machine wash; may shrink; edges curl when cut",
+    "basis": "sourced",
+    "source_ids": [
+     0
+    ]
+   }
+  },
+  "advantages": [
+   "Stretchy and comfortable",
+   "Breathable",
+   "Affordable"
+  ],
+  "limitations": [
+   "Edges curl and it is harder to sew",
+   "Can lose shape",
+   "Pills in some blends"
+  ],
+  "notes": "Jersey is the standard T-shirt knit. Pakistan, including Faisalabad, has a significant knitwear export sector (general knowledge, not verified from a source here).",
+  "sources": [
+   {
+    "title": "Jersey (fabric)",
+    "url": "https://en.wikipedia.org/wiki/Jersey_(fabric)",
+    "publisher": "Wikipedia",
+    "published": "unknown"
+   },
+   {
+    "title": "What Is GSM In Fabrics & Why Does It Matter? The Complete Guide",
+    "url": "https://thygesenapparel.com/blog/what-is-gsm-in-fabric",
+    "publisher": "Thygesen Textile Vietnam",
+    "published": "2026-09-28"
+   },
+   {
+    "title": "Fabric GSM in dressmaking",
+    "url": "https://sewguide.com/gsm-of-fabric/",
+    "publisher": "SewGuide",
+    "published": "2023-05-04"
+   },
+   {
+    "title": "Understanding Fabric Weight (gsm): A Beginner-Friendly Guide",
+    "url": "https://lestissees.com/blogs/journal/understanding-fabric-weight-gsm-a-beginner-friendly-guide",
+    "publisher": "Les Tissees",
+    "published": "2026-05-08"
+   },
+   {
+    "title": "The Ultimate Guide to Different Types of Fabric",
+    "url": "https://www.tapstitch.com/blog/post/types-of-fabric",
+    "publisher": "Tapstitch",
+    "published": "2026-03-24"
+   }
+  ]
+ },
+ {
+  "id": "fleece",
+  "name": "Fleece",
+  "aka": [
+   "polar fleece",
+   "brushed fleece",
+   "sweatshirt fleece"
+  ],
+  "specs": {
+   "composition": {
+    "value": "Often polyester; hoodie fleece usually cotton-poly (about 50-80% cotton)",
+    "basis": "sourced",
+    "source_ids": [
+     0,
+     1
+    ]
+   },
+   "cotton_percentage": {
+    "value": "0% (polar fleece) to roughly 50-80% (cotton-poly sweatshirt fleece)",
+    "basis": "sourced",
+    "source_ids": [
+     1
+    ]
+   },
+   "gsm": {
+    "value": "About 250-400+ GSM for brushed fleece; budget versions about 200-250",
+    "basis": "sourced",
+    "source_ids": [
+     2,
+     1
+    ]
+   },
+   "construction": {
+    "value": "Knit with a brushed/napped side",
+    "basis": "sourced",
+    "source_ids": [
+     1
+    ]
+   },
+   "weight_class": {
+    "value": "Heavy",
+    "basis": "sourced",
+    "source_ids": [
+     3,
+     2
+    ]
+   },
+   "texture": {
+    "value": "Soft, plush, fuzzy",
+    "basis": "sourced",
+    "source_ids": [
+     0,
+     1
+    ]
+   },
+   "surface": {
+    "value": "Brushed fuzzy inside, smooth outside (sweatshirt fleece); both sides napped for polar fleece",
+    "basis": "sourced",
+    "source_ids": [
+     1
+    ]
+   },
+   "breathability": {
+    "value": "Moderate; lower as polyester content rises",
+    "basis": "sourced",
+    "source_ids": [
+     1
+    ]
+   },
+   "drape": {
+    "value": "Bulky, little drape",
+    "basis": "estimate",
+    "source_ids": []
+   },
+   "seasons": {
+    "value": "Autumn and winter",
+    "basis": "sourced",
+    "source_ids": [
+     0
+    ]
+   },
+   "printing": {
+    "value": "Screen, heat-transfer vinyl and DTF",
+    "basis": "sourced",
+    "source_ids": [
+     1
+    ]
+   },
+   "embroidery": {
+    "value": "Good; thick base holds embroidery",
+    "basis": "estimate",
+    "source_ids": []
+   },
+   "dyeing": {
+    "value": "Disperse (poly) / reactive (cotton) or both for blends",
+    "basis": "estimate",
+    "source_ids": []
+   },
+   "garments": {
+    "value": "Hoodies, sweatshirts, jackets",
+    "basis": "sourced",
+    "source_ids": [
+     0,
+     1
+    ]
+   },
+   "care": {
+    "value": "Machine wash; pilling and shrinkage are common complaints",
+    "basis": "sourced",
+    "source_ids": [
+     1
+    ]
+   }
+  },
+  "advantages": [
+   "Warm for its weight",
+   "Soft",
+   "Affordable"
+  ],
+  "limitations": [
+   "Pills",
+   "Polyester version sheds microfibres",
+   "Can shrink"
+  ],
+  "notes": "Fleece is used for winter hoodies and tracksuits in Pakistan and is a major knit export category.",
+  "sources": [
+   {
+    "title": "The Ultimate Guide to Different Types of Fabric",
+    "url": "https://www.tapstitch.com/blog/post/types-of-fabric",
+    "publisher": "Tapstitch",
+    "published": "2026-03-24"
+   },
+   {
+    "title": "Men's Hoodie Fabric Types: A Complete Comparison Guide",
+    "url": "https://seller.alibaba.com/blogs/2026/southeast-asia/apparel/mens-hoodie-fabric-types-fleece-terry-jersey-guide-alibaba-b2b",
+    "publisher": "Alibaba.com Seller Blog",
+    "published": "unknown"
+   },
+   {
+    "title": "What Is GSM In Fabrics & Why Does It Matter? The Complete Guide",
+    "url": "https://thygesenapparel.com/blog/what-is-gsm-in-fabric",
+    "publisher": "Thygesen Textile Vietnam",
+    "published": "2026-09-28"
+   },
+   {
+    "title": "Understanding Fabric Weight (gsm): A Beginner-Friendly Guide",
+    "url": "https://lestissees.com/blogs/journal/understanding-fabric-weight-gsm-a-beginner-friendly-guide",
+    "publisher": "Les Tissees",
+    "published": "2026-05-08"
+   }
+  ]
+ },
+ {
+  "id": "polyester",
+  "name": "Polyester",
+  "aka": [
+   "poly",
+   "PET fabric"
+  ],
+  "specs": {
+   "composition": {
+    "value": "Synthetic polymer (PET) fibre",
+    "basis": "sourced",
+    "source_ids": [
+     0
+    ]
+   },
+   "cotton_percentage": {
+    "value": "0% (pure)",
+    "basis": "estimate",
+    "source_ids": []
+   },
+   "gsm": {
+    "value": "Varies by fabric; polyester knits about 100-200 GSM per one guide; wovens vary widely",
+    "basis": "sourced",
+    "source_ids": [
+     1
+    ]
+   },
+   "construction": {
+    "value": "Woven or knit",
+    "basis": "estimate",
+    "source_ids": []
+   },
+   "weight_class": {
+    "value": "Light to heavy",
+    "basis": "estimate",
+    "source_ids": []
+   },
+   "texture": {
+    "value": "Smooth",
+    "basis": "sourced",
+    "source_ids": [
+     2
+    ]
+   },
+   "surface": {
+    "value": "Smooth; can be engineered to mimic other fabrics",
+    "basis": "sourced",
+    "source_ids": [
+     0
+    ]
+   },
+   "breathability": {
+    "value": "Lower than natural fibres",
+    "basis": "sourced",
+    "source_ids": [
+     2
+    ]
+   },
+   "drape": {
+    "value": "Varies with construction",
+    "basis": "estimate",
+    "source_ids": []
+   },
+   "seasons": {
+    "value": "All year; less comfortable in humid heat",
+    "basis": "estimate",
+    "source_ids": []
+   },
+   "printing": {
+    "value": "Sublimation ideal (100% poly); blends under 65% poly give dull results",
+    "basis": "sourced",
+    "source_ids": [
+     3,
+     0
+    ]
+   },
+   "embroidery": {
+    "value": "Good",
+    "basis": "estimate",
+    "source_ids": []
+   },
+   "dyeing": {
+    "value": "Disperse dyes",
+    "basis": "sourced",
+    "source_ids": [
+     0
+    ]
+   },
+   "garments": {
+    "value": "Sportswear, blends, everyday clothing",
+    "basis": "sourced",
+    "source_ids": [
+     2
+    ]
+   },
+   "care": {
+    "value": "Low heat; durable and wrinkle-resistant",
+    "basis": "sourced",
+    "source_ids": [
+     2,
+     0
+    ]
+   }
+  },
+  "advantages": [
+   "Strong and durable",
+   "Wrinkle-resistant",
+   "Highly stain resistant",
+   "Ideal for vivid sublimation printing",
+   "Can be recycled (rPET)"
+  ],
+  "limitations": [
+   "Less breathable than natural fibres; can feel clammy in heat",
+   "Prone to pilling (estimate)",
+   "Heat-sensitive; recycled polyester tolerates even less heat",
+   "Sheds microfibres when washed (estimate)"
+  ],
+  "notes": "Polyester is widely used in Pakistan for chiffon, georgette and organza and in blends with cotton.",
+  "sources": [
+   {
+    "title": "What is Polyester Fabric?",
+    "url": "https://www.digitalfabrics.com.au/?p=154848",
+    "publisher": "Digital Fabrics",
+    "published": "2016-03-17"
+   },
+   {
+    "title": "What Is GSM In Fabrics & Why Does It Matter? The Complete Guide",
+    "url": "https://thygesenapparel.com/blog/what-is-gsm-in-fabric",
+    "publisher": "Thygesen Textile Vietnam",
+    "published": "2026-09-28"
+   },
+   {
+    "title": "The Ultimate Guide to Different Types of Fabric",
+    "url": "https://www.tapstitch.com/blog/post/types-of-fabric",
+    "publisher": "Tapstitch",
+    "published": "2026-03-24"
+   },
+   {
+    "title": "Understanding Polyester Fabrics and Dye Sublimation Compatibility",
+    "url": "https://www.education.sanmar.com/decorator-relations/understanding-polyester-fabrics-and-dye-sublimation-compatibility",
+    "publisher": "SanMar U",
+    "published": "2024-03-01"
+   }
+  ]
+ },
+ {
+  "id": "viscose",
+  "name": "Viscose",
+  "aka": [
+   "rayon",
+   "viscose rayon"
+  ],
+  "specs": {
+   "composition": {
+    "value": "Regenerated cellulose from wood pulp",
+    "basis": "sourced",
+    "source_ids": [
+     0,
+     1
+    ]
+   },
+   "cotton_percentage": {
+    "value": "0% (pure); often blended with cotton",
+    "basis": "sourced",
+    "source_ids": [
+     2
+    ]
+   },
+   "gsm": {
+    "value": "Varies by construction; modal/bamboo-viscose jersey about 140-220 GSM; lightweight woven viscose classed under 150 GSM (typical ranges)",
+    "basis": "sourced",
+    "source_ids": [
+     3,
+     4
+    ]
+   },
+   "construction": {
+    "value": "Woven or knit",
+    "basis": "estimate",
+    "source_ids": []
+   },
+   "weight_class": {
+    "value": "Light to medium",
+    "basis": "sourced",
+    "source_ids": [
+     4
+    ]
+   },
+   "texture": {
+    "value": "Silky, soft",
+    "basis": "sourced",
+    "source_ids": [
+     0,
+     1
+    ]
+   },
+   "surface": {
+    "value": "Subtle sheen",
+    "basis": "sourced",
+    "source_ids": [
+     0
+    ]
+   },
+   "breathability": {
+    "value": "High",
+    "basis": "sourced",
+    "source_ids": [
+     0
+    ]
+   },
+   "drape": {
+    "value": "Fluid",
+    "basis": "sourced",
+    "source_ids": [
+     0
+    ]
+   },
+   "seasons": {
+    "value": "Summer; heavier slub/twill versions sold for Pakistani winter",
+    "basis": "sourced",
+    "source_ids": [
+     0,
+     5
+    ]
+   },
+   "printing": {
+    "value": "Good; reactive and digital printing",
+    "basis": "estimate",
+    "source_ids": []
+   },
+   "embroidery": {
+    "value": "Moderate; needs stabiliser",
+    "basis": "estimate",
+    "source_ids": []
+   },
+   "dyeing": {
+    "value": "Takes colour well",
+    "basis": "sourced",
+    "source_ids": [
+     0
+    ]
+   },
+   "garments": {
+    "value": "Dresses, blouses, tunics, shirts, scarves",
+    "basis": "sourced",
+    "source_ids": [
+     0
+    ]
+   },
+   "care": {
+    "value": "Hand wash cold (max 30C); shrinks; loses up to 70% strength wet; dry flat",
+    "basis": "sourced",
+    "source_ids": [
+     0
+    ]
+   }
+  },
+  "advantages": [
+   "Silky drape",
+   "Breathable",
+   "Takes colour well"
+  ],
+  "limitations": [
+   "Weak when wet",
+   "Shrinks",
+   "Wrinkles"
+  ],
+  "notes": "Viscose is used in Pakistani winter collections in slub, twill and staple variants.",
+  "sources": [
+   {
+    "title": "Viscose - fabric guide",
+    "url": "https://stoffmarktholland.de/en/fabric-guide/viscose/",
+    "publisher": "Stoffmarkt Holland",
+    "published": "unknown"
+   },
+   {
+    "title": "Best Winter Fabrics for Women in Pakistan: 2025 Guide",
+    "url": "https://mtjonline.com/blogs/blog/best-winter-fabrics-for-women-in-pakistan-2025-guide",
+    "publisher": "MTJ (Javeria Chottani)",
+    "published": "2025-10-13"
+   },
+   {
+    "title": "Men's Winter Shalwar Kameez Fabrics That Keep You Warm",
+    "url": "https://www.alkaramstudio.com/blogs/pages/men-s-winter-shalwar-kameez-fabrics-that-keep-you-warm",
+    "publisher": "Alkaram Studio",
+    "published": "2026-01-20"
+   },
+   {
+    "title": "What Is GSM In Fabrics & Why Does It Matter? The Complete Guide",
+    "url": "https://thygesenapparel.com/blog/what-is-gsm-in-fabric",
+    "publisher": "Thygesen Textile Vietnam",
+    "published": "2026-09-28"
+   },
+   {
+    "title": "Understanding Fabric Weight (gsm): A Beginner-Friendly Guide",
+    "url": "https://lestissees.com/blogs/journal/understanding-fabric-weight-gsm-a-beginner-friendly-guide",
+    "publisher": "Les Tissees",
+    "published": "2026-05-08"
+   },
+   {
+    "title": "Top 5 Unstitched Fabrics for Women in the Winter Collection",
+    "url": "https://alkaramstudio.com/blogs/pages/top-5-unstitched-fabrics-winter-collection-women",
+    "publisher": "Alkaram Studio",
+    "published": "2023-10-19"
+   }
+  ]
+ },
+ {
+  "id": "jacquard",
+  "name": "Jacquard",
+  "aka": [
+   "damask",
+   "brocade",
+   "jacquard knit"
+  ],
+  "specs": {
+   "composition": {
+    "value": "Any fibre; most often cotton, silk or synthetics",
+    "basis": "sourced",
+    "source_ids": [
+     0
+    ]
+   },
+   "cotton_percentage": {
+    "value": "Not verified",
+    "basis": "unknown",
+    "source_ids": []
+   },
+   "gsm": {
+    "value": "Not verified",
+    "basis": "unknown",
+    "source_ids": []
+   },
+   "construction": {
+    "value": "Woven on a Jacquard loom; jacquard knits also exist",
+    "basis": "sourced",
+    "source_ids": [
+     0
+    ]
+   },
+   "weight_class": {
+    "value": "Relatively heavy, though weight depends on fibre and pattern",
+    "basis": "sourced",
+    "source_ids": [
+     0
+    ]
+   },
+   "texture": {
+    "value": "Patterned, sometimes raised",
+    "basis": "sourced",
+    "source_ids": [
+     0
+    ]
+   },
+   "surface": {
+    "value": "Woven-in pattern",
+    "basis": "sourced",
+    "source_ids": [
+     0
+    ]
+   },
+   "breathability": {
+    "value": "Depends on fibre",
+    "basis": "sourced",
+    "source_ids": [
+     0
+    ]
+   },
+   "drape": {
+    "value": "Structured",
+    "basis": "estimate",
+    "source_ids": []
+   },
+   "seasons": {
+    "value": "Formal wear and autumn/winter",
+    "basis": "estimate",
+    "source_ids": []
+   },
+   "printing": {
+    "value": "Rarely printed; pattern is woven in",
+    "basis": "estimate",
+    "source_ids": []
+   },
+   "embroidery": {
+    "value": "Possible",
+    "basis": "estimate",
+    "source_ids": []
+   },
+   "dyeing": {
+    "value": "Usually yarn-dyed",
+    "basis": "sourced",
+    "source_ids": [
+     0
+    ]
+   },
+   "garments": {
+    "value": "Dresses, suits, ties, upholstery, curtains",
+    "basis": "sourced",
+    "source_ids": [
+     0
+    ]
+   },
+   "care": {
+    "value": "Depends on fibre",
+    "basis": "sourced",
+    "source_ids": [
+     0
+    ]
+   }
+  },
+  "advantages": [
+   "Pattern is woven in, so it cannot wash or rub off",
+   "Durable",
+   "Rich, often reversible designs (damask)"
+  ],
+  "limitations": [
+   "More expensive than printed cloth because of complex weaving",
+   "Often heavy and stiff",
+   "Long floats in some designs can snag",
+   "Care depends entirely on the fibre used"
+  ],
+  "notes": "Jacquard is a construction, not a fibre, so its GSM and cotton share depend on the yarns. Neither could be verified as a general range. Jacquard-woven shirts and dupattas appear in Pakistani festive and formal collections (estimate, not verified from a source here).",
+  "sources": [
+   {
+    "title": "Jacquard Fabric: What is it, How is it Made",
+    "url": "https://sewport.com/fabrics-directory/jacquard-fabric",
+    "publisher": "Sewport",
+    "published": "unknown"
+   }
+  ]
+ },
+ {
+  "id": "voile",
+  "name": "Voile",
+  "aka": [
+   "cotton voile",
+   "poly voile"
+  ],
+  "specs": {
+   "composition": {
+    "value": "Cotton or cotton blends",
+    "basis": "sourced",
+    "source_ids": [
+     0
+    ]
+   },
+   "cotton_percentage": {
+    "value": "Up to 100%",
+    "basis": "sourced",
+    "source_ids": [
+     0
+    ]
+   },
+   "gsm": {
+    "value": "About 50-100 GSM (guides give 50-80, 60-100 and 70-90)",
+    "basis": "sourced",
+    "source_ids": [
+     1,
+     0,
+     2
+    ]
+   },
+   "construction": {
+    "value": "Plain weave from fine yarns",
+    "basis": "sourced",
+    "source_ids": [
+     0
+    ]
+   },
+   "weight_class": {
+    "value": "Light",
+    "basis": "sourced",
+    "source_ids": [
+     2
+    ]
+   },
+   "texture": {
+    "value": "Soft, slightly crisp",
+    "basis": "sourced",
+    "source_ids": [
+     0
+    ]
+   },
+   "surface": {
+    "value": "Sheer",
+    "basis": "estimate",
+    "source_ids": []
+   },
+   "breathability": {
+    "value": "High",
+    "basis": "sourced",
+    "source_ids": [
+     0
+    ]
+   },
+   "drape": {
+    "value": "Flowing",
+    "basis": "sourced",
+    "source_ids": [
+     0
+    ]
+   },
+   "seasons": {
+    "value": "Summer",
+    "basis": "sourced",
+    "source_ids": [
+     0
+    ]
+   },
+   "printing": {
+    "value": "Easy to print and dye",
+    "basis": "sourced",
+    "source_ids": [
+     0
+    ]
+   },
+   "embroidery": {
+    "value": "Embroidered voile available",
+    "basis": "sourced",
+    "source_ids": [
+     0
+    ]
+   },
+   "dyeing": {
+    "value": "Easy to dye",
+    "basis": "sourced",
+    "source_ids": [
+     0
+    ]
+   },
+   "garments": {
+    "value": "Summer dresses, tunics, scarves, curtains",
+    "basis": "sourced",
+    "source_ids": [
+     0
+    ]
+   },
+   "care": {
+    "value": "Cold wash, air dry, low-medium iron",
+    "basis": "sourced",
+    "source_ids": [
+     0
+    ]
+   }
+  },
+  "advantages": [
+   "Very light and breathable",
+   "Soft drape",
+   "Takes prints and dyes easily",
+   "Comfortable in humid heat"
+  ],
+  "limitations": [
+   "Sheer; usually needs lining or layering",
+   "Delicate and can tear or snag",
+   "Wrinkles",
+   "May shrink if not pre-washed"
+  ],
+  "notes": "Voile is softer and more fluid than lawn, while lawn is crisper. In South Asian markets cotton voile is commonly used for summer dupattas and kurtas (estimate). Polyester voile also exists, mainly for curtains.",
+  "sources": [
+   {
+    "title": "Information about Cotton Voile Fabric",
+    "url": "https://fabriclore.com/resources/fabric-wiki/information-about-cotton-voile-fabric",
+    "publisher": "Fabriclore",
+    "published": "unknown"
+   },
+   {
+    "title": "Fabric GSM in dressmaking",
+    "url": "https://sewguide.com/gsm-of-fabric/",
+    "publisher": "SewGuide",
+    "published": "2023-05-04"
+   },
+   {
+    "title": "Understanding Fabric Weight (gsm): A Beginner-Friendly Guide",
+    "url": "https://lestissees.com/blogs/journal/understanding-fabric-weight-gsm-a-beginner-friendly-guide",
+    "publisher": "Les Tissees",
+    "published": "2026-05-08"
+   }
+  ]
+ },
+ {
+  "id": "poplin",
+  "name": "Poplin",
+  "aka": [
+   "broadcloth"
+  ],
+  "specs": {
+   "composition": {
+    "value": "Usually cotton; also poly-cotton, silk, stretch",
+    "basis": "sourced",
+    "source_ids": [
+     0
+    ]
+   },
+   "cotton_percentage": {
+    "value": "Often 100%",
+    "basis": "sourced",
+    "source_ids": [
+     0
+    ]
+   },
+   "gsm": {
+    "value": "Mostly about 100-150 GSM",
+    "basis": "sourced",
+    "source_ids": [
+     0,
+     1,
+     2
+    ]
+   },
+   "construction": {
+    "value": "Plain weave with fine crosswise rib",
+    "basis": "sourced",
+    "source_ids": [
+     0
+    ]
+   },
+   "weight_class": {
+    "value": "Light to medium",
+    "basis": "sourced",
+    "source_ids": [
+     0
+    ]
+   },
+   "texture": {
+    "value": "Crisp, smooth",
+    "basis": "sourced",
+    "source_ids": [
+     0
+    ]
+   },
+   "surface": {
+    "value": "Smooth with fine rib",
+    "basis": "sourced",
+    "source_ids": [
+     0
+    ]
+   },
+   "breathability": {
+    "value": "Moderate",
+    "basis": "sourced",
+    "source_ids": [
+     0
+    ]
+   },
+   "drape": {
+    "value": "Crisp",
+    "basis": "estimate",
+    "source_ids": []
+   },
+   "seasons": {
+    "value": "All year",
+    "basis": "estimate",
+    "source_ids": []
+   },
+   "printing": {
+    "value": "Screen, digital, piece dye",
+    "basis": "sourced",
+    "source_ids": [
+     0
+    ]
+   },
+   "embroidery": {
+    "value": "Good",
+    "basis": "estimate",
+    "source_ids": []
+   },
+   "dyeing": {
+    "value": "Piece dyeing",
+    "basis": "sourced",
+    "source_ids": [
+     0
+    ]
+   },
+   "garments": {
+    "value": "Shirts, blouses, dresses, uniforms",
+    "basis": "sourced",
+    "source_ids": [
+     0
+    ]
+   },
+   "care": {
+    "value": "Can shrink 3-5% unless sanforised",
+    "basis": "sourced",
+    "source_ids": [
+     0
+    ]
+   }
+  },
+  "advantages": [
+   "Crisp, smooth finish that presses well",
+   "Durable tight weave",
+   "Clean surface for screen and digital prints",
+   "Available in cotton, poly-cotton and stretch versions"
+  ],
+  "limitations": [
+   "Wrinkles (100% cotton)",
+   "Untreated cotton poplin can shrink about 3-5%",
+   "Only moderately breathable compared with open weaves",
+   "Not stretchy unless elastane is added"
+  ],
+  "notes": "Poplin is a core shirting fabric and is woven in both 100% cotton and 65/35 cotton-polyester for shirting buyers. Pakistani mills produce it for export shirting and school/uniform wear (estimate).",
+  "sources": [
+   {
+    "title": "What Is Poplin Fabric? A Brand Owner's Guide (2026)",
+    "url": "https://makersrow.com/blog/what-is-poplin-fabric/",
+    "publisher": "Maker's Row",
+    "published": "2026-08-11"
+   },
+   {
+    "title": "Fabric GSM in dressmaking",
+    "url": "https://sewguide.com/gsm-of-fabric/",
+    "publisher": "SewGuide",
+    "published": "2023-05-04"
+   },
+   {
+    "title": "Shirting fabric buyer listing: 115 GSM, 65% cotton / 35% polyester or 100% cotton, poplin (ref 1598483)",
+    "url": "https://www.fibre2fashion.com/fabrics/shirting-fabric-buyers-1598483",
+    "publisher": "Fibre2Fashion",
+    "published": "unknown"
+   }
+  ]
+ },
+ {
+  "id": "blended",
+  "name": "Blended fabrics",
+  "aka": [
+   "poly-cotton",
+   "PC",
+   "CVC",
+   "cotton-viscose"
+  ],
+  "specs": {
+   "composition": {
+    "value": "Two or more fibres (e.g. cotton/polyester, cotton/viscose)",
+    "basis": "sourced",
+    "source_ids": [
+     0,
+     1
+    ]
+   },
+   "cotton_percentage": {
+    "value": "Varies, e.g. 65/35",
+    "basis": "sourced",
+    "source_ids": [
+     0
+    ]
+   },
+   "gsm": {
+    "value": "Varies by blend and construction - no single range. Examples: cotton-poly poplin about 90-120 GSM (typical); a 65/35 shirting spec at 115 GSM",
+    "basis": "sourced",
+    "source_ids": [
+     2,
+     0
+    ]
+   },
+   "construction": {
+    "value": "Woven or knit",
+    "basis": "estimate",
+    "source_ids": []
+   },
+   "weight_class": {
+    "value": "Varies",
+    "basis": "estimate",
+    "source_ids": []
+   },
+   "texture": {
+    "value": "Varies",
+    "basis": "estimate",
+    "source_ids": []
+   },
+   "surface": {
+    "value": "Varies",
+    "basis": "estimate",
+    "source_ids": []
+   },
+   "breathability": {
+    "value": "Varies with cotton share",
+    "basis": "estimate",
+    "source_ids": []
+   },
+   "drape": {
+    "value": "Varies",
+    "basis": "estimate",
+    "source_ids": []
+   },
+   "seasons": {
+    "value": "Varies",
+    "basis": "estimate",
+    "source_ids": []
+   },
+   "printing": {
+    "value": "Under 65% polyester gives dull sublimation",
+    "basis": "sourced",
+    "source_ids": [
+     3
+    ]
+   },
+   "embroidery": {
+    "value": "Good",
+    "basis": "estimate",
+    "source_ids": []
+   },
+   "dyeing": {
+    "value": "Needs two dye classes",
+    "basis": "estimate",
+    "source_ids": []
+   },
+   "garments": {
+    "value": "Shirts, uniforms, suits",
+    "basis": "sourced",
+    "source_ids": [
+     0
+    ]
+   },
+   "care": {
+    "value": "Easy care",
+    "basis": "estimate",
+    "source_ids": []
+   }
+  },
+  "advantages": [
+   "Combine strengths, e.g. polyester adds wrinkle resistance and strength, cotton adds comfort",
+   "Usually cheaper than pure natural fibres",
+   "Easier care and faster drying than pure cotton (poly-cotton)",
+   "Cotton-viscose adds softness and drape"
+  ],
+  "limitations": [
+   "Properties, GSM and care vary with the blend, so the label must be checked",
+   "Two fibres may need two dye classes, which makes even colour harder",
+   "Sublimation results are dull on blends with under 65% polyester",
+   "Polyester-rich blends breathe less and can pill"
+  ],
+  "notes": "This is a category, not a single fabric. GSM cannot be given as one range because it varies with blend ratio and construction. Common labels are PC (polyester-cotton, e.g. 65/35), CVC (chief value cotton, cotton-majority) and cotton-viscose. In Pakistan, cotton-viscose blends are marketed for men's winter shalwar kameez for their soft drape.",
+  "sources": [
+   {
+    "title": "Shirting fabric buyer listing: 115 GSM, 65% cotton / 35% polyester or 100% cotton, poplin (ref 1598483)",
+    "url": "https://www.fibre2fashion.com/fabrics/shirting-fabric-buyers-1598483",
+    "publisher": "Fibre2Fashion",
+    "published": "unknown"
+   },
+   {
+    "title": "Men's Winter Shalwar Kameez Fabrics That Keep You Warm",
+    "url": "https://www.alkaramstudio.com/blogs/pages/men-s-winter-shalwar-kameez-fabrics-that-keep-you-warm",
+    "publisher": "Alkaram Studio",
+    "published": "2026-01-20"
+   },
+   {
+    "title": "What Is Poplin Fabric? A Brand Owner's Guide (2026)",
+    "url": "https://makersrow.com/blog/what-is-poplin-fabric/",
+    "publisher": "Maker's Row",
+    "published": "2026-08-11"
+   },
+   {
+    "title": "Understanding Polyester Fabrics and Dye Sublimation Compatibility",
+    "url": "https://www.education.sanmar.com/decorator-relations/understanding-polyester-fabrics-and-dye-sublimation-compatibility",
+    "publisher": "SanMar U",
+    "published": "2024-03-01"
+   }
+  ]
+ }
+]

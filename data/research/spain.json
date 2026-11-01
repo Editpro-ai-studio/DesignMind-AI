@@ -1,0 +1,514 @@
+{
+ "country": "Spain",
+ "slug": "spain",
+ "researched_on": "2026-11-01",
+ "method": "snapshot",
+ "season_context": {
+  "hemisphere": "northern",
+  "current_fashion_season": "Autumn/Winter 2026 (AW26)",
+  "local_season_notes": "Winters are mild on the coast and cold inland in Madrid and the north, so coats and knits sell from November to February. Christmas and Reyes gifting (6 January) peak, followed by winter rebajas in January. Communion and wedding-guest dressing builds from March to May, and SS27 arrives in February.",
+  "upcoming_season": "Spring/Summer 2027 (SS27)",
+  "sources": [
+   {
+    "title": "Madrid Fashion Week September 2026: full schedule, venues and designer line-up",
+    "url": "https://fashionunited.uk/news/fashion/madrid-fashion-week-september-2026-full-schedule-venues-and-designer-line-up/2026091490306",
+    "published": "2026-09-14"
+   },
+   {
+    "title": "Del mostaza al fucsia sobre leopardo o el acento turquesa: esta es la fórmula de color que nos deja MBFW Madrid",
+    "url": "https://fashionunited.es/noticias/moda/del-mostaza-al-fucsia-sobre-leopardo-o-el-acento-turquesa-esta-es-la-formula-de-color-que-nos-deja-mbfw-madrid/2026091950689",
+    "published": "2026-09-19"
+   }
+  ]
+ },
+ "trends": [
+  {
+   "country": "spain",
+   "countryName": "Spain",
+   "category": "colors",
+   "status": "observed",
+   "name": "Cherry red as full garments",
+   "summary": "Zara is pushing cherry red beyond accents into full coats, shirts, wide trousers and cropped jackets. It also offers a cherry wool-blend coat with a masculine cut and 80s-style shoulder pads.",
+   "season": "AW26",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "Trendencias",
+   "source_url": "https://www.trendencias.com/shopping/cinco-tendencias-para-este-otono-2026-que-estan-zara-que-podemos-comprar-hoy",
+   "published": "2026-08-10",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "high",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "spain",
+   "countryName": "Spain",
+   "category": "prints",
+   "status": "observed",
+   "name": "Mixed stripes replace polka dots",
+   "summary": "Stripes have become the season's main pattern at Zara, with dresses mixing stripe widths and directions. Madrid street style also paired stripes with florals in matching two-piece sets.",
+   "season": "AW26",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "Trendencias; El Generacional",
+   "source_url": "https://www.trendencias.com/shopping/cinco-tendencias-para-este-otono-2026-que-estan-zara-que-podemos-comprar-hoy",
+   "published": "2026-08-10",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "high",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "spain",
+   "countryName": "Spain",
+   "category": "silhouettes",
+   "status": "observed",
+   "name": "Fuseau and bloomer trousers",
+   "summary": "Zara stocks loose trousers gathered at the ankle and bloomer-style pololo pants carried over from summer in warmer fabrics. They are styled with blazers for the office or with ballet flats.",
+   "season": "AW26",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "Trendencias",
+   "source_url": "https://www.trendencias.com/shopping/cinco-tendencias-para-este-otono-2026-que-estan-zara-que-podemos-comprar-hoy",
+   "published": "2026-08-10",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "spain",
+   "countryName": "Spain",
+   "category": "seasonal",
+   "status": "observed",
+   "name": "70s coats with detachable fur collars",
+   "summary": "Mango and Zara winter coats include a robe-shaped wool coat with a removable fur collar, a waist-seamed tailored coat in the Bar-jacket spirit, navy wool as an alternative to black, and an XL check coat.",
+   "season": "AW26",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "Trendencias",
+   "source_url": "https://www.trendencias.com/shopping/seis-abrigos-mango-zara-que-hay-que-fichar-este-invierno-2027-para-ir-a-ultima",
+   "published": "2026-10-30",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "high",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "spain",
+   "countryName": "Spain",
+   "category": "prints",
+   "status": "observed",
+   "name": "Animal print coats",
+   "summary": "Mango sells a long coat in a fawn-inspired print, linked to the season's wider animal print trend, which the source traces to Burberry's runway.",
+   "season": "AW26",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "Trendencias",
+   "source_url": "https://www.trendencias.com/shopping/seis-abrigos-mango-zara-que-hay-que-fichar-este-invierno-2027-para-ir-a-ultima",
+   "published": "2026-10-30",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "spain",
+   "countryName": "Spain",
+   "category": "formal",
+   "status": "observed",
+   "name": "Blue British-style tailoring",
+   "summary": "Madrid street style favoured structured two-piece suits and long matching skirts in shades of blue. Blue is seen as having black's seriousness but more depth, and pleated skirts soften the look.",
+   "season": "AW26",
+   "gender": "female",
+   "ages": [
+    "26-40",
+    "41-60"
+   ],
+   "source": "El Generacional",
+   "source_url": "https://elgeneracionalpost.com/cultura/moda-tendencias/2026/1002/286214/las-tendencias-que-han-conquistado-el-street-style-de-madrid-durante-mbfw.html",
+   "published": "2026-10-02",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "spain",
+   "countryName": "Spain",
+   "category": "streetwear",
+   "status": "observed",
+   "name": "Tapestry jackets and textured leather",
+   "summary": "Madrid guests wore jackets in dense, faded floral tapestry patterns as the focal piece. Textured leather jackets and blazers were mixed with florals and soft colours, not only dark palettes.",
+   "season": "AW26",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "El Generacional",
+   "source_url": "https://elgeneracionalpost.com/cultura/moda-tendencias/2026/1002/286214/las-tendencias-que-han-conquistado-el-street-style-de-madrid-durante-mbfw.html",
+   "published": "2026-10-02",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "spain",
+   "countryName": "Spain",
+   "category": "fabrics",
+   "status": "recent",
+   "name": "Tweed and shaggy metallic textures",
+   "summary": "MBFW Madrid AW26 shows included Chanel-inspired tweed at Claro Couture, shaggy fabrics with metallic threads and feathers at Pedro del Hierro, and micro-fringe at Maison Mesa.",
+   "season": "AW26",
+   "gender": "female",
+   "ages": [
+    "26-40",
+    "41-60"
+   ],
+   "source": "FashionUnited Spain",
+   "source_url": "https://fashionunited.es/noticias/moda/de-mbfw-madrid-al-armario-claves-para-entender-las-tendencias-vistas-en-la-capital/2026040748923",
+   "published": "2026-04-07",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "spain",
+   "countryName": "Spain",
+   "category": "dress_styles",
+   "status": "recent",
+   "name": "Office-to-evening lingerie contrast",
+   "summary": "Madrid designers combined heavy tailoring with lace, sheer shirts and lingerie details. Isabel Sanchis, Simorra, Adria Egea and Teresa Helbig each set suit trousers or jackets against delicate evening pieces.",
+   "season": "AW26",
+   "gender": "female",
+   "ages": [
+    "26-40",
+    "41-60"
+   ],
+   "source": "FashionUnited Spain",
+   "source_url": "https://fashionunited.es/noticias/moda/de-mbfw-madrid-al-armario-claves-para-entender-las-tendencias-vistas-en-la-capital/2026040748923",
+   "published": "2026-04-07",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "spain",
+   "countryName": "Spain",
+   "category": "embroidery",
+   "status": "recent",
+   "name": "Maxi and micro bows",
+   "summary": "Bows were everywhere in Madrid AW26, from oversized silk-organza versions at Hannibal Laguna and knee-length ribbons at Pedro del Hierro to small black neckline bows at Menchen Tomas and a crochet take at Maikarfi.",
+   "season": "AW26",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "FashionUnited Spain",
+   "source_url": "https://fashionunited.es/noticias/moda/de-mbfw-madrid-al-armario-claves-para-entender-las-tendencias-vistas-en-la-capital/2026040748923",
+   "published": "2026-04-07",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "spain",
+   "countryName": "Spain",
+   "category": "colors",
+   "status": "recent",
+   "name": "Chartreuse and lime green",
+   "summary": "080 Barcelona AW26 made lime and chartreuse the season's disruptive colour. Adolfo Domínguez used it in monochrome knits and Dominnico used it with croc textures, and it is paired with brown, pastels or purple.",
+   "season": "AW26",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "FashionUnited; El Español",
+   "source_url": "https://fashionunited.uk/news/fashion/080-barcelona-fashion-key-trends-and-highlights-from-the-37th-edition/2026042287615",
+   "published": "2026-04-22",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "high",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "spain",
+   "countryName": "Spain",
+   "category": "silhouettes",
+   "status": "recent",
+   "name": "Peplum and displaced belts",
+   "summary": "At 080 Barcelona, Justicia quilted the peplum, Rubearth layered it in floating ruffles, and Doblas and Habey Club moved belts up to the chest or down onto the hips.",
+   "season": "AW26",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "FashionUnited",
+   "source_url": "https://fashionunited.uk/news/fashion/080-barcelona-fashion-key-trends-and-highlights-from-the-37th-edition/2026042287615",
+   "published": "2026-04-22",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "spain",
+   "countryName": "Spain",
+   "category": "emerging",
+   "status": "emerging",
+   "name": "Ceramic buttons and giraffe print",
+   "summary": "SKFK used glazed clay pieces made by Proyecto Hemen as sculptural buttons. Coconutscankill offered giraffe print with red polka dots as an alternative to familiar animal prints.",
+   "season": "AW26",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "FashionUnited",
+   "source_url": "https://fashionunited.uk/news/fashion/080-barcelona-fashion-key-trends-and-highlights-from-the-37th-edition/2026042287615",
+   "published": "2026-04-22",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "low",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "spain",
+   "countryName": "Spain",
+   "category": "streetwear",
+   "status": "recent",
+   "name": "Gothic romance and Gossip Girl nostalgia",
+   "summary": "Barcelona runways mixed 19th-century gothic romanticism from Paco Benavente, Bibencia and Boulard with late-2000s Gossip Girl styling at Custo Barcelona, plus military jackets with braid and pillbox hats.",
+   "season": "AW26",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "El Español",
+   "source_url": "https://www.elespanol.com/mujer/moda/20260421/tendencias-barcelona-fashion-color-chartreuse-estetica-chicas-gossip-girl/1003744214069_0.html",
+   "published": "2026-04-21",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "spain",
+   "countryName": "Spain",
+   "category": "formal",
+   "status": "recent",
+   "name": "Bridal: midi length, peplum and low waist",
+   "summary": "Barcelona Bridal Fashion Week showed ankle- or shin-length gowns, volume at the hips through peplums, dropped waists, neo-boho tulle and lace, and clean minimalism. These shapes target 2027 brides.",
+   "season": "Bridal 2027",
+   "gender": "female",
+   "ages": [
+    "26-40"
+   ],
+   "source": "FashionUnited Spain",
+   "source_url": "https://fashionunited.es/noticias/moda/cinco-tendencias-de-barcelona-bridal-fashion-week-2026-siluetas-volumenes-y-estilos-conviven-en-un-universo-plural/2026042749147",
+   "published": "2026-04-27",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "high",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "spain",
+   "countryName": "Spain",
+   "category": "embroidery",
+   "status": "forecast",
+   "name": "Bridal botanical embroidery and hand-painted florals",
+   "summary": "BBFW's own 2027 report highlights embroidered botanical motifs set into lace, embroidered veils and hand-painted flowers, along with flexible corsetry and detachable overlays.",
+   "season": "Bridal 2027",
+   "gender": "female",
+   "ages": [
+    "26-40"
+   ],
+   "source": "Barcelona Bridal Fashion Week",
+   "source_url": "https://www.barcelonabridalweek.com/bridal-trends-2027-what-the-bbfw26-runway-reveals/",
+   "published": "2026-04-23",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "high",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "spain",
+   "countryName": "Spain",
+   "category": "casual",
+   "status": "observed",
+   "name": "Kids: corduroy, velvet and textured knits",
+   "summary": "Vigo kidswear firm PAZ Rodríguez is promoting corduroy and velvet layered with lighter fabrics, textured knits, wide collars, yokes and embroidered fabrics, in hazelnut, powder pink and sage with toffee and midnight navy accents.",
+   "season": "AW26",
+   "gender": "kids",
+   "ages": [
+    "0-2",
+    "3-7",
+    "8-12"
+   ],
+   "source": "¡Hola! (branded content with PAZ Rodríguez)",
+   "source_url": "https://www.hola.com/padres/20261014922765/pana-terciopelo-punto-coleccion-moda-infantil-otono/",
+   "published": "2026-10-14",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "low",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "spain",
+   "countryName": "Spain",
+   "category": "casual",
+   "status": "historical",
+   "name": "Kids: wide stripes and Balmoral outerwear (2025)",
+   "summary": "El Corte Inglés's autumn 2025 kids edit featured rugby and Breton stripes, wide-leg jeans for girls, tartan and waxed outerwear, and a burgundy, beige, khaki palette. This is useful baseline context only.",
+   "season": "AW25",
+   "gender": "kids",
+   "ages": [
+    "3-7",
+    "8-12",
+    "13-17"
+   ],
+   "source": "El Corte Inglés",
+   "source_url": "https://www.elcorteingles.es/contenidos/ninos/tendencias-moda-infantil-otono/",
+   "published": "2025-09-06",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "low",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "spain",
+   "countryName": "Spain",
+   "category": "colors",
+   "status": "forecast",
+   "name": "Madrid SS27 colour pairings",
+   "summary": "MBFW Madrid SS27 paired colours unexpectedly. Adolfo Domínguez showed mustard with camel and cream, Pedro del Hierro used slate with butter and turquoise, Redondo Brand set fuchsia against yellow, and Palomo Spain paired pink with red or black with green.",
+   "season": "SS27",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "FashionUnited Spain",
+   "source_url": "https://fashionunited.es/noticias/moda/del-mostaza-al-fucsia-sobre-leopardo-o-el-acento-turquesa-esta-es-la-formula-de-color-que-nos-deja-mbfw-madrid/2026091950689",
+   "published": "2026-09-19",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "high",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "spain",
+   "countryName": "Spain",
+   "category": "prints",
+   "status": "forecast",
+   "name": "Yellow leopard, diplomatic stripe and dots",
+   "summary": "Yellow animal print at Redondo Brand, worn with fuchsia and black, was the standout print of Madrid SS27. Adolfo Domínguez showed a pinstripe on cream and Agatha Ruiz de la Prada turquoise dots on butter.",
+   "season": "SS27",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "FashionUnited Spain",
+   "source_url": "https://fashionunited.es/noticias/moda/del-mostaza-al-fucsia-sobre-leopardo-o-el-acento-turquesa-esta-es-la-formula-de-color-que-nos-deja-mbfw-madrid/2026091950689",
+   "published": "2026-09-19",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "spain",
+   "countryName": "Spain",
+   "category": "luxury",
+   "status": "forecast",
+   "name": "Loewe: sport utility meets Spanish baroque",
+   "summary": "The Spanish house's SS27 Paris show set neoprene-cut knits, silk anoraks and leather trenches against baroque skirts. Neon yellow, turquoise and Klein blue accents sat over aged browns and reds, and archive ties featured Spanish-painting motifs.",
+   "season": "SS27",
+   "gender": "unisex",
+   "ages": [
+    "26-40",
+    "41-60"
+   ],
+   "source": "FashionUnited",
+   "source_url": "https://fashionunited.uk/news/fashion/loewe-in-paris-from-the-return-of-the-tie-to-the-new-pasito-bag/2026100590703",
+   "published": "2026-10-05",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "high",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "spain",
+   "countryName": "Spain",
+   "category": "printing_techniques",
+   "status": "forecast",
+   "name": "Glass-bead and craft surfaces at Loewe",
+   "summary": "Loewe hid complex handwork beneath minimal shapes, including a translucent dress built from glass beads to resemble towelling, and cut-out floral-printed dresses.",
+   "season": "SS27",
+   "gender": "female",
+   "ages": [
+    "26-40",
+    "41-60"
+   ],
+   "source": "FashionUnited",
+   "source_url": "https://fashionunited.uk/news/fashion/loewe-in-paris-from-the-return-of-the-tie-to-the-new-pasito-bag/2026100590703",
+   "published": "2026-10-05",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "spain",
+   "countryName": "Spain",
+   "category": "emerging",
+   "status": "emerging",
+   "name": "Madrid's off-IFEMA relaunch and returning designers",
+   "summary": "The September 2026 MBFW Madrid moved entirely into city venues for the first time since 1996. Adolfo Domínguez, Moisés Nieto and Alvarno returned, Celia B and Antonio del Canto debuted, and a buyer showroom launched with ICEX.",
+   "season": "SS27",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "FashionUnited",
+   "source_url": "https://fashionunited.uk/news/fashion/madrid-fashion-week-september-2026-full-schedule-venues-and-designer-line-up/2026091490306",
+   "published": "2026-09-14",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "high",
+   "method": "researched-snapshot"
+  }
+ ]
+}

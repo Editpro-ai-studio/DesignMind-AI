@@ -1,0 +1,609 @@
+{
+ "country": "United Kingdom",
+ "slug": "united-kingdom",
+ "researched_on": "2026-11-01",
+ "method": "snapshot",
+ "season_context": {
+  "hemisphere": "northern",
+  "current_fashion_season": "Autumn/Winter 2026 (AW26)",
+  "local_season_notes": "Cool, damp winter means outerwear, knits and suede-type textures drive sales through Q1. Retail focus moves to Christmas party and gifting from November, then January sales, with SS27 product landing from February-March and London Fashion Week AW27 in February.",
+  "upcoming_season": "Spring/Summer 2027 (SS27)",
+  "sources": [
+   {
+    "title": "Woman & Home: autumn/winter fashion colour trends 2026",
+    "url": "https://www.womanandhome.com/fashion/fashion-news/autumn-winter-fashion-colour-trends-2026/",
+    "published": "2026-08-23"
+   },
+   {
+    "title": "Hello! Fashion: London Fashion Week SS27 trend report",
+    "url": "https://www.hellomagazine.com/hfm/fashion-trends/924762/london-fashion-week-ss27-trend-report/",
+    "published": "2026-09-22"
+   },
+   {
+    "title": "Who What Wear: London Fashion Week trends SS27",
+    "url": "https://www.whowhatwear.com/fashion/runway/london-fashion-week-trends-spring-summer-2027",
+    "published": "2026-09-28"
+   }
+  ]
+ },
+ "trends": [
+  {
+   "country": "united-kingdom",
+   "countryName": "United Kingdom",
+   "category": "colors",
+   "status": "observed",
+   "name": "Berry and wine shades",
+   "summary": "Burgundy and merlot-type berry tones are a headline colour story for the cold season, positioned as easy to combine with neutrals or brighter accents.",
+   "season": "AW26",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "Woman & Home",
+   "source_url": "https://www.womanandhome.com/fashion/fashion-news/autumn-winter-fashion-colour-trends-2026/",
+   "published": "2026-08-23",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "united-kingdom",
+   "countryName": "United Kingdom",
+   "category": "colors",
+   "status": "observed",
+   "name": "Chocolate brown as the new black",
+   "summary": "Browns from espresso to latte are being pushed as a softer replacement for black this winter; the same cocoa shade also leads a UK kidswear trend roundup.",
+   "season": "AW26",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "Woman & Home",
+   "source_url": "https://www.womanandhome.com/fashion/fashion-news/autumn-winter-fashion-colour-trends-2026/",
+   "published": "2026-08-23",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "high",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "united-kingdom",
+   "countryName": "United Kingdom",
+   "category": "colors",
+   "status": "observed",
+   "name": "Earthy greens and tomato red",
+   "summary": "Olive, khaki, sage and pistachio greens run alongside a punchy tomato red that was spotted in all four fashion capitals, worn either as an accent or head to toe.",
+   "season": "AW26",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "Woman & Home",
+   "source_url": "https://www.womanandhome.com/fashion/fashion-news/autumn-winter-fashion-colour-trends-2026/",
+   "published": "2026-08-23",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "united-kingdom",
+   "countryName": "United Kingdom",
+   "category": "fabrics",
+   "status": "observed",
+   "name": "Suede beyond boots",
+   "summary": "Real and faux suede remain a core autumn texture after last year's surge, now moving into dresses as well as jackets and boots, often mixed with leather, knit or velvet.",
+   "season": "AW26",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "Woman & Home",
+   "source_url": "https://www.womanandhome.com/fashion/fashion-news/susanna-reid-suede-dress-trend-autumn-2026/",
+   "published": "2026-09-26",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "united-kingdom",
+   "countryName": "United Kingdom",
+   "category": "silhouettes",
+   "status": "recent",
+   "name": "Peplums and hourglass shaping",
+   "summary": "London's AW26 catwalks favoured nipped waists, flared peplums and fishtail skirts with a 1950s feel, including a more fitted Burberry trench; these shapes are now reaching shops.",
+   "season": "AW26",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "Irish News (PA)",
+   "source_url": "https://www.irishnews.com/life/5-trends-from-london-fashion-week-to-invest-in-now-ZRQ4KA5XEFOP5MCGU3YMPH3PLA/",
+   "published": "2026-02-24",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "united-kingdom",
+   "countryName": "United Kingdom",
+   "category": "formal",
+   "status": "recent",
+   "name": "Feathered eveningwear",
+   "summary": "Plumes on capes, corsets, jackets and stoles featured at Erdem, Chet Lo, Julien Macdonald and others in London for AW26; feather accessories offer an easier route for party season.",
+   "season": "AW26 / Party season 2026",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "Irish News (PA)",
+   "source_url": "https://www.irishnews.com/life/5-trends-from-london-fashion-week-to-invest-in-now-ZRQ4KA5XEFOP5MCGU3YMPH3PLA/",
+   "published": "2026-02-24",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "united-kingdom",
+   "countryName": "United Kingdom",
+   "category": "colors",
+   "status": "recent",
+   "name": "Hot pink paired with black",
+   "summary": "Near-neon pink, frequently set against black, ran through Richard Quinn, Masha Popova and Erdem in London's AW26 shows.",
+   "season": "AW26",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "Irish News (PA)",
+   "source_url": "https://www.irishnews.com/life/5-trends-from-london-fashion-week-to-invest-in-now-ZRQ4KA5XEFOP5MCGU3YMPH3PLA/",
+   "published": "2026-02-24",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "united-kingdom",
+   "countryName": "United Kingdom",
+   "category": "luxury",
+   "status": "observed",
+   "name": "Jewel tones in velvet and cashmere for men",
+   "summary": "Harrods' men's guide pairs aubergine, mustard and emerald with plush velvet, fine cashmere and soft leather to lift classic winter neutrals.",
+   "season": "AW26/27",
+   "gender": "male",
+   "ages": [
+    "26-40",
+    "41-60"
+   ],
+   "source": "Harrods",
+   "source_url": "https://www.harrods.com/c/stories/men/new-season-fashion-trends",
+   "published": "unknown",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "low",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "united-kingdom",
+   "countryName": "United Kingdom",
+   "category": "formal",
+   "status": "observed",
+   "name": "1930s-style tailoring and the tie revival",
+   "summary": "Relaxed, roomier tailoring with a 1930s reference is back for men, and the necktie is reframed as a cool accessory rather than an office obligation.",
+   "season": "AW26/27",
+   "gender": "male",
+   "ages": [
+    "26-40",
+    "41-60"
+   ],
+   "source": "Harrods",
+   "source_url": "https://www.harrods.com/c/stories/men/new-season-fashion-trends",
+   "published": "unknown",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "low",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "united-kingdom",
+   "countryName": "United Kingdom",
+   "category": "streetwear",
+   "status": "observed",
+   "name": "Sportswear layered over smart pieces",
+   "summary": "Men are mixing technical and sports pieces with tailoring, such as a windbreaker worn like a blazer or a tracksuit under an overcoat, alongside urban gorpcore outerwear.",
+   "season": "AW26/27",
+   "gender": "male",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "Harrods",
+   "source_url": "https://www.harrods.com/c/stories/men/new-season-fashion-trends",
+   "published": "unknown",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "low",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "united-kingdom",
+   "countryName": "United Kingdom",
+   "category": "embroidery",
+   "status": "emerging",
+   "name": "Embroidered menswear goes high street",
+   "summary": "Craft embroidery, often Indian in origin, is spreading onto men's shirts, bombers and blazers, with retailers reporting appetite for colour and pattern and embroidered shirts appearing at M&S and Zara.",
+   "season": "2026",
+   "gender": "male",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "FashionUnited UK",
+   "source_url": "https://fashionunited.uk/news/fashion/mens-fashion-turns-to-embroidery-as-guys-want-something-different/2026012385890",
+   "published": "2026-01-23",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "united-kingdom",
+   "countryName": "United Kingdom",
+   "category": "modest",
+   "status": "recent",
+   "name": "ASOS launches modest label IYAL",
+   "summary": "ASOS became exclusive UK and European stockist of IYAL, a fashion-led modestwear brand with occasion dresses, skirt suits, co-ord sets and matching hijabs in neutrals with coral, orange and cobalt.",
+   "season": "SS26 onward",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "ASOS plc",
+   "source_url": "https://www.asosplc.com/news-and-media/latest-news/asos-launches-new-modest-wear-brand-iyal/",
+   "published": "2026-03-16",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "high",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "united-kingdom",
+   "countryName": "United Kingdom",
+   "category": "colors",
+   "status": "observed",
+   "name": "Kids: cocoa brown and burgundy",
+   "summary": "Children's ranges lean on milk-chocolate to deep cocoa browns, often with leopard print, plus deep burgundy for skirts, coats and mesh party dresses.",
+   "season": "AW26",
+   "gender": "kids",
+   "ages": [
+    "3-7",
+    "8-12"
+   ],
+   "source": "Angel & Rocket",
+   "source_url": "https://www.angelandrocket.com/blogs/stories/7-kids-fashion-trends-aw26",
+   "published": "2026-08-18",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "united-kingdom",
+   "countryName": "United Kingdom",
+   "category": "embroidery",
+   "status": "observed",
+   "name": "Kids: boho lace and broderie",
+   "summary": "Girls' collections feature romantic broderie anglaise and lace in blush and ivory, with floaty layered dresses.",
+   "season": "AW26",
+   "gender": "kids",
+   "ages": [
+    "3-7",
+    "8-12"
+   ],
+   "source": "Angel & Rocket",
+   "source_url": "https://www.angelandrocket.com/blogs/stories/7-kids-fashion-trends-aw26",
+   "published": "2026-08-18",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "united-kingdom",
+   "countryName": "United Kingdom",
+   "category": "dress_styles",
+   "status": "observed",
+   "name": "Kids: statement collars",
+   "summary": "Oversized, frilled, yoked and ric-rac collars are used to freshen children's blouses, dresses and jackets.",
+   "season": "AW26",
+   "gender": "kids",
+   "ages": [
+    "3-7",
+    "8-12"
+   ],
+   "source": "Angel & Rocket",
+   "source_url": "https://www.angelandrocket.com/blogs/stories/7-kids-fashion-trends-aw26",
+   "published": "2026-08-18",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "united-kingdom",
+   "countryName": "United Kingdom",
+   "category": "prints",
+   "status": "observed",
+   "name": "Kids: modern heritage checks and tweed",
+   "summary": "Traditional British checks, tweeds and knits are reworked into contemporary children's shapes; a UK high-street kids edit similarly leans on checkerboard trousers and stripe dungarees.",
+   "season": "AW26",
+   "gender": "kids",
+   "ages": [
+    "3-7",
+    "8-12"
+   ],
+   "source": "Angel & Rocket",
+   "source_url": "https://www.angelandrocket.com/blogs/stories/7-kids-fashion-trends-aw26",
+   "published": "2026-08-18",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "united-kingdom",
+   "countryName": "United Kingdom",
+   "category": "casual",
+   "status": "observed",
+   "name": "Kids: matching co-ords",
+   "summary": "Two-piece sets in denim, florals and prints are offered for both girls and boys as an easy everyday look.",
+   "season": "AW26",
+   "gender": "kids",
+   "ages": [
+    "3-7",
+    "8-12"
+   ],
+   "source": "Angel & Rocket",
+   "source_url": "https://www.angelandrocket.com/blogs/stories/7-kids-fashion-trends-aw26",
+   "published": "2026-08-18",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "united-kingdom",
+   "countryName": "United Kingdom",
+   "category": "seasonal",
+   "status": "observed",
+   "name": "Kids: cosy winter layers",
+   "summary": "A sponsored Next kids edit centres on borg fleece hooded jackets, knit bomber cardigans, padded colour-block coats and twill dungarees for colder months.",
+   "season": "Winter 2026",
+   "gender": "kids",
+   "ages": [
+    "3-7",
+    "8-12"
+   ],
+   "source": "Stylist (Next advertorial)",
+   "source_url": "https://www.stylist.co.uk/fashion/next-kids-autumn-winter/1120575",
+   "published": "unknown",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "low",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "united-kingdom",
+   "countryName": "United Kingdom",
+   "category": "colors",
+   "status": "forecast",
+   "name": "Ultra-violet purple",
+   "summary": "Purple was the most visible colour of London's SS27 shows, seen at Erdem, Bora Aksu, Agro Studios, Ashley Williams and Geordie Campbell.",
+   "season": "SS27",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "Hello! Fashion",
+   "source_url": "https://www.hellomagazine.com/hfm/fashion-trends/924762/london-fashion-week-ss27-trend-report/",
+   "published": "2026-09-22",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "united-kingdom",
+   "countryName": "United Kingdom",
+   "category": "fabrics",
+   "status": "forecast",
+   "name": "Sheer tulle, organza and lace",
+   "summary": "See-through, airy layers dominated London SS27 at Simone Rocha, Susan Fang and Pauline Dujancourt; other coverage highlights tactile shine, beading and crochet.",
+   "season": "SS27",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "Hello! Fashion",
+   "source_url": "https://www.hellomagazine.com/hfm/fashion-trends/924762/london-fashion-week-ss27-trend-report/",
+   "published": "2026-09-22",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "high",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "united-kingdom",
+   "countryName": "United Kingdom",
+   "category": "dress_styles",
+   "status": "forecast",
+   "name": "Sleepwear-inspired slips",
+   "summary": "Slip dresses, lace trims and bed jackets borrowed from nightwear appeared at Simone Rocha, Yuhan Wang and Bora Aksu, with thin straps sometimes deliberately slipping to show underlayers.",
+   "season": "SS27",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "Who What Wear",
+   "source_url": "https://www.whowhatwear.com/fashion/runway/london-fashion-week-trends-spring-summer-2027",
+   "published": "2026-09-28",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "high",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "united-kingdom",
+   "countryName": "United Kingdom",
+   "category": "prints",
+   "status": "forecast",
+   "name": "Bold florals and clashing patterns",
+   "summary": "London designers including Burberry, Erdem and Chopova Lowena mixed vivid florals with stripes, pinstripes and checks rather than keeping prints separate.",
+   "season": "SS27",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "Hello! Fashion",
+   "source_url": "https://www.hellomagazine.com/hfm/fashion-trends/924762/london-fashion-week-ss27-trend-report/",
+   "published": "2026-09-22",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "high",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "united-kingdom",
+   "countryName": "United Kingdom",
+   "category": "prints",
+   "status": "forecast",
+   "name": "Prominent stripes",
+   "summary": "Preppy and nostalgic stripes became a centrepiece in London, including mismatched combinations, at Talia Byre, Burberry, Roksanda and Mithridate.",
+   "season": "SS27",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "Who What Wear",
+   "source_url": "https://www.whowhatwear.com/fashion/runway/london-fashion-week-trends-spring-summer-2027",
+   "published": "2026-09-28",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "high",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "united-kingdom",
+   "countryName": "United Kingdom",
+   "category": "embroidery",
+   "status": "forecast",
+   "name": "Floral embroidery on check suiting",
+   "summary": "Burberry's SS27 show put embroidered mimosa and lavender sprigs on windowpane-check skirt suits and matching pumps, alongside sequin and pompom-covered skirts.",
+   "season": "SS27",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "Asharq Al-Awsat (AFP)",
+   "source_url": "https://english.aawsat.com/node/5320988",
+   "published": "2026-09-21",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "united-kingdom",
+   "countryName": "United Kingdom",
+   "category": "formal",
+   "status": "forecast",
+   "name": "Savile Row tailoring on the runway",
+   "summary": "McQueen worked with Huntsman to make bespoke-built menswear looks with long lines, broad shoulders and a high narrow waist; London SS27 reports also flag sharp tailoring as a key theme.",
+   "season": "SS27",
+   "gender": "male",
+   "ages": [
+    "26-40",
+    "41-60"
+   ],
+   "source": "RetailBoss",
+   "source_url": "https://retailboss.co/alexander-mcqueen-and-huntsman-put-savile-row-bespoke-on-the-ss27-runway/",
+   "published": "2026-09-25",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "high",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "united-kingdom",
+   "countryName": "United Kingdom",
+   "category": "silhouettes",
+   "status": "forecast",
+   "name": "Sharp pencil skirts and high-low hems",
+   "summary": "Slim pencil skirts, from suited to low-slung versions, plus asymmetric dipped hemlines were picked out from Mulberry, Toga, Erdem and McQueen.",
+   "season": "SS27",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "Who What Wear",
+   "source_url": "https://www.whowhatwear.com/fashion/runway/london-fashion-week-trends-spring-summer-2027",
+   "published": "2026-09-28",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "united-kingdom",
+   "countryName": "United Kingdom",
+   "category": "emerging",
+   "status": "forecast",
+   "name": "Fringe everywhere",
+   "summary": "Fringing moved onto bags, skirts, scarves, jackets and leather in London at Labrum, Erdem and Maximilian Raynor, echoing the same detail in New York.",
+   "season": "SS27",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "Hello! Fashion",
+   "source_url": "https://www.hellomagazine.com/hfm/fashion-trends/924762/london-fashion-week-ss27-trend-report/",
+   "published": "2026-09-22",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "high",
+   "method": "researched-snapshot"
+  }
+ ]
+}

@@ -1,0 +1,589 @@
+{
+ "country": "Türkiye",
+ "slug": "turkiye",
+ "researched_on": "2026-11-01",
+ "method": "snapshot",
+ "season_context": {
+  "hemisphere": "northern",
+  "current_fashion_season": "Autumn/Winter 2026 (AW26)",
+  "local_season_notes": "Autumn is cooling into a wet, cold winter, colder inland, so outerwear, knits and suede are in season. Ramadan is expected to start around February 2027 and Eid around early March, a key time for modest and festive buying. Spring/summer 2027 sourcing starts at the February 2027 trade fairs.",
+  "upcoming_season": "Spring/Summer 2027 (SS27)",
+  "sources": [
+   {
+    "title": "Sonbahar modasına yön veren desenler",
+    "url": "https://www.yeniasir.com.tr/cumartesi/2026/10/03/sonbahar-modasina-yon-veren-desenler",
+    "published": "2026-10-03"
+   },
+   {
+    "title": "IFCO Feb 2026 edition confirms Istanbul's position",
+    "url": "https://www.ifco.com.tr/fair/news/ifco-feb-2026-edition-confirms-istanbuls-position-as-a-strategic-hub-for-the-international-fashion-industry",
+    "published": "unknown"
+   },
+   {
+    "title": "Ticaret Bakanı Bolat: 2026 tekstil ve giyimde toparlanma yılı oldu",
+    "url": "https://www.foreks.com/haber/detay/6ad34df9422c786f3f7a4d30/AA/tr/ticaret-bakani-bolat-2026-her-alanda-oldugu-gibi-tekstil-ve-giyimde-de-toparlanma-yili-oldu-17-10-26/",
+    "published": "2026-10-17"
+   }
+  ]
+ },
+ "trends": [
+  {
+   "country": "turkiye",
+   "countryName": "Türkiye",
+   "category": "dress_styles",
+   "status": "observed",
+   "name": "Oversized checks on airy skirts",
+   "summary": "Autumn checks are larger and bolder than last year, often on floaty skirts styled with ruffled blouses and soft knitwear for a boho feel.",
+   "season": "AW26",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "Yeni Asır",
+   "source_url": "https://www.yeniasir.com.tr/cumartesi/2026/10/03/sonbahar-modasina-yon-veren-desenler",
+   "published": "2026-10-03",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "turkiye",
+   "countryName": "Türkiye",
+   "category": "prints",
+   "status": "observed",
+   "name": "Snake and zebra prints",
+   "summary": "Animal prints are turning up on unexpected items: scaly snake texture on bags, shoes and blouses, and zebra challenging polka dots, including warm beige-gold or brown-burgundy versions.",
+   "season": "AW26",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "Yeni Asır",
+   "source_url": "https://www.yeniasir.com.tr/cumartesi/2026/10/03/sonbahar-modasina-yon-veren-desenler",
+   "published": "2026-10-03",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "turkiye",
+   "countryName": "Türkiye",
+   "category": "embroidery",
+   "status": "observed",
+   "name": "Diamond pattern with tiny florals",
+   "summary": "A baklava-style diamond geometric with small embroidered flowers is a key autumn motif, styled with leather gloves or with denim for a street look.",
+   "season": "AW26",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "Yeni Asır",
+   "source_url": "https://www.yeniasir.com.tr/cumartesi/2026/10/03/sonbahar-modasina-yon-veren-desenler",
+   "published": "2026-10-03",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "low",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "turkiye",
+   "countryName": "Türkiye",
+   "category": "formal",
+   "status": "observed",
+   "name": "Fine pinstripe tailoring",
+   "summary": "Thin, regular pinstripes return on tailored pieces, for example burgundy stripes on navy suits or two close tones combined.",
+   "season": "AW26",
+   "gender": "unisex",
+   "ages": [
+    "26-40",
+    "41-60"
+   ],
+   "source": "Yeni Asır",
+   "source_url": "https://www.yeniasir.com.tr/cumartesi/2026/10/03/sonbahar-modasina-yon-veren-desenler",
+   "published": "2026-10-03",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "turkiye",
+   "countryName": "Türkiye",
+   "category": "casual",
+   "status": "observed",
+   "name": "Western-inspired capsule",
+   "summary": "Trendyolmilla's late-October Western Edition offers suede and leather bombers, gingham and small-check shirts, fringe, beading and rivets, styled with cowboy hats and boots.",
+   "season": "AW26",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "Milliyet",
+   "source_url": "https://www.milliyet.com.tr/pembenar/lize-kandemirden-western-esintili-koleksiyon-7686264",
+   "published": "2026-10-23",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "turkiye",
+   "countryName": "Türkiye",
+   "category": "silhouettes",
+   "status": "observed",
+   "name": "Loose and barrel-leg trousers",
+   "summary": "Relaxed, loose-fitting and barrel-leg trousers anchor the Trendyolmilla Western Edition drop launched in October 2026.",
+   "season": "AW26",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "Milliyet",
+   "source_url": "https://www.milliyet.com.tr/pembenar/lize-kandemirden-western-esintili-koleksiyon-7686264",
+   "published": "2026-10-23",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "turkiye",
+   "countryName": "Türkiye",
+   "category": "colors",
+   "status": "observed",
+   "name": "Coffee, tan and burgundy earth tones",
+   "summary": "The autumn western capsule works in an earthy range of coffee, tan, ecru, burgundy, khaki and denim blue.",
+   "season": "AW26",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "Milliyet",
+   "source_url": "https://www.milliyet.com.tr/pembenar/lize-kandemirden-western-esintili-koleksiyon-7686264",
+   "published": "2026-10-23",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "turkiye",
+   "countryName": "Türkiye",
+   "category": "luxury",
+   "status": "recent",
+   "name": "Craft as the future of luxury",
+   "summary": "Designer Murat Aytulum argues that luxury means building lasting value through handwork and well-made leather, using technology to extend craft rather than to raise output.",
+   "season": "AW26",
+   "gender": "unisex",
+   "ages": [
+    "26-40",
+    "41-60"
+   ],
+   "source": "Milliyet Executive",
+   "source_url": "https://www.milliyet.com.tr/milliyet-executive/gelecegin-luksu-ustalik-7686925",
+   "published": "2026-10-25",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "turkiye",
+   "countryName": "Türkiye",
+   "category": "luxury",
+   "status": "recent",
+   "name": "Logos recede, quiet luxury returns",
+   "summary": "Turkish commentators see visible logos fading again amid social tension, with Gen Z scrutinising materials and supply chains and luxury redefined around time, privacy and ethics.",
+   "season": "AW26",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "Milliyet (Pazar)",
+   "source_url": "https://www.milliyet.com.tr/pazar/luks-sessizlesirse-7686381",
+   "published": "2026-10-25",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "turkiye",
+   "countryName": "Türkiye",
+   "category": "seasonal",
+   "status": "historical",
+   "name": "Belted and scarf-collar coats",
+   "summary": "Winter guidance published in January 2026 pushed long voluminous coats cinched at the waist, coats with built-in scarf panels, and chunky knits over wide-leg trousers.",
+   "season": "Winter 2025-26",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "Sabah",
+   "source_url": "https://www.sabah.com.tr/trend/galeri/yasam/2026-kis-modasi-aciklandi-minimalizm-yerini-gosterisli-trendlere-birakti-iste-one-cikan-renkler-ve-desenler",
+   "published": "2026-01-08",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "turkiye",
+   "countryName": "Türkiye",
+   "category": "prints",
+   "status": "historical",
+   "name": "Animal prints on padded outerwear",
+   "summary": "Leopard, zebra and cowhide moved from accents to main prints on padded coats and accessories in Turkish winter 2025-26 coverage.",
+   "season": "Winter 2025-26",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "Sabah",
+   "source_url": "https://www.sabah.com.tr/trend/galeri/yasam/2026-kis-modasi-aciklandi-minimalizm-yerini-gosterisli-trendlere-birakti-iste-one-cikan-renkler-ve-desenler",
+   "published": "2026-01-08",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "turkiye",
+   "countryName": "Türkiye",
+   "category": "colors",
+   "status": "historical",
+   "name": "Deep forest green",
+   "summary": "Forest green was named the rising winter shade in December 2025, worn tone-on-tone or with beige, grey and gold as an alternative to black.",
+   "season": "Winter 2025-26",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "Sabah",
+   "source_url": "https://www.sabah.com.tr/trend/galeri/yasam/kis-sezonunun-yukselen-rengi-belli-oldu-derin-ve-sofistike-tonuyla-herkesin-yeni-favorisi-bakin-ne-oldu",
+   "published": "2025-12-12",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "low",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "turkiye",
+   "countryName": "Türkiye",
+   "category": "emerging",
+   "status": "historical",
+   "name": "Maximalism over capsule minimalism",
+   "summary": "Year-ahead coverage for 2026 predicted a move from minimal capsule wardrobes toward colour, scale and layering, with lace, brooches, deer motifs and khaki as a neutral.",
+   "season": "2026",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "İşçi Haber",
+   "source_url": "https://www.iscihaber.net/yasam/2026nin-moda-trendleri-minimalizmden-maksimalizme-yolculuk/195445",
+   "published": "2025-12-26",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "low",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "turkiye",
+   "countryName": "Türkiye",
+   "category": "fabrics",
+   "status": "recent",
+   "name": "Fabric leads Turkish textile exports",
+   "summary": "Woven and knitted fabrics were the largest textile export group in January-September 2026 at about 4.35 billion dollars, with shipments to the US up around 18%.",
+   "season": "2026",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "Hürriyet Daily News",
+   "source_url": "https://www.hurriyetdailynews.com/turkish-textile-sector-exports-nearly-7-2-billion-in-january-september-228198",
+   "published": "2026-10-16",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "high",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "turkiye",
+   "countryName": "Türkiye",
+   "category": "emerging",
+   "status": "recent",
+   "name": "Technical textiles top export category",
+   "summary": "In the first half of 2026, technical textiles were Türkiye's biggest textile export group, ahead of woven fabrics and yarn; fabric and yarn exports to the US rose sharply.",
+   "season": "H1 2026",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "Textilegence",
+   "source_url": "https://www.textilegence.com/en/?p=64607",
+   "published": "2026-07-14",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "high",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "turkiye",
+   "countryName": "Türkiye",
+   "category": "emerging",
+   "status": "observed",
+   "name": "Sector recovery and design push",
+   "summary": "Officials say the textile and apparel slump has bottomed out in 2026; a new İHKİB innovation and design centre opened in Istanbul to raise export value.",
+   "season": "2026",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "Anadolu Agency via Foreks",
+   "source_url": "https://www.foreks.com/haber/detay/6ad34df9422c786f3f7a4d30/AA/tr/ticaret-bakani-bolat-2026-her-alanda-oldugu-gibi-tekstil-ve-giyimde-de-toparlanma-yili-oldu-17-10-26/",
+   "published": "2026-10-17",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "high",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "turkiye",
+   "countryName": "Türkiye",
+   "category": "emerging",
+   "status": "recent",
+   "name": "Premium home textiles",
+   "summary": "Türkiye, Europe's top home-textile exporter, is pushing into higher-value bedding, towels, upholstery, curtains and sustainable home lines, as showcased at HOMETEX 2026.",
+   "season": "2026",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "TEXtalks",
+   "source_url": "https://textalks.com/turkiye-targets-higher-value-home-textile-exports-as-hometex-opens-in-istanbul/",
+   "published": "2026-05-21",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "high",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "turkiye",
+   "countryName": "Türkiye",
+   "category": "printing_techniques",
+   "status": "emerging",
+   "name": "Low-impact dyeing and washing",
+   "summary": "Texhibition Istanbul showcased sustainable denim washes, experimental dyeing, self-colouring cotton that cuts dye-house water and energy, and compostable pleated fabrics.",
+   "season": "SS27 sourcing",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "FashionUnited",
+   "source_url": "https://fashionunited.de/press/events/texhibition-istanbul-signalisiert-stabilitat-und-globale-vernetzung/2026031265807",
+   "published": "2026-03-12",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "turkiye",
+   "countryName": "Türkiye",
+   "category": "fabrics",
+   "status": "recent",
+   "name": "Y2K denim and colour beyond indigo",
+   "summary": "Turkish denim mills report early-2000s fits returning with flatter surfaces, nature-inspired colours beyond indigo, and insulated plush or slub-effect constructions for colder seasons.",
+   "season": "AW26-SS27",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "Carved in Blue (TENCEL)",
+   "source_url": "https://carvedinblue.tencel.com/?p=21200",
+   "published": "2026-07-14",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "turkiye",
+   "countryName": "Türkiye",
+   "category": "emerging",
+   "status": "emerging",
+   "name": "Traceable bio and recycled cotton denim",
+   "summary": "Mill Iskur is building denim around organic cotton from its own land, recycled cotton and traceability data, plus a bio indigo said to resist yellowing.",
+   "season": "AW26-SS27",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "Carved in Blue (TENCEL)",
+   "source_url": "https://carvedinblue.tencel.com/?p=21200",
+   "published": "2026-07-14",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "turkiye",
+   "countryName": "Türkiye",
+   "category": "casual",
+   "status": "emerging",
+   "name": "Functional, sustainable kidswear",
+   "summary": "The IFCO trade fair reported buyer demand for functional, sustainable and quality-focused baby and childrenswear in its kids section.",
+   "season": "2026",
+   "gender": "kids",
+   "ages": [
+    "0-2",
+    "3-7",
+    "8-12"
+   ],
+   "source": "IFCO Istanbul",
+   "source_url": "https://www.ifco.com.tr/fair/news/ifco-feb-2026-edition-confirms-istanbuls-position-as-a-strategic-hub-for-the-international-fashion-industry",
+   "published": "unknown",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "low",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "turkiye",
+   "countryName": "Türkiye",
+   "category": "modest",
+   "status": "historical",
+   "name": "Tesettür co-ord sets and trenches",
+   "summary": "2025 modest coverage highlighted matching tunic-and-trouser sets in crepe and viscose, loose cuts, and belted trench coats in beige, stone and smoke grey with pastels gaining.",
+   "season": "2025",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "Haber Gazetesi",
+   "source_url": "https://www.habergazetesi.com.tr/tesettur-takim-secenekleriyle-gundelik-rahatlik",
+   "published": "2025-05-20",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "low",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "turkiye",
+   "countryName": "Türkiye",
+   "category": "luxury",
+   "status": "forecast",
+   "name": "Greeting-themed SS27 collection",
+   "summary": "Murat Aytulum's SS27 SELAM collection mixes traditional codes with contemporary cuts and technical textures, framed around migration, climate and digital life.",
+   "season": "SS27",
+   "gender": "unisex",
+   "ages": [
+    "26-40",
+    "41-60"
+   ],
+   "source": "Milliyet Executive",
+   "source_url": "https://www.milliyet.com.tr/milliyet-executive/gelecegin-luksu-ustalik-7686925",
+   "published": "2026-10-25",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "turkiye",
+   "countryName": "Türkiye",
+   "category": "seasonal",
+   "status": "forecast",
+   "name": "IFCO February 2027 sourcing season",
+   "summary": "IFCO's next edition is listed for 3-6 February 2027; its seminar programme covers SS27-28 trends, and its trend area previewed AW27-28.",
+   "season": "SS27 / AW27",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "IFCO Istanbul",
+   "source_url": "https://www.ifco.com.tr/fair/news/ifco-feb-2026-edition-confirms-istanbuls-position-as-a-strategic-hub-for-the-international-fashion-industry",
+   "published": "unknown",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "low",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "turkiye",
+   "countryName": "Türkiye",
+   "category": "emerging",
+   "status": "forecast",
+   "name": "Digital product passports from 2027",
+   "summary": "Experts quoted in Milliyet expect EU digital product passport rules from 2027 to push Turkish suppliers toward fuller supply-chain transparency.",
+   "season": "2027",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "Milliyet (Pazar)",
+   "source_url": "https://www.milliyet.com.tr/pazar/luks-sessizlesirse-7686381",
+   "published": "2026-10-25",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "turkiye",
+   "countryName": "Türkiye",
+   "category": "prints",
+   "status": "forecast",
+   "name": "Zoomed florals and paisley revival",
+   "summary": "Global SS27 forecasts cite oversized florals, soft-focus prints and reworked paisley and animal skins; a general signal for Turkish womenswear, not Türkiye-specific.",
+   "season": "SS27",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "The Design Agent (citing WGSN)",
+   "source_url": "https://www.thedesignagent.com/blog-posts/ss27-trend-forecast",
+   "published": "2026-09-30",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "low",
+   "method": "researched-snapshot"
+  }
+ ]
+}

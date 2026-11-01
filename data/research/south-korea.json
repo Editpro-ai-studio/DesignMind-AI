@@ -1,0 +1,615 @@
+{
+ "country": "South Korea",
+ "slug": "south-korea",
+ "researched_on": "2026-11-01",
+ "method": "snapshot",
+ "season_context": {
+  "hemisphere": "northern",
+  "current_fashion_season": "Autumn/Winter 2026 (AW26)",
+  "local_season_notes": "Korea moves into a cold, dry winter where padded puffers dominate, though shoppers are shifting from black to colourful styles. Seoul's Seongsu district absorbs runway ideas within weeks. Foreign tourists drive much designer-bag spending. Seollal (Lunar New Year) in early 2027 boosts ceremonial hanbok and gifting demand.",
+  "upcoming_season": "Spring/Summer 2027 (SS27)",
+  "sources": [
+   {
+    "title": "Shift away from black puffers (Korea Herald)",
+    "url": "https://www.koreaherald.com/article/10913273",
+    "published": "2026-10-24"
+   },
+   {
+    "title": "Seoul Fashion Week S/S 2027 (Korea Times)",
+    "url": "https://www.koreatimes.co.kr/lifestyle/trends/20260827/seoul-fashion-week-ss-2027-to-turn-city-landmarks-into-global-runways",
+    "published": "2026-08-27"
+   },
+   {
+    "title": "The new Seoul souvenir: a Korean designer bag (Korea JoongAng Daily)",
+    "url": "https://www.koreajoongangdaily.com/business/the-new-seoul-souvenir-a-korean-designer-bag/12915486",
+    "published": "2026-10-14"
+   }
+  ]
+ },
+ "trends": [
+  {
+   "country": "south-korea",
+   "countryName": "South Korea",
+   "category": "colors",
+   "status": "observed",
+   "name": "Mint, lemon and purple 'core' colours",
+   "summary": "Colour-named micro-trends are surging: a fashion app saw purple searches jump roughly sevenfold year on year, with lemon and mint also multiplying, while an online retailer reported strong sales gains for mint, lemon and olive items.",
+   "season": "AW26",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "The Korea Herald",
+   "source_url": "https://www.koreaherald.com/article/10913273",
+   "published": "2026-10-24",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "high",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "south-korea",
+   "countryName": "South Korea",
+   "category": "seasonal",
+   "status": "observed",
+   "name": "Colourful puffers replace long black padding",
+   "summary": "The long black padded jacket, a Korean winter uniform, faces competition from bright puffers worn by K-pop idols; brands now plan wider colour ranges from the start, though some shoppers still prefer practical black.",
+   "season": "AW26",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "The Korea Herald",
+   "source_url": "https://www.koreaherald.com/article/10913273",
+   "published": "2026-10-24",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "high",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "south-korea",
+   "countryName": "South Korea",
+   "category": "streetwear",
+   "status": "recent",
+   "name": "Gorpcore meets granola layering",
+   "summary": "Seoul dressers combine technical shells and outdoor vests with soft natural-fibre layers like linen and cotton, a mash-up of performance gear and folksy texture that Seongsu shops adapt quickly from runways.",
+   "season": "AW26",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "Korea Bridge",
+   "source_url": "https://koreabridge.net/post/koreas-fall-fashion-mixes-gore-tex-chrome-and-folklore",
+   "published": "unknown",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "low",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "south-korea",
+   "countryName": "South Korea",
+   "category": "emerging",
+   "status": "emerging",
+   "name": "Y3K future-retro finishes",
+   "summary": "A future-retro mood brings holographic fabrics, chrome and metallic surfaces and asymmetric structural cuts inspired by AI imagery and game characters, alongside sharpened eighties shoulders and bolder colour.",
+   "season": "AW26",
+   "gender": "unisex",
+   "ages": [
+    "18-25"
+   ],
+   "source": "Korea Bridge",
+   "source_url": "https://koreabridge.net/post/koreas-fall-fashion-mixes-gore-tex-chrome-and-folklore",
+   "published": "unknown",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "low",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "south-korea",
+   "countryName": "South Korea",
+   "category": "casual",
+   "status": "recent",
+   "name": "Idol-academy preppy",
+   "summary": "A K-pop-inflected preppy look pairs loose ties, pleated leather skirts and chunky loafers, often with plush bag charms and keyrings dangling from bags and belt loops.",
+   "season": "2026",
+   "gender": "female",
+   "ages": [
+    "18-25"
+   ],
+   "source": "Namane blog",
+   "source_url": "https://blog.namanecard.com/korean-fashion-guide-2026-brands-trends-seoul-ko/",
+   "published": "2026-05-17",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "low",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "south-korea",
+   "countryName": "South Korea",
+   "category": "casual",
+   "status": "emerging",
+   "name": "Gender-fluid styling details",
+   "summary": "Korean menswear increasingly borrows lace collars, pearl necklaces and cropped blazers, while women adopt strict structured suiting, according to a 2026 Seoul fashion guide naming labels like Andersson Bell and Wooyoungmi.",
+   "season": "2026",
+   "gender": "male",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "Namane blog",
+   "source_url": "https://blog.namanecard.com/korean-fashion-guide-2026-brands-trends-seoul-ko/",
+   "published": "2026-05-17",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "low",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "south-korea",
+   "countryName": "South Korea",
+   "category": "seasonal",
+   "status": "recent",
+   "name": "Fur collars on tailored coats",
+   "summary": "Seoul's AW26 runways put dramatic fur collars on tailored outerwear at John & 3:21, Doucan and Greedilous, often against floral or paisley prints.",
+   "season": "AW26",
+   "gender": "female",
+   "ages": [
+    "26-40",
+    "41-60"
+   ],
+   "source": "FashionUnited",
+   "source_url": "https://fashionunited.uk/news/fashion/from-fur-collars-to-bow-details-key-trends-at-seoul-fashion-week-aw26/2026020986187",
+   "published": "2026-02-09",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "south-korea",
+   "countryName": "South Korea",
+   "category": "fabrics",
+   "status": "recent",
+   "name": "Chanel-style tweed",
+   "summary": "Tweed ranged from houndstooth to linear weaves at Kwak Hyun Joo Collection, Greedilous and Munn, including oversized versions of the classic bouclé blazer for AW26.",
+   "season": "AW26",
+   "gender": "female",
+   "ages": [
+    "26-40",
+    "41-60"
+   ],
+   "source": "FashionUnited",
+   "source_url": "https://fashionunited.uk/news/fashion/from-fur-collars-to-bow-details-key-trends-at-seoul-fashion-week-aw26/2026020986187",
+   "published": "2026-02-09",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "south-korea",
+   "countryName": "South Korea",
+   "category": "formal",
+   "status": "recent",
+   "name": "Inside-out suiting",
+   "summary": "Mmam, Kwak Hyun Joo Collection and Daily Mirror turned womenswear suits inside out for AW26, revealing linings and care labels and relocating collars to the back.",
+   "season": "AW26",
+   "gender": "female",
+   "ages": [
+    "26-40"
+   ],
+   "source": "FashionUnited",
+   "source_url": "https://fashionunited.uk/news/fashion/from-fur-collars-to-bow-details-key-trends-at-seoul-fashion-week-aw26/2026020986187",
+   "published": "2026-02-09",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "south-korea",
+   "countryName": "South Korea",
+   "category": "casual",
+   "status": "recent",
+   "name": "Laddered, worn-out knitwear",
+   "summary": "Caruso, Adlielos and Mmam showed sweaters that look frayed, laddered or close to falling apart, giving knitwear a deliberately distressed finish for AW26.",
+   "season": "AW26",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "FashionUnited",
+   "source_url": "https://fashionunited.uk/news/fashion/from-fur-collars-to-bow-details-key-trends-at-seoul-fashion-week-aw26/2026020986187",
+   "published": "2026-02-09",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "south-korea",
+   "countryName": "South Korea",
+   "category": "dress_styles",
+   "status": "recent",
+   "name": "Oversized bows as cuffs and ties",
+   "summary": "Daily Mirror, Caruso and Hannah Shin used big bows in place of neckties and as sleeve cuffs, a soft romantic detail across AW26 Seoul collections.",
+   "season": "AW26",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "FashionUnited",
+   "source_url": "https://fashionunited.uk/news/fashion/from-fur-collars-to-bow-details-key-trends-at-seoul-fashion-week-aw26/2026020986187",
+   "published": "2026-02-09",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "south-korea",
+   "countryName": "South Korea",
+   "category": "silhouettes",
+   "status": "recent",
+   "name": "Duffel toggles and cape-like slit sleeves",
+   "summary": "AW26 outerwear at Munn, Greedilous and Sling Stone used toggle and rope closures, sometimes contrasting, while Hannah Shin and Mmam slit sleeves open for cape-like suiting and raincoats.",
+   "season": "AW26",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "FashionUnited",
+   "source_url": "https://fashionunited.uk/news/fashion/from-fur-collars-to-bow-details-key-trends-at-seoul-fashion-week-aw26/2026020986187",
+   "published": "2026-02-09",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "south-korea",
+   "countryName": "South Korea",
+   "category": "luxury",
+   "status": "recent",
+   "name": "Wooyoungmi's heavy wool and shaggy linings",
+   "summary": "Wooyoungmi's AW26 offered thick wool Chesterfield coats, high-buttoning double-breasted tailoring, knitted bodysuits, bombers and parkas lined with faux astrakhan and shaggy lamb, plus velvet-pieced technical fabrics.",
+   "season": "AW26",
+   "gender": "male",
+   "ages": [
+    "26-40",
+    "41-60"
+   ],
+   "source": "AnOther Magazine",
+   "source_url": "https://www.anothermag.com/fashion-beauty/16915/wooyoungmi-autumn-winter-2026-aw26-review",
+   "published": "2026-01-26",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "high",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "south-korea",
+   "countryName": "South Korea",
+   "category": "dress_styles",
+   "status": "observed",
+   "name": "Hanbok details in everyday wear",
+   "summary": "This year's hanbok expo emphasised daily pieces rather than wedding or holiday dress: cropped tweed jackets, button-front skirts, jeans, mini bags and jewellery carrying traditional touches, plus ribbon hair ornaments.",
+   "season": "AW26",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "The Korea Times",
+   "source_url": "https://www.koreatimes.co.kr/lifestyle/koreanheritage/20260814/hanbok-expo-highlights-shift-toward-everyday-wear",
+   "published": "2026-08-14",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "south-korea",
+   "countryName": "South Korea",
+   "category": "embroidery",
+   "status": "observed",
+   "name": "Embroidered flower-shoe heels and market silks",
+   "summary": "Traditional embroidered flower shoes are being reworked as modern stilettos, and Gwangjang Market textile sellers demonstrate embroidering deep blue, pale jade and sheer pink silks into garments.",
+   "season": "AW26",
+   "gender": "female",
+   "ages": [
+    "26-40",
+    "41-60"
+   ],
+   "source": "The Korea Times",
+   "source_url": "https://www.koreatimes.co.kr/lifestyle/koreanheritage/20260814/hanbok-expo-highlights-shift-toward-everyday-wear",
+   "published": "2026-08-14",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "south-korea",
+   "countryName": "South Korea",
+   "category": "formal",
+   "status": "recent",
+   "name": "Statement ceremonial hanbok",
+   "summary": "Wedding and first-birthday hanbok are getting more dress-like and dramatic, with layered galrae and lifted geodeul skirts; young mothers are swinging back to vivid traditional colours after years of muted tones, helped by period K-dramas.",
+   "season": "2026",
+   "gender": "female",
+   "ages": [
+    "26-40"
+   ],
+   "source": "The Korea Herald",
+   "source_url": "https://www.koreaherald.com/article/10758014",
+   "published": "2026-05-30",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "south-korea",
+   "countryName": "South Korea",
+   "category": "emerging",
+   "status": "emerging",
+   "name": "K-pop-led modern hanbok campaign",
+   "summary": "Stray Kids' Felix fronts the government's 2026 Hanbok Wave, with five independent firms designing contemporary outfits mixing his style with traditional tailoring, promoted on billboards in New York, Paris and Milan.",
+   "season": "2026",
+   "gender": "male",
+   "ages": [
+    "18-25"
+   ],
+   "source": "The Korea Times",
+   "source_url": "https://www.koreatimes.co.kr/amp/lifestyle/koreanheritage/20260617/stray-kids-felix-to-become-face-of-hanboks-modern-redesign",
+   "published": "2026-06-17",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "south-korea",
+   "countryName": "South Korea",
+   "category": "casual",
+   "status": "observed",
+   "name": "Seongsu designer handbags as souvenirs",
+   "summary": "Affordable Korean bag labels such as Matin Kim, Stand Oil, Marhen.J and Archivepke are booming with tourists; black ribbon and shirred polyurethane bags around 100 dollars lead, as bags avoid sizing issues.",
+   "season": "AW26",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "Korea JoongAng Daily",
+   "source_url": "https://www.koreajoongangdaily.com/business/the-new-seoul-souvenir-a-korean-designer-bag/12915486",
+   "published": "2026-10-14",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "high",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "south-korea",
+   "countryName": "South Korea",
+   "category": "seasonal",
+   "status": "forecast",
+   "name": "Trench coat reinvented",
+   "summary": "The trench was Seoul's dominant SS27 item: khaki, animal-print, sheer and mesh versions, plus oversized, cropped, leather and cut-apart styles at Re Rhee, Greedilous, Kelly Shin, Lie and Lie Sangbong.",
+   "season": "SS27",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "FashionUnited / The Korea Herald",
+   "source_url": "https://fashionunited.uk/news/fashion/seoul-fashion-week-ss27-trends-from-re-rhee-lie-sang-bong-and-more/2026091590294",
+   "published": "2026-09-15",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "high",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "south-korea",
+   "countryName": "South Korea",
+   "category": "colors",
+   "status": "forecast",
+   "name": "Sporty all-white looks",
+   "summary": "Head-to-toe white with a technical, sporty attitude appeared at Daily Mirror, Dunst, Lie, Lie Sang Bong, Sling Stone and Greedilous for SS27.",
+   "season": "SS27",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "FashionUnited",
+   "source_url": "https://fashionunited.uk/news/fashion/seoul-fashion-week-ss27-trends-from-re-rhee-lie-sang-bong-and-more/2026091590294",
+   "published": "2026-09-15",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "south-korea",
+   "countryName": "South Korea",
+   "category": "colors",
+   "status": "forecast",
+   "name": "Cobalt blue accents",
+   "summary": "A saturated cobalt blue showed up as full outfits and accessories at Big Park, Daily Mirror, Dunst and Hannah Shin in Seoul's SS27 shows.",
+   "season": "SS27",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "FashionUnited",
+   "source_url": "https://fashionunited.uk/news/fashion/seoul-fashion-week-ss27-trends-from-re-rhee-lie-sang-bong-and-more/2026091590294",
+   "published": "2026-09-15",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "south-korea",
+   "countryName": "South Korea",
+   "category": "fabrics",
+   "status": "forecast",
+   "name": "Denim in many washes and cuts",
+   "summary": "Jeans paired with matching tops or jackets ranged from oversized to directional shapes at Doucan, Dunst, Greedilous, HolyNumber7 and Lie, alongside HolyNumber7's micro denim shorts.",
+   "season": "SS27",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "FashionUnited",
+   "source_url": "https://fashionunited.uk/news/fashion/seoul-fashion-week-ss27-trends-from-re-rhee-lie-sang-bong-and-more/2026091590294",
+   "published": "2026-09-15",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "south-korea",
+   "countryName": "South Korea",
+   "category": "silhouettes",
+   "status": "forecast",
+   "name": "Maxi lengths, skirts over trousers, power shoulders",
+   "summary": "Seoul SS27 favoured long hems and maxi skirts, skirts layered over pants, strong shoulders, bodysuits and low-rise waists anchored by bold belts.",
+   "season": "SS27",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "The Korea Herald",
+   "source_url": "https://koreaherald.com/article/10860284",
+   "published": "2026-09-02",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "south-korea",
+   "countryName": "South Korea",
+   "category": "formal",
+   "status": "forecast",
+   "name": "Loose ties and neck scarves",
+   "summary": "Rather than a neat knot, SS27 Seoul looks left ties hanging loose or swapped them for neck scarves, softening shirting for both men and women.",
+   "season": "SS27",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "The Korea Herald",
+   "source_url": "https://koreaherald.com/article/10860284",
+   "published": "2026-09-02",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "south-korea",
+   "countryName": "South Korea",
+   "category": "prints",
+   "status": "forecast",
+   "name": "Artist portrait prints and Hangeul lettering",
+   "summary": "Lie Sangbong's 40th-anniversary show used Frida Kahlo prints, safety-pinned trenches and Hangeul script on hanbok-like silk, moving from black and white into blue, red, green and florals.",
+   "season": "SS27",
+   "gender": "unisex",
+   "ages": [
+    "26-40",
+    "41-60"
+   ],
+   "source": "The Korea Herald",
+   "source_url": "https://koreaherald.com/article/10860284",
+   "published": "2026-09-02",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "south-korea",
+   "countryName": "South Korea",
+   "category": "streetwear",
+   "status": "forecast",
+   "name": "K-pop-linked street labels with instant shopping",
+   "summary": "Streetwear brands Dunst, General Idea and Mahagrid showed SS27 at Lotte World Tower beside an NCT anniversary runway, with QR codes letting viewers buy pieces immediately.",
+   "season": "SS27",
+   "gender": "unisex",
+   "ages": [
+    "18-25"
+   ],
+   "source": "The Korea Times",
+   "source_url": "https://www.koreatimes.co.kr/lifestyle/trends/20260827/seoul-fashion-week-ss-2027-to-turn-city-landmarks-into-global-runways",
+   "published": "2026-08-27",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "south-korea",
+   "countryName": "South Korea",
+   "category": "emerging",
+   "status": "forecast",
+   "name": "Upcycled billiard cloth",
+   "summary": "HolyNumber7 turned discarded billiard-table felt into garments within a mostly black SS27 collection of leather half-trenches, maxi skirts and camouflage menswear.",
+   "season": "SS27",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "The Korea Herald",
+   "source_url": "https://koreaherald.com/article/10860284",
+   "published": "2026-09-02",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "south-korea",
+   "countryName": "South Korea",
+   "category": "casual",
+   "status": "historical",
+   "name": "Kidswear: relaxed sets and mini-adult staples",
+   "summary": "Older context: Korean children commonly wear loose denim and sweatshirts for boys, pastel dresses, tulle skirts and baggy jeans for girls, and matching top-and-bottom sets, trench coats and oversized hoodies for both.",
+   "season": "Context",
+   "gender": "kids",
+   "ages": [
+    "3-7",
+    "8-12"
+   ],
+   "source": "Ozkiz",
+   "source_url": "https://global.ozkiz.com/blogs/ozkiz-blog/what-do-korean-kids-wear",
+   "published": "unknown",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "low",
+   "method": "researched-snapshot"
+  }
+ ]
+}

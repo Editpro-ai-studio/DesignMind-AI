@@ -1,0 +1,672 @@
+{
+ "country": "Global",
+ "slug": "global",
+ "researched_on": "2026-11-01",
+ "method": "snapshot",
+ "season_context": {
+  "hemisphere": "northern",
+  "current_fashion_season": "Autumn/Winter 2026 (AW26)",
+  "local_season_notes": "The SS27 shows in New York, London, Milan and Paris ran through September and early October 2026, and Première Vision Paris in September previewed AW27/28 materials. Retail is in AW26 and holiday trading now. SS27 product reaches stores from early 2027, and Ramadan around February 2027 matters for Muslim-majority and diaspora markets.",
+  "upcoming_season": "Spring/Summer 2027 (SS27)",
+  "sources": [
+   {
+    "title": "Paris Fashion Week SS27 trends (The Zoe Report)",
+    "url": "https://www.thezoereport.com/fashion/paris-fashion-weeks-spring-summer-2027-trends",
+    "published": "2026-10-07"
+   },
+   {
+    "title": "Première Vision Paris: AW27/28 fabrics (FashionUnited)",
+    "url": "https://fashionunited.uk/news/fairs/premiere-vision-paris-what-fabrics-reveal-about-aw27-28-trends/2026090490139",
+    "published": "2026-09-04"
+   },
+   {
+    "title": "Lyst Index Q3 2026 (Hypebae)",
+    "url": "https://hypebae.com/2026/10/lyst-index-hottest-brands-items-products-q3-prada-balenciaga-cos-free-people-chanel-ballet-flats",
+    "published": "2026-10-28"
+   }
+  ]
+ },
+ "trends": [
+  {
+   "country": "global",
+   "countryName": "Global",
+   "category": "colors",
+   "status": "forecast",
+   "name": "Luminous Blue, colour of 2027",
+   "summary": "WGSN and Coloro picked Luminous Blue as 2027's colour of the year, a bright, slightly eccentric blue they consider versatile enough for occasionwear and activewear.",
+   "season": "2027",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "WGSN",
+   "source_url": "https://www.wgsn.com/en/wgsn/press/press-releases/wgsn-and-coloro-reveal-colour-year-2027-luminous-blue-and-s/s-27-key",
+   "published": "2025-04-29",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "high",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "global",
+   "countryName": "Global",
+   "category": "colors",
+   "status": "forecast",
+   "name": "WGSN SS27 key colours",
+   "summary": "Alongside Luminous Blue, WGSN's SS27 palette features Energy Orange, playful Pop Pink, calming Meadowland Green and Clay, a warm pinkish earth neutral.",
+   "season": "SS27",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "WGSN",
+   "source_url": "https://www.wgsn.com/en/wgsn/press/press-releases/wgsn-and-coloro-reveal-colour-year-2027-luminous-blue-and-s/s-27-key",
+   "published": "2025-04-29",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "high",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "global",
+   "countryName": "Global",
+   "category": "colors",
+   "status": "forecast",
+   "name": "Pantone NYFW SS27 palette",
+   "summary": "Pantone's NYFW SS27 report pairs loud shades like Dragon Fire orange, Chili Pepper and Hibiscus with pale Anise Flower, Rosy Future and herbal Lavender Oil, plus five seasonless neutrals.",
+   "season": "SS27",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "FashionUnited (Pantone)",
+   "source_url": "https://fashionunited.uk/news/fashion/pantone-nyfw-spring-summer-2027-color-trend-report-the-top-10-colors/2026092190442",
+   "published": "2026-09-21",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "high",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "global",
+   "countryName": "Global",
+   "category": "colors",
+   "status": "forecast",
+   "name": "Citrus orange takeover",
+   "summary": "Orange led both Paris and London SS27. Hermès, Chanel, Loewe and Mugler used citrus shades, while Mulberry and others ranged from tangerine to ginger.",
+   "season": "SS27",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "The Zoe Report",
+   "source_url": "https://www.thezoereport.com/fashion/paris-fashion-weeks-spring-summer-2027-trends",
+   "published": "2026-10-07",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "high",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "global",
+   "countryName": "Global",
+   "category": "colors",
+   "status": "forecast",
+   "name": "Butter yellow and poppy red",
+   "summary": "New York SS27 used pale butter yellow to brighten neutrals (Proenza Schouler, Tibi, TWP) and warm poppy red as a polished hit of colour (Altuzarra, Carolina Herrera).",
+   "season": "SS27",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "Coveteur",
+   "source_url": "https://coveteur.com/nyfw-trends-ss27",
+   "published": "2026-09-17",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "global",
+   "countryName": "Global",
+   "category": "colors",
+   "status": "forecast",
+   "name": "Sugared pastels",
+   "summary": "Milan moved from autumn's strong tones to candy-like peach, mint and lemon. Paris and London added butter, lavender, sage and baby pink.",
+   "season": "SS27",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "Who What Wear",
+   "source_url": "https://www.whowhatwear.com/fashion/runway/milan-fashion-week-trends-spring-summer-2027",
+   "published": "2026-09-30",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "high",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "global",
+   "countryName": "Global",
+   "category": "seasonal",
+   "status": "forecast",
+   "name": "AW27/28 russet, lilac, maize, deep green",
+   "summary": "WGSN and Coloro's AW27/28 colours are warm Russet, soft Peaceful Lilac, optimistic Maize yellow and Deep Green, which they suggest as an alternative to black.",
+   "season": "AW27/28",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "FashionUnited (WGSN/Coloro)",
+   "source_url": "https://fashionunited.uk/news/fashion/wgsn-and-coloro-key-colours-for-autumn-winter-2027-28/2025091783967",
+   "published": "2025-09-17",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "high",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "global",
+   "countryName": "Global",
+   "category": "seasonal",
+   "status": "forecast",
+   "name": "AW27/28 plum and reversible wool",
+   "summary": "Première Vision's AW27/28 direction favours violet, plum and deep red over black, evening satins and crushed velvet, reversible double-face woollens and fine, thermoregulating wool.",
+   "season": "AW27/28",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "FashionUnited (Première Vision)",
+   "source_url": "https://fashionunited.uk/news/fairs/premiere-vision-paris-what-fabrics-reveal-about-aw27-28-trends/2026090490139",
+   "published": "2026-09-04",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "high",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "global",
+   "countryName": "Global",
+   "category": "prints",
+   "status": "forecast",
+   "name": "Archive checks and stripes",
+   "summary": "Milan SS27 used retro checks, stripes and vintage-style graphics at Prada, Marni, MM6, MSGM and Gucci, often clashing colourways on purpose.",
+   "season": "SS27",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "NSS Magazine",
+   "source_url": "https://www.nssmag.com/en/fashion/47050/trend-report-milan-fashion-week-womenswear-ss27-update",
+   "published": "2026-09-29",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "high",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "global",
+   "countryName": "Global",
+   "category": "prints",
+   "status": "forecast",
+   "name": "Slogans and poster graphics",
+   "summary": "Paris SS27 printed bold slogans, vintage poster art and colourful patterns on tees, jackets and caps at Dries Van Noten, Celine, Sacai, Marine Serre and Valentino.",
+   "season": "SS27",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "The Zoe Report",
+   "source_url": "https://www.thezoereport.com/fashion/paris-fashion-weeks-spring-summer-2027-trends",
+   "published": "2026-10-07",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "global",
+   "countryName": "Global",
+   "category": "prints",
+   "status": "forecast",
+   "name": "Head-to-toe bold stripes",
+   "summary": "New York SS27 showed loud, full-rainbow and all-over stripes at Diane von Furstenberg, Proenza Schouler and Tommy Hilfiger.",
+   "season": "SS27",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "The Zoe Report",
+   "source_url": "https://www.thezoereport.com/fashion/new-york-fashion-week-spring-summer-2027-trends",
+   "published": "2026-09-16",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "global",
+   "countryName": "Global",
+   "category": "dress_styles",
+   "status": "forecast",
+   "name": "The skirt as staple",
+   "summary": "Skirts dominated SS27 in every city: knee-length at Prada and Ferragamo, Chanel's just-below-knee length, and sheer or jewelled versions worn as everyday basics.",
+   "season": "SS27",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "Kuwait Times (AFP)",
+   "source_url": "https://kuwaittimes.com/article/51144/lifestyle/art-fashion/paris-womens-fashion-week-key-trends/",
+   "published": "2026-10-07",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "high",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "global",
+   "countryName": "Global",
+   "category": "dress_styles",
+   "status": "forecast",
+   "name": "Modern goddess drape",
+   "summary": "London SS27 revisited classical Greek dressing with draped fabric, loose shapes, trailing ribbons and billowing volume, notably at Pauline Dujancourt.",
+   "season": "SS27",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "Minute Mirror",
+   "source_url": "https://minutemirror.com.pk/london-fashion-week-reveals-five-trends-for-spring-2027-634077/",
+   "published": "2026-09-23",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "low",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "global",
+   "countryName": "Global",
+   "category": "silhouettes",
+   "status": "forecast",
+   "name": "Bubble and pouf skirts",
+   "summary": "Loewe and Dior put puffed bubble skirts at the centre of SS27. Miu Miu and Zimmermann cut them very short, and Comme des Garçons did one in denim.",
+   "season": "SS27",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "Kuwait Times (AFP)",
+   "source_url": "https://kuwaittimes.com/article/51144/lifestyle/art-fashion/paris-womens-fashion-week-key-trends/",
+   "published": "2026-10-07",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "high",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "global",
+   "countryName": "Global",
+   "category": "silhouettes",
+   "status": "forecast",
+   "name": "Peplum revival",
+   "summary": "New York presented the peplum as SS27's defining shape, gathered, ruffled or crinoline-like at the hip, at Proenza Schouler, Khaite, Diotima and Ashlyn.",
+   "season": "SS27",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "Coveteur",
+   "source_url": "https://coveteur.com/nyfw-trends-ss27",
+   "published": "2026-09-17",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "global",
+   "countryName": "Global",
+   "category": "silhouettes",
+   "status": "forecast",
+   "name": "Close-cut cinched tailoring",
+   "summary": "Oversized blazers faded in Milan. Armani, Gucci and Jil Sander cut jackets close to the body and cinched at the waist.",
+   "season": "SS27",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "Who What Wear",
+   "source_url": "https://www.whowhatwear.com/fashion/runway/milan-fashion-week-trends-spring-summer-2027",
+   "published": "2026-09-30",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "global",
+   "countryName": "Global",
+   "category": "silhouettes",
+   "status": "forecast",
+   "name": "Statement waist belts",
+   "summary": "Waists are emphasised with stacked or obi-style belts in Milan and wide cummerbunds over tailoring in New York, giving relaxed looks more structure.",
+   "season": "SS27",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "Who What Wear",
+   "source_url": "https://www.whowhatwear.com/fashion/runway/milan-fashion-week-spring-summer-2027-trends",
+   "published": "2026-09-29",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "high",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "global",
+   "countryName": "Global",
+   "category": "fabrics",
+   "status": "forecast",
+   "name": "Sheer layers and glossy plastics",
+   "summary": "Milan SS27 mixed transparency and shine: latex-effect rubber and PVC at Ferragamo, organza at Moschino and Sportmax, sheer knits at Fendi and veils at Jil Sander.",
+   "season": "SS27",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "NSS Magazine",
+   "source_url": "https://www.nssmag.com/en/fashion/47050/trend-report-milan-fashion-week-womenswear-ss27-update",
+   "published": "2026-09-29",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "high",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "global",
+   "countryName": "Global",
+   "category": "fabrics",
+   "status": "forecast",
+   "name": "Airy gingham, tulle and mesh",
+   "summary": "Première Vision's SS27 mills offered cloqué gingham, honeycomb knits, stretch tulle, sporty mesh, fine lace, pearly sequins and 3D arabesques on tulle.",
+   "season": "SS27",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "Heuritech",
+   "source_url": "https://heuritech.com/articles/premiere-vision-2026-spring-summer-27/",
+   "published": "2026-02-10",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "global",
+   "countryName": "Global",
+   "category": "embroidery",
+   "status": "forecast",
+   "name": "Embellished, delicate denim",
+   "summary": "Milan softened jeans with lace and floral embroidery. Dolce & Gabbana set red lace into seams, and Ermanno Scervino and Genny added floral motifs.",
+   "season": "SS27",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "Who What Wear",
+   "source_url": "https://www.whowhatwear.com/fashion/runway/milan-fashion-week-spring-summer-2027-trends",
+   "published": "2026-09-29",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "global",
+   "countryName": "Global",
+   "category": "printing_techniques",
+   "status": "forecast",
+   "name": "Coated and spray-painted denim",
+   "summary": "New York SS27 denim moved beyond classic blue with coated finishes, spray-painted surfaces and candy-coloured dyes at Area, 7 For All Mankind, Simkhai and PatBo.",
+   "season": "SS27",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "The Zoe Report",
+   "source_url": "https://www.thezoereport.com/fashion/new-york-fashion-week-spring-summer-2027-trends",
+   "published": "2026-09-16",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "global",
+   "countryName": "Global",
+   "category": "printing_techniques",
+   "status": "forecast",
+   "name": "Lacquered and varnished finishes",
+   "summary": "Première Vision's SS27 materials included varnished and lacquered surfaces in dense, saturated colour, alongside maximalist abstract and floral prints.",
+   "season": "SS27",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "Heuritech",
+   "source_url": "https://heuritech.com/articles/premiere-vision-2026-spring-summer-27/",
+   "published": "2026-02-10",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "global",
+   "countryName": "Global",
+   "category": "casual",
+   "status": "observed",
+   "name": "Bloomers and ballet flats",
+   "summary": "Lyst's Q3 2026 hottest products included Free People bloomer pants, Chanel ballet flats and a Dries Van Noten scarf-skirt, mixing quiet luxury with playful dressing.",
+   "season": "AW26",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "Hypebae (Lyst Index)",
+   "source_url": "https://hypebae.com/2026/10/lyst-index-hottest-brands-items-products-q3-prada-balenciaga-cos-free-people-chanel-ballet-flats",
+   "published": "2026-10-28",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "high",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "global",
+   "countryName": "Global",
+   "category": "streetwear",
+   "status": "observed",
+   "name": "Retro sneakers return",
+   "summary": "Lyst's Q3 2026 ranking featured the Celine x Reebok Freestyle Lo and the Vans Premium Authentic, signalling nostalgic, low-profile sneakers over chunky styles.",
+   "season": "AW26",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "Hypebae (Lyst Index)",
+   "source_url": "https://hypebae.com/2026/10/lyst-index-hottest-brands-items-products-q3-prada-balenciaga-cos-free-people-chanel-ballet-flats",
+   "published": "2026-10-28",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "high",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "global",
+   "countryName": "Global",
+   "category": "luxury",
+   "status": "observed",
+   "name": "Prada back on top; slouchy bags",
+   "summary": "Prada topped Lyst's Q3 2026 brand ranking for the first time since 2023, and its Wish pouch was the top product. Slouchy top-handle bags from COS to Balenciaga also ranked.",
+   "season": "AW26",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "Hypebae (Lyst Index)",
+   "source_url": "https://hypebae.com/2026/10/lyst-index-hottest-brands-items-products-q3-prada-balenciaga-cos-free-people-chanel-ballet-flats",
+   "published": "2026-10-28",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "high",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "global",
+   "countryName": "Global",
+   "category": "formal",
+   "status": "forecast",
+   "name": "Everyday opulence",
+   "summary": "Milan SS27 brought couture-like occasion pieces into daywear, styling them with plain staples at Alberta Ferretti, Elisabetta Franchi and Armani.",
+   "season": "SS27",
+   "gender": "female",
+   "ages": [
+    "26-40",
+    "41-60"
+   ],
+   "source": "Who What Wear",
+   "source_url": "https://www.whowhatwear.com/fashion/runway/milan-fashion-week-trends-spring-summer-2027",
+   "published": "2026-09-30",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "global",
+   "countryName": "Global",
+   "category": "modest",
+   "status": "recent",
+   "name": "Modest fashion week in Paris",
+   "summary": "Paris hosted its first Modest Fashion Week in April 2026, with fully covering silhouettes and tailored headscarf styling, a sign that modest dressing is reaching mainstream calendars.",
+   "season": "2026",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "Elle Egypt",
+   "source_url": "https://www.elle.eg/modest-fashion-goes-mainstream-in-2026/",
+   "published": "2026-05-14",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "global",
+   "countryName": "Global",
+   "category": "emerging",
+   "status": "emerging",
+   "name": "Fibre-to-fibre recycling and biomaterials",
+   "summary": "The industry is shifting from bottle-based recycled polyester to textile-to-textile recycling, closed-loop lyocell and viscose, and mycelium or plant-based leathers. Cost and scale are still limits.",
+   "season": "2026",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40",
+    "41-60"
+   ],
+   "source": "FashionUnited",
+   "source_url": "https://fashionunited.uk/news/business/5-2026-fabric-and-materials-outlook/2025120485195",
+   "published": "2025-12-04",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "medium",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "global",
+   "countryName": "Global",
+   "category": "emerging",
+   "status": "emerging",
+   "name": "AI search, smart eyewear, resale",
+   "summary": "State of Fashion 2026 ranks AI as the top opportunity and expects smart-glasses sales to quadruple in 2026. Resale is set to grow two to three times faster than new sales.",
+   "season": "2026",
+   "gender": "unisex",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "FashionUnited (BoF/McKinsey)",
+   "source_url": "https://fashionunited.uk/news/business/the-state-of-fashion-2026-turbulence-is-the-new-normal/2025111784921",
+   "published": "2025-11-17",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "high",
+   "method": "researched-snapshot"
+  },
+  {
+   "country": "global",
+   "countryName": "Global",
+   "category": "emerging",
+   "status": "forecast",
+   "name": "Lingerie as a visible layer",
+   "summary": "Bras worn over shirts, under jackets or built into skirt sets appeared at Prada, Fendi, Marni and Tod's for SS27, while New York showed undone, déshabillé layering.",
+   "season": "SS27",
+   "gender": "female",
+   "ages": [
+    "18-25",
+    "26-40"
+   ],
+   "source": "NSS Magazine",
+   "source_url": "https://www.nssmag.com/en/fashion/47050/trend-report-milan-fashion-week-womenswear-ss27-update",
+   "published": "2026-09-29",
+   "observed": "2026-11-01",
+   "verified": "2026-11-01",
+   "confidence": "high",
+   "method": "researched-snapshot"
+  }
+ ]
+}
