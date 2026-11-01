@@ -42,6 +42,13 @@ Trend research (saved snapshot), fabric database and comparison, colourway extra
 ## What needs the free AI key
 Reference analysis and original concepts, research-based colourways, trend briefs, fabric Q&A, graphic design critique.
 
+## Brands (in-app designs)
+- **Brands** tab: choose a market, then a brand. Brands marked **In-app designs** open their catalogue inside the app with Kids / Women / Men tabs, Girls / Boys / Baby filters, search, price sort and a large view of each design with a link to the product on the brand's site.
+- Catalogues are read by GitHub every **Wednesday**. First time: **Actions → Update brand catalogues → Run workflow** (`all`, a market like `pakistan`, or one brand id like `maria-b`).
+- Only stores that publish a public product feed (most Shopify stores) can be shown inside the app. Others say **Website only** and open on their site. The workflow log lists which brands worked.
+- Images are not copied; they load from the brand's own site, and each design links back. Use them for research, not copying.
+- Add or remove brands in `data/brands.json` (id, name, site, focus).
+
 ## Updating trend research
 - Runs automatically **every Monday** on GitHub (free).
 - To run now: **Actions → Update trend research → Run workflow** (choose `all` or one market).

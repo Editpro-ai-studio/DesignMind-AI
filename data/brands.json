@@ -1,0 +1,138 @@
+{
+  "_note": "Brand registry. The 'Update brand catalogues' workflow checks each site and, where the store publishes a public product feed (Shopify), saves product titles, prices, links and image links to data/brands/<id>.json. Images stay on the brand's own servers. Add a brand by adding a line here: id, name, site, focus (women, men, kids, home).",
+  "markets": {
+    "pakistan": [
+      {"id": "khaadi", "name": "Khaadi", "site": "https://pk.khaadi.com", "focus": ["women", "men", "kids", "home"]},
+      {"id": "sapphire", "name": "Sapphire", "site": "https://pk.sapphireonline.pk", "focus": ["women", "men", "kids", "home"]},
+      {"id": "gul-ahmed", "name": "Gul Ahmed (Ideas)", "site": "https://www.gulahmedshop.com", "focus": ["women", "men", "kids", "home"]},
+      {"id": "maria-b", "name": "Maria B", "site": "https://www.mariab.pk", "focus": ["women", "kids"]},
+      {"id": "alkaram", "name": "Alkaram Studio", "site": "https://www.alkaramstudio.com", "focus": ["women", "men", "kids", "home"]},
+      {"id": "junaid-jamshed", "name": "J.", "site": "https://www.junaidjamshed.com", "focus": ["women", "men", "kids"]},
+      {"id": "limelight", "name": "Limelight", "site": "https://www.limelight.pk", "focus": ["women", "kids"]},
+      {"id": "bonanza-satrangi", "name": "Bonanza Satrangi", "site": "https://bonanzasatrangi.com", "focus": ["women", "men", "kids"]},
+      {"id": "nishat-linen", "name": "Nishat Linen", "site": "https://nishatlinen.com", "focus": ["women", "men", "kids", "home"]},
+      {"id": "sana-safinaz", "name": "Sana Safinaz", "site": "https://www.sanasafinaz.com", "focus": ["women"]},
+      {"id": "beechtree", "name": "Beechtree", "site": "https://beechtree.pk", "focus": ["women", "kids"]},
+      {"id": "zellbury", "name": "Zellbury", "site": "https://zellbury.com", "focus": ["women", "men", "kids"]},
+      {"id": "edenrobe", "name": "Edenrobe", "site": "https://edenrobe.com", "focus": ["women", "men", "kids"]},
+      {"id": "bareeze", "name": "Bareeze", "site": "https://bareeze.com", "focus": ["women"]},
+      {"id": "generation", "name": "Generation", "site": "https://generation.com.pk", "focus": ["women", "kids"]},
+      {"id": "cross-stitch", "name": "Cross Stitch", "site": "https://www.crossstitch.pk", "focus": ["women"]},
+      {"id": "lulusar", "name": "Lulusar", "site": "https://lulusar.com", "focus": ["women"]},
+      {"id": "outfitters", "name": "Outfitters", "site": "https://outfitters.com.pk", "focus": ["women", "men", "kids"]},
+      {"id": "breakout", "name": "Breakout", "site": "https://www.breakout.com.pk", "focus": ["women", "men", "kids"]},
+      {"id": "hopscotch-pk", "name": "Hopscotch", "site": "https://hopscotch.pk", "focus": ["kids"]},
+      {"id": "minnie-minors", "name": "Minnie Minors", "site": "https://minnieminors.com", "focus": ["kids"]}
+    ],
+    "turkiye": [
+      {"id": "lc-waikiki", "name": "LC Waikiki", "site": "https://www.lcw.com", "focus": ["women", "men", "kids"]},
+      {"id": "koton", "name": "Koton", "site": "https://www.koton.com", "focus": ["women", "men", "kids"]},
+      {"id": "defacto", "name": "DeFacto", "site": "https://www.defacto.com.tr", "focus": ["women", "men", "kids"]},
+      {"id": "mavi", "name": "Mavi", "site": "https://www.mavi.com", "focus": ["women", "men", "kids"]},
+      {"id": "vakko", "name": "Vakko", "site": "https://www.vakko.com", "focus": ["women", "men"]},
+      {"id": "modanisa", "name": "Modanisa", "site": "https://www.modanisa.com", "focus": ["women"]},
+      {"id": "setre", "name": "Setre", "site": "https://www.setre.com", "focus": ["women"]},
+      {"id": "ipekyol", "name": "Ipekyol", "site": "https://www.ipekyol.com.tr", "focus": ["women"]},
+      {"id": "ebebek", "name": "ebebek", "site": "https://www.e-bebek.com", "focus": ["kids"]}
+    ],
+    "united-kingdom": [
+      {"id": "next", "name": "Next", "site": "https://www.next.co.uk", "focus": ["women", "men", "kids", "home"]},
+      {"id": "marks-spencer", "name": "Marks & Spencer", "site": "https://www.marksandspencer.com", "focus": ["women", "men", "kids", "home"]},
+      {"id": "boden", "name": "Boden", "site": "https://www.boden.co.uk", "focus": ["women", "men", "kids"]},
+      {"id": "frugi", "name": "Frugi", "site": "https://www.welovefrugi.com", "focus": ["kids"]},
+      {"id": "jojo-maman-bebe", "name": "JoJo Maman Bébé", "site": "https://www.jojomamanbebe.com", "focus": ["kids"]},
+      {"id": "monsoon", "name": "Monsoon", "site": "https://www.monsoon.co.uk", "focus": ["women", "kids"]},
+      {"id": "river-island", "name": "River Island", "site": "https://www.riverisland.com", "focus": ["women", "men", "kids"]},
+      {"id": "primark", "name": "Primark", "site": "https://www.primark.com", "focus": ["women", "men", "kids", "home"]}
+    ],
+    "united-states": [
+      {"id": "gap", "name": "Gap", "site": "https://www.gap.com", "focus": ["women", "men", "kids"]},
+      {"id": "old-navy", "name": "Old Navy", "site": "https://oldnavy.gap.com", "focus": ["women", "men", "kids"]},
+      {"id": "carters", "name": "Carter's", "site": "https://www.carters.com", "focus": ["kids"]},
+      {"id": "hanna-andersson", "name": "Hanna Andersson", "site": "https://www.hannaandersson.com", "focus": ["kids"]},
+      {"id": "janie-and-jack", "name": "Janie and Jack", "site": "https://www.janieandjack.com", "focus": ["kids"]},
+      {"id": "primary", "name": "Primary", "site": "https://www.primary.com", "focus": ["kids"]},
+      {"id": "tea-collection", "name": "Tea Collection", "site": "https://www.teacollection.com", "focus": ["kids"]},
+      {"id": "j-crew", "name": "J.Crew", "site": "https://www.jcrew.com", "focus": ["women", "men", "kids"]}
+    ],
+    "italy": [
+      {"id": "benetton", "name": "United Colors of Benetton", "site": "https://www.benetton.com", "focus": ["women", "men", "kids"]},
+      {"id": "ovs", "name": "OVS", "site": "https://www.ovs.it", "focus": ["women", "men", "kids"]},
+      {"id": "il-gufo", "name": "Il Gufo", "site": "https://www.ilgufo.com", "focus": ["kids"]},
+      {"id": "monnalisa", "name": "Monnalisa", "site": "https://www.monnalisa.com", "focus": ["kids"]},
+      {"id": "max-mara", "name": "Max Mara", "site": "https://www.maxmara.com", "focus": ["women"]}
+    ],
+    "france": [
+      {"id": "petit-bateau", "name": "Petit Bateau", "site": "https://www.petit-bateau.fr", "focus": ["kids", "women"]},
+      {"id": "jacadi", "name": "Jacadi", "site": "https://www.jacadi.fr", "focus": ["kids"]},
+      {"id": "bonpoint", "name": "Bonpoint", "site": "https://www.bonpoint.com", "focus": ["kids"]},
+      {"id": "kiabi", "name": "Kiabi", "site": "https://www.kiabi.com", "focus": ["women", "men", "kids"]},
+      {"id": "okaidi", "name": "Okaïdi", "site": "https://www.okaidi.fr", "focus": ["kids"]},
+      {"id": "cyrillus", "name": "Cyrillus", "site": "https://www.cyrillus.fr", "focus": ["women", "men", "kids"]},
+      {"id": "sezane", "name": "Sézane", "site": "https://www.sezane.com", "focus": ["women"]}
+    ],
+    "japan": [
+      {"id": "uniqlo", "name": "Uniqlo", "site": "https://www.uniqlo.com", "focus": ["women", "men", "kids"]},
+      {"id": "muji", "name": "Muji", "site": "https://www.muji.com", "focus": ["women", "men", "kids", "home"]},
+      {"id": "familiar", "name": "familiar", "site": "https://www.familiar.co.jp", "focus": ["kids"]},
+      {"id": "miki-house", "name": "Miki House", "site": "https://www.mikihouse.co.jp", "focus": ["kids"]},
+      {"id": "beams", "name": "Beams", "site": "https://www.beams.co.jp", "focus": ["women", "men", "kids"]}
+    ],
+    "south-korea": [
+      {"id": "musinsa", "name": "Musinsa", "site": "https://www.musinsa.com", "focus": ["women", "men", "kids"]},
+      {"id": "spao", "name": "SPAO", "site": "https://spao.com", "focus": ["women", "men", "kids"]},
+      {"id": "ader-error", "name": "Ader Error", "site": "https://en.adererror.com", "focus": ["women", "men"]},
+      {"id": "wooyoungmi", "name": "Wooyoungmi", "site": "https://www.wooyoungmi.com", "focus": ["men", "women"]}
+    ],
+    "india": [
+      {"id": "fabindia", "name": "Fabindia", "site": "https://www.fabindia.com", "focus": ["women", "men", "kids", "home"]},
+      {"id": "biba", "name": "Biba", "site": "https://www.biba.in", "focus": ["women", "kids"]},
+      {"id": "w-for-woman", "name": "W", "site": "https://wforwoman.com", "focus": ["women"]},
+      {"id": "manyavar", "name": "Manyavar", "site": "https://www.manyavar.com", "focus": ["men", "kids"]},
+      {"id": "house-of-masaba", "name": "House of Masaba", "site": "https://www.houseofmasaba.com", "focus": ["women", "kids"]},
+      {"id": "jaypore", "name": "Jaypore", "site": "https://www.jaypore.com", "focus": ["women", "men", "home"]},
+      {"id": "firstcry", "name": "FirstCry", "site": "https://www.firstcry.com", "focus": ["kids"]}
+    ],
+    "uae": [
+      {"id": "splash", "name": "Splash", "site": "https://www.splashfashions.com", "focus": ["women", "men", "kids"]},
+      {"id": "max-fashion", "name": "Max Fashion", "site": "https://www.maxfashion.com", "focus": ["women", "men", "kids"]},
+      {"id": "bouguessa", "name": "Bouguessa", "site": "https://www.bouguessa.com", "focus": ["women"]},
+      {"id": "ounass", "name": "Ounass", "site": "https://www.ounass.ae", "focus": ["women", "men", "kids"]},
+      {"id": "mothercare-ae", "name": "Mothercare UAE", "site": "https://www.mothercare.ae", "focus": ["kids"]}
+    ],
+    "saudi-arabia": [
+      {"id": "centrepoint", "name": "Centrepoint", "site": "https://www.centrepointstores.com", "focus": ["women", "men", "kids"]},
+      {"id": "redtag", "name": "Redtag", "site": "https://www.redtag.com", "focus": ["women", "men", "kids", "home"]},
+      {"id": "ashi-studio", "name": "Ashi Studio", "site": "https://www.ashistudio.com", "focus": ["women"]}
+    ],
+    "china": [
+      {"id": "shein", "name": "Shein", "site": "https://www.shein.com", "focus": ["women", "men", "kids", "home"]},
+      {"id": "urban-revivo", "name": "Urban Revivo", "site": "https://www.urbanrevivo.com", "focus": ["women", "men"]},
+      {"id": "balabala", "name": "Balabala", "site": "https://www.balabala.com.cn", "focus": ["kids"]},
+      {"id": "shushu-tong", "name": "Shushu/Tong", "site": "https://shushutong.com", "focus": ["women"]}
+    ],
+    "spain": [
+      {"id": "zara", "name": "Zara", "site": "https://www.zara.com", "focus": ["women", "men", "kids", "home"]},
+      {"id": "mango", "name": "Mango", "site": "https://shop.mango.com", "focus": ["women", "men", "kids"]},
+      {"id": "mayoral", "name": "Mayoral", "site": "https://www.mayoral.com", "focus": ["kids"]},
+      {"id": "tuc-tuc", "name": "Tuc Tuc", "site": "https://www.tuctuc.com", "focus": ["kids"]},
+      {"id": "neck-and-neck", "name": "Neck & Neck", "site": "https://www.neckandneck.com", "focus": ["kids"]},
+      {"id": "desigual", "name": "Desigual", "site": "https://www.desigual.com", "focus": ["women", "men", "kids"]}
+    ],
+    "germany": [
+      {"id": "s-oliver", "name": "s.Oliver", "site": "https://www.soliver.de", "focus": ["women", "men", "kids"]},
+      {"id": "esprit", "name": "Esprit", "site": "https://www.esprit.de", "focus": ["women", "men"]},
+      {"id": "jako-o", "name": "JAKO-O", "site": "https://www.jako-o.com", "focus": ["kids"]},
+      {"id": "sanetta", "name": "Sanetta", "site": "https://www.sanetta.com", "focus": ["kids"]},
+      {"id": "armedangels", "name": "Armedangels", "site": "https://www.armedangels.com", "focus": ["women", "men"]},
+      {"id": "marc-o-polo", "name": "Marc O'Polo", "site": "https://www.marc-o-polo.com", "focus": ["women", "men", "kids"]}
+    ],
+    "global": [
+      {"id": "hm", "name": "H&M", "site": "https://www.hm.com", "focus": ["women", "men", "kids", "home"]},
+      {"id": "zara-global", "name": "Zara", "site": "https://www.zara.com", "focus": ["women", "men", "kids", "home"]},
+      {"id": "uniqlo-global", "name": "Uniqlo", "site": "https://www.uniqlo.com", "focus": ["women", "men", "kids"]},
+      {"id": "nike", "name": "Nike", "site": "https://www.nike.com", "focus": ["women", "men", "kids"]},
+      {"id": "adidas", "name": "adidas", "site": "https://www.adidas.com", "focus": ["women", "men", "kids"]}
+    ]
+  }
+}

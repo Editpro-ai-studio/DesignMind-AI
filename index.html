@@ -19,7 +19,7 @@
 <title>DesignMind AI</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Young+Serif&family=Figtree:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,600;1,6..96,400&family=Figtree:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap">
 <style>
 /* Layout: a dyer's swatch book. Sticky header with a selvedge stripe, section tabs, then a filter rail + record grid. */
 :root{
@@ -27,7 +27,7 @@
   --indigo:#2C3C93; --indigo-soft:#E3E7F8; --saffron:#B67A0E; --saffron-soft:#FBEFD6;
   --ok:#1F7A4D; --ok-soft:#DDF2E6; --warn:#9A5B00; --warn-soft:#FCEBCB; --bad:#A23232; --bad-soft:#F8E0E0;
   --fc:#6A3FA0; --fc-soft:#EEE5F8;
-  --display:"Young Serif",Georgia,"Times New Roman",serif;
+  --display:"Bodoni Moda",Didot,"Bodoni 72",Georgia,serif;
   --body:"Figtree",system-ui,-apple-system,"Segoe UI",sans-serif;
   --mono:"JetBrains Mono",ui-monospace,Menlo,Consolas,monospace;
   --r:10px;
@@ -149,6 +149,68 @@ canvas{max-width:100%;border-radius:8px;border:1px solid var(--line);display:blo
 .confirm{display:inline-flex;gap:6px;align-items:center;font-size:13px}
 details summary{cursor:pointer;font-weight:600;font-size:13px}
 @media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+/* ---- Editorial layer: indigo masthead, larger type, lookbook grids ---- */
+:root{--band:#1B2559;--band-fg:#F4F1FF;--band-muted:#AEB6E6;--shadow:0 1px 2px rgba(22,26,43,.06),0 8px 24px -12px rgba(22,26,43,.18)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--band:#0B0E1A;--band-fg:#ECEEFF;--band-muted:#8E97C8;--shadow:0 1px 2px rgba(0,0,0,.3),0 10px 28px -14px rgba(0,0,0,.6)}}
+:root[data-theme="dark"]{--band:#0B0E1A;--band-fg:#ECEEFF;--band-muted:#8E97C8;--shadow:0 1px 2px rgba(0,0,0,.3),0 10px 28px -14px rgba(0,0,0,.6)}
+body::before{background:var(--band)}
+header.top{background:var(--band);border-bottom:none;color:var(--band-fg)}
+.brand{font-size:26px;letter-spacing:.01em;color:var(--band-fg)}
+.brand b{color:var(--saffron);font-style:italic;font-weight:400}
+.today{color:var(--band-muted)}
+nav.tabs{background:rgba(255,255,255,.06);border-radius:999px;padding:4px}
+nav.tabs a{color:var(--band-muted);border-radius:999px;padding:7px 14px}
+nav.tabs a:hover{color:var(--band-fg)}
+nav.tabs a[aria-current="page"]{background:var(--band-fg);color:var(--band)}
+header.top .iconbtn{background:transparent;color:var(--band-fg);border-color:rgba(255,255,255,.22);border-radius:999px;padding:6px 14px}
+h1{font-size:clamp(30px,4.2vw,44px);font-weight:400;letter-spacing:-.01em;line-height:1.1}
+h1 em,.brand em{font-style:italic}
+h2{font-size:24px} h3{font-size:18px}
+.eyebrow{color:var(--saffron)}
+.card,.rail,.form,.season,.tablewrap,.brief{border-radius:14px;box-shadow:var(--shadow);border-color:transparent}
+.card{transition:transform .18s ease,box-shadow .18s ease}
+a.card:hover,button.card:hover,.bcard:hover,.prod:hover{transform:translateY(-2px)}
+.season{background:transparent;gap:12px;border:none;box-shadow:none}
+.season>div{border-radius:14px;box-shadow:var(--shadow)}
+.season .v{font-size:22px}
+.chip{border-radius:999px}
+.btn{border-radius:999px;padding:9px 18px}
+.btn.small{padding:6px 13px}
+/* Brands */
+.mrow{display:flex;gap:6px;overflow-x:auto;padding-bottom:6px;margin:14px 0 18px;scrollbar-width:thin}
+.mrow .chip{white-space:nowrap}
+.bgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:14px}
+.bcard{background:var(--panel);border-radius:14px;box-shadow:var(--shadow);padding:16px;display:flex;flex-direction:column;gap:10px;transition:transform .18s ease;min-width:0}
+.bhead{display:flex;gap:12px;align-items:center}
+.mono-mark{width:46px;height:46px;border-radius:50%;display:grid;place-items:center;font-family:var(--display);font-size:18px;color:var(--panel);background:var(--indigo);flex:none}
+.bcard h3{font-size:19px}
+.counts{display:flex;gap:10px;flex-wrap:wrap;font-size:12.5px;color:var(--muted)}
+.counts b{font-family:var(--mono);color:var(--fg);font-weight:500}
+.bactions{display:flex;gap:8px;flex-wrap:wrap;margin-top:auto}
+.bhero{display:flex;gap:16px;align-items:center;flex-wrap:wrap;margin-bottom:14px}
+.bhero .mono-mark{width:64px;height:64px;font-size:26px}
+.pgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:16px}
+@media (max-width:520px){.pgrid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}}
+.prod{background:var(--panel);border-radius:12px;box-shadow:var(--shadow);overflow:hidden;cursor:pointer;display:flex;flex-direction:column;border:none;padding:0;text-align:left;transition:transform .18s ease;min-width:0}
+.prod .ph{aspect-ratio:3/4;background:var(--sunk);position:relative;overflow:hidden}
+.prod img{width:100%;height:100%;object-fit:cover;display:block;max-width:100%}
+.prod .new{position:absolute;top:8px;left:8px;background:var(--saffron);color:#fff;font-size:10.5px;font-weight:700;letter-spacing:.08em;padding:3px 8px;border-radius:999px}
+.prod .pi{padding:10px 12px 12px;display:flex;flex-direction:column;gap:3px}
+.prod .pt{font-size:13.5px;line-height:1.3;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.prod .pp{font-family:var(--mono);font-size:12.5px;color:var(--muted)}
+.prod .pp s{opacity:.7;margin-left:6px}
+.lb{position:fixed;inset:0;z-index:30;background:rgba(10,12,24,.72);display:grid;place-items:center;padding:max(16px,env(safe-area-inset-top,0px)) max(16px,env(safe-area-inset-right,0px)) max(16px,env(safe-area-inset-bottom,0px)) max(16px,env(safe-area-inset-left,0px))}
+.lbin{background:var(--panel);border-radius:16px;max-width:980px;width:100%;max-height:100%;overflow:auto;display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:0}
+@media (max-width:760px){.lbin{grid-template-columns:minmax(0,1fr)}}
+.lbimg{background:var(--sunk);display:flex;flex-direction:column;gap:8px;padding:12px}
+.lbimg>img{width:100%;border-radius:10px;aspect-ratio:3/4;object-fit:cover}
+.thumbs{display:flex;gap:6px}
+.thumbs img{width:56px;height:72px;object-fit:cover;border-radius:6px;cursor:pointer;opacity:.7}
+.thumbs img[aria-current="true"]{opacity:1;outline:2px solid var(--indigo)}
+.lbtext{padding:20px;display:flex;flex-direction:column;gap:10px;min-width:0}
+.lbin{position:relative}.lbclose{position:absolute;top:10px;right:10px;z-index:2;background:var(--panel);color:var(--fg);border:none;border-radius:999px;width:36px;height:36px;cursor:pointer;font-size:20px;box-shadow:var(--shadow)}
+.tagrow{display:flex;flex-wrap:wrap;gap:5px}
+@media (prefers-reduced-motion:reduce){.card,.bcard,.prod{transition:none}a.card:hover,button.card:hover,.bcard:hover,.prod:hover{transform:none}}
 </style>
 
 <header class="top">
@@ -158,6 +220,7 @@ details summary{cursor:pointer;font-weight:600;font-size:13px}
     <span class="today mono" id="today"></span>
     <nav class="tabs" aria-label="Sections">
       <a href="#trends" data-v="trends">Trend Research</a>
+      <a href="#brands" data-v="brands" id="navBrands" hidden>Brands</a>
       <a href="#fabrics" data-v="fabrics">Fabric Intelligence</a>
       <a href="#design" data-v="design">Design Generator</a>
       <a href="#projects" data-v="projects">My Projects</a>
@@ -197,6 +260,15 @@ details summary{cursor:pointer;font-weight:600;font-size:13px}
         <div id="trendList"></div>
       </div>
     </div>
+  </section>
+
+  <!-- BRANDS (GitHub version: catalogues built by the brand workflow) -->
+  <section id="v-brands" hidden>
+    <div class="eyebrow">Brand catalogues</div><h1>Brands by <em>market</em></h1>
+    <p class="muted" style="max-width:70ch">Browse current designs from each brand inside the app. Catalogues are read weekly from stores that publish a public product feed; images load from the brand's own site and every design links back to it. Other brands open on their website.</p>
+    <div class="mrow" id="bMarket" role="tablist" aria-label="Market"></div>
+    <div id="bList"></div>
+    <div id="bDetail" hidden></div>
   </section>
 
   <!-- FABRICS -->
@@ -414,8 +486,8 @@ $("#today").textContent=NOW.toLocaleDateString("en-GB",{weekday:"short",day:"num
   $("#themeBtn").addEventListener("click",()=>{const cur=document.documentElement.getAttribute("data-theme")||(matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");const n=cur==="dark"?"light":"dark";document.documentElement.setAttribute("data-theme",n);store("dm.theme",n)})})();
 
 /* ---------- Routing ---------- */
-const VIEWS=window.DM_STATIC?["trends","fabrics","design","projects","settings"]:["trends","fabrics","design","projects"];
-function route(){const h=location.hash.replace("#","");S.view=VIEWS.includes(h)?h:"trends";VIEWS.forEach(v=>{$("#v-"+v).hidden=v!==S.view});if(!VIEWS.includes("settings"))$("#v-settings").hidden=true;$$("nav.tabs a").forEach(a=>a.setAttribute("aria-current",a.dataset.v===S.view?"page":"false"));
+const VIEWS=window.DM_STATIC?["trends","brands","fabrics","design","projects","settings"]:["trends","fabrics","design","projects"];
+function route(){const h=location.hash.replace("#","");S.view=VIEWS.includes(h)?h:"trends";VIEWS.forEach(v=>{$("#v-"+v).hidden=v!==S.view});if(!VIEWS.includes("settings"))$("#v-settings").hidden=true;if(!VIEWS.includes("brands"))$("#v-brands").hidden=true;if(S.view==="brands")renderBrands();$$("nav.tabs a").forEach(a=>a.setAttribute("aria-current",a.dataset.v===S.view?"page":"false"));
   if(S.view==="projects")renderProjects();if(S.view==="fabrics")renderFabrics()}
 addEventListener("hashchange",route);
 
@@ -459,7 +531,7 @@ function renderSeason(){
 }
 function renderStatusChips(){
   const list=S.trends[S.country]||[];const counts={all:list.length};STATUSES.forEach(s=>counts[s]=0);list.forEach(t=>counts[statusOf(t)]++);
-  $("#fStatus").innerHTML=[["all","All"],...STATUSES.map(s=>[s,ST_LABEL[s].replace("Currently ","").replace("Recently published","Recent").replace("Upcoming forecast","Forecast")])].map(([v,l])=>`<button type="button" class="chip" data-v="${v}" aria-pressed="${S.f.status===v}">${esc(l)}<span class="n">${counts[v]||0}</span></button>`).join("");
+  $("#fStatus").innerHTML=[["all","All"],...STATUSES.map(s=>[s,({observed:"Observed",recent:"Recent",emerging:"Emerging",forecast:"Forecast",historical:"Historical"})[s]])].map(([v,l])=>`<button type="button" class="chip" data-v="${v}" aria-pressed="${S.f.status===v}">${esc(l)}<span class="n">${counts[v]||0}</span></button>`).join("");
   const cc={};list.forEach(t=>cc[t.category]=(cc[t.category]||0)+1);
   $("#fCat").innerHTML=CATS.filter(([v])=>cc[v]).map(([v,l])=>`<button type="button" class="chip" data-v="${v}" aria-pressed="${S.f.cat.has(v)}">${esc(l)}<span class="n">${cc[v]}</span></button>`).join("")||'<span class="muted" style="font-size:12px">No categories yet</span>';
 }
@@ -787,13 +859,14 @@ async function saveProject(p){if(!db||!S.uid){toast("Sign in to save projects");
 async function loadProjects(){if(!db||!S.uid)return;try{const q=await mine().limit(1000).get();const all=q.docs.map(d=>({...d.data(),_id:d.id}));
   S.projects=all.filter(x=>x.kind==="project").sort((a,b)=>String(b.created).localeCompare(String(a.created)));all.filter(x=>x.kind==="fav").forEach(x=>S.favs.set(x.trendId,x.trend));}catch(e){}
   if(S.view==="projects")renderProjects();renderTrends()}
-const TYPE_L={concepts:"Design concepts",colourway:"Colourway",brief:"Trend brief",critique:"Design review"};
+const TYPE_L={concepts:"Design concepts",colourway:"Colourway",brief:"Trend brief",critique:"Design review",product:"Brand design"};
 function renderProjects(){const box=$("#projList");
   if(!db||!S.uid){box.innerHTML='<div class="empty">Sign in to claude.ai to save and see projects.</div>';return}
   const favs=[...S.favs.entries()];
   let html="";
   html+=`<div class="sec-h"><h2>Saved work</h2><span class="n">${S.projects.length}</span></div>`;
   html+=S.projects.length?`<div class="grid">${S.projects.map(p=>`<article class="card"><div class="cardtop"><span class="pill p-recent">${esc(TYPE_L[p.type]||p.type)}</span><span class="muted mono" style="font-size:12px;margin-left:auto">${esc(fmtD((p.created||"").slice(0,10)))}</span></div><h3>${esc(p.title)}</h3>
+    ${p.type==="product"&&p.data&&safeUrl(p.data.image)?`<img src="${esc(imgW(p.data.image,400))}" alt="" loading="lazy" style="border-radius:8px;aspect-ratio:3/4;object-fit:cover"><p style="font-size:13px" class="muted">${esc(p.data.brand)}${p.data.url&&safeUrl(p.data.url)?` · <a href="${esc(p.data.url)}" target="_blank" rel="noopener">Open on website</a>`:""}</p>`:""}
     ${p.type==="colourway"&&p.data&&p.data.thumb&&/^data:image\//.test(p.data.thumb)?`<img src="${esc(p.data.thumb)}" alt="Colourway preview" loading="lazy" style="border-radius:6px">${swatchRow(p.data.colors)}`:""}
     ${p.data&&p.data.text?`<p style="font-size:13px;white-space:pre-wrap;max-height:120px;overflow:hidden">${esc(p.data.text.slice(0,400))}…</p>`:""}
     ${p.type==="concepts"?`<p class="muted" style="font-size:13px">${(p.data.res.concepts||[]).length} concepts · ${esc(p.data.brief&&p.data.brief.season||"")}</p>`:""}
@@ -831,6 +904,74 @@ if(window.DM_STATIC){const D=window.DM_STATIC;$("#navSettings").hidden=false;$("
   const ib=$("#installBtn");const syncInstall=()=>{ib.hidden=!D.canInstall();$("#installState").textContent=D.installed()?"Installed: you are using the app version.":""};
   document.addEventListener("dm-installable",syncInstall);document.addEventListener("dm-installed",()=>{syncInstall();toast("DesignMind installed")});
   ib.addEventListener("click",async()=>{if(await D.install())toast("Installing…");syncInstall()});syncInstall();}
+
+/* ---------- Brands (GitHub version) ---------- */
+const CUR={pakistan:"Rs",india:"₹",uae:"AED",["saudi-arabia"]:"SAR",["united-kingdom"]:"£",["united-states"]:"$",italy:"€",france:"€",spain:"€",germany:"€",turkiye:"₺",japan:"¥",china:"¥",["south-korea"]:"₩",global:""};
+const B={reg:null,index:{},market:null,brand:null,cat:null,seg:"kids",sub:"",q:"",sort:"new",shown:60};
+function imgW(u,w){if(!safeUrl(u))return "";try{const x=new URL(u);if(/shopify|cdn\.shop/.test(x.hostname)||x.pathname.includes("/files/")||x.pathname.includes("/products/"))x.searchParams.set("width",w);return x.toString()}catch(e){return u}}
+const initials=n=>n.replace(/[^\p{L}\p{N} ]/gu,"").split(/\s+/).filter(Boolean).slice(0,2).map(w=>w[0]).join("").toUpperCase();
+const ST_B={catalogue:["In-app designs","p-observed"],website:["Website only","p-unknown"],unreachable:["Site not reached","p-warn"],error:["Check failed","p-warn"]};
+async function loadBrandReg(){if(B.reg)return;try{const [r,i]=await Promise.all([fetch("data/brands.json").then(x=>x.json()),fetch("data/brands/index.json").then(x=>x.ok?x.json():{}).catch(()=>({}))]);B.reg=r.markets;B.index=i||{}}catch(e){B.reg={}}}
+async function renderBrands(){await loadBrandReg();if(!B.market)B.market=S.country in B.reg?S.country:"pakistan";
+  $("#bMarket").innerHTML=COUNTRIES.filter(([s])=>B.reg[s]).map(([s,n])=>`<button type="button" class="chip" data-m="${s}" aria-pressed="${B.market===s}">${esc(n)}<span class="n">${B.reg[s].length}</span></button>`).join("");
+  if(B.brand)return renderBrand();
+  $("#bDetail").hidden=true;const list=$("#bList");list.hidden=false;
+  const brands=(B.reg[B.market]||[]).slice().sort((a,b)=>((B.index[b.id]||{}).status==="catalogue")-((B.index[a.id]||{}).status==="catalogue"));
+  if(!brands.length){list.innerHTML='<div class="empty">No brands listed for this market yet. Add them in data/brands.json.</div>';return}
+  const anyChecked=brands.some(b=>B.index[b.id]);
+  list.innerHTML=(anyChecked?"":'<div class="notice" style="margin-bottom:14px">Brand catalogues have not been read yet. On GitHub, open Actions → <b>Update brand catalogues</b> → Run workflow. Until then each brand opens on its website.</div>')+
+  `<div class="bgrid">${brands.map(b=>{const ix=B.index[b.id]||{};const st=ST_B[ix.status]||["Not checked yet","p-unknown"];const c=ix.counts||{};
+    return `<article class="bcard"><div class="bhead"><span class="mono-mark" aria-hidden="true">${esc(initials(b.name))}</span><div style="min-width:0"><h3>${esc(b.name)}</h3><div class="muted" style="font-size:12.5px">${esc(b.focus.join(" · "))}</div></div></div>
+      <div><span class="pill ${st[1]}">${st[0]}</span>${ix.checked?` <span class="muted mono" style="font-size:11.5px">checked ${esc(fmtD(ix.checked))}</span>`:""}</div>
+      ${ix.status==="catalogue"?`<div class="counts">${["kids","women","men","home"].filter(k=>c[k]).map(k=>`<span><b>${c[k]}</b> ${k}</span>`).join("")}</div>`:ix.reason?`<div class="muted" style="font-size:12.5px">${esc(ix.reason)}</div>`:""}
+      <div class="bactions">${ix.status==="catalogue"?`<button class="btn small" type="button" data-open-brand="${esc(b.id)}">${c.kids?"View kids designs":"View designs"}</button>`:""}<a class="btn small ghost" style="text-decoration:none" href="${esc(safeUrl(b.site))}" target="_blank" rel="noopener">Open website</a></div></article>`}).join("")}</div>`;}
+async function renderBrand(){const b=(B.reg[B.market]||[]).find(x=>x.id===B.brand);if(!b){B.brand=null;return renderBrands()}
+  $("#bList").hidden=true;const box=$("#bDetail");box.hidden=false;
+  if(!B.cat||B.cat.id!==b.id){box.innerHTML='<div class="empty">Loading designs…</div>';try{const j=await fetch(`data/brands/${encodeURIComponent(b.id)}.json`).then(r=>{if(!r.ok)throw 0;return r.json()});B.cat={id:b.id,...j}}catch(e){box.innerHTML=`<div class="empty">This brand's catalogue isn't available. <a href="${esc(safeUrl(b.site))}" target="_blank" rel="noopener">Open ${esc(b.name)} website</a></div>`;return}
+    const segs=new Set(B.cat.products.map(p=>p.segment));B.seg=segs.has("kids")?"kids":[...segs][0];B.sub="";B.q="";B.shown=60}
+  const cur=CUR[B.market]||"";const all=B.cat.products;const cnt={};all.forEach(p=>cnt[p.segment]=(cnt[p.segment]||0)+1);
+  let list=all.filter(p=>p.segment===B.seg&&(!B.sub||p.sub===B.sub));
+  if(B.q){const q=B.q.toLowerCase();list=list.filter(p=>`${p.title} ${p.type} ${(p.tags||[]).join(" ")}`.toLowerCase().includes(q))}
+  if(B.sort==="low")list.sort((a,b)=>(a.price??1e12)-(b.price??1e12));else if(B.sort==="high")list.sort((a,b)=>(b.price??-1)-(a.price??-1));else list.sort((a,b)=>String(b.added).localeCompare(String(a.added)));
+  const subs=B.seg==="kids"?["girls","boys","baby"].filter(k=>all.some(p=>p.segment==="kids"&&p.sub===k)):[];
+  const fmtP=n=>n==null?"":`${cur}${cur&&cur.length>1?" ":""}${Number(n).toLocaleString("en-US",{maximumFractionDigits:2})}`;
+  box.innerHTML=`<div class="row" style="margin-bottom:12px"><button class="btn small ghost" type="button" id="bBack">← All ${esc(COUNTRIES.find(c=>c[0]===B.market)[1])} brands</button></div>
+   <div class="bhero"><span class="mono-mark" aria-hidden="true">${esc(initials(b.name))}</span><div style="min-width:0"><h2 style="font-size:30px">${esc(b.name)}</h2><div class="muted" style="font-size:13px">${all.length} designs · updated ${esc(fmtD(B.cat.updated))} · <a href="${esc(safeUrl(B.cat.site||b.site))}" target="_blank" rel="noopener">Open website</a></div></div></div>
+   <div class="subtabs">${["kids","women","men","home","other"].filter(k=>cnt[k]).map(k=>`<button type="button" class="chip" data-seg="${k}" aria-pressed="${B.seg===k}">${k[0].toUpperCase()+k.slice(1)}<span class="n">${cnt[k]}</span></button>`).join("")}</div>
+   <div class="row" style="margin-bottom:14px">${subs.length?`<div class="chips"><button type="button" class="chip" data-sub="" aria-pressed="${!B.sub}">All</button>${subs.map(k=>`<button type="button" class="chip" data-sub="${k}" aria-pressed="${B.sub===k}">${k[0].toUpperCase()+k.slice(1)}</button>`).join("")}</div>`:""}
+     <input type="search" id="bQ" placeholder="Search designs, e.g. frock, embroidered, 3 piece" value="${esc(B.q)}" style="flex:1 1 220px;max-width:340px">
+     <select id="bSort" style="width:auto"><option value="new">Newest first</option><option value="low">Price: low to high</option><option value="high">Price: high to low</option></select></div>
+   ${list.length?`<div class="pgrid">${list.slice(0,B.shown).map((p,i)=>{const isNew=p.added&&(NOW-parseD(p.added))/DAY<30;return `<button type="button" class="prod" data-pi="${i}"><div class="ph">${p.images&&p.images[0]?`<img src="${esc(imgW(p.images[0],480))}" alt="${esc(p.title)}" loading="lazy" referrerpolicy="no-referrer">`:""}${isNew?'<span class="new">NEW</span>':""}</div><div class="pi"><span class="pt">${esc(p.title)}</span><span class="pp">${esc(fmtP(p.price))}${p.compare&&p.compare>p.price?`<s>${esc(fmtP(p.compare))}</s>`:""}</span></div></button>`}).join("")}</div>
+     ${list.length>B.shown?`<div class="row" style="justify-content:center;margin-top:16px"><button class="btn ghost" type="button" id="bMore">Show more (${list.length-B.shown})</button></div>`:""}`:'<div class="empty">No designs match.</div>'}
+   <p class="muted" style="font-size:12px;margin-top:16px">Designs, photos and names belong to ${esc(b.name)}. Shown for reference with links to the original; use them for research, not for copying.</p>`;
+  $("#bSort").value=B.sort;B._list=list;}
+function openProduct(p){const b=(B.reg[B.market]||[]).find(x=>x.id===B.brand);const cur=CUR[B.market]||"";const el=document.createElement("div");el.className="lb";el.setAttribute("role","dialog");el.setAttribute("aria-modal","true");
+  const imgs=(p.images||[]).filter(safeUrl);
+  el.innerHTML=`<div class="lbin"><div class="lbimg">${imgs[0]?`<img id="lbMain" src="${esc(imgW(imgs[0],900))}" alt="${esc(p.title)}" referrerpolicy="no-referrer">`:'<div class="empty">No image</div>'}${imgs.length>1?`<div class="thumbs">${imgs.map((u,i)=>`<img src="${esc(imgW(u,160))}" alt="" data-ti="${i}" aria-current="${i===0}" referrerpolicy="no-referrer">`).join("")}</div>`:""}</div>
+   <div class="lbtext"><button class="lbclose" type="button" aria-label="Close">×</button><div class="eyebrow">${esc(b?b.name:"")}</div><h2>${esc(p.title)}</h2>
+   <div class="mono" style="font-size:15px">${p.price!=null?esc(cur+" "+Number(p.price).toLocaleString("en-US")):""}</div>
+   <div class="kv"><b>Category</b><span>${esc([p.segment,p.sub,p.type].filter(Boolean).join(" · "))}</span><b>Added</b><span>${esc(p.added?fmtD(p.added):"Unknown")}</span></div>
+   ${(p.tags||[]).length?`<div class="tagrow">${p.tags.map(t=>`<span class="pill p-unknown">${esc(t)}</span>`).join("")}</div>`:""}
+   <div class="row" style="margin-top:6px"><a class="btn" style="text-decoration:none" href="${esc(safeUrl(p.url))}" target="_blank" rel="noopener">View on ${esc(b?b.name:"brand")} website</a></div>
+   <div class="row"><button class="btn small ghost" type="button" id="lbSave">Save to projects</button><button class="btn small ghost" type="button" id="lbRef">Use as design reference</button></div>
+   <div class="status" id="lbStatus"></div></div></div>`;
+  document.body.appendChild(el);const close=()=>{el.remove();document.removeEventListener("keydown",esc_)};const esc_=e=>{if(e.key==="Escape")close()};document.addEventListener("keydown",esc_);
+  el.addEventListener("click",e=>{if(e.target===el||e.target.closest(".lbclose"))close();const t=e.target.closest("[data-ti]");if(t){$("#lbMain").src=imgW(imgs[+t.dataset.ti],900);el.querySelectorAll("[data-ti]").forEach(x=>x.setAttribute("aria-current",String(x===t)))}});
+  el.querySelector(".lbclose").focus();
+  $("#lbSave").onclick=()=>saveProject({type:"product",title:`${b?b.name:""} · ${p.title}`,data:{brand:b?b.name:"",title:p.title,url:p.url,image:imgs[0]||"",price:p.price,market:B.market}});
+  $("#lbRef").onclick=()=>{const st=$("#lbStatus");st.textContent="Loading image…";const im=new Image();im.crossOrigin="anonymous";im.referrerPolicy="no-referrer";
+    im.onload=()=>{try{cImg=im;showThumb("#cDrop",im,`${b?b.name:""} reference`);$("#cBrief").value=$("#cBrief").value||`Original design inspired by the mood of a ${p.segment} reference from ${b?b.name:"a brand"}; do not copy its motifs or layout.`;$("#cMot").value=20;$("#cMot").dispatchEvent(new Event("input"));close();location.hash="#design";toast("Reference loaded. Motif similarity set to 20% so results stay original.")}catch(err){cImg=null;st.className="status err";st.textContent="This brand's images can't be read by the app. Save the image from the brand site and upload it in Design Generator."}};
+    im.onerror=()=>{st.className="status err";st.textContent="Image could not be loaded. Save it from the brand site and upload it instead."};im.src=imgW(imgs[0],1200)};}
+$("#bMarket").addEventListener("click",e=>{const c=e.target.closest("[data-m]");if(!c)return;B.market=c.dataset.m;B.brand=null;renderBrands()});
+$("#bList").addEventListener("click",e=>{const o=e.target.closest("[data-open-brand]");if(o){B.brand=o.dataset.openBrand;renderBrand();scrollTo({top:0})}});
+$("#bDetail").addEventListener("click",e=>{if(e.target.closest("#bBack")){B.brand=null;renderBrands();return}
+  const sg=e.target.closest("[data-seg]");if(sg){B.seg=sg.dataset.seg;B.sub="";B.shown=60;renderBrand();return}
+  const sb=e.target.closest("[data-sub]");if(sb){B.sub=sb.dataset.sub;B.shown=60;renderBrand();return}
+  if(e.target.closest("#bMore")){B.shown+=60;renderBrand();return}
+  const pr=e.target.closest("[data-pi]");if(pr)openProduct(B._list[+pr.dataset.pi]);});
+$("#bDetail").addEventListener("input",e=>{if(e.target.id==="bQ"){B.q=e.target.value.trim();B.shown=60;clearTimeout(B.t);B.t=setTimeout(()=>{renderBrand().then(()=>{const q=$("#bQ");if(q){q.focus();q.setSelectionRange(q.value.length,q.value.length)}})},250)}});
+$("#bDetail").addEventListener("change",e=>{if(e.target.id==="bSort"){B.sort=e.target.value;renderBrand()}});
+if(window.DM_STATIC)$("#navBrands").hidden=false;
 
 /* ---------- Boot ---------- */
 route();renderTrends();renderFabrics();
