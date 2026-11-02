@@ -1438,5 +1438,84 @@
   },
   "via": "sitemap",
   "kidsCollections": []
+ },
+ "next": {
+  "status": "website",
+  "checked": "2026-11-02",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "jojo-maman-bebe": {
+  "status": "website",
+  "checked": "2026-11-02",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "frugi": {
+  "status": "catalogue",
+  "checked": "2026-11-02",
+  "counts": {
+   "kids": 300
+  },
+  "via": "shopify",
+  "kidsCollections": [
+   "30% off Baby Gifting",
+   "Baby Accessories",
+   "Baby Bodies & Vests",
+   "Baby Clothing",
+   "Baby Coats & Jackets",
+   "Baby Dresses & Skirts",
+   "Baby Dungarees",
+   "Baby Gift Sets & Outfits",
+   "Baby Hats & Gloves",
+   "Baby Jumpers & Cardigans",
+   "Baby Leggings",
+   "Baby Muslins & Blankets"
+  ]
+ },
+ "marks-spencer": {
+  "status": "catalogue",
+  "checked": "2026-11-02",
+  "counts": {
+   "kids": 2,
+   "home": 60,
+   "other": 1
+  },
+  "via": "sitemap",
+  "kidsCollections": []
+ },
+ "boden": {
+  "status": "catalogue",
+  "checked": "2026-11-02",
+  "counts": {
+   "kids": 176
+  },
+  "via": "sitemap",
+  "kidsCollections": []
+ },
+ "primark": {
+  "status": "website",
+  "checked": "2026-11-02",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "monsoon": {
+  "status": "catalogue",
+  "checked": "2026-11-02",
+  "counts": {
+   "kids": 188,
+   "women": 52,
+   "other": 20
+  },
+  "via": "sitemap",
+  "kidsCollections": []
+ },
+ "river-island": {
+  "status": "catalogue",
+  "checked": "2026-11-02",
+  "counts": {
+   "kids": 69,
+   "women": 160,
+   "men": 1
+  },
+  "via": "sitemap",
+  "kidsCollections": []
  }
 }
