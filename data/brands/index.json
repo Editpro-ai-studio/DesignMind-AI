@@ -1901,5 +1901,35 @@
   },
   "via": "sitemap",
   "kidsCollections": []
+ },
+ "max-fashion": {
+  "status": "website",
+  "checked": "2026-11-02",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "splash": {
+  "status": "website",
+  "checked": "2026-11-02",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "mothercare-ae": {
+  "status": "website",
+  "checked": "2026-11-02",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "bouguessa": {
+  "status": "catalogue",
+  "checked": "2026-11-02",
+  "counts": {
+   "women": 160,
+   "kids": 9
+  },
+  "via": "shopify",
+  "kidsCollections": []
+ },
+ "ounass": {
+  "status": "website",
+  "checked": "2026-11-02",
+  "reason": "site blocks automatic reading or has no readable product list"
  }
 }
