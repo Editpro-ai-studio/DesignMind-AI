@@ -1931,5 +1931,24 @@
   "status": "website",
   "checked": "2026-11-02",
   "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "redtag": {
+  "status": "catalogue",
+  "checked": "2026-11-02",
+  "counts": {
+   "other": 8
+  },
+  "via": "shopify",
+  "kidsCollections": []
+ },
+ "centrepoint": {
+  "status": "website",
+  "checked": "2026-11-02",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "ashi-studio": {
+  "status": "website",
+  "checked": "2026-11-02",
+  "reason": "site blocks automatic reading or has no readable product list"
  }
 }
