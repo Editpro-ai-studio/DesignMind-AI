@@ -1710,7 +1710,7 @@
    {
     "id": "uniqlo",
     "name": "Uniqlo",
-    "site": "https://www.uniqlo.com",
+    "site": "https://s.uniqlo.com",
     "focus": [
      "women",
      "men",
@@ -1720,7 +1720,7 @@
    {
     "id": "muji",
     "name": "Muji",
-    "site": "https://www.muji.com",
+    "site": "https://www.muji.us",
     "focus": [
      "women",
      "men",

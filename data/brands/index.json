@@ -1745,5 +1745,68 @@
   },
   "via": "sitemap",
   "kidsCollections": []
+ },
+ "miki-house": {
+  "status": "catalogue",
+  "checked": "2026-11-02",
+  "counts": {
+   "kids": 300
+  },
+  "via": "shopify",
+  "kidsCollections": [
+   "2024ダブルB D-Basic BABY",
+   "Baby Cashmere Series",
+   "boys&girls ガールズアイテム",
+   "boys&girls ボーイズアイテム",
+   "Kids' Winter Outerwear",
+   "Sea Island Cotton for Baby",
+   "Vicuna × Baby Cashmere",
+   "【オフィシャルサイト限定】帽子セット"
+  ]
+ },
+ "familiar": {
+  "status": "catalogue",
+  "checked": "2026-11-02",
+  "counts": {
+   "kids": 300
+  },
+  "via": "shopify",
+  "kidsCollections": [
+   "Baby - 02119FW51",
+   "Baby - 02119FW52",
+   "Baby - 02119FW53",
+   "Baby - 02119FW54",
+   "Baby - 02119FW55",
+   "Baby - 02119FW56",
+   "Baby - 02119FW57",
+   "Baby - 02119FW58",
+   "Baby - 02119FW59",
+   "Baby - 02119FW60",
+   "Baby - 02119FW61",
+   "Baby - 02119FW62"
+  ]
+ },
+ "muji": {
+  "status": "catalogue",
+  "checked": "2026-11-02",
+  "counts": {
+   "other": 60,
+   "home": 60,
+   "men": 100,
+   "women": 160,
+   "kids": 5
+  },
+  "via": "shopify",
+  "kidsCollections": []
+ },
+ "uniqlo": {
+  "status": "website",
+  "checked": "2026-11-02",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "beams": {
+  "status": "unreachable",
+  "checked": "2026-11-02",
+  "reason": "site did not respond"
  }
 }
