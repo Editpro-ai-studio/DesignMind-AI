@@ -1808,5 +1808,33 @@
   "status": "unreachable",
   "checked": "2026-11-02",
   "reason": "site did not respond"
+ },
+ "spao": {
+  "status": "website",
+  "checked": "2026-11-02",
+  "reason": "site asks not to be read automatically (robots.txt)"
+ },
+ "musinsa": {
+  "status": "website",
+  "checked": "2026-11-02",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "wooyoungmi": {
+  "status": "catalogue",
+  "checked": "2026-11-02",
+  "counts": {
+   "other": 60
+  },
+  "via": "sitemap",
+  "kidsCollections": []
+ },
+ "ader-error": {
+  "status": "catalogue",
+  "checked": "2026-11-02",
+  "counts": {
+   "other": 60
+  },
+  "via": "sitemap",
+  "kidsCollections": []
  }
 }
