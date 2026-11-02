@@ -282,7 +282,7 @@ function addBrandFromEnv() {
   let regChanged = false;
   const jobs = [];
   for (const [market, brands] of Object.entries(REG.markets)) for (const b of brands) {
-    const selected = arg === 'all' || arg === market || arg === b.id;
+    const selected = arg === 'all' || arg === market || arg === b.id || (arg === 'rest' && market !== 'pakistan');
     if (!selected) { if (prev[b.id]) index[b.id] = prev[b.id]; } else jobs.push([market, b]);
   }
   const done = new Set();
@@ -319,12 +319,13 @@ function addBrandFromEnv() {
     }
     index[b.id] = entry;
     summary.push(`${b.id}:${entry.status}`);
+    fs.writeFileSync(prevIndexFile, JSON.stringify({ ...prev, ...index }, null, 1));
     console.log(`${market} / ${b.name}: ${log.join(' ')}`);
   }
   const POOL = 4;
   let next = 0;
   await Promise.all(Array.from({ length: POOL }, async () => { while (next < jobs.length) { const [m, b] = jobs[next++]; await one(m, b); await sleep(1500); } }));
-  fs.writeFileSync(prevIndexFile, JSON.stringify(index, null, 1));
+  fs.writeFileSync(prevIndexFile, JSON.stringify({ ...prev, ...index }, null, 1));
   if (regChanged) fs.writeFileSync(path.join(ROOT, 'data', 'brands.json'), JSON.stringify(REG, null, 1));
   const n = k => summary.filter(x => x.endsWith(':' + k)).length;
   console.log(`\nSummary: ${n('catalogue')} with designs in the app, ${n('website')} website only, ${n('unreachable')} not reached, ${n('error')} errors`);

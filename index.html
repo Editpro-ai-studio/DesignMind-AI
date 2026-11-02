@@ -979,7 +979,8 @@ const B={reg:null,index:{},market:null,want:(()=>{try{return localStorage.getIte
 function imgW(u,w){if(!safeUrl(u))return "";try{const x=new URL(u);if(/shopify|cdn\.shop/.test(x.hostname)||x.pathname.includes("/files/")||x.pathname.includes("/products/"))x.searchParams.set("width",w);return x.toString()}catch(e){return u}}
 const initials=n=>n.replace(/[^\p{L}\p{N} ]/gu,"").split(/\s+/).filter(Boolean).slice(0,2).map(w=>w[0]).join("").toUpperCase();
 const ST_B={catalogue:["In-app designs","p-observed"],website:["Website only","p-unknown"],unreachable:["Site not reached","p-warn"],error:["Check failed","p-warn"]};
-async function loadBrandReg(){if(B.reg)return;try{const [r,i]=await Promise.all([fetch("data/brands.json").then(x=>x.json()),fetch("data/brands/index.json").then(x=>x.ok?x.json():{}).catch(()=>({}))]);B.reg=r.markets;B.index=i||{}}catch(e){B.reg={}}}
+function repoLink(){const r=window.DM_STATIC&&window.DM_STATIC.repoUrl();return r?`<div style="margin-top:8px"><a class="btn small" style="text-decoration:none" href="${esc(r)}/actions/workflows/update-brands.yml" target="_blank" rel="noopener">Open GitHub Actions</a></div>`:""}
+async function loadBrandReg(){if(B.reg)return;try{const [r,i]=await Promise.all([fetch("data/brands.json").then(x=>x.json()),fetch("data/brands/index.json?t="+Date.now()).then(x=>x.ok?x.json():{}).catch(()=>({}))]);B.reg=r.markets;B.index=i||{}}catch(e){B.reg={}}}
 async function renderBrands(){await loadBrandReg();if(!B.market)B.market="all";
   const total=Object.values(B.reg).reduce((n,l)=>n+l.length,0);
   $("#bMarket").innerHTML=`<button type="button" class="chip" data-m="all" aria-pressed="${B.market==="all"}">All markets<span class="n">${total}</span></button>`+COUNTRIES.filter(([s])=>B.reg[s]).map(([s,n])=>`<button type="button" class="chip" data-m="${s}" aria-pressed="${B.market===s}">${esc(n)}<span class="n">${B.reg[s].length}</span></button>`).join("");
@@ -988,19 +989,20 @@ async function renderBrands(){await loadBrandReg();if(!B.market)B.market="all";
   $("#bDetail").hidden=true;const list=$("#bList");list.hidden=false;
   let brands=B.market==="all"?Object.entries(B.reg).flatMap(([m,l])=>l.map(b=>({...b,market:m}))):(B.reg[B.market]||[]).map(b=>({...b,market:B.market}));
   const seen=new Set();brands=brands.filter(b=>!seen.has(b.id)&&seen.add(b.id));
-  if(B.want!=="all")brands=brands.filter(b=>b.focus.includes(B.want));
+  if(B.want!=="all"&&!B.bq)brands=brands.filter(b=>b.focus.includes(B.want));
   const STY={lawn:"Lawn & unstitched",["luxury pret"]:"Luxury pret",bridal:"Bridal & couture",western:"Western",menswear:"Menswear",kids:"Kids brands",home:"Home"};
   const avail=Object.keys(STY).filter(k=>brands.some(b=>(b.styles||[]).includes(k)));
   if(B.style&&!avail.includes(B.style))B.style="";
   $("#bStyle").innerHTML=avail.length?`<button type="button" class="chip" data-sty="" aria-pressed="${!B.style}">All types</button>`+avail.map(k=>`<button type="button" class="chip" data-sty="${k}" aria-pressed="${B.style===k}">${STY[k]}<span class="n">${brands.filter(b=>(b.styles||[]).includes(k)).length}</span></button>`).join(""):"";
-  if(B.style)brands=brands.filter(b=>(b.styles||[]).includes(B.style));
+  if(B.style&&!B.bq)brands=brands.filter(b=>(b.styles||[]).includes(B.style));
   if(B.bq){const q=B.bq.toLowerCase();brands=brands.filter(b=>b.name.toLowerCase().includes(q))}
   brands.sort((a,b)=>a.name.localeCompare(b.name));
   if(!brands.length){list.innerHTML='<div class="empty">No brands match. Add one from GitHub: Actions → Update brand catalogues → Run workflow, and fill in "Add a new brand".</div>';return}
   const anyChecked=Object.keys(B.index).length>0;
   const groups={};brands.forEach(b=>{const L=(b.name.match(/[A-Za-z]/)||["#"])[0].toUpperCase();(groups[L]||=[]).push(b)});
   const mName=m=>(COUNTRIES.find(c=>c[0]===m)||[m,m])[1];
-  list.innerHTML=(anyChecked?"":'<div class="notice" style="margin-bottom:14px">Brand catalogues have not been read yet. On GitHub open Actions → <b>Update brand catalogues</b> → Run workflow.</div>')+
+  const ready=Object.values(B.index).filter(x=>x.status==="catalogue").length;const lastChk=Object.values(B.index).map(x=>x.checked||"").sort().pop();
+  list.innerHTML=(anyChecked?`<div class="notice" style="margin-bottom:14px"><b>${ready}</b> brands have designs in the app${lastChk?` · last updated ${esc(fmtD(lastChk))}`:""}. Brands marked "Not read yet" are still being prepared on GitHub.</div>`:`<div class="notice warn" style="margin-bottom:14px"><b>Designs are not loaded yet.</b> They are prepared on GitHub, then appear here automatically.<ol style="margin:6px 0 0;padding-left:20px"><li>Open your repository on GitHub → <b>Actions</b>.</li><li>Choose <b>Update brand catalogues</b> → <b>Run workflow</b> → green <b>Run workflow</b>.</li><li>Pakistani brands appear in about 20 minutes, other countries later. Reopen the app to see them.</li></ol>${repoLink()}</div>`)+
    `<div class="muted" style="font-size:13px;margin-bottom:10px">${brands.length} brands · tap a name to see its ${B.want==="all"?"":B.want+" "}designs here</div>`+
    Object.keys(groups).sort().map(L=>`<div class="azgrp"><div class="azl">${esc(L)}</div><div class="azlist">${groups[L].map(b=>{const ix=B.index[b.id]||{};const c=ix.counts||{};const n=B.want==="all"?Object.values(c).reduce((a,x)=>a+x,0):(c[B.want]||0);const ok=ix.status==="catalogue"&&n>0;
      return `<button type="button" class="azrow" data-open-brand="${esc(b.id)}" data-bm="${esc(b.market)}"><span class="mono-mark sm" aria-hidden="true">${esc(initials(b.name))}</span><span class="azname">${esc(b.name)}<small>${esc(mName(b.market))} · ${esc((b.styles&&b.styles.length?b.styles:b.focus).join(", "))}</small></span><span class="azcount ${ok?"":"off"}">${ok?`${n} designs`:ix.status?"Not readable":"Not read yet"}</span></button>`}).join("")}</div></div>`).join("");}
@@ -1009,8 +1011,8 @@ async function renderBrand(){const b=Object.values(B.reg).flat().find(x=>x.id===
   $("#bList").hidden=true;const box=$("#bDetail");box.hidden=false;
   if(!B.cat||B.cat.id!==b.id){box.innerHTML='<div class="empty">Loading designs…</div>';try{const j=await fetch(`data/brands/${encodeURIComponent(b.id)}.json`).then(r=>{if(!r.ok)throw 0;return r.json()});B.cat={id:b.id,...j}}catch(e){const ix=B.index[b.id]||{};
       box.innerHTML=`<div class="row" style="margin-bottom:12px"><button class="btn small ghost" type="button" id="bBack">← All brands</button></div><div class="bhero"><span class="mono-mark" aria-hidden="true">${esc(initials(b.name))}</span><div><h2 style="font-size:30px">${esc(b.name)}</h2></div></div>
-      <div class="notice">${ix.status?`The app could not read ${esc(b.name)}'s designs (${esc(ix.reason||ix.status)}, checked ${esc(fmtD(ix.checked))}). Large brands often block automatic reading; then the only way to see their designs is their own website.`:`${esc(b.name)} has not been read yet. On GitHub run <b>Update brand catalogues</b> with target <code>${esc(b.id)}</code>.`}</div>
-      <div class="row" style="margin-top:12px"><a class="btn small ghost" style="text-decoration:none" href="${esc(safeUrl(b.site))}" target="_blank" rel="noopener">Open ${esc(b.name)} website</a></div>`;return}
+      ${ix.status?`<div class="notice">${esc(b.name)}'s website did not let the app read its designs (${esc(ix.reason||ix.status)}, checked ${esc(fmtD(ix.checked))}). The app tries again every Wednesday.</div>`:`<div class="notice warn"><b>${esc(b.name)}'s designs are not loaded yet.</b> On GitHub open <b>Actions → Update brand catalogues → Run workflow</b>. To load only this brand, type <code>${esc(b.id)}</code> in the target box. It takes a few minutes, then the designs show here.${repoLink()}</div>`}
+      <p class="muted" style="font-size:12.5px;margin-top:12px">Website: <a href="${esc(safeUrl(b.site))}" target="_blank" rel="noopener">${esc(host(b.site))}</a></p>`;return}
     const segs=new Set(B.cat.products.map(p=>p.segment));B.seg=B.want!=="all"&&segs.has(B.want)?B.want:segs.has("kids")?"kids":[...segs][0];B.sub="";B.q="";B.shown=60}
   const cur=CUR[B.bmarket]||"";const all=B.cat.products;const cnt={};all.forEach(p=>cnt[p.segment]=(cnt[p.segment]||0)+1);
   let list=all.filter(p=>p.segment===B.seg&&(!B.sub||p.sub===B.sub));

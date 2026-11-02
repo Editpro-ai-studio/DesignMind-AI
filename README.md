@@ -44,7 +44,7 @@ Reference analysis and original concepts, research-based colourways, trend brief
 
 ## Brands (in-app designs)
 - **Brands** tab lists every brand A–Z (195 brands, 113 Pakistani: lawn, luxury pret, bridal & couture, western, menswear, kids). Choose **Kids / Women / Men / Home**, filter by market and type, or search a name, then tap a brand: its designs open inside the app with Girls / Boys / Baby filters, search, price sort and a large view.
-- Catalogues are read by GitHub every **Wednesday**. First time: **Actions → Update brand catalogues → Run workflow** (`all`, a market like `pakistan`, or one brand id like `bachaa-party`). A full run takes about 1–3 hours.
+- Catalogues are read by GitHub every **Wednesday**, and also automatically right after you upload a new `data/brands.json`. To run it yourself: **Actions → Update brand catalogues → Run workflow** (`all`, a market like `pakistan`, or one brand id like `bachaa-party`). Pakistani brands appear in about 20 minutes; the other countries follow within 1–3 hours.
 - The reader tries, in order: the store's Shopify feed, its WooCommerce feed, then its product sitemap and product pages. If a listed web address is wrong, it searches for the brand's real site and fixes the address.
 - The run log ends with a summary: how many brands have designs in the app, and which are "website only" (the site blocks automatic reading; large international chains usually do).
 - **Add a brand:** Actions → Update brand catalogues → Run workflow → fill "Add a new brand" (website, name, market, kids/women/men).
