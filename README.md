@@ -14,13 +14,15 @@ Personal studio for textile, fashion and graphic designers: sourced trend resear
 3. On the new page click **uploading an existing file**.
 4. Unzip `designmind-ai.zip` on your computer, open the folder, select **everything inside it** (including the `.github` folder) and drag it into the page. Click **Commit changes**.
    - Mac: press `Cmd + Shift + .` in Finder to see the hidden `.github` folder.
-   - If `.github` does not upload, create the two workflow files by hand: **Add file → Create new file**, name `.github/workflows/pages.yml`, paste its content; same for `update-research.yml`.
+   - If `.github` does not upload, create the two workflow files by hand: **Add file → Create new file**, name `.github/workflows/update-brands.yml`, paste its content; same for `update-research.yml`.
 
 ### 2. Turn on the website
 1. In the repository: **Settings → Pages**.
-2. Under **Source** choose **GitHub Actions**.
-3. Go to **Actions** → **Publish website** → **Run workflow**.
-4. After about a minute your app is live at `https://YOUR-USERNAME.github.io/designmind-ai/`.
+2. Under **Source** choose **Deploy from a branch**, branch **main**, folder **/ (root)**, then **Save**.
+3. After about a minute your app is live at `https://YOUR-USERNAME.github.io/REPOSITORY-NAME/`. It republishes by itself whenever files change.
+
+### 2b. Check the automatic jobs
+Open **Actions**. On the left you should see **Update brand catalogues** and **Update trend research**. If they are missing, the hidden `.github` folder was not uploaded: create each file with **Add file → Create new file**, name it `.github/workflows/update-brands.yml` (and `.github/workflows/update-research.yml`) and paste the file's contents from the zip.
 
 ### 3. Free AI key (for concepts, briefs, critique, and weekly research)
 1. Open **aistudio.google.com/apikey**, sign in with Google, **Create API key**, copy it.
@@ -77,13 +79,13 @@ In Settings you can also choose **Groq** or **OpenRouter** (free keys), or **Oll
 
 ## Files
 ```
-index.html              the app
+index.html              the app (GitHub Pages serves it straight from the main branch)
 assets/static.js        browser runtime: data, AI, storage, install
 sw.js, manifest.webmanifest   offline + install support
 data/research/*.json    trend records per market
 data/fabrics.json       fabric database
 scripts/update-research.js    weekly research (runs on GitHub)
-.github/workflows/      publish website + weekly research
+.github/workflows/      weekly brand catalogues + weekly trend research
 ```
 
 ## Limits to know
