@@ -2086,5 +2086,30 @@
   },
   "via": "sitemap",
   "kidsCollections": []
+ },
+ "zara-global": {
+  "status": "website",
+  "checked": "2026-11-02",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "hm": {
+  "status": "website",
+  "checked": "2026-11-02",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "adidas": {
+  "status": "website",
+  "checked": "2026-11-02",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "nike": {
+  "status": "website",
+  "checked": "2026-11-02",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "uniqlo-global": {
+  "status": "website",
+  "checked": "2026-11-02",
+  "reason": "site blocks automatic reading or has no readable product list"
  }
 }
