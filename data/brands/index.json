@@ -1517,5 +1517,99 @@
   },
   "via": "sitemap",
   "kidsCollections": []
+ },
+ "carters": {
+  "status": "website",
+  "checked": "2026-11-02",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "hanna-andersson": {
+  "status": "website",
+  "checked": "2026-11-02",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "primary": {
+  "status": "catalogue",
+  "checked": "2026-11-02",
+  "counts": {
+   "women": 73,
+   "kids": 300
+  },
+  "via": "shopify",
+  "kidsCollections": [
+   "[ARCHIVE] [Breaker-baby-Saint-Patrick's-Day] St. Paddy's Day",
+   "[ARCHIVE] [breaker: gifting-baby-under-30] Gifts Under $30",
+   "[ARCHIVE] [breaker: gifting-baby-under-50] Gifts Under $50",
+   "[ARCHIVE] [breaker: gifting-baby-under-75] Gifts Under $75",
+   "[ARCHIVE] [breaker:-baby-bugs-bundles] Baby Bugs Gift Sets",
+   "[ARCHIVE] [breaker:all-baby-sale] Baby Sale",
+   "[ARCHIVE] [breaker:all-kids-sale] All Kids Sale",
+   "[ARCHIVE] [breaker:all-pajamas-rompers] Kids & Baby Sleep Rompers",
+   "[ARCHIVE] [breaker:baby-animal-shorties] Babysuit shorties",
+   "[ARCHIVE] [breaker:baby-animal-zip-footies] Printed Zip Footies",
+   "[ARCHIVE] [breaker:baby-beach-sets] Beach Gift Sets",
+   "[ARCHIVE] [breaker:baby-bodysuits-and-tees-bodysuits] Bodysuits"
+  ]
+ },
+ "janie-and-jack": {
+  "status": "website",
+  "checked": "2026-11-02",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "tea-collection": {
+  "status": "catalogue",
+  "checked": "2026-11-02",
+  "counts": {
+   "kids": 300,
+   "women": 1
+  },
+  "via": "shopify",
+  "kidsCollections": [
+   "All Baby & Toddler",
+   "All Baby Boy",
+   "All Baby Girl",
+   "All Boy",
+   "All Girl",
+   "All Newborn",
+   "All Toddler Boy",
+   "All Toddler Girl",
+   "American Girl® x Tea Collection",
+   "Baby Bottoms",
+   "Baby Dresses",
+   "Baby Leggings"
+  ]
+ },
+ "old-navy": {
+  "status": "catalogue",
+  "checked": "2026-11-02",
+  "counts": {
+   "kids": 67,
+   "men": 100,
+   "women": 57,
+   "other": 23
+  },
+  "via": "sitemap",
+  "kidsCollections": []
+ },
+ "gap": {
+  "status": "catalogue",
+  "checked": "2026-11-02",
+  "counts": {
+   "women": 65,
+   "men": 83,
+   "other": 18,
+   "kids": 94
+  },
+  "via": "sitemap",
+  "kidsCollections": []
+ },
+ "j-crew": {
+  "status": "catalogue",
+  "checked": "2026-11-02",
+  "counts": {
+   "kids": 260
+  },
+  "via": "sitemap",
+  "kidsCollections": []
  }
 }
