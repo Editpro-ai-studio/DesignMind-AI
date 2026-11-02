@@ -1,0 +1,84 @@
+name: Update brand catalogues
+
+on:
+  schedule:
+    - cron: "41 3 * * 3"
+  push:
+    branches: [main]
+    paths: ["data/brands.json", "scripts/update-brands.js"]
+  workflow_dispatch:
+    inputs:
+      target:
+        description: "all, a market (e.g. pakistan) or one brand id (e.g. maria-b)"
+        required: true
+        default: "all"
+      add_brand_url:
+        description: "Add a new brand: its website. Leave empty to skip."
+        required: false
+        default: ""
+      add_brand_name:
+        description: "New brand name (optional)"
+        required: false
+        default: ""
+      add_brand_market:
+        description: "New brand market (pakistan, turkiye, uae, ...)"
+        required: false
+        default: "pakistan"
+      add_brand_focus:
+        description: "New brand sells: kids, women, men, home"
+        required: false
+        default: "kids"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: brands
+  cancel-in-progress: false
+
+jobs:
+  brands:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    env:
+      TARGET: ${{ github.event.inputs.target || 'all' }}
+      ADD_BRAND_URL: ${{ github.event.inputs.add_brand_url }}
+      ADD_BRAND_NAME: ${{ github.event.inputs.add_brand_name }}
+      ADD_BRAND_MARKET: ${{ github.event.inputs.add_brand_market }}
+      ADD_BRAND_FOCUS: ${{ github.event.inputs.add_brand_focus }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Set up git
+        run: |
+          git config user.name "designmind-catalogue-bot"
+          git config user.email "actions@users.noreply.github.com"
+      - name: Read Pakistan brands first
+        if: env.TARGET == 'all' && env.ADD_BRAND_URL == ''
+        run: node scripts/update-brands.js pakistan
+      - name: Save Pakistan
+        if: env.TARGET == 'all' && env.ADD_BRAND_URL == ''
+        run: |
+          git add data/brands data/brands.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Brand catalogues: Pakistan"
+            git pull --rebase --autostash || true
+            git push
+          fi
+      - name: Read other brands
+        run: |
+          if [ "$TARGET" = "all" ] && [ -z "$ADD_BRAND_URL" ]; then
+            node scripts/update-brands.js rest
+          else
+            node scripts/update-brands.js "$TARGET"
+          fi
+      - name: Save results
+        run: |
+          git add data/brands data/brands.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Update brand catalogues"
+            git pull --rebase --autostash || true
+            git push
+          fi
