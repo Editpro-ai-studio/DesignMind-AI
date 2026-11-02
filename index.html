@@ -176,6 +176,46 @@ a.card:hover,button.card:hover,.bcard:hover,.prod:hover{transform:translateY(-2p
 .chip{border-radius:999px}
 .btn{border-radius:999px;padding:9px 18px}
 .btn.small{padding:6px 13px}
+@media (max-width:760px){
+  .bar{gap:8px 10px;padding-block:8px}
+  nav.tabs{order:3;width:100%;flex-wrap:nowrap;overflow-x:auto;margin-left:0;scrollbar-width:none;border-radius:999px}
+  nav.tabs::-webkit-scrollbar{display:none}
+  nav.tabs a{white-space:nowrap;padding:6px 12px}
+  header.top .iconbtn{margin-left:auto;padding:5px 12px}
+  .brand{font-size:22px}
+  .today{display:none}
+}
+/* A–Z brand list */
+.azgrp{display:grid;grid-template-columns:44px minmax(0,1fr);gap:8px;margin-bottom:10px}
+.azl{font-family:var(--display);font-size:28px;color:var(--saffron);line-height:1;padding-top:10px}
+.azlist{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:8px}
+.azrow{display:flex;align-items:center;gap:12px;background:var(--panel);border:none;border-radius:12px;box-shadow:var(--shadow);padding:10px 14px;text-align:left;cursor:pointer;min-width:0;color:var(--fg)}
+.azrow:hover{outline:2px solid var(--indigo-soft)}
+.mono-mark.sm{width:38px;height:38px;font-size:14px}
+.azname{flex:1;min-width:0;font-weight:600;font-size:15px;display:flex;flex-direction:column}
+.azname small{font-weight:400;font-size:12px;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.azcount{font-family:var(--mono);font-size:12px;color:var(--ok);white-space:nowrap}
+.azcount.off{color:var(--muted)}
+/* Inspiration */
+.igrid{columns:4 220px;column-gap:14px}
+.icard{break-inside:avoid;margin-bottom:14px;background:var(--panel);border-radius:12px;box-shadow:var(--shadow);overflow:hidden;cursor:pointer;display:block;width:100%;border:none;padding:0;text-align:left;color:var(--fg);position:relative}
+.icard img{width:100%;display:block;background:var(--sunk);min-height:80px}
+.icard .ic{padding:8px 10px;font-size:12px;color:var(--muted);display:flex;justify-content:space-between;gap:6px}
+.icard .ic span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.icard .pick{position:absolute;top:8px;right:8px;width:26px;height:26px;border-radius:50%;background:rgba(255,255,255,.9);border:2px solid var(--indigo);display:grid;place-items:center;font-size:14px;color:var(--indigo)}
+.icard[aria-pressed="true"] .pick{background:var(--indigo);color:#fff}
+.icard[aria-pressed="true"]{outline:3px solid var(--indigo)}
+.ai-badge{position:absolute;top:8px;left:8px;background:var(--fc);color:#fff;font-size:10.5px;font-weight:700;letter-spacing:.06em;padding:3px 8px;border-radius:999px}
+.ihero{display:grid;grid-template-columns:minmax(0,1fr);gap:12px;background:var(--band);color:var(--band-fg);border-radius:18px;padding:22px;margin:14px 0 18px}
+.ihero h2{color:var(--band-fg);font-size:28px}
+.ihero textarea{background:rgba(255,255,255,.08);border-color:rgba(255,255,255,.18);color:var(--band-fg);min-height:64px}
+.ihero textarea::placeholder{color:var(--band-muted)}
+.ihero .chip{background:transparent;color:var(--band-fg);border-color:rgba(255,255,255,.25)}
+.ihero .chip[aria-pressed="true"]{background:var(--saffron);border-color:var(--saffron);color:#1b1b1b}
+.ihero .btn{background:var(--saffron);border-color:var(--saffron);color:#1b1b1b}
+.ihero .muted{color:var(--band-muted)}
+.stickybar{position:sticky;bottom:calc(12px + env(safe-area-inset-bottom,0px));z-index:6;display:flex;gap:10px;align-items:center;justify-content:space-between;flex-wrap:wrap;background:var(--fg);color:var(--bg);border-radius:999px;padding:8px 10px 8px 18px;box-shadow:var(--shadow);margin-top:14px}
+.stickybar .btn{background:var(--bg);color:var(--fg);border-color:var(--bg)}
 /* Brands */
 .mrow{display:flex;gap:6px;overflow-x:auto;padding-bottom:6px;margin:14px 0 18px;scrollbar-width:thin}
 .mrow .chip{white-space:nowrap}
@@ -219,11 +259,12 @@ a.card:hover,button.card:hover,.bcard:hover,.prod:hover{transform:translateY(-2p
     <div class="brand">Design<b>Mind</b> AI</div>
     <span class="today mono" id="today"></span>
     <nav class="tabs" aria-label="Sections">
-      <a href="#trends" data-v="trends">Trend Research</a>
+      <a href="#trends" data-v="trends">Trends</a>
       <a href="#brands" data-v="brands" id="navBrands" hidden>Brands</a>
-      <a href="#fabrics" data-v="fabrics">Fabric Intelligence</a>
-      <a href="#design" data-v="design">Design Generator</a>
-      <a href="#projects" data-v="projects">My Projects</a>
+      <a href="#inspire" data-v="inspire" id="navInspire" hidden>Inspiration</a>
+      <a href="#fabrics" data-v="fabrics">Fabrics</a>
+      <a href="#design" data-v="design">Design</a>
+      <a href="#projects" data-v="projects">Projects</a>
       <a href="#settings" data-v="settings" id="navSettings" hidden>Settings</a>
     </nav>
     <button class="iconbtn" id="installBtn" type="button" hidden>Install app</button>
@@ -265,10 +306,32 @@ a.card:hover,button.card:hover,.bcard:hover,.prod:hover{transform:translateY(-2p
   <!-- BRANDS (GitHub version: catalogues built by the brand workflow) -->
   <section id="v-brands" hidden>
     <div class="eyebrow">Brand catalogues</div><h1>Brands by <em>market</em></h1>
-    <p class="muted" style="max-width:70ch">Browse current designs from each brand inside the app. Catalogues are read weekly from stores that publish a public product feed; images load from the brand's own site and every design links back to it. Other brands open on their website.</p>
+    <p class="muted" style="max-width:70ch">Every brand A to Z. Choose what you want to see, tap a brand, and its designs open here. Catalogues are refreshed every week.</p>
+    <div class="row" style="margin-top:14px;gap:12px">
+      <div class="chips" id="bWant" aria-label="Show designs for"><span class="muted" style="font-size:13px;align-self:center">I want:</span><button type="button" class="chip" data-want="kids">Kids</button><button type="button" class="chip" data-want="women">Women</button><button type="button" class="chip" data-want="men">Men</button><button type="button" class="chip" data-want="home">Home</button><button type="button" class="chip" data-want="all">Everything</button></div>
+      <input type="search" id="bSearch" placeholder="Search brand name, e.g. Bachaa Party" style="flex:1 1 240px;max-width:360px">
+    </div>
     <div class="mrow" id="bMarket" role="tablist" aria-label="Market"></div>
+    <div class="chips" id="bStyle" style="margin:-6px 0 16px"></div>
     <div id="bList"></div>
     <div id="bDetail" hidden></div>
+  </section>
+
+  <!-- INSPIRATION (GitHub version): graphic design references from open image libraries -->
+  <section id="v-inspire" hidden>
+    <div class="eyebrow">For graphic designers</div><h1>Design <em>inspiration</em></h1>
+    <form class="ihero" id="iForm">
+      <h2>What are you designing?</h2>
+      <textarea id="iIdea" placeholder="e.g. Winter sale billboard for a kids clothing brand, playful, warm colours"></textarea>
+      <div class="chips" id="iCats"></div>
+      <div class="row"><button class="btn" type="submit" id="iGo">Show designs</button><label class="row" style="gap:6px;font-size:13px"><input type="checkbox" id="iAI" checked> Add AI concept sketches</label><span class="muted" style="font-size:12.5px" id="iSrc"></span></div>
+    </form>
+    <div class="status" id="iStatus" role="status"></div>
+    <div id="iQueries" class="chips" style="margin-bottom:12px"></div>
+    <div class="igrid" id="iGrid"></div>
+    <div class="row" style="justify-content:center;margin-top:10px"><button class="btn ghost" type="button" id="iMore" hidden>Load more</button></div>
+    <div class="stickybar" id="iBar" hidden><span id="iSel">0 selected</span><div class="row"><button class="btn small" type="button" id="iBoard">Save as moodboard</button><button class="btn small" type="button" id="iClear">Clear</button></div></div>
+    <p class="muted" style="font-size:12px;margin-top:16px">Images come from Openverse and Wikimedia Commons (openly licensed), plus Pexels or Unsplash if you add a free key in Settings. Each shows its creator and licence. AI sketches are labelled. Commercial billboard and magazine designs are usually copyrighted; use these as references, not to copy.</p>
   </section>
 
   <!-- FABRICS -->
@@ -397,6 +460,9 @@ a.card:hover,button.card:hover,.bcard:hover,.prod:hover{transform:translateY(-2p
         <label class="f">Model<input type="text" id="sModel" spellcheck="false"></label>
         <label class="f" id="sBaseWrap">Service address<input type="text" id="sBase" spellcheck="false"></label>
         <label class="row" style="font-size:13px;gap:6px"><input type="checkbox" id="sImg" checked> Allow free AI image previews (Pollinations)</label>
+        <div class="eyebrow" style="margin-top:6px">Inspiration image libraries (optional, free keys)</div>
+        <label class="f">Pexels API key<input type="text" id="sPexels" autocomplete="off" spellcheck="false" placeholder="pexels.com/api"></label>
+        <label class="f">Unsplash access key<input type="text" id="sUnsplash" autocomplete="off" spellcheck="false" placeholder="unsplash.com/developers"></label>
         <div class="row"><button class="btn" type="submit">Save settings</button><button class="btn ghost" type="button" id="sTest">Test AI</button></div>
         <div class="status" id="sStatus" role="status"></div>
         <p class="muted" style="font-size:12.5px;margin:0">Your key is stored only in this browser on this device. It is never written into the website's code or sent anywhere except the AI service you choose.</p>
@@ -486,8 +552,8 @@ $("#today").textContent=NOW.toLocaleDateString("en-GB",{weekday:"short",day:"num
   $("#themeBtn").addEventListener("click",()=>{const cur=document.documentElement.getAttribute("data-theme")||(matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");const n=cur==="dark"?"light":"dark";document.documentElement.setAttribute("data-theme",n);store("dm.theme",n)})})();
 
 /* ---------- Routing ---------- */
-const VIEWS=window.DM_STATIC?["trends","brands","fabrics","design","projects","settings"]:["trends","fabrics","design","projects"];
-function route(){const h=location.hash.replace("#","");S.view=VIEWS.includes(h)?h:"trends";VIEWS.forEach(v=>{$("#v-"+v).hidden=v!==S.view});if(!VIEWS.includes("settings"))$("#v-settings").hidden=true;if(!VIEWS.includes("brands"))$("#v-brands").hidden=true;if(S.view==="brands")renderBrands();$$("nav.tabs a").forEach(a=>a.setAttribute("aria-current",a.dataset.v===S.view?"page":"false"));
+const VIEWS=window.DM_STATIC?["trends","brands","inspire","fabrics","design","projects","settings"]:["trends","fabrics","design","projects"];
+function route(){setTimeout(()=>{const a=document.querySelector('nav.tabs a[aria-current="page"]');if(a&&a.scrollIntoView)a.scrollIntoView({block:"nearest",inline:"center"})},0);const h=location.hash.replace("#","");S.view=VIEWS.includes(h)?h:"trends";VIEWS.forEach(v=>{$("#v-"+v).hidden=v!==S.view});if(!VIEWS.includes("settings"))$("#v-settings").hidden=true;if(!VIEWS.includes("brands"))$("#v-brands").hidden=true;if(!VIEWS.includes("inspire"))$("#v-inspire").hidden=true;if(S.view==="brands")renderBrands();$$("nav.tabs a").forEach(a=>a.setAttribute("aria-current",a.dataset.v===S.view?"page":"false"));
   if(S.view==="projects")renderProjects();if(S.view==="fabrics")renderFabrics()}
 addEventListener("hashchange",route);
 
@@ -859,13 +925,14 @@ async function saveProject(p){if(!db||!S.uid){toast("Sign in to save projects");
 async function loadProjects(){if(!db||!S.uid)return;try{const q=await mine().limit(1000).get();const all=q.docs.map(d=>({...d.data(),_id:d.id}));
   S.projects=all.filter(x=>x.kind==="project").sort((a,b)=>String(b.created).localeCompare(String(a.created)));all.filter(x=>x.kind==="fav").forEach(x=>S.favs.set(x.trendId,x.trend));}catch(e){}
   if(S.view==="projects")renderProjects();renderTrends()}
-const TYPE_L={concepts:"Design concepts",colourway:"Colourway",brief:"Trend brief",critique:"Design review",product:"Brand design"};
+const TYPE_L={moodboard:"Moodboard",concepts:"Design concepts",colourway:"Colourway",brief:"Trend brief",critique:"Design review",product:"Brand design"};
 function renderProjects(){const box=$("#projList");
   if(!db||!S.uid){box.innerHTML='<div class="empty">Sign in to claude.ai to save and see projects.</div>';return}
   const favs=[...S.favs.entries()];
   let html="";
   html+=`<div class="sec-h"><h2>Saved work</h2><span class="n">${S.projects.length}</span></div>`;
   html+=S.projects.length?`<div class="grid">${S.projects.map(p=>`<article class="card"><div class="cardtop"><span class="pill p-recent">${esc(TYPE_L[p.type]||p.type)}</span><span class="muted mono" style="font-size:12px;margin-left:auto">${esc(fmtD((p.created||"").slice(0,10)))}</span></div><h3>${esc(p.title)}</h3>
+    ${p.type==="moodboard"&&p.data&&Array.isArray(p.data.items)?`<div style="display:grid;grid-template-columns:repeat(3,1fr);gap:4px">${p.data.items.slice(0,6).filter(x=>safeUrl(x.thumb)).map(x=>`<img src="${esc(x.thumb)}" alt="" loading="lazy" referrerpolicy="no-referrer" style="aspect-ratio:1;object-fit:cover;border-radius:6px">`).join("")}</div><p class="muted" style="font-size:12.5px">${p.data.items.length} images · ${esc(p.data.idea||"")}</p>`:""}
     ${p.type==="product"&&p.data&&safeUrl(p.data.image)?`<img src="${esc(imgW(p.data.image,400))}" alt="" loading="lazy" style="border-radius:8px;aspect-ratio:3/4;object-fit:cover"><p style="font-size:13px" class="muted">${esc(p.data.brand)}${p.data.url&&safeUrl(p.data.url)?` · <a href="${esc(p.data.url)}" target="_blank" rel="noopener">Open on website</a>`:""}</p>`:""}
     ${p.type==="colourway"&&p.data&&p.data.thumb&&/^data:image\//.test(p.data.thumb)?`<img src="${esc(p.data.thumb)}" alt="Colourway preview" loading="lazy" style="border-radius:6px">${swatchRow(p.data.colors)}`:""}
     ${p.data&&p.data.text?`<p style="font-size:13px;white-space:pre-wrap;max-height:120px;overflow:hidden">${esc(p.data.text.slice(0,400))}…</p>`:""}
@@ -878,6 +945,7 @@ function renderProjects(){const box=$("#projList");
 $("#projList").addEventListener("click",async e=>{const t=e.target;
   if(t.dataset.open){const p=S.projects.find(x=>x._id===t.dataset.open);const o=$("#projOpen");
     if(p.type==="concepts"){o.innerHTML="";renderConcepts(p.data.res,o,{saved:true});}
+    else if(p.type==="moodboard"){o.innerHTML=`<div class="sec-h"><h2>${esc(p.title)}</h2></div><div class="igrid">${p.data.items.filter(x=>safeUrl(x.thumb)).map(x=>`<a class="icard" href="${esc(safeUrl(x.page)||safeUrl(x.full))}" target="_blank" rel="noopener"><img src="${esc(x.thumb)}" alt="${esc(x.title)}" loading="lazy" referrerpolicy="no-referrer"><div class="ic"><span>${esc(x.creator||x.source)}</span><span>${esc(x.license||"")}</span></div></a>`).join("")}</div>`}
     else if(p.data&&p.data.text)o.innerHTML=`<div class="sec-h"><h2>${esc(p.title)}</h2></div><div class="brief">${esc(p.data.text)}</div>`;
     else o.innerHTML=`<div class="sec-h"><h2>${esc(p.title)}</h2></div>${p.data.thumb&&/^data:image\//.test(p.data.thumb)?`<img src="${esc(p.data.thumb)}" alt="" style="border-radius:8px;max-width:420px">`:""}<div class="eyebrow" style="margin:10px 0 6px">Original</div>${swatchRow(p.data.original)}<div class="eyebrow" style="margin:10px 0 6px">Colourway</div>${swatchRow(p.data.colors)}`;
     o.scrollIntoView({behavior:"smooth",block:"start"})}
@@ -892,10 +960,10 @@ $("#projList").addEventListener("click",async e=>{const t=e.target;
 if(window.DM_STATIC){const D=window.DM_STATIC;$("#navSettings").hidden=false;$("#liveLink").hidden=false;
   const repo=D.repoUrl();if(repo){$("#liveLink").href=repo+"/actions";$("#liveLink").target="_blank";$("#liveLink").rel="noopener";$("#sResearch").innerHTML=`Research is refreshed every week by GitHub. To run it now, open <a href="${esc(repo)}/actions" target="_blank" rel="noopener">your repository's Actions</a>, choose <b>Update trend research</b> and press Run workflow.`}
   fillSel($("#sProv"),Object.entries(D.presets).map(([k,v])=>[k,v.label]));
-  const showS=()=>{const s=D.loadSettings();const p=s.provider||"gemini";$("#sProv").value=p;const pre=D.presets[p]||{};$("#sKey").value=s.key||"";$("#sModel").value=s.model||pre.model||"";$("#sBase").value=s.base||pre.base||"";$("#sImg").checked=s.images!==false;
+  const showS=()=>{const s=D.loadSettings();const p=s.provider||"gemini";$("#sProv").value=p;const pre=D.presets[p]||{};$("#sKey").value=s.key||"";$("#sModel").value=s.model||pre.model||"";$("#sBase").value=s.base||pre.base||"";$("#sImg").checked=s.images!==false;$("#sPexels").value=s.pexels||"";$("#sUnsplash").value=s.unsplash||"";
     $("#sKeyWrap").hidden=p==="ollama"||p==="off";$("#sBaseWrap").hidden=!pre.base;$("#sModel").parentElement.hidden=p==="off"};
   $("#sProv").addEventListener("change",()=>{const p=$("#sProv").value,pre=D.presets[p]||{},s=D.loadSettings();D.saveSettings({...s,provider:p,model:pre.model||"",base:pre.base||"",key:p===s.provider?s.key:""});showS()});
-  $("#setForm").addEventListener("submit",e=>{e.preventDefault();D.saveSettings({provider:$("#sProv").value,key:$("#sKey").value.trim(),model:$("#sModel").value.trim(),base:$("#sBase").value.trim(),images:$("#sImg").checked});$("#sStatus").className="status";$("#sStatus").textContent="Saved."});
+  $("#setForm").addEventListener("submit",e=>{e.preventDefault();D.saveSettings({provider:$("#sProv").value,key:$("#sKey").value.trim(),model:$("#sModel").value.trim(),base:$("#sBase").value.trim(),images:$("#sImg").checked,pexels:$("#sPexels").value.trim(),unsplash:$("#sUnsplash").value.trim()});$("#sStatus").className="status";$("#sStatus").textContent="Saved."});
   $("#sTest").addEventListener("click",async()=>{$("#setForm").requestSubmit();const st=$("#sStatus");st.className="status";st.textContent="Testing…";try{const sm=sample||await window.claude.use("sample");const r=await sm("Reply with exactly: DesignMind AI is connected.",{cache:false});st.textContent="Working: "+r.text.trim().slice(0,80)}catch(e){st.className="status err";st.textContent=e.message||"Test failed"}});
   $("#bExp").addEventListener("click",async()=>{try{await saveFile(`designmind-backup-${new Date().toISOString().slice(0,10)}.json`,await D.exportBackup(),"application/json");$("#bStatus").textContent="Backup downloaded."}catch(e){$("#bStatus").textContent="Backup failed."}});
   $("#bImp").addEventListener("click",()=>$("#bFile").click());
@@ -907,35 +975,50 @@ if(window.DM_STATIC){const D=window.DM_STATIC;$("#navSettings").hidden=false;$("
 
 /* ---------- Brands (GitHub version) ---------- */
 const CUR={pakistan:"Rs",india:"₹",uae:"AED",["saudi-arabia"]:"SAR",["united-kingdom"]:"£",["united-states"]:"$",italy:"€",france:"€",spain:"€",germany:"€",turkiye:"₺",japan:"¥",china:"¥",["south-korea"]:"₩",global:""};
-const B={reg:null,index:{},market:null,brand:null,cat:null,seg:"kids",sub:"",q:"",sort:"new",shown:60};
+const B={reg:null,index:{},market:null,want:(()=>{try{return localStorage.getItem("dm.want")||"kids"}catch(e){return "kids"}})(),bq:"",bmarket:null,style:"",brand:null,cat:null,seg:"kids",sub:"",q:"",sort:"new",shown:60};
 function imgW(u,w){if(!safeUrl(u))return "";try{const x=new URL(u);if(/shopify|cdn\.shop/.test(x.hostname)||x.pathname.includes("/files/")||x.pathname.includes("/products/"))x.searchParams.set("width",w);return x.toString()}catch(e){return u}}
 const initials=n=>n.replace(/[^\p{L}\p{N} ]/gu,"").split(/\s+/).filter(Boolean).slice(0,2).map(w=>w[0]).join("").toUpperCase();
 const ST_B={catalogue:["In-app designs","p-observed"],website:["Website only","p-unknown"],unreachable:["Site not reached","p-warn"],error:["Check failed","p-warn"]};
 async function loadBrandReg(){if(B.reg)return;try{const [r,i]=await Promise.all([fetch("data/brands.json").then(x=>x.json()),fetch("data/brands/index.json").then(x=>x.ok?x.json():{}).catch(()=>({}))]);B.reg=r.markets;B.index=i||{}}catch(e){B.reg={}}}
-async function renderBrands(){await loadBrandReg();if(!B.market)B.market=S.country in B.reg?S.country:"pakistan";
-  $("#bMarket").innerHTML=COUNTRIES.filter(([s])=>B.reg[s]).map(([s,n])=>`<button type="button" class="chip" data-m="${s}" aria-pressed="${B.market===s}">${esc(n)}<span class="n">${B.reg[s].length}</span></button>`).join("");
+async function renderBrands(){await loadBrandReg();if(!B.market)B.market="all";
+  const total=Object.values(B.reg).reduce((n,l)=>n+l.length,0);
+  $("#bMarket").innerHTML=`<button type="button" class="chip" data-m="all" aria-pressed="${B.market==="all"}">All markets<span class="n">${total}</span></button>`+COUNTRIES.filter(([s])=>B.reg[s]).map(([s,n])=>`<button type="button" class="chip" data-m="${s}" aria-pressed="${B.market===s}">${esc(n)}<span class="n">${B.reg[s].length}</span></button>`).join("");
+  $("#bWant").querySelectorAll("[data-want]").forEach(x=>x.setAttribute("aria-pressed",String(x.dataset.want===B.want)));
   if(B.brand)return renderBrand();
   $("#bDetail").hidden=true;const list=$("#bList");list.hidden=false;
-  const brands=(B.reg[B.market]||[]).slice().sort((a,b)=>((B.index[b.id]||{}).status==="catalogue")-((B.index[a.id]||{}).status==="catalogue"));
-  if(!brands.length){list.innerHTML='<div class="empty">No brands listed for this market yet. Add them in data/brands.json.</div>';return}
-  const anyChecked=brands.some(b=>B.index[b.id]);
-  list.innerHTML=(anyChecked?"":'<div class="notice" style="margin-bottom:14px">Brand catalogues have not been read yet. On GitHub, open Actions → <b>Update brand catalogues</b> → Run workflow. Until then each brand opens on its website.</div>')+
-  `<div class="bgrid">${brands.map(b=>{const ix=B.index[b.id]||{};const st=ST_B[ix.status]||["Not checked yet","p-unknown"];const c=ix.counts||{};
-    return `<article class="bcard"><div class="bhead"><span class="mono-mark" aria-hidden="true">${esc(initials(b.name))}</span><div style="min-width:0"><h3>${esc(b.name)}</h3><div class="muted" style="font-size:12.5px">${esc(b.focus.join(" · "))}</div></div></div>
-      <div><span class="pill ${st[1]}">${st[0]}</span>${ix.checked?` <span class="muted mono" style="font-size:11.5px">checked ${esc(fmtD(ix.checked))}</span>`:""}</div>
-      ${ix.status==="catalogue"?`<div class="counts">${["kids","women","men","home"].filter(k=>c[k]).map(k=>`<span><b>${c[k]}</b> ${k}</span>`).join("")}</div>`:ix.reason?`<div class="muted" style="font-size:12.5px">${esc(ix.reason)}</div>`:""}
-      <div class="bactions">${ix.status==="catalogue"?`<button class="btn small" type="button" data-open-brand="${esc(b.id)}">${c.kids?"View kids designs":"View designs"}</button>`:""}<a class="btn small ghost" style="text-decoration:none" href="${esc(safeUrl(b.site))}" target="_blank" rel="noopener">Open website</a></div></article>`}).join("")}</div>`;}
-async function renderBrand(){const b=(B.reg[B.market]||[]).find(x=>x.id===B.brand);if(!b){B.brand=null;return renderBrands()}
+  let brands=B.market==="all"?Object.entries(B.reg).flatMap(([m,l])=>l.map(b=>({...b,market:m}))):(B.reg[B.market]||[]).map(b=>({...b,market:B.market}));
+  const seen=new Set();brands=brands.filter(b=>!seen.has(b.id)&&seen.add(b.id));
+  if(B.want!=="all")brands=brands.filter(b=>b.focus.includes(B.want));
+  const STY={lawn:"Lawn & unstitched",["luxury pret"]:"Luxury pret",bridal:"Bridal & couture",western:"Western",menswear:"Menswear",kids:"Kids brands",home:"Home"};
+  const avail=Object.keys(STY).filter(k=>brands.some(b=>(b.styles||[]).includes(k)));
+  if(B.style&&!avail.includes(B.style))B.style="";
+  $("#bStyle").innerHTML=avail.length?`<button type="button" class="chip" data-sty="" aria-pressed="${!B.style}">All types</button>`+avail.map(k=>`<button type="button" class="chip" data-sty="${k}" aria-pressed="${B.style===k}">${STY[k]}<span class="n">${brands.filter(b=>(b.styles||[]).includes(k)).length}</span></button>`).join(""):"";
+  if(B.style)brands=brands.filter(b=>(b.styles||[]).includes(B.style));
+  if(B.bq){const q=B.bq.toLowerCase();brands=brands.filter(b=>b.name.toLowerCase().includes(q))}
+  brands.sort((a,b)=>a.name.localeCompare(b.name));
+  if(!brands.length){list.innerHTML='<div class="empty">No brands match. Add one from GitHub: Actions → Update brand catalogues → Run workflow, and fill in "Add a new brand".</div>';return}
+  const anyChecked=Object.keys(B.index).length>0;
+  const groups={};brands.forEach(b=>{const L=(b.name.match(/[A-Za-z]/)||["#"])[0].toUpperCase();(groups[L]||=[]).push(b)});
+  const mName=m=>(COUNTRIES.find(c=>c[0]===m)||[m,m])[1];
+  list.innerHTML=(anyChecked?"":'<div class="notice" style="margin-bottom:14px">Brand catalogues have not been read yet. On GitHub open Actions → <b>Update brand catalogues</b> → Run workflow.</div>')+
+   `<div class="muted" style="font-size:13px;margin-bottom:10px">${brands.length} brands · tap a name to see its ${B.want==="all"?"":B.want+" "}designs here</div>`+
+   Object.keys(groups).sort().map(L=>`<div class="azgrp"><div class="azl">${esc(L)}</div><div class="azlist">${groups[L].map(b=>{const ix=B.index[b.id]||{};const c=ix.counts||{};const n=B.want==="all"?Object.values(c).reduce((a,x)=>a+x,0):(c[B.want]||0);const ok=ix.status==="catalogue"&&n>0;
+     return `<button type="button" class="azrow" data-open-brand="${esc(b.id)}" data-bm="${esc(b.market)}"><span class="mono-mark sm" aria-hidden="true">${esc(initials(b.name))}</span><span class="azname">${esc(b.name)}<small>${esc(mName(b.market))} · ${esc((b.styles&&b.styles.length?b.styles:b.focus).join(", "))}</small></span><span class="azcount ${ok?"":"off"}">${ok?`${n} designs`:ix.status?"Not readable":"Not read yet"}</span></button>`}).join("")}</div></div>`).join("");}
+async function renderBrand(){const b=Object.values(B.reg).flat().find(x=>x.id===B.brand);if(!b){B.brand=null;return renderBrands()}
+  if(!B.bmarket||!(B.reg[B.bmarket]||[]).some(x=>x.id===b.id))B.bmarket=Object.keys(B.reg).find(m=>B.reg[m].some(x=>x.id===b.id));
   $("#bList").hidden=true;const box=$("#bDetail");box.hidden=false;
-  if(!B.cat||B.cat.id!==b.id){box.innerHTML='<div class="empty">Loading designs…</div>';try{const j=await fetch(`data/brands/${encodeURIComponent(b.id)}.json`).then(r=>{if(!r.ok)throw 0;return r.json()});B.cat={id:b.id,...j}}catch(e){box.innerHTML=`<div class="empty">This brand's catalogue isn't available. <a href="${esc(safeUrl(b.site))}" target="_blank" rel="noopener">Open ${esc(b.name)} website</a></div>`;return}
-    const segs=new Set(B.cat.products.map(p=>p.segment));B.seg=segs.has("kids")?"kids":[...segs][0];B.sub="";B.q="";B.shown=60}
-  const cur=CUR[B.market]||"";const all=B.cat.products;const cnt={};all.forEach(p=>cnt[p.segment]=(cnt[p.segment]||0)+1);
+  if(!B.cat||B.cat.id!==b.id){box.innerHTML='<div class="empty">Loading designs…</div>';try{const j=await fetch(`data/brands/${encodeURIComponent(b.id)}.json`).then(r=>{if(!r.ok)throw 0;return r.json()});B.cat={id:b.id,...j}}catch(e){const ix=B.index[b.id]||{};
+      box.innerHTML=`<div class="row" style="margin-bottom:12px"><button class="btn small ghost" type="button" id="bBack">← All brands</button></div><div class="bhero"><span class="mono-mark" aria-hidden="true">${esc(initials(b.name))}</span><div><h2 style="font-size:30px">${esc(b.name)}</h2></div></div>
+      <div class="notice">${ix.status?`The app could not read ${esc(b.name)}'s designs (${esc(ix.reason||ix.status)}, checked ${esc(fmtD(ix.checked))}). Large brands often block automatic reading; then the only way to see their designs is their own website.`:`${esc(b.name)} has not been read yet. On GitHub run <b>Update brand catalogues</b> with target <code>${esc(b.id)}</code>.`}</div>
+      <div class="row" style="margin-top:12px"><a class="btn small ghost" style="text-decoration:none" href="${esc(safeUrl(b.site))}" target="_blank" rel="noopener">Open ${esc(b.name)} website</a></div>`;return}
+    const segs=new Set(B.cat.products.map(p=>p.segment));B.seg=B.want!=="all"&&segs.has(B.want)?B.want:segs.has("kids")?"kids":[...segs][0];B.sub="";B.q="";B.shown=60}
+  const cur=CUR[B.bmarket]||"";const all=B.cat.products;const cnt={};all.forEach(p=>cnt[p.segment]=(cnt[p.segment]||0)+1);
   let list=all.filter(p=>p.segment===B.seg&&(!B.sub||p.sub===B.sub));
   if(B.q){const q=B.q.toLowerCase();list=list.filter(p=>`${p.title} ${p.type} ${(p.tags||[]).join(" ")}`.toLowerCase().includes(q))}
   if(B.sort==="low")list.sort((a,b)=>(a.price??1e12)-(b.price??1e12));else if(B.sort==="high")list.sort((a,b)=>(b.price??-1)-(a.price??-1));else list.sort((a,b)=>String(b.added).localeCompare(String(a.added)));
   const subs=B.seg==="kids"?["girls","boys","baby"].filter(k=>all.some(p=>p.segment==="kids"&&p.sub===k)):[];
   const fmtP=n=>n==null?"":`${cur}${cur&&cur.length>1?" ":""}${Number(n).toLocaleString("en-US",{maximumFractionDigits:2})}`;
-  box.innerHTML=`<div class="row" style="margin-bottom:12px"><button class="btn small ghost" type="button" id="bBack">← All ${esc(COUNTRIES.find(c=>c[0]===B.market)[1])} brands</button></div>
+  box.innerHTML=`<div class="row" style="margin-bottom:12px"><button class="btn small ghost" type="button" id="bBack">← All brands</button></div>
    <div class="bhero"><span class="mono-mark" aria-hidden="true">${esc(initials(b.name))}</span><div style="min-width:0"><h2 style="font-size:30px">${esc(b.name)}</h2><div class="muted" style="font-size:13px">${all.length} designs · updated ${esc(fmtD(B.cat.updated))} · <a href="${esc(safeUrl(B.cat.site||b.site))}" target="_blank" rel="noopener">Open website</a></div></div></div>
    <div class="subtabs">${["kids","women","men","home","other"].filter(k=>cnt[k]).map(k=>`<button type="button" class="chip" data-seg="${k}" aria-pressed="${B.seg===k}">${k[0].toUpperCase()+k.slice(1)}<span class="n">${cnt[k]}</span></button>`).join("")}</div>
    <div class="row" style="margin-bottom:14px">${subs.length?`<div class="chips"><button type="button" class="chip" data-sub="" aria-pressed="${!B.sub}">All</button>${subs.map(k=>`<button type="button" class="chip" data-sub="${k}" aria-pressed="${B.sub===k}">${k[0].toUpperCase()+k.slice(1)}</button>`).join("")}</div>`:""}
@@ -945,7 +1028,7 @@ async function renderBrand(){const b=(B.reg[B.market]||[]).find(x=>x.id===B.bran
      ${list.length>B.shown?`<div class="row" style="justify-content:center;margin-top:16px"><button class="btn ghost" type="button" id="bMore">Show more (${list.length-B.shown})</button></div>`:""}`:'<div class="empty">No designs match.</div>'}
    <p class="muted" style="font-size:12px;margin-top:16px">Designs, photos and names belong to ${esc(b.name)}. Shown for reference with links to the original; use them for research, not for copying.</p>`;
   $("#bSort").value=B.sort;B._list=list;}
-function openProduct(p){const b=(B.reg[B.market]||[]).find(x=>x.id===B.brand);const cur=CUR[B.market]||"";const el=document.createElement("div");el.className="lb";el.setAttribute("role","dialog");el.setAttribute("aria-modal","true");
+function openProduct(p){const b=Object.values(B.reg).flat().find(x=>x.id===B.brand);const cur=CUR[B.bmarket]||"";const el=document.createElement("div");el.className="lb";el.setAttribute("role","dialog");el.setAttribute("aria-modal","true");
   const imgs=(p.images||[]).filter(safeUrl);
   el.innerHTML=`<div class="lbin"><div class="lbimg">${imgs[0]?`<img id="lbMain" src="${esc(imgW(imgs[0],900))}" alt="${esc(p.title)}" referrerpolicy="no-referrer">`:'<div class="empty">No image</div>'}${imgs.length>1?`<div class="thumbs">${imgs.map((u,i)=>`<img src="${esc(imgW(u,160))}" alt="" data-ti="${i}" aria-current="${i===0}" referrerpolicy="no-referrer">`).join("")}</div>`:""}</div>
    <div class="lbtext"><button class="lbclose" type="button" aria-label="Close">×</button><div class="eyebrow">${esc(b?b.name:"")}</div><h2>${esc(p.title)}</h2>
@@ -958,12 +1041,16 @@ function openProduct(p){const b=(B.reg[B.market]||[]).find(x=>x.id===B.brand);co
   document.body.appendChild(el);const close=()=>{el.remove();document.removeEventListener("keydown",esc_)};const esc_=e=>{if(e.key==="Escape")close()};document.addEventListener("keydown",esc_);
   el.addEventListener("click",e=>{if(e.target===el||e.target.closest(".lbclose"))close();const t=e.target.closest("[data-ti]");if(t){$("#lbMain").src=imgW(imgs[+t.dataset.ti],900);el.querySelectorAll("[data-ti]").forEach(x=>x.setAttribute("aria-current",String(x===t)))}});
   el.querySelector(".lbclose").focus();
-  $("#lbSave").onclick=()=>saveProject({type:"product",title:`${b?b.name:""} · ${p.title}`,data:{brand:b?b.name:"",title:p.title,url:p.url,image:imgs[0]||"",price:p.price,market:B.market}});
+  $("#lbSave").onclick=()=>saveProject({type:"product",title:`${b?b.name:""} · ${p.title}`,data:{brand:b?b.name:"",title:p.title,url:p.url,image:imgs[0]||"",price:p.price,market:B.bmarket}});
   $("#lbRef").onclick=()=>{const st=$("#lbStatus");st.textContent="Loading image…";const im=new Image();im.crossOrigin="anonymous";im.referrerPolicy="no-referrer";
     im.onload=()=>{try{cImg=im;showThumb("#cDrop",im,`${b?b.name:""} reference`);$("#cBrief").value=$("#cBrief").value||`Original design inspired by the mood of a ${p.segment} reference from ${b?b.name:"a brand"}; do not copy its motifs or layout.`;$("#cMot").value=20;$("#cMot").dispatchEvent(new Event("input"));close();location.hash="#design";toast("Reference loaded. Motif similarity set to 20% so results stay original.")}catch(err){cImg=null;st.className="status err";st.textContent="This brand's images can't be read by the app. Save the image from the brand site and upload it in Design Generator."}};
     im.onerror=()=>{st.className="status err";st.textContent="Image could not be loaded. Save it from the brand site and upload it instead."};im.src=imgW(imgs[0],1200)};}
-$("#bMarket").addEventListener("click",e=>{const c=e.target.closest("[data-m]");if(!c)return;B.market=c.dataset.m;B.brand=null;renderBrands()});
-$("#bList").addEventListener("click",e=>{const o=e.target.closest("[data-open-brand]");if(o){B.brand=o.dataset.openBrand;renderBrand();scrollTo({top:0})}});
+$("#bMarket").addEventListener("click",e=>{const c=e.target.closest("[data-m]");if(!c)return;B.market=c.dataset.m;B.brand=null;B.style="";renderBrands()});
+$("#bList").addEventListener("click",e=>{const o=e.target.closest("[data-open-brand]");if(o){B.brand=o.dataset.openBrand;B.bmarket=o.dataset.bm;B.cat=null;renderBrand();scrollTo({top:0})}});
+$("#bDetail").addEventListener("click",e=>{if(e.target.closest("#bBack")&&!B.cat){B.brand=null;renderBrands()}},true);
+$("#bWant").addEventListener("click",e=>{const w=e.target.closest("[data-want]");if(!w)return;B.want=w.dataset.want;try{localStorage.setItem("dm.want",B.want)}catch(err){}B.brand=null;B.style="";renderBrands()});
+$("#bStyle").addEventListener("click",e=>{const c=e.target.closest("[data-sty]");if(!c)return;B.style=c.dataset.sty;renderBrands()});
+$("#bSearch").addEventListener("input",e=>{B.bq=e.target.value.trim();if(B.brand){B.brand=null}renderBrands()});
 $("#bDetail").addEventListener("click",e=>{if(e.target.closest("#bBack")){B.brand=null;renderBrands();return}
   const sg=e.target.closest("[data-seg]");if(sg){B.seg=sg.dataset.seg;B.sub="";B.shown=60;renderBrand();return}
   const sb=e.target.closest("[data-sub]");if(sb){B.sub=sb.dataset.sub;B.shown=60;renderBrand();return}
@@ -972,6 +1059,51 @@ $("#bDetail").addEventListener("click",e=>{if(e.target.closest("#bBack")){B.bran
 $("#bDetail").addEventListener("input",e=>{if(e.target.id==="bQ"){B.q=e.target.value.trim();B.shown=60;clearTimeout(B.t);B.t=setTimeout(()=>{renderBrand().then(()=>{const q=$("#bQ");if(q){q.focus();q.setSelectionRange(q.value.length,q.value.length)}})},250)}});
 $("#bDetail").addEventListener("change",e=>{if(e.target.id==="bSort"){B.sort=e.target.value;renderBrand()}});
 if(window.DM_STATIC)$("#navBrands").hidden=false;
+
+/* ---------- Inspiration (GitHub version) ---------- */
+const ICATS=[["billboard","Billboards","billboard advertising design"],["magazine","Magazine covers","magazine cover design"],["layout","Magazine layouts","magazine page layout editorial design"],["poster","Posters","poster design"],["social","Social media","social media post design"],["printad","Print ads","print advertisement"],["packaging","Packaging","packaging design"],["logo","Logos & branding","logo brand identity design"],["typo","Typography","typography lettering design"],["flyer","Flyers & brochures","flyer brochure design"],["book","Book covers","book cover design"],["signage","Shop signs & windows","shop window display signage"],["textile","Textile prints","textile print pattern"]];
+const I={cat:"billboard",queries:[],page:1,items:[],sel:new Map(),busy:false};
+function iSettings(){try{return window.DM_STATIC?window.DM_STATIC.loadSettings():{}}catch(e){return {}}}
+async function iSearchOne(q,page){const st=iSettings();const out=[];const jobs=[];
+  jobs.push(fetch(`https://api.openverse.org/v1/images/?q=${encodeURIComponent(q)}&page_size=20&page=${page}&mature=false`).then(r=>r.ok?r.json():{results:[]}).then(j=>(j.results||[]).forEach(x=>out.push({id:"ov"+x.id,title:x.title||q,thumb:x.thumbnail||x.url,full:x.url,page:x.foreign_landing_url,creator:x.creator||"",license:x.license?`CC ${String(x.license).toUpperCase()} ${x.license_version||""}`.trim():"",source:x.source||"Openverse",w:x.width,h:x.height}))).catch(()=>{}));
+  jobs.push(fetch(`https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrnamespace=6&gsrsearch=${encodeURIComponent(q+" filetype:bitmap")}&gsrlimit=15&gsroffset=${(page-1)*15}&prop=imageinfo&iiprop=url|extmetadata&iiurlwidth=500&format=json&origin=*`).then(r=>r.json()).then(j=>Object.values((j.query||{}).pages||{}).forEach(x=>{const ii=(x.imageinfo||[])[0];if(!ii)return;const md=ii.extmetadata||{};const strip=v=>String(v||"").replace(/<[^>]+>/g,"").trim();out.push({id:"wm"+x.pageid,title:x.title.replace(/^File:/,"").replace(/\.\w+$/,""),thumb:ii.thumburl||ii.url,full:ii.url,page:ii.descriptionurl,creator:strip(md.Artist&&md.Artist.value).slice(0,60),license:strip(md.LicenseShortName&&md.LicenseShortName.value),source:"Wikimedia Commons"})})).catch(()=>{}));
+  if(st.pexels)jobs.push(fetch(`https://api.pexels.com/v1/search?query=${encodeURIComponent(q)}&per_page=20&page=${page}`,{headers:{Authorization:st.pexels}}).then(r=>r.ok?r.json():{}).then(j=>(j.photos||[]).forEach(x=>out.push({id:"px"+x.id,title:x.alt||q,thumb:x.src&&x.src.medium,full:x.src&&x.src.large2x,page:x.url,creator:x.photographer,license:"Pexels licence",source:"Pexels"}))).catch(()=>{}));
+  if(st.unsplash)jobs.push(fetch(`https://api.unsplash.com/search/photos?query=${encodeURIComponent(q)}&per_page=20&page=${page}&client_id=${encodeURIComponent(st.unsplash)}`).then(r=>r.ok?r.json():{}).then(j=>(j.results||[]).forEach(x=>out.push({id:"us"+x.id,title:x.alt_description||q,thumb:x.urls&&x.urls.small,full:x.urls&&x.urls.regular,page:x.links&&x.links.html,creator:x.user&&x.user.name,license:"Unsplash licence",source:"Unsplash"}))).catch(()=>{}));
+  await Promise.all(jobs);return out.filter(x=>safeUrl(x.thumb));}
+async function iQueries(idea,cat){const c=ICATS.find(x=>x[0]===cat);const base=[`${idea} ${c[2]}`.trim(),c[2],`${c[2]} ${idea.split(/\s+/).slice(0,3).join(" ")}`.trim()];
+  const sm=sample||null;if(!idea||!sm)return [...new Set(base)].slice(0,3);
+  try{const r=await sm(`A graphic designer needs reference images for: "${idea}". Category: ${c[1]}. Write 4 short English image-search queries (2-5 words each) that would find real examples of this kind of design in open image libraries (Openverse, Wikimedia Commons). Mix the subject with the format (e.g. "kids fashion billboard", "vintage magazine cover"). Return JSON only: {"queries":["..",".."]}`,{modelTier:"quick"});const j=json(r.text);const q=(j.queries||[]).filter(x=>typeof x==="string"&&x.length<80).slice(0,4);return q.length?q:base}catch(e){return base}}
+function iCard(x,i){return `<button type="button" class="icard" data-ii="${i}" aria-pressed="${I.sel.has(x.id)}">${x.ai?'<span class="ai-badge">AI SKETCH</span>':""}<span class="pick" data-pick="${i}" aria-label="Select">✓</span><img src="${esc(x.thumb)}" alt="${esc(x.title)}" loading="lazy" referrerpolicy="no-referrer" onerror="this.closest('.icard').remove()"><div class="ic"><span>${esc(x.ai?"AI concept":(x.creator||x.source))}</span><span>${esc(x.ai?"Preview":x.source)}</span></div></button>`}
+function iRender(){$("#iGrid").innerHTML=I.items.length?I.items.map(iCard).join(""):"";$("#iBar").hidden=!I.sel.size;$("#iSel").textContent=`${I.sel.size} selected`;}
+async function iRun(more){if(I.busy)return;const st=$("#iStatus");const idea=$("#iIdea").value.trim();I.busy=true;$("#iGo").disabled=true;st.className="status";
+  try{if(!more){I.page=1;I.items=[];st.textContent="Finding designs…";I.queries=await iQueries(idea,I.cat);$("#iQueries").innerHTML=I.queries.map(q=>`<span class="pill p-unknown">${esc(q)}</span>`).join("");}
+    else I.page++;
+    const res=(await Promise.all(I.queries.map(q=>iSearchOne(q,I.page)))).flat();const have=new Set(I.items.map(x=>x.id));
+    const fresh=[];const per=res.reduce((m,x)=>(m[x.source]=(m[x.source]||[]).concat(x),m),{});const lists=Object.values(per);
+    for(let k=0;lists.some(l=>l[k]);k++)lists.forEach(l=>{const x=l[k];if(x&&!have.has(x.id)){have.add(x.id);fresh.push(x)}});
+    if(!more&&$("#iAI").checked&&iSettings().images!==false&&window.DM_STATIC){const c=ICATS.find(x=>x[0]===I.cat);for(let k=0;k<3;k++){const prompt=`${c[1]} design, ${idea||c[2]}, professional graphic design, high quality, original artwork, no real brand logos`;const u=window.DM_STATIC.image(prompt+" variation "+(k+1));fresh.splice(k*4,0,{id:"ai"+Date.now()+k,ai:true,title:`AI ${c[1]} concept`,thumb:u,full:u,page:"",creator:"",license:"AI preview",source:"Pollinations"})}}
+    I.items.push(...fresh);iRender();
+    st.textContent=I.items.length?`${I.items.length} designs. Tap one to view, tick to add to a moodboard.`:"No designs found. Try simpler words or another category.";
+    $("#iMore").hidden=!fresh.length;
+  }catch(e){st.className="status err";st.textContent="Search failed. Check your internet connection."}finally{I.busy=false;$("#iGo").disabled=false}}
+function iOpen(x){const el=document.createElement("div");el.className="lb";el.setAttribute("role","dialog");el.setAttribute("aria-modal","true");
+  el.innerHTML=`<div class="lbin"><div class="lbimg"><img src="${esc(x.full||x.thumb)}" alt="${esc(x.title)}" referrerpolicy="no-referrer" style="aspect-ratio:auto;object-fit:contain;max-height:78vh"></div><div class="lbtext"><button class="lbclose" type="button" aria-label="Close">×</button>
+   <div class="eyebrow">${esc(x.ai?"AI concept sketch":x.source)}</div><h2>${esc(x.title)}</h2>
+   <div class="kv">${x.creator?`<b>Creator</b><span>${esc(x.creator)}</span>`:""}<b>Licence</b><span>${esc(x.license||"See source")}</span></div>
+   ${x.ai?'<p class="muted" style="font-size:13px">Generated by a free AI image service as a rough idea. Not production artwork.</p>':""}
+   <div class="row"><button class="btn small" type="button" id="iPick">${I.sel.has(x.id)?"Remove from moodboard":"Add to moodboard"}</button><button class="btn small ghost" type="button" id="iCrit">Get AI design ideas from this</button></div>
+   ${safeUrl(x.page)?`<a href="${esc(x.page)}" target="_blank" rel="noopener" style="font-size:13px">Source page and licence details</a>`:""}<div class="status" id="iLbS"></div></div></div>`;
+  document.body.appendChild(el);const close=()=>el.remove();el.addEventListener("click",e=>{if(e.target===el||e.target.closest(".lbclose"))close()});document.addEventListener("keydown",function k(e){if(e.key==="Escape"){close();document.removeEventListener("keydown",k)}});
+  $("#iPick").onclick=()=>{I.sel.has(x.id)?I.sel.delete(x.id):I.sel.set(x.id,x);iRender();close()};
+  $("#iCrit").onclick=()=>{const st=$("#iLbS");st.textContent="Loading image…";const im=new Image();im.crossOrigin="anonymous";im.onload=()=>{try{const c=document.createElement("canvas");c.width=4;c.height=4;c.getContext("2d").drawImage(im,0,0,4,4);c.getContext("2d").getImageData(0,0,1,1);gImg=im;showThumb("#gDrop",im,"Inspiration reference");$("#gCtx").value=`Reference found for: ${$("#iIdea").value.trim()||x.title}. Explain what makes it work and give me 3 original directions for my own design.`;$("#gMode").value="Campaign & social concepts";close();location.hash="#design";$$(".subtabs .chip")[3].click();toast("Reference sent to Graphic design critique")}catch(err){st.className="status err";st.textContent="This image can't be read by the app. Save it and upload it in Design Generator."}};im.onerror=()=>{st.className="status err";st.textContent="Image could not be loaded."};im.src=x.full||x.thumb};}
+$("#iCats").innerHTML=ICATS.map(([k,l])=>`<button type="button" class="chip" data-icat="${k}" aria-pressed="${k===I.cat}">${esc(l)}</button>`).join("");
+$("#iCats").addEventListener("click",e=>{const c=e.target.closest("[data-icat]");if(!c)return;I.cat=c.dataset.icat;$$("#iCats .chip").forEach(x=>x.setAttribute("aria-pressed",String(x===c)))});
+$("#iForm").addEventListener("submit",e=>{e.preventDefault();iRun(false)});
+$("#iMore").addEventListener("click",()=>iRun(true));
+$("#iGrid").addEventListener("click",e=>{const pk=e.target.closest("[data-pick]");const card=e.target.closest("[data-ii]");if(!card)return;const x=I.items[+card.dataset.ii];if(pk){e.stopPropagation();I.sel.has(x.id)?I.sel.delete(x.id):I.sel.set(x.id,x);card.setAttribute("aria-pressed",String(I.sel.has(x.id)));$("#iBar").hidden=!I.sel.size;$("#iSel").textContent=`${I.sel.size} selected`;return}iOpen(x)});
+$("#iClear").addEventListener("click",()=>{I.sel.clear();iRender()});
+$("#iBoard").addEventListener("click",()=>{const items=[...I.sel.values()].map(x=>({title:x.title,thumb:x.thumb,full:x.full,page:x.page,creator:x.creator,license:x.license,source:x.source,ai:!!x.ai}));const idea=$("#iIdea").value.trim();const c=ICATS.find(x=>x[0]===I.cat);saveProject({type:"moodboard",title:`Moodboard · ${c[1]}${idea?" · "+idea.slice(0,40):""}`,data:{idea,category:c[1],items}});I.sel.clear();iRender()});
+if(window.DM_STATIC){$("#navInspire").hidden=false;const st=iSettings();$("#iSrc").textContent="Sources: Openverse, Wikimedia Commons"+(st.pexels?", Pexels":"")+(st.unsplash?", Unsplash":"")}
 
 /* ---------- Boot ---------- */
 route();renderTrends();renderFabrics();
