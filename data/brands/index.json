@@ -1950,5 +1950,36 @@
   "status": "website",
   "checked": "2026-11-02",
   "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "shushu-tong": {
+  "status": "website",
+  "checked": "2026-11-02",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "shein": {
+  "status": "website",
+  "checked": "2026-11-02",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "urban-revivo": {
+  "status": "catalogue",
+  "checked": "2026-11-02",
+  "counts": {
+   "women": 160,
+   "men": 93,
+   "other": 28,
+   "kids": 1
+  },
+  "via": "shopify",
+  "kidsCollections": []
+ },
+ "balabala": {
+  "status": "catalogue",
+  "checked": "2026-11-02",
+  "counts": {
+   "kids": 156
+  },
+  "via": "sitemap",
+  "kidsCollections": []
  }
 }
