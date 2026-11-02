@@ -1611,5 +1611,75 @@
   },
   "via": "sitemap",
   "kidsCollections": []
+ },
+ "monnalisa": {
+  "status": "catalogue",
+  "checked": "2026-11-02",
+  "counts": {
+   "kids": 24
+  },
+  "via": "shopify",
+  "kidsCollections": [
+   "101 Hearths Newborn",
+   "101 Hearths Newborn > NEWBORN",
+   "101 Hearths Newborn > NEWBORN > Accessori Baby",
+   "101 Hearths Newborn > NEWBORN > Accessori Baby > Accessori",
+   "101 Hearths Newborn > NEWBORN > Accessori Baby > Cuffie",
+   "101 Hearths Newborn > NEWBORN > Body,Tutine&Completi",
+   "101 Hearths Newborn > NEWBORN > Body,Tutine&Completi > Body",
+   "101 Hearths Newborn > NEWBORN > Body,Tutine&Completi > Completi",
+   "Bear Hugs Newborn Boy",
+   "Bear Hugs Newborn Boy > NEWBORN",
+   "Bear Hugs Newborn Boy > NEWBORN > Body,Tutine&Completi",
+   "Bear Hugs Newborn Boy > NEWBORN > Body,Tutine&Completi > Completi"
+  ]
+ },
+ "max-mara": {
+  "status": "website",
+  "checked": "2026-11-02",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "benetton": {
+  "status": "catalogue",
+  "checked": "2026-11-02",
+  "counts": {
+   "other": 60,
+   "men": 20,
+   "kids": 300,
+   "women": 9
+  },
+  "via": "shopify",
+  "kidsCollections": [
+   "Accessori da bambino",
+   "Accessori e scarpe da bambino",
+   "Accessori e scarpe da bambino articoli in offerta",
+   "Accessori per baby",
+   "Accessori per baby articoli in offerta",
+   "Back to School Kids",
+   "Bambina (4-14 anni)",
+   "Bambina (6-14 anni)",
+   "Bambino (6-14 anni)",
+   "Basici per Bambino (6 - 14 anni)",
+   "Basics for Kids",
+   "Beach accessories for junior boy"
+  ]
+ },
+ "ovs": {
+  "status": "catalogue",
+  "checked": "2026-11-02",
+  "counts": {
+   "kids": 259
+  },
+  "via": "sitemap",
+  "kidsCollections": []
+ },
+ "il-gufo": {
+  "status": "catalogue",
+  "checked": "2026-11-02",
+  "counts": {
+   "kids": 152
+  },
+  "via": "sitemap",
+  "kidsCollections": []
  }
 }
