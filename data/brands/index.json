@@ -1836,5 +1836,70 @@
   },
   "via": "sitemap",
   "kidsCollections": []
+ },
+ "w-for-woman": {
+  "status": "catalogue",
+  "checked": "2026-11-02",
+  "counts": {
+   "women": 160,
+   "men": 27
+  },
+  "via": "shopify",
+  "kidsCollections": []
+ },
+ "house-of-masaba": {
+  "status": "catalogue",
+  "checked": "2026-11-02",
+  "counts": {
+   "women": 160,
+   "other": 60,
+   "men": 100,
+   "kids": 46
+  },
+  "via": "shopify",
+  "kidsCollections": [
+   "Indian Girl Summer"
+  ]
+ },
+ "jaypore": {
+  "status": "website",
+  "checked": "2026-11-02",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "firstcry": {
+  "status": "website",
+  "checked": "2026-11-02",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "manyavar": {
+  "status": "catalogue",
+  "checked": "2026-11-02",
+  "counts": {
+   "kids": 200,
+   "men": 60
+  },
+  "via": "sitemap",
+  "kidsCollections": []
+ },
+ "biba": {
+  "status": "catalogue",
+  "checked": "2026-11-02",
+  "counts": {
+   "kids": 27,
+   "women": 160,
+   "other": 1
+  },
+  "via": "sitemap",
+  "kidsCollections": []
+ },
+ "fabindia": {
+  "status": "catalogue",
+  "checked": "2026-11-02",
+  "counts": {
+   "kids": 22,
+   "home": 60
+  },
+  "via": "sitemap",
+  "kidsCollections": []
  }
 }
