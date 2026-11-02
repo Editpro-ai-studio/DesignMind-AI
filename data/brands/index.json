@@ -1681,5 +1681,69 @@
   },
   "via": "sitemap",
   "kidsCollections": []
+ },
+ "jacadi": {
+  "status": "website",
+  "checked": "2026-11-02",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "okaidi": {
+  "status": "website",
+  "checked": "2026-11-02",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "kiabi": {
+  "status": "website",
+  "checked": "2026-11-02",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "bonpoint": {
+  "status": "catalogue",
+  "checked": "2026-11-02",
+  "counts": {
+   "kids": 300,
+   "women": 1
+  },
+  "via": "shopify",
+  "kidsCollections": [
+   "Bonpoint x Izipizi Bébé Enfant",
+   "Bonpoint x The Woolmark Company bébé",
+   "Bonpoint x The Woolmark Company fille",
+   "Bonpoint x The Woolmark Company garçon",
+   "Journées Bonpoint - Enfant"
+  ]
+ },
+ "sezane": {
+  "status": "website",
+  "checked": "2026-11-02",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "cyrillus": {
+  "status": "catalogue",
+  "checked": "2026-11-02",
+  "counts": {
+   "other": 60,
+   "kids": 300,
+   "women": 160,
+   "men": 100
+  },
+  "via": "shopify",
+  "kidsCollections": [
+   "Apaches x Cyrillus enfant",
+   "Cardigan pour enfant",
+   "Ceinture garçon enfant",
+   "Chaussette pour garçon enfant",
+   "Chaussures pour enfant",
+   "Chemise pour enfant"
+  ]
+ },
+ "petit-bateau": {
+  "status": "catalogue",
+  "checked": "2026-11-02",
+  "counts": {
+   "kids": 260
+  },
+  "via": "sitemap",
+  "kidsCollections": []
  }
 }
