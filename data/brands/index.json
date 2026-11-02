@@ -2034,5 +2034,57 @@
   },
   "via": "sitemap",
   "kidsCollections": []
+ },
+ "sanetta": {
+  "status": "website",
+  "checked": "2026-11-02",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "esprit": {
+  "status": "website",
+  "checked": "2026-11-02",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "jako-o": {
+  "status": "website",
+  "checked": "2026-11-02",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "armedangels": {
+  "status": "catalogue",
+  "checked": "2026-11-02",
+  "counts": {
+   "other": 60,
+   "women": 150,
+   "men": 100,
+   "kids": 1
+  },
+  "via": "shopify",
+  "kidsCollections": [
+   "Damen accessoires Kinder Kappen",
+   "Herren Accessoires Kinder Kappen"
+  ]
+ },
+ "marc-o-polo": {
+  "status": "catalogue",
+  "checked": "2026-11-02",
+  "counts": {
+   "kids": 201,
+   "other": 58,
+   "women": 1
+  },
+  "via": "sitemap",
+  "kidsCollections": []
+ },
+ "s-oliver": {
+  "status": "catalogue",
+  "checked": "2026-11-02",
+  "counts": {
+   "women": 30,
+   "kids": 8,
+   "men": 7
+  },
+  "via": "sitemap",
+  "kidsCollections": []
  }
 }
