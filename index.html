@@ -457,7 +457,7 @@ a.card:hover,button.card:hover,.bcard:hover,.prod:hover{transform:translateY(-2p
         <div class="eyebrow">AI provider</div>
         <label class="f">Provider<select id="sProv"></select></label>
         <label class="f" id="sKeyWrap">API key<input type="text" id="sKey" autocomplete="off" spellcheck="false" placeholder="Paste your key"></label>
-        <label class="f">Model<input type="text" id="sModel" spellcheck="false"></label>
+        <label class="f">Model<input type="text" id="sModel" spellcheck="false" placeholder="Leave empty to choose automatically"></label>
         <label class="f" id="sBaseWrap">Service address<input type="text" id="sBase" spellcheck="false"></label>
         <label class="row" style="font-size:13px;gap:6px"><input type="checkbox" id="sImg" checked> Allow free AI image previews (Pollinations)</label>
         <div class="eyebrow" style="margin-top:6px">Inspiration image libraries (optional, free keys)</div>
@@ -964,7 +964,7 @@ if(window.DM_STATIC){const D=window.DM_STATIC;$("#navSettings").hidden=false;$("
     $("#sKeyWrap").hidden=p==="ollama"||p==="off";$("#sBaseWrap").hidden=!pre.base;$("#sModel").parentElement.hidden=p==="off"};
   $("#sProv").addEventListener("change",()=>{const p=$("#sProv").value,pre=D.presets[p]||{},s=D.loadSettings();D.saveSettings({...s,provider:p,model:pre.model||"",base:pre.base||"",key:p===s.provider?s.key:""});showS()});
   $("#setForm").addEventListener("submit",e=>{e.preventDefault();D.saveSettings({provider:$("#sProv").value,key:$("#sKey").value.trim(),model:$("#sModel").value.trim(),base:$("#sBase").value.trim(),images:$("#sImg").checked,pexels:$("#sPexels").value.trim(),unsplash:$("#sUnsplash").value.trim()});$("#sStatus").className="status";$("#sStatus").textContent="Saved."});
-  $("#sTest").addEventListener("click",async()=>{$("#setForm").requestSubmit();const st=$("#sStatus");st.className="status";st.textContent="Testing…";try{const sm=sample||await window.claude.use("sample");const r=await sm("Reply with exactly: DesignMind AI is connected.",{cache:false});st.textContent="Working: "+r.text.trim().slice(0,80)}catch(e){st.className="status err";st.textContent=e.message||"Test failed"}});
+  $("#sTest").addEventListener("click",async()=>{$("#setForm").requestSubmit();const st=$("#sStatus");st.className="status";st.textContent="Testing…";try{const sm=sample||await window.claude.use("sample");const r=await sm("Reply with exactly: DesignMind AI is connected.",{cache:false});showS();st.textContent="Working: "+r.text.trim().slice(0,80)+(r.modelApplied?` (model: ${r.modelApplied})`:"")}catch(e){st.className="status err";st.textContent=e.message||"Test failed"}});
   $("#bExp").addEventListener("click",async()=>{try{await saveFile(`designmind-backup-${new Date().toISOString().slice(0,10)}.json`,await D.exportBackup(),"application/json");$("#bStatus").textContent="Backup downloaded."}catch(e){$("#bStatus").textContent="Backup failed."}});
   $("#bImp").addEventListener("click",()=>$("#bFile").click());
   $("#bFile").addEventListener("change",async()=>{const f=$("#bFile").files[0];if(!f)return;try{const n=await D.importBackup(await f.text());$("#bStatus").textContent=`Imported ${n} items.`;S.projects=[];S.favs.clear();loadProjects()}catch(e){$("#bStatus").textContent=e.message}});

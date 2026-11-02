@@ -271,6 +271,24 @@ function addBrandFromEnv() {
   return id;
 }
 
+// When running on GitHub Actions, commit and push what has been read so far.
+function saveToGitHub(message) {
+  if (process.env.GITHUB_ACTIONS !== 'true') return;
+  const { execSync } = require('node:child_process');
+  const sh = c => execSync(c, { cwd: ROOT, stdio: 'pipe' }).toString();
+  try {
+    sh('git config user.name >/dev/null || git config user.name "designmind-catalogue-bot"');
+    sh('git config user.email >/dev/null || git config user.email "actions@users.noreply.github.com"');
+    sh('git add data/brands data/brands.json');
+    if (!sh('git diff --cached --name-only').trim()) return;
+    sh(`git commit -m "${message.replace(/"/g, '')}"`);
+    for (let i = 0; i < 3; i++) {
+      try { sh('git pull --rebase --autostash -X theirs'); sh('git push'); console.log(`  saved to GitHub: ${message}`); return; }
+      catch (e) { console.warn('  push failed, retrying:', e.message.split('\n')[0]); }
+    }
+  } catch (e) { console.warn('  could not save to GitHub now:', e.message.split('\n')[0]); }
+}
+
 (async () => {
   const added = addBrandFromEnv();
   const arg = (added || process.argv[2] || 'all').toLowerCase();
@@ -322,9 +340,18 @@ function addBrandFromEnv() {
     fs.writeFileSync(prevIndexFile, JSON.stringify({ ...prev, ...index }, null, 1));
     console.log(`${market} / ${b.name}: ${log.join(' ')}`);
   }
+  // One market at a time (4 brands in parallel), saving to GitHub after each market,
+  // so designs show up in the app market by market instead of only at the very end.
   const POOL = 4;
-  let next = 0;
-  await Promise.all(Array.from({ length: POOL }, async () => { while (next < jobs.length) { const [m, b] = jobs[next++]; await one(m, b); await sleep(1500); } }));
+  const markets = [...new Set(jobs.map(j => j[0]))];
+  for (const m of markets) {
+    const list = jobs.filter(j => j[0] === m);
+    let next = 0;
+    await Promise.all(Array.from({ length: POOL }, async () => { while (next < list.length) { const [mm, b] = list[next++]; await one(mm, b); await sleep(1500); } }));
+    fs.writeFileSync(prevIndexFile, JSON.stringify({ ...prev, ...index }, null, 1));
+    if (regChanged) fs.writeFileSync(path.join(ROOT, 'data', 'brands.json'), JSON.stringify(REG, null, 1));
+    saveToGitHub(`Brand catalogues: ${m}`);
+  }
   fs.writeFileSync(prevIndexFile, JSON.stringify({ ...prev, ...index }, null, 1));
   if (regChanged) fs.writeFileSync(path.join(ROOT, 'data', 'brands.json'), JSON.stringify(REG, null, 1));
   const n = k => summary.filter(x => x.endsWith(':' + k)).length;

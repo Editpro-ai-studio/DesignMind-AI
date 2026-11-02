@@ -98,7 +98,7 @@
 
   /* ---------- AI in the browser (free providers, user's own key kept in this browser) ---------- */
   const PRESETS = {
-    gemini: { label: 'Google Gemini (free key)', model: 'gemini-2.5-flash' },
+    gemini: { label: 'Google Gemini (free key)', model: '' },
     groq: { label: 'Groq (free key)', base: 'https://api.groq.com/openai/v1', model: 'meta-llama/llama-4-scout-17b-16e-instruct' },
     openrouter: { label: 'OpenRouter (free models)', base: 'https://openrouter.ai/api/v1', model: 'google/gemma-3-27b-it:free' },
     ollama: { label: 'Ollama on this computer (offline)', base: 'http://localhost:11434', model: 'gemma3:4b' },
@@ -106,6 +106,21 @@
   };
   const blobToB64 = b => new Promise((ok, bad) => { const r = new FileReader(); r.onload = () => ok(String(r.result).split(',')[1]); r.onerror = bad; r.readAsDataURL(b); });
   const fail = (message, code = 'upstream_error') => Object.assign(new Error(message), { code });
+
+  // Pick a current Gemini "flash" model: the one Google suggests in its error, else the newest stable flash model this key can use.
+  async function pickGeminiModel(key, errorText, avoid) {
+    const suggested = (String(errorText).match(/models\/(gemini-[\w.-]+)/g) || []).map(x => x.replace('models/', '')).filter(m => m !== avoid);
+    let names = [];
+    try {
+      const r = await fetch('https://generativelanguage.googleapis.com/v1beta/models?pageSize=200', { headers: { 'x-goog-api-key': key } });
+      const j = await r.json();
+      names = (j.models || []).filter(m => (m.supportedGenerationMethods || []).includes('generateContent')).map(m => m.name.replace('models/', ''));
+    } catch {}
+    if (suggested.length && (!names.length || names.includes(suggested[0]))) return suggested[0];
+    const score = n => { const v = parseFloat((n.match(/gemini-(\d+(?:\.\d+)?)/) || [])[1] || 0); return v * 10 - (/preview|exp/.test(n) ? 3 : 0) - (/lite/.test(n) ? 1 : 0); };
+    const flash = names.filter(n => /flash/.test(n) && !/image|tts|audio|live|thinking|embedding|8b/.test(n) && n !== avoid).sort((a, b) => score(b) - score(a));
+    return flash[0] || suggested[0] || null;
+  }
 
   async function callAI(prompt, images) {
     const s = loadSettings(); const p = s.provider || 'gemini'; const pre = PRESETS[p] || {};
@@ -115,13 +130,22 @@
     try {
       if (p === 'gemini') {
         if (!s.key) throw fail('Add your free Gemini API key in Settings.', 'not_configured');
-        res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${encodeURIComponent(model)}:generateContent`, {
+        const call = m => fetch(`https://generativelanguage.googleapis.com/v1beta/models/${encodeURIComponent(m)}:generateContent`, {
           method: 'POST', headers: { 'content-type': 'application/json', 'x-goog-api-key': s.key },
           body: JSON.stringify({ contents: [{ role: 'user', parts: [...images.map(i => ({ inline_data: { mime_type: i.media_type, data: i.data } })), { text: prompt }] }] }),
-        });
-        const j = await res.json().catch(() => ({}));
-        if (!res.ok) throw fail(j.error?.message || `Gemini error ${res.status}`, res.status === 429 ? 'rate_limited' : 'upstream_error');
-        return { text: (j.candidates?.[0]?.content?.parts || []).map(x => x.text || '').join(''), model, truncated: j.candidates?.[0]?.finishReason === 'MAX_TOKENS' };
+        }).then(async r => ({ r, j: await r.json().catch(() => ({})) }));
+        let use = model || await pickGeminiModel(s.key, '');
+        let { r, j } = await call(use);
+        // Google retires model names over time. If ours is gone, find a current one and retry once.
+        if (!r.ok && r.status !== 429 && /no longer available|not found|is not supported|deprecated|retired|update your code/i.test(j.error?.message || '')) {
+          const next = await pickGeminiModel(s.key, j.error?.message || '', use);
+          if (next && next !== use) {
+            ({ r, j } = await call(next));
+            if (r.ok) { use = next; saveSettings({ ...loadSettings(), model: next }); }
+          }
+        }
+        if (!r.ok) throw fail(j.error?.message || `Gemini error ${r.status}`, r.status === 429 ? 'rate_limited' : 'upstream_error');
+        return { text: (j.candidates?.[0]?.content?.parts || []).map(x => x.text || '').join(''), model: use, truncated: j.candidates?.[0]?.finishReason === 'MAX_TOKENS' };
       }
       if (p === 'ollama') {
         res = await fetch(`${(s.base || pre.base).replace(/\/$/, '')}/api/chat`, {
