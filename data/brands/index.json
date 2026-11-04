@@ -4147,5 +4147,295 @@
   },
   "via": "sitemap",
   "kidsCollections": []
+ },
+ "zara": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "mango": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "neck-and-neck": {
+  "status": "unreachable",
+  "checked": "2026-11-04",
+  "reason": "site did not respond"
+ },
+ "massimo-dutti": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "bershka": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "pull-and-bear": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "stradivarius": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "oysho": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "lefties": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "zara-home": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "mayoral": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "sfera": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "bimba-y-lola": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "tuc-tuc": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "kids": 300
+  },
+  "via": "shopify",
+  "kidsCollections": [
+   "Abrigos bebé niño",
+   "Abrigos y sudaderas niño",
+   "Baby",
+   "Baby",
+   "Bañadores bebé niño",
+   "Bañadores niño",
+   "Baño niño y niña",
+   "Bebé niño",
+   "Bebé niño Black Friday",
+   "Bermudas bebé niño",
+   "Bermudas niño",
+   "Best Sellers Niño"
+  ]
+ },
+ "springfield": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "cortefiel": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "laagam": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "women": 160
+  },
+  "via": "shopify",
+  "kidsCollections": []
+ },
+ "paloma-wool": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "other": 60,
+   "women": 51,
+   "men": 34
+  },
+  "via": "shopify",
+  "kidsCollections": [
+   "Baby"
+  ]
+ },
+ "ecoalf": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "women": 160,
+   "men": 100
+  },
+  "via": "shopify",
+  "kidsCollections": [
+   "ABRIGOS DE NIÑOS",
+   "ACCESORIOS KIDS",
+   "CAMISAS DE NIÑOS",
+   "CAMISETAS DE NIÑOS",
+   "CHALECOS DE NIÑOS",
+   "Colección Because",
+   "color-ABRIGO ASPEN NIÑOS",
+   "color-ABRIGO ATLANTIC NIÑOS",
+   "color-ABRIGO EOLIA NIÑOS",
+   "color-ABRIGO EOS NIÑOS",
+   "color-ABRIGO GEA NIÑOS",
+   "color-ABRIGO ICE NIÑO"
+  ]
+ },
+ "bobo-choses": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "women": 147,
+   "kids": 300,
+   "other": 60
+  },
+  "via": "shopify",
+  "kidsCollections": [
+   "Accessories",
+   "Accessories Accessories Children",
+   "Accessories for Baby",
+   "Accessories for Kid",
+   "All Baby",
+   "All Baby - test",
+   "All Kids",
+   "All Kids - test",
+   "AW22 FUN ACC. CHILDREN",
+   "AW25 All Baby",
+   "AW25 Baby",
+   "AW25 Fun Collection Baby"
+  ]
+ },
+ "the-animals-observatory": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "kids": 300,
+   "women": 5,
+   "men": 1
+  },
+  "via": "shopify",
+  "kidsCollections": [
+   "ARCHIVES BABY",
+   "ARCHIVES KID",
+   "BABY ACCESSORIES",
+   "BABY ARCHIVES",
+   "BABY BODYSUITS & SETS",
+   "BABY BOTTOMS",
+   "BABY CLOTHES",
+   "BABY DRESSES & JUMPSUITS",
+   "BABY KNITWEAR",
+   "BABY OUTERWEAR",
+   "BABY PANTS",
+   "BABY SWIMWEAR"
+  ]
+ },
+ "gocco": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "nanos": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "loewe": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "paz-rodriguez": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "kids": 300
+  },
+  "via": "shopify",
+  "kidsCollections": [
+   "Abrigos y chaquetones",
+   "Abrigos y chaquetones",
+   "Accesorios",
+   "Baño",
+   "BEBE NIÑO (0-24M)",
+   "BEBE NIÑO (0-24M)",
+   "bebe-nino-bufanda",
+   "BEBÉ NIÑO (0-24M)",
+   "Blusas y Camisas",
+   "Camisas y camisetas",
+   "Chaquetas",
+   "Chaquetas"
+  ]
+ },
+ "pili-carrera": {
+  "status": "unreachable",
+  "checked": "2026-11-04",
+  "reason": "site did not respond"
+ },
+ "la-coqueta": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "kids": 300,
+   "women": 17
+  },
+  "via": "shopify",
+  "kidsCollections": [
+   "0-3 Month Baby Boy Clothes",
+   "0-3 Month Baby Girl Clothes",
+   "12-18 Month Boy Clothes",
+   "12-18 Month Girl Clothes",
+   "3-6 Month Baby Boy Clothes",
+   "3-6 Month Baby Girl Clothes",
+   "Baby & Newborn Clothing",
+   "Baby & Toddler Shoes",
+   "Baby Accessories",
+   "Baby and Toddler Clothing New In",
+   "Baby and Toddler Coats & Jackets",
+   "Baby and Toddler Jersey Essentials"
+  ]
+ },
+ "bonnet-a-pompon": {
+  "status": "unreachable",
+  "checked": "2026-11-04",
+  "reason": "site did not respond"
+ },
+ "adolfo-dominguez": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "other": 60,
+   "men": 1
+  },
+  "via": "sitemap",
+  "kidsCollections": []
+ },
+ "desigual": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "other": 60,
+   "women": 33,
+   "kids": 3
+  },
+  "via": "sitemap",
+  "kidsCollections": []
+ },
+ "boboli": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "kids": 260
+  },
+  "via": "sitemap",
+  "kidsCollections": []
  }
 }
