@@ -1,12 +1,12 @@
 {
  "khaadi": {
   "status": "website",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "maria-b": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
    "men": 39,
    "kids": 300,
@@ -31,12 +31,12 @@
  },
  "gul-ahmed": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
-   "kids": 147,
-   "women": 160,
+   "kids": 150,
    "other": 60,
    "men": 100,
+   "women": 160,
    "home": 60
   },
   "via": "shopify",
@@ -57,11 +57,11 @@
  },
  "alkaram": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
    "women": 160,
-   "home": 46,
    "kids": 7,
+   "home": 40,
    "men": 100,
    "other": 8
   },
@@ -83,7 +83,7 @@
  },
  "junaid-jamshed": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
    "men": 100,
    "kids": 300,
@@ -108,10 +108,10 @@
  },
  "limelight": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
-   "kids": 64,
    "women": 160,
+   "kids": 61,
    "other": 2,
    "men": 3
   },
@@ -133,7 +133,7 @@
  },
  "bonanza-satrangi": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
    "women": 160,
    "men": 100,
@@ -156,10 +156,10 @@
  },
  "nishat-linen": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
-   "women": 160,
    "other": 60,
+   "women": 160,
    "men": 100,
    "kids": 1
   },
@@ -170,12 +170,12 @@
  },
  "sapphire": {
   "status": "website",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "sana-safinaz": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
    "women": 160,
    "kids": 70
@@ -192,15 +192,15 @@
  },
  "bareeze": {
   "status": "website",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "beechtree": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
+   "kids": 217,
    "women": 160,
-   "kids": 212,
    "other": 60
   },
   "via": "shopify",
@@ -221,11 +221,11 @@
  },
  "zellbury": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
-   "other": 60,
    "women": 160,
-   "kids": 248,
+   "other": 60,
+   "kids": 244,
    "men": 60
   },
   "via": "shopify",
@@ -246,7 +246,7 @@
  },
  "cross-stitch": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
    "women": 160,
    "men": 22,
@@ -257,10 +257,10 @@
  },
  "generation": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
-   "other": 60,
    "women": 160,
+   "other": 60,
    "kids": 2
   },
   "via": "shopify",
@@ -268,7 +268,7 @@
  },
  "lulusar": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
    "women": 160
   },
@@ -277,12 +277,12 @@
  },
  "hopscotch-pk": {
   "status": "website",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "edenrobe": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
    "women": 160,
    "other": 35,
@@ -307,7 +307,7 @@
  },
  "minnie-minors": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
    "kids": 300,
    "men": 5
@@ -330,10 +330,10 @@
  },
  "outfitters": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
-   "kids": 300,
    "women": 160,
+   "kids": 300,
    "men": 100
   },
   "via": "shopify",
@@ -354,12 +354,12 @@
  },
  "breakout": {
   "status": "website",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "zeezou": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
    "kids": 300
   },
@@ -381,10 +381,10 @@
  },
  "bachaa-party": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
    "kids": 300,
-   "men": 3
+   "men": 1
   },
   "via": "shopify",
   "kidsCollections": [
@@ -404,7 +404,7 @@
  },
  "beri-and-coral": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
    "kids": 107
   },
@@ -413,14 +413,14 @@
  },
  "leisure-club": {
   "status": "website",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "hummingbirds": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
-   "kids": 285,
+   "kids": 294,
    "men": 7
   },
   "via": "shopify",
@@ -441,9 +441,9 @@
  },
  "cuddle-cradle": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
-   "kids": 126
+   "kids": 127
   },
   "via": "shopify",
   "kidsCollections": [
@@ -463,7 +463,7 @@
  },
  "zubaidas": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
    "kids": 300
   },
@@ -485,7 +485,7 @@
  },
  "baroque": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
    "women": 160
   },
@@ -494,7 +494,7 @@
  },
  "zara-shahjahan": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
    "women": 160
   },
@@ -503,12 +503,12 @@
  },
  "mushq": {
   "status": "website",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "elan": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
    "women": 160
   },
@@ -517,7 +517,7 @@
  },
  "asim-jofa": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
    "women": 160,
    "kids": 67
@@ -531,7 +531,7 @@
  },
  "rollover": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
    "kids": 300
   },
@@ -553,7 +553,7 @@
  },
  "motifz": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
    "women": 160,
    "kids": 8
@@ -565,12 +565,12 @@
  },
  "ethnic": {
   "status": "website",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "charizma": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
    "women": 160,
    "kids": 37
@@ -588,12 +588,12 @@
  },
  "rang-ja": {
   "status": "website",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "mausummery": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
    "women": 156
   },
@@ -602,7 +602,7 @@
  },
  "warda": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
    "women": 160,
    "kids": 1
@@ -612,12 +612,12 @@
  },
  "kayseria": {
   "status": "website",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "so-kamal": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
    "other": 60,
    "women": 160,
@@ -628,10 +628,10 @@
  },
  "saya": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
-   "women": 160,
    "kids": 300,
+   "women": 160,
    "men": 75
   },
   "via": "shopify",
@@ -646,7 +646,7 @@
  },
  "ego": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
    "women": 160,
    "kids": 17
@@ -656,7 +656,7 @@
  },
  "chinyere": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
    "women": 160
   },
@@ -665,7 +665,7 @@
  },
  "sobia-nazir": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
    "women": 160
   },
@@ -674,7 +674,7 @@
  },
  "jazmin": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
    "women": 160
   },
@@ -683,7 +683,7 @@
  },
  "qalamkar": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
    "women": 160,
    "men": 12
@@ -693,7 +693,7 @@
  },
  "afrozeh": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
    "women": 160
   },
@@ -702,12 +702,12 @@
  },
  "almirah": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
-   "men": 100,
    "women": 160,
+   "men": 100,
    "other": 60,
-   "kids": 139
+   "kids": 135
   },
   "via": "shopify",
   "kidsCollections": [
@@ -727,7 +727,7 @@
  },
  "saira-rizwan": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
    "women": 160
   },
@@ -736,7 +736,7 @@
  },
  "faiza-saqlain": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
    "women": 160,
    "men": 98,
@@ -749,7 +749,7 @@
  },
  "republic-womenswear": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
    "women": 160
   },
@@ -758,7 +758,7 @@
  },
  "nureh": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
    "women": 160
   },
@@ -771,7 +771,7 @@
  },
  "kross-kulture": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
    "women": 160,
    "kids": 11
@@ -781,12 +781,12 @@
  },
  "image": {
   "status": "website",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "agha-noor": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
    "women": 160,
    "kids": 69,
@@ -800,7 +800,7 @@
  },
  "zeen": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
    "women": 160,
    "kids": 47
@@ -815,7 +815,7 @@
  },
  "imrozia": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
    "women": 160
   },
@@ -824,7 +824,7 @@
  },
  "emaan-adeel": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
    "women": 160
   },
@@ -833,7 +833,7 @@
  },
  "rang-rasiya": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
    "women": 160
   },
@@ -842,7 +842,7 @@
  },
  "al-zohaib": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
    "women": 160,
    "kids": 10
@@ -852,12 +852,12 @@
  },
  "ittehad-textiles": {
   "status": "website",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "firdous": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
    "women": 160
   },
@@ -866,7 +866,7 @@
  },
  "gulaal": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
    "women": 160
   },
@@ -877,7 +877,7 @@
  },
  "iznik": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
    "women": 160
   },
@@ -886,17 +886,17 @@
  },
  "lama": {
   "status": "website",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "tawakkal-fabrics": {
   "status": "website",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "bin-saeed": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
    "women": 160
   },
@@ -905,7 +905,7 @@
  },
  "ramsha": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
    "women": 160
   },
@@ -914,7 +914,7 @@
  },
  "taana-baana": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
    "women": 160
   },
@@ -923,7 +923,7 @@
  },
  "lakhany-by-lsm": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
    "women": 160,
    "men": 100
@@ -935,7 +935,7 @@
  },
  "misha-lakhani": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
    "women": 160,
    "kids": 2
@@ -945,7 +945,7 @@
  },
  "hsy": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
    "other": 60,
    "men": 63,
@@ -956,17 +956,17 @@
  },
  "faraz-manan": {
   "status": "website",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "nomi-ansari": {
   "status": "website",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "saira-shakira": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
    "women": 160,
    "kids": 2
@@ -976,7 +976,7 @@
  },
  "ali-xeeshan": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
    "other": 60,
    "women": 160,
@@ -988,7 +988,7 @@
  },
  "tena-durrani": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
    "women": 160
   },
@@ -997,7 +997,7 @@
  },
  "sania-maskatiya": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
    "women": 160,
    "men": 100,
@@ -1008,12 +1008,12 @@
  },
  "fahad-hussayn": {
   "status": "website",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "nida-azwer": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
    "women": 160,
    "men": 20
@@ -1025,17 +1025,17 @@
  },
  "mohsin-naveed-ranjha": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
-   "men": 100,
-   "women": 160
+   "women": 160,
+   "men": 100
   },
   "via": "shopify",
   "kidsCollections": []
  },
  "hussain-rehar": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
    "women": 160,
    "men": 44
@@ -1045,7 +1045,7 @@
  },
  "shiza-hassan": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
    "women": 160
   },
@@ -1054,7 +1054,7 @@
  },
  "suffuse-by-sana-yasir": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
    "women": 160
   },
@@ -1063,22 +1063,22 @@
  },
  "ansab-jahangir": {
   "status": "website",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "annus-abrar": {
   "status": "website",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "farah-talib-aziz": {
   "status": "website",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "zainab-chottani": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
    "women": 160,
    "men": 35,
@@ -1089,7 +1089,7 @@
  },
  "orient-textiles": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
    "women": 160
   },
@@ -1098,7 +1098,7 @@
  },
  "kamiar-rokni": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
    "women": 7
   },
@@ -1107,12 +1107,12 @@
  },
  "bunto-kazmi": {
   "status": "unreachable",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "reason": "site did not respond"
  },
  "maryum-n-maria": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
    "women": 160
   },
@@ -1126,12 +1126,12 @@
  },
  "erum-khan": {
   "status": "website",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "ammara-khan": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
    "women": 151
   },
@@ -1140,7 +1140,7 @@
  },
  "amir-adnan": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
    "men": 100,
    "kids": 1,
@@ -1151,12 +1151,12 @@
  },
  "deepak-perwani": {
   "status": "website",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "emraan-rajput": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
    "men": 100,
    "kids": 16
@@ -1169,7 +1169,7 @@
  },
  "mahgul": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
    "women": 160
   },
@@ -1178,17 +1178,17 @@
  },
  "uniworth": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
    "men": 100,
-   "women": 7
+   "women": 1
   },
   "via": "shopify",
   "kidsCollections": []
  },
  "charcoal": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
    "men": 100
   },
@@ -1197,7 +1197,7 @@
  },
  "cambridge": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
    "men": 100,
    "kids": 2
@@ -1220,10 +1220,10 @@
  },
  "chenone": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
+   "women": 144,
    "home": 60,
-   "women": 141,
    "men": 100,
    "other": 60,
    "kids": 15
@@ -1236,11 +1236,11 @@
  },
  "diners": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
+   "kids": 300,
    "men": 100,
-   "women": 160,
-   "kids": 300
+   "women": 160
   },
   "via": "shopify",
   "kidsCollections": [
@@ -1260,7 +1260,7 @@
  },
  "engine": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
    "kids": 300,
    "men": 100,
@@ -1284,12 +1284,12 @@
  },
  "gentry": {
   "status": "website",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "stoneage": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
    "other": 40
   },
@@ -1298,7 +1298,7 @@
  },
  "brumano": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
    "men": 100,
    "women": 39,
@@ -1322,7 +1322,7 @@
  },
  "monark": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
    "men": 100,
    "kids": 17,
@@ -1335,7 +1335,7 @@
  },
  "dynasty-fabrics": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
    "women": 160,
    "men": 45
@@ -1350,17 +1350,18 @@
  },
  "cougar": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
    "kids": 1,
-   "other": 60
+   "other": 60,
+   "women": 1
   },
   "via": "sitemap",
   "kidsCollections": []
  },
  "equator": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
    "men": 100
   },
