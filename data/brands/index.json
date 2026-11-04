@@ -9002,5 +9002,177 @@
   },
   "via": "sitemap",
   "kidsCollections": []
+ },
+ "esprit": {
+  "status": "unreachable",
+  "checked": "2026-11-04",
+  "reason": "site did not respond"
+ },
+ "sanetta": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "hugo-boss": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "jako-o": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "jil-sander": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "escada": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "women": 160
+  },
+  "via": "shopify",
+  "kidsCollections": []
+ },
+ "closed": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "gerry-weber": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "tom-tailor": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "opus": {
+  "status": "unreachable",
+  "checked": "2026-11-04",
+  "reason": "site did not respond"
+ },
+ "marc-o-polo": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "kids": 247,
+   "men": 33,
+   "women": 75,
+   "other": 245
+  },
+  "via": "sitemap",
+  "kidsCollections": []
+ },
+ "marc-cain": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "riani": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "armedangels": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "men": 1000,
+   "other": 600,
+   "women": 1500,
+   "kids": 6
+  },
+  "via": "shopify",
+  "kidsCollections": [
+   "Damen accessoires Kinder Kappen",
+   "[RECO] Kinder Kappen"
+  ]
+ },
+ "street-one": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "lala-berlin": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "cecil": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "hessnatur": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "living-crafts": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "engel-natur": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "bellybutton": {
+  "status": "unreachable",
+  "checked": "2026-11-04",
+  "reason": "site did not respond"
+ },
+ "sense-organics": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site asks not to be read automatically (robots.txt)"
+ },
+ "steiff-kids": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "blutsgeschwister": {
+  "status": "unreachable",
+  "checked": "2026-11-04",
+  "reason": "site did not respond"
+ },
+ "comma": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "women": 599
+  },
+  "via": "sitemap",
+  "kidsCollections": []
+ },
+ "bogner": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "kids": 61,
+   "women": 268,
+   "men": 266
+  },
+  "via": "sitemap",
+  "kidsCollections": []
+ },
+ "s-oliver": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "women": 334,
+   "men": 132,
+   "kids": 110
+  },
+  "via": "sitemap",
+  "kidsCollections": []
  }
 }
