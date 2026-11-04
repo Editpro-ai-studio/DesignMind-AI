@@ -2050,25 +2050,25 @@
  },
  "sanetta": {
   "status": "website",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "esprit": {
   "status": "website",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "jako-o": {
   "status": "website",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "armedangels": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
+   "women": 152,
    "other": 60,
-   "women": 150,
    "men": 100,
    "kids": 1
   },
@@ -2080,10 +2080,10 @@
  },
  "marc-o-polo": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
-   "kids": 201,
-   "other": 58,
+   "kids": 202,
+   "other": 57,
    "women": 1
   },
   "via": "sitemap",
@@ -2091,10 +2091,10 @@
  },
  "s-oliver": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
    "women": 30,
-   "kids": 8,
+   "kids": 9,
    "men": 7
   },
   "via": "sitemap",
