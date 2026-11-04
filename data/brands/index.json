@@ -9174,5 +9174,547 @@
   },
   "via": "sitemap",
   "kidsCollections": []
+ },
+ "hm": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "zara-global": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "marimekko": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "adidas": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "farm-rio": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "other": 478,
+   "men": 14,
+   "women": 6,
+   "kids": 1
+  },
+  "via": "shopify",
+  "kidsCollections": []
+ },
+ "johanna-ortiz": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "women": 723
+  },
+  "via": "shopify",
+  "kidsCollections": []
+ },
+ "lemlem": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "other": 600,
+   "men": 6,
+   "kids": 6,
+   "women": 19
+  },
+  "via": "shopify",
+  "kidsCollections": [
+   "Children Collection"
+  ]
+ },
+ "faithfull-the-brand": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "women": 731
+  },
+  "via": "shopify",
+  "kidsCollections": []
+ },
+ "realisation-par": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "spell": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "women": 470,
+   "kids": 3
+  },
+  "via": "shopify",
+  "kidsCollections": []
+ },
+ "nike": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "aje": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "women": 1500,
+   "kids": 48
+  },
+  "via": "shopify",
+  "kidsCollections": [
+   "Kids",
+   "Sale Kids"
+  ]
+ },
+ "uniqlo-global": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "cos": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "and-other-stories": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "levi-s": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "acne-studios": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "arket": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "puma": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "cotton-on": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "liewood": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "kids": 498,
+   "other": 600,
+   "home": 63
+  },
+  "via": "shopify",
+  "kidsCollections": [
+   "Baby",
+   "BABY GEAR & NURSERY",
+   "BABY SHOES",
+   "Baby Toys",
+   "Baby's First Meals",
+   "Children's Room",
+   "Junior",
+   "Newborn",
+   "Newborn Collection",
+   "School Age Child",
+   "Toddler"
+  ]
+ },
+ "konges-sljd": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "ganni": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "kids": 21,
+   "women": 530
+  },
+  "via": "sitemap",
+  "kidsCollections": []
+ },
+ "lindex": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "polarn-o-pyret": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "jamie-kay": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "kids": 1200,
+   "women": 9
+  },
+  "via": "shopify",
+  "kidsCollections": [
+   "0–3 Months Boys' Clothes",
+   "0–3 Months Girls Clothes",
+   "1 Year Old Boys' Clothes",
+   "1 Year Old Girls' Clothes",
+   "10 Year Old Boys' Clothes",
+   "10 Year Old Girls' Clothes",
+   "12 Year Old Girls' Clothes",
+   "14 Year Old Girls' Clothes",
+   "1st Birthday Dresses",
+   "2 Year Old Boys' Clothes",
+   "2 Year Old Girls' Clothes",
+   "3 Year Old Boys' Clothes",
+   "3 Year Old Girls' Clothes",
+   "3–6 Months Boys' Clothes",
+   "3–6 Months Girls' Clothes",
+   "4 Year Old Boys' Clothes",
+   "4 Year Old Girls' Clothes",
+   "5 Star Outfit - Baby",
+   "5 Star Outfit - Boys",
+   "5 Star Outfit - Girls",
+   "5 Year Old Boys' Clothes",
+   "5 Year Old Girls' Clothes",
+   "6 Year Old Boys' Clothes",
+   "6 Year Old Girls' Clothes",
+   "6–12 Months Boys' Clothes",
+   "6–12 Months Girls' Clothes",
+   "7 Year Old Boys' Clothes",
+   "7 Year Old Girls' Clothes",
+   "8 Year Old Boys' Clothes",
+   "8 Year Old Girls' Clothes",
+   "9 Year Old Boys' Clothes",
+   "9 Year Old Girls' Clothes",
+   "Adalyn Collection - Boys",
+   "Adalyn Collection - Girls",
+   "Baby Accessories",
+   "Baby Blankets",
+   "Baby Bodysuits",
+   "Baby Boys Clothing",
+   "Baby Cardigans",
+   "Baby Clothing",
+   "Baby Dresses",
+   "Baby Footwear",
+   "Baby Gifts",
+   "Baby Girls Clothing",
+   "Baby Hats & Bonnets",
+   "Baby Jackets & Coats",
+   "Baby Knitwear",
+   "Baby Leggings & Pants",
+   "Baby Overalls",
+   "Baby Shower Gifts",
+   "Baby Singlets",
+   "Baby Skirts & Shorts",
+   "Baby Sweatshirting",
+   "Baby Swimwear",
+   "Baby Tights & Socks",
+   "Baby Tops",
+   "Baby Week - Bloomers",
+   "Baby Week - Bodysuits",
+   "Baby Week - Leggings",
+   "Baby Week - Onepieces",
+   "Baby Week - Playsuits",
+   "Baby Week - Snuggle Bunnies",
+   "Baby Week 2026",
+   "Black Friday Baby 2025",
+   "Black Friday Boys 2025",
+   "Black Friday Girls 2025",
+   "Bonjour Cherie - Boys",
+   "Bonjour Cherie - Girls",
+   "Bonjour Cherie Vol. 2 - Boys",
+   "Bonjour Cherie Vol. 2 - Girls",
+   "Bonnie Collection - Boys",
+   "Bonnie Collection - Girls",
+   "Boys Cardigans",
+   "Boys Clothing",
+   "Boys Hats",
+   "Boys Overalls",
+   "Boys Pyjamas",
+   "Boys Shorts",
+   "Boys Socks",
+   "Boys Summer Outfit",
+   "Boys Sweatshirting",
+   "Boys Swimwear",
+   "Boys Tops",
+   "Boys' Jackets & Coats",
+   "Boys' Knitwear",
+   "Boys' Pants",
+   "Briella Collection - Boys",
+   "Briella Collection - Boys Outfit 1",
+   "Briella Collection - Boys Outfit 2",
+   "Briella Collection - Boys Outfit 3",
+   "Briella Collection - Girls",
+   "Briella Collection - Girls Outfit 1",
+   "Briella Collection - Girls Outfit 2",
+   "Briella Collection - Girls Outfit 3",
+   "Cafe Cosy - Child Cancer Foundation Fundraiser 2025",
+   "Chamomile Collection - Boys",
+   "Chamomile Collection - Boys Look 1",
+   "Chamomile Collection - Boys Look 2",
+   "Chamomile Collection - Boys Look 3",
+   "Chamomile Collection - Boys Look 4",
+   "Chamomile Collection - Boys Look 5",
+   "Chamomile Collection - Boys Look 6",
+   "Chamomile Collection - Girls",
+   "Chamomile Collection - Girls Look 1",
+   "Chamomile Collection - Girls Look 2",
+   "Chamomile Collection - Girls Look 3",
+   "Chamomile Collection - Girls Look 4",
+   "Chamomile Collection - Girls Look 5",
+   "Chamomile Collection - Girls Look 6",
+   "Child",
+   "Child Cancer Foundation Collection",
+   "Dawn Collection - Boys",
+   "Dawn Collection - Boys Look 1",
+   "Dawn Collection - Boys Look 2",
+   "Dawn Collection - Boys Look 3",
+   "Dawn Collection - Boys Look 4",
+   "Dawn Collection - Boys Look 5",
+   "Dawn Collection - Girls",
+   "Dawn Collection - Girls Look 1",
+   "Dawn Collection - Girls Look 2",
+   "Dawn Collection - Girls Look 3",
+   "Dawn Collection - Girls Look 4",
+   "Dawn Collection - Girls Look 5",
+   "Easter Event Sale - Boys",
+   "Easter Event Sale - Girls",
+   "Emmy Collection - Boys Look 1",
+   "Emmy Collection - Boys Look 2",
+   "Emmy Collection - Boys Look 3",
+   "Emmy Collection - Girls Look 1",
+   "Emmy Collection - Girls Look 2",
+   "Emmy Collection - Girls Look 3",
+   "Final Sale - Baby",
+   "Final Sale - Boys",
+   "Final Sale - Girls",
+   "Flower Girl Dresses",
+   "Girls Accessories",
+   "Girls Clothing",
+   "Girls Dresses",
+   "Girls Footwear",
+   "Girls Hats",
+   "Girls Knitwear",
+   "Girls Leggings & Pants",
+   "Girls Overalls",
+   "Girls Pyjamas",
+   "Girls Singlets",
+   "Girls Skirts & Shorts",
+   "Girls Summer Outfit",
+   "Girls Sweatshirting",
+   "Girls Swimwear",
+   "Girls Tights & Socks",
+   "Girls Tops",
+   "Girls' Cardigans",
+   "Girls' Jackets & Coats",
+   "Holiday Outfits - Boys Look 1",
+   "Holiday Outfits - Boys Look 2",
+   "Holiday Outfits - Boys Look 3",
+   "Holiday Outfits - Boys Look 4",
+   "Holiday Outfits - Boys Look 5",
+   "Holiday Outfits - Boys Look 6",
+   "Holiday Outfits - Girls Look 1",
+   "Holiday Outfits - Girls Look 2",
+   "Holiday Outfits - Girls Look 3",
+   "Holiday Outfits - Girls Look 4",
+   "Holiday Outfits - Girls Look 5",
+   "Holiday Outfits - Girls Look 6",
+   "Homeward Volume 1 - Baby",
+   "Homeward Volume 1 - Boys",
+   "Homeward Volume 1 - Girls",
+   "Homeward Volume 2 - Baby",
+   "Homeward Volume 2 - Boys",
+   "Homeward Volume 2 - Girls",
+   "Josepha Collection - Baby",
+   "Josepha Collection - Boys",
+   "Josepha Collection - Girls",
+   "Juniper Fields Boy",
+   "Juniper Fields Girl",
+   "Little Artist - Baby",
+   "Little Artist - Boys",
+   "Little Artist - Girls",
+   "Lola Collection - Boys",
+   "Lola Collection - Boys Look 1",
+   "Lola Collection - Boys Look 2",
+   "Lola Collection - Boys Look 3",
+   "Lola Collection - Boys Look 4",
+   "Lola Collection - Boys Look 5",
+   "Lola Collection - Girls",
+   "Lola Collection - Girls Look 1",
+   "Lola Collection - Girls Look 2",
+   "Lola Collection - Girls Look 3",
+   "Lola Collection - Girls Look 4",
+   "Lola Collection - Girls Look 5",
+   "Lottie Collection - Boys",
+   "Lottie Collection - Girls",
+   "Meredith Collection - Boys Look 1",
+   "Meredith Collection - Boys Look 2",
+   "Meredith Collection - Boys Look 3",
+   "Meredith Collection - Girls Look 1",
+   "Meredith Collection - Girls Look 2",
+   "Meredith Collection - Girls Look 3",
+   "Merino Kids Sleeping Bags",
+   "New - Baby",
+   "New Arrivals - Baby",
+   "New Arrivals - Boys",
+   "New Arrivals - Girls",
+   "Newborn",
+   "Newborn Boys' Clothes",
+   "Newborn Girls' Clothes",
+   "Newborn Outfits",
+   "Organic Cotton Modal Baby",
+   "Organic Cotton Modal Boys",
+   "Organic Cotton Modal Girls"
+  ]
+ },
+ "quincy-mae": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "mothercare": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "nununu": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "kids": 999,
+   "women": 24,
+   "men": 13
+  },
+  "via": "shopify",
+  "kidsCollections": [
+   "BABIES",
+   "BABIES SALE | BABY SETS",
+   "BABIES SALE | BOTTOMS",
+   "BABIES SALE | DRESSES & SKIRTS",
+   "BABIES SALE | ONESIES",
+   "BABIES SALE | ROMPERS & OVERALLS",
+   "BABIES SALE | TOPS",
+   "BABIES | ACCESSORIES",
+   "BABIES | BEST SELLERS",
+   "BABIES | BOTTOMS",
+   "BABIES | FINAL SALE",
+   "BABIES | HATS",
+   "BABIES | ONESIES",
+   "BABIES | ROMPERS & OVERALLS",
+   "BABIES | SETS & PACKS",
+   "BABIES | TOPS",
+   "BABY BASICS COLLECTION",
+   "BOYS",
+   "BOYS | ACCESSORIES",
+   "BOYS | BEACH & SWIMWEAR",
+   "BOYS | BEST SELLERS",
+   "BOYS | BOTTOMS",
+   "BOYS | LOUNGEWEAR",
+   "BOYS | NEW ARRIVALS",
+   "BOYS | OUTERWEAR & JACKETS",
+   "BOYS | THE WILD ONES",
+   "BOYS | TOPS",
+   "GIRLS",
+   "GIRLS | ACCESSORIES",
+   "GIRLS | ACCESSORIES",
+   "GIRLS | BEACH & SWIMWEAR",
+   "GIRLS | BEST SELLERS",
+   "GIRLS | BOTTOMS",
+   "GIRLS | DRESSES & SKIRTS",
+   "GIRLS | LOUNGEWEAR",
+   "GIRLS | NEW ARRIVALS",
+   "GIRLS | OUTERWEAR & JACKETS",
+   "GIRLS | THE WILD ONES",
+   "GIRLS | TOPS",
+   "KIDS | BAGS",
+   "KIDS | FINAL SALE",
+   "KIDS | SHOES & SOCKS",
+   "KIDS' SALE | BAGS & ACCESSORIES",
+   "KIDS' SALE | BEACH & SWIMWEAR",
+   "KIDS' SALE | BOTTOMS",
+   "KIDS' SALE | DRESSES & SKIRTS",
+   "KIDS' SALE | LOUNGEWEAR",
+   "KIDS' SALE | OUTERWEAR & JACKETS",
+   "KIDS' SALE | SHOES & SOCKS",
+   "KIDS' SALE | TOPS",
+   "SALE | BABY | BEACH & SWIMWEAR"
+  ]
+ },
+ "wolf-and-rita": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "kids": 897
+  },
+  "via": "shopify",
+  "kidsCollections": [
+   "Babies",
+   "Kids"
+  ]
+ },
+ "molo": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "kids": 300
+  },
+  "via": "sitemap",
+  "kidsCollections": []
+ },
+ "mini-rodini": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "kids": 597
+  },
+  "via": "sitemap",
+  "kidsCollections": []
+ },
+ "name-it": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "kids": 600
+  },
+  "via": "sitemap",
+  "kidsCollections": []
+ },
+ "stella-mccartney": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "kids": 198,
+   "men": 6,
+   "women": 198,
+   "other": 198
+  },
+  "via": "sitemap",
+  "kidsCollections": []
+ },
+ "zimmermann": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "kids": 279,
+   "men": 42,
+   "other": 279
+  },
+  "via": "sitemap",
+  "kidsCollections": []
  }
 }
