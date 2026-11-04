@@ -1947,7 +1947,7 @@
  },
  "redtag": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
    "other": 8
   },
@@ -1956,12 +1956,12 @@
  },
  "centrepoint": {
   "status": "website",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "ashi-studio": {
   "status": "website",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "shushu-tong": {
