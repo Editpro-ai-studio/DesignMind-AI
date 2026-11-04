@@ -1966,17 +1966,17 @@
  },
  "shushu-tong": {
   "status": "website",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "shein": {
   "status": "website",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "urban-revivo": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
    "women": 160,
    "men": 93,
@@ -1988,9 +1988,9 @@
  },
  "balabala": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
-   "kids": 156
+   "kids": 161
   },
   "via": "sitemap",
   "kidsCollections": []
