@@ -41,11 +41,17 @@ After that, open DesignMind from its own icon. It runs in its own window and wor
 ## What works without AI or internet
 Trend research (saved snapshot), fabric database and comparison, colourway extraction and recolouring (HEX + RGB, manual edit), repeat preview with seam check and PNG export, projects, favourites, reports and backups.
 
+## "This model is currently experiencing high demand"
+That message comes from Google when Gemini is overloaded. The app now handles it by itself: it waits and retries, then switches to another Gemini model. For an instant switch, add a free **Groq** key in **Settings → Backup AI** (console.groq.com/keys); the app uses it automatically whenever Gemini is busy.
+
+## Trend articles inside the app
+Tap any trend card: the full article opens inside DesignMind (through the free r.jina.ai reader), with pictures, related trends, a **Design from this trend** button, and a link to that brand's designs in the app. If a site cannot be read, the verified research summary is shown instead.
+
 ## What needs the free AI key
 Reference analysis and original concepts, research-based colourways, trend briefs, fabric Q&A, graphic design critique.
 
 ## Brands (in-app designs)
-- **Brands** tab lists every brand A–Z (195 brands, 113 Pakistani: lawn, luxury pret, bridal & couture, western, menswear, kids). Choose **Kids / Women / Men / Home**, filter by market and type, or search a name, then tap a brand: its designs open inside the app with Girls / Boys / Baby filters, search, price sort and a large view.
+- **Brands** tab lists every brand A–Z (520 brands: 113 Pakistani, and 14–45 for every other market, including many print-led labels useful for textile designers). Choose **Kids / Women / Men / Home**, filter by market and type, or search a name, then tap a brand: its designs open inside the app with Girls / Boys / Baby filters, search, price sort and a large view.
 - Catalogues are read by GitHub every **Wednesday**, and also automatically right after you upload a new `data/brands.json`. To run it yourself: **Actions → Update brand catalogues → Run workflow** (`all`, a market like `pakistan`, or one brand id like `bachaa-party`). Pakistani brands appear in about 20 minutes; the other countries follow within 1–3 hours.
 - The reader tries, in order: the store's Shopify feed, its WooCommerce feed, then its product sitemap and product pages. If a listed web address is wrong, it searches for the brand's real site and fixes the address.
 - The run log ends with a summary: how many brands have designs in the app, and which are "website only" (the site blocks automatic reading; large international chains usually do).

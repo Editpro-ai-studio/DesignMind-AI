@@ -342,7 +342,7 @@ function saveToGitHub(message) {
   }
   // One market at a time (4 brands in parallel), saving to GitHub after each market,
   // so designs show up in the app market by market instead of only at the very end.
-  const POOL = 4;
+  const POOL = 6;
   const markets = [...new Set(jobs.map(j => j[0]))];
   for (const m of markets) {
     const list = jobs.filter(j => j[0] === m);

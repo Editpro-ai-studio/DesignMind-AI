@@ -122,33 +122,104 @@
     return flash[0] || suggested[0] || null;
   }
 
+  // Busy / overloaded / temporary errors: worth waiting and retrying, or switching model.
+  const BUSY_RX = /high demand|overloaded|try again later|temporar|unavailable|spikes in demand|resource.?exhausted|rate.?limit|quota|deadline|internal error|backend error/i;
+  const RETIRED_RX = /no longer available|not found|is not supported|deprecated|retired|update your code/i;
+  const sleep = ms => new Promise(r => setTimeout(r, ms));
+  const say = msg => { try { document.dispatchEvent(new CustomEvent('dm-ai-status', { detail: msg })); } catch {} };
+  let geminiNames = null;
+  async function geminiCandidates(key, first) {
+    if (!geminiNames) {
+      try {
+        const r = await fetch('https://generativelanguage.googleapis.com/v1beta/models?pageSize=200', { headers: { 'x-goog-api-key': key } });
+        const j = await r.json();
+        const score = n => { const v = parseFloat((n.match(/gemini-(\d+(?:\.\d+)?)/) || [])[1] || 0); return v * 10 - (/preview|exp/.test(n) ? 3 : 0) - (/lite/.test(n) ? 1 : 0); };
+        geminiNames = (j.models || []).filter(m => (m.supportedGenerationMethods || []).includes('generateContent')).map(m => m.name.replace('models/', ''))
+          .filter(n => /flash/.test(n) && !/image|tts|audio|live|thinking|embedding|8b|native/.test(n)).sort((a, b) => score(b) - score(a));
+      } catch { geminiNames = []; }
+    }
+    const list = [first, ...geminiNames, 'gemini-flash-latest', 'gemini-flash-lite-latest'].filter(Boolean);
+    return [...new Set(list)].slice(0, 6);
+  }
+
+  async function callGemini(s, prompt, images) {
+    if (!s.key) throw fail('Add your free Gemini API key in Settings.', 'not_configured');
+    const call = m => fetch(`https://generativelanguage.googleapis.com/v1beta/models/${encodeURIComponent(m)}:generateContent`, {
+      method: 'POST', headers: { 'content-type': 'application/json', 'x-goog-api-key': s.key },
+      body: JSON.stringify({ contents: [{ role: 'user', parts: [...images.map(i => ({ inline_data: { mime_type: i.media_type, data: i.data } })), { text: prompt }] }] }),
+      signal: AbortSignal.timeout ? AbortSignal.timeout(120000) : undefined,
+    }).then(async r => ({ r, j: await r.json().catch(() => ({})) }), () => ({ r: { ok: false, status: 0 }, j: { error: { message: 'network unavailable' } } }));
+    const preferred = s.model || await pickGeminiModel(s.key, '');
+    const models = await geminiCandidates(s.key, preferred);
+    let lastMsg = '', busyCount = 0;
+    for (let mi = 0; mi < models.length; mi++) {
+      const m = models[mi];
+      const tries = mi === 0 ? 3 : 2; // the chosen model gets a little more patience
+      for (let t = 0; t < tries; t++) {
+        const { r, j } = await call(m);
+        if (r.ok) {
+          const text = (j.candidates?.[0]?.content?.parts || []).map(x => x.text || '').join('');
+          if (!text && j.promptFeedback?.blockReason) throw fail('Gemini declined this request (' + j.promptFeedback.blockReason + '). Try rewording the brief.');
+          if (m !== preferred && mi > 0 && RETIRED_RX.test(lastMsg)) saveSettings({ ...loadSettings(), model: m });
+          return { text, model: m, truncated: j.candidates?.[0]?.finishReason === 'MAX_TOKENS' };
+        }
+        const msg = j.error?.message || `Gemini error ${r.status}`; lastMsg = msg;
+        if (r.status === 400 && /api key|API_KEY/i.test(msg)) throw fail('Your Gemini key is not valid. Copy it again from aistudio.google.com/apikey and paste it in Settings.', 'not_configured');
+        if (r.status === 403) throw fail('This Gemini key is not allowed to use the API (' + msg + '). Make a new key at aistudio.google.com/apikey.', 'not_configured');
+        if (RETIRED_RX.test(msg) && r.status !== 429 && r.status !== 503) break; // model gone: next model
+        const busy = r.status === 0 || r.status === 429 || r.status >= 500 || BUSY_RX.test(msg);
+        if (!busy) throw fail(msg);
+        busyCount++;
+        // A 429 quota limit is per model, so switch straight away; a 503 "high demand" usually clears in seconds.
+        if (r.status === 429 || t === tries - 1) { if (mi < models.length - 1) say(`Gemini is busy, switching to ${models[mi + 1]}…`); break; }
+        const wait = [2500, 6000, 12000][t];
+        say(`Gemini is busy (high demand). Retrying in ${Math.round(wait / 1000)} s…`);
+        await sleep(wait);
+      }
+    }
+    throw fail(busyCount ? 'Google Gemini is overloaded right now (high demand). The app tried several Gemini models. Wait 1–2 minutes and press the button again, or add a free Groq backup key in Settings → Backup AI so the app switches automatically next time.' : lastMsg, busyCount ? 'busy' : 'upstream_error');
+  }
+
+  async function callOpenAI(base, key, model, prompt, images, label) {
+    if (!key) throw fail('Add your API key in Settings.', 'not_configured');
+    const content = images.length ? [{ type: 'text', text: prompt }, ...images.map(i => ({ type: 'image_url', image_url: { url: `data:${i.media_type};base64,${i.data}` } }))] : prompt;
+    let last = '';
+    for (let t = 0; t < 3; t++) {
+      let res, j;
+      try {
+        res = await fetch(`${base.replace(/\/$/, '')}/chat/completions`, {
+          method: 'POST', headers: { 'content-type': 'application/json', authorization: `Bearer ${key}` },
+          body: JSON.stringify({ model, messages: [{ role: 'user', content }] }),
+        });
+        j = await res.json().catch(() => ({}));
+      } catch { res = { ok: false, status: 0 }; j = {}; }
+      if (res.ok) return { text: j.choices?.[0]?.message?.content || '', model, truncated: j.choices?.[0]?.finish_reason === 'length' };
+      last = j.error?.message || `${label} error ${res.status}`;
+      if (!(res.status === 0 || res.status === 429 || res.status >= 500 || BUSY_RX.test(last))) throw fail(last);
+      if (t < 2) { say(`${label} is busy. Retrying…`); await sleep([3000, 8000][t]); }
+    }
+    throw fail(`${label} is busy right now (${last}). Wait a minute and try again.`, 'busy');
+  }
+
   async function callAI(prompt, images) {
     const s = loadSettings(); const p = s.provider || 'gemini'; const pre = PRESETS[p] || {};
     const model = s.model || pre.model;
     if (p === 'off') throw fail('AI is switched off. Open Settings and add a free Gemini key to use AI features.', 'not_configured');
-    let res;
+    const backup = async (err) => {
+      const bp = s.backupProvider, bpre = PRESETS[bp];
+      if (!bp || !bpre || !bpre.base || !s.backupKey || bp === p) throw err;
+      say(`${pre.label ? pre.label.replace(/ \(.*/, '') : 'AI'} is busy, using backup ${bpre.label.replace(/ \(.*/, '')}…`);
+      // Text-only models on some free tiers; drop images rather than fail.
+      try { return await callOpenAI(bpre.base, s.backupKey, s.backupModel || bpre.model, prompt, images, bpre.label.replace(/ \(.*/, '')); }
+      catch (e2) { if (images.length) return await callOpenAI(bpre.base, s.backupKey, s.backupModel || bpre.model, prompt + '\n\n(The reference image could not be sent to the backup AI; work from the written brief.)', [], bpre.label.replace(/ \(.*/, '')); throw e2; }
+    };
     try {
       if (p === 'gemini') {
-        if (!s.key) throw fail('Add your free Gemini API key in Settings.', 'not_configured');
-        const call = m => fetch(`https://generativelanguage.googleapis.com/v1beta/models/${encodeURIComponent(m)}:generateContent`, {
-          method: 'POST', headers: { 'content-type': 'application/json', 'x-goog-api-key': s.key },
-          body: JSON.stringify({ contents: [{ role: 'user', parts: [...images.map(i => ({ inline_data: { mime_type: i.media_type, data: i.data } })), { text: prompt }] }] }),
-        }).then(async r => ({ r, j: await r.json().catch(() => ({})) }));
-        let use = model || await pickGeminiModel(s.key, '');
-        let { r, j } = await call(use);
-        // Google retires model names over time. If ours is gone, find a current one and retry once.
-        if (!r.ok && r.status !== 429 && /no longer available|not found|is not supported|deprecated|retired|update your code/i.test(j.error?.message || '')) {
-          const next = await pickGeminiModel(s.key, j.error?.message || '', use);
-          if (next && next !== use) {
-            ({ r, j } = await call(next));
-            if (r.ok) { use = next; saveSettings({ ...loadSettings(), model: next }); }
-          }
-        }
-        if (!r.ok) throw fail(j.error?.message || `Gemini error ${r.status}`, r.status === 429 ? 'rate_limited' : 'upstream_error');
-        return { text: (j.candidates?.[0]?.content?.parts || []).map(x => x.text || '').join(''), model: use, truncated: j.candidates?.[0]?.finishReason === 'MAX_TOKENS' };
+        try { return await callGemini(s, prompt, images); }
+        catch (e) { if (e.code === 'busy' || e.code === 'upstream_error') return await backup(e); throw e; }
       }
       if (p === 'ollama') {
-        res = await fetch(`${(s.base || pre.base).replace(/\/$/, '')}/api/chat`, {
+        const res = await fetch(`${(s.base || pre.base).replace(/\/$/, '')}/api/chat`, {
           method: 'POST', headers: { 'content-type': 'application/json' },
           body: JSON.stringify({ model, stream: false, options: { num_ctx: 16384 }, messages: [{ role: 'user', content: prompt, ...(images.length ? { images: images.map(i => i.data) } : {}) }] }),
         });
@@ -157,15 +228,8 @@
         return { text: j.message?.content || '', model };
       }
       // OpenAI-compatible (Groq, OpenRouter, others)
-      if (!s.key) throw fail('Add your API key in Settings.', 'not_configured');
-      const content = images.length ? [{ type: 'text', text: prompt }, ...images.map(i => ({ type: 'image_url', image_url: { url: `data:${i.media_type};base64,${i.data}` } }))] : prompt;
-      res = await fetch(`${(s.base || pre.base).replace(/\/$/, '')}/chat/completions`, {
-        method: 'POST', headers: { 'content-type': 'application/json', authorization: `Bearer ${s.key}` },
-        body: JSON.stringify({ model, messages: [{ role: 'user', content }] }),
-      });
-      const j = await res.json().catch(() => ({}));
-      if (!res.ok) throw fail(j.error?.message || `AI error ${res.status}`, res.status === 429 ? 'rate_limited' : 'upstream_error');
-      return { text: j.choices?.[0]?.message?.content || '', model, truncated: j.choices?.[0]?.finish_reason === 'length' };
+      try { return await callOpenAI(s.base || pre.base, s.key, model, prompt, images, (pre.label || 'AI').replace(/ \(.*/, '')); }
+      catch (e) { if (e.code === 'busy') return await backup(e); throw e; }
     } catch (e) {
       if (e.code) throw e;
       if (p === 'ollama') throw fail('Cannot reach Ollama. Start the Ollama app and allow this site (see the README: OLLAMA_ORIGINS).', 'not_configured');

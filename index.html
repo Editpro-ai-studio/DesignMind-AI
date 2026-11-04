@@ -6,7 +6,7 @@
 <meta name="description" content="Personal studio for fashion trend research, fabric intelligence and textile design.">
 <link rel="icon" href="assets/icon.svg" type="image/svg+xml">
 <link rel="manifest" href="manifest.webmanifest">
-<meta name="theme-color" content="#2C3C93">
+<meta name="theme-color" content="#2A1242">
 <link rel="apple-touch-icon" href="assets/icon-180.png">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
@@ -19,7 +19,7 @@
 <title>DesignMind AI</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,600;1,6..96,400&family=Figtree:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,600;1,6..96,400&family=Figtree:wght@400;500;600;700&family=Jost:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
 <style>
 /* Layout: a dyer's swatch book. Sticky header with a selvedge stripe, section tabs, then a filter rail + record grid. */
 :root{
@@ -251,6 +251,143 @@ a.card:hover,button.card:hover,.bcard:hover,.prod:hover{transform:translateY(-2p
 .lbin{position:relative}.lbclose{position:absolute;top:10px;right:10px;z-index:2;background:var(--panel);color:var(--fg);border:none;border-radius:999px;width:36px;height:36px;cursor:pointer;font-size:20px;box-shadow:var(--shadow)}
 .tagrow{display:flex;flex-wrap:wrap;gap:5px}
 @media (prefers-reduced-motion:reduce){.card,.bcard,.prod{transition:none}a.card:hover,button.card:hover,.bcard:hover,.prod:hover{transform:none}}
+/* ==== Luxe layer: jewel tones, gold foil, premium buttons ==== */
+:root{
+  --bg:#FBF7F0; --panel:#FFFFFF; --sunk:#F4EEE4; --line:#E8DFD0; --fg:#1C1325; --muted:#6E6379;
+  --indigo:#5B2A86; --indigo-soft:#F0E6FA; --saffron:#B4832A; --saffron-soft:#FBF0DA;
+  --ruby:#B3245E; --emerald:#127A63; --sapphire:#1F4FA8;
+  --ok:#127A63; --ok-soft:#DDF3EC; --fc:#6A3FA0; --fc-soft:#EFE5FA;
+  --gold:linear-gradient(135deg,#F6E3A6 0%,#D9AE52 28%,#B07F24 55%,#E8C36E 80%,#9A6A18 100%);
+  --jewel:linear-gradient(120deg,#4A1E78 0%,#7A2A8C 40%,#B3245E 100%);
+  --band:#160E24; --band-fg:#FBF4E6; --band-muted:#C8B9D9;
+  --hair:rgba(180,131,42,.28);
+  --shadow:0 1px 2px rgba(40,20,60,.05),0 14px 34px -18px rgba(60,25,90,.28);
+  --shadow-hi:0 2px 4px rgba(40,20,60,.06),0 22px 44px -18px rgba(91,42,134,.38);
+  --display:"Bodoni Moda",Didot,"Bodoni 72",Georgia,serif;
+  --body:"Jost","Figtree",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --r:16px;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0D0912; --panel:#17111E; --sunk:#1F1828; --line:#2F2539; --fg:#F3ECF7; --muted:#AEA2BC;
+  --indigo:#C9A3FF; --indigo-soft:#2C1D40; --saffron:#E6C072; --saffron-soft:#3A2C12;
+  --ruby:#F07BA8; --emerald:#5FD3B2; --sapphire:#8DB0FF; --ok:#5FD3B2; --ok-soft:#123129;
+  --band:#08050C; --band-fg:#FBF4E6; --band-muted:#B3A6C4; --hair:rgba(230,192,114,.22);
+  --shadow:0 1px 2px rgba(0,0,0,.4),0 16px 36px -18px rgba(0,0,0,.8);
+  --shadow-hi:0 2px 4px rgba(0,0,0,.4),0 24px 48px -18px rgba(150,80,220,.35); color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0D0912; --panel:#17111E; --sunk:#1F1828; --line:#2F2539; --fg:#F3ECF7; --muted:#AEA2BC;
+  --indigo:#C9A3FF; --indigo-soft:#2C1D40; --saffron:#E6C072; --saffron-soft:#3A2C12;
+  --ruby:#F07BA8; --emerald:#5FD3B2; --sapphire:#8DB0FF; --ok:#5FD3B2; --ok-soft:#123129;
+  --band:#08050C; --band-fg:#FBF4E6; --band-muted:#B3A6C4; --hair:rgba(230,192,114,.22);
+  --shadow:0 1px 2px rgba(0,0,0,.4),0 16px 36px -18px rgba(0,0,0,.8);
+  --shadow-hi:0 2px 4px rgba(0,0,0,.4),0 24px 48px -18px rgba(150,80,220,.35); color-scheme:dark}
+body{background:
+  radial-gradient(900px 500px at 100% -5%,rgba(179,36,94,.10),transparent 60%),
+  radial-gradient(800px 520px at -10% 10%,rgba(91,42,134,.10),transparent 60%),
+  radial-gradient(700px 500px at 50% 110%,rgba(18,122,99,.08),transparent 60%),var(--bg);
+  background-attachment:fixed;font-family:var(--body);letter-spacing:.005em}
+::selection{background:#E9C979;color:#1C1325}
+/* Masthead */
+body::before{background:var(--band)}
+header.top{background:linear-gradient(115deg,#120A1F 0%,#2A1242 38%,#4A1650 68%,#0E2A35 100%);box-shadow:0 10px 30px -18px rgba(20,8,35,.8)}
+header.top::after{content:"";display:block;height:2px;background:var(--gold)}
+.selvedge{height:4px;background:repeating-linear-gradient(90deg,#D9AE52 0 22px,#B3245E 22px 28px,#7A2A8C 28px 34px,#127A63 34px 40px,transparent 40px 44px);opacity:.9}
+.brand{font-size:28px;font-weight:600;letter-spacing:.02em}
+.brand b{background:var(--gold);-webkit-background-clip:text;background-clip:text;color:transparent;font-style:italic;font-weight:600}
+.brand::before{content:"✦";font-size:14px;vertical-align:middle;margin-right:8px;background:var(--gold);-webkit-background-clip:text;background-clip:text;color:transparent}
+nav.tabs{background:rgba(255,255,255,.07);border:1px solid rgba(233,201,121,.22);padding:4px;backdrop-filter:blur(6px)}
+nav.tabs a{font-weight:500;letter-spacing:.06em;text-transform:uppercase;font-size:12.5px;transition:color .2s,background .2s}
+nav.tabs a[aria-current="page"]{background:var(--gold);color:#22140A;box-shadow:0 4px 14px -6px rgba(217,174,82,.8)}
+header.top .iconbtn{border-color:rgba(233,201,121,.45);color:#F6E3A6;letter-spacing:.05em;transition:background .2s}
+header.top .iconbtn:hover{background:rgba(233,201,121,.14)}
+/* Type */
+h1{font-weight:500;font-size:clamp(32px,4.6vw,52px);letter-spacing:-.015em}
+h1 em,h1 i{font-style:italic;background:var(--jewel);-webkit-background-clip:text;background-clip:text;color:transparent;padding-right:.08em}
+h2,h3{font-weight:500}
+.eyebrow{letter-spacing:.24em;font-weight:600;font-size:11px;background:var(--gold);-webkit-background-clip:text;background-clip:text;color:transparent;display:inline-block}
+.eyebrow::before{content:"";display:inline-block;width:22px;height:1px;background:#C9973B;vertical-align:middle;margin-right:10px}
+main{padding-top:30px}
+/* Surfaces */
+.card,.rail,.form,.tablewrap,.brief,.bcard,.azrow,.prod,.icard,.season>div,.analysis div{border:1px solid var(--hair)!important;box-shadow:var(--shadow);border-radius:var(--r)}
+.card{padding:18px;transition:transform .25s ease,box-shadow .25s ease,border-color .25s}
+.card:hover,.azrow:hover,.prod:hover,.icard:hover{box-shadow:var(--shadow-hi);border-color:rgba(201,151,59,.55)!important}
+.azrow:hover{outline:none;transform:translateY(-2px)}
+.azrow,.prod,.icard{transition:transform .25s ease,box-shadow .25s ease,border-color .25s}
+.season>div{position:relative;overflow:hidden;background:var(--panel)}
+.season>div::before{content:"";position:absolute;inset:0 auto 0 0;width:3px;background:var(--jewel)}
+.season>div:nth-child(2)::before{background:linear-gradient(#127A63,#1F4FA8)}
+.season>div:nth-child(3)::before{background:var(--gold)}
+.season>div:nth-child(4)::before{background:linear-gradient(#B3245E,#D9AE52)}
+.season .v{font-weight:500}
+.rail{background:linear-gradient(180deg,var(--panel),var(--panel))}
+.brief{border-left:4px solid transparent!important;border-image:var(--gold) 1}
+.notice{border-radius:14px;border:1px solid var(--hair)}
+.notice.warn{background:linear-gradient(120deg,var(--saffron-soft),var(--indigo-soft))}
+/* Buttons */
+.btn{position:relative;overflow:hidden;border:none;border-radius:999px;padding:11px 22px;font-weight:600;letter-spacing:.04em;
+  background:var(--jewel);color:#FFF8EC;box-shadow:0 8px 20px -10px rgba(122,42,140,.75),inset 0 0 0 1px rgba(246,227,166,.35);
+  transition:transform .2s ease,box-shadow .2s ease,filter .2s}
+.btn::after{content:"";position:absolute;top:0;left:-60%;width:40%;height:100%;background:linear-gradient(100deg,transparent,rgba(255,255,255,.35),transparent);transform:skewX(-20deg);transition:left .6s ease}
+.btn:hover:not(:disabled){transform:translateY(-1px);box-shadow:0 12px 26px -10px rgba(179,36,94,.7),inset 0 0 0 1px rgba(246,227,166,.6)}
+.btn:hover:not(:disabled)::after{left:120%}
+.btn:active:not(:disabled){transform:translateY(0)}
+.btn.ghost{background:linear-gradient(var(--panel),var(--panel)) padding-box,var(--gold) border-box;border:1.5px solid transparent;color:var(--fg);box-shadow:0 4px 14px -10px rgba(176,127,36,.7)}
+.btn.ghost:hover:not(:disabled){background:linear-gradient(var(--saffron-soft),var(--saffron-soft)) padding-box,var(--gold) border-box;box-shadow:0 10px 22px -12px rgba(176,127,36,.8)}
+.btn.small{padding:7px 15px;font-size:12.5px}
+#cGo,#gGo,#iGo,#setForm button[type=submit]{background:var(--gold);color:#24160A;box-shadow:0 10px 24px -10px rgba(176,127,36,.9),inset 0 0 0 1px rgba(255,255,255,.4)}
+.ihero .btn{background:var(--gold);color:#24160A}
+.chip{border:1px solid var(--line);background:var(--panel);padding:6px 14px;font-weight:500;transition:all .2s}
+.chip:hover{border-color:#C9973B}
+.chip[aria-pressed="true"]{background:var(--jewel);border-color:transparent;color:#FFF8EC;box-shadow:0 6px 16px -8px rgba(122,42,140,.7)}
+.star[aria-pressed="true"]{color:#D9AE52;text-shadow:0 0 12px rgba(217,174,82,.6)}
+select,input[type=text],input[type=search],textarea,input[type=number]{border-radius:12px;background:var(--sunk);border:1px solid var(--line);padding:10px 12px;transition:border-color .2s,box-shadow .2s}
+select:focus,input:focus,textarea:focus{outline:none;border-color:#C9973B;box-shadow:0 0 0 3px rgba(217,174,82,.22)}
+:focus-visible{outline:2px solid #C9973B}
+.drop{border-radius:14px;border:1.5px dashed rgba(180,131,42,.55);background:linear-gradient(135deg,var(--saffron-soft),var(--indigo-soft))}
+.mono-mark{color:#FFF8EC;background:var(--jewel);box-shadow:inset 0 0 0 2px rgba(246,227,166,.5);font-weight:600}
+.azrow:nth-child(4n+2) .mono-mark{background:linear-gradient(135deg,#0E5F4E,#127A63 50%,#1F4FA8)}
+.azrow:nth-child(4n+3) .mono-mark{background:linear-gradient(135deg,#9C6B1E,#D9AE52);color:#24160A}
+.azrow:nth-child(4n+4) .mono-mark{background:linear-gradient(135deg,#7A1240,#B3245E 60%,#E07A3A)}
+.azl{background:var(--gold);-webkit-background-clip:text;background-clip:text;color:transparent;font-style:italic}
+.azcount{color:var(--emerald);font-weight:500}
+.ihero{background:linear-gradient(120deg,#1A0F2E,#3B1650 55%,#0E2A35);border:1px solid rgba(233,201,121,.3)}
+.prod .new{background:var(--gold);color:#24160A}
+.toast{background:linear-gradient(120deg,#1A0F2E,#3B1650);color:#FBF4E6;border:1px solid rgba(233,201,121,.45);border-radius:999px;padding:11px 20px;box-shadow:0 18px 40px -16px rgba(20,8,35,.8);max-width:min(92vw,560px);text-align:center}
+.stickybar{background:linear-gradient(120deg,#1A0F2E,#3B1650);color:#FBF4E6}
+.sec-h h2{font-style:italic}
+.sec-h::after{content:"";flex:1;height:1px;background:linear-gradient(90deg,var(--hair),transparent);align-self:center}
+/* Trend cards open the in-app reader */
+.tcard{cursor:pointer}
+.tcard:hover{transform:translateY(-3px)}
+.tcard h3{font-size:19px;line-height:1.25}
+.readmore{font-size:12px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--indigo);margin-top:4px}
+.tcard:hover .readmore{color:var(--ruby)}
+/* Reader */
+.reader{align-items:start;overflow:auto;background:rgba(12,6,20,.78);backdrop-filter:blur(4px)}
+.rdin{position:relative;background:var(--panel);border-radius:22px;max-width:860px;width:100%;margin:auto;border:1px solid var(--hair);box-shadow:0 40px 80px -30px rgba(0,0,0,.6);overflow:hidden}
+.rdhead{padding:34px clamp(18px,5vw,48px) 26px;background:radial-gradient(600px 240px at 100% 0,rgba(179,36,94,.12),transparent 70%),radial-gradient(500px 240px at 0 0,rgba(91,42,134,.12),transparent 70%);border-bottom:1px solid var(--hair)}
+.rdtitle{font-size:clamp(28px,4vw,42px);line-height:1.12;margin:8px 0 12px}
+.rdsum{font-size:17px;line-height:1.6;margin:0;color:var(--fg)}
+.rdmeta{display:flex;flex-wrap:wrap;gap:8px 22px;margin-top:16px;font-size:13px;color:var(--muted)}
+.rdmeta b{display:block;font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--saffron)}
+.rdbody{padding:26px clamp(18px,5vw,48px) 34px}
+.article{font-size:16.5px;line-height:1.75;max-width:68ch}
+.article p{margin:0 0 1em}
+.article h2,.article h3,.article h4{margin:1.3em 0 .5em;font-family:var(--display)}
+.article ul{padding-left:20px;margin:0 0 1em}
+.article figure{margin:18px 0}
+.article img{border-radius:14px;width:100%;max-height:560px;object-fit:cover;border:1px solid var(--hair)}
+.article figcaption{font-size:12.5px;color:var(--muted);margin-top:6px}
+.skel{height:14px;border-radius:7px;margin:10px 0;background:linear-gradient(90deg,var(--sunk),var(--saffron-soft),var(--sunk));background-size:200% 100%;animation:sh 1.3s infinite}
+.skel.short{width:60%}
+@keyframes sh{to{background-position:-200% 0}}
+.rdrel{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:10px}
+.rdrelb{text-align:left;border:1px solid var(--hair);background:var(--sunk);border-radius:14px;padding:12px 14px;cursor:pointer;color:var(--fg);display:flex;flex-direction:column;gap:4px;transition:border-color .2s,transform .2s}
+.rdrelb:hover{border-color:#C9973B;transform:translateY(-2px)}
+.rdrelb small{color:var(--muted)}
+.lbclose{background:var(--gold)!important;color:#24160A!important}
+@media (max-width:760px){.brand{font-size:23px}nav.tabs a{font-size:11.5px}.btn{padding:10px 18px}}
+@media (prefers-reduced-motion:reduce){.btn::after{display:none}.skel{animation:none}.tcard:hover,.azrow:hover{transform:none}}
 </style>
 
 <header class="top">
@@ -308,7 +445,7 @@ a.card:hover,button.card:hover,.bcard:hover,.prod:hover{transform:translateY(-2p
     <div class="eyebrow">Brand catalogues</div><h1>Brands by <em>market</em></h1>
     <p class="muted" style="max-width:70ch">Every brand A to Z. Choose what you want to see, tap a brand, and its designs open here. Catalogues are refreshed every week.</p>
     <div class="row" style="margin-top:14px;gap:12px">
-      <div class="chips" id="bWant" aria-label="Show designs for"><span class="muted" style="font-size:13px;align-self:center">I want:</span><button type="button" class="chip" data-want="kids">Kids</button><button type="button" class="chip" data-want="women">Women</button><button type="button" class="chip" data-want="men">Men</button><button type="button" class="chip" data-want="home">Home</button><button type="button" class="chip" data-want="all">Everything</button></div>
+      <div class="chips" id="bWant" aria-label="Show designs for"><span class="muted" style="font-size:13px;align-self:center">I want:</span><button type="button" class="chip" data-want="all">All brands</button><button type="button" class="chip" data-want="kids">Kids</button><button type="button" class="chip" data-want="women">Women</button><button type="button" class="chip" data-want="men">Men</button><button type="button" class="chip" data-want="home">Home</button></div>
       <input type="search" id="bSearch" placeholder="Search brand name, e.g. Bachaa Party" style="flex:1 1 240px;max-width:360px">
     </div>
     <div class="mrow" id="bMarket" role="tablist" aria-label="Market"></div>
@@ -459,6 +596,10 @@ a.card:hover,button.card:hover,.bcard:hover,.prod:hover{transform:translateY(-2p
         <label class="f" id="sKeyWrap">API key<input type="text" id="sKey" autocomplete="off" spellcheck="false" placeholder="Paste your key"></label>
         <label class="f">Model<input type="text" id="sModel" spellcheck="false" placeholder="Leave empty to choose automatically"></label>
         <label class="f" id="sBaseWrap">Service address<input type="text" id="sBase" spellcheck="false"></label>
+        <div class="eyebrow" style="margin-top:6px">Backup AI (used automatically when Gemini is busy)</div>
+        <p class="muted" style="font-size:12.5px;margin:0">Google sometimes says "This model is currently experiencing high demand". The app already waits and tries other Gemini models; a free Groq key here makes it switch instantly instead. Get one at <a href="https://console.groq.com/keys" target="_blank" rel="noopener">console.groq.com/keys</a>.</p>
+        <label class="f">Backup provider<select id="sBProv"><option value="">None</option><option value="groq">Groq (free key)</option><option value="openrouter">OpenRouter (free models)</option></select></label>
+        <label class="f" id="sBKeyWrap">Backup API key<input type="text" id="sBKey" autocomplete="off" spellcheck="false" placeholder="Paste the backup key"></label>
         <label class="row" style="font-size:13px;gap:6px"><input type="checkbox" id="sImg" checked> Allow free AI image previews (Pollinations)</label>
         <div class="eyebrow" style="margin-top:6px">Inspiration image libraries (optional, free keys)</div>
         <label class="f">Pexels API key<input type="text" id="sPexels" autocomplete="off" spellcheck="false" placeholder="pexels.com/api"></label>
@@ -509,7 +650,7 @@ const safeUrl=u=>/^https?:\/\//i.test(String(u||""))?String(u):"";
 const host=u=>{try{return new URL(u).hostname.replace(/^www\./,"")}catch(e){return ""}};
 const NOW=new Date();
 const DAY=864e5;
-function toast(m){const t=document.createElement("div");t.className="toast";t.textContent=m;document.body.appendChild(t);setTimeout(()=>t.remove(),2600)}
+function toast(m){$$(".toast").forEach(x=>x.remove());const t=document.createElement("div");t.className="toast";t.textContent=m;document.body.appendChild(t);setTimeout(()=>t.remove(),2600)}
 function parseD(s){if(!s||s==="unknown")return null;const m=String(s).match(/^(\d{4})(?:-(\d{2}))?(?:-(\d{2}))?/);if(!m)return null;return new Date(+m[1],(+m[2]||1)-1,+m[3]||1)}
 function fmtD(s){const d=parseD(s);if(!d)return "Unknown";const hasDay=/^\d{4}-\d{2}-\d{2}/.test(s),hasMon=/^\d{4}-\d{2}/.test(s);return d.toLocaleDateString("en-GB",hasDay?{day:"numeric",month:"short",year:"numeric"}:hasMon?{month:"short",year:"numeric"}:{year:"numeric"})}
 function monthsAgo(s){const d=parseD(s);if(!d)return null;return (NOW-d)/(DAY*30.44)}
@@ -604,20 +745,20 @@ function renderStatusChips(){
 function trendCard(t){
   const st=statusOf(t);const age=monthsAgo(t.published);const url=safeUrl(t.source_url);
   const aging=st!=="historical"&&st!=="forecast"&&age!=null&&age>8;
-  return `<article class="card">
+  return `<article class="card tcard" data-trend="${esc(t._id)}" tabindex="0" role="button" aria-label="Read: ${esc(t.name)}">
     <div class="cardtop"><span class="pill p-${st}">${esc(ST_LABEL[st])}</span>${t.status!==st?'<span class="pill p-warn">Reclassified: over 12 months old</span>':""}${aging?'<span class="pill p-warn">Ageing source</span>':""}${t.published==="unknown"||!parseD(t.published)?'<span class="pill p-unknown">Date unknown</span>':""}
       <button type="button" class="star" data-fav="${esc(t._id)}" aria-pressed="${S.favs.has(t._id)}" aria-label="Favourite">★</button></div>
     <h3>${esc(t.name)}</h3>
     <p style="font-size:14px">${esc(t.summary)}</p>
     <div class="row" style="gap:6px"><span class="pill p-unknown">${esc((CATS.find(c=>c[0]===t.category)||[0,t.category])[1])}</span>${t.season?`<span class="pill p-unknown">${esc(t.season)}</span>`:""}${t.gender?`<span class="pill p-unknown">${esc(t.gender)}</span>`:""}${(t.ages||[]).length?`<span class="pill p-unknown">${esc(t.ages.join(", "))}</span>`:""}</div>
     <div class="meta">
-      <b>Source</b><span>${url?`<a href="${esc(url)}" target="_blank" rel="noopener">${esc(t.source||host(url))}</a>`:'<span class="muted">Unverified: no source link</span>'}</span>
+      <b>Source</b><span>${url?esc(t.source||host(url)):'<span class="muted">Unverified: no source link</span>'}</span>
       <b>Published</b><span class="mono">${esc(fmtD(t.published))}</span>
       <b>Observed</b><span class="mono">${esc(fmtD(t.observed||t.verified))}</span>
       <b>Verified</b><span class="mono">${esc(fmtD(t.verified))}</span>
       <b>Confidence</b><span><span class="pill p-${esc(t.confidence||"low")}">${esc(t.confidence||"low")}</span></span>
       <b>Country</b><span>${esc(t.countryName||"")}</span>
-    </div></article>`;
+    </div>${url?'<span class="readmore">Read full article in app →</span>':'<span class="readmore">Open details →</span>'}</article>`;
 }
 function renderTrends(){
   renderSeason();renderStatusChips();
@@ -653,6 +794,73 @@ $("#trendList").addEventListener("click",async e=>{const b=e.target.closest("[da
   const ref=mine().doc("f_"+id);
   try{if(S.favs.has(id)){S.favs.delete(id);b.setAttribute("aria-pressed","false");await ref.delete()}else{S.favs.set(id,t);b.setAttribute("aria-pressed","true");await ref.set({kind:"fav",trendId:id,trend:t,saved:new Date().toISOString()})}}catch(err){toast("Could not save favourite")}});
 
+/* ---------- In-app trend reader: the article opens inside the app, not on the news site ---------- */
+const ARTICLES=new Map();
+async function fetchArticle(url){
+  if(ARTICLES.has(url))return ARTICLES.get(url);
+  // r.jina.ai is a free reader service that returns a page's readable text (no key needed).
+  const p=fetch("https://r.jina.ai/"+url).then(r=>{if(!r.ok)throw new Error("reader "+r.status);return r.text()}).catch(e=>{ARTICLES.delete(url);throw e});
+  ARTICLES.set(url,p);return p;
+}
+function mdToHtml(md){
+  let body=String(md);const mc=body.indexOf("Markdown Content:");if(mc>=0)body=body.slice(mc+17);
+  const inline=s=>esc(s).replace(/\*\*([^*]+)\*\*/g,"<b>$1</b>").replace(/(^|\W)\*([^*\n]+)\*(?=\W|$)/g,"$1<i>$2</i>");
+  const out=[];let para=[];let imgs=0;const seen=new Set();
+  const flush=()=>{if(para.length){const t=para.join(" ").trim();if(t.split(/\s+/).length>=6)out.push(`<p>${inline(t)}</p>`);para=[]}};
+  for(let raw of body.split(/\r?\n/)){
+    let line=raw.trim();
+    // Images: keep (useful references), drop icons/logos/tracking pixels.
+    const im=[...line.matchAll(/!\[([^\]]*)\]\((https?:[^)\s]+)[^)]*\)/g)];
+    if(im.length){flush();im.forEach(m=>{const u=safeUrl(m[2]);if(u&&imgs<14&&!seen.has(u)&&!/logo|icon|sprite|avatar|pixel|\.svg|badge|gravatar|1x1/i.test(u)){seen.add(u);imgs++;out.push(`<figure><img src="${esc(u)}" alt="${esc(m[1])}" loading="lazy" referrerpolicy="no-referrer" onerror="this.closest('figure').remove()">${m[1]&&m[1].length>8?`<figcaption>${esc(m[1])}</figcaption>`:""}</figure>`)}});line=line.replace(/!\[[^\]]*\]\([^)]*\)/g,"").trim();if(!line)continue}
+    // Links become plain text so nothing leaves the app.
+    const linkCount=(line.match(/\]\(/g)||[]).length;
+    const text=line.replace(/\[([^\]]*)\]\([^)]*\)/g,"$1").replace(/<[^>]+>/g,"").trim();
+    if(!text){flush();continue}
+    if(linkCount>=2&&text.length<linkCount*40){flush();continue} // menus and link lists
+    if(/^(={3,}|-{3,}|\*{3,})$/.test(text)){flush();continue}
+    const h=text.match(/^(#{1,4})\s+(.*)/);
+    if(h){flush();if(h[2].length>2&&h[2].length<160)out.push(`<h${Math.min(4,h[1].length+1)}>${inline(h[2].replace(/#+$/,""))}</h${Math.min(4,h[1].length+1)}>`);continue}
+    if(/^[-*•]\s+/.test(text)){flush();const li=text.replace(/^[-*•]\s+/,"");if(li.split(/\s+/).length>=3)out.push(`<li>${inline(li)}</li>`);continue}
+    if(/cookie|subscribe|newsletter|sign in|log in|privacy policy|all rights reserved|follow us|share this|advertisement/i.test(text)&&text.length<200){flush();continue}
+    para.push(text);
+  }
+  flush();
+  return out.join("").replace(/(<li>.*?<\/li>)+/g,m=>`<ul>${m}</ul>`);
+}
+function openTrend(t){
+  const url=safeUrl(t.source_url);const st=statusOf(t);
+  const list=S.trends[S.country]||[];
+  const related=list.filter(x=>x!==t&&(x.category===t.category||(url&&host(x.source_url)===host(url)))).slice(0,6);
+  // If the source is a brand's own site, link to its designs inside the app.
+  const reg=B.reg?Object.entries(B.reg).flatMap(([m,l])=>l.map(b=>({...b,market:m}))):[];
+  const brand=url?reg.find(b=>{const h=host(b.site).split(".").filter(x=>!/^(www|pk|shop|store|en|us|uk)$/.test(x))[0];return h&&host(url).includes(h)}):null;
+  const el=document.createElement("div");el.className="lb reader";el.setAttribute("role","dialog");el.setAttribute("aria-modal","true");
+  el.innerHTML=`<div class="rdin"><button type="button" class="lbclose" aria-label="Close">×</button>
+    <div class="rdhead"><div class="cardtop"><span class="pill p-${st}">${esc(ST_LABEL[st])}</span><span class="pill p-unknown">${esc((CATS.find(c=>c[0]===t.category)||[0,t.category])[1])}</span>${t.season?`<span class="pill p-unknown">${esc(t.season)}</span>`:""}<span class="pill p-${esc(t.confidence||"low")}">${esc(t.confidence||"low")} confidence</span></div>
+      <div class="eyebrow" style="margin-top:12px">${esc(t.countryName||"")} · ${esc(t.source||host(url)||"")}</div>
+      <h2 class="rdtitle">${esc(t.name)}</h2>
+      <p class="rdsum">${esc(t.summary)}</p>
+      <div class="rdmeta"><span><b>Published</b>${esc(fmtD(t.published))}</span><span><b>Observed</b>${esc(fmtD(t.observed||t.verified))}</span><span><b>Verified</b>${esc(fmtD(t.verified))}</span>${t.gender?`<span><b>For</b>${esc(t.gender)}${(t.ages||[]).length?" · "+esc(t.ages.join(", ")):""}</span>`:""}</div>
+      <div class="row" style="margin-top:14px"><button class="btn small" type="button" data-rd="design">Design from this trend</button>${brand?`<button class="btn small ghost" type="button" data-rd="brand">See ${esc(brand.name)} designs</button>`:""}<button class="btn small ghost" type="button" data-rd="fav">${S.favs.has(t._id)?"★ Saved":"☆ Save"}</button></div>
+    </div>
+    <div class="rdbody"><div class="eyebrow" style="margin-bottom:10px">Full article</div><div id="rdArt" class="article">${url?'<div class="skel"></div><div class="skel"></div><div class="skel short"></div><p class="muted" style="font-size:13px">Loading the article inside the app…</p>':'<p class="muted">This record has no source article.</p>'}</div>
+    ${related.length?`<div class="eyebrow" style="margin:26px 0 10px">Related trends</div><div class="rdrel">${related.map(r=>`<button type="button" class="rdrelb" data-rel="${esc(r._id)}"><b>${esc(r.name)}</b><small>${esc(r.source||"")} · ${esc(fmtD(r.published))}</small></button>`).join("")}</div>`:""}
+    ${url?`<p class="muted" style="font-size:11.5px;margin-top:24px">Source: ${esc(t.source||host(url))} (${esc(host(url))}). Text shown for personal research; rights belong to the publisher.</p>`:""}</div></div>`;
+  const close=()=>{el.remove();removeEventListener("keydown",onKey)};const onKey=e=>{if(e.key==="Escape")close()};addEventListener("keydown",onKey);
+  el.addEventListener("click",async e=>{if(e.target===el||e.target.closest(".lbclose"))return close();
+    const rel=e.target.closest("[data-rel]");if(rel){const r=list.find(x=>x._id===rel.dataset.rel);if(r){close();openTrend(r)}return}
+    const a=e.target.closest("[data-rd]");if(!a)return;
+    if(a.dataset.rd==="design"){$("#cBrief").value=`${t.name} (${t.countryName||""}, ${t.season||""}): ${t.summary} Create original designs that use this trend.`;close();location.hash="#design";toast("Trend added to the design brief.")}
+    if(a.dataset.rd==="brand"){close();B.brand=brand.id;B.bmarket=brand.market;B.cat=null;location.hash="#brands"}
+    if(a.dataset.rd==="fav"){const star=$(`#trendList [data-fav="${CSS.escape(t._id)}"]`);if(star){star.click();setTimeout(()=>{a.textContent=S.favs.has(t._id)?"★ Saved":"☆ Save"},300)}}});
+  document.body.appendChild(el);el.querySelector(".lbclose").focus();
+  if(url)fetchArticle(url).then(md=>{const box=el.querySelector("#rdArt");if(!box)return;const html=mdToHtml(md);
+      box.innerHTML=html.replace(/<[^>]+>/g,"").length>200?html:`<p class="muted">The publisher's page did not provide readable article text. The summary above is what our research recorded from it.</p>`})
+    .catch(()=>{const box=el.querySelector("#rdArt");if(box)box.innerHTML=`<p class="muted">The article could not be loaded right now (the reader service may be busy or you may be offline). The summary above is the verified research note for this trend. Try again in a minute.</p>`});
+}
+$("#trendList").addEventListener("click",async e=>{if(e.target.closest("[data-fav]")||e.target.closest("a"))return;const c=e.target.closest("[data-trend]");if(!c)return;const t=(S.trends[S.country]||[]).find(x=>x._id===c.dataset.trend);if(!t)return;try{if(window.DM_STATIC)await loadBrandReg()}catch(err){}openTrend(t)});
+$("#trendList").addEventListener("keydown",e=>{if(e.key!=="Enter"&&e.key!==" ")return;const c=e.target.closest("[data-trend]");if(!c||e.target!==c)return;e.preventDefault();c.click()});
+
 function currentShown(){return (S.trends[S.country]||[]).filter(trendMatches)}
 function trendLines(list,max){return list.slice(0,max).map(t=>`- [${statusOf(t)}|${t.category}|${t.season||""}|${t.gender||""}] ${t.name}: ${t.summary} (source: ${t.source}, published ${t.published}, confidence ${t.confidence})`).join("\n")}
 
@@ -687,7 +895,7 @@ ${trendLines(list,60)}`;
     sv.querySelector("button").onclick=()=>saveProject({type:"brief",title:`${name} brief · ${s.current}`,data:{text:r.text,country:S.country,count:list.length}});
   }catch(e){out.innerHTML=`<div class="notice warn">${esc(sampleErr(e))}</div>`}
 });
-function sampleErr(e){const c=e&&e.code;if(c==="not_granted")return "Claude access was not allowed for this page. Allow it from the page's permissions to use AI features.";if(c==="rate_limited")return "Too many requests just now. Wait a minute and try again.";if(c==="images_unavailable")return "Image analysis isn't available in this view. Use a written brief instead.";if(c==="prompt_too_large")return "That request is too large. Use a smaller image or fewer filters.";return (e&&e.message)||"Claude could not complete the request."}
+function sampleErr(e){const c=e&&e.code;if(c==="not_granted")return "Claude access was not allowed for this page. Allow it from the page's permissions to use AI features.";if(c==="rate_limited")return "Too many requests just now. Wait a minute and try again.";if(c==="busy")return e.message;if(c==="images_unavailable")return "Image analysis isn't available in this view. Use a written brief instead.";if(c==="prompt_too_large")return "That request is too large. Use a smaller image or fewer filters.";return (e&&e.message)||"Claude could not complete the request."}
 
 /* ---------- Fabrics ---------- */
 function specCell(sp,fab){if(!sp)return '<span class="pill p-unknown">Not verified</span>';
@@ -960,10 +1168,12 @@ $("#projList").addEventListener("click",async e=>{const t=e.target;
 if(window.DM_STATIC){const D=window.DM_STATIC;$("#navSettings").hidden=false;$("#liveLink").hidden=false;
   const repo=D.repoUrl();if(repo){$("#liveLink").href=repo+"/actions";$("#liveLink").target="_blank";$("#liveLink").rel="noopener";$("#sResearch").innerHTML=`Research is refreshed every week by GitHub. To run it now, open <a href="${esc(repo)}/actions" target="_blank" rel="noopener">your repository's Actions</a>, choose <b>Update trend research</b> and press Run workflow.`}
   fillSel($("#sProv"),Object.entries(D.presets).map(([k,v])=>[k,v.label]));
-  const showS=()=>{const s=D.loadSettings();const p=s.provider||"gemini";$("#sProv").value=p;const pre=D.presets[p]||{};$("#sKey").value=s.key||"";$("#sModel").value=s.model||pre.model||"";$("#sBase").value=s.base||pre.base||"";$("#sImg").checked=s.images!==false;$("#sPexels").value=s.pexels||"";$("#sUnsplash").value=s.unsplash||"";
+  const showS=()=>{const s=D.loadSettings();const p=s.provider||"gemini";$("#sProv").value=p;const pre=D.presets[p]||{};$("#sKey").value=s.key||"";$("#sModel").value=s.model||pre.model||"";$("#sBase").value=s.base||pre.base||"";$("#sImg").checked=s.images!==false;$("#sPexels").value=s.pexels||"";$("#sUnsplash").value=s.unsplash||"";$("#sBProv").value=s.backupProvider||"";$("#sBKey").value=s.backupKey||"";$("#sBKeyWrap").hidden=!s.backupProvider;
     $("#sKeyWrap").hidden=p==="ollama"||p==="off";$("#sBaseWrap").hidden=!pre.base;$("#sModel").parentElement.hidden=p==="off"};
+  $("#sBProv").addEventListener("change",()=>{$("#sBKeyWrap").hidden=!$("#sBProv").value});
+  document.addEventListener("dm-ai-status",e=>toast(e.detail));
   $("#sProv").addEventListener("change",()=>{const p=$("#sProv").value,pre=D.presets[p]||{},s=D.loadSettings();D.saveSettings({...s,provider:p,model:pre.model||"",base:pre.base||"",key:p===s.provider?s.key:""});showS()});
-  $("#setForm").addEventListener("submit",e=>{e.preventDefault();D.saveSettings({provider:$("#sProv").value,key:$("#sKey").value.trim(),model:$("#sModel").value.trim(),base:$("#sBase").value.trim(),images:$("#sImg").checked,pexels:$("#sPexels").value.trim(),unsplash:$("#sUnsplash").value.trim()});$("#sStatus").className="status";$("#sStatus").textContent="Saved."});
+  $("#setForm").addEventListener("submit",e=>{e.preventDefault();D.saveSettings({provider:$("#sProv").value,key:$("#sKey").value.trim(),model:$("#sModel").value.trim(),base:$("#sBase").value.trim(),images:$("#sImg").checked,pexels:$("#sPexels").value.trim(),unsplash:$("#sUnsplash").value.trim(),backupProvider:$("#sBProv").value,backupKey:$("#sBKey").value.trim()});$("#sStatus").className="status";$("#sStatus").textContent="Saved."});
   $("#sTest").addEventListener("click",async()=>{$("#setForm").requestSubmit();const st=$("#sStatus");st.className="status";st.textContent="Testing…";try{const sm=sample||await window.claude.use("sample");const r=await sm("Reply with exactly: DesignMind AI is connected.",{cache:false});showS();st.textContent="Working: "+r.text.trim().slice(0,80)+(r.modelApplied?` (model: ${r.modelApplied})`:"")}catch(e){st.className="status err";st.textContent=e.message||"Test failed"}});
   $("#bExp").addEventListener("click",async()=>{try{await saveFile(`designmind-backup-${new Date().toISOString().slice(0,10)}.json`,await D.exportBackup(),"application/json");$("#bStatus").textContent="Backup downloaded."}catch(e){$("#bStatus").textContent="Backup failed."}});
   $("#bImp").addEventListener("click",()=>$("#bFile").click());
@@ -975,7 +1185,7 @@ if(window.DM_STATIC){const D=window.DM_STATIC;$("#navSettings").hidden=false;$("
 
 /* ---------- Brands (GitHub version) ---------- */
 const CUR={pakistan:"Rs",india:"₹",uae:"AED",["saudi-arabia"]:"SAR",["united-kingdom"]:"£",["united-states"]:"$",italy:"€",france:"€",spain:"€",germany:"€",turkiye:"₺",japan:"¥",china:"¥",["south-korea"]:"₩",global:""};
-const B={reg:null,index:{},market:null,want:(()=>{try{return localStorage.getItem("dm.want")||"kids"}catch(e){return "kids"}})(),bq:"",bmarket:null,style:"",brand:null,cat:null,seg:"kids",sub:"",q:"",sort:"new",shown:60};
+const B={reg:null,index:{},market:null,want:(()=>{try{return localStorage.getItem("dm.want2")||"all"}catch(e){return "all"}})(),bq:"",bmarket:null,style:"",brand:null,cat:null,seg:"kids",sub:"",q:"",sort:"new",shown:60};
 function imgW(u,w){if(!safeUrl(u))return "";try{const x=new URL(u);if(/shopify|cdn\.shop/.test(x.hostname)||x.pathname.includes("/files/")||x.pathname.includes("/products/"))x.searchParams.set("width",w);return x.toString()}catch(e){return u}}
 const initials=n=>n.replace(/[^\p{L}\p{N} ]/gu,"").split(/\s+/).filter(Boolean).slice(0,2).map(w=>w[0]).join("").toUpperCase();
 const ST_B={catalogue:["In-app designs","p-observed"],website:["Website only","p-unknown"],unreachable:["Site not reached","p-warn"],error:["Check failed","p-warn"]};
@@ -989,8 +1199,10 @@ async function renderBrands(){await loadBrandReg();if(!B.market)B.market="all";
   $("#bDetail").hidden=true;const list=$("#bList");list.hidden=false;
   let brands=B.market==="all"?Object.entries(B.reg).flatMap(([m,l])=>l.map(b=>({...b,market:m}))):(B.reg[B.market]||[]).map(b=>({...b,market:B.market}));
   const seen=new Set();brands=brands.filter(b=>!seen.has(b.id)&&seen.add(b.id));
+  const wc={all:brands.length};["kids","women","men","home"].forEach(w=>wc[w]=brands.filter(b=>b.focus.includes(w)).length);
+  $("#bWant").querySelectorAll("[data-want]").forEach(x=>{x.querySelector(".n")?.remove();x.insertAdjacentHTML("beforeend",`<span class="n">${wc[x.dataset.want]||0}</span>`)});
   if(B.want!=="all"&&!B.bq)brands=brands.filter(b=>b.focus.includes(B.want));
-  const STY={lawn:"Lawn & unstitched",["luxury pret"]:"Luxury pret",bridal:"Bridal & couture",western:"Western",menswear:"Menswear",kids:"Kids brands",home:"Home"};
+  const STY={lawn:"Lawn & unstitched",["luxury pret"]:"Luxury pret",bridal:"Bridal & couture",western:"Western",ethnic:"Ethnic & festive",modest:"Modest",prints:"Print-led labels","high street":"High street",luxury:"Luxury & designer",streetwear:"Streetwear",sportswear:"Sportswear",menswear:"Menswear",kids:"Kids brands",home:"Home"};
   const avail=Object.keys(STY).filter(k=>brands.some(b=>(b.styles||[]).includes(k)));
   if(B.style&&!avail.includes(B.style))B.style="";
   $("#bStyle").innerHTML=avail.length?`<button type="button" class="chip" data-sty="" aria-pressed="${!B.style}">All types</button>`+avail.map(k=>`<button type="button" class="chip" data-sty="${k}" aria-pressed="${B.style===k}">${STY[k]}<span class="n">${brands.filter(b=>(b.styles||[]).includes(k)).length}</span></button>`).join(""):"";
@@ -1050,7 +1262,7 @@ function openProduct(p){const b=Object.values(B.reg).flat().find(x=>x.id===B.bra
 $("#bMarket").addEventListener("click",e=>{const c=e.target.closest("[data-m]");if(!c)return;B.market=c.dataset.m;B.brand=null;B.style="";renderBrands()});
 $("#bList").addEventListener("click",e=>{const o=e.target.closest("[data-open-brand]");if(o){B.brand=o.dataset.openBrand;B.bmarket=o.dataset.bm;B.cat=null;renderBrand();scrollTo({top:0})}});
 $("#bDetail").addEventListener("click",e=>{if(e.target.closest("#bBack")&&!B.cat){B.brand=null;renderBrands()}},true);
-$("#bWant").addEventListener("click",e=>{const w=e.target.closest("[data-want]");if(!w)return;B.want=w.dataset.want;try{localStorage.setItem("dm.want",B.want)}catch(err){}B.brand=null;B.style="";renderBrands()});
+$("#bWant").addEventListener("click",e=>{const w=e.target.closest("[data-want]");if(!w)return;B.want=w.dataset.want;try{localStorage.setItem("dm.want2",B.want)}catch(err){}B.brand=null;B.style="";renderBrands()});
 $("#bStyle").addEventListener("click",e=>{const c=e.target.closest("[data-sty]");if(!c)return;B.style=c.dataset.sty;renderBrands()});
 $("#bSearch").addEventListener("input",e=>{B.bq=e.target.value.trim();if(B.brand){B.brand=null}renderBrands()});
 $("#bDetail").addEventListener("click",e=>{if(e.target.closest("#bBack")){B.brand=null;renderBrands();return}

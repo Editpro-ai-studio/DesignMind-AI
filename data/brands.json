@@ -339,7 +339,7 @@
    {
     "id": "beri-and-coral",
     "name": "Beri and Coral",
-    "site": "https://coralpakistan.pk",
+    "site": "https://beriandcoral.com",
     "focus": [
      "kids"
     ],
@@ -435,7 +435,7 @@
    {
     "id": "charizma",
     "name": "Charizma",
-    "site": "https://houseofcharizma.com",
+    "site": "https://charizma.pk",
     "focus": [
      "women"
     ],
@@ -528,7 +528,7 @@
    {
     "id": "warda",
     "name": "Warda",
-    "site": "https://wardaofficial.com",
+    "site": "https://warda.com.pk",
     "focus": [
      "women"
     ],
@@ -637,7 +637,7 @@
    {
     "id": "saira-rizwan",
     "name": "Saira Rizwan",
-    "site": "https://sairarizwan.pk",
+    "site": "https://sairarizwan.com",
     "focus": [
      "women"
     ],
@@ -684,7 +684,7 @@
    {
     "id": "agha-noor",
     "name": "Agha Noor",
-    "site": "https://aghanoorofficial.com",
+    "site": "https://aghanoor.com",
     "focus": [
      "women"
     ],
@@ -741,7 +741,7 @@
    {
     "id": "imrozia",
     "name": "Imrozia",
-    "site": "https://imroziaserene.com",
+    "site": "https://imrozia.com.pk",
     "focus": [
      "women"
     ],
@@ -788,7 +788,7 @@
    {
     "id": "al-zohaib",
     "name": "Al Zohaib",
-    "site": "https://alzohaibstore.com",
+    "site": "https://alzohaib.com",
     "focus": [
      "women"
     ],
@@ -799,7 +799,7 @@
    {
     "id": "firdous",
     "name": "Firdous",
-    "site": "https://firdouscloth.com",
+    "site": "https://firdousclothing.com",
     "focus": [
      "women"
     ],
@@ -845,7 +845,7 @@
    {
     "id": "lakhany-by-lsm",
     "name": "Lakhany by LSM",
-    "site": "https://lakhanyonline.com",
+    "site": "https://lsmfabrics.com",
     "focus": [
      "women"
     ],
@@ -879,7 +879,7 @@
    {
     "id": "taana-baana",
     "name": "Taana Baana",
-    "site": "https://taanabaana.pk",
+    "site": "https://taanabaana.com",
     "focus": [
      "women"
     ],
@@ -902,7 +902,7 @@
    {
     "id": "hsy",
     "name": "HSY",
-    "site": "https://theworldofhsy.com",
+    "site": "https://hsy.com.pk",
     "focus": [
      "women",
      "men"
@@ -937,7 +937,7 @@
    {
     "id": "ali-xeeshan",
     "name": "Ali Xeeshan",
-    "site": "https://alixeeshanempire.com",
+    "site": "https://alixeeshan.com",
     "focus": [
      "women",
      "men"
@@ -1078,7 +1078,7 @@
    {
     "id": "ansab-jahangir",
     "name": "Ansab Jahangir",
-    "site": "https://www.ansabjahangirstudio.com",
+    "site": "https://ansabjahangir.com",
     "focus": [
      "women"
     ],
@@ -1090,7 +1090,7 @@
    {
     "id": "farah-talib-aziz",
     "name": "Farah Talib Aziz",
-    "site": "https://www.farahtalibaziz.com.pk",
+    "site": "https://farahtalibaziz.com",
     "focus": [
      "women"
     ],
@@ -1126,7 +1126,7 @@
    {
     "id": "kamiar-rokni",
     "name": "Kamiar Rokni",
-    "site": "https://shop.houseofkamiarrokni.com",
+    "site": "https://kamiarrokni.com",
     "focus": [
      "women"
     ],
@@ -1160,7 +1160,7 @@
    {
     "id": "mahgul",
     "name": "Mahgul",
-    "site": "https://mahgulonline.com",
+    "site": "https://mahgul.com",
     "focus": [
      "women"
     ],
@@ -1307,7 +1307,7 @@
    {
     "id": "brumano",
     "name": "Brumano",
-    "site": "https://shopbrumano.com",
+    "site": "https://brumano.com",
     "focus": [
      "men"
     ],
@@ -1319,7 +1319,7 @@
    {
     "id": "gentry",
     "name": "Gentry",
-    "site": "https://www.gentryclub.store",
+    "site": "https://gentry.com.pk",
     "focus": [
      "men"
     ],
@@ -1330,7 +1330,7 @@
    {
     "id": "stoneage",
     "name": "Stoneage",
-    "site": "https://stoneagefashion.com",
+    "site": "https://stoneage.com.pk",
     "focus": [
      "women",
      "men"
@@ -1371,6 +1371,10 @@
      "women",
      "men",
      "kids"
+    ],
+    "styles": [
+     "high street",
+     "kids"
     ]
    },
    {
@@ -1381,6 +1385,9 @@
      "women",
      "men",
      "kids"
+    ],
+    "styles": [
+     "high street"
     ]
    },
    {
@@ -1390,6 +1397,10 @@
     "focus": [
      "women",
      "men",
+     "kids"
+    ],
+    "styles": [
+     "high street",
      "kids"
     ]
    },
@@ -1401,6 +1412,9 @@
      "women",
      "men",
      "kids"
+    ],
+    "styles": [
+     "high street"
     ]
    },
    {
@@ -1409,7 +1423,11 @@
     "site": "https://www.vakko.com",
     "focus": [
      "women",
-     "men"
+     "men",
+     "home"
+    ],
+    "styles": [
+     "luxury"
     ]
    },
    {
@@ -1418,6 +1436,9 @@
     "site": "https://www.modanisa.com",
     "focus": [
      "women"
+    ],
+    "styles": [
+     "modest"
     ]
    },
    {
@@ -1426,6 +1447,9 @@
     "site": "https://www.setre.com",
     "focus": [
      "women"
+    ],
+    "styles": [
+     "modest"
     ]
    },
    {
@@ -1434,6 +1458,9 @@
     "site": "https://www.ipekyol.com.tr",
     "focus": [
      "women"
+    ],
+    "styles": [
+     "luxury"
     ]
    },
    {
@@ -1442,6 +1469,296 @@
     "site": "https://www.e-bebek.com",
     "focus": [
      "kids"
+    ],
+    "styles": [
+     "kids"
+    ]
+   },
+   {
+    "id": "beymen",
+    "name": "Beymen",
+    "site": "https://www.beymen.com",
+    "focus": [
+     "women",
+     "men",
+     "kids"
+    ],
+    "styles": [
+     "luxury"
+    ]
+   },
+   {
+    "id": "twist",
+    "name": "Twist",
+    "site": "https://www.twist.com.tr",
+    "focus": [
+     "women"
+    ],
+    "styles": [
+     "high street"
+    ]
+   },
+   {
+    "id": "machka",
+    "name": "Machka",
+    "site": "https://www.machka.com.tr",
+    "focus": [
+     "women"
+    ],
+    "styles": [
+     "luxury"
+    ]
+   },
+   {
+    "id": "network",
+    "name": "Network",
+    "site": "https://www.network.com.tr",
+    "focus": [
+     "women",
+     "men"
+    ],
+    "styles": [
+     "luxury"
+    ]
+   },
+   {
+    "id": "colin-s",
+    "name": "Colin's",
+    "site": "https://www.colins.com.tr",
+    "focus": [
+     "women",
+     "men"
+    ],
+    "styles": [
+     "high street"
+    ]
+   },
+   {
+    "id": "collezione",
+    "name": "Collezione",
+    "site": "https://www.collezione.com",
+    "focus": [
+     "women",
+     "men"
+    ],
+    "styles": [
+     "high street"
+    ]
+   },
+   {
+    "id": "penti",
+    "name": "Penti",
+    "site": "https://www.penti.com",
+    "focus": [
+     "women",
+     "kids"
+    ],
+    "styles": [
+     "high street"
+    ]
+   },
+   {
+    "id": "armine",
+    "name": "Armine",
+    "site": "https://www.armine.com",
+    "focus": [
+     "women"
+    ],
+    "styles": [
+     "modest"
+    ]
+   },
+   {
+    "id": "kayra",
+    "name": "Kayra",
+    "site": "https://www.kayra.com",
+    "focus": [
+     "women"
+    ],
+    "styles": [
+     "modest"
+    ]
+   },
+   {
+    "id": "aker",
+    "name": "Aker",
+    "site": "https://www.aker.com.tr",
+    "focus": [
+     "women"
+    ],
+    "styles": [
+     "modest",
+     "prints"
+    ]
+   },
+   {
+    "id": "sefamerve",
+    "name": "Sefamerve",
+    "site": "https://www.sefamerve.com",
+    "focus": [
+     "women"
+    ],
+    "styles": [
+     "modest"
+    ]
+   },
+   {
+    "id": "bigdart",
+    "name": "Bigdart",
+    "site": "https://www.bigdart.com",
+    "focus": [
+     "women"
+    ],
+    "styles": [
+     "modest"
+    ]
+   },
+   {
+    "id": "lela",
+    "name": "Lela",
+    "site": "https://www.lela.com.tr",
+    "focus": [
+     "women"
+    ],
+    "styles": [
+     "high street"
+    ]
+   },
+   {
+    "id": "mudo",
+    "name": "Mudo",
+    "site": "https://www.mudo.com.tr",
+    "focus": [
+     "women",
+     "men",
+     "home"
+    ],
+    "styles": [
+     "high street",
+     "home"
+    ]
+   },
+   {
+    "id": "altnyldz-classics",
+    "name": "Altınyıldız Classics",
+    "site": "https://www.altinyildizclassics.com",
+    "focus": [
+     "men"
+    ],
+    "styles": [
+     "menswear"
+    ]
+   },
+   {
+    "id": "kigl",
+    "name": "Kiğılı",
+    "site": "https://www.kigili.com",
+    "focus": [
+     "men"
+    ],
+    "styles": [
+     "menswear"
+    ]
+   },
+   {
+    "id": "damat-tween",
+    "name": "Damat Tween",
+    "site": "https://www.damattween.com",
+    "focus": [
+     "men"
+    ],
+    "styles": [
+     "menswear"
+    ]
+   },
+   {
+    "id": "sarar",
+    "name": "Sarar",
+    "site": "https://www.sarar.com",
+    "focus": [
+     "women",
+     "men"
+    ],
+    "styles": [
+     "luxury"
+    ]
+   },
+   {
+    "id": "avva",
+    "name": "Avva",
+    "site": "https://www.avva.com.tr",
+    "focus": [
+     "men"
+    ],
+    "styles": [
+     "menswear"
+    ]
+   },
+   {
+    "id": "loft",
+    "name": "Loft",
+    "site": "https://www.loft.com.tr",
+    "focus": [
+     "women",
+     "men"
+    ],
+    "styles": [
+     "high street"
+    ]
+   },
+   {
+    "id": "panco",
+    "name": "Panço",
+    "site": "https://www.panco.com.tr",
+    "focus": [
+     "kids"
+    ],
+    "styles": [
+     "kids"
+    ]
+   },
+   {
+    "id": "nebbati",
+    "name": "Nebbati",
+    "site": "https://www.nebbati.com",
+    "focus": [
+     "kids"
+    ],
+    "styles": [
+     "kids"
+    ]
+   },
+   {
+    "id": "joker",
+    "name": "Joker",
+    "site": "https://www.joker.com.tr",
+    "focus": [
+     "kids"
+    ],
+    "styles": [
+     "kids"
+    ]
+   },
+   {
+    "id": "english-home",
+    "name": "English Home",
+    "site": "https://www.englishhome.com",
+    "focus": [
+     "home"
+    ],
+    "styles": [
+     "home"
+    ]
+   },
+   {
+    "id": "madame-coco",
+    "name": "Madame Coco",
+    "site": "https://www.madamecoco.com",
+    "focus": [
+     "home"
+    ],
+    "styles": [
+     "home"
     ]
    }
   ],
@@ -1455,6 +1772,10 @@
      "men",
      "kids",
      "home"
+    ],
+    "styles": [
+     "high street",
+     "kids"
     ]
    },
    {
@@ -1466,6 +1787,9 @@
      "men",
      "kids",
      "home"
+    ],
+    "styles": [
+     "high street"
     ]
    },
    {
@@ -1476,6 +1800,10 @@
      "women",
      "men",
      "kids"
+    ],
+    "styles": [
+     "prints",
+     "kids"
     ]
    },
    {
@@ -1484,6 +1812,10 @@
     "site": "https://www.welovefrugi.com",
     "focus": [
      "kids"
+    ],
+    "styles": [
+     "kids",
+     "prints"
     ]
    },
    {
@@ -1491,6 +1823,9 @@
     "name": "JoJo Maman Bébé",
     "site": "https://www.jojomamanbebe.com",
     "focus": [
+     "kids"
+    ],
+    "styles": [
      "kids"
     ]
    },
@@ -1501,6 +1836,9 @@
     "focus": [
      "women",
      "kids"
+    ],
+    "styles": [
+     "high street"
     ]
    },
    {
@@ -1511,6 +1849,9 @@
      "women",
      "men",
      "kids"
+    ],
+    "styles": [
+     "high street"
     ]
    },
    {
@@ -1522,6 +1863,439 @@
      "men",
      "kids",
      "home"
+    ],
+    "styles": [
+     "high street"
+    ]
+   },
+   {
+    "id": "liberty-london",
+    "name": "Liberty London",
+    "site": "https://www.libertylondon.com",
+    "focus": [
+     "women",
+     "men",
+     "home"
+    ],
+    "styles": [
+     "prints",
+     "luxury"
+    ]
+   },
+   {
+    "id": "cath-kidston",
+    "name": "Cath Kidston",
+    "site": "https://www.cathkidston.com",
+    "focus": [
+     "women",
+     "kids",
+     "home"
+    ],
+    "styles": [
+     "prints",
+     "home"
+    ]
+   },
+   {
+    "id": "laura-ashley",
+    "name": "Laura Ashley",
+    "site": "https://www.lauraashley.com",
+    "focus": [
+     "women",
+     "home"
+    ],
+    "styles": [
+     "prints",
+     "home"
+    ]
+   },
+   {
+    "id": "burberry",
+    "name": "Burberry",
+    "site": "https://www.burberry.com",
+    "focus": [
+     "women",
+     "men",
+     "kids"
+    ],
+    "styles": [
+     "luxury"
+    ]
+   },
+   {
+    "id": "vivienne-westwood",
+    "name": "Vivienne Westwood",
+    "site": "https://www.viviennewestwood.com",
+    "focus": [
+     "women",
+     "men"
+    ],
+    "styles": [
+     "luxury"
+    ]
+   },
+   {
+    "id": "whistles",
+    "name": "Whistles",
+    "site": "https://www.whistles.com",
+    "focus": [
+     "women"
+    ],
+    "styles": [
+     "high street"
+    ]
+   },
+   {
+    "id": "hobbs",
+    "name": "Hobbs",
+    "site": "https://www.hobbs.com",
+    "focus": [
+     "women"
+    ],
+    "styles": [
+     "high street"
+    ]
+   },
+   {
+    "id": "reiss",
+    "name": "Reiss",
+    "site": "https://www.reiss.com",
+    "focus": [
+     "women",
+     "men",
+     "kids"
+    ],
+    "styles": [
+     "high street"
+    ]
+   },
+   {
+    "id": "ted-baker",
+    "name": "Ted Baker",
+    "site": "https://www.tedbaker.com",
+    "focus": [
+     "women",
+     "men"
+    ],
+    "styles": [
+     "prints"
+    ]
+   },
+   {
+    "id": "allsaints",
+    "name": "AllSaints",
+    "site": "https://www.allsaints.com",
+    "focus": [
+     "women",
+     "men"
+    ],
+    "styles": [
+     "streetwear"
+    ]
+   },
+   {
+    "id": "jigsaw",
+    "name": "Jigsaw",
+    "site": "https://www.jigsaw-online.com",
+    "focus": [
+     "women",
+     "men"
+    ],
+    "styles": [
+     "high street"
+    ]
+   },
+   {
+    "id": "phase-eight",
+    "name": "Phase Eight",
+    "site": "https://www.phase-eight.com",
+    "focus": [
+     "women"
+    ],
+    "styles": [
+     "high street"
+    ]
+   },
+   {
+    "id": "joules",
+    "name": "Joules",
+    "site": "https://www.joules.com",
+    "focus": [
+     "women",
+     "men",
+     "kids",
+     "home"
+    ],
+    "styles": [
+     "prints",
+     "kids"
+    ]
+   },
+   {
+    "id": "white-stuff",
+    "name": "White Stuff",
+    "site": "https://www.whitestuff.com",
+    "focus": [
+     "women",
+     "men"
+    ],
+    "styles": [
+     "prints"
+    ]
+   },
+   {
+    "id": "fatface",
+    "name": "FatFace",
+    "site": "https://www.fatface.com",
+    "focus": [
+     "women",
+     "men",
+     "kids"
+    ],
+    "styles": [
+     "high street"
+    ]
+   },
+   {
+    "id": "seasalt-cornwall",
+    "name": "Seasalt Cornwall",
+    "site": "https://www.seasaltcornwall.com",
+    "focus": [
+     "women"
+    ],
+    "styles": [
+     "prints"
+    ]
+   },
+   {
+    "id": "me-and-em",
+    "name": "ME+EM",
+    "site": "https://www.meandem.com",
+    "focus": [
+     "women"
+    ],
+    "styles": [
+     "luxury"
+    ]
+   },
+   {
+    "id": "rixo",
+    "name": "Rixo",
+    "site": "https://www.rixo.co.uk",
+    "focus": [
+     "women"
+    ],
+    "styles": [
+     "prints",
+     "luxury"
+    ]
+   },
+   {
+    "id": "never-fully-dressed",
+    "name": "Never Fully Dressed",
+    "site": "https://www.neverfullydressed.co.uk",
+    "focus": [
+     "women"
+    ],
+    "styles": [
+     "prints"
+    ]
+   },
+   {
+    "id": "kitri",
+    "name": "Kitri",
+    "site": "https://www.kitristudio.com",
+    "focus": [
+     "women"
+    ],
+    "styles": [
+     "prints"
+    ]
+   },
+   {
+    "id": "hush",
+    "name": "Hush",
+    "site": "https://www.hush-uk.com",
+    "focus": [
+     "women"
+    ],
+    "styles": [
+     "high street"
+    ]
+   },
+   {
+    "id": "damson-madder",
+    "name": "Damson Madder",
+    "site": "https://www.damsonmadder.com",
+    "focus": [
+     "women"
+    ],
+    "styles": [
+     "prints"
+    ]
+   },
+   {
+    "id": "lucy-and-yak",
+    "name": "Lucy & Yak",
+    "site": "https://www.lucyandyak.com",
+    "focus": [
+     "women"
+    ],
+    "styles": [
+     "prints"
+    ]
+   },
+   {
+    "id": "toast",
+    "name": "Toast",
+    "site": "https://www.toa.st",
+    "focus": [
+     "women",
+     "home"
+    ],
+    "styles": [
+     "prints"
+    ]
+   },
+   {
+    "id": "lilly-and-sid",
+    "name": "Lilly + Sid",
+    "site": "https://www.lillyandsid.com",
+    "focus": [
+     "kids"
+    ],
+    "styles": [
+     "kids"
+    ]
+   },
+   {
+    "id": "scamp-and-dude",
+    "name": "Scamp & Dude",
+    "site": "https://www.scampanddude.com",
+    "focus": [
+     "women",
+     "kids"
+    ],
+    "styles": [
+     "kids",
+     "prints"
+    ]
+   },
+   {
+    "id": "the-white-company",
+    "name": "The White Company",
+    "site": "https://www.thewhitecompany.com",
+    "focus": [
+     "women",
+     "kids",
+     "home"
+    ],
+    "styles": [
+     "home"
+    ]
+   },
+   {
+    "id": "rachel-riley",
+    "name": "Rachel Riley",
+    "site": "https://www.rachelriley.com",
+    "focus": [
+     "kids"
+    ],
+    "styles": [
+     "kids",
+     "luxury"
+    ]
+   },
+   {
+    "id": "marie-chantal",
+    "name": "Marie-Chantal",
+    "site": "https://www.mariechantal.com",
+    "focus": [
+     "kids"
+    ],
+    "styles": [
+     "kids",
+     "luxury"
+    ]
+   },
+   {
+    "id": "trotters",
+    "name": "Trotters",
+    "site": "https://www.trotters.co.uk",
+    "focus": [
+     "kids"
+    ],
+    "styles": [
+     "kids"
+    ]
+   },
+   {
+    "id": "rockahula-kids",
+    "name": "Rockahula Kids",
+    "site": "https://www.rockahulakids.com",
+    "focus": [
+     "kids"
+    ],
+    "styles": [
+     "kids"
+    ]
+   },
+   {
+    "id": "tobias-and-the-bear",
+    "name": "Tobias & The Bear",
+    "site": "https://www.tobiasandthebear.com",
+    "focus": [
+     "kids"
+    ],
+    "styles": [
+     "kids",
+     "prints"
+    ]
+   },
+   {
+    "id": "percival",
+    "name": "Percival",
+    "site": "https://www.percivalclo.com",
+    "focus": [
+     "men"
+    ],
+    "styles": [
+     "menswear"
+    ]
+   },
+   {
+    "id": "folk",
+    "name": "Folk",
+    "site": "https://www.folkclothing.com",
+    "focus": [
+     "women",
+     "men"
+    ],
+    "styles": [
+     "menswear"
+    ]
+   },
+   {
+    "id": "oliver-spencer",
+    "name": "Oliver Spencer",
+    "site": "https://www.oliverspencer.co.uk",
+    "focus": [
+     "men"
+    ],
+    "styles": [
+     "menswear"
+    ]
+   },
+   {
+    "id": "sunspel",
+    "name": "Sunspel",
+    "site": "https://www.sunspel.com",
+    "focus": [
+     "women",
+     "men"
+    ],
+    "styles": [
+     "menswear"
     ]
    }
   ],
@@ -1534,6 +2308,10 @@
      "women",
      "men",
      "kids"
+    ],
+    "styles": [
+     "high street",
+     "kids"
     ]
    },
    {
@@ -1544,6 +2322,10 @@
      "women",
      "men",
      "kids"
+    ],
+    "styles": [
+     "high street",
+     "kids"
     ]
    },
    {
@@ -1551,6 +2333,9 @@
     "name": "Carter's",
     "site": "https://www.carters.com",
     "focus": [
+     "kids"
+    ],
+    "styles": [
      "kids"
     ]
    },
@@ -1560,6 +2345,9 @@
     "site": "https://www.hannaandersson.com",
     "focus": [
      "kids"
+    ],
+    "styles": [
+     "kids"
     ]
    },
    {
@@ -1567,6 +2355,9 @@
     "name": "Janie and Jack",
     "site": "https://www.janieandjack.com",
     "focus": [
+     "kids"
+    ],
+    "styles": [
      "kids"
     ]
    },
@@ -1576,6 +2367,9 @@
     "site": "https://www.primary.com",
     "focus": [
      "kids"
+    ],
+    "styles": [
+     "kids"
     ]
    },
    {
@@ -1584,6 +2378,10 @@
     "site": "https://www.teacollection.com",
     "focus": [
      "kids"
+    ],
+    "styles": [
+     "kids",
+     "prints"
     ]
    },
    {
@@ -1594,6 +2392,447 @@
      "women",
      "men",
      "kids"
+    ],
+    "styles": [
+     "high street"
+    ]
+   },
+   {
+    "id": "oshkosh-b-gosh",
+    "name": "OshKosh B'gosh",
+    "site": "https://www.oshkosh.com",
+    "focus": [
+     "kids"
+    ],
+    "styles": [
+     "kids"
+    ]
+   },
+   {
+    "id": "the-children-s-place",
+    "name": "The Children's Place",
+    "site": "https://www.childrensplace.com",
+    "focus": [
+     "kids"
+    ],
+    "styles": [
+     "kids"
+    ]
+   },
+   {
+    "id": "kyte-baby",
+    "name": "Kyte Baby",
+    "site": "https://kytebaby.com",
+    "focus": [
+     "kids"
+    ],
+    "styles": [
+     "kids"
+    ]
+   },
+   {
+    "id": "little-sleepies",
+    "name": "Little Sleepies",
+    "site": "https://littlesleepies.com",
+    "focus": [
+     "kids"
+    ],
+    "styles": [
+     "kids",
+     "prints"
+    ]
+   },
+   {
+    "id": "posh-peanut",
+    "name": "Posh Peanut",
+    "site": "https://poshpeanut.com",
+    "focus": [
+     "kids"
+    ],
+    "styles": [
+     "kids",
+     "prints"
+    ]
+   },
+   {
+    "id": "rylee-and-cru",
+    "name": "Rylee + Cru",
+    "site": "https://ryleeandcru.com",
+    "focus": [
+     "kids"
+    ],
+    "styles": [
+     "kids",
+     "prints"
+    ]
+   },
+   {
+    "id": "burt-s-bees-baby",
+    "name": "Burt's Bees Baby",
+    "site": "https://www.burtsbeesbaby.com",
+    "focus": [
+     "kids"
+    ],
+    "styles": [
+     "kids"
+    ]
+   },
+   {
+    "id": "pink-chicken",
+    "name": "Pink Chicken",
+    "site": "https://pinkchicken.com",
+    "focus": [
+     "women",
+     "kids"
+    ],
+    "styles": [
+     "kids",
+     "prints"
+    ]
+   },
+   {
+    "id": "monica-and-andy",
+    "name": "Monica + Andy",
+    "site": "https://www.monicaandandy.com",
+    "focus": [
+     "kids"
+    ],
+    "styles": [
+     "kids"
+    ]
+   },
+   {
+    "id": "mabel-and-honey",
+    "name": "Mabel + Honey",
+    "site": "https://www.mabelandhoney.com",
+    "focus": [
+     "kids"
+    ],
+    "styles": [
+     "kids"
+    ]
+   },
+   {
+    "id": "ralph-lauren",
+    "name": "Ralph Lauren",
+    "site": "https://www.ralphlauren.com",
+    "focus": [
+     "women",
+     "men",
+     "kids",
+     "home"
+    ],
+    "styles": [
+     "luxury"
+    ]
+   },
+   {
+    "id": "tommy-hilfiger",
+    "name": "Tommy Hilfiger",
+    "site": "https://usa.tommy.com",
+    "focus": [
+     "women",
+     "men",
+     "kids"
+    ],
+    "styles": [
+     "high street"
+    ]
+   },
+   {
+    "id": "anthropologie",
+    "name": "Anthropologie",
+    "site": "https://www.anthropologie.com",
+    "focus": [
+     "women",
+     "home"
+    ],
+    "styles": [
+     "prints"
+    ]
+   },
+   {
+    "id": "free-people",
+    "name": "Free People",
+    "site": "https://www.freepeople.com",
+    "focus": [
+     "women"
+    ],
+    "styles": [
+     "prints"
+    ]
+   },
+   {
+    "id": "urban-outfitters",
+    "name": "Urban Outfitters",
+    "site": "https://www.urbanoutfitters.com",
+    "focus": [
+     "women",
+     "men",
+     "home"
+    ],
+    "styles": [
+     "streetwear"
+    ]
+   },
+   {
+    "id": "madewell",
+    "name": "Madewell",
+    "site": "https://www.madewell.com",
+    "focus": [
+     "women",
+     "men"
+    ],
+    "styles": [
+     "high street"
+    ]
+   },
+   {
+    "id": "banana-republic",
+    "name": "Banana Republic",
+    "site": "https://bananarepublic.gap.com",
+    "focus": [
+     "women",
+     "men"
+    ],
+    "styles": [
+     "high street"
+    ]
+   },
+   {
+    "id": "abercrombie-and-fitch",
+    "name": "Abercrombie & Fitch",
+    "site": "https://www.abercrombie.com",
+    "focus": [
+     "women",
+     "men",
+     "kids"
+    ],
+    "styles": [
+     "high street"
+    ]
+   },
+   {
+    "id": "american-eagle",
+    "name": "American Eagle",
+    "site": "https://www.ae.com",
+    "focus": [
+     "women",
+     "men"
+    ],
+    "styles": [
+     "high street"
+    ]
+   },
+   {
+    "id": "lululemon",
+    "name": "Lululemon",
+    "site": "https://shop.lululemon.com",
+    "focus": [
+     "women",
+     "men"
+    ],
+    "styles": [
+     "sportswear"
+    ]
+   },
+   {
+    "id": "reformation",
+    "name": "Reformation",
+    "site": "https://www.thereformation.com",
+    "focus": [
+     "women"
+    ],
+    "styles": [
+     "prints"
+    ]
+   },
+   {
+    "id": "everlane",
+    "name": "Everlane",
+    "site": "https://www.everlane.com",
+    "focus": [
+     "women",
+     "men"
+    ],
+    "styles": [
+     "high street"
+    ]
+   },
+   {
+    "id": "faherty",
+    "name": "Faherty",
+    "site": "https://fahertybrand.com",
+    "focus": [
+     "women",
+     "men",
+     "kids"
+    ],
+    "styles": [
+     "prints"
+    ]
+   },
+   {
+    "id": "rails",
+    "name": "Rails",
+    "site": "https://www.railsclothing.com",
+    "focus": [
+     "women",
+     "men"
+    ],
+    "styles": [
+     "prints"
+    ]
+   },
+   {
+    "id": "lilly-pulitzer",
+    "name": "Lilly Pulitzer",
+    "site": "https://www.lillypulitzer.com",
+    "focus": [
+     "women",
+     "kids"
+    ],
+    "styles": [
+     "prints"
+    ]
+   },
+   {
+    "id": "kate-spade",
+    "name": "Kate Spade",
+    "site": "https://www.katespade.com",
+    "focus": [
+     "women"
+    ],
+    "styles": [
+     "prints"
+    ]
+   },
+   {
+    "id": "tory-burch",
+    "name": "Tory Burch",
+    "site": "https://www.toryburch.com",
+    "focus": [
+     "women"
+    ],
+    "styles": [
+     "luxury"
+    ]
+   },
+   {
+    "id": "diane-von-furstenberg",
+    "name": "Diane von Furstenberg",
+    "site": "https://www.dvf.com",
+    "focus": [
+     "women"
+    ],
+    "styles": [
+     "prints",
+     "luxury"
+    ]
+   },
+   {
+    "id": "staud",
+    "name": "Staud",
+    "site": "https://staud.clothing",
+    "focus": [
+     "women"
+    ],
+    "styles": [
+     "prints"
+    ]
+   },
+   {
+    "id": "loveshackfancy",
+    "name": "LoveShackFancy",
+    "site": "https://www.loveshackfancy.com",
+    "focus": [
+     "women",
+     "kids"
+    ],
+    "styles": [
+     "prints"
+    ]
+   },
+   {
+    "id": "christy-dawn",
+    "name": "Christy Dawn",
+    "site": "https://christydawn.com",
+    "focus": [
+     "women"
+    ],
+    "styles": [
+     "prints"
+    ]
+   },
+   {
+    "id": "hill-house-home",
+    "name": "Hill House Home",
+    "site": "https://www.hillhousehome.com",
+    "focus": [
+     "women",
+     "kids",
+     "home"
+    ],
+    "styles": [
+     "prints",
+     "home"
+    ]
+   },
+   {
+    "id": "doen",
+    "name": "Dôen",
+    "site": "https://shopdoen.com",
+    "focus": [
+     "women",
+     "kids"
+    ],
+    "styles": [
+     "prints"
+    ]
+   },
+   {
+    "id": "alice-and-olivia",
+    "name": "Alice + Olivia",
+    "site": "https://www.aliceandolivia.com",
+    "focus": [
+     "women"
+    ],
+    "styles": [
+     "luxury"
+    ]
+   },
+   {
+    "id": "todd-snyder",
+    "name": "Todd Snyder",
+    "site": "https://www.toddsnyder.com",
+    "focus": [
+     "men"
+    ],
+    "styles": [
+     "menswear"
+    ]
+   },
+   {
+    "id": "buck-mason",
+    "name": "Buck Mason",
+    "site": "https://www.buckmason.com",
+    "focus": [
+     "women",
+     "men"
+    ],
+    "styles": [
+     "menswear"
+    ]
+   },
+   {
+    "id": "taylor-stitch",
+    "name": "Taylor Stitch",
+    "site": "https://www.taylorstitch.com",
+    "focus": [
+     "men"
+    ],
+    "styles": [
+     "menswear"
     ]
    }
   ],
@@ -1606,6 +2845,10 @@
      "women",
      "men",
      "kids"
+    ],
+    "styles": [
+     "high street",
+     "kids"
     ]
    },
    {
@@ -1616,6 +2859,10 @@
      "women",
      "men",
      "kids"
+    ],
+    "styles": [
+     "high street",
+     "kids"
     ]
    },
    {
@@ -1624,6 +2871,10 @@
     "site": "https://www.ilgufo.com",
     "focus": [
      "kids"
+    ],
+    "styles": [
+     "kids",
+     "luxury"
     ]
    },
    {
@@ -1632,6 +2883,10 @@
     "site": "https://www.monnalisa.com",
     "focus": [
      "kids"
+    ],
+    "styles": [
+     "kids",
+     "luxury"
     ]
    },
    {
@@ -1640,6 +2895,289 @@
     "site": "https://www.maxmara.com",
     "focus": [
      "women"
+    ],
+    "styles": [
+     "luxury"
+    ]
+   },
+   {
+    "id": "missoni",
+    "name": "Missoni",
+    "site": "https://www.missoni.com",
+    "focus": [
+     "women",
+     "men",
+     "home"
+    ],
+    "styles": [
+     "prints",
+     "luxury"
+    ]
+   },
+   {
+    "id": "emilio-pucci",
+    "name": "Emilio Pucci",
+    "site": "https://www.pucci.com",
+    "focus": [
+     "women"
+    ],
+    "styles": [
+     "prints",
+     "luxury"
+    ]
+   },
+   {
+    "id": "etro",
+    "name": "Etro",
+    "site": "https://www.etro.com",
+    "focus": [
+     "women",
+     "men",
+     "home"
+    ],
+    "styles": [
+     "prints",
+     "luxury"
+    ]
+   },
+   {
+    "id": "gucci",
+    "name": "Gucci",
+    "site": "https://www.gucci.com",
+    "focus": [
+     "women",
+     "men",
+     "kids"
+    ],
+    "styles": [
+     "luxury"
+    ]
+   },
+   {
+    "id": "prada",
+    "name": "Prada",
+    "site": "https://www.prada.com",
+    "focus": [
+     "women",
+     "men"
+    ],
+    "styles": [
+     "luxury"
+    ]
+   },
+   {
+    "id": "versace",
+    "name": "Versace",
+    "site": "https://www.versace.com",
+    "focus": [
+     "women",
+     "men",
+     "kids",
+     "home"
+    ],
+    "styles": [
+     "luxury",
+     "prints"
+    ]
+   },
+   {
+    "id": "dolce-and-gabbana",
+    "name": "Dolce & Gabbana",
+    "site": "https://www.dolcegabbana.com",
+    "focus": [
+     "women",
+     "men",
+     "kids"
+    ],
+    "styles": [
+     "luxury",
+     "prints"
+    ]
+   },
+   {
+    "id": "valentino",
+    "name": "Valentino",
+    "site": "https://www.valentino.com",
+    "focus": [
+     "women",
+     "men"
+    ],
+    "styles": [
+     "luxury"
+    ]
+   },
+   {
+    "id": "marni",
+    "name": "Marni",
+    "site": "https://www.marni.com",
+    "focus": [
+     "women",
+     "men"
+    ],
+    "styles": [
+     "luxury",
+     "prints"
+    ]
+   },
+   {
+    "id": "moschino",
+    "name": "Moschino",
+    "site": "https://www.moschino.com",
+    "focus": [
+     "women",
+     "men"
+    ],
+    "styles": [
+     "luxury"
+    ]
+   },
+   {
+    "id": "giorgio-armani",
+    "name": "Giorgio Armani",
+    "site": "https://www.armani.com",
+    "focus": [
+     "women",
+     "men",
+     "kids"
+    ],
+    "styles": [
+     "luxury"
+    ]
+   },
+   {
+    "id": "zegna",
+    "name": "Zegna",
+    "site": "https://www.zegna.com",
+    "focus": [
+     "men"
+    ],
+    "styles": [
+     "menswear",
+     "luxury"
+    ]
+   },
+   {
+    "id": "brunello-cucinelli",
+    "name": "Brunello Cucinelli",
+    "site": "https://shop.brunellocucinelli.com",
+    "focus": [
+     "women",
+     "men"
+    ],
+    "styles": [
+     "luxury"
+    ]
+   },
+   {
+    "id": "twinset",
+    "name": "Twinset",
+    "site": "https://www.twinset.com",
+    "focus": [
+     "women",
+     "kids"
+    ],
+    "styles": [
+     "high street"
+    ]
+   },
+   {
+    "id": "liu-jo",
+    "name": "Liu Jo",
+    "site": "https://www.liujo.com",
+    "focus": [
+     "women"
+    ],
+    "styles": [
+     "high street"
+    ]
+   },
+   {
+    "id": "motivi",
+    "name": "Motivi",
+    "site": "https://www.motivi.com",
+    "focus": [
+     "women"
+    ],
+    "styles": [
+     "high street"
+    ]
+   },
+   {
+    "id": "pinko",
+    "name": "Pinko",
+    "site": "https://www.pinko.com",
+    "focus": [
+     "women"
+    ],
+    "styles": [
+     "high street"
+    ]
+   },
+   {
+    "id": "patrizia-pepe",
+    "name": "Patrizia Pepe",
+    "site": "https://www.patriziapepe.com",
+    "focus": [
+     "women"
+    ],
+    "styles": [
+     "high street"
+    ]
+   },
+   {
+    "id": "elisabetta-franchi",
+    "name": "Elisabetta Franchi",
+    "site": "https://www.elisabettafranchi.com",
+    "focus": [
+     "women"
+    ],
+    "styles": [
+     "luxury"
+    ]
+   },
+   {
+    "id": "prenatal",
+    "name": "Prénatal",
+    "site": "https://www.prenatal.com",
+    "focus": [
+     "kids"
+    ],
+    "styles": [
+     "kids"
+    ]
+   },
+   {
+    "id": "simonetta",
+    "name": "Simonetta",
+    "site": "https://www.simonetta.it",
+    "focus": [
+     "kids"
+    ],
+    "styles": [
+     "kids",
+     "luxury"
+    ]
+   },
+   {
+    "id": "piccola-ludo",
+    "name": "Piccola Ludo",
+    "site": "https://www.piccolaludo.com",
+    "focus": [
+     "kids"
+    ],
+    "styles": [
+     "kids"
+    ]
+   },
+   {
+    "id": "alberta-ferretti",
+    "name": "Alberta Ferretti",
+    "site": "https://www.albertaferretti.com",
+    "focus": [
+     "women"
+    ],
+    "styles": [
+     "luxury"
     ]
    }
   ],
@@ -1649,8 +3187,11 @@
     "name": "Petit Bateau",
     "site": "https://www.petit-bateau.fr",
     "focus": [
-     "kids",
-     "women"
+     "women",
+     "kids"
+    ],
+    "styles": [
+     "kids"
     ]
    },
    {
@@ -1658,6 +3199,9 @@
     "name": "Jacadi",
     "site": "https://www.jacadi.fr",
     "focus": [
+     "kids"
+    ],
+    "styles": [
      "kids"
     ]
    },
@@ -1667,6 +3211,10 @@
     "site": "https://www.bonpoint.com",
     "focus": [
      "kids"
+    ],
+    "styles": [
+     "kids",
+     "luxury"
     ]
    },
    {
@@ -1677,6 +3225,9 @@
      "women",
      "men",
      "kids"
+    ],
+    "styles": [
+     "high street"
     ]
    },
    {
@@ -1684,6 +3235,9 @@
     "name": "Okaïdi",
     "site": "https://www.okaidi.fr",
     "focus": [
+     "kids"
+    ],
+    "styles": [
      "kids"
     ]
    },
@@ -1695,6 +3249,9 @@
      "women",
      "men",
      "kids"
+    ],
+    "styles": [
+     "kids"
     ]
    },
    {
@@ -1703,6 +3260,371 @@
     "site": "https://www.sezane.com",
     "focus": [
      "women"
+    ],
+    "styles": [
+     "prints"
+    ]
+   },
+   {
+    "id": "chanel",
+    "name": "Chanel",
+    "site": "https://www.chanel.com",
+    "focus": [
+     "women"
+    ],
+    "styles": [
+     "luxury"
+    ]
+   },
+   {
+    "id": "dior",
+    "name": "Dior",
+    "site": "https://www.dior.com",
+    "focus": [
+     "women",
+     "men",
+     "kids"
+    ],
+    "styles": [
+     "luxury"
+    ]
+   },
+   {
+    "id": "louis-vuitton",
+    "name": "Louis Vuitton",
+    "site": "https://www.louisvuitton.com",
+    "focus": [
+     "women",
+     "men"
+    ],
+    "styles": [
+     "luxury"
+    ]
+   },
+   {
+    "id": "hermes",
+    "name": "Hermès",
+    "site": "https://www.hermes.com",
+    "focus": [
+     "women",
+     "men",
+     "home"
+    ],
+    "styles": [
+     "luxury",
+     "prints"
+    ]
+   },
+   {
+    "id": "saint-laurent",
+    "name": "Saint Laurent",
+    "site": "https://www.ysl.com",
+    "focus": [
+     "women",
+     "men"
+    ],
+    "styles": [
+     "luxury"
+    ]
+   },
+   {
+    "id": "chloe",
+    "name": "Chloé",
+    "site": "https://www.chloe.com",
+    "focus": [
+     "women",
+     "kids"
+    ],
+    "styles": [
+     "luxury"
+    ]
+   },
+   {
+    "id": "balmain",
+    "name": "Balmain",
+    "site": "https://www.balmain.com",
+    "focus": [
+     "women",
+     "men"
+    ],
+    "styles": [
+     "luxury"
+    ]
+   },
+   {
+    "id": "isabel-marant",
+    "name": "Isabel Marant",
+    "site": "https://www.isabelmarant.com",
+    "focus": [
+     "women",
+     "men"
+    ],
+    "styles": [
+     "luxury",
+     "prints"
+    ]
+   },
+   {
+    "id": "jacquemus",
+    "name": "Jacquemus",
+    "site": "https://www.jacquemus.com",
+    "focus": [
+     "women",
+     "men"
+    ],
+    "styles": [
+     "luxury"
+    ]
+   },
+   {
+    "id": "kenzo",
+    "name": "Kenzo",
+    "site": "https://www.kenzo.com",
+    "focus": [
+     "women",
+     "men",
+     "kids"
+    ],
+    "styles": [
+     "luxury",
+     "prints"
+    ]
+   },
+   {
+    "id": "maje",
+    "name": "Maje",
+    "site": "https://www.maje.com",
+    "focus": [
+     "women"
+    ],
+    "styles": [
+     "high street"
+    ]
+   },
+   {
+    "id": "sandro",
+    "name": "Sandro",
+    "site": "https://www.sandro-paris.com",
+    "focus": [
+     "women",
+     "men"
+    ],
+    "styles": [
+     "high street"
+    ]
+   },
+   {
+    "id": "claudie-pierlot",
+    "name": "Claudie Pierlot",
+    "site": "https://www.claudiepierlot.com",
+    "focus": [
+     "women"
+    ],
+    "styles": [
+     "high street"
+    ]
+   },
+   {
+    "id": "ba-and-sh",
+    "name": "ba&sh",
+    "site": "https://ba-sh.com",
+    "focus": [
+     "women"
+    ],
+    "styles": [
+     "prints"
+    ]
+   },
+   {
+    "id": "rouje",
+    "name": "Rouje",
+    "site": "https://www.rouje.com",
+    "focus": [
+     "women"
+    ],
+    "styles": [
+     "prints"
+    ]
+   },
+   {
+    "id": "sessun",
+    "name": "Sessùn",
+    "site": "https://www.sessun.com",
+    "focus": [
+     "women"
+    ],
+    "styles": [
+     "prints"
+    ]
+   },
+   {
+    "id": "zadig-and-voltaire",
+    "name": "Zadig & Voltaire",
+    "site": "https://zadig-et-voltaire.com",
+    "focus": [
+     "women",
+     "men",
+     "kids"
+    ],
+    "styles": [
+     "high street"
+    ]
+   },
+   {
+    "id": "a-p-c",
+    "name": "A.P.C.",
+    "site": "https://www.apc.fr",
+    "focus": [
+     "women",
+     "men"
+    ],
+    "styles": [
+     "high street"
+    ]
+   },
+   {
+    "id": "ami-paris",
+    "name": "Ami Paris",
+    "site": "https://www.amiparis.com",
+    "focus": [
+     "women",
+     "men"
+    ],
+    "styles": [
+     "streetwear"
+    ]
+   },
+   {
+    "id": "agnes-b",
+    "name": "Agnès b.",
+    "site": "https://www.agnesb.com",
+    "focus": [
+     "women",
+     "men",
+     "kids"
+    ],
+    "styles": [
+     "high street"
+    ]
+   },
+   {
+    "id": "promod",
+    "name": "Promod",
+    "site": "https://www.promod.fr",
+    "focus": [
+     "women"
+    ],
+    "styles": [
+     "high street"
+    ]
+   },
+   {
+    "id": "souleiado",
+    "name": "Souleiado",
+    "site": "https://www.souleiado.com",
+    "focus": [
+     "women",
+     "home"
+    ],
+    "styles": [
+     "prints",
+     "home"
+    ]
+   },
+   {
+    "id": "tartine-et-chocolat",
+    "name": "Tartine et Chocolat",
+    "site": "https://www.tartine-et-chocolat.fr",
+    "focus": [
+     "kids"
+    ],
+    "styles": [
+     "kids"
+    ]
+   },
+   {
+    "id": "catimini",
+    "name": "Catimini",
+    "site": "https://www.catimini.com",
+    "focus": [
+     "kids"
+    ],
+    "styles": [
+     "kids",
+     "prints"
+    ]
+   },
+   {
+    "id": "du-pareil-au-meme",
+    "name": "Du Pareil au Même",
+    "site": "https://www.dpam.com",
+    "focus": [
+     "kids"
+    ],
+    "styles": [
+     "kids",
+     "prints"
+    ]
+   },
+   {
+    "id": "sergent-major",
+    "name": "Sergent Major",
+    "site": "https://www.sergent-major.com",
+    "focus": [
+     "kids"
+    ],
+    "styles": [
+     "kids"
+    ]
+   },
+   {
+    "id": "vertbaudet",
+    "name": "Vertbaudet",
+    "site": "https://www.vertbaudet.fr",
+    "focus": [
+     "women",
+     "kids",
+     "home"
+    ],
+    "styles": [
+     "kids"
+    ]
+   },
+   {
+    "id": "bonton",
+    "name": "Bonton",
+    "site": "https://www.bonton.fr",
+    "focus": [
+     "kids",
+     "home"
+    ],
+    "styles": [
+     "kids"
+    ]
+   },
+   {
+    "id": "louise-misha",
+    "name": "Louise Misha",
+    "site": "https://www.louisemisha.com",
+    "focus": [
+     "women",
+     "kids"
+    ],
+    "styles": [
+     "kids",
+     "prints"
+    ]
+   },
+   {
+    "id": "emile-et-ida",
+    "name": "Emile et Ida",
+    "site": "https://www.emileetida.com",
+    "focus": [
+     "kids"
+    ],
+    "styles": [
+     "kids",
+     "prints"
     ]
    }
   ],
@@ -1710,21 +3632,27 @@
    {
     "id": "uniqlo",
     "name": "Uniqlo",
-    "site": "https://s.uniqlo.com",
+    "site": "https://www.uniqlo.com",
     "focus": [
      "women",
      "men",
      "kids"
+    ],
+    "styles": [
+     "high street"
     ]
    },
    {
     "id": "muji",
     "name": "Muji",
-    "site": "https://www.muji.us",
+    "site": "https://www.muji.com",
     "focus": [
      "women",
      "men",
      "kids",
+     "home"
+    ],
+    "styles": [
      "home"
     ]
    },
@@ -1734,6 +3662,9 @@
     "site": "https://www.familiar.co.jp",
     "focus": [
      "kids"
+    ],
+    "styles": [
+     "kids"
     ]
    },
    {
@@ -1742,15 +3673,243 @@
     "site": "https://www.mikihouse.co.jp",
     "focus": [
      "kids"
+    ],
+    "styles": [
+     "kids"
     ]
    },
    {
     "id": "beams",
     "name": "Beams",
-    "site": "https://beams-america.com",
+    "site": "https://www.beams.co.jp",
+    "focus": [
+     "women",
+     "men"
+    ],
+    "styles": [
+     "streetwear"
+    ]
+   },
+   {
+    "id": "gu",
+    "name": "GU",
+    "site": "https://www.gu-global.com",
     "focus": [
      "women",
      "men",
+     "kids"
+    ],
+    "styles": [
+     "high street"
+    ]
+   },
+   {
+    "id": "issey-miyake",
+    "name": "Issey Miyake",
+    "site": "https://www.isseymiyake.com",
+    "focus": [
+     "women",
+     "men"
+    ],
+    "styles": [
+     "luxury"
+    ]
+   },
+   {
+    "id": "comme-des-garcons",
+    "name": "Comme des Garçons",
+    "site": "https://www.comme-des-garcons.com",
+    "focus": [
+     "women",
+     "men"
+    ],
+    "styles": [
+     "luxury"
+    ]
+   },
+   {
+    "id": "yohji-yamamoto",
+    "name": "Yohji Yamamoto",
+    "site": "https://www.theshopyohjiyamamoto.jp",
+    "focus": [
+     "women",
+     "men"
+    ],
+    "styles": [
+     "luxury"
+    ]
+   },
+   {
+    "id": "sacai",
+    "name": "Sacai",
+    "site": "https://www.sacai.jp",
+    "focus": [
+     "women",
+     "men"
+    ],
+    "styles": [
+     "luxury"
+    ]
+   },
+   {
+    "id": "mina-perhonen",
+    "name": "Mina Perhonen",
+    "site": "https://www.mina-perhonen.jp",
+    "focus": [
+     "women",
+     "kids",
+     "home"
+    ],
+    "styles": [
+     "prints",
+     "luxury"
+    ]
+   },
+   {
+    "id": "sousou",
+    "name": "SOU・SOU",
+    "site": "https://www.sousou.co.jp",
+    "focus": [
+     "women",
+     "men",
+     "kids"
+    ],
+    "styles": [
+     "prints"
+    ]
+   },
+   {
+    "id": "kapital",
+    "name": "Kapital",
+    "site": "https://www.kapital-webshop.jp",
+    "focus": [
+     "women",
+     "men"
+    ],
+    "styles": [
+     "streetwear"
+    ]
+   },
+   {
+    "id": "visvim",
+    "name": "Visvim",
+    "site": "https://www.visvim.tv",
+    "focus": [
+     "men"
+    ],
+    "styles": [
+     "menswear"
+    ]
+   },
+   {
+    "id": "united-arrows",
+    "name": "United Arrows",
+    "site": "https://store.united-arrows.co.jp",
+    "focus": [
+     "women",
+     "men"
+    ],
+    "styles": [
+     "high street"
+    ]
+   },
+   {
+    "id": "journal-standard",
+    "name": "Journal Standard",
+    "site": "https://baycrews.jp",
+    "focus": [
+     "women",
+     "men"
+    ],
+    "styles": [
+     "high street"
+    ]
+   },
+   {
+    "id": "earth-music-and-ecology",
+    "name": "Earth Music & Ecology",
+    "site": "https://www.stripe-club.com",
+    "focus": [
+     "women"
+    ],
+    "styles": [
+     "high street"
+    ]
+   },
+   {
+    "id": "snidel",
+    "name": "Snidel",
+    "site": "https://snidel.com",
+    "focus": [
+     "women"
+    ],
+    "styles": [
+     "high street"
+    ]
+   },
+   {
+    "id": "tsumori-chisato",
+    "name": "Tsumori Chisato",
+    "site": "https://www.tsumorichisato.com",
+    "focus": [
+     "women"
+    ],
+    "styles": [
+     "prints"
+    ]
+   },
+   {
+    "id": "neighborhood",
+    "name": "Neighborhood",
+    "site": "https://www.neighborhood.jp",
+    "focus": [
+     "men"
+    ],
+    "styles": [
+     "streetwear"
+    ]
+   },
+   {
+    "id": "branshes",
+    "name": "Branshes",
+    "site": "https://www.branshes.com",
+    "focus": [
+     "kids"
+    ],
+    "styles": [
+     "kids"
+    ]
+   },
+   {
+    "id": "petit-main",
+    "name": "Petit Main",
+    "site": "https://www.petitmain.jp",
+    "focus": [
+     "kids"
+    ],
+    "styles": [
+     "kids"
+    ]
+   },
+   {
+    "id": "nishimatsuya",
+    "name": "Nishimatsuya",
+    "site": "https://www.24028.jp",
+    "focus": [
+     "kids"
+    ],
+    "styles": [
+     "kids"
+    ]
+   },
+   {
+    "id": "hakka-kids",
+    "name": "Hakka Kids",
+    "site": "https://www.hakka.co.jp",
+    "focus": [
+     "kids"
+    ],
+    "styles": [
      "kids"
     ]
    }
@@ -1762,8 +3921,10 @@
     "site": "https://www.musinsa.com",
     "focus": [
      "women",
-     "men",
-     "kids"
+     "men"
+    ],
+    "styles": [
+     "streetwear"
     ]
    },
    {
@@ -1774,15 +3935,21 @@
      "women",
      "men",
      "kids"
+    ],
+    "styles": [
+     "high street"
     ]
    },
    {
     "id": "ader-error",
     "name": "Ader Error",
-    "site": "https://adererror.com",
+    "site": "https://en.adererror.com",
     "focus": [
      "women",
      "men"
+    ],
+    "styles": [
+     "streetwear"
     ]
    },
    {
@@ -1790,8 +3957,208 @@
     "name": "Wooyoungmi",
     "site": "https://www.wooyoungmi.com",
     "focus": [
-     "men",
+     "men"
+    ],
+    "styles": [
+     "menswear",
+     "luxury"
+    ]
+   },
+   {
+    "id": "8seconds",
+    "name": "8seconds",
+    "site": "https://www.ssfshop.com",
+    "focus": [
+     "women",
+     "men"
+    ],
+    "styles": [
+     "high street"
+    ]
+   },
+   {
+    "id": "mixxo",
+    "name": "Mixxo",
+    "site": "https://mixxo.com",
+    "focus": [
      "women"
+    ],
+    "styles": [
+     "high street"
+    ]
+   },
+   {
+    "id": "topten10",
+    "name": "Topten10",
+    "site": "https://topten10mall.com",
+    "focus": [
+     "women",
+     "men",
+     "kids"
+    ],
+    "styles": [
+     "high street"
+    ]
+   },
+   {
+    "id": "andersson-bell",
+    "name": "Andersson Bell",
+    "site": "https://www.anderssonbell.com",
+    "focus": [
+     "women",
+     "men"
+    ],
+    "styles": [
+     "streetwear"
+    ]
+   },
+   {
+    "id": "thisisneverthat",
+    "name": "thisisneverthat",
+    "site": "https://thisisneverthat.com",
+    "focus": [
+     "women",
+     "men"
+    ],
+    "styles": [
+     "streetwear"
+    ]
+   },
+   {
+    "id": "kirsh",
+    "name": "Kirsh",
+    "site": "https://kirsh.co.kr",
+    "focus": [
+     "women"
+    ],
+    "styles": [
+     "streetwear"
+    ]
+   },
+   {
+    "id": "mardi-mercredi",
+    "name": "Mardi Mercredi",
+    "site": "https://mardimercredi.com",
+    "focus": [
+     "women"
+    ],
+    "styles": [
+     "streetwear"
+    ]
+   },
+   {
+    "id": "matin-kim",
+    "name": "Matin Kim",
+    "site": "https://matinkim.com",
+    "focus": [
+     "women"
+    ],
+    "styles": [
+     "streetwear"
+    ]
+   },
+   {
+    "id": "low-classic",
+    "name": "Low Classic",
+    "site": "https://lowclassic.com",
+    "focus": [
+     "women"
+    ],
+    "styles": [
+     "luxury"
+    ]
+   },
+   {
+    "id": "recto",
+    "name": "Recto",
+    "site": "https://recto.co",
+    "focus": [
+     "women"
+    ],
+    "styles": [
+     "luxury"
+    ]
+   },
+   {
+    "id": "covernat",
+    "name": "Covernat",
+    "site": "https://covernat.net",
+    "focus": [
+     "women",
+     "men"
+    ],
+    "styles": [
+     "streetwear"
+    ]
+   },
+   {
+    "id": "nerdy",
+    "name": "Nerdy",
+    "site": "https://nerdy.co.kr",
+    "focus": [
+     "women",
+     "men"
+    ],
+    "styles": [
+     "sportswear"
+    ]
+   },
+   {
+    "id": "juun-j",
+    "name": "Juun.J",
+    "site": "https://www.juunj.com",
+    "focus": [
+     "men"
+    ],
+    "styles": [
+     "luxury"
+    ]
+   },
+   {
+    "id": "system",
+    "name": "System",
+    "site": "https://www.thehandsome.com",
+    "focus": [
+     "women",
+     "men"
+    ],
+    "styles": [
+     "luxury"
+    ]
+   },
+   {
+    "id": "bean-pole",
+    "name": "Bean Pole",
+    "site": "https://www.ssfshop.com/beanpole",
+    "focus": [
+     "women",
+     "men",
+     "kids"
+    ],
+    "styles": [
+     "high street"
+    ]
+   },
+   {
+    "id": "bebe-de-pino",
+    "name": "Bebe de Pino",
+    "site": "https://www.bebedepino.com",
+    "focus": [
+     "kids"
+    ],
+    "styles": [
+     "kids"
+    ]
+   },
+   {
+    "id": "agabang",
+    "name": "Agabang",
+    "site": "https://www.agabangmall.com",
+    "focus": [
+     "kids"
+    ],
+    "styles": [
+     "kids"
     ]
    }
   ],
@@ -1805,6 +4172,10 @@
      "men",
      "kids",
      "home"
+    ],
+    "styles": [
+     "ethnic",
+     "prints"
     ]
    },
    {
@@ -1814,6 +4185,9 @@
     "focus": [
      "women",
      "kids"
+    ],
+    "styles": [
+     "ethnic"
     ]
    },
    {
@@ -1822,6 +4196,9 @@
     "site": "https://wforwoman.com",
     "focus": [
      "women"
+    ],
+    "styles": [
+     "ethnic"
     ]
    },
    {
@@ -1831,6 +4208,10 @@
     "focus": [
      "men",
      "kids"
+    ],
+    "styles": [
+     "ethnic",
+     "menswear"
     ]
    },
    {
@@ -1838,8 +4219,11 @@
     "name": "House of Masaba",
     "site": "https://www.houseofmasaba.com",
     "focus": [
-     "women",
-     "kids"
+     "women"
+    ],
+    "styles": [
+     "prints",
+     "ethnic"
     ]
    },
    {
@@ -1848,8 +4232,11 @@
     "site": "https://www.jaypore.com",
     "focus": [
      "women",
-     "men",
      "home"
+    ],
+    "styles": [
+     "ethnic",
+     "prints"
     ]
    },
    {
@@ -1857,6 +4244,312 @@
     "name": "FirstCry",
     "site": "https://www.firstcry.com",
     "focus": [
+     "kids"
+    ],
+    "styles": [
+     "kids"
+    ]
+   },
+   {
+    "id": "anokhi",
+    "name": "Anokhi",
+    "site": "https://www.anokhi.com",
+    "focus": [
+     "women",
+     "kids",
+     "home"
+    ],
+    "styles": [
+     "prints",
+     "ethnic"
+    ]
+   },
+   {
+    "id": "good-earth",
+    "name": "Good Earth",
+    "site": "https://www.goodearth.in",
+    "focus": [
+     "women",
+     "men",
+     "home"
+    ],
+    "styles": [
+     "luxury",
+     "home"
+    ]
+   },
+   {
+    "id": "nicobar",
+    "name": "Nicobar",
+    "site": "https://www.nicobar.com",
+    "focus": [
+     "women",
+     "men",
+     "home"
+    ],
+    "styles": [
+     "prints"
+    ]
+   },
+   {
+    "id": "okhai",
+    "name": "Okhai",
+    "site": "https://okhai.org",
+    "focus": [
+     "women",
+     "kids"
+    ],
+    "styles": [
+     "ethnic",
+     "prints"
+    ]
+   },
+   {
+    "id": "suta",
+    "name": "Suta",
+    "site": "https://suta.in",
+    "focus": [
+     "women"
+    ],
+    "styles": [
+     "ethnic",
+     "prints"
+    ]
+   },
+   {
+    "id": "bunaai",
+    "name": "Bunaai",
+    "site": "https://www.bunaai.com",
+    "focus": [
+     "women"
+    ],
+    "styles": [
+     "ethnic",
+     "prints"
+    ]
+   },
+   {
+    "id": "libas",
+    "name": "Libas",
+    "site": "https://www.libas.in",
+    "focus": [
+     "women"
+    ],
+    "styles": [
+     "ethnic"
+    ]
+   },
+   {
+    "id": "global-desi",
+    "name": "Global Desi",
+    "site": "https://www.globaldesi.in",
+    "focus": [
+     "women"
+    ],
+    "styles": [
+     "ethnic",
+     "prints"
+    ]
+   },
+   {
+    "id": "and",
+    "name": "AND",
+    "site": "https://www.andindia.com",
+    "focus": [
+     "women"
+    ],
+    "styles": [
+     "high street"
+    ]
+   },
+   {
+    "id": "ritu-kumar",
+    "name": "Ritu Kumar",
+    "site": "https://www.ritukumar.com",
+    "focus": [
+     "women"
+    ],
+    "styles": [
+     "luxury",
+     "ethnic"
+    ]
+   },
+   {
+    "id": "anita-dongre",
+    "name": "Anita Dongre",
+    "site": "https://www.anitadongre.com",
+    "focus": [
+     "women",
+     "men"
+    ],
+    "styles": [
+     "luxury",
+     "ethnic"
+    ]
+   },
+   {
+    "id": "sabyasachi",
+    "name": "Sabyasachi",
+    "site": "https://www.sabyasachi.com",
+    "focus": [
+     "women",
+     "men"
+    ],
+    "styles": [
+     "bridal",
+     "luxury"
+    ]
+   },
+   {
+    "id": "manish-malhotra",
+    "name": "Manish Malhotra",
+    "site": "https://www.manishmalhotra.in",
+    "focus": [
+     "women",
+     "men"
+    ],
+    "styles": [
+     "bridal",
+     "luxury"
+    ]
+   },
+   {
+    "id": "tarun-tahiliani",
+    "name": "Tarun Tahiliani",
+    "site": "https://www.taruntahiliani.com",
+    "focus": [
+     "women",
+     "men"
+    ],
+    "styles": [
+     "bridal",
+     "luxury"
+    ]
+   },
+   {
+    "id": "payal-singhal",
+    "name": "Payal Singhal",
+    "site": "https://payalsinghal.com",
+    "focus": [
+     "women"
+    ],
+    "styles": [
+     "ethnic",
+     "prints"
+    ]
+   },
+   {
+    "id": "torani",
+    "name": "Torani",
+    "site": "https://torani.in",
+    "focus": [
+     "women"
+    ],
+    "styles": [
+     "ethnic",
+     "luxury"
+    ]
+   },
+   {
+    "id": "raw-mango",
+    "name": "Raw Mango",
+    "site": "https://www.rawmango.com",
+    "focus": [
+     "women"
+    ],
+    "styles": [
+     "ethnic",
+     "luxury"
+    ]
+   },
+   {
+    "id": "taneira",
+    "name": "Taneira",
+    "site": "https://www.taneira.com",
+    "focus": [
+     "women"
+    ],
+    "styles": [
+     "ethnic"
+    ]
+   },
+   {
+    "id": "kalki-fashion",
+    "name": "Kalki Fashion",
+    "site": "https://www.kalkifashion.com",
+    "focus": [
+     "women",
+     "men"
+    ],
+    "styles": [
+     "ethnic",
+     "bridal"
+    ]
+   },
+   {
+    "id": "indya",
+    "name": "Indya",
+    "site": "https://www.houseofindya.com",
+    "focus": [
+     "women"
+    ],
+    "styles": [
+     "ethnic"
+    ]
+   },
+   {
+    "id": "aurelia",
+    "name": "Aurelia",
+    "site": "https://www.shopforaurelia.com",
+    "focus": [
+     "women"
+    ],
+    "styles": [
+     "ethnic"
+    ]
+   },
+   {
+    "id": "soch",
+    "name": "Soch",
+    "site": "https://www.soch.com",
+    "focus": [
+     "women"
+    ],
+    "styles": [
+     "ethnic"
+    ]
+   },
+   {
+    "id": "tasva",
+    "name": "Tasva",
+    "site": "https://www.tasva.com",
+    "focus": [
+     "men"
+    ],
+    "styles": [
+     "menswear",
+     "ethnic"
+    ]
+   },
+   {
+    "id": "raymond",
+    "name": "Raymond",
+    "site": "https://www.myraymond.com",
+    "focus": [
+     "men"
+    ],
+    "styles": [
+     "menswear"
+    ]
+   },
+   {
+    "id": "hopscotch",
+    "name": "Hopscotch",
+    "site": "https://www.hopscotch.in",
+    "focus": [
+     "kids"
+    ],
+    "styles": [
      "kids"
     ]
    }
@@ -1868,8 +4561,10 @@
     "site": "https://www.splashfashions.com",
     "focus": [
      "women",
-     "men",
-     "kids"
+     "men"
+    ],
+    "styles": [
+     "high street"
     ]
    },
    {
@@ -1880,6 +4575,10 @@
      "women",
      "men",
      "kids"
+    ],
+    "styles": [
+     "high street",
+     "kids"
     ]
    },
    {
@@ -1888,16 +4587,23 @@
     "site": "https://www.bouguessa.com",
     "focus": [
      "women"
+    ],
+    "styles": [
+     "modest",
+     "luxury"
     ]
    },
    {
     "id": "ounass",
     "name": "Ounass",
-    "site": "https://www.ounass.com",
+    "site": "https://www.ounass.ae",
     "focus": [
      "women",
      "men",
      "kids"
+    ],
+    "styles": [
+     "luxury"
     ]
    },
    {
@@ -1906,6 +4612,145 @@
     "site": "https://www.mothercare.ae",
     "focus": [
      "kids"
+    ],
+    "styles": [
+     "kids"
+    ]
+   },
+   {
+    "id": "babyshop",
+    "name": "Babyshop",
+    "site": "https://www.babyshopstores.com",
+    "focus": [
+     "kids"
+    ],
+    "styles": [
+     "kids"
+    ]
+   },
+   {
+    "id": "centrepoint-uae",
+    "name": "Centrepoint UAE",
+    "site": "https://www.centrepointstores.com/ae",
+    "focus": [
+     "women",
+     "men",
+     "kids"
+    ],
+    "styles": [
+     "high street"
+    ]
+   },
+   {
+    "id": "lifestyle",
+    "name": "Lifestyle",
+    "site": "https://www.lifestyleshops.net",
+    "focus": [
+     "women",
+     "men",
+     "kids"
+    ],
+    "styles": [
+     "high street"
+    ]
+   },
+   {
+    "id": "r-and-b",
+    "name": "R&B",
+    "site": "https://www.rnbfashion.com",
+    "focus": [
+     "women",
+     "men",
+     "kids"
+    ],
+    "styles": [
+     "high street"
+    ]
+   },
+   {
+    "id": "brands-for-less",
+    "name": "Brands For Less",
+    "site": "https://www.brandsforless.com",
+    "focus": [
+     "women",
+     "men",
+     "kids",
+     "home"
+    ],
+    "styles": [
+     "high street"
+    ]
+   },
+   {
+    "id": "namshi",
+    "name": "Namshi",
+    "site": "https://www.namshi.com",
+    "focus": [
+     "women",
+     "men",
+     "kids"
+    ],
+    "styles": [
+     "high street"
+    ]
+   },
+   {
+    "id": "taller-marmo",
+    "name": "Taller Marmo",
+    "site": "https://www.tallermarmo.com",
+    "focus": [
+     "women"
+    ],
+    "styles": [
+     "luxury",
+     "modest"
+    ]
+   },
+   {
+    "id": "the-giving-movement",
+    "name": "The Giving Movement",
+    "site": "https://www.thegivingmovement.com",
+    "focus": [
+     "women",
+     "men",
+     "kids"
+    ],
+    "styles": [
+     "sportswear"
+    ]
+   },
+   {
+    "id": "bambah",
+    "name": "Bambah",
+    "site": "https://www.bambah.com",
+    "focus": [
+     "women"
+    ],
+    "styles": [
+     "luxury"
+    ]
+   },
+   {
+    "id": "dar-sara",
+    "name": "Dar Sara",
+    "site": "https://www.darsara.com",
+    "focus": [
+     "women"
+    ],
+    "styles": [
+     "modest",
+     "luxury"
+    ]
+   },
+   {
+    "id": "home-centre",
+    "name": "Home Centre",
+    "site": "https://www.homecentre.com",
+    "focus": [
+     "home"
+    ],
+    "styles": [
+     "home"
     ]
    }
   ],
@@ -1918,6 +4763,9 @@
      "women",
      "men",
      "kids"
+    ],
+    "styles": [
+     "high street"
     ]
    },
    {
@@ -1929,6 +4777,10 @@
      "men",
      "kids",
      "home"
+    ],
+    "styles": [
+     "high street",
+     "kids"
     ]
    },
    {
@@ -1937,6 +4789,134 @@
     "site": "https://www.ashistudio.com",
     "focus": [
      "women"
+    ],
+    "styles": [
+     "luxury"
+    ]
+   },
+   {
+    "id": "hindamme",
+    "name": "Hindamme",
+    "site": "https://www.hindamme.com",
+    "focus": [
+     "women",
+     "men"
+    ],
+    "styles": [
+     "modest",
+     "luxury"
+    ]
+   },
+   {
+    "id": "leem",
+    "name": "Leem",
+    "site": "https://www.leem.com",
+    "focus": [
+     "women"
+    ],
+    "styles": [
+     "modest"
+    ]
+   },
+   {
+    "id": "honayda",
+    "name": "Honayda",
+    "site": "https://www.honayda.com",
+    "focus": [
+     "women"
+    ],
+    "styles": [
+     "luxury"
+    ]
+   },
+   {
+    "id": "arwa-al-banawi",
+    "name": "Arwa Al Banawi",
+    "site": "https://www.arwaalbanawi.com",
+    "focus": [
+     "women"
+    ],
+    "styles": [
+     "luxury"
+    ]
+   },
+   {
+    "id": "femi9",
+    "name": "Femi9",
+    "site": "https://www.femi9.com",
+    "focus": [
+     "women"
+    ],
+    "styles": [
+     "modest"
+    ]
+   },
+   {
+    "id": "lomar",
+    "name": "Lomar",
+    "site": "https://www.lomar.com.sa",
+    "focus": [
+     "men"
+    ],
+    "styles": [
+     "menswear"
+    ]
+   },
+   {
+    "id": "toby",
+    "name": "Toby",
+    "site": "https://www.toby.com.sa",
+    "focus": [
+     "men"
+    ],
+    "styles": [
+     "menswear"
+    ]
+   },
+   {
+    "id": "mothercare-ksa",
+    "name": "Mothercare KSA",
+    "site": "https://www.mothercare.com.sa",
+    "focus": [
+     "kids"
+    ],
+    "styles": [
+     "kids"
+    ]
+   },
+   {
+    "id": "babyshop-ksa",
+    "name": "Babyshop KSA",
+    "site": "https://www.babyshopstores.com/sa",
+    "focus": [
+     "kids"
+    ],
+    "styles": [
+     "kids"
+    ]
+   },
+   {
+    "id": "max-fashion-ksa",
+    "name": "Max Fashion KSA",
+    "site": "https://www.maxfashion.com/sa",
+    "focus": [
+     "women",
+     "men",
+     "kids"
+    ],
+    "styles": [
+     "high street"
+    ]
+   },
+   {
+    "id": "nice-things",
+    "name": "Nice Things",
+    "site": "https://www.nicethings.sa",
+    "focus": [
+     "women"
+    ],
+    "styles": [
+     "modest"
     ]
    }
   ],
@@ -1950,6 +4930,9 @@
      "men",
      "kids",
      "home"
+    ],
+    "styles": [
+     "high street"
     ]
    },
    {
@@ -1959,6 +4942,9 @@
     "focus": [
      "women",
      "men"
+    ],
+    "styles": [
+     "high street"
     ]
    },
    {
@@ -1966,6 +4952,9 @@
     "name": "Balabala",
     "site": "https://www.balabala.com.cn",
     "focus": [
+     "kids"
+    ],
+    "styles": [
      "kids"
     ]
    },
@@ -1975,6 +4964,191 @@
     "site": "https://shushutong.com",
     "focus": [
      "women"
+    ],
+    "styles": [
+     "luxury"
+    ]
+   },
+   {
+    "id": "cider",
+    "name": "Cider",
+    "site": "https://www.shopcider.com",
+    "focus": [
+     "women"
+    ],
+    "styles": [
+     "high street",
+     "prints"
+    ]
+   },
+   {
+    "id": "commense",
+    "name": "Commense",
+    "site": "https://www.thecommense.com",
+    "focus": [
+     "women"
+    ],
+    "styles": [
+     "high street"
+    ]
+   },
+   {
+    "id": "jnby",
+    "name": "JNBY",
+    "site": "https://www.jnby.com",
+    "focus": [
+     "women",
+     "men",
+     "kids"
+    ],
+    "styles": [
+     "luxury",
+     "prints"
+    ]
+   },
+   {
+    "id": "peacebird",
+    "name": "Peacebird",
+    "site": "https://www.peacebird.com",
+    "focus": [
+     "women",
+     "men"
+    ],
+    "styles": [
+     "high street"
+    ]
+   },
+   {
+    "id": "bosideng",
+    "name": "Bosideng",
+    "site": "https://www.bosideng.com",
+    "focus": [
+     "women",
+     "men",
+     "kids"
+    ],
+    "styles": [
+     "high street"
+    ]
+   },
+   {
+    "id": "li-ning",
+    "name": "Li-Ning",
+    "site": "https://www.lining.com",
+    "focus": [
+     "women",
+     "men"
+    ],
+    "styles": [
+     "sportswear",
+     "streetwear"
+    ]
+   },
+   {
+    "id": "semir",
+    "name": "Semir",
+    "site": "https://www.semir.com",
+    "focus": [
+     "women",
+     "men",
+     "kids"
+    ],
+    "styles": [
+     "high street"
+    ]
+   },
+   {
+    "id": "mo-and-co",
+    "name": "Mo&Co",
+    "site": "https://www.moco.com",
+    "focus": [
+     "women"
+    ],
+    "styles": [
+     "luxury"
+    ]
+   },
+   {
+    "id": "icicle",
+    "name": "Icicle",
+    "site": "https://www.icicle.com.cn",
+    "focus": [
+     "women"
+    ],
+    "styles": [
+     "luxury"
+    ]
+   },
+   {
+    "id": "feng-chen-wang",
+    "name": "Feng Chen Wang",
+    "site": "https://www.fengchenwang.com",
+    "focus": [
+     "women",
+     "men"
+    ],
+    "styles": [
+     "luxury",
+     "streetwear"
+    ]
+   },
+   {
+    "id": "angel-chen",
+    "name": "Angel Chen",
+    "site": "https://www.angelchen.com",
+    "focus": [
+     "women",
+     "men"
+    ],
+    "styles": [
+     "luxury",
+     "prints"
+    ]
+   },
+   {
+    "id": "uma-wang",
+    "name": "Uma Wang",
+    "site": "https://www.umawang.com",
+    "focus": [
+     "women"
+    ],
+    "styles": [
+     "luxury"
+    ]
+   },
+   {
+    "id": "ms-min",
+    "name": "Ms Min",
+    "site": "https://www.msmin.com",
+    "focus": [
+     "women"
+    ],
+    "styles": [
+     "luxury"
+    ]
+   },
+   {
+    "id": "shiatzy-chen",
+    "name": "Shiatzy Chen",
+    "site": "https://www.shiatzychen.com",
+    "focus": [
+     "women",
+     "men"
+    ],
+    "styles": [
+     "luxury",
+     "prints"
+    ]
+   },
+   {
+    "id": "halara",
+    "name": "Halara",
+    "site": "https://www.thehalara.com",
+    "focus": [
+     "women"
+    ],
+    "styles": [
+     "sportswear"
     ]
    }
   ],
@@ -1988,6 +5162,10 @@
      "men",
      "kids",
      "home"
+    ],
+    "styles": [
+     "high street",
+     "kids"
     ]
    },
    {
@@ -1998,6 +5176,9 @@
      "women",
      "men",
      "kids"
+    ],
+    "styles": [
+     "high street"
     ]
    },
    {
@@ -2005,6 +5186,9 @@
     "name": "Mayoral",
     "site": "https://www.mayoral.com",
     "focus": [
+     "kids"
+    ],
+    "styles": [
      "kids"
     ]
    },
@@ -2014,6 +5198,9 @@
     "site": "https://www.tuctuc.com",
     "focus": [
      "kids"
+    ],
+    "styles": [
+     "kids"
     ]
    },
    {
@@ -2021,6 +5208,9 @@
     "name": "Neck & Neck",
     "site": "https://www.neckandneck.com",
     "focus": [
+     "kids"
+    ],
+    "styles": [
      "kids"
     ]
    },
@@ -2032,6 +5222,304 @@
      "women",
      "men",
      "kids"
+    ],
+    "styles": [
+     "prints"
+    ]
+   },
+   {
+    "id": "massimo-dutti",
+    "name": "Massimo Dutti",
+    "site": "https://www.massimodutti.com",
+    "focus": [
+     "women",
+     "men",
+     "kids"
+    ],
+    "styles": [
+     "high street"
+    ]
+   },
+   {
+    "id": "bershka",
+    "name": "Bershka",
+    "site": "https://www.bershka.com",
+    "focus": [
+     "women",
+     "men"
+    ],
+    "styles": [
+     "streetwear"
+    ]
+   },
+   {
+    "id": "pull-and-bear",
+    "name": "Pull&Bear",
+    "site": "https://www.pullandbear.com",
+    "focus": [
+     "women",
+     "men"
+    ],
+    "styles": [
+     "streetwear"
+    ]
+   },
+   {
+    "id": "stradivarius",
+    "name": "Stradivarius",
+    "site": "https://www.stradivarius.com",
+    "focus": [
+     "women"
+    ],
+    "styles": [
+     "high street"
+    ]
+   },
+   {
+    "id": "oysho",
+    "name": "Oysho",
+    "site": "https://www.oysho.com",
+    "focus": [
+     "women"
+    ],
+    "styles": [
+     "sportswear"
+    ]
+   },
+   {
+    "id": "lefties",
+    "name": "Lefties",
+    "site": "https://www.lefties.com",
+    "focus": [
+     "women",
+     "men",
+     "kids"
+    ],
+    "styles": [
+     "high street"
+    ]
+   },
+   {
+    "id": "zara-home",
+    "name": "Zara Home",
+    "site": "https://www.zarahome.com",
+    "focus": [
+     "home"
+    ],
+    "styles": [
+     "home"
+    ]
+   },
+   {
+    "id": "loewe",
+    "name": "Loewe",
+    "site": "https://www.loewe.com",
+    "focus": [
+     "women",
+     "men"
+    ],
+    "styles": [
+     "luxury"
+    ]
+   },
+   {
+    "id": "bimba-y-lola",
+    "name": "Bimba y Lola",
+    "site": "https://www.bimbaylola.com",
+    "focus": [
+     "women"
+    ],
+    "styles": [
+     "prints"
+    ]
+   },
+   {
+    "id": "adolfo-dominguez",
+    "name": "Adolfo Domínguez",
+    "site": "https://www.adolfodominguez.com",
+    "focus": [
+     "women",
+     "men"
+    ],
+    "styles": [
+     "luxury"
+    ]
+   },
+   {
+    "id": "sfera",
+    "name": "Sfera",
+    "site": "https://www.sfera.com",
+    "focus": [
+     "women",
+     "men",
+     "kids"
+    ],
+    "styles": [
+     "high street"
+    ]
+   },
+   {
+    "id": "springfield",
+    "name": "Springfield",
+    "site": "https://myspringfield.com",
+    "focus": [
+     "women",
+     "men"
+    ],
+    "styles": [
+     "high street"
+    ]
+   },
+   {
+    "id": "cortefiel",
+    "name": "Cortefiel",
+    "site": "https://cortefiel.com",
+    "focus": [
+     "women",
+     "men"
+    ],
+    "styles": [
+     "high street"
+    ]
+   },
+   {
+    "id": "ecoalf",
+    "name": "Ecoalf",
+    "site": "https://ecoalf.com",
+    "focus": [
+     "women",
+     "men"
+    ],
+    "styles": [
+     "sportswear"
+    ]
+   },
+   {
+    "id": "paloma-wool",
+    "name": "Paloma Wool",
+    "site": "https://palomawool.com",
+    "focus": [
+     "women",
+     "men"
+    ],
+    "styles": [
+     "prints"
+    ]
+   },
+   {
+    "id": "laagam",
+    "name": "Laagam",
+    "site": "https://laagam.com",
+    "focus": [
+     "women"
+    ],
+    "styles": [
+     "high street"
+    ]
+   },
+   {
+    "id": "bobo-choses",
+    "name": "Bobo Choses",
+    "site": "https://bobochoses.com",
+    "focus": [
+     "women",
+     "kids"
+    ],
+    "styles": [
+     "kids",
+     "prints"
+    ]
+   },
+   {
+    "id": "the-animals-observatory",
+    "name": "The Animals Observatory",
+    "site": "https://theanimalsobservatory.com",
+    "focus": [
+     "kids"
+    ],
+    "styles": [
+     "kids",
+     "prints"
+    ]
+   },
+   {
+    "id": "boboli",
+    "name": "Bóboli",
+    "site": "https://www.boboli.es",
+    "focus": [
+     "kids"
+    ],
+    "styles": [
+     "kids"
+    ]
+   },
+   {
+    "id": "gocco",
+    "name": "Gocco",
+    "site": "https://www.gocco.com",
+    "focus": [
+     "kids"
+    ],
+    "styles": [
+     "kids"
+    ]
+   },
+   {
+    "id": "nanos",
+    "name": "Nanos",
+    "site": "https://www.nanos.es",
+    "focus": [
+     "kids"
+    ],
+    "styles": [
+     "kids",
+     "luxury"
+    ]
+   },
+   {
+    "id": "pili-carrera",
+    "name": "Pili Carrera",
+    "site": "https://www.pilicarrera.com",
+    "focus": [
+     "kids"
+    ],
+    "styles": [
+     "kids"
+    ]
+   },
+   {
+    "id": "paz-rodriguez",
+    "name": "Paz Rodríguez",
+    "site": "https://www.pazrodriguez.com",
+    "focus": [
+     "kids"
+    ],
+    "styles": [
+     "kids",
+     "luxury"
+    ]
+   },
+   {
+    "id": "bonnet-a-pompon",
+    "name": "Bonnet à Pompon",
+    "site": "https://bonnetapompon.com",
+    "focus": [
+     "kids"
+    ],
+    "styles": [
+     "kids"
+    ]
+   },
+   {
+    "id": "la-coqueta",
+    "name": "La Coqueta",
+    "site": "https://lacoquetakids.com",
+    "focus": [
+     "kids"
+    ],
+    "styles": [
+     "kids",
+     "luxury"
     ]
    }
   ],
@@ -2044,15 +5532,23 @@
      "women",
      "men",
      "kids"
+    ],
+    "styles": [
+     "high street",
+     "kids"
     ]
    },
    {
     "id": "esprit",
     "name": "Esprit",
-    "site": "https://esprit.com",
+    "site": "https://www.esprit.de",
     "focus": [
      "women",
-     "men"
+     "men",
+     "kids"
+    ],
+    "styles": [
+     "high street"
     ]
    },
    {
@@ -2061,6 +5557,9 @@
     "site": "https://www.jako-o.com",
     "focus": [
      "kids"
+    ],
+    "styles": [
+     "kids"
     ]
    },
    {
@@ -2068,6 +5567,9 @@
     "name": "Sanetta",
     "site": "https://www.sanetta.com",
     "focus": [
+     "kids"
+    ],
+    "styles": [
      "kids"
     ]
    },
@@ -2078,6 +5580,9 @@
     "focus": [
      "women",
      "men"
+    ],
+    "styles": [
+     "prints"
     ]
    },
    {
@@ -2087,6 +5592,255 @@
     "focus": [
      "women",
      "men",
+     "kids"
+    ],
+    "styles": [
+     "high street"
+    ]
+   },
+   {
+    "id": "hugo-boss",
+    "name": "Hugo Boss",
+    "site": "https://www.hugoboss.com",
+    "focus": [
+     "women",
+     "men",
+     "kids"
+    ],
+    "styles": [
+     "luxury",
+     "menswear"
+    ]
+   },
+   {
+    "id": "jil-sander",
+    "name": "Jil Sander",
+    "site": "https://www.jilsander.com",
+    "focus": [
+     "women",
+     "men"
+    ],
+    "styles": [
+     "luxury"
+    ]
+   },
+   {
+    "id": "escada",
+    "name": "Escada",
+    "site": "https://www.escada.com",
+    "focus": [
+     "women"
+    ],
+    "styles": [
+     "luxury"
+    ]
+   },
+   {
+    "id": "closed",
+    "name": "Closed",
+    "site": "https://www.closed.com",
+    "focus": [
+     "women",
+     "men"
+    ],
+    "styles": [
+     "high street"
+    ]
+   },
+   {
+    "id": "tom-tailor",
+    "name": "Tom Tailor",
+    "site": "https://www.tom-tailor.de",
+    "focus": [
+     "women",
+     "men",
+     "kids"
+    ],
+    "styles": [
+     "high street"
+    ]
+   },
+   {
+    "id": "gerry-weber",
+    "name": "Gerry Weber",
+    "site": "https://www.gerryweber.com",
+    "focus": [
+     "women"
+    ],
+    "styles": [
+     "high street"
+    ]
+   },
+   {
+    "id": "comma",
+    "name": "Comma",
+    "site": "https://www.comma-store.de",
+    "focus": [
+     "women"
+    ],
+    "styles": [
+     "high street"
+    ]
+   },
+   {
+    "id": "opus",
+    "name": "Opus",
+    "site": "https://www.opus-fashion.com",
+    "focus": [
+     "women"
+    ],
+    "styles": [
+     "prints"
+    ]
+   },
+   {
+    "id": "street-one",
+    "name": "Street One",
+    "site": "https://www.street-one.de",
+    "focus": [
+     "women"
+    ],
+    "styles": [
+     "high street"
+    ]
+   },
+   {
+    "id": "cecil",
+    "name": "Cecil",
+    "site": "https://www.cecil.de",
+    "focus": [
+     "women"
+    ],
+    "styles": [
+     "high street"
+    ]
+   },
+   {
+    "id": "marc-cain",
+    "name": "Marc Cain",
+    "site": "https://www.marc-cain.com",
+    "focus": [
+     "women"
+    ],
+    "styles": [
+     "luxury",
+     "prints"
+    ]
+   },
+   {
+    "id": "riani",
+    "name": "Riani",
+    "site": "https://www.riani.com",
+    "focus": [
+     "women"
+    ],
+    "styles": [
+     "luxury"
+    ]
+   },
+   {
+    "id": "bogner",
+    "name": "Bogner",
+    "site": "https://www.bogner.com",
+    "focus": [
+     "women",
+     "men"
+    ],
+    "styles": [
+     "sportswear",
+     "luxury"
+    ]
+   },
+   {
+    "id": "lala-berlin",
+    "name": "Lala Berlin",
+    "site": "https://www.lalaberlin.com",
+    "focus": [
+     "women"
+    ],
+    "styles": [
+     "prints"
+    ]
+   },
+   {
+    "id": "blutsgeschwister",
+    "name": "Blutsgeschwister",
+    "site": "https://www.blutsgeschwister.de",
+    "focus": [
+     "women",
+     "kids"
+    ],
+    "styles": [
+     "prints"
+    ]
+   },
+   {
+    "id": "hessnatur",
+    "name": "Hessnatur",
+    "site": "https://www.hessnatur.com",
+    "focus": [
+     "women",
+     "men",
+     "kids"
+    ],
+    "styles": [
+     "high street"
+    ]
+   },
+   {
+    "id": "engel-natur",
+    "name": "Engel Natur",
+    "site": "https://www.engel-natur.de",
+    "focus": [
+     "kids"
+    ],
+    "styles": [
+     "kids"
+    ]
+   },
+   {
+    "id": "living-crafts",
+    "name": "Living Crafts",
+    "site": "https://www.livingcrafts.de",
+    "focus": [
+     "women",
+     "kids"
+    ],
+    "styles": [
+     "kids"
+    ]
+   },
+   {
+    "id": "sense-organics",
+    "name": "Sense Organics",
+    "site": "https://www.senseorganics.com",
+    "focus": [
+     "kids"
+    ],
+    "styles": [
+     "kids",
+     "prints"
+    ]
+   },
+   {
+    "id": "bellybutton",
+    "name": "Bellybutton",
+    "site": "https://www.bellybutton.de",
+    "focus": [
+     "kids"
+    ],
+    "styles": [
+     "kids"
+    ]
+   },
+   {
+    "id": "steiff-kids",
+    "name": "Steiff Kids",
+    "site": "https://www.steiff.com",
+    "focus": [
+     "kids"
+    ],
+    "styles": [
      "kids"
     ]
    }
@@ -2101,6 +5855,10 @@
      "men",
      "kids",
      "home"
+    ],
+    "styles": [
+     "high street",
+     "kids"
     ]
    },
    {
@@ -2112,16 +5870,22 @@
      "men",
      "kids",
      "home"
+    ],
+    "styles": [
+     "high street"
     ]
    },
    {
     "id": "uniqlo-global",
     "name": "Uniqlo",
-    "site": "https://www.uniqlo.cn",
+    "site": "https://www.uniqlo.com",
     "focus": [
      "women",
      "men",
      "kids"
+    ],
+    "styles": [
+     "high street"
     ]
    },
    {
@@ -2132,6 +5896,9 @@
      "women",
      "men",
      "kids"
+    ],
+    "styles": [
+     "sportswear"
     ]
    },
    {
@@ -2142,6 +5909,370 @@
      "women",
      "men",
      "kids"
+    ],
+    "styles": [
+     "sportswear"
+    ]
+   },
+   {
+    "id": "marimekko",
+    "name": "Marimekko",
+    "site": "https://www.marimekko.com",
+    "focus": [
+     "women",
+     "men",
+     "kids",
+     "home"
+    ],
+    "styles": [
+     "prints",
+     "home"
+    ]
+   },
+   {
+    "id": "farm-rio",
+    "name": "Farm Rio",
+    "site": "https://www.farmrio.com",
+    "focus": [
+     "women",
+     "kids"
+    ],
+    "styles": [
+     "prints"
+    ]
+   },
+   {
+    "id": "zimmermann",
+    "name": "Zimmermann",
+    "site": "https://www.zimmermann.com",
+    "focus": [
+     "women",
+     "kids"
+    ],
+    "styles": [
+     "prints",
+     "luxury"
+    ]
+   },
+   {
+    "id": "johanna-ortiz",
+    "name": "Johanna Ortiz",
+    "site": "https://johannaortiz.com",
+    "focus": [
+     "women"
+    ],
+    "styles": [
+     "prints",
+     "luxury"
+    ]
+   },
+   {
+    "id": "lemlem",
+    "name": "Lemlem",
+    "site": "https://www.lemlem.com",
+    "focus": [
+     "women",
+     "kids"
+    ],
+    "styles": [
+     "prints"
+    ]
+   },
+   {
+    "id": "faithfull-the-brand",
+    "name": "Faithfull the Brand",
+    "site": "https://faithfullthebrand.com",
+    "focus": [
+     "women"
+    ],
+    "styles": [
+     "prints"
+    ]
+   },
+   {
+    "id": "spell",
+    "name": "Spell",
+    "site": "https://spell.co",
+    "focus": [
+     "women"
+    ],
+    "styles": [
+     "prints"
+    ]
+   },
+   {
+    "id": "realisation-par",
+    "name": "Realisation Par",
+    "site": "https://realisationpar.com",
+    "focus": [
+     "women"
+    ],
+    "styles": [
+     "prints"
+    ]
+   },
+   {
+    "id": "aje",
+    "name": "Aje",
+    "site": "https://ajeworld.com.au",
+    "focus": [
+     "women"
+    ],
+    "styles": [
+     "prints",
+     "luxury"
+    ]
+   },
+   {
+    "id": "cotton-on",
+    "name": "Cotton On",
+    "site": "https://cottonon.com",
+    "focus": [
+     "women",
+     "men",
+     "kids"
+    ],
+    "styles": [
+     "high street",
+     "kids"
+    ]
+   },
+   {
+    "id": "ganni",
+    "name": "Ganni",
+    "site": "https://www.ganni.com",
+    "focus": [
+     "women"
+    ],
+    "styles": [
+     "prints"
+    ]
+   },
+   {
+    "id": "acne-studios",
+    "name": "Acne Studios",
+    "site": "https://www.acnestudios.com",
+    "focus": [
+     "women",
+     "men"
+    ],
+    "styles": [
+     "luxury"
+    ]
+   },
+   {
+    "id": "cos",
+    "name": "COS",
+    "site": "https://www.cos.com",
+    "focus": [
+     "women",
+     "men",
+     "kids"
+    ],
+    "styles": [
+     "high street"
+    ]
+   },
+   {
+    "id": "and-other-stories",
+    "name": "& Other Stories",
+    "site": "https://www.stories.com",
+    "focus": [
+     "women"
+    ],
+    "styles": [
+     "high street"
+    ]
+   },
+   {
+    "id": "arket",
+    "name": "Arket",
+    "site": "https://www.arket.com",
+    "focus": [
+     "women",
+     "men",
+     "kids",
+     "home"
+    ],
+    "styles": [
+     "high street"
+    ]
+   },
+   {
+    "id": "levi-s",
+    "name": "Levi's",
+    "site": "https://www.levi.com",
+    "focus": [
+     "women",
+     "men",
+     "kids"
+    ],
+    "styles": [
+     "high street"
+    ]
+   },
+   {
+    "id": "puma",
+    "name": "Puma",
+    "site": "https://www.puma.com",
+    "focus": [
+     "women",
+     "men",
+     "kids"
+    ],
+    "styles": [
+     "sportswear"
+    ]
+   },
+   {
+    "id": "stella-mccartney",
+    "name": "Stella McCartney",
+    "site": "https://www.stellamccartney.com",
+    "focus": [
+     "women",
+     "men",
+     "kids"
+    ],
+    "styles": [
+     "luxury"
+    ]
+   },
+   {
+    "id": "mini-rodini",
+    "name": "Mini Rodini",
+    "site": "https://www.minirodini.com",
+    "focus": [
+     "kids"
+    ],
+    "styles": [
+     "kids",
+     "prints"
+    ]
+   },
+   {
+    "id": "liewood",
+    "name": "Liewood",
+    "site": "https://www.liewood.com",
+    "focus": [
+     "kids",
+     "home"
+    ],
+    "styles": [
+     "kids"
+    ]
+   },
+   {
+    "id": "konges-sljd",
+    "name": "Konges Sløjd",
+    "site": "https://www.kongesslojd.com",
+    "focus": [
+     "kids"
+    ],
+    "styles": [
+     "kids",
+     "prints"
+    ]
+   },
+   {
+    "id": "molo",
+    "name": "Molo",
+    "site": "https://www.molo.com",
+    "focus": [
+     "kids"
+    ],
+    "styles": [
+     "kids",
+     "prints"
+    ]
+   },
+   {
+    "id": "name-it",
+    "name": "Name It",
+    "site": "https://www.nameit.com",
+    "focus": [
+     "kids"
+    ],
+    "styles": [
+     "kids"
+    ]
+   },
+   {
+    "id": "lindex",
+    "name": "Lindex",
+    "site": "https://www.lindex.com",
+    "focus": [
+     "women",
+     "kids"
+    ],
+    "styles": [
+     "high street"
+    ]
+   },
+   {
+    "id": "polarn-o-pyret",
+    "name": "Polarn O. Pyret",
+    "site": "https://www.polarnopyret.com",
+    "focus": [
+     "kids"
+    ],
+    "styles": [
+     "kids"
+    ]
+   },
+   {
+    "id": "jamie-kay",
+    "name": "Jamie Kay",
+    "site": "https://www.jamiekay.com",
+    "focus": [
+     "kids"
+    ],
+    "styles": [
+     "kids"
+    ]
+   },
+   {
+    "id": "quincy-mae",
+    "name": "Quincy Mae",
+    "site": "https://www.quincymae.com",
+    "focus": [
+     "kids"
+    ],
+    "styles": [
+     "kids"
+    ]
+   },
+   {
+    "id": "mothercare",
+    "name": "Mothercare",
+    "site": "https://www.mothercare.com",
+    "focus": [
+     "kids"
+    ],
+    "styles": [
+     "kids"
+    ]
+   },
+   {
+    "id": "nununu",
+    "name": "Nununu",
+    "site": "https://www.nununuworld.com",
+    "focus": [
+     "kids"
+    ],
+    "styles": [
+     "kids"
+    ]
+   },
+   {
+    "id": "wolf-and-rita",
+    "name": "Wolf & Rita",
+    "site": "https://wolfandrita.com",
+    "focus": [
+     "kids"
+    ],
+    "styles": [
+     "kids",
+     "prints"
     ]
    }
   ]
