@@ -1613,9 +1613,9 @@
  },
  "monnalisa": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
-   "kids": 24
+   "kids": 125
   },
   "via": "shopify",
   "kidsCollections": [
@@ -1635,17 +1635,17 @@
  },
  "max-mara": {
   "status": "website",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "benetton": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
    "other": 60,
-   "men": 20,
-   "kids": 300,
-   "women": 9
+   "men": 19,
+   "kids": 196,
+   "women": 8
   },
   "via": "shopify",
   "kidsCollections": [
@@ -1658,14 +1658,14 @@
    "Bambina (4-14 anni)",
    "Bambina (6-14 anni)",
    "Bambino (6-14 anni)",
-   "Basici per Bambino (6 - 14 anni)",
-   "Basics for Kids",
-   "Beach accessories for junior boy"
+   "Basic Shirts and Polo Shirts Junior Boy",
+   "Basic Shirts and Polo Shirts Kid Boy",
+   "Basici per Bambino (6 - 14 anni)"
   ]
  },
  "ovs": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
    "kids": 259
   },
@@ -1674,7 +1674,7 @@
  },
  "il-gufo": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
    "kids": 152
   },
