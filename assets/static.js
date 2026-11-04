@@ -298,7 +298,7 @@
       const s = loadSettings();
       if (s.images === false) throw fail('Image previews are switched off in Settings.');
       // Pollinations is a free community image service; it can be slow or change without notice.
-      return `https://image.pollinations.ai/prompt/${encodeURIComponent(prompt.slice(0, 900))}?width=1024&height=1024&nologo=true&seed=${Math.floor(Math.random() * 1e6)}`;
+      return `https://image.pollinations.ai/prompt/${encodeURIComponent(prompt.slice(0, 900))}?width=1024&height=1024&nologo=true&referrer=designmind&seed=${Math.floor(Math.random() * 1e6)}${s.polToken ? '&token=' + encodeURIComponent(s.polToken) : ''}`;
     },
   };
   window.DM_SERVER = { image: async p => window.DM_STATIC.image(p), research: null };
