@@ -1442,17 +1442,17 @@
  },
  "next": {
   "status": "website",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "jojo-maman-bebe": {
   "status": "website",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "frugi": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
    "kids": 300
   },
@@ -1474,18 +1474,17 @@
  },
  "marks-spencer": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
-   "kids": 2,
-   "home": 60,
-   "other": 1
+   "kids": 1,
+   "home": 60
   },
   "via": "sitemap",
   "kidsCollections": []
  },
  "boden": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
    "kids": 176
   },
@@ -1494,27 +1493,26 @@
  },
  "primark": {
   "status": "website",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "monsoon": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
-   "kids": 188,
-   "women": 52,
-   "other": 20
+   "kids": 190,
+   "women": 51,
+   "other": 19
   },
   "via": "sitemap",
   "kidsCollections": []
  },
  "river-island": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
-   "kids": 69,
-   "women": 160,
-   "men": 1
+   "kids": 67,
+   "women": 160
   },
   "via": "sitemap",
   "kidsCollections": []
