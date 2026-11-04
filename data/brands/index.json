@@ -1852,7 +1852,7 @@
  },
  "w-for-woman": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
    "women": 160,
    "men": 27
@@ -1862,7 +1862,7 @@
  },
  "house-of-masaba": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
    "women": 160,
    "other": 60,
@@ -1876,38 +1876,38 @@
  },
  "jaypore": {
   "status": "website",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "firstcry": {
   "status": "website",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "manyavar": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
-   "kids": 200,
-   "men": 60
+   "kids": 195,
+   "men": 65
   },
   "via": "sitemap",
   "kidsCollections": []
  },
  "biba": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
-   "kids": 27,
+   "kids": 62,
    "women": 160,
-   "other": 1
+   "other": 3
   },
   "via": "sitemap",
   "kidsCollections": []
  },
  "fabindia": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
    "kids": 22,
    "home": 60
