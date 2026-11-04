@@ -1370,18 +1370,18 @@
  },
  "mavi": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
-   "men": 88,
+   "men": 100,
    "other": 2,
-   "women": 93
+   "women": 83
   },
   "via": "sitemap",
   "kidsCollections": []
  },
  "lc-waikiki": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
    "kids": 260
   },
@@ -1390,7 +1390,7 @@
  },
  "defacto": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
    "kids": 260
   },
@@ -1399,31 +1399,31 @@
  },
  "koton": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
-   "kids": 188
+   "kids": 148
   },
   "via": "sitemap",
   "kidsCollections": []
  },
  "modanisa": {
   "status": "website",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "ebebek": {
   "status": "website",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "vakko": {
   "status": "website",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "ipekyol": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
    "women": 160
   },
@@ -1432,10 +1432,10 @@
  },
  "setre": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
-   "kids": 154,
-   "women": 106
+   "kids": 156,
+   "women": 104
   },
   "via": "sitemap",
   "kidsCollections": []
