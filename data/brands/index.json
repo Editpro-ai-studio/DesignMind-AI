@@ -4608,5 +4608,292 @@
   },
   "via": "sitemap",
   "kidsCollections": []
+ },
+ "marimekko": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "zara-global": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "hm": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "adidas": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "farm-rio": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "other": 60,
+   "men": 14,
+   "women": 6,
+   "kids": 1
+  },
+  "via": "shopify",
+  "kidsCollections": []
+ },
+ "johanna-ortiz": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "women": 160
+  },
+  "via": "shopify",
+  "kidsCollections": []
+ },
+ "lemlem": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "other": 60,
+   "men": 6,
+   "kids": 6,
+   "women": 19
+  },
+  "via": "shopify",
+  "kidsCollections": [
+   "Children Collection"
+  ]
+ },
+ "nike": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "realisation-par": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "faithfull-the-brand": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "women": 160
+  },
+  "via": "shopify",
+  "kidsCollections": []
+ },
+ "spell": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "women": 160,
+   "kids": 3
+  },
+  "via": "shopify",
+  "kidsCollections": []
+ },
+ "aje": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "women": 160,
+   "kids": 25
+  },
+  "via": "shopify",
+  "kidsCollections": [
+   "Flower Girls",
+   "Kids",
+   "Sale Kids"
+  ]
+ },
+ "acne-studios": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "cos": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "uniqlo-global": {
+  "status": "unreachable",
+  "checked": "2026-11-04",
+  "reason": "site did not respond"
+ },
+ "levi-s": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "cotton-on": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "puma": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "arket": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "and-other-stories": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "konges-sljd": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "ganni": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "kids": 20,
+   "women": 160
+  },
+  "via": "sitemap",
+  "kidsCollections": []
+ },
+ "liewood": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "kids": 300,
+   "other": 60,
+   "home": 5
+  },
+  "via": "shopify",
+  "kidsCollections": [
+   "Baby",
+   "BABY GEAR & NURSERY",
+   "BABY SHOES",
+   "Baby Toys",
+   "Baby's First Meals",
+   "Children's Room",
+   "Junior",
+   "Newborn",
+   "Newborn Collection",
+   "School Age Child",
+   "Toddler"
+  ]
+ },
+ "lindex": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "polarn-o-pyret": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "molo": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "kids": 130
+  },
+  "via": "sitemap",
+  "kidsCollections": []
+ },
+ "quincy-mae": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "mothercare": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "nununu": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "kids": 300,
+   "women": 24,
+   "men": 13
+  },
+  "via": "shopify",
+  "kidsCollections": [
+   "BABIES",
+   "BABIES SALE | BABY SETS",
+   "BABIES SALE | BOTTOMS",
+   "BABIES SALE | DRESSES & SKIRTS",
+   "BABIES SALE | ONESIES",
+   "BABIES SALE | ROMPERS & OVERALLS",
+   "BABIES SALE | TOPS",
+   "BABIES | ACCESSORIES",
+   "BABIES | BEST SELLERS",
+   "BABIES | BOTTOMS",
+   "BABIES | FINAL SALE",
+   "BABIES | HATS"
+  ]
+ },
+ "wolf-and-rita": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "kids": 300
+  },
+  "via": "shopify",
+  "kidsCollections": [
+   "Babies",
+   "Kids"
+  ]
+ },
+ "mini-rodini": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "kids": 260
+  },
+  "via": "sitemap",
+  "kidsCollections": []
+ },
+ "name-it": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "kids": 260
+  },
+  "via": "sitemap",
+  "kidsCollections": []
+ },
+ "jamie-kay": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "kids": 168
+  },
+  "via": "sitemap",
+  "kidsCollections": []
+ },
+ "stella-mccartney": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "kids": 260
+  },
+  "via": "sitemap",
+  "kidsCollections": []
+ },
+ "zimmermann": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "kids": 252,
+   "other": 8
+  },
+  "via": "sitemap",
+  "kidsCollections": []
  }
 }
