@@ -8095,5 +8095,88 @@
   "status": "unreachable",
   "checked": "2026-11-04",
   "reason": "site did not respond"
+ },
+ "honayda": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "redtag": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "other": 8
+  },
+  "via": "shopify",
+  "kidsCollections": []
+ },
+ "centrepoint": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "arwa-al-banawi": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "women": 23
+  },
+  "via": "shopify",
+  "kidsCollections": []
+ },
+ "lomar": {
+  "status": "unreachable",
+  "checked": "2026-11-04",
+  "reason": "site did not respond"
+ },
+ "ashi-studio": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "leem": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "hindamme": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "toby": {
+  "status": "unreachable",
+  "checked": "2026-11-04",
+  "reason": "site did not respond"
+ },
+ "mothercare-ksa": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "max-fashion-ksa": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "babyshop-ksa": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "nice-things": {
+  "status": "unreachable",
+  "checked": "2026-11-04",
+  "reason": "site did not respond"
+ },
+ "femi9": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "women": 405,
+   "kids": 56
+  },
+  "via": "sitemap",
+  "kidsCollections": []
  }
 }
