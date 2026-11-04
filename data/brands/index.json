@@ -2795,5 +2795,353 @@
   },
   "via": "sitemap",
   "kidsCollections": []
+ },
+ "okaidi": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "jacadi": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "kiabi": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "chanel": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "louis-vuitton": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "hermes": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "saint-laurent": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "sezane": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "bonpoint": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "kids": 300,
+   "women": 1
+  },
+  "via": "shopify",
+  "kidsCollections": [
+   "Bonpoint x Izipizi Bébé Enfant",
+   "Bonpoint x The Woolmark Company bébé",
+   "Bonpoint x The Woolmark Company fille",
+   "Bonpoint x The Woolmark Company garçon",
+   "Journées Bonpoint - Enfant"
+  ]
+ },
+ "cyrillus": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "other": 60,
+   "kids": 300,
+   "women": 160,
+   "men": 100
+  },
+  "via": "shopify",
+  "kidsCollections": [
+   "Apaches x Cyrillus enfant",
+   "Cardigan pour enfant",
+   "Ceinture garçon enfant",
+   "Chaussette pour garçon enfant",
+   "Chaussures pour enfant",
+   "Chemise pour enfant"
+  ]
+ },
+ "balmain": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "women": 157,
+   "men": 27,
+   "other": 60
+  },
+  "via": "shopify",
+  "kidsCollections": []
+ },
+ "jacquemus": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "isabel-marant": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "women": 160,
+   "men": 100,
+   "other": 60
+  },
+  "via": "shopify",
+  "kidsCollections": []
+ },
+ "kenzo": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "claudie-pierlot": {
+  "status": "unreachable",
+  "checked": "2026-11-04",
+  "reason": "site did not respond"
+ },
+ "ba-and-sh": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "maje": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "women": 76
+  },
+  "via": "sitemap",
+  "kidsCollections": []
+ },
+ "rouje": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "women": 160,
+   "kids": 6
+  },
+  "via": "shopify",
+  "kidsCollections": []
+ },
+ "zadig-and-voltaire": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "a-p-c": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "other": 60,
+   "kids": 7,
+   "women": 3,
+   "men": 3
+  },
+  "via": "shopify",
+  "kidsCollections": [
+   "Ligne Nino"
+  ]
+ },
+ "ami-paris": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "kids": 44,
+   "other": 60
+  },
+  "via": "shopify",
+  "kidsCollections": [
+   "Collection Enfant"
+  ]
+ },
+ "petit-bateau": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "kids": 260
+  },
+  "via": "sitemap",
+  "kidsCollections": []
+ },
+ "chloe": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "kids": 132,
+   "other": 12
+  },
+  "via": "sitemap",
+  "kidsCollections": []
+ },
+ "dior": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "other": 60
+  },
+  "via": "sitemap",
+  "kidsCollections": []
+ },
+ "sandro": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "women": 125,
+   "men": 100
+  },
+  "via": "sitemap",
+  "kidsCollections": []
+ },
+ "catimini": {
+  "status": "unreachable",
+  "checked": "2026-11-04",
+  "reason": "site did not respond"
+ },
+ "agnes-b": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "sergent-major": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "kids": 248,
+   "men": 1,
+   "women": 1
+  },
+  "via": "shopify",
+  "kidsCollections": [
+   "Anteprima - Bambino"
+  ]
+ },
+ "vertbaudet": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "tartine-et-chocolat": {
+  "status": "unreachable",
+  "checked": "2026-11-04",
+  "reason": "site did not respond"
+ },
+ "du-pareil-au-meme": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "kids": 300
+  },
+  "via": "shopify",
+  "kidsCollections": [
+   "Anteprima - Bambino",
+   "Anteprima - Pigiama da bambino",
+   "Anteprima - Pigiami da bambino",
+   "Anteprima -bambino & bambina",
+   "Ausverkauf | BABY MÄDCHEN",
+   "Ausverkauf| BABY JUNGE",
+   "Avant-premières | Pyjamas Enfant",
+   "Chaussettes enfant",
+   "Chaussettes enfant et bébé",
+   "Collants enfant et bébé",
+   "Collection Pyjama enfant"
+  ]
+ },
+ "bonton": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "kids": 300,
+   "other": 60
+  },
+  "via": "shopify",
+  "kidsCollections": [
+   "Accessoires | Junior Garçon",
+   "Baby Star ⭐",
+   "Ballerines & babies | fille",
+   "Blouses, Chemises & T-shirts | Fille",
+   "Chaussures | Fille",
+   "Chaussures | Garçon",
+   "Enfant Fille | Viva la Vida",
+   "Enfant Garçon | Viva la Vida",
+   "Foulards & Accessoires | Junior Fille",
+   "Junior",
+   "Junior Fille",
+   "Junior Fille | New"
+  ]
+ },
+ "emile-et-ida": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "kids": 300,
+   "women": 160
+  },
+  "via": "shopify",
+  "kidsCollections": []
+ },
+ "louise-misha": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "women": 160,
+   "other": 60,
+   "kids": 300
+  },
+  "via": "shopify",
+  "kidsCollections": [
+   "Accessoires [archives, enfant, fille]",
+   "Accessoires [Avant-premières, enfant, fille]",
+   "Accessoires [Avant-premières, enfant, garçon]",
+   "Accessoires [Dernières chances, enfant, fille]",
+   "Accessoires [Dernières chances, enfant, garçon]",
+   "Accessoires [new co, enfant]",
+   "Accessoires Cheveux  [new co, enfant, fille]",
+   "Accessoires de plage [new co, enfant, bébé fille]",
+   "Accessoires de plage [new co, enfant]",
+   "Autres accessoires [happy days, enfant, fille]",
+   "Autres accessoires [new co, enfant, fille]",
+   "Bain [archives, enfant, fille]"
+  ]
+ },
+ "promod": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "kids": 23,
+   "women": 160
+  },
+  "via": "sitemap",
+  "kidsCollections": []
+ },
+ "sessun": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "women": 160
+  },
+  "via": "sitemap",
+  "kidsCollections": []
+ },
+ "souleiado": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "kids": 5,
+   "men": 11,
+   "other": 60,
+   "women": 35,
+   "home": 60
+  },
+  "via": "sitemap",
+  "kidsCollections": []
  }
 }
