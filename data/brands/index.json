@@ -6039,5 +6039,450 @@
   },
   "via": "sitemap",
   "kidsCollections": []
+ },
+ "max-mara": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "missoni": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "emilio-pucci": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "women": 770,
+   "kids": 181,
+   "men": 15
+  },
+  "via": "shopify",
+  "kidsCollections": [
+   "ACCESSORI JUNIOR",
+   "F\\W JUNIOR 2022",
+   "F\\W JUNIOR 2023",
+   "F\\W JUNIOR 2024",
+   "JUNIOR",
+   "S\\S JUNIOR 2023",
+   "S\\S JUNIOR 2024"
+  ]
+ },
+ "benetton": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "kids": 1200,
+   "men": 609,
+   "other": 600,
+   "women": 11
+  },
+  "via": "shopify",
+  "kidsCollections": [
+   "Accessori da bambino",
+   "Accessori e scarpe da bambino",
+   "Accessori e scarpe da bambino articoli in offerta",
+   "Accessori per baby",
+   "Accessori per baby articoli in offerta",
+   "Back to School Kids",
+   "Bambina (4-14 anni)",
+   "Bambina (6-14 anni)",
+   "Bambino (6-14 anni)",
+   "Basici per Bambino (6 - 14 anni)",
+   "Basics for Kids",
+   "Beach accessories for junior boy",
+   "Beach accessories for kid boy",
+   "Beach accessories for kid girl",
+   "Best Seller bambina 6-14 anni ",
+   "Best Sellers bambina 6-14 anni",
+   "Best Sellers bambino 6-14 anni",
+   "Best Sellers bimbo 1-6 anni",
+   "Best Sellers neonati 0-18 mesi",
+   "Bimba (1-6 anni)",
+   "Bimbo (1-6 anni)",
+   "Body e tutine per baby",
+   "Body e tutine per baby articoli in offerta",
+   "Borse e zainetti da bambino",
+   "Capispalla basic da bambina (6 - 14 anni)",
+   "Capispalla basic da bimbo (1 - 6 anni)",
+   "Cappelli e berretti da bambino",
+   "Cappotti e giacche da bambino",
+   "Cappotti e giubbotti da bambino",
+   "Cappotti e piumini per baby",
+   "Cappotti e piumini per baby articoli in offerta",
+   "Capsule Benetton Rugby per Bambini",
+   "Cardigan da bambino",
+   "Cinture da bambino",
+   "Felpe con cappuccio da bambino",
+   "Hello Kitty",
+   "I nostri Basici baby (0-18 mesi)",
+   "Intimo Basico Bambino (6 - 14 anni)",
+   "Look Esotici",
+   "Look Esotici Bambina (6 - 14 Anni)",
+   "Look Esotici Bambino (6 - 14 Anni)",
+   "Look Esotici Bimba (1 - 6 Anni)",
+   "Look Esotici Bimbo (1 - 6 Anni)",
+   "Look Esotici Neonato (0-18 Mesi)",
+   "Look per l'Autunno bambina 6-14 anni",
+   "Look per l'Autunno bambino 6-14 anni",
+   "Look per l'Autunno bimba 1-6 anni",
+   "Look per l'Autunno bimbo 1-6 anni",
+   "Look per la Scuola bambina 6-14 anni",
+   "Look per la Scuola bambino 6-14 anni",
+   "Look per la Scuola bimba 1-6 anni",
+   "Look per la Scuola bimbo 1-6 anni",
+   "Pantaloni Basici Bambino (6 - 14 anni)",
+   "T-shirt e felpe Basiche Bambino (6 - 14 anni)",
+   "T-shirt e felpe Basiche per bimba (1-6 anni)",
+   "Vacanze al mare baby 0-18 mesi",
+   "Vacanze al mare bambina 6-14 anni",
+   "Vacanze al mare bambino 6-14 anni",
+   "Vacanze al mare bimba 1-6 anni",
+   "Vacanze al mare bimbo 1-6 anni",
+   "Vacanze attive Baby 0-18 mesi",
+   "Vacanze attive bambina 6-14 anni",
+   "Vacanze attive bambini",
+   "Vacanze attive bambino 6-14 anni",
+   "Vacanze attive bimba 1-6 anni",
+   "Vacanze attive bimbo 1-6 anni",
+   "Vacanze in città bambina 6-14 anni",
+   "Vacanze in città bambino 6-14 anni",
+   "Vacanze in città bimba 1-6 anni",
+   "Vacanze in città bimbo 1-6 anni",
+   "Vestiti per baby",
+   "Vestiti per baby articoli in offerta",
+   "Abbigliamento Bambini Looney Tunes",
+   "Abbigliamento Denim per Bambini",
+   "Abbigliamento Looney Tunes Bambino 6-14 anni",
+   "Articoli in offerta bambini",
+   "BAMBINI",
+   "Bambino (6-14 Anni)",
+   "Best Sellers bambini",
+   "Cappotti e giubbotti da bambino articoli in offerta",
+   "Collezione Lino per Baby (0 - 18 mesi)",
+   "Collezione Lino per Bambini",
+   "Collezione Lino per Bambino (6 - 14 anni)",
+   "Collezione Peanuts bambini",
+   "Colori Pastello bambini ",
+   "Costumi Bambina e Beachwear",
+   "Costumi Bambino e Beachwear",
+   "Giubbini da bambino",
+   "Giubbotti e giubbini da bambino",
+   "I look dell’estate bambini",
+   "Jean's West bambina 6-14 anni",
+   "Jean's West bambini",
+   "Jean's West bambino 6-14 anni",
+   "Jeans & Denim: Baby (0-18 mesi)",
+   "Jeans & Denim: Bambino (6-14 anni)",
+   "Jeans da bambino",
+   "Junior boys (6-14 years)",
+   "Junior girls (6-14 years)",
+   "Kid boys (1-6 years)",
+   "Kid girls (1-6 years)",
+   "Licenze",
+   "Licenze  bambina 6-14 anni",
+   "Licenze  bambino 6-14 anni",
+   "Licenze  bimba 1-6 anni",
+   "Licenze  bimbo 1-6 anni",
+   "Lilo & Stitch Junior Girl",
+   "Lilo & Stitch Kid Girl",
+   "Look per l'Autunno bambini",
+   "Must Have Junior Boy",
+   "Nuovi Arrivi Abbigliamento Bambini",
+   "Nuovi Arrivi Abbigliamento Bambino",
+   "Nuovi Arrivi Accessori e scarpe da bambino",
+   "Nuovi Arrivi Accessori per baby",
+   "Nuovi Arrivi Body e tutine per baby",
+   "Nuovi Arrivi Cappotti e giubbotti da bambino",
+   "Nuovi Arrivi Cappotti e piumini per baby",
+   "Nuovi Arrivi Completini e salopette per baby",
+   "Nuovi Arrivi Felpe e T-shirt per baby",
+   "Nuovi Arrivi Felpe e tute da bambino",
+   "Nuovi Arrivi Maglie e maglioni da bambino",
+   "Nuovi Arrivi Piumini da bambino",
+   "Nuovi Arrivi Polo da bambino",
+   "Nuovi Arrivi T-shirt e camicie da bambino",
+   "Nuovi Arrivi Vestiti per baby",
+   "Piumini leggeri da bambino",
+   "Polo a manica lunga da bambino",
+   "Polo a manica lunga da bambino",
+   "T-shirt a manica lunga da bambino",
+   "Vacanze al mare bambini",
+   "Vacanze in città bambini",
+   "Abiti in cotone biologico per baby",
+   "Articoli in offerta baby 0-18 mesi",
+   "Articoli in offerta bambina 6-14 anni",
+   "Articoli in offerta bambino 6-14 anni",
+   "Articoli in offerta bimba 1-6 anni",
+   "Articoli in offerta bimbo 1-6 anni",
+   "Baby (0-18 mesi)",
+   "Camicie da bambino",
+   "Camicie e polo per baby",
+   "Camicie e polo per baby articoli in offerta",
+   "Collezione Peanuts bambino 6-14 anni",
+   "Colori Pastello baby 0-18 mesi",
+   "Colori Pastello bambina 6-14 anni",
+   "Colori Pastello bambino 6-14 anni",
+   "Colori Pastello bimba 1-6 anni",
+   "Colori Pastello bimbo 1-6 anni",
+   "Completini e salopette per baby",
+   "Completini e salopette per baby articoli in offerta",
+   "Felpe e T-shirt per baby",
+   "Felpe e T-shirt per baby articoli in offerta",
+   "Felpe e tute da bambino",
+   "Felpe e tute da bambino articoli in offerta",
+   "Felpe per baby",
+   "Giubbotti da bambino",
+   "I look dell’estate bambina 6-14 anni",
+   "I look dell’estate bambino 6-14 anni",
+   "I look dell’estate bimba 1-6 anni",
+   "I look dell’estate bimbo 1-6 anni",
+   "Look di primavera baby 0-18 mesi",
+   "Look di primavera bambini",
+   "Look di primavera bambino 6-14 anni",
+   "Look per i centri estivi",
+   "Look per i centri estivi Bambina (6 - 14 Anni)",
+   "Look per i centri estivi Bambino (6 - 14 Anni)",
+   "Look per i centri estivi Bimbo (1 - 6 Anni)",
+   "Maglie da bambino",
+   "Maglie e maglioncini per baby",
+   "Maglie e maglioncini per baby articoli in offerta",
+   "Maglie e maglioni da bambino",
+   "Maglie e maglioni da bambino articoli in offerta",
+   "Nuovi Arrivi Intimo e pigiami da bambino",
+   "Nuovi Arrivi Pantaloni e jeans da bambino",
+   "Nuovi Arrivi Pantaloni per baby",
+   "One Piece bambino 6-14 anni",
+   "One Piece bambino 6-14 anni",
+   "Pantaloni corti da bambino",
+   "Pantaloni felpati da bambino",
+   "Paul Frank for junior boys 6-14 years old",
+   "Paul Frank for kid boy 1-6 years",
+   "Pigiami da bambino",
+   "Piumini da bambino",
+   "Piumini da bambino articoli in offerta",
+   "Piumini imbottiti da bambino",
+   "Piumini smanicati da bambino",
+   "Polo a manica corta da bambino",
+   "Polo a manica corta da bambino",
+   "Polo da bambino",
+   "Polo da bambino",
+   "Polo da bambino articoli in offerta",
+   "Scarpe da bambino",
+   "Sciarpe da bambino",
+   "Stranger Colors of Benetton bambini",
+   "Stranger Colors of Benetton bambino 6-14 anni",
+   "T-shirt a manica corta da bambino"
+  ]
+ },
+ "gucci": {
+  "status": "unreachable",
+  "checked": "2026-11-04",
+  "reason": "site did not respond"
+ },
+ "versace": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "dolce-and-gabbana": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "etro": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "marni": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "moschino": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "kids": 197,
+   "women": 426,
+   "men": 227
+  },
+  "via": "shopify",
+  "kidsCollections": [
+   "Bambino",
+   "Bambino e Ragazzo | 4-14 Anni",
+   "Neonato e Bambino | 0-3 Anni",
+   "Regali Bambino",
+   "Saldi Bambino",
+   "Saldi Bambino (4-8 Anni)",
+   "Saldi Neonata",
+   "Saldi Neonato",
+   "Saldi Neonato (0-3 Anni)",
+   "Saldi Ragazza",
+   "Saldi Ragazzo",
+   "Saldi Ragazzo (10-14 Anni)",
+   "Saldi Scarpe da bambino",
+   "Saldi Scarpe da neonata",
+   "Saldi Scarpe da neonato",
+   "Saldi Scarpe da Ragazza",
+   "Saldi Scarpe da Ragazzo",
+   "SINGLE DAYS BABY KID TEEN"
+  ]
+ },
+ "monnalisa": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "kids": 43
+  },
+  "via": "sitemap",
+  "kidsCollections": []
+ },
+ "zegna": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "brunello-cucinelli": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "twinset": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "other": 600,
+   "kids": 102,
+   "men": 6
+  },
+  "via": "shopify",
+  "kidsCollections": []
+ },
+ "liu-jo": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "ovs": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "kids": 350,
+   "men": 76,
+   "women": 128,
+   "other": 46
+  },
+  "via": "sitemap",
+  "kidsCollections": []
+ },
+ "pinko": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "women": 1182,
+   "kids": 13
+  },
+  "via": "shopify",
+  "kidsCollections": []
+ },
+ "giorgio-armani": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "kids": 79,
+   "men": 340,
+   "women": 181
+  },
+  "via": "sitemap",
+  "kidsCollections": []
+ },
+ "elisabetta-franchi": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "patrizia-pepe": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "motivi": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "women": 600
+  },
+  "via": "sitemap",
+  "kidsCollections": []
+ },
+ "piccola-ludo": {
+  "status": "unreachable",
+  "checked": "2026-11-04",
+  "reason": "site did not respond"
+ },
+ "alberta-ferretti": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "women": 594
+  },
+  "via": "shopify",
+  "kidsCollections": []
+ },
+ "valentino": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "kids": 44,
+   "men": 92,
+   "women": 373,
+   "other": 63
+  },
+  "via": "sitemap",
+  "kidsCollections": []
+ },
+ "il-gufo": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "kids": 414
+  },
+  "via": "sitemap",
+  "kidsCollections": []
+ },
+ "prada": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "kids": 10,
+   "men": 29,
+   "other": 459,
+   "women": 37
+  },
+  "via": "sitemap",
+  "kidsCollections": []
+ },
+ "simonetta": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "kids": 593
+  },
+  "via": "sitemap",
+  "kidsCollections": []
+ },
+ "prenatal": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "kids": 590,
+   "women": 5,
+   "men": 4
+  },
+  "via": "sitemap",
+  "kidsCollections": []
  }
 }
