@@ -1,5 +1,5 @@
 // Offline support: the app opens without internet; research data refreshes when online.
-const VERSION = 'dm-v6';
+const VERSION = 'dm-v7';
 const SHELL = ['./', 'index.html', 'assets/static.js', 'assets/icon.svg', 'assets/icon-192.png', 'manifest.webmanifest', 'data/countries.json', 'data/fabrics.json'];
 
 self.addEventListener('install', e => {

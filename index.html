@@ -386,6 +386,40 @@ select:focus,input:focus,textarea:focus{outline:none;border-color:#C9973B;box-sh
 .rdrelb:hover{border-color:#C9973B;transform:translateY(-2px)}
 .rdrelb small{color:var(--muted)}
 .lbclose{background:var(--gold)!important;color:#24160A!important}
+/* Search */
+.shero{display:flex;flex-direction:column;gap:14px;margin:18px 0 16px;padding:22px;border-radius:22px;background:linear-gradient(120deg,#1A0F2E,#3B1650 55%,#0E2A35);border:1px solid rgba(233,201,121,.3);color:#FBF4E6;box-shadow:0 30px 60px -36px rgba(30,10,50,.9)}
+.sbox{display:flex;gap:8px;align-items:center;background:rgba(255,255,255,.96);border-radius:999px;padding:6px;box-shadow:0 0 0 1px rgba(233,201,121,.6),0 10px 30px -14px rgba(0,0,0,.7)}
+.sbox input[type=search]{flex:1;border:none;background:transparent;font-size:16.5px;padding:10px 14px;color:#1C1325;box-shadow:none!important}
+.sbox input::placeholder{color:#8a7f95}
+.supl{display:inline-flex;align-items:center;gap:6px;padding:9px 14px;border-radius:999px;cursor:pointer;font-weight:600;font-size:13.5px;color:#5B2A86;background:#F3EAFB;white-space:nowrap}
+.supl span{font-size:17px}
+.supl:hover{background:#EBDDF8}
+.shero .chip{background:transparent;color:#FBF4E6;border-color:rgba(255,255,255,.25)}
+.shero .chip[aria-pressed="true"]{background:var(--gold);color:#24160A;border-color:transparent}
+.shero .f{color:#C8B9D9}.shero select{background:rgba(255,255,255,.1);color:#FBF4E6;border-color:rgba(255,255,255,.2)}
+.shero select option{color:#1C1325}
+.shero label.row{color:#E8DDF2}
+.xpic{display:flex;gap:14px;align-items:center;background:rgba(255,255,255,.08);border-radius:16px;padding:10px;flex-wrap:wrap}
+.xpic img{width:84px;height:84px;object-fit:cover;border-radius:12px;border:1px solid rgba(233,201,121,.5)}
+.xpic .sw{width:58px}.xpic .sw i{height:26px}.xpic .sw small{color:#C8B9D9}
+.xpic .btn.ghost{margin-left:auto;background:transparent;color:#F6E3A6;border:1px solid rgba(233,201,121,.5)}
+.xgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:14px}
+@media (max-width:520px){.xgrid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.sbox{flex-wrap:wrap;border-radius:20px}.sbox input[type=search]{flex:1 1 100%}.sbox .btn{flex:1}}
+.xmason{columns:4 200px;column-gap:14px}
+.xmason .xcard{break-inside:avoid;margin-bottom:14px}
+.xmason .xcard img{aspect-ratio:auto}
+.xcard{position:relative;background:var(--panel);border-radius:16px;overflow:hidden;cursor:pointer;border:1px solid var(--hair);box-shadow:var(--shadow);transition:transform .25s,box-shadow .25s}
+.xcard:hover{transform:translateY(-3px);box-shadow:var(--shadow-hi)}
+.xcard img{display:block;width:100%;aspect-ratio:3/4;object-fit:cover;background:var(--sunk)}
+.xcard.sk{aspect-ratio:3/4;background:linear-gradient(90deg,var(--sunk),var(--saffron-soft),var(--sunk));background-size:200% 100%;animation:sh 1.3s infinite}
+.xcap{padding:9px 12px 11px;display:flex;flex-direction:column;gap:2px;min-width:0}
+.xcap b{font-weight:500;font-size:13px;line-height:1.3;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.xcap small{font-size:11.5px;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.xdl{position:absolute;right:8px;bottom:62px;display:inline-flex;align-items:center;gap:6px;border:none;border-radius:999px;padding:8px 12px;font-weight:600;font-size:12px;cursor:pointer;color:#24160A;background:var(--gold);box-shadow:0 8px 18px -8px rgba(0,0,0,.6);opacity:.95;transition:transform .2s,opacity .2s}
+.xmason .xdl{bottom:auto;top:8px}
+.xdl:hover{transform:scale(1.06);opacity:1}
+.xdl.sm{top:8px;bottom:auto;right:42px;padding:5px;width:26px;height:26px;justify-content:center}
+.xcard .ai-badge{z-index:1}
 @media (max-width:760px){.brand{font-size:23px}nav.tabs a{font-size:11.5px}.btn{padding:10px 18px}}
 @media (prefers-reduced-motion:reduce){.btn::after{display:none}.skel{animation:none}.tcard:hover,.azrow:hover{transform:none}}
 </style>
@@ -397,6 +431,7 @@ select:focus,input:focus,textarea:focus{outline:none;border-color:#C9973B;box-sh
     <span class="today mono" id="today"></span>
     <nav class="tabs" aria-label="Sections">
       <a href="#trends" data-v="trends">Trends</a>
+      <a href="#search" data-v="search" id="navSearch" hidden>Search</a>
       <a href="#brands" data-v="brands" id="navBrands" hidden>Brands</a>
       <a href="#inspire" data-v="inspire" id="navInspire" hidden>Inspiration</a>
       <a href="#fabrics" data-v="fabrics">Fabrics</a>
@@ -440,6 +475,24 @@ select:focus,input:focus,textarea:focus{outline:none;border-color:#C9973B;box-sh
     </div>
   </section>
 
+  <!-- SEARCH: one box for everything. Text and/or a picture -> brand designs, open design libraries, AI designs. -->
+  <section id="v-search" hidden>
+    <div class="eyebrow">Search everything</div><h1>Find any <em>design</em></h1>
+    <form class="shero" id="xForm">
+      <div class="sbox">
+        <input type="search" id="xQ" placeholder="What do you want? e.g. girls floral frock, paisley border print, Eid sale poster" autocomplete="off">
+        <label class="supl" id="xDrop" title="Search with a picture" tabindex="0"><input type="file" id="xFile" accept="image/*" hidden><span aria-hidden="true">⌕</span> Picture</label>
+        <button class="btn" type="submit" id="xGo">Search</button>
+      </div>
+      <div id="xPic" class="xpic" hidden></div>
+      <div class="chips" id="xTypes"></div>
+      <div class="row" style="gap:14px"><label class="f" style="flex-direction:row;align-items:center;gap:8px">Brand market<select id="xMarket" style="width:auto"></select></label>
+        <label class="row" style="gap:6px;font-size:13px"><input type="checkbox" id="xAI" checked> Add AI-made designs</label></div>
+    </form>
+    <div class="status" id="xStatus" role="status"></div>
+    <div id="xQueries" class="chips" style="margin-bottom:6px"></div>
+    <div id="xOut"></div>
+  </section>
   <!-- BRANDS (GitHub version: catalogues built by the brand workflow) -->
   <section id="v-brands" hidden>
     <div class="eyebrow">Brand catalogues</div><h1>Brands by <em>market</em></h1>
@@ -693,8 +746,8 @@ $("#today").textContent=NOW.toLocaleDateString("en-GB",{weekday:"short",day:"num
   $("#themeBtn").addEventListener("click",()=>{const cur=document.documentElement.getAttribute("data-theme")||(matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");const n=cur==="dark"?"light":"dark";document.documentElement.setAttribute("data-theme",n);store("dm.theme",n)})})();
 
 /* ---------- Routing ---------- */
-const VIEWS=window.DM_STATIC?["trends","brands","inspire","fabrics","design","projects","settings"]:["trends","fabrics","design","projects"];
-function route(){setTimeout(()=>{const a=document.querySelector('nav.tabs a[aria-current="page"]');if(a&&a.scrollIntoView)a.scrollIntoView({block:"nearest",inline:"center"})},0);const h=location.hash.replace("#","");S.view=VIEWS.includes(h)?h:"trends";VIEWS.forEach(v=>{$("#v-"+v).hidden=v!==S.view});if(!VIEWS.includes("settings"))$("#v-settings").hidden=true;if(!VIEWS.includes("brands"))$("#v-brands").hidden=true;if(!VIEWS.includes("inspire"))$("#v-inspire").hidden=true;if(S.view==="brands")renderBrands();$$("nav.tabs a").forEach(a=>a.setAttribute("aria-current",a.dataset.v===S.view?"page":"false"));
+const VIEWS=window.DM_STATIC?["trends","search","brands","inspire","fabrics","design","projects","settings"]:["trends","fabrics","design","projects"];
+function route(){setTimeout(()=>{const a=document.querySelector('nav.tabs a[aria-current="page"]');if(a&&a.scrollIntoView)a.scrollIntoView({block:"nearest",inline:"center"})},0);const h=location.hash.replace("#","");S.view=VIEWS.includes(h)?h:"trends";VIEWS.forEach(v=>{$("#v-"+v).hidden=v!==S.view});if(!VIEWS.includes("settings"))$("#v-settings").hidden=true;if(!VIEWS.includes("brands"))$("#v-brands").hidden=true;if(!VIEWS.includes("inspire"))$("#v-inspire").hidden=true;if(!VIEWS.includes("search"))$("#v-search").hidden=true;if(S.view==="brands")renderBrands();$$("nav.tabs a").forEach(a=>a.setAttribute("aria-current",a.dataset.v===S.view?"page":"false"));
   if(S.view==="projects")renderProjects();if(S.view==="fabrics")renderFabrics()}
 addEventListener("hashchange",route);
 
@@ -1249,12 +1302,13 @@ function openProduct(p){const b=Object.values(B.reg).flat().find(x=>x.id===B.bra
    <div class="mono" style="font-size:15px">${p.price!=null?esc(cur+" "+Number(p.price).toLocaleString("en-US")):""}</div>
    <div class="kv"><b>Category</b><span>${esc([p.segment,p.sub,p.type].filter(Boolean).join(" · "))}</span><b>Added</b><span>${esc(p.added?fmtD(p.added):"Unknown")}</span></div>
    ${(p.tags||[]).length?`<div class="tagrow">${p.tags.map(t=>`<span class="pill p-unknown">${esc(t)}</span>`).join("")}</div>`:""}
-   <div class="row" style="margin-top:6px"><a class="btn" style="text-decoration:none" href="${esc(safeUrl(p.url))}" target="_blank" rel="noopener">View on ${esc(b?b.name:"brand")} website</a></div>
+   <div class="row" style="margin-top:6px"><button class="btn" type="button" id="lbDl">${DL_ICON} Download picture</button><a class="btn ghost small" style="text-decoration:none" href="${esc(safeUrl(p.url))}" target="_blank" rel="noopener">View on ${esc(b?b.name:"brand")} website</a></div>
    <div class="row"><button class="btn small ghost" type="button" id="lbSave">Save to projects</button><button class="btn small ghost" type="button" id="lbRef">Use as design reference</button></div>
    <div class="status" id="lbStatus"></div></div></div>`;
   document.body.appendChild(el);const close=()=>{el.remove();document.removeEventListener("keydown",esc_)};const esc_=e=>{if(e.key==="Escape")close()};document.addEventListener("keydown",esc_);
   el.addEventListener("click",e=>{if(e.target===el||e.target.closest(".lbclose"))close();const t=e.target.closest("[data-ti]");if(t){$("#lbMain").src=imgW(imgs[+t.dataset.ti],900);el.querySelectorAll("[data-ti]").forEach(x=>x.setAttribute("aria-current",String(x===t)))}});
   el.querySelector(".lbclose").focus();
+  $("#lbDl").onclick=()=>{const cur=el.querySelector(".lbimg>img");dlImage(cur?cur.src.replace(/([?&])width=\d+/,"$1width=1600"):imgs[0],`${b?b.name:""} ${p.title}`)};
   $("#lbSave").onclick=()=>saveProject({type:"product",title:`${b?b.name:""} · ${p.title}`,data:{brand:b?b.name:"",title:p.title,url:p.url,image:imgs[0]||"",price:p.price,market:B.bmarket}});
   $("#lbRef").onclick=()=>{const st=$("#lbStatus");st.textContent="Loading image…";const im=new Image();im.crossOrigin="anonymous";im.referrerPolicy="no-referrer";
     im.onload=()=>{try{cImg=im;showThumb("#cDrop",im,`${b?b.name:""} reference`);$("#cBrief").value=$("#cBrief").value||`Original design inspired by the mood of a ${p.segment} reference from ${b?b.name:"a brand"}; do not copy its motifs or layout.`;$("#cMot").value=20;$("#cMot").dispatchEvent(new Event("input"));close();location.hash="#design";toast("Reference loaded. Motif similarity set to 20% so results stay original.")}catch(err){cImg=null;st.className="status err";st.textContent="This brand's images can't be read by the app. Save the image from the brand site and upload it in Design Generator."}};
@@ -1287,7 +1341,7 @@ async function iSearchOne(q,page){const st=iSettings();const out=[];const jobs=[
 async function iQueries(idea,cat){const c=ICATS.find(x=>x[0]===cat);const base=[`${idea} ${c[2]}`.trim(),c[2],`${c[2]} ${idea.split(/\s+/).slice(0,3).join(" ")}`.trim()];
   const sm=sample||null;if(!idea||!sm)return [...new Set(base)].slice(0,3);
   try{const r=await sm(`A graphic designer needs reference images for: "${idea}". Category: ${c[1]}. Write 4 short English image-search queries (2-5 words each) that would find real examples of this kind of design in open image libraries (Openverse, Wikimedia Commons). Mix the subject with the format (e.g. "kids fashion billboard", "vintage magazine cover"). Return JSON only: {"queries":["..",".."]}`,{modelTier:"quick"});const j=json(r.text);const q=(j.queries||[]).filter(x=>typeof x==="string"&&x.length<80).slice(0,4);return q.length?q:base}catch(e){return base}}
-function iCard(x,i){return `<button type="button" class="icard" data-ii="${i}" aria-pressed="${I.sel.has(x.id)}">${x.ai?'<span class="ai-badge">AI SKETCH</span>':""}<span class="pick" data-pick="${i}" aria-label="Select">✓</span><img src="${esc(x.thumb)}" alt="${esc(x.title)}" loading="lazy" referrerpolicy="no-referrer" onerror="this.closest('.icard').remove()"><div class="ic"><span>${esc(x.ai?"AI concept":(x.creator||x.source))}</span><span>${esc(x.ai?"Preview":x.source)}</span></div></button>`}
+function iCard(x,i){return `<button type="button" class="icard" data-ii="${i}" aria-pressed="${I.sel.has(x.id)}">${x.ai?'<span class="ai-badge">AI SKETCH</span>':""}<span class="pick" data-pick="${i}" aria-label="Select">✓</span><span class="xdl sm" data-idl="${i}" role="button" aria-label="Download">${DL_ICON}</span><img src="${esc(x.thumb)}" alt="${esc(x.title)}" loading="lazy" referrerpolicy="no-referrer" onerror="this.closest('.icard').remove()"><div class="ic"><span>${esc(x.ai?"AI concept":(x.creator||x.source))}</span><span>${esc(x.ai?"Preview":x.source)}</span></div></button>`}
 function iRender(){$("#iGrid").innerHTML=I.items.length?I.items.map(iCard).join(""):"";$("#iBar").hidden=!I.sel.size;$("#iSel").textContent=`${I.sel.size} selected`;}
 async function iRun(more){if(I.busy)return;const st=$("#iStatus");const idea=$("#iIdea").value.trim();I.busy=true;$("#iGo").disabled=true;st.className="status";
   try{if(!more){I.page=1;I.items=[];st.textContent="Finding designs…";I.queries=await iQueries(idea,I.cat);$("#iQueries").innerHTML=I.queries.map(q=>`<span class="pill p-unknown">${esc(q)}</span>`).join("");}
@@ -1305,18 +1359,134 @@ function iOpen(x){const el=document.createElement("div");el.className="lb";el.se
    <div class="eyebrow">${esc(x.ai?"AI concept sketch":x.source)}</div><h2>${esc(x.title)}</h2>
    <div class="kv">${x.creator?`<b>Creator</b><span>${esc(x.creator)}</span>`:""}<b>Licence</b><span>${esc(x.license||"See source")}</span></div>
    ${x.ai?'<p class="muted" style="font-size:13px">Generated by a free AI image service as a rough idea. Not production artwork.</p>':""}
-   <div class="row"><button class="btn small" type="button" id="iPick">${I.sel.has(x.id)?"Remove from moodboard":"Add to moodboard"}</button><button class="btn small ghost" type="button" id="iCrit">Get AI design ideas from this</button></div>
+   <div class="row"><button class="btn small" type="button" id="iDl">${DL_ICON} Download</button><button class="btn small ghost" type="button" id="iPick">${I.sel.has(x.id)?"Remove from moodboard":"Add to moodboard"}</button><button class="btn small ghost" type="button" id="iCrit">Get AI design ideas from this</button></div>
    ${safeUrl(x.page)?`<a href="${esc(x.page)}" target="_blank" rel="noopener" style="font-size:13px">Source page and licence details</a>`:""}<div class="status" id="iLbS"></div></div></div>`;
   document.body.appendChild(el);const close=()=>el.remove();el.addEventListener("click",e=>{if(e.target===el||e.target.closest(".lbclose"))close()});document.addEventListener("keydown",function k(e){if(e.key==="Escape"){close();document.removeEventListener("keydown",k)}});
+  $("#iDl").onclick=()=>dlImage(x.full||x.thumb,x.title);
   $("#iPick").onclick=()=>{I.sel.has(x.id)?I.sel.delete(x.id):I.sel.set(x.id,x);iRender();close()};
   $("#iCrit").onclick=()=>{const st=$("#iLbS");st.textContent="Loading image…";const im=new Image();im.crossOrigin="anonymous";im.onload=()=>{try{const c=document.createElement("canvas");c.width=4;c.height=4;c.getContext("2d").drawImage(im,0,0,4,4);c.getContext("2d").getImageData(0,0,1,1);gImg=im;showThumb("#gDrop",im,"Inspiration reference");$("#gCtx").value=`Reference found for: ${$("#iIdea").value.trim()||x.title}. Explain what makes it work and give me 3 original directions for my own design.`;$("#gMode").value="Campaign & social concepts";close();location.hash="#design";$$(".subtabs .chip")[3].click();toast("Reference sent to Graphic design critique")}catch(err){st.className="status err";st.textContent="This image can't be read by the app. Save it and upload it in Design Generator."}};im.onerror=()=>{st.className="status err";st.textContent="Image could not be loaded."};im.src=x.full||x.thumb};}
 $("#iCats").innerHTML=ICATS.map(([k,l])=>`<button type="button" class="chip" data-icat="${k}" aria-pressed="${k===I.cat}">${esc(l)}</button>`).join("");
 $("#iCats").addEventListener("click",e=>{const c=e.target.closest("[data-icat]");if(!c)return;I.cat=c.dataset.icat;$$("#iCats .chip").forEach(x=>x.setAttribute("aria-pressed",String(x===c)))});
 $("#iForm").addEventListener("submit",e=>{e.preventDefault();iRun(false)});
 $("#iMore").addEventListener("click",()=>iRun(true));
-$("#iGrid").addEventListener("click",e=>{const pk=e.target.closest("[data-pick]");const card=e.target.closest("[data-ii]");if(!card)return;const x=I.items[+card.dataset.ii];if(pk){e.stopPropagation();I.sel.has(x.id)?I.sel.delete(x.id):I.sel.set(x.id,x);card.setAttribute("aria-pressed",String(I.sel.has(x.id)));$("#iBar").hidden=!I.sel.size;$("#iSel").textContent=`${I.sel.size} selected`;return}iOpen(x)});
+$("#iGrid").addEventListener("click",e=>{const dl=e.target.closest("[data-idl]");if(dl){e.stopPropagation();const x=I.items[+dl.dataset.idl];dlImage(x.full||x.thumb,x.title);return}const pk=e.target.closest("[data-pick]");const card=e.target.closest("[data-ii]");if(!card)return;const x=I.items[+card.dataset.ii];if(pk){e.stopPropagation();I.sel.has(x.id)?I.sel.delete(x.id):I.sel.set(x.id,x);card.setAttribute("aria-pressed",String(I.sel.has(x.id)));$("#iBar").hidden=!I.sel.size;$("#iSel").textContent=`${I.sel.size} selected`;return}iOpen(x)});
 $("#iClear").addEventListener("click",()=>{I.sel.clear();iRender()});
 $("#iBoard").addEventListener("click",()=>{const items=[...I.sel.values()].map(x=>({title:x.title,thumb:x.thumb,full:x.full,page:x.page,creator:x.creator,license:x.license,source:x.source,ai:!!x.ai}));const idea=$("#iIdea").value.trim();const c=ICATS.find(x=>x[0]===I.cat);saveProject({type:"moodboard",title:`Moodboard · ${c[1]}${idea?" · "+idea.slice(0,40):""}`,data:{idea,category:c[1],items}});I.sel.clear();iRender()});
+/* ---------- Search everything (text or picture) ---------- */
+const XTYPES=[["all","Everything"],["fashion","Clothes & brand designs"],["textile","Textile prints & patterns"],["graphic","Graphic design"],["photo","Photos"]];
+const X={type:"all",img:null,imgBlob:null,palette:[],brands:[],lib:[],ai:[],queries:[],page:1,busy:false,idx:null};
+// Download any image to the device. Tries the image directly, then a free image proxy (for sites that block it).
+async function dlImage(url,name){
+  const nm=(String(name||"design").replace(/[^\p{L}\p{N} _-]+/gu,"").trim().replace(/\s+/g,"-").slice(0,60)||"design");
+  const tryGet=async u=>{const r=await fetch(u,{mode:"cors",referrerPolicy:"no-referrer"});if(!r.ok)throw 0;const b=await r.blob();if(!/^image\//.test(b.type)&&b.size<2000)throw 0;return b};
+  toast("Downloading…");
+  let blob=null;try{blob=await tryGet(url)}catch(e){try{blob=await tryGet(`https://images.weserv.nl/?url=${encodeURIComponent(url.replace(/^https?:\/\//,""))}&output=jpg&q=92`)}catch(e2){}}
+  if(!blob){toast("This image could not be downloaded here. Long-press or right-click the picture and choose Save image.");return}
+  const ext=(blob.type.split("/")[1]||"jpg").replace("jpeg","jpg").replace(/\+.*/,"");
+  const a=document.createElement("a");a.href=URL.createObjectURL(blob);a.download=`${nm}.${ext}`;document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(a.href),4000);toast("Saved "+a.download);
+}
+const DL_ICON='<svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path fill="currentColor" d="M12 3a1 1 0 0 1 1 1v9.6l3.3-3.3a1 1 0 1 1 1.4 1.4l-5 5a1 1 0 0 1-1.4 0l-5-5a1 1 0 1 1 1.4-1.4l3.3 3.3V4a1 1 0 0 1 1-1Zm-8 15a1 1 0 0 1 1 1v1h14v-1a1 1 0 1 1 2 0v2a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-2a1 1 0 0 1 1-1Z"/></svg>';
+// Colours of the uploaded picture, with rough names for searching.
+function quickPalette(im,n=5){const c=downscale(im,120);const d=c.getContext("2d").getImageData(0,0,c.width,c.height).data;const bins=new Map();
+  for(let i=0;i<d.length;i+=4){if(d[i+3]<20)continue;const k=(d[i]>>5)<<10|(d[i+1]>>5)<<5|(d[i+2]>>5);const b=bins.get(k)||{n:0,r:0,g:0,b:0};b.n++;b.r+=d[i];b.g+=d[i+1];b.b+=d[i+2];bins.set(k,b)}
+  const out=[];[...bins.values()].sort((a,b)=>b.n-a.n).forEach(b=>{const col=[b.r/b.n,b.g/b.n,b.b/b.n];if(out.length<n&&out.every(o=>Math.hypot(o[0]-col[0],o[1]-col[1],o[2]-col[2])>60))out.push(col)});return out.map(c=>rgb2hex(...c))}
+function colourName(hex){const [r,g,b]=hex2rgb(hex).map(v=>v/255);const mx=Math.max(r,g,b),mn=Math.min(r,g,b),l=(mx+mn)/2,s=mx===mn?0:(mx-mn)/(1-Math.abs(2*l-1));
+  if(l>.9)return "white";if(l<.12)return "black";if(s<.15)return l>.6?"light grey":"grey";
+  let h=mx===r?((g-b)/(mx-mn))%6:mx===g?(b-r)/(mx-mn)+2:(r-g)/(mx-mn)+4;h=(h*60+360)%360;
+  const n=h<15?"red":h<40?(l<.45?"brown":"orange"):h<65?(l<.4?"olive":"yellow"):h<160?"green":h<195?"teal":h<255?"blue":h<290?"purple":h<335?"pink":"red";
+  return (l>.72?"pastel ":l<.3?"dark ":"")+n}
+// Brand catalogue search index (built on GitHub as data/brands/search.json; falls back to reading catalogues).
+async function xLoadIndex(){if(X.idx)return X.idx;await loadBrandReg();
+  try{const j=await fetch("data/brands/search.json?t="+Date.now()).then(r=>{if(!r.ok)throw 0;return r.json()});X.idx=j.items.map(a=>({brand:a[0],title:a[1],img:a[2],url:a[3],seg:a[4],sub:a[5],price:a[6],tags:a[7]||""}));return X.idx}catch(e){}
+  const ready=Object.entries(B.index).filter(([,v])=>v.status==="catalogue").map(([k])=>k).slice(0,120);const out=[];
+  for(let i=0;i<ready.length;i+=10)await Promise.all(ready.slice(i,i+10).map(id=>fetch(`data/brands/${encodeURIComponent(id)}.json`).then(r=>r.ok?r.json():null).then(j=>{(j&&j.products||[]).slice(0,120).forEach(p=>out.push({brand:id,title:p.title,img:(p.images||[])[0],url:p.url,seg:p.segment,sub:p.sub||"",price:p.price,tags:[p.type,...(p.tags||[])].join(" ")}))}).catch(()=>{})));
+  X.idx=out;return out}
+const STOP=new Set("a an the and or for of with in on to my me i want need like design designs dress please show find some kuch chahiye chahye jesa jaisa jesy wala wali".split(" "));
+function xTokens(s){return String(s||"").toLowerCase().replace(/[^\p{L}\p{N} ]+/gu," ").split(/\s+/).filter(w=>w.length>1&&!STOP.has(w))}
+function xBrandSearch(words,market){const idx=X.idx||[];if(!words.length)return [];const reg=Object.entries(B.reg||{});const mOf={};reg.forEach(([m,l])=>l.forEach(b=>{mOf[b.id]=mOf[b.id]||m}));
+  const seg={girls:"kids",girl:"kids",boys:"kids",boy:"kids",baby:"kids",kids:"kids",kid:"kids",children:"kids",bacha:"kids",bachay:"kids",women:"women",woman:"women",ladies:"women",female:"women",men:"men",man:"men",male:"men",gents:"men",home:"home"};
+  const wantSeg=words.map(w=>seg[w]).find(Boolean);
+  const res=[];for(const p of idx){if(!safeUrl(p.img))continue;if(market!=="all"&&mOf[p.brand]!==market)continue;if(wantSeg&&p.seg!==wantSeg)continue;
+    const hay=(p.title+" "+p.tags+" "+p.sub+" "+p.brand).toLowerCase();let sc=0,hit=0;
+    for(const w of words){if(seg[w])continue;if(hay.includes(w)){hit++;sc+=p.title.toLowerCase().includes(w)?3:1}else if(w.length>4&&hay.includes(w.slice(0,-1))){hit++;sc+=1}}
+    const need=words.filter(w=>!seg[w]).length;if(need&&!hit)continue;sc+=hit===need?4:0;res.push([sc,p])}
+  return res.sort((a,b)=>b[0]-a[0]).slice(0,120).map(x=>x[1])}
+async function xPlan(q,type){
+  // With AI: understand the request (and the picture) and write good search words. Without AI: use the words as typed.
+  const colours=X.palette.map(colourName);const base=[q||[...new Set(colours)].slice(0,2).join(" ")+" pattern"].filter(Boolean);
+  const typeHint={all:"",fashion:"clothing fashion",textile:"textile print pattern",graphic:"graphic design",photo:"photo"}[type];
+  if(!sample||(!q&&!X.imgBlob))return {queries:[...new Set(base.map(b=>`${b} ${typeHint}`.trim()))],brandWords:xTokens(q),describe:q};
+  try{const r=await sample(`A designer is searching for design references${X.imgBlob?" similar to the attached picture":""}.${q?` They wrote: "${q}" (may be Urdu/Roman Urdu or English).`:""}${type!=="all"?` They want: ${typeHint}.`:""}
+Return JSON only:
+{"describe":"one English sentence describing the design they want (motifs, style, garment or format, colours)",
+ "queries":["4 short English image-search queries (2-5 words) for open image libraries"],
+ "brandWords":["up to 6 single English words likely to appear in clothing product titles, e.g. frock, kurta, lawn, floral, embroidered, girls"],
+ "aiPrompt":"a prompt for an image generator to make an ORIGINAL design in the same spirit (not a copy), max 40 words"}`,{modelTier:"quick",images:X.imgBlob?[X.imgBlob]:undefined});
+    const j=json(r.text);return {queries:(j.queries||[]).filter(x=>typeof x==="string").slice(0,4).concat(base).slice(0,4),brandWords:[...new Set([...xTokens(q),...(j.brandWords||[]).flatMap(xTokens)])],describe:j.describe||q,aiPrompt:j.aiPrompt}}
+  catch(e){if(X.imgBlob&&!q)toast("AI could not read the picture ("+sampleErr(e).slice(0,80)+"). Searching by its colours.");return {queries:[...new Set(base.map(b=>`${b} ${typeHint}`.trim()))],brandWords:xTokens(q),describe:q||colours.join(", ")+" design"}}}
+function xCard(kind,x,i){const img=kind==="b"?imgW(x.img,500):x.thumb;const title=kind==="b"?x.title:x.title;
+  const by=kind==="b"?((Object.values(B.reg||{}).flat().find(b=>b.id===x.brand)||{}).name||x.brand):x.ai?"AI design":(x.source||"");
+  return `<div class="xcard" data-x="${kind}${i}">${x.ai?'<span class="ai-badge">AI DESIGN</span>':""}<img src="${esc(img)}" alt="${esc(title)}" loading="lazy" referrerpolicy="no-referrer" onerror="this.closest('.xcard').remove()">
+    <button type="button" class="xdl" data-dl="${kind}${i}" aria-label="Download">${DL_ICON}<span>Download</span></button>
+    <div class="xcap"><b>${esc(title)}</b><small>${esc(by)}${kind==="b"&&x.price?` · ${esc(x.price)}`:""}</small></div></div>`}
+function xRender(){const o=$("#xOut");const sec=(t,n,body,more)=>n?`<div class="sec-h"><h2>${t}</h2><span class="n">${n}</span></div>${body}${more||""}`:"";
+  o.innerHTML=sec("From brands",X.brands.length,`<div class="xgrid">${X.brands.slice(0,X.bShown||24).map((x,i)=>xCard("b",x,i)).join("")}</div>`,X.brands.length>(X.bShown||24)?'<div class="row" style="justify-content:center;margin:12px 0"><button class="btn ghost" type="button" id="xBMore">Show more brand designs</button></div>':"")
+   +sec("AI-made original designs",X.ai.length,`<div class="xgrid">${X.ai.map((x,i)=>xCard("a",x,i)).join("")}</div>`)
+   +sec("Design library",X.lib.length,`<div class="xmason">${X.lib.map((x,i)=>xCard("l",x,i)).join("")}</div>`,X.lib.length?'<div class="row" style="justify-content:center;margin:14px 0"><button class="btn ghost" type="button" id="xMore">Load more</button></div>':"");}
+const xItem=k=>({b:X.brands,a:X.ai,l:X.lib})[k[0]][+k.slice(1)];
+async function xRun(more){if(X.busy)return;const q=$("#xQ").value.trim();const st=$("#xStatus");
+  if(!q&&!X.img){st.className="status err";st.textContent="Type what you want, or add a picture.";return}
+  X.busy=true;$("#xGo").disabled=true;st.className="status";
+  try{
+    if(!more){X.page=1;X.lib=[];X.ai=[];X.brands=[];X.bShown=24;$("#xOut").innerHTML='<div class="xgrid">'+'<div class="xcard sk"></div>'.repeat(8)+'</div>';
+      st.textContent=X.img?"Reading your picture…":"Understanding your search…";
+      const [plan]=await Promise.all([xPlan(q,X.type),xLoadIndex()]);X.plan=plan;X.queries=plan.queries;
+      $("#xQueries").innerHTML=(plan.describe&&!X.queries.some(z=>z.toLowerCase()===plan.describe.toLowerCase())?`<span class="pill p-recent">${esc(plan.describe.slice(0,140))}</span>`:"")+X.queries.map(x=>`<button type="button" class="chip" data-xq="${esc(x)}">${esc(x)}</button>`).join("");
+      if(X.type==="all"||X.type==="fashion")X.brands=xBrandSearch(plan.brandWords.length?plan.brandWords:xTokens(X.queries[0]),$("#xMarket").value);
+      if($("#xAI").checked&&iSettings().images!==false&&window.DM_STATIC){const p=plan.aiPrompt||`${plan.describe||q}, ${({textile:"seamless textile print pattern",graphic:"professional graphic design",fashion:"fashion design illustration",photo:"photograph"})[X.type]||"original design"}`;
+        X.ai=[1,2,3,4].map(k=>{const u=window.DM_STATIC.image(`${p}, original artwork, high detail, variation ${k}`);return {id:"ai"+k,ai:true,title:`AI design ${k}`,thumb:u,full:u,source:"AI (Pollinations)",license:"AI preview"}})}
+      st.textContent="Searching design libraries…";xRender();}
+    else X.page++;
+    const typeQ=X.type==="photo"||X.type==="all"?X.queries:X.queries;
+    const res=(await Promise.all(typeQ.map(x=>iSearchOne(x,X.page)))).flat();const have=new Set(X.lib.map(x=>x.id));
+    const per=res.reduce((m,x)=>(m[x.source]=(m[x.source]||[]).concat(x),m),{});const lists=Object.values(per);
+    for(let k=0;lists.some(l=>l[k]);k++)lists.forEach(l=>{const x=l[k];if(x&&!have.has(x.id)){have.add(x.id);X.lib.push(x)}});
+    xRender();
+    const n=X.brands.length+X.lib.length+X.ai.length;
+    st.textContent=n?`${n} designs found. Tap a picture to see it large; tap Download to save it.`+(!X.idx||!X.idx.length?" Brand designs appear here after the GitHub brand update has run.":""):"Nothing found. Try simpler words, e.g. “floral print” or “kids frock”.";
+  }catch(e){st.className="status err";st.textContent="Search failed: "+(e.message||"check your internet connection")}finally{X.busy=false;$("#xGo").disabled=false}}
+function xOpen(k){const x=xItem(k);if(!x)return;const isB=k[0]==="b";const full=isB?imgW(x.img,1400):(x.full||x.thumb);const brand=isB?(Object.values(B.reg||{}).flat().find(b=>b.id===x.brand)||{}):null;
+  const el=document.createElement("div");el.className="lb";el.setAttribute("role","dialog");el.setAttribute("aria-modal","true");
+  el.innerHTML=`<div class="lbin"><div class="lbimg"><img src="${esc(full)}" alt="${esc(x.title)}" referrerpolicy="no-referrer" style="aspect-ratio:auto;object-fit:contain;max-height:78vh"></div><div class="lbtext"><button class="lbclose" type="button" aria-label="Close">×</button>
+   <div class="eyebrow">${esc(isB?(brand.name||x.brand):x.ai?"AI-made design":x.source)}</div><h2>${esc(x.title)}</h2>
+   <div class="kv">${isB&&x.price?`<b>Price</b><span>${esc(x.price)}</span>`:""}${isB&&x.seg?`<b>For</b><span>${esc(x.seg)}${x.sub?" · "+esc(x.sub):""}</span>`:""}${x.creator?`<b>Creator</b><span>${esc(x.creator)}</span>`:""}<b>Use</b><span>${esc(isB?"Brand's design. For research and inspiration, not copying.":x.ai?"AI preview, free to use as an idea.":(x.license||"See source")+". Credit the creator when you use it.")}</span></div>
+   <div class="row"><button class="btn" type="button" data-a="dl">${DL_ICON} Download</button><button class="btn ghost small" type="button" data-a="ref">Use as design reference</button><button class="btn ghost small" type="button" data-a="like">Find more like this</button></div>
+   ${isB?`<button class="btn ghost small" type="button" data-a="brand" style="align-self:flex-start">All ${esc(brand.name||"brand")} designs</button>`:""}<div class="status" id="xLbS"></div></div></div>`;
+  document.body.appendChild(el);const close=()=>{el.remove();removeEventListener("keydown",kk)};const kk=e=>{if(e.key==="Escape")close()};addEventListener("keydown",kk);
+  el.addEventListener("click",async e=>{if(e.target===el||e.target.closest(".lbclose"))return close();const a=e.target.closest("[data-a]");if(!a)return;
+    if(a.dataset.a==="dl")dlImage(full,(isB?(brand.name||"")+" ":"")+x.title);
+    if(a.dataset.a==="like"){close();$("#xQ").value=x.title.slice(0,80);X.img=null;X.imgBlob=null;X.palette=[];$("#xPic").hidden=true;xRun(false)}
+    if(a.dataset.a==="brand"){close();B.brand=x.brand;B.bmarket=Object.entries(B.reg).find(([,l])=>l.some(b=>b.id===x.brand))?.[0];B.cat=null;location.hash="#brands"}
+    if(a.dataset.a==="ref"){const st=$("#xLbS");st.textContent="Loading image…";const im=new Image();im.crossOrigin="anonymous";im.referrerPolicy="no-referrer";
+      im.onload=()=>{try{const c=document.createElement("canvas");c.width=2;c.height=2;c.getContext("2d").drawImage(im,0,0,2,2);c.getContext("2d").getImageData(0,0,1,1);cImg=im;showThumb("#cDrop",im,"Search reference");$("#cMot").value=20;$("#cMot").dispatchEvent(new Event("input"));close();location.hash="#design";toast("Reference loaded in Design Generator.")}catch(err){st.className="status err";st.textContent="This picture can't be read by the app. Download it, then upload it in Design Generator."}};
+      im.onerror=()=>{st.className="status err";st.textContent="Picture could not be loaded."};im.src=`https://images.weserv.nl/?url=${encodeURIComponent(full.replace(/^https?:\/\//,""))}&output=jpg`}});}
+$("#xTypes").innerHTML=XTYPES.map(([k,l])=>`<button type="button" class="chip" data-xt="${k}" aria-pressed="${k===X.type}">${l}</button>`).join("");
+$("#xTypes").addEventListener("click",e=>{const c=e.target.closest("[data-xt]");if(!c)return;X.type=c.dataset.xt;$$("#xTypes .chip").forEach(x=>x.setAttribute("aria-pressed",String(x===c)));if($("#xQ").value.trim()||X.img)xRun(false)});
+fillSel($("#xMarket"),[["all","All markets"],...COUNTRIES.filter(c=>c[0]!=="global").map(c=>[c[0],c[1]])],"all");
+$("#xForm").addEventListener("submit",e=>{e.preventDefault();xRun(false)});
+$("#xDrop").addEventListener("keydown",e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();$("#xFile").click()}});
+async function xSetPic(f){try{const im=await loadImage(f);X.img=im;X.imgBlob=await toBlob(downscale(im,1024),"image/jpeg",.85);X.palette=quickPalette(im);
+  $("#xPic").hidden=false;$("#xPic").innerHTML=`<img src="${downscale(im,200).toDataURL("image/jpeg",.8)}" alt=""><div><b>Searching designs like this picture</b><div class="swatches" style="margin-top:6px">${X.palette.map(h=>`<span class="sw"><i style="background:${h}"></i><small>${h}</small></span>`).join("")}</div></div><button type="button" class="btn ghost small" id="xPicX">Remove</button>`;
+  xRun(false)}catch(e){toast(e.message)}}
+$("#xFile").addEventListener("change",e=>{const f=e.target.files[0];if(f)xSetPic(f);e.target.value=""});
+$("#xForm").addEventListener("dragover",e=>e.preventDefault());$("#xForm").addEventListener("drop",e=>{e.preventDefault();const f=e.dataTransfer.files[0];if(f&&/^image\//.test(f.type))xSetPic(f)});
+document.addEventListener("paste",e=>{if(S.view!=="search")return;const f=[...(e.clipboardData||{}).files||[]].find(x=>/^image\//.test(x.type));if(f)xSetPic(f)});
+$("#xPic").addEventListener("click",e=>{if(e.target.closest("#xPicX")){X.img=null;X.imgBlob=null;X.palette=[];$("#xPic").hidden=true}});
+$("#xQueries").addEventListener("click",e=>{const c=e.target.closest("[data-xq]");if(!c)return;$("#xQ").value=c.dataset.xq;X.img=null;X.imgBlob=null;X.palette=[];$("#xPic").hidden=true;xRun(false)});
+$("#xOut").addEventListener("click",e=>{const d=e.target.closest("[data-dl]");if(d){e.stopPropagation();const x=xItem(d.dataset.dl);const isB=d.dataset.dl[0]==="b";dlImage(isB?imgW(x.img,1600):(x.full||x.thumb),x.title);return}
+  if(e.target.closest("#xMore"))return xRun(true);if(e.target.closest("#xBMore")){X.bShown=(X.bShown||24)+24;xRender();return}
+  const c=e.target.closest("[data-x]");if(c&&!c.classList.contains("sk"))xOpen(c.dataset.x)});
+if(window.DM_STATIC)$("#navSearch").hidden=false;
 if(window.DM_STATIC){$("#navInspire").hidden=false;const st=iSettings();$("#iSrc").textContent="Sources: Openverse, Wikimedia Commons"+(st.pexels?", Pexels":"")+(st.unsplash?", Unsplash":"")}
 
 /* ---------- Boot ---------- */

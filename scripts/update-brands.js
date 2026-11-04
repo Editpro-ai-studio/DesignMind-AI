@@ -271,6 +271,23 @@ function addBrandFromEnv() {
   return id;
 }
 
+
+// One small file the app's Search tab reads: up to 80 newest designs per brand.
+function buildSearchIndex() {
+  const items = [];
+  for (const f of fs.readdirSync(OUT)) {
+    if (!f.endsWith('.json') || f === 'index.json' || f === 'search.json') continue;
+    try {
+      const j = JSON.parse(fs.readFileSync(path.join(OUT, f), 'utf8'));
+      const id = f.replace(/\.json$/, '');
+      const list = (j.products || []).filter(p => p.images && p.images[0]).sort((a, b) => String(b.added || '').localeCompare(String(a.added || ''))).slice(0, 80);
+      for (const p of list) items.push([id, String(p.title || '').slice(0, 90), p.images[0], p.url, p.segment || '', p.sub || '', p.price ?? null, [p.type, ...(p.tags || [])].filter(Boolean).join(' ').slice(0, 120)]);
+    } catch {}
+  }
+  fs.writeFileSync(path.join(OUT, 'search.json'), JSON.stringify({ built: new Date().toISOString().slice(0, 10), items }));
+  console.log(`  search index: ${items.length} designs`);
+}
+
 // When running on GitHub Actions, commit and push what has been read so far.
 function saveToGitHub(message) {
   if (process.env.GITHUB_ACTIONS !== 'true') return;
@@ -350,10 +367,12 @@ function saveToGitHub(message) {
     await Promise.all(Array.from({ length: POOL }, async () => { while (next < list.length) { const [mm, b] = list[next++]; await one(mm, b); await sleep(1500); } }));
     fs.writeFileSync(prevIndexFile, JSON.stringify({ ...prev, ...index }, null, 1));
     if (regChanged) fs.writeFileSync(path.join(ROOT, 'data', 'brands.json'), JSON.stringify(REG, null, 1));
+    buildSearchIndex();
     saveToGitHub(`Brand catalogues: ${m}`);
   }
   fs.writeFileSync(prevIndexFile, JSON.stringify({ ...prev, ...index }, null, 1));
   if (regChanged) fs.writeFileSync(path.join(ROOT, 'data', 'brands.json'), JSON.stringify(REG, null, 1));
+  buildSearchIndex();
   const n = k => summary.filter(x => x.endsWith(':' + k)).length;
   console.log(`\nSummary: ${n('catalogue')} with designs in the app, ${n('website')} website only, ${n('unreachable')} not reached, ${n('error')} errors`);
   console.log(summary.join(' '));
