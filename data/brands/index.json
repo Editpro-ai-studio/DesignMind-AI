@@ -3801,5 +3801,120 @@
   },
   "via": "sitemap",
   "kidsCollections": []
+ },
+ "splash": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "mothercare-ae": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "max-fashion": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "babyshop": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "ounass": {
+  "status": "unreachable",
+  "checked": "2026-11-04",
+  "reason": "site did not respond"
+ },
+ "lifestyle": {
+  "status": "unreachable",
+  "checked": "2026-11-04",
+  "reason": "site did not respond"
+ },
+ "brands-for-less": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "bouguessa": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "women": 160,
+   "kids": 9
+  },
+  "via": "shopify",
+  "kidsCollections": []
+ },
+ "centrepoint-uae": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "r-and-b": {
+  "status": "unreachable",
+  "checked": "2026-11-04",
+  "reason": "site did not respond"
+ },
+ "dar-sara": {
+  "status": "unreachable",
+  "checked": "2026-11-04",
+  "reason": "site did not respond"
+ },
+ "home-centre": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "taller-marmo": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "women": 160,
+   "kids": 3
+  },
+  "via": "shopify",
+  "kidsCollections": []
+ },
+ "bambah": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "women": 160,
+   "kids": 52
+  },
+  "via": "shopify",
+  "kidsCollections": []
+ },
+ "the-giving-movement": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "kids": 284,
+   "women": 160,
+   "men": 100,
+   "other": 1
+  },
+  "via": "shopify",
+  "kidsCollections": [
+   "ALL KIDS",
+   "BABY BODYSUITS",
+   "BABY COLLECTION",
+   "BOYS ALL BOTTOMS",
+   "BOYS ALL TOPS",
+   "BOYS FOOTWEAR & ACCESSORIES",
+   "BOYS HOODIES & JACKETS",
+   "BOYS HOODIES & SWEATSHIRTS",
+   "BOYS JACKETS",
+   "BOYS SHORTS",
+   "BOYS SWEATPANTS & PANTS",
+   "BOYS T-SHIRTS"
+  ]
+ },
+ "namshi": {
+  "status": "unreachable",
+  "checked": "2026-11-04",
+  "reason": "site did not respond"
  }
 }
