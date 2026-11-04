@@ -2544,5 +2544,256 @@
   },
   "via": "sitemap",
   "kidsCollections": []
+ },
+ "max-mara": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "missoni": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "emilio-pucci": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "women": 160,
+   "kids": 183,
+   "men": 15
+  },
+  "via": "shopify",
+  "kidsCollections": [
+   "ACCESSORI JUNIOR",
+   "F\\W JUNIOR 2022",
+   "F\\W JUNIOR 2023",
+   "F\\W JUNIOR 2024",
+   "JUNIOR",
+   "S\\S JUNIOR 2023",
+   "S\\S JUNIOR 2024"
+  ]
+ },
+ "monnalisa": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "kids": 24
+  },
+  "via": "shopify",
+  "kidsCollections": [
+   "101 Hearths Newborn",
+   "101 Hearths Newborn > NEWBORN",
+   "101 Hearths Newborn > NEWBORN > Accessori Baby",
+   "101 Hearths Newborn > NEWBORN > Accessori Baby > Accessori",
+   "101 Hearths Newborn > NEWBORN > Accessori Baby > Cuffie",
+   "101 Hearths Newborn > NEWBORN > Body,Tutine&Completi",
+   "101 Hearths Newborn > NEWBORN > Body,Tutine&Completi > Body",
+   "101 Hearths Newborn > NEWBORN > Body,Tutine&Completi > Completi",
+   "Bear Hugs Newborn Boy",
+   "Bear Hugs Newborn Boy > NEWBORN",
+   "Bear Hugs Newborn Boy > NEWBORN > Body,Tutine&Completi",
+   "Bear Hugs Newborn Boy > NEWBORN > Body,Tutine&Completi > Completi"
+  ]
+ },
+ "benetton": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "other": 60,
+   "men": 17,
+   "kids": 196
+  },
+  "via": "shopify",
+  "kidsCollections": [
+   "Accessori da bambino",
+   "Accessori e scarpe da bambino",
+   "Accessori e scarpe da bambino articoli in offerta",
+   "Accessori per baby",
+   "Accessori per baby articoli in offerta",
+   "Back to School Kids",
+   "Bambina (4-14 anni)",
+   "Bambina (6-14 anni)",
+   "Bambino (6-14 anni)",
+   "Basic Shirts and Polo Shirts Junior Boy",
+   "Basic Shirts and Polo Shirts Kid Boy",
+   "Basici per Bambino (6 - 14 anni)"
+  ]
+ },
+ "versace": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "prada": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "dolce-and-gabbana": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "marni": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "moschino": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "men": 100,
+   "women": 160,
+   "kids": 197
+  },
+  "via": "shopify",
+  "kidsCollections": [
+   "Bambino",
+   "Bambino e Ragazzo | 4-14 Anni",
+   "Children's Family & Friends",
+   "Neonato e Bambino | 0-3 Anni",
+   "Regali Bambino",
+   "Saldi Accessori per neonati",
+   "Saldi Bambino",
+   "Saldi Bambino",
+   "Saldi Bambino (4-8 Anni)",
+   "Saldi Neonata",
+   "Saldi Neonato",
+   "Saldi Neonato (0-3 Anni)"
+  ]
+ },
+ "giorgio-armani": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "etro": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "zegna": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "brunello-cucinelli": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "liu-jo": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "twinset": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "other": 60,
+   "kids": 40,
+   "men": 2
+  },
+  "via": "shopify",
+  "kidsCollections": []
+ },
+ "gucci": {
+  "status": "unreachable",
+  "checked": "2026-11-04",
+  "reason": "site did not respond"
+ },
+ "pinko": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "women": 160,
+   "kids": 13
+  },
+  "via": "shopify",
+  "kidsCollections": []
+ },
+ "elisabetta-franchi": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "ovs": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "kids": 259
+  },
+  "via": "sitemap",
+  "kidsCollections": []
+ },
+ "patrizia-pepe": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "piccola-ludo": {
+  "status": "unreachable",
+  "checked": "2026-11-04",
+  "reason": "site did not respond"
+ },
+ "alberta-ferretti": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "women": 160
+  },
+  "via": "shopify",
+  "kidsCollections": []
+ },
+ "motivi": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "women": 160
+  },
+  "via": "sitemap",
+  "kidsCollections": []
+ },
+ "valentino": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "kids": 22,
+   "women": 138,
+   "men": 50,
+   "other": 42
+  },
+  "via": "sitemap",
+  "kidsCollections": []
+ },
+ "il-gufo": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "kids": 152
+  },
+  "via": "sitemap",
+  "kidsCollections": []
+ },
+ "simonetta": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "kids": 260
+  },
+  "via": "sitemap",
+  "kidsCollections": []
+ },
+ "prenatal": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "kids": 260
+  },
+  "via": "sitemap",
+  "kidsCollections": []
  }
 }
