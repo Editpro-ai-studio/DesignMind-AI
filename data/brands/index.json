@@ -2022,5 +2022,527 @@
   },
   "via": "sitemap",
   "kidsCollections": []
+ },
+ "carters": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "hanna-andersson": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "primary": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "kids": 300,
+   "women": 71
+  },
+  "via": "shopify",
+  "kidsCollections": [
+   "[ARCHIVE] [Breaker-baby-Saint-Patrick's-Day] St. Paddy's Day",
+   "[ARCHIVE] [breaker: baby-solid-rompers] Solid Rompers",
+   "[ARCHIVE] [breaker: gifting-baby-under-30] Gifts Under $30",
+   "[ARCHIVE] [breaker: gifting-baby-under-50] Gifts Under $50",
+   "[ARCHIVE] [breaker: gifting-baby-under-75] Gifts Under $75",
+   "[ARCHIVE] [breaker: kids-winter-sale-favorites] Our Favorites",
+   "[ARCHIVE] [breaker:-baby-bugs-bundles] Baby Bugs Gift Sets",
+   "[ARCHIVE] [breaker:all-baby-sale] Baby Sale",
+   "[ARCHIVE] [breaker:all-kids-sale] All Kids Sale",
+   "[ARCHIVE] [breaker:all-pajamas-rompers] Kids & Baby Sleep Rompers",
+   "[ARCHIVE] [Breaker:baby-all-bedding] Baby Bedding",
+   "[ARCHIVE] [breaker:baby-animal-shorties] Babysuit shorties"
+  ]
+ },
+ "oshkosh-b-gosh": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "the-children-s-place": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "janie-and-jack": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "kyte-baby": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "kids": 300,
+   "women": 160,
+   "men": 63
+  },
+  "via": "shopify",
+  "kidsCollections": [
+   "0.5 TOG Ruffle Baby Blanket - All",
+   "0.5 TOG Ruffle Toddler Blanket - All",
+   "1.0 Toddler Blankets - All",
+   "1.0 Tog Toddler Blankets",
+   "2.5 Toddler Blankets - All",
+   "2.5 Tog Toddler Blankets",
+   "Adult + Children's Accessories",
+   "Baby & Toddler Henley Sets",
+   "Baby & Toddler Hoodies",
+   "Baby & Toddler Jogger Sets",
+   "Baby & Toddler Matching Sets Sale",
+   "Baby & Toddler Pajamas"
+  ]
+ },
+ "little-sleepies": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "kids": 300,
+   "men": 100,
+   "women": 160
+  },
+  "via": "shopify",
+  "kidsCollections": [
+   "Baby & Kids' Bath Towels & Washcloths",
+   "Baby & Toddler Bodysuits",
+   "Baby & Toddler Boy Rompers",
+   "Baby Boy Bodysuits",
+   "Baby Boy Hoodies & Sweatshirts",
+   "Baby Gifts",
+   "Baby Girl Bodysuits",
+   "Baby Girl Hoodies & Sweatshirts",
+   "Baby Must Haves",
+   "Baby Pants, Leggings, & Shorts",
+   "Baby Sleep Sacks",
+   "Baby Swaddle Sets"
+  ]
+ },
+ "rylee-and-cru": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "tea-collection": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "kids": 300,
+   "women": 1
+  },
+  "via": "shopify",
+  "kidsCollections": [
+   "All Baby & Toddler",
+   "All Baby Boy",
+   "All Baby Girl",
+   "All Boy",
+   "All Girl",
+   "All Newborn",
+   "All Toddler Boy",
+   "All Toddler Girl",
+   "American Girl® x Tea Collection",
+   "Baby Bottoms",
+   "Baby Dresses",
+   "Baby Leggings"
+  ]
+ },
+ "posh-peanut": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "kids": 300,
+   "women": 160,
+   "men": 27
+  },
+  "via": "shopify",
+  "kidsCollections": [
+   "American Girl® x Posh Peanut®",
+   "Animal Print Baby Clothes",
+   "Baby",
+   "Baby",
+   "Baby & Newborn Coming Home Outfits",
+   "Baby & Toddler Boy One Pieces",
+   "Baby & Toddler Girls One Pieces",
+   "BABY ACCESSORIES",
+   "BABY BIBS",
+   "Baby Boy Clothes",
+   "Baby Boy's Swimwear",
+   "Baby Boys Accessories"
+  ]
+ },
+ "burt-s-bees-baby": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "kids": 300,
+   "women": 16,
+   "men": 10
+  },
+  "via": "shopify",
+  "kidsCollections": [
+   "1-Piece Loose Fit Pajamas",
+   "1-Piece Snug Fit Pajamas",
+   "All Boy",
+   "All Girl",
+   "All Toddler & Kids",
+   "All Toddler Boy",
+   "All Toddler Girl",
+   "Baby Accessories",
+   "Baby Bath Essentials",
+   "Baby Bedding & Bath",
+   "Baby Bee Essentials",
+   "Baby Bibs & Burp Cloths"
+  ]
+ },
+ "pink-chicken": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "kids": 300,
+   "other": 60,
+   "women": 57
+  },
+  "via": "shopify",
+  "kidsCollections": [
+   "30% Off Coop Kids",
+   "40% Off Coop Kids + Halloween",
+   "Baby",
+   "baby",
+   "Baby Adventure Romper Collection",
+   "Baby Back to School '26",
+   "Baby Bamboo Pajamas",
+   "Baby Bamboo Romper Collection",
+   "Baby Bamboo Romper Collection",
+   "Baby Bamboo Romper Spring 26 Collection",
+   "Baby Black Friday 2025",
+   "Baby Block Prints"
+  ]
+ },
+ "ralph-lauren": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "tommy-hilfiger": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "mabel-and-honey": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "kids": 300
+  },
+  "via": "shopify",
+  "kidsCollections": [
+   "Baby 3M-24M",
+   "Baby Dresses",
+   "Baby Girl Clothing",
+   "Baby Rompers (3M–24M)",
+   "Baby Rompers for Sale",
+   "Baby Sets",
+   "Big Girl 7-14",
+   "Boys 3M-24M",
+   "Boys 4-10",
+   "Boys Best Sellers",
+   "Boys Bottoms",
+   "Boys Rompers"
+  ]
+ },
+ "anthropologie": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "free-people": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "urban-outfitters": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "old-navy": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "kids": 67,
+   "men": 100,
+   "women": 60,
+   "other": 21
+  },
+  "via": "sitemap",
+  "kidsCollections": []
+ },
+ "gap": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "women": 64,
+   "men": 83,
+   "other": 18,
+   "kids": 95
+  },
+  "via": "sitemap",
+  "kidsCollections": []
+ },
+ "j-crew": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "kids": 259
+  },
+  "via": "sitemap",
+  "kidsCollections": []
+ },
+ "abercrombie-and-fitch": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "kids": 14
+  },
+  "via": "sitemap",
+  "kidsCollections": []
+ },
+ "reformation": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "everlane": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "women": 160,
+   "other": 28,
+   "men": 100,
+   "kids": 3
+  },
+  "via": "shopify",
+  "kidsCollections": []
+ },
+ "faherty": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "women": 160,
+   "men": 100,
+   "other": 55,
+   "kids": 47
+  },
+  "via": "shopify",
+  "kidsCollections": [
+   "Gifts for Kids"
+  ]
+ },
+ "rails": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "men": 100,
+   "women": 160,
+   "other": 60,
+   "kids": 1
+  },
+  "via": "shopify",
+  "kidsCollections": []
+ },
+ "banana-republic": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "men": 100,
+   "kids": 2,
+   "women": 75,
+   "other": 60
+  },
+  "via": "sitemap",
+  "kidsCollections": []
+ },
+ "lilly-pulitzer": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "kate-spade": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "tory-burch": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "lululemon": {
+  "status": "unreachable",
+  "checked": "2026-11-04",
+  "reason": "site did not respond"
+ },
+ "diane-von-furstenberg": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "women": 160,
+   "kids": 8
+  },
+  "via": "shopify",
+  "kidsCollections": [
+   "Girls Trip"
+  ]
+ },
+ "staud": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "women": 160
+  },
+  "via": "shopify",
+  "kidsCollections": []
+ },
+ "christy-dawn": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "women": 160,
+   "kids": 10
+  },
+  "via": "shopify",
+  "kidsCollections": [
+   "Kids",
+   "Kids: 50% Off"
+  ]
+ },
+ "doen": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "other": 60,
+   "kids": 45
+  },
+  "via": "shopify",
+  "kidsCollections": [
+   "Kids"
+  ]
+ },
+ "american-eagle": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "kids": 66,
+   "men": 100
+  },
+  "via": "sitemap",
+  "kidsCollections": []
+ },
+ "todd-snyder": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "monica-and-andy": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "kids": 168
+  },
+  "via": "sitemap",
+  "kidsCollections": []
+ },
+ "loveshackfancy": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "other": 60,
+   "kids": 300,
+   "women": 4,
+   "men": 4
+  },
+  "via": "shopify",
+  "kidsCollections": [
+   "All Kids",
+   "Baby",
+   "Baby Gifts",
+   "Baby Nalina Bloomer",
+   "Baby Pajama",
+   "Boys",
+   "Boys Resort Swim",
+   "Cool Girls",
+   "GG Kids Preview",
+   "Girls Billie Skirt",
+   "Girls Gifts",
+   "Girls Havaianas"
+  ]
+ },
+ "hill-house-home": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "other": 60,
+   "kids": 132,
+   "women": 17,
+   "home": 60,
+   "men": 2
+  },
+  "via": "shopify",
+  "kidsCollections": [
+   "American Girl",
+   "Baby",
+   "Baby",
+   "Baby",
+   "Baby & Kids Bedding",
+   "Baby & Tiny Gifts",
+   "Baby + Kids Bath",
+   "Baby Blanket",
+   "Baby Clothing",
+   "Baby Dresses",
+   "Baby/Tiny PJ Sets",
+   "For the Baby"
+  ]
+ },
+ "alice-and-olivia": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "women": 160,
+   "kids": 5
+  },
+  "via": "shopify",
+  "kidsCollections": []
+ },
+ "taylor-stitch": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "men": 100,
+   "kids": 10
+  },
+  "via": "shopify",
+  "kidsCollections": []
+ },
+ "madewell": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "kids": 5,
+   "men": 100,
+   "women": 129,
+   "other": 1
+  },
+  "via": "sitemap",
+  "kidsCollections": []
+ },
+ "buck-mason": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "other": 60
+  },
+  "via": "sitemap",
+  "kidsCollections": []
  }
 }
