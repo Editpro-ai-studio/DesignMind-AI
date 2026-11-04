@@ -7458,5 +7458,373 @@
   },
   "via": "sitemap",
   "kidsCollections": []
+ },
+ "jaypore": {
+  "status": "error",
+  "checked": "2026-11-04",
+  "reason": "URI malformed"
+ },
+ "firstcry": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "anokhi": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "house-of-masaba": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "women": 406,
+   "men": 448,
+   "kids": 57
+  },
+  "via": "shopify",
+  "kidsCollections": [
+   "Indian Girl Summer",
+   "Twin in Baby Pink"
+  ]
+ },
+ "w-for-woman": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "women": 1500,
+   "men": 26
+  },
+  "via": "shopify",
+  "kidsCollections": []
+ },
+ "nicobar": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "women": 1393,
+   "men": 540,
+   "home": 400,
+   "other": 600,
+   "kids": 6
+  },
+  "via": "shopify",
+  "kidsCollections": [
+   "New Arrival Kids",
+   "Nico Kids",
+   "Nicobar kids"
+  ]
+ },
+ "okhai": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "men": 224,
+   "other": 600,
+   "women": 1500,
+   "kids": 745
+  },
+  "via": "shopify",
+  "kidsCollections": [
+   "Ajoobaa",
+   "Gifts for Kids",
+   "Kids All",
+   "Kids Clothing",
+   "Kids Collection",
+   "Kids Furnishing",
+   "Kids Winterwear",
+   "Poddar Export",
+   "Pouches Purses & Bags",
+   "Whitewater Kids"
+  ]
+ },
+ "bunaai": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "women": 238,
+   "men": 5
+  },
+  "via": "shopify",
+  "kidsCollections": []
+ },
+ "suta": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "women": 1500,
+   "men": 170,
+   "kids": 93
+  },
+  "via": "shopify",
+  "kidsCollections": [
+   "Baby Mittens",
+   "Baby Wear",
+   "Bol Baby Bol",
+   "Bol Baby Bol Blouses",
+   "Bol Baby Bol Sarees",
+   "Girl of the Alps Blouses",
+   "Girl Of The Alps Sarees",
+   "Hey Girl Let’s Swirl Sarees",
+   "Kids Saree",
+   "Kids Wear"
+  ]
+ },
+ "good-earth": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "global-desi": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "women": 6
+  },
+  "via": "sitemap",
+  "kidsCollections": []
+ },
+ "ritu-kumar": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "libas": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "women": 1500,
+   "kids": 35,
+   "men": 50
+  },
+  "via": "shopify",
+  "kidsCollections": [
+   "3 Year Girl Dress",
+   "4 Year Girl Dress",
+   "6 Year Girl Dress",
+   "7 Year Girl Dress",
+   "anarkali dress for girls",
+   "ghagra choli for girls",
+   "girls anarkali",
+   "Girls Blue Clothing",
+   "girls cotton clothing",
+   "girls festival wear",
+   "Girls Green Clothing",
+   "Girls Maroon Clothing",
+   "Girls Purple Clothing",
+   "Girls Red Clothing",
+   "Girls Sequins Work Clothing",
+   "Girls Velvet Clothing",
+   "Girls Yellow Clothing"
+  ]
+ },
+ "biba": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "kids": 76,
+   "women": 247,
+   "other": 123
+  },
+  "via": "sitemap",
+  "kidsCollections": []
+ },
+ "sabyasachi": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "manyavar": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "kids": 165,
+   "men": 188,
+   "women": 165
+  },
+  "via": "sitemap",
+  "kidsCollections": []
+ },
+ "tarun-tahiliani": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "men": 336,
+   "women": 690,
+   "other": 363
+  },
+  "via": "shopify",
+  "kidsCollections": []
+ },
+ "manish-malhotra": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "women": 837,
+   "other": 537,
+   "men": 334
+  },
+  "via": "shopify",
+  "kidsCollections": []
+ },
+ "raw-mango": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "women": 987,
+   "kids": 63
+  },
+  "via": "shopify",
+  "kidsCollections": [
+   "CHILDREN OF THE NIGHT"
+  ]
+ },
+ "payal-singhal": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "women": 1370,
+   "men": 270,
+   "kids": 59
+  },
+  "via": "shopify",
+  "kidsCollections": [
+   "Bandi Sets Boy",
+   "Boys",
+   "Girls",
+   "Indo Western Girls",
+   "Kaftans Girls",
+   "kids",
+   "Kurta Sets Girls",
+   "Lehengas Girls",
+   "Mask Boys",
+   "Tunics Girls"
+  ]
+ },
+ "taneira": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "torani": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "women": 1500,
+   "men": 729,
+   "kids": 107
+  },
+  "via": "shopify",
+  "kidsCollections": [
+   "Boys",
+   "Girls",
+   "Kids",
+   "Kidswear - All"
+  ]
+ },
+ "kalki-fashion": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "kids": 239,
+   "men": 1000,
+   "women": 1500,
+   "other": 600
+  },
+  "via": "shopify",
+  "kidsCollections": [
+   "Boy's Kurta Set",
+   "Boy's Nehru Jacket Set",
+   "Boy's Sherwani",
+   "Boy's Tuxedo",
+   "Girl's Gown",
+   "Girl's Lehenga Set",
+   "Girl's Suits",
+   "Kids",
+   "Kids Festive Wear",
+   "kids Lehenga",
+   "Kids Sherwani",
+   "Kids wear on Sale",
+   "Kids Wedding Wear",
+   "See All Boy's",
+   "See All Girl's"
+  ]
+ },
+ "aurelia": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "women": 1500,
+   "kids": 48
+  },
+  "via": "shopify",
+  "kidsCollections": [
+   "Aurelia Girls"
+  ]
+ },
+ "tasva": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "raymond": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "men": 1000
+  },
+  "via": "shopify",
+  "kidsCollections": []
+ },
+ "soch": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "hopscotch": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "anita-dongre": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "women": 206,
+   "other": 204,
+   "men": 188
+  },
+  "via": "sitemap",
+  "kidsCollections": []
+ },
+ "and": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "women": 560
+  },
+  "via": "sitemap",
+  "kidsCollections": []
+ },
+ "fabindia": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "kids": 22,
+   "home": 400
+  },
+  "via": "sitemap",
+  "kidsCollections": []
+ },
+ "indya": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "kids": 39,
+   "men": 261,
+   "women": 60
+  },
+  "via": "sitemap",
+  "kidsCollections": []
  }
 }
