@@ -1997,27 +1997,27 @@
  },
  "mango": {
   "status": "website",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "zara": {
   "status": "website",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "neck-and-neck": {
   "status": "unreachable",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "reason": "site did not respond"
  },
  "mayoral": {
   "status": "website",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "tuc-tuc": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
    "kids": 300
   },
@@ -2039,11 +2039,11 @@
  },
  "desigual": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
    "other": 60,
-   "women": 90,
-   "men": 4
+   "women": 69,
+   "men": 3
   },
   "via": "sitemap",
   "kidsCollections": []
