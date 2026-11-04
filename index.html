@@ -387,6 +387,7 @@ select:focus,input:focus,textarea:focus{outline:none;border-color:#C9973B;box-sh
 .rdrelb small{color:var(--muted)}
 .lbclose{background:var(--gold)!important;color:#24160A!important}
 /* Search */
+#v-brands.indetail #bWant,#v-brands.indetail #bSearch,#v-brands.indetail #bMarket,#v-brands.indetail #bStyle,#v-brands.indetail>p.muted{display:none!important}
 .shero{display:flex;flex-direction:column;gap:14px;margin:18px 0 16px;padding:22px;border-radius:22px;background:linear-gradient(120deg,#1A0F2E,#3B1650 55%,#0E2A35);border:1px solid rgba(233,201,121,.3);color:#FBF4E6;box-shadow:0 30px 60px -36px rgba(30,10,50,.9)}
 .sbox{display:flex;gap:8px;align-items:center;background:rgba(255,255,255,.96);border-radius:999px;padding:6px;box-shadow:0 0 0 1px rgba(233,201,121,.6),0 10px 30px -14px rgba(0,0,0,.7)}
 .sbox input[type=search]{flex:1;border:none;background:transparent;font-size:16.5px;padding:10px 14px;color:#1C1325;box-shadow:none!important}
@@ -896,18 +897,37 @@ function openTrend(t){
       <div class="rdmeta"><span><b>Published</b>${esc(fmtD(t.published))}</span><span><b>Observed</b>${esc(fmtD(t.observed||t.verified))}</span><span><b>Verified</b>${esc(fmtD(t.verified))}</span>${t.gender?`<span><b>For</b>${esc(t.gender)}${(t.ages||[]).length?" · "+esc(t.ages.join(", ")):""}</span>`:""}</div>
       <div class="row" style="margin-top:14px"><button class="btn small" type="button" data-rd="design">Design from this trend</button>${brand?`<button class="btn small ghost" type="button" data-rd="brand">See ${esc(brand.name)} designs</button>`:""}<button class="btn small ghost" type="button" data-rd="fav">${S.favs.has(t._id)?"★ Saved":"☆ Save"}</button></div>
     </div>
-    <div class="rdbody"><div class="eyebrow" style="margin-bottom:10px">Full article</div><div id="rdArt" class="article">${url?'<div class="skel"></div><div class="skel"></div><div class="skel short"></div><p class="muted" style="font-size:13px">Loading the article inside the app…</p>':'<p class="muted">This record has no source article.</p>'}</div>
+    <div class="rdbody"><div class="row" style="justify-content:space-between;margin-bottom:12px"><div class="eyebrow">Design pictures for this trend</div><button class="btn ghost small" type="button" data-rd="search">Search more designs →</button></div>
+      <div id="rdPics" class="xgrid">${'<div class="xcard sk"></div>'.repeat(8)}</div><p class="muted" id="rdPicsNote" style="font-size:12.5px;margin:10px 0 0"></p>
+      <div class="eyebrow" style="margin:30px 0 10px">Full article</div><div id="rdArt" class="article">${url?'<div class="skel"></div><div class="skel"></div><div class="skel short"></div><p class="muted" style="font-size:13px">Loading the article inside the app…</p>':'<p class="muted">This record has no source article.</p>'}</div>
     ${related.length?`<div class="eyebrow" style="margin:26px 0 10px">Related trends</div><div class="rdrel">${related.map(r=>`<button type="button" class="rdrelb" data-rel="${esc(r._id)}"><b>${esc(r.name)}</b><small>${esc(r.source||"")} · ${esc(fmtD(r.published))}</small></button>`).join("")}</div>`:""}
     ${url?`<p class="muted" style="font-size:11.5px;margin-top:24px">Source: ${esc(t.source||host(url))} (${esc(host(url))}). Text shown for personal research; rights belong to the publisher.</p>`:""}</div></div>`;
   const close=()=>{el.remove();removeEventListener("keydown",onKey)};const onKey=e=>{if(e.key==="Escape")close()};addEventListener("keydown",onKey);
   el.addEventListener("click",async e=>{if(e.target===el||e.target.closest(".lbclose"))return close();
     const rel=e.target.closest("[data-rel]");if(rel){const r=list.find(x=>x._id===rel.dataset.rel);if(r){close();openTrend(r)}return}
+    const dl=e.target.closest("[data-dl]");if(dl&&el.contains(dl)&&dl.closest("#rdPics")){e.stopPropagation();const k=dl.dataset.dl,x=TP[k[0]][+k.slice(1)];dlImage(k[0]==="b"?imgW(x.img,1600):(x.full||x.thumb),x.title);return}
+    const pc=e.target.closest("#rdPics [data-x]");if(pc){const k=pc.dataset.x;picOpen(TP[k[0]][+k.slice(1)],k[0]);return}
     const a=e.target.closest("[data-rd]");if(!a)return;
+    if(a.dataset.rd==="search"){close();$("#xQ").value=t.name;X.img=null;X.imgBlob=null;X.palette=[];$("#xPic").hidden=true;location.hash="#search";setTimeout(()=>xRun(false),50);return}
     if(a.dataset.rd==="design"){$("#cBrief").value=`${t.name} (${t.countryName||""}, ${t.season||""}): ${t.summary} Create original designs that use this trend.`;close();location.hash="#design";toast("Trend added to the design brief.")}
     if(a.dataset.rd==="brand"){close();B.brand=brand.id;B.bmarket=brand.market;B.cat=null;location.hash="#brands"}
     if(a.dataset.rd==="fav"){const star=$(`#trendList [data-fav="${CSS.escape(t._id)}"]`);if(star){star.click();setTimeout(()=>{a.textContent=S.favs.has(t._id)?"★ Saved":"☆ Save"},300)}}});
   document.body.appendChild(el);el.querySelector(".lbclose").focus();
+  const TP={b:[],a:[],l:[]};const artP=[];
+  const drawPics=()=>{const box=el.querySelector("#rdPics");if(!box)return;const html=[...TP.l.slice(0,artP.length).map((x,i)=>xCard("l",x,i)),...TP.b.map((x,i)=>xCard("b",x,i)),...TP.a.map((x,i)=>xCard("a",x,i)),...TP.l.slice(artP.length).map((x,i)=>xCard("l",x,i+artP.length))].join("");box.innerHTML=html||'<div class="empty" style="grid-column:1/-1">No pictures found for this trend yet. Tap “Search more designs”.</div>';
+    const n=TP.b.length+TP.a.length+TP.l.length;el.querySelector("#rdPicsNote").textContent=n?`${TP.b.length?TP.b.length+" from brands · ":""}${artP.length?artP.length+" from the article · ":""}${TP.a.length?TP.a.length+" AI-made · ":""}${TP.l.length-artP.length>0?(TP.l.length-artP.length)+" from design libraries · ":""}tap a picture to see it large, or Download.`:""};
+  (async()=>{const CW={prints:"print",dress_styles:"dress",fabrics:"fabric",colors:"",silhouettes:"silhouette",embroidery:"embroidery",printing_techniques:"print",casual:"",formal:"formal",luxury:"luxury",modest:"modest",streetwear:"streetwear",seasonal:"",emerging:""};
+    const generic=/^(trend|trends|season|seasonal|new|style|styles|look|looks|wear|collection|range|\d{4})$/;
+    const words=xTokens(`${t.name} ${CW[t.category]||""}`).filter(w=>!generic.test(w));
+    try{await xLoadIndex();const segw=t.gender==="male"?["men"]:t.gender==="kids"?["kids"]:t.gender==="female"?["women"]:[];
+      let b=xBrandSearch([...words,...segw],t.country||"all");if(b.length<8)b=b.concat(xBrandSearch([...words,...segw],"all").filter(x=>!b.includes(x)));if(b.length<4&&segw.length)b=b.concat(xBrandSearch(words,"all").filter(x=>!b.includes(x)));TP.b=b.slice(0,16)}catch(e){}
+    if(window.DM_STATIC&&iSettings().images!==false){const look={prints:"textile print pattern",colors:"fashion colour palette mood board",fabrics:"fabric close-up and garment"}[t.category]||"fashion design";
+      TP.a=[1,2,3,4].map(k=>{const u=window.DM_STATIC.image(`${t.name}: ${String(t.summary||"").slice(0,180)}. ${look}, ${t.countryName||""} market, original design, high detail, variation ${k}`);return {id:"ta"+k,ai:true,title:`${t.name} – AI design ${k}`,thumb:u,full:u,source:"AI (Pollinations)",license:"AI preview"}})}
+    drawPics();
+    try{const q=`${t.name} ${({prints:"print pattern",dress_styles:"dress fashion",embroidery:"embroidery",fabrics:"fabric textile"})[t.category]||"fashion"}`;const lib=(await iSearchOne(q,1)).slice(0,12);TP.l=TP.l.concat(lib.filter(x=>!TP.l.some(y=>y.id===x.id)));drawPics()}catch(e){}})();
   if(url)fetchArticle(url).then(md=>{const box=el.querySelector("#rdArt");if(!box)return;const html=mdToHtml(md);
+      const imgs=[...html.matchAll(/<figure><img src="([^"]+)" alt="([^"]*)"/g)].map((m,i)=>({id:"art"+i,title:(m[2]&&m[2].length>3?m[2]:t.name).replace(/&amp;/g,"&").replace(/&quot;/g,'"').replace(/&#39;/g,"'"),thumb:m[1].replace(/&amp;/g,"&"),full:m[1].replace(/&amp;/g,"&"),source:t.source||host(url),license:"Publisher's photo, for research"}));
+      if(imgs.length){artP.push(...imgs);TP.l=imgs.concat(TP.l.filter(x=>!String(x.id).startsWith("art")));drawPics()}
       box.innerHTML=html.replace(/<[^>]+>/g,"").length>200?html:`<p class="muted">The publisher's page did not provide readable article text. The summary above is what our research recorded from it.</p>`})
     .catch(()=>{const box=el.querySelector("#rdArt");if(box)box.innerHTML=`<p class="muted">The article could not be loaded right now (the reader service may be busy or you may be offline). The summary above is the verified research note for this trend. Try again in a minute.</p>`});
 }
@@ -1249,7 +1269,7 @@ async function renderBrands(){await loadBrandReg();if(!B.market)B.market="all";
   $("#bMarket").innerHTML=`<button type="button" class="chip" data-m="all" aria-pressed="${B.market==="all"}">All markets<span class="n">${total}</span></button>`+COUNTRIES.filter(([s])=>B.reg[s]).map(([s,n])=>`<button type="button" class="chip" data-m="${s}" aria-pressed="${B.market===s}">${esc(n)}<span class="n">${B.reg[s].length}</span></button>`).join("");
   $("#bWant").querySelectorAll("[data-want]").forEach(x=>x.setAttribute("aria-pressed",String(x.dataset.want===B.want)));
   if(B.brand)return renderBrand();
-  $("#bDetail").hidden=true;const list=$("#bList");list.hidden=false;
+  $("#v-brands").classList.remove("indetail");  $("#bDetail").hidden=true;const list=$("#bList");list.hidden=false;
   let brands=B.market==="all"?Object.entries(B.reg).flatMap(([m,l])=>l.map(b=>({...b,market:m}))):(B.reg[B.market]||[]).map(b=>({...b,market:B.market}));
   const seen=new Set();brands=brands.filter(b=>!seen.has(b.id)&&seen.add(b.id));
   const wc={all:brands.length};["kids","women","men","home"].forEach(w=>wc[w]=brands.filter(b=>b.focus.includes(w)).length);
@@ -1271,30 +1291,36 @@ async function renderBrands(){await loadBrandReg();if(!B.market)B.market="all";
    `<div class="muted" style="font-size:13px;margin-bottom:10px">${brands.length} brands · tap a name to see its ${B.want==="all"?"":B.want+" "}designs here</div>`+
    Object.keys(groups).sort().map(L=>`<div class="azgrp"><div class="azl">${esc(L)}</div><div class="azlist">${groups[L].map(b=>{const ix=B.index[b.id]||{};const c=ix.counts||{};const n=B.want==="all"?Object.values(c).reduce((a,x)=>a+x,0):(c[B.want]||0);const ok=ix.status==="catalogue"&&n>0;
      return `<button type="button" class="azrow" data-open-brand="${esc(b.id)}" data-bm="${esc(b.market)}"><span class="mono-mark sm" aria-hidden="true">${esc(initials(b.name))}</span><span class="azname">${esc(b.name)}<small>${esc(mName(b.market))} · ${esc((b.styles&&b.styles.length?b.styles:b.focus).join(", "))}</small></span><span class="azcount ${ok?"":"off"}">${ok?`${n} designs`:ix.status?"Not readable":"Not read yet"}</span></button>`}).join("")}</div></div>`).join("");}
-async function renderBrand(){const b=Object.values(B.reg).flat().find(x=>x.id===B.brand);if(!b){B.brand=null;return renderBrands()}
+async function renderBrand(){const b=Object.values(B.reg).flat().find(x=>x.id===B.brand);if(!b){B.brand=null;return renderBrands()}$("#v-brands").classList.add("indetail");
   if(!B.bmarket||!(B.reg[B.bmarket]||[]).some(x=>x.id===b.id))B.bmarket=Object.keys(B.reg).find(m=>B.reg[m].some(x=>x.id===b.id));
   $("#bList").hidden=true;const box=$("#bDetail");box.hidden=false;
   if(!B.cat||B.cat.id!==b.id){box.innerHTML='<div class="empty">Loading designs…</div>';try{const j=await fetch(`data/brands/${encodeURIComponent(b.id)}.json`).then(r=>{if(!r.ok)throw 0;return r.json()});B.cat={id:b.id,...j}}catch(e){const ix=B.index[b.id]||{};
       box.innerHTML=`<div class="row" style="margin-bottom:12px"><button class="btn small ghost" type="button" id="bBack">← All brands</button></div><div class="bhero"><span class="mono-mark" aria-hidden="true">${esc(initials(b.name))}</span><div><h2 style="font-size:30px">${esc(b.name)}</h2></div></div>
       ${ix.status?`<div class="notice">${esc(b.name)}'s website did not let the app read its designs (${esc(ix.reason||ix.status)}, checked ${esc(fmtD(ix.checked))}). The app tries again every Wednesday.</div>`:`<div class="notice warn"><b>${esc(b.name)}'s designs are not loaded yet.</b> On GitHub open <b>Actions → Update brand catalogues → Run workflow</b>. To load only this brand, type <code>${esc(b.id)}</code> in the target box. It takes a few minutes, then the designs show here.${repoLink()}</div>`}
       <p class="muted" style="font-size:12.5px;margin-top:12px">Website: <a href="${esc(safeUrl(b.site))}" target="_blank" rel="noopener">${esc(host(b.site))}</a></p>`;return}
-    const segs=new Set(B.cat.products.map(p=>p.segment));B.seg=B.want!=="all"&&segs.has(B.want)?B.want:segs.has("kids")?"kids":[...segs][0];B.sub="";B.q="";B.shown=60}
+    const segs=new Set(B.cat.products.map(p=>p.segment));B.seg=B.want!=="all"&&segs.has(B.want)?B.want:"all";B.sub="";B.col="";B.q="";B.shown=60}
   const cur=CUR[B.bmarket]||"";const all=B.cat.products;const cnt={};all.forEach(p=>cnt[p.segment]=(cnt[p.segment]||0)+1);
-  let list=all.filter(p=>p.segment===B.seg&&(!B.sub||p.sub===B.sub));
+  const inSeg=all.filter(p=>B.seg==="all"||p.segment===B.seg);
+  const colCnt={};inSeg.forEach(p=>{if(p.cat)colCnt[p.cat]=(colCnt[p.cat]||0)+1});const cols=Object.entries(colCnt).filter(([,n])=>n>=2).sort((a,b)=>b[1]-a[1]).slice(0,24);
+  if(B.col&&!colCnt[B.col])B.col="";
+  let list=inSeg.filter(p=>(!B.sub||p.sub===B.sub)&&(!B.col||p.cat===B.col));
   if(B.q){const q=B.q.toLowerCase();list=list.filter(p=>`${p.title} ${p.type} ${(p.tags||[]).join(" ")}`.toLowerCase().includes(q))}
   if(B.sort==="low")list.sort((a,b)=>(a.price??1e12)-(b.price??1e12));else if(B.sort==="high")list.sort((a,b)=>(b.price??-1)-(a.price??-1));else list.sort((a,b)=>String(b.added).localeCompare(String(a.added)));
   const subs=B.seg==="kids"?["girls","boys","baby"].filter(k=>all.some(p=>p.segment==="kids"&&p.sub===k)):[];
   const fmtP=n=>n==null?"":`${cur}${cur&&cur.length>1?" ":""}${Number(n).toLocaleString("en-US",{maximumFractionDigits:2})}`;
   box.innerHTML=`<div class="row" style="margin-bottom:12px"><button class="btn small ghost" type="button" id="bBack">← All brands</button></div>
    <div class="bhero"><span class="mono-mark" aria-hidden="true">${esc(initials(b.name))}</span><div style="min-width:0"><h2 style="font-size:30px">${esc(b.name)}</h2><div class="muted" style="font-size:13px">${all.length} designs · updated ${esc(fmtD(B.cat.updated))} · <a href="${esc(safeUrl(B.cat.site||b.site))}" target="_blank" rel="noopener">Open website</a></div></div></div>
-   <div class="subtabs">${["kids","women","men","home","other"].filter(k=>cnt[k]).map(k=>`<button type="button" class="chip" data-seg="${k}" aria-pressed="${B.seg===k}">${k[0].toUpperCase()+k.slice(1)}<span class="n">${cnt[k]}</span></button>`).join("")}</div>
+   <div class="subtabs"><button type="button" class="chip" data-seg="all" aria-pressed="${B.seg==="all"}">All designs<span class="n">${all.length}</span></button>${["kids","women","men","home","other"].filter(k=>cnt[k]).map(k=>`<button type="button" class="chip" data-seg="${k}" aria-pressed="${B.seg===k}">${k[0].toUpperCase()+k.slice(1)}<span class="n">${cnt[k]}</span></button>`).join("")}</div>
    <div class="row" style="margin-bottom:14px">${subs.length?`<div class="chips"><button type="button" class="chip" data-sub="" aria-pressed="${!B.sub}">All</button>${subs.map(k=>`<button type="button" class="chip" data-sub="${k}" aria-pressed="${B.sub===k}">${k[0].toUpperCase()+k.slice(1)}</button>`).join("")}</div>`:""}
+     ${cols.length>1?`<select id="bCol" style="width:auto;max-width:260px"><option value="">All collections (${inSeg.length})</option>${cols.map(([c,n])=>`<option value="${esc(c)}"${B.col===c?" selected":""}>${esc(c)} (${n})</option>`).join("")}</select>`:""}
      <input type="search" id="bQ" placeholder="Search designs, e.g. frock, embroidered, 3 piece" value="${esc(B.q)}" style="flex:1 1 220px;max-width:340px">
      <select id="bSort" style="width:auto"><option value="new">Newest first</option><option value="low">Price: low to high</option><option value="high">Price: high to low</option></select></div>
    ${list.length?`<div class="pgrid">${list.slice(0,B.shown).map((p,i)=>{const isNew=p.added&&(NOW-parseD(p.added))/DAY<30;return `<button type="button" class="prod" data-pi="${i}"><div class="ph">${p.images&&p.images[0]?`<img src="${esc(imgW(p.images[0],480))}" alt="${esc(p.title)}" loading="lazy" referrerpolicy="no-referrer">`:""}${isNew?'<span class="new">NEW</span>':""}</div><div class="pi"><span class="pt">${esc(p.title)}</span><span class="pp">${esc(fmtP(p.price))}${p.compare&&p.compare>p.price?`<s>${esc(fmtP(p.compare))}</s>`:""}</span></div></button>`}).join("")}</div>
      ${list.length>B.shown?`<div class="row" style="justify-content:center;margin-top:16px"><button class="btn ghost" type="button" id="bMore">Show more (${list.length-B.shown})</button></div>`:""}`:'<div class="empty">No designs match.</div>'}
    <p class="muted" style="font-size:12px;margin-top:16px">Designs, photos and names belong to ${esc(b.name)}. Shown for reference with links to the original; use them for research, not for copying.</p>`;
-  $("#bSort").value=B.sort;B._list=list;}
+  $("#bSort").value=B.sort;B._list=list;
+  // Load more automatically while scrolling, so the full collection is one long gallery.
+  const more=$("#bMore");if(more&&"IntersectionObserver" in window){const io=new IntersectionObserver(en=>{if(en[0].isIntersecting){io.disconnect();more.click()}},{rootMargin:"600px"});io.observe(more)}}
 function openProduct(p){const b=Object.values(B.reg).flat().find(x=>x.id===B.brand);const cur=CUR[B.bmarket]||"";const el=document.createElement("div");el.className="lb";el.setAttribute("role","dialog");el.setAttribute("aria-modal","true");
   const imgs=(p.images||[]).filter(safeUrl);
   el.innerHTML=`<div class="lbin"><div class="lbimg">${imgs[0]?`<img id="lbMain" src="${esc(imgW(imgs[0],900))}" alt="${esc(p.title)}" referrerpolicy="no-referrer">`:'<div class="empty">No image</div>'}${imgs.length>1?`<div class="thumbs">${imgs.map((u,i)=>`<img src="${esc(imgW(u,160))}" alt="" data-ti="${i}" aria-current="${i===0}" referrerpolicy="no-referrer">`).join("")}</div>`:""}</div>
@@ -1320,12 +1346,12 @@ $("#bWant").addEventListener("click",e=>{const w=e.target.closest("[data-want]")
 $("#bStyle").addEventListener("click",e=>{const c=e.target.closest("[data-sty]");if(!c)return;B.style=c.dataset.sty;renderBrands()});
 $("#bSearch").addEventListener("input",e=>{B.bq=e.target.value.trim();if(B.brand){B.brand=null}renderBrands()});
 $("#bDetail").addEventListener("click",e=>{if(e.target.closest("#bBack")){B.brand=null;renderBrands();return}
-  const sg=e.target.closest("[data-seg]");if(sg){B.seg=sg.dataset.seg;B.sub="";B.shown=60;renderBrand();return}
+  const sg=e.target.closest("[data-seg]");if(sg){B.seg=sg.dataset.seg;B.sub="";B.col="";B.shown=60;renderBrand();return}
   const sb=e.target.closest("[data-sub]");if(sb){B.sub=sb.dataset.sub;B.shown=60;renderBrand();return}
   if(e.target.closest("#bMore")){B.shown+=60;renderBrand();return}
   const pr=e.target.closest("[data-pi]");if(pr)openProduct(B._list[+pr.dataset.pi]);});
 $("#bDetail").addEventListener("input",e=>{if(e.target.id==="bQ"){B.q=e.target.value.trim();B.shown=60;clearTimeout(B.t);B.t=setTimeout(()=>{renderBrand().then(()=>{const q=$("#bQ");if(q){q.focus();q.setSelectionRange(q.value.length,q.value.length)}})},250)}});
-$("#bDetail").addEventListener("change",e=>{if(e.target.id==="bSort"){B.sort=e.target.value;renderBrand()}});
+$("#bDetail").addEventListener("change",e=>{if(e.target.id==="bSort"){B.sort=e.target.value;renderBrand()}if(e.target.id==="bCol"){B.col=e.target.value;B.shown=60;renderBrand()}});
 if(window.DM_STATIC)$("#navBrands").hidden=false;
 
 /* ---------- Inspiration (GitHub version) ---------- */
@@ -1455,7 +1481,8 @@ async function xRun(more){if(X.busy)return;const q=$("#xQ").value.trim();const s
     const n=X.brands.length+X.lib.length+X.ai.length;
     st.textContent=n?`${n} designs found. Tap a picture to see it large; tap Download to save it.`+(!X.idx||!X.idx.length?" Brand designs appear here after the GitHub brand update has run.":""):"Nothing found. Try simpler words, e.g. “floral print” or “kids frock”.";
   }catch(e){st.className="status err";st.textContent="Search failed: "+(e.message||"check your internet connection")}finally{X.busy=false;$("#xGo").disabled=false}}
-function xOpen(k){const x=xItem(k);if(!x)return;const isB=k[0]==="b";const full=isB?imgW(x.img,1400):(x.full||x.thumb);const brand=isB?(Object.values(B.reg||{}).flat().find(b=>b.id===x.brand)||{}):null;
+function xOpen(k){const x=xItem(k);if(x)picOpen(x,k[0])}
+function picOpen(x,kind){const isB=kind==="b";const full=isB?imgW(x.img,1400):(x.full||x.thumb);const brand=isB?(Object.values(B.reg||{}).flat().find(b=>b.id===x.brand)||{}):null;
   const el=document.createElement("div");el.className="lb";el.setAttribute("role","dialog");el.setAttribute("aria-modal","true");
   el.innerHTML=`<div class="lbin"><div class="lbimg"><img src="${esc(full)}" alt="${esc(x.title)}" referrerpolicy="no-referrer" style="aspect-ratio:auto;object-fit:contain;max-height:78vh"></div><div class="lbtext"><button class="lbclose" type="button" aria-label="Close">×</button>
    <div class="eyebrow">${esc(isB?(brand.name||x.brand):x.ai?"AI-made design":x.source)}</div><h2>${esc(x.title)}</h2>

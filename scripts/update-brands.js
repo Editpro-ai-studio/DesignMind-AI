@@ -12,7 +12,7 @@ const REG = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'brands.json'), '
 const OUT = path.join(ROOT, 'data', 'brands');
 fs.mkdirSync(OUT, { recursive: true });
 const UA = 'Mozilla/5.0 (compatible; DesignMindCatalogue/1.0; personal design research; +https://github.com)';
-const LIMITS = { kids: 300, women: 160, men: 100, home: 60, other: 60 };
+const LIMITS = { kids: 1200, women: 1500, men: 1000, home: 400, other: 600 };
 
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 async function get(url, json = true) {
@@ -58,15 +58,15 @@ function classify(text, focus) {
   return focus.length === 1 ? focus[0] : 'other';
 }
 
-function slim(p, origin, segment, sub) {
+function slim(p, origin, segment, sub, cat) {
   const imgs = (p.images || []).map(i => i.src).filter(Boolean).slice(0, 4);
   const prices = (p.variants || []).map(v => parseFloat(v.price)).filter(n => !isNaN(n));
   const compare = (p.variants || []).map(v => parseFloat(v.compare_at_price)).filter(n => !isNaN(n) && n > 0);
   return {
     id: p.id, title: p.title, url: `${origin}/products/${p.handle}`,
     images: imgs, price: prices.length ? Math.min(...prices) : null, compare: compare.length ? Math.max(...compare) : null,
-    type: p.product_type || '', tags: (Array.isArray(p.tags) ? p.tags : String(p.tags || '').split(',')).map(t => t.trim()).filter(Boolean).slice(0, 12),
-    added: (p.published_at || p.created_at || '').slice(0, 10), segment, sub,
+    type: p.product_type || '', tags: (Array.isArray(p.tags) ? p.tags : String(p.tags || '').split(',')).map(t => t.trim()).filter(t => t && t.length < 40).slice(0, 8),
+    added: (p.published_at || p.created_at || '').slice(0, 10), segment, sub, cat: cat || '',
   };
 }
 
@@ -80,37 +80,50 @@ async function shopifyCatalogue(brand) {
   if (!(await robotsAllows(realOrigin, '/products.json'))) return { platform: 'website', reason: 'site asks not to be read automatically (robots.txt)' };
 
   const products = new Map();
-  const add = (p, segHint, subHint) => {
-    if (products.has(p.id)) return;
-    const text = `${segHint} ${p.title} ${p.product_type} ${(Array.isArray(p.tags) ? p.tags.join(' ') : p.tags) || ''}`;
-    const segment = segHint && RX.kids.test(segHint) ? 'kids' : classify(text, brand.focus);
+  const add = (p, segHint, subHint, catTitle) => {
+    const prev = products.get(p.id);
+    if (prev) { if (catTitle && !prev.cat) prev.cat = catTitle; return; }
+    const text = `${p.title} ${p.product_type} ${(Array.isArray(p.tags) ? p.tags.join(' ') : p.tags) || ''}`;
+    // A product found inside a Men / Women / Kids / Home collection belongs to that section.
+    const segment = segHint || classify(text, brand.focus);
     const sub = segment === 'kids' ? (subOf(subHint || '') || subOf(text)) : '';
-    products.set(p.id, slim(p, realOrigin, segment, sub));
+    products.set(p.id, slim(p, realOrigin, segment, sub, catTitle));
   };
+  const SKIP_COL = /\b(all|sale|frontpage|home ?page|new|latest|best|featured|gift|clearance|outlet|search|shop[- ]?all|catalog|everything)\b/i;
+  const segOfCol = c => { const t = `${c.handle} ${c.title}`; return RX.kids.test(t) ? 'kids' : RX.men.test(t) ? 'men' : (brand.focus.includes('home') && RX.home.test(t)) ? 'home' : RX.women.test(t) ? 'women' : ''; };
 
-  // 1) Kids collections first, so kids designs are complete.
+  // 1) Every Kids / Men / Women / Home collection, so each section is complete (not only the newest items).
   let collections = [];
-  try { collections = (await get(`${realOrigin}/collections.json?limit=250`)).data.collections || []; } catch {}
-  const kidsCols = collections.filter(c => RX.kids.test(`${c.handle} ${c.title}`)).slice(0, 12);
-  for (const c of kidsCols) {
-    for (let page = 1; page <= 4; page++) {
-      try {
-        const { data } = await get(`${realOrigin}/collections/${encodeURIComponent(c.handle)}/products.json?limit=250&page=${page}`);
-        (data.products || []).forEach(p => add(p, `kids ${c.title}`, `${c.handle} ${c.title}`));
-        if (!data.products || data.products.length < 250) break;
-      } catch { break; }
-      await sleep(1200);
-    }
-    await sleep(800);
+  for (let page = 1; page <= 3; page++) {
+    try { const got = (await get(`${realOrigin}/collections.json?limit=250&page=${page}`)).data.collections || []; collections.push(...got); if (got.length < 250) break; } catch { break; }
   }
-  // 2) Latest products across the store.
-  for (let page = 1; page <= 6; page++) {
+  const bySegCols = {};
+  for (const c of collections) { const sg = segOfCol(c); if (!sg || (c.products_count === 0)) continue; (bySegCols[sg] ||= []).push(c); }
+  const kidsCols = bySegCols.kids || [];
+  const order = ['kids', 'men', 'women', 'home'].filter(sg => brand.focus.includes(sg) || bySegCols[sg]);
+  for (const sg of order) {
+    // Bigger collections first; skip "sale / new / all" style lists that mix everything.
+    const cols = (bySegCols[sg] || []).filter(c => !SKIP_COL.test(c.title) || RX[sg].test(c.title)).sort((a, b) => (b.products_count || 0) - (a.products_count || 0)).slice(0, sg === 'home' ? 4 : 10);
+    for (const c of cols) {
+      for (let page = 1; page <= 4; page++) {
+        try {
+          const { data } = await get(`${realOrigin}/collections/${encodeURIComponent(c.handle)}/products.json?limit=250&page=${page}`);
+          (data.products || []).forEach(p => add(p, sg, `${c.handle} ${c.title}`, c.title));
+          if (!data.products || data.products.length < 250) break;
+        } catch { break; }
+        await sleep(900);
+      }
+      await sleep(500);
+    }
+  }
+  // 2) The whole store (up to 5,000 products) for anything not in those collections.
+  for (let page = 1; page <= 20; page++) {
     try {
       const { data } = await get(`${realOrigin}/products.json?limit=250&page=${page}`);
-      (data.products || []).forEach(p => add(p, '', ''));
+      (data.products || []).forEach(p => add(p, '', '', ''));
       if (!data.products || data.products.length < 250) break;
     } catch { break; }
-    await sleep(1200);
+    await sleep(900);
   }
 
   const all = [...products.values()].sort((a, b) => String(b.added).localeCompare(String(a.added)));
@@ -128,7 +141,7 @@ async function wooCatalogue(brand) {
   const realOrigin = new URL(first.url).origin;
   if (!(await robotsAllows(realOrigin, '/wp-json/wc/store/v1/products'))) return { platform: 'website', reason: 'site asks not to be read automatically (robots.txt)' };
   const raw = [...first.data];
-  for (let page = 2; page <= 8 && raw.length >= (page - 1) * 100; page++) {
+  for (let page = 2; page <= 25 && raw.length >= (page - 1) * 100; page++) {
     try { const { data } = await get(`${realOrigin}/wp-json/wc/store/v1/products?per_page=100&page=${page}&orderby=date&order=desc`); if (!Array.isArray(data) || !data.length) break; raw.push(...data); } catch { break; }
     await sleep(1200);
   }
@@ -145,7 +158,7 @@ async function wooCatalogue(brand) {
       images: (p.images || []).map(i => i.src).filter(Boolean).slice(0, 4),
       price, compare: reg && price && reg > price ? reg : null,
       type: (p.categories || [])[0]?.name || '', tags: (p.tags || []).map(t => t.name).slice(0, 12),
-      added: '', segment, sub: segment === 'kids' ? subOf(text) : '',
+      added: '', segment, sub: segment === 'kids' ? subOf(text) : '', cat: (p.categories || []).map(c => c.name).filter(n => !/uncategor/i.test(n))[0] || '',
     };
   });
   return { platform: 'woocommerce', origin: realOrigin, products: capSegments(products), kidsCollections: [] };
@@ -157,7 +170,7 @@ async function sitemapUrls(origin) {
   const seeds = new Set([`${origin}/sitemap.xml`, `${origin}/sitemap_index.xml`, `${origin}/product-sitemap.xml`]);
   try { const { text } = await get(`${origin}/robots.txt`, false); for (const m of text.matchAll(/^\s*sitemap:\s*(\S+)/gim)) seeds.add(m[1].trim()); } catch {}
   const productUrls = new Map(); const queue = [...seeds]; const seen = new Set(); let fetched = 0;
-  while (queue.length && fetched < 14 && productUrls.size < 3000) {
+  while (queue.length && fetched < 24 && productUrls.size < 8000) {
     const sm = queue.shift(); if (seen.has(sm)) continue; seen.add(sm);
     let xml; try { xml = (await get(sm, false)).text; fetched++; } catch { continue; }
     if (/<sitemapindex/i.test(xml)) {
@@ -209,18 +222,23 @@ async function sitemapCatalogue(brand) {
   if (!urls.size) return null;
   const list = [...urls.entries()].filter(([u]) => { try { return true; } catch { return false; } });
   // Kids pages first (by URL), then newest by lastmod.
-  list.sort((a, b) => (RX.kids.test(b[0]) - RX.kids.test(a[0])) || String(b[1].lastmod).localeCompare(String(a[1].lastmod)));
-  const pick = []; for (const [u, m] of list) { if (pick.length >= 260) break; if (await robotsAllows(origin, new URL(u).pathname)) pick.push([u, m]); else if (!pick.length) return { platform: 'website', reason: 'site asks not to be read automatically (robots.txt)' }; }
+  list.sort((a, b) => String(b[1].lastmod).localeCompare(String(a[1].lastmod)));
+  // Take newest pages from each section in turn (kids, men, women, others) so every section gets designs.
+  const guess = u => { const t = decodeURIComponent(u).replace(/[-_/]/g, ' '); return RX.kids.test(t) ? 'kids' : RX.men.test(t) ? 'men' : RX.women.test(t) ? 'women' : 'other'; };
+  const lanes = { kids: [], men: [], women: [], other: [] }; list.forEach(x => lanes[guess(x[0])].push(x));
+  const mixed = []; for (let i = 0; mixed.length < list.length; i++) { let any = false; for (const k of ['kids', 'men', 'women', 'other']) if (lanes[k][i]) { mixed.push(lanes[k][i]); any = true; } if (!any) break; }
+  const pick = []; for (const [u, m] of mixed) { if (pick.length >= 600) break; if (await robotsAllows(origin, new URL(u).pathname)) pick.push([u, m]); else if (!pick.length) return { platform: 'website', reason: 'site asks not to be read automatically (robots.txt)' }; }
   const products = [];
-  for (let i = 0; i < pick.length; i += 4) {
-    const res = await Promise.allSettled(pick.slice(i, i + 4).map(async ([u, m]) => {
+  for (let i = 0; i < pick.length; i += 6) {
+    const res = await Promise.allSettled(pick.slice(i, i + 6).map(async ([u, m]) => {
       const { text } = await get(u, false); const p = parseProductPage(text, u); if (!p) return null;
       const all = `${u} ${p.crumbs} ${p.category} ${p.title}`; const segment = classify(all, brand.focus);
-      return { id: u, title: p.title, url: u, images: p.images.length ? p.images : (m.image ? [m.image] : []), price: p.price, compare: null, type: String(p.category || '').split('>').pop().trim(), tags: [], added: m.lastmod, segment, sub: segment === 'kids' ? subOf(all) : '' };
+      const cat = String(p.category || '').split('>').pop().trim() || String(p.crumbs || '').split(' ').slice(-2, -1)[0] || '';
+      return { id: u, title: p.title, url: u, images: p.images.length ? p.images : (m.image ? [m.image] : []), price: p.price, compare: null, type: String(p.category || '').split('>').pop().trim(), tags: [], added: m.lastmod, segment, sub: segment === 'kids' ? subOf(all) : '', cat };
     }));
     res.forEach(r => { if (r.status === 'fulfilled' && r.value) products.push(r.value); });
     if (i >= 40 && !products.length) break; // pages aren't product pages we can read
-    await sleep(900);
+    await sleep(700);
   }
   if (!products.length) return null;
   return { platform: 'sitemap', origin, products: capSegments(products), kidsCollections: [] };
