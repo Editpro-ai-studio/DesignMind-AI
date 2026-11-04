@@ -3999,5 +3999,153 @@
   },
   "via": "sitemap",
   "kidsCollections": []
+ },
+ "shushu-tong": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "shein": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "urban-revivo": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "women": 160,
+   "men": 93,
+   "other": 28,
+   "kids": 1
+  },
+  "via": "shopify",
+  "kidsCollections": []
+ },
+ "commense": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "women": 160
+  },
+  "via": "shopify",
+  "kidsCollections": []
+ },
+ "peacebird": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "li-ning": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "semir": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "icicle": {
+  "status": "error",
+  "checked": "2026-11-04",
+  "reason": "Invalid URL"
+ },
+ "jnby": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "women": 160,
+   "other": 1
+  },
+  "via": "shopify",
+  "kidsCollections": [
+   "25SS Kids",
+   "Accessories Babies",
+   "Accessories jnby by JNBY",
+   "All Babies",
+   "All jnby by JNBY",
+   "Babies",
+   "Babies for Pinterest",
+   "Best Seller Babies",
+   "Best Seller jnby by JNBY",
+   "Bodysuits Babies",
+   "Bottoms Babies",
+   "Coats & Jackets Babies"
+  ]
+ },
+ "mo-and-co": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "women": 160
+  },
+  "via": "shopify",
+  "kidsCollections": []
+ },
+ "angel-chen": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "feng-chen-wang": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "men": 100,
+   "women": 114,
+   "other": 36
+  },
+  "via": "shopify",
+  "kidsCollections": []
+ },
+ "ms-min": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "shiatzy-chen": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "uma-wang": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "cider": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "kids": 2,
+   "women": 157
+  },
+  "via": "sitemap",
+  "kidsCollections": []
+ },
+ "bosideng": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "balabala": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "kids": 164
+  },
+  "via": "sitemap",
+  "kidsCollections": []
+ },
+ "halara": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "kids": 8,
+   "women": 144
+  },
+  "via": "sitemap",
+  "kidsCollections": []
  }
 }
