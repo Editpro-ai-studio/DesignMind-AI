@@ -8178,5 +8178,202 @@
   },
   "via": "sitemap",
   "kidsCollections": []
+ },
+ "shushu-tong": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "shein": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "peacebird": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "commense": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "women": 1500
+  },
+  "via": "shopify",
+  "kidsCollections": []
+ },
+ "li-ning": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "semir": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "urban-revivo": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "men": 205,
+   "women": 1500,
+   "kids": 1,
+   "other": 6
+  },
+  "via": "shopify",
+  "kidsCollections": []
+ },
+ "icicle": {
+  "status": "error",
+  "checked": "2026-11-04",
+  "reason": "Invalid URL"
+ },
+ "jnby": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "women": 1500
+  },
+  "via": "shopify",
+  "kidsCollections": [
+   "25SS Kids",
+   "Accessories Babies",
+   "Accessories jnby by JNBY",
+   "All Babies",
+   "All jnby by JNBY",
+   "Babies",
+   "Babies for Pinterest",
+   "Best Seller Babies",
+   "Best Seller jnby by JNBY",
+   "Bodysuits Babies",
+   "Bottoms Babies",
+   "Coats & Jackets Babies",
+   "Coats & Jackets jnby by JNBY",
+   "Designer Recommended jnby by JNBY",
+   "Dresses & Jumpsuits Babies",
+   "Dresses & Jumpsuits jnby by JNBY",
+   "Dresses Babies",
+   "Dresses jnby by JNBY",
+   "Hoodies Babies",
+   "Hoodies Kids",
+   "Jackets Babies",
+   "Jackets Kids",
+   "Jeans Babies",
+   "Jeans jnby by JNBY",
+   "jnby by JNBY",
+   "JNBY KIDS",
+   "Jnby Kids",
+   "Jumpsuits Kids",
+   "Kids for Pinterest",
+   "Knitwear Babies",
+   "Knitwear Kids",
+   "New Arrivals Babies",
+   "New Arrivals jnby by JNBY",
+   "New Kids & Babies Collection",
+   "Other Accessories Babies",
+   "Other Accessories jnby by JNBY",
+   "Outerwear Babies",
+   "Outerwear Kids",
+   "Pants Babies",
+   "Pants jnby by JNBY",
+   "Shirts Babies",
+   "Shirts jnby by JNBY",
+   "Shoes jnby by JNBY",
+   "Shorts Babies",
+   "Shorts jnby by JNBY",
+   "Skirts Babies",
+   "Skirts jnby by JNBY",
+   "Socks Babies",
+   "Socks jnby by JNBY",
+   "Suits Babies",
+   "Sweaters & Hoodies Babies",
+   "Sweaters & Hoodies jnby by JNBY",
+   "Swimwear Kids",
+   "T-Shirts & Tank Top jnby by JNBY",
+   "T-Shirts Babies",
+   "Tops Babies",
+   "Tops jnby by JNBY",
+   "Trench Coats Babies",
+   "Trench Coats Kids",
+   "Vest Babies",
+   "Vest jnby by JNBY"
+  ]
+ },
+ "angel-chen": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "mo-and-co": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "women": 1500
+  },
+  "via": "shopify",
+  "kidsCollections": []
+ },
+ "feng-chen-wang": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "men": 298,
+   "women": 123,
+   "other": 26
+  },
+  "via": "shopify",
+  "kidsCollections": []
+ },
+ "ms-min": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "shiatzy-chen": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "uma-wang": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "bosideng": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "cider": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "kids": 2,
+   "men": 1,
+   "women": 597
+  },
+  "via": "sitemap",
+  "kidsCollections": []
+ },
+ "balabala": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "kids": 240
+  },
+  "via": "sitemap",
+  "kidsCollections": []
+ },
+ "halara": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "kids": 8,
+   "women": 196
+  },
+  "via": "sitemap",
+  "kidsCollections": []
  }
 }
