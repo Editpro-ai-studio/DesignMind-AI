@@ -1579,5 +1579,448 @@
   },
   "via": "sitemap",
   "kidsCollections": []
+ },
+ "next": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "jojo-maman-bebe": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "primark": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "liberty-london": {
+  "status": "unreachable",
+  "checked": "2026-11-04",
+  "reason": "site did not respond"
+ },
+ "cath-kidston": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "laura-ashley": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "frugi": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "kids": 300
+  },
+  "via": "shopify",
+  "kidsCollections": [
+   "30% off Baby Gifting",
+   "Baby Accessories",
+   "Baby Bodies & Vests",
+   "Baby Clothing",
+   "Baby Coats & Jackets",
+   "Baby Dresses & Skirts",
+   "Baby Dungarees",
+   "Baby Gift Sets & Outfits",
+   "Baby Hats & Gloves",
+   "Baby Jumpers & Cardigans",
+   "Baby Leggings",
+   "Baby Muslins & Blankets"
+  ]
+ },
+ "marks-spencer": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "kids": 1,
+   "home": 60
+  },
+  "via": "sitemap",
+  "kidsCollections": []
+ },
+ "monsoon": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "kids": 189,
+   "women": 52,
+   "other": 19
+  },
+  "via": "sitemap",
+  "kidsCollections": []
+ },
+ "boden": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "kids": 172
+  },
+  "via": "sitemap",
+  "kidsCollections": []
+ },
+ "river-island": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "kids": 67,
+   "women": 160
+  },
+  "via": "sitemap",
+  "kidsCollections": []
+ },
+ "reiss": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "ted-baker": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "other": 22,
+   "women": 12,
+   "men": 45
+  },
+  "via": "shopify",
+  "kidsCollections": []
+ },
+ "jigsaw": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "women": 160,
+   "other": 4,
+   "kids": 42
+  },
+  "via": "shopify",
+  "kidsCollections": []
+ },
+ "burberry": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "kids": 62,
+   "women": 91,
+   "men": 70
+  },
+  "via": "sitemap",
+  "kidsCollections": []
+ },
+ "joules": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "white-stuff": {
+  "status": "unreachable",
+  "checked": "2026-11-04",
+  "reason": "site did not respond"
+ },
+ "fatface": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "seasalt-cornwall": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "me-and-em": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "rixo": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "women": 160,
+   "kids": 7
+  },
+  "via": "shopify",
+  "kidsCollections": []
+ },
+ "never-fully-dressed": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "women": 160,
+   "kids": 8
+  },
+  "via": "shopify",
+  "kidsCollections": [
+   "Kidswear"
+  ]
+ },
+ "kitri": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "kids": 22,
+   "women": 160
+  },
+  "via": "shopify",
+  "kidsCollections": [
+   "As seen on #KITRIgirls"
+  ]
+ },
+ "hush": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "damson-madder": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "women": 160,
+   "kids": 2
+  },
+  "via": "shopify",
+  "kidsCollections": []
+ },
+ "lucy-and-yak": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "women": 160
+  },
+  "via": "shopify",
+  "kidsCollections": []
+ },
+ "toast": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "women": 160,
+   "home": 60,
+   "men": 100,
+   "kids": 9,
+   "other": 42
+  },
+  "via": "shopify",
+  "kidsCollections": []
+ },
+ "lilly-and-sid": {
+  "status": "unreachable",
+  "checked": "2026-11-04",
+  "reason": "site did not respond"
+ },
+ "whistles": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "kids": 2,
+   "women": 160
+  },
+  "via": "sitemap",
+  "kidsCollections": []
+ },
+ "allsaints": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "kids": 1,
+   "men": 100,
+   "women": 8
+  },
+  "via": "sitemap",
+  "kidsCollections": []
+ },
+ "scamp-and-dude": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "women": 160,
+   "men": 9,
+   "other": 55,
+   "kids": 117
+  },
+  "via": "shopify",
+  "kidsCollections": [
+   "Animal Print Swimwear for Kids",
+   "Baby Rompers",
+   "BF Kids",
+   "Full priced kidswear",
+   "Gift Ideas for Kids",
+   "Gifts for kids",
+   "KIDS ACCESSORIES",
+   "KIDS BESTSELLERS",
+   "Kids Christmas Gifts",
+   "KIDS DRESSES",
+   "KIDS HOLIDAY SHOP",
+   "KIDS HOODIES"
+  ]
+ },
+ "marie-chantal": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "kids": 265,
+   "women": 5,
+   "men": 3
+  },
+  "via": "shopify",
+  "kidsCollections": [
+   "Baby & Childrenswear Sale",
+   "Baby Angel Wing",
+   "Baby Blankets - Cashmere & Cotton",
+   "Baby Bottoms",
+   "Baby Boy",
+   "Baby Cashmere & Knitwear",
+   "Baby Christening Gifts",
+   "Baby Dresses",
+   "Baby Full Price",
+   "Baby Girl",
+   "Baby Onesies & Tops",
+   "Baby Outfits & Sets"
+  ]
+ },
+ "rachel-riley": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "kids": 300,
+   "women": 1
+  },
+  "via": "shopify",
+  "kidsCollections": [
+   "2 Piece Boys Sets",
+   "AW19 Baby",
+   "AW19 Baby Boy",
+   "AW19 Baby Girl",
+   "AW19 Boy",
+   "AW19 Girl",
+   "AW20 Baby",
+   "AW20 Boys",
+   "AW20 Girls",
+   "AW21 Baby",
+   "AW21 Baby Boy",
+   "AW21 Baby Girl"
+  ]
+ },
+ "rockahula-kids": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "kids": 300,
+   "men": 1
+  },
+  "via": "shopify",
+  "kidsCollections": [
+   "Boys"
+  ]
+ },
+ "tobias-and-the-bear": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "the-white-company": {
+  "status": "website",
+  "checked": "2026-11-04",
+  "reason": "site blocks automatic reading or has no readable product list"
+ },
+ "hobbs": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "women": 160
+  },
+  "via": "sitemap",
+  "kidsCollections": []
+ },
+ "vivienne-westwood": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "other": 60,
+   "women": 160,
+   "men": 32
+  },
+  "via": "sitemap",
+  "kidsCollections": []
+ },
+ "percival": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "men": 100
+  },
+  "via": "shopify",
+  "kidsCollections": []
+ },
+ "oliver-spencer": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "men": 100,
+   "kids": 8
+  },
+  "via": "shopify",
+  "kidsCollections": []
+ },
+ "folk": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "men": 100,
+   "women": 160,
+   "other": 23
+  },
+  "via": "shopify",
+  "kidsCollections": []
+ },
+ "sunspel": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "men": 100,
+   "kids": 7,
+   "women": 115,
+   "other": 1
+  },
+  "via": "shopify",
+  "kidsCollections": [
+   "Women's Boy Fit T-shirts"
+  ]
+ },
+ "trotters": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "kids": 300,
+   "men": 1,
+   "women": 1
+  },
+  "via": "shopify",
+  "kidsCollections": [
+   "All Baby Boys",
+   "All Baby Girls",
+   "Baby Accessories",
+   "Baby Bibs, Booties & Blankets",
+   "Baby Bodies",
+   "Baby Bodies and All-in-Ones",
+   "Baby Bodysuits",
+   "Baby Coats & Jackets",
+   "Baby Dresses",
+   "Baby Girls' Christmas Shop",
+   "Baby Hair Accessories",
+   "Baby Hats & Mittens"
+  ]
+ },
+ "phase-eight": {
+  "status": "catalogue",
+  "checked": "2026-11-04",
+  "counts": {
+   "women": 160
+  },
+  "via": "sitemap",
+  "kidsCollections": []
  }
 }
