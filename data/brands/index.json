@@ -1824,17 +1824,17 @@
  },
  "spao": {
   "status": "website",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "reason": "site asks not to be read automatically (robots.txt)"
  },
  "musinsa": {
   "status": "website",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "wooyoungmi": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
    "other": 60
   },
@@ -1843,7 +1843,7 @@
  },
  "ader-error": {
   "status": "catalogue",
-  "checked": "2026-11-02",
+  "checked": "2026-11-04",
   "counts": {
    "other": 60
   },
