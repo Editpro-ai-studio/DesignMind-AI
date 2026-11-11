@@ -8755,22 +8755,29 @@
  },
  "shushu-tong": {
   "status": "website",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "shein": {
-  "status": "website",
-  "checked": "2026-11-04",
-  "reason": "site blocks automatic reading or has no readable product list"
+  "status": "catalogue",
+  "checked": "2026-11-11",
+  "counts": {
+   "kids": 150,
+   "home": 400,
+   "women": 1,
+   "other": 1
+  },
+  "via": "sitemap",
+  "kidsCollections": []
  },
  "peacebird": {
   "status": "website",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "commense": {
   "status": "catalogue",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "counts": {
    "women": 1500
   },
@@ -8779,34 +8786,34 @@
  },
  "li-ning": {
   "status": "website",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "semir": {
   "status": "website",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "urban-revivo": {
   "status": "catalogue",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "counts": {
-   "men": 205,
+   "men": 225,
    "women": 1500,
    "kids": 1,
-   "other": 6
+   "other": 7
   },
   "via": "shopify",
   "kidsCollections": []
  },
  "icicle": {
   "status": "error",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "reason": "Invalid URL"
  },
  "jnby": {
   "status": "catalogue",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "counts": {
    "women": 1500
   },
@@ -8877,12 +8884,12 @@
  },
  "angel-chen": {
   "status": "website",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "mo-and-co": {
   "status": "catalogue",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "counts": {
    "women": 1500
   },
@@ -8891,61 +8898,61 @@
  },
  "feng-chen-wang": {
   "status": "catalogue",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "counts": {
-   "men": 298,
-   "women": 123,
-   "other": 26
+   "men": 256,
+   "women": 113,
+   "other": 12
   },
   "via": "shopify",
   "kidsCollections": []
  },
  "ms-min": {
   "status": "website",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "shiatzy-chen": {
   "status": "website",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "uma-wang": {
   "status": "website",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "bosideng": {
   "status": "website",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "cider": {
   "status": "catalogue",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "counts": {
    "kids": 2,
    "men": 1,
-   "women": 597
+   "women": 399
   },
   "via": "sitemap",
   "kidsCollections": []
  },
  "balabala": {
   "status": "catalogue",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "counts": {
-   "kids": 240
+   "kids": 195
   },
   "via": "sitemap",
   "kidsCollections": []
  },
  "halara": {
   "status": "catalogue",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "counts": {
    "kids": 8,
-   "women": 196
+   "women": 190
   },
   "via": "sitemap",
   "kidsCollections": []
