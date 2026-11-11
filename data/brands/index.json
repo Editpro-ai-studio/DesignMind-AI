@@ -7819,43 +7819,51 @@
   "kidsCollections": []
  },
  "ader-error": {
-  "status": "unreachable",
-  "checked": "2026-11-04",
-  "reason": "site did not respond"
+  "status": "catalogue",
+  "checked": "2026-11-11",
+  "counts": {
+   "other": 599
+  },
+  "via": "sitemap",
+  "kidsCollections": []
  },
  "spao": {
   "status": "website",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "reason": "site asks not to be read automatically (robots.txt)"
  },
  "mixxo": {
   "status": "website",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "8seconds": {
   "status": "website",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "reason": "site asks not to be read automatically (robots.txt)"
  },
  "thisisneverthat": {
   "status": "website",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "musinsa": {
   "status": "website",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "topten10": {
-  "status": "unreachable",
-  "checked": "2026-11-04",
-  "reason": "site did not respond"
+  "status": "catalogue",
+  "checked": "2026-11-11",
+  "counts": {
+   "other": 600
+  },
+  "via": "sitemap",
+  "kidsCollections": []
  },
  "low-classic": {
   "status": "catalogue",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "counts": {
    "women": 9
   },
@@ -7863,38 +7871,47 @@
   "kidsCollections": []
  },
  "recto": {
-  "status": "website",
-  "checked": "2026-11-04",
-  "reason": "site blocks automatic reading or has no readable product list"
+  "status": "catalogue",
+  "checked": "2026-11-11",
+  "counts": {
+   "men": 33,
+   "women": 327
+  },
+  "via": "sitemap",
+  "kidsCollections": []
  },
  "covernat": {
   "status": "website",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "nerdy": {
-  "status": "unreachable",
-  "checked": "2026-11-04",
-  "reason": "site did not respond"
+  "status": "catalogue",
+  "checked": "2026-11-11",
+  "counts": {
+   "other": 21
+  },
+  "via": "shopify",
+  "kidsCollections": []
  },
  "juun-j": {
-  "status": "unreachable",
-  "checked": "2026-11-04",
-  "reason": "site did not respond"
+  "status": "website",
+  "checked": "2026-11-11",
+  "reason": "site blocks automatic reading or has no readable product list"
  },
  "system": {
   "status": "website",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "bean-pole": {
   "status": "website",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "reason": "site asks not to be read automatically (robots.txt)"
  },
  "wooyoungmi": {
   "status": "catalogue",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "counts": {
    "men": 600
   },
@@ -7908,11 +7925,13 @@
    "other": 39
   },
   "via": "sitemap",
-  "kidsCollections": []
+  "kidsCollections": [],
+  "stale": true,
+  "lastError": "site blocks automatic reading or has no readable product list"
  },
  "kirsh": {
   "status": "catalogue",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "counts": {
    "women": 600
   },
@@ -7921,7 +7940,7 @@
  },
  "mardi-mercredi": {
   "status": "catalogue",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "counts": {
    "kids": 300,
    "women": 300
@@ -7931,26 +7950,31 @@
  },
  "matin-kim": {
   "status": "catalogue",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "counts": {
-   "kids": 6,
-   "men": 97,
-   "women": 497
+   "kids": 5,
+   "men": 96,
+   "women": 496
   },
   "via": "sitemap",
   "kidsCollections": []
  },
  "agabang": {
-  "status": "website",
-  "checked": "2026-11-04",
-  "reason": "site blocks automatic reading or has no readable product list"
+  "status": "catalogue",
+  "checked": "2026-11-11",
+  "counts": {
+   "kids": 113
+  },
+  "via": "sitemap",
+  "kidsCollections": []
  },
  "bebe-de-pino": {
   "status": "catalogue",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "counts": {
-   "kids": 1,
-   "women": 7
+   "kids": 244,
+   "men": 1,
+   "women": 19
   },
   "via": "sitemap",
   "kidsCollections": []
