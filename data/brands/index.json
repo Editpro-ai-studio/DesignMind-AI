@@ -8959,72 +8959,72 @@
  },
  "mango": {
   "status": "website",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "zara": {
   "status": "website",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "neck-and-neck": {
   "status": "unreachable",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "reason": "site did not respond"
  },
  "massimo-dutti": {
   "status": "website",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "bershka": {
   "status": "website",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "pull-and-bear": {
   "status": "website",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "stradivarius": {
   "status": "website",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "oysho": {
   "status": "website",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "lefties": {
   "status": "website",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "zara-home": {
   "status": "website",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "bimba-y-lola": {
   "status": "website",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "mayoral": {
   "status": "website",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "sfera": {
   "status": "website",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "tuc-tuc": {
   "status": "catalogue",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "counts": {
    "kids": 1200
   },
@@ -9072,8 +9072,8 @@
    "Niño 2-16 Años",
    "Niño flash sale",
    "Nueva colección niño",
+   "Nueva temporada niño",
    "Ocasión especial niño",
-   "Ofertas Halloween niño",
    "Outlet abrigos y chaquetas Bebé niño",
    "Outlet abrigos y chaquetas Niño",
    "Outlet bañadores y toallas Bebé niño",
@@ -9134,16 +9134,16 @@
  },
  "springfield": {
   "status": "website",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "paloma-wool": {
   "status": "catalogue",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "counts": {
    "other": 600,
-   "women": 51,
-   "men": 157
+   "men": 158,
+   "women": 52
   },
   "via": "shopify",
   "kidsCollections": [
@@ -9152,10 +9152,10 @@
  },
  "ecoalf": {
   "status": "catalogue",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "counts": {
-   "women": 122,
-   "men": 748
+   "women": 142,
+   "men": 765
   },
   "via": "shopify",
   "kidsCollections": [
@@ -9204,19 +9204,19 @@
  },
  "laagam": {
   "status": "catalogue",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "counts": {
-   "women": 345
+   "women": 352
   },
   "via": "shopify",
   "kidsCollections": []
  },
  "bobo-choses": {
   "status": "catalogue",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "counts": {
+   "kids": 1005,
    "women": 162,
-   "kids": 1004,
    "other": 600
   },
   "via": "shopify",
@@ -9305,10 +9305,10 @@
  },
  "the-animals-observatory": {
   "status": "catalogue",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "counts": {
    "kids": 1200,
-   "women": 87,
+   "women": 86,
    "men": 1
   },
   "via": "shopify",
@@ -9345,27 +9345,27 @@
  },
  "gocco": {
   "status": "website",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "nanos": {
   "status": "website",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "loewe": {
   "status": "website",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "pili-carrera": {
-  "status": "unreachable",
-  "checked": "2026-11-04",
-  "reason": "site did not respond"
+  "status": "website",
+  "checked": "2026-11-11",
+  "reason": "site blocks automatic reading or has no readable product list"
  },
  "paz-rodriguez": {
   "status": "catalogue",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "counts": {
    "kids": 1200
   },
@@ -9412,10 +9412,10 @@
  },
  "la-coqueta": {
   "status": "catalogue",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "counts": {
-   "kids": 753,
-   "women": 15
+   "kids": 741,
+   "women": 13
   },
   "via": "shopify",
   "kidsCollections": [
@@ -9536,37 +9536,41 @@
   ]
  },
  "bonnet-a-pompon": {
-  "status": "unreachable",
-  "checked": "2026-11-04",
-  "reason": "site did not respond"
+  "status": "catalogue",
+  "checked": "2026-11-11",
+  "counts": {
+   "kids": 296
+  },
+  "via": "sitemap",
+  "kidsCollections": []
  },
  "desigual": {
   "status": "catalogue",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "counts": {
-   "other": 310,
-   "women": 201,
-   "kids": 36,
-   "men": 47
+   "other": 320,
+   "women": 256,
+   "men": 23,
+   "kids": 1
   },
   "via": "sitemap",
   "kidsCollections": []
  },
  "cortefiel": {
   "status": "catalogue",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "counts": {
    "kids": 150,
    "men": 150,
    "women": 150,
-   "other": 150
+   "other": 139
   },
   "via": "sitemap",
   "kidsCollections": []
  },
  "adolfo-dominguez": {
   "status": "catalogue",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "counts": {
    "men": 16,
    "women": 40,
@@ -9577,7 +9581,7 @@
  },
  "boboli": {
   "status": "catalogue",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "counts": {
    "kids": 600
   },
