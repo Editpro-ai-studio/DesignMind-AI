@@ -3632,7 +3632,7 @@
    {
     "id": "uniqlo",
     "name": "Uniqlo",
-    "site": "https://www.uniqlo.com",
+    "site": "https://www.uniqlojp.com",
     "focus": [
      "women",
      "men",
@@ -3645,7 +3645,7 @@
    {
     "id": "muji",
     "name": "Muji",
-    "site": "https://www.muji.com",
+    "site": "https://www.muji.us",
     "focus": [
      "women",
      "men",
@@ -3681,7 +3681,7 @@
    {
     "id": "beams",
     "name": "Beams",
-    "site": "https://www.beams.co.jp",
+    "site": "https://beams-america.com",
     "focus": [
      "women",
      "men"
@@ -3730,7 +3730,7 @@
    {
     "id": "yohji-yamamoto",
     "name": "Yohji Yamamoto",
-    "site": "https://www.theshopyohjiyamamoto.jp",
+    "site": "https://theshopyohjiyamamoto.jp",
     "focus": [
      "women",
      "men"
@@ -3905,7 +3905,7 @@
    {
     "id": "hakka-kids",
     "name": "Hakka Kids",
-    "site": "https://www.hakka.co.jp",
+    "site": "https://hakka-online.jp",
     "focus": [
      "kids"
     ],

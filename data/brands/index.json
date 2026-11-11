@@ -7445,12 +7445,22 @@
  },
  "familiar": {
   "status": "catalogue",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "counts": {
    "kids": 1200
   },
   "via": "shopify",
   "kidsCollections": [
+   "Baby - 02119FW41",
+   "Baby - 02119FW42",
+   "Baby - 02119FW43",
+   "Baby - 02119FW44",
+   "Baby - 02119FW45",
+   "Baby - 02119FW46",
+   "Baby - 02119FW47",
+   "Baby - 02119FW48",
+   "Baby - 02119FW49",
+   "Baby - 02119FW50",
    "Baby - 02119FW51",
    "Baby - 02119FW52",
    "Baby - 02119FW53",
@@ -7494,7 +7504,18 @@
    "fall winter baby wear",
    "ITEM - GOODS > FOR BABY",
    "ITEM - WEAR > INNER > FOR BABY",
-   "ITEM - WEAR > INNER > FOR KIDS",
+   "Kids - 0118fw57",
+   "Kids - 0118fw58",
+   "Kids - 0118fw59",
+   "Kids - 0118fw60",
+   "Kids - 0118fw61",
+   "Kids - 0118fw62",
+   "Kids - 0118fw63",
+   "Kids - 0118fw64",
+   "Kids - 0118fw65",
+   "Kids - 0118fw66",
+   "Kids - 0118fw67",
+   "Kids - 0118fw68",
    "Kids - 0118fw69",
    "Kids - 0118fw70",
    "Kids - 0118fw71",
@@ -7537,6 +7558,16 @@
    "Kids - 0119fw09",
    "Kids - 0119fw10",
    "Kids - 0119fw11",
+   "New born - 0221FW50",
+   "New born - 0221FW51",
+   "New born - 0221FW52",
+   "New born - 0221FW53",
+   "New born - 0221FW54",
+   "New born - 0221FW55",
+   "New born - 0221FW56",
+   "New born - 0221FW57",
+   "New born - 0221FW58",
+   "New born - 0221FW59",
    "New born - 0221FW60",
    "New born - 0221FW61",
    "New born - 0221FW62",
@@ -7573,7 +7604,7 @@
  },
  "miki-house": {
   "status": "catalogue",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "counts": {
    "kids": 1200
   },
@@ -7618,27 +7649,27 @@
  },
  "comme-des-garcons": {
   "status": "website",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "yohji-yamamoto": {
-  "status": "unreachable",
-  "checked": "2026-11-04",
-  "reason": "site did not respond"
+  "status": "website",
+  "checked": "2026-11-11",
+  "reason": "site blocks automatic reading or has no readable product list"
  },
  "gu": {
   "status": "website",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "mina-perhonen": {
   "status": "website",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "issey-miyake": {
   "status": "catalogue",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "counts": {
    "other": 600,
    "men": 23
@@ -7648,41 +7679,41 @@
  },
  "kapital": {
   "status": "website",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "visvim": {
   "status": "website",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "united-arrows": {
   "status": "website",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "journal-standard": {
   "status": "website",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "sacai": {
   "status": "catalogue",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "counts": {
-   "other": 35,
-   "women": 393,
-   "men": 199
+   "women": 398,
+   "men": 217,
+   "other": 37
   },
   "via": "shopify",
   "kidsCollections": []
  },
  "sousou": {
   "status": "catalogue",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "counts": {
    "other": 600,
-   "kids": 41,
+   "kids": 30,
    "men": 2
   },
   "via": "shopify",
@@ -7691,44 +7722,64 @@
    "【夏のセール2026】子供",
    "こども",
    "ベビーフィート",
-   "リバーシブル ネックウォーマーKIDS",
-   "出産のお祝い",
-   "台湾セブン-イレブン×SOU・SOU キッズレインポンチョ"
+   "リバーシブル ネックウォーマーKIDS"
   ]
  },
  "uniqlo": {
-  "status": "unreachable",
-  "checked": "2026-11-04",
-  "reason": "site did not respond"
+  "status": "website",
+  "checked": "2026-11-11",
+  "reason": "site blocks automatic reading or has no readable product list"
  },
  "muji": {
-  "status": "unreachable",
-  "checked": "2026-11-04",
-  "reason": "site did not respond"
+  "status": "catalogue",
+  "checked": "2026-11-11",
+  "counts": {
+   "home": 400,
+   "men": 809,
+   "other": 600,
+   "women": 807,
+   "kids": 5
+  },
+  "via": "shopify",
+  "kidsCollections": []
  },
  "beams": {
-  "status": "unreachable",
-  "checked": "2026-11-04",
-  "reason": "site did not respond"
+  "status": "catalogue",
+  "checked": "2026-11-11",
+  "counts": {
+   "kids": 128,
+   "men": 1000,
+   "women": 314,
+   "other": 201
+  },
+  "via": "shopify",
+  "kidsCollections": [
+   "BEAMS BOY",
+   "BEAMS BOY SALE",
+   "BEAMS BOY SPRING '26",
+   "Kids",
+   "orSlow X BEAMS BOY",
+   "Tailor TOYO x BEAMS BOY"
+  ]
  },
  "tsumori-chisato": {
   "status": "website",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "petit-main": {
   "status": "website",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "hakka-kids": {
-  "status": "unreachable",
-  "checked": "2026-11-04",
-  "reason": "site did not respond"
+  "status": "website",
+  "checked": "2026-11-11",
+  "reason": "site blocks automatic reading or has no readable product list"
  },
  "neighborhood": {
   "status": "catalogue",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "counts": {
    "men": 325
   },
@@ -7740,28 +7791,28 @@
  },
  "branshes": {
   "status": "website",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "snidel": {
   "status": "catalogue",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "counts": {
-   "women": 144
+   "women": 204
   },
   "via": "sitemap",
   "kidsCollections": []
  },
  "nishimatsuya": {
   "status": "website",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "earth-music-and-ecology": {
   "status": "catalogue",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "counts": {
-   "women": 584,
+   "women": 595,
    "kids": 5
   },
   "via": "sitemap",
