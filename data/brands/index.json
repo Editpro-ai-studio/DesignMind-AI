@@ -3515,17 +3515,17 @@
  },
  "next": {
   "status": "website",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "jojo-maman-bebe": {
   "status": "website",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "frugi": {
   "status": "catalogue",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "counts": {
    "kids": 771
   },
@@ -3623,37 +3623,40 @@
   ]
  },
  "liberty-london": {
-  "status": "unreachable",
-  "checked": "2026-11-04",
-  "reason": "site did not respond"
+  "status": "catalogue",
+  "checked": "2026-11-11",
+  "counts": {
+   "other": 225
+  },
+  "via": "shopify",
+  "kidsCollections": []
  },
  "cath-kidston": {
   "status": "website",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "laura-ashley": {
   "status": "website",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "marks-spencer": {
   "status": "catalogue",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "counts": {
    "kids": 1,
-   "home": 400,
-   "other": 1
+   "home": 400
   },
   "via": "sitemap",
   "kidsCollections": []
  },
  "boden": {
   "status": "catalogue",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "counts": {
-   "kids": 107,
-   "women": 107,
+   "kids": 63,
+   "women": 63,
    "other": 1
   },
   "via": "sitemap",
@@ -3661,55 +3664,55 @@
  },
  "monsoon": {
   "status": "catalogue",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "counts": {
-   "kids": 336,
-   "women": 206,
-   "other": 58
+   "kids": 332,
+   "women": 208,
+   "other": 60
   },
   "via": "sitemap",
   "kidsCollections": []
  },
  "river-island": {
   "status": "catalogue",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "counts": {
-   "kids": 67,
-   "men": 3,
-   "women": 530
+   "kids": 80,
+   "men": 2,
+   "women": 518
   },
   "via": "sitemap",
   "kidsCollections": []
  },
  "reiss": {
   "status": "website",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "ted-baker": {
   "status": "catalogue",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "counts": {
-   "men": 856,
-   "women": 467
+   "men": 932,
+   "women": 526
   },
   "via": "shopify",
   "kidsCollections": []
  },
  "burberry": {
   "status": "catalogue",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "counts": {
    "kids": 94,
    "men": 131,
-   "women": 188
+   "women": 191
   },
   "via": "sitemap",
   "kidsCollections": []
  },
  "jigsaw": {
   "status": "catalogue",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "counts": {
    "women": 1500,
    "other": 4,
@@ -3720,46 +3723,52 @@
  },
  "primark": {
   "status": "catalogue",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "counts": {
-   "kids": 158,
+   "kids": 168,
+   "women": 120,
    "men": 45,
-   "women": 109,
-   "home": 34,
-   "other": 29
+   "other": 25,
+   "home": 35
   },
   "via": "sitemap",
   "kidsCollections": []
  },
  "joules": {
   "status": "website",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "white-stuff": {
-  "status": "unreachable",
-  "checked": "2026-11-04",
-  "reason": "site did not respond"
+  "status": "catalogue",
+  "checked": "2026-11-11",
+  "counts": {
+   "kids": 3,
+   "women": 3,
+   "other": 251
+  },
+  "via": "sitemap",
+  "kidsCollections": []
  },
  "vivienne-westwood": {
   "status": "catalogue",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "counts": {
    "men": 199,
    "women": 200,
-   "other": 88
+   "other": 86
   },
   "via": "sitemap",
   "kidsCollections": []
  },
  "fatface": {
   "status": "website",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "whistles": {
   "status": "catalogue",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "counts": {
    "kids": 2,
    "women": 560
@@ -3769,14 +3778,14 @@
  },
  "seasalt-cornwall": {
   "status": "website",
-  "checked": "2026-11-04",
-  "reason": "site blocks automatic reading or has no readable product list"
+  "checked": "2026-11-11",
+  "reason": "site asks not to be read automatically (robots.txt)"
  },
  "rixo": {
   "status": "catalogue",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "counts": {
-   "women": 833,
+   "women": 832,
    "kids": 7
   },
   "via": "shopify",
@@ -3784,7 +3793,7 @@
  },
  "kitri": {
   "status": "catalogue",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "counts": {
    "kids": 22,
    "women": 199
@@ -3796,17 +3805,17 @@
  },
  "hush": {
   "status": "website",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "me-and-em": {
   "status": "website",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "lucy-and-yak": {
   "status": "catalogue",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "counts": {
    "women": 247
   },
@@ -3815,10 +3824,10 @@
  },
  "never-fully-dressed": {
   "status": "catalogue",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "counts": {
-   "women": 839,
-   "kids": 7
+   "women": 818,
+   "kids": 6
   },
   "via": "shopify",
   "kidsCollections": [
@@ -3827,39 +3836,39 @@
  },
  "damson-madder": {
   "status": "catalogue",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "counts": {
-   "women": 523
+   "women": 567
   },
   "via": "shopify",
   "kidsCollections": []
  },
  "lilly-and-sid": {
   "status": "unreachable",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "reason": "site did not respond"
  },
  "toast": {
   "status": "catalogue",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "counts": {
-   "women": 721,
-   "men": 270,
-   "home": 331,
-   "kids": 1,
-   "other": 24
+   "women": 713,
+   "home": 328,
+   "men": 269,
+   "other": 25,
+   "kids": 1
   },
   "via": "shopify",
   "kidsCollections": []
  },
  "scamp-and-dude": {
   "status": "catalogue",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "counts": {
-   "men": 9,
-   "women": 705,
-   "other": 51,
-   "kids": 117
+   "kids": 114,
+   "women": 675,
+   "other": 46,
+   "men": 9
   },
   "via": "shopify",
   "kidsCollections": [
@@ -3891,9 +3900,9 @@
  },
  "marie-chantal": {
   "status": "catalogue",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "counts": {
-   "kids": 270,
+   "kids": 267,
    "women": 2,
    "men": 1
   },
@@ -3914,6 +3923,7 @@
    "Baby Shower Gifts",
    "Baby Sleepsuits & Pyjamas",
    "Camille Thuau's Baby Trousseau Edit",
+   "Cashmere Baby Blankets & Gift Sets",
    "Children's Accessories",
    "Children's Angel Wing",
    "Children's Clothing and Sleepwear",
@@ -3941,14 +3951,14 @@
  },
  "the-white-company": {
   "status": "website",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "rachel-riley": {
   "status": "catalogue",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "counts": {
-   "kids": 824,
+   "kids": 821,
    "women": 1
   },
   "via": "shopify",
@@ -4243,14 +4253,14 @@
  },
  "tobias-and-the-bear": {
   "status": "website",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "rockahula-kids": {
   "status": "catalogue",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "counts": {
-   "kids": 390,
+   "kids": 388,
    "men": 1
   },
   "via": "shopify",
@@ -4260,7 +4270,7 @@
  },
  "hobbs": {
   "status": "catalogue",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "counts": {
    "women": 595
   },
@@ -4269,16 +4279,16 @@
  },
  "percival": {
   "status": "catalogue",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "counts": {
-   "men": 909
+   "men": 934
   },
   "via": "shopify",
   "kidsCollections": []
  },
  "trotters": {
   "status": "catalogue",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "counts": {
    "kids": 1200,
    "men": 1,
@@ -4365,30 +4375,30 @@
  },
  "oliver-spencer": {
   "status": "catalogue",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "counts": {
-   "men": 515
+   "men": 519
   },
   "via": "shopify",
   "kidsCollections": []
  },
  "allsaints": {
   "status": "catalogue",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "counts": {
    "kids": 3,
-   "men": 228,
-   "women": 228
+   "women": 229,
+   "men": 227
   },
   "via": "sitemap",
   "kidsCollections": []
  },
  "folk": {
   "status": "catalogue",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "counts": {
    "men": 1000,
-   "women": 358,
+   "women": 362,
    "other": 12
   },
   "via": "shopify",
@@ -4396,9 +4406,9 @@
  },
  "sunspel": {
   "status": "catalogue",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "counts": {
-   "men": 944,
+   "men": 943,
    "kids": 4,
    "women": 115,
    "other": 1
@@ -4410,7 +4420,7 @@
  },
  "phase-eight": {
   "status": "catalogue",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "counts": {
    "women": 600
   },
