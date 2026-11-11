@@ -6869,50 +6869,50 @@
  },
  "jacadi": {
   "status": "website",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "okaidi": {
   "status": "website",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "kiabi": {
   "status": "website",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "chanel": {
   "status": "website",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "louis-vuitton": {
   "status": "website",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "hermes": {
   "status": "website",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "saint-laurent": {
   "status": "website",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "sezane": {
   "status": "website",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "bonpoint": {
   "status": "catalogue",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "counts": {
-   "kids": 179,
-   "women": 842
+   "women": 977,
+   "kids": 82
   },
   "via": "shopify",
   "kidsCollections": [
@@ -6920,6 +6920,7 @@
    "Bonpoint x The Woolmark Company bébé",
    "Bonpoint x The Woolmark Company fille",
    "Bonpoint x The Woolmark Company garçon",
+   "Journées Bonpoint - Enfant",
    "Croisière - Enfant",
    "Enfant",
    "Enfant - Bien-être animal",
@@ -6927,9 +6928,6 @@
    "Enfant - Coton biologique",
    "Enfant - Matières recyclées",
    "Enfant - Sélection engagée",
-   "Gifts for Boys",
-   "Gifts for Girls",
-   "Gifts for Girls",
    "Idées cadeaux enfant",
    "Liberty enfant",
    "Newborn & Baby - Made with Liberty fabrics",
@@ -6938,28 +6936,30 @@
    "Nuit - Enfant",
    "Pre-Fall Collection - Enfant",
    "Pulls, Cardigans - Enfant",
-   "Vestes, Manteaux - Enfant"
+   "Tenues de Fêtes - Enfant ",
+   "Vestes, Manteaux - Enfant",
+   "Journées VIP - Enfant"
   ]
  },
  "balmain": {
   "status": "catalogue",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "counts": {
-   "men": 262,
-   "women": 635,
-   "other": 35
+   "men": 378,
+   "women": 575,
+   "other": 25
   },
   "via": "shopify",
   "kidsCollections": []
  },
  "cyrillus": {
   "status": "catalogue",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "counts": {
-   "kids": 994,
+   "kids": 998,
    "other": 348,
-   "men": 565,
-   "women": 360
+   "women": 364,
+   "men": 567
   },
   "via": "shopify",
   "kidsCollections": [
@@ -6989,15 +6989,15 @@
  },
  "jacquemus": {
   "status": "website",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "isabel-marant": {
   "status": "catalogue",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "counts": {
-   "women": 982,
-   "men": 249,
+   "women": 1052,
+   "men": 251,
    "other": 370
   },
   "via": "shopify",
@@ -7005,46 +7005,50 @@
  },
  "kenzo": {
   "status": "website",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "claudie-pierlot": {
-  "status": "unreachable",
-  "checked": "2026-11-04",
-  "reason": "site did not respond"
+  "status": "catalogue",
+  "checked": "2026-11-11",
+  "counts": {
+   "women": 69
+  },
+  "via": "sitemap",
+  "kidsCollections": []
  },
  "maje": {
   "status": "catalogue",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "counts": {
-   "women": 76
+   "women": 81
   },
   "via": "sitemap",
   "kidsCollections": []
  },
  "rouje": {
   "status": "catalogue",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "counts": {
-   "women": 596,
-   "kids": 1
+   "women": 627,
+   "kids": 2
   },
   "via": "shopify",
   "kidsCollections": []
  },
  "ba-and-sh": {
   "status": "website",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "zadig-and-voltaire": {
   "status": "website",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "a-p-c": {
   "status": "catalogue",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "counts": {
    "other": 600,
    "kids": 7,
@@ -7055,12 +7059,12 @@
  },
  "ami-paris": {
   "status": "catalogue",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "counts": {
    "kids": 44,
-   "men": 557,
-   "women": 121,
-   "other": 22
+   "men": 565,
+   "women": 124,
+   "other": 11
   },
   "via": "shopify",
   "kidsCollections": [
@@ -7069,26 +7073,27 @@
  },
  "dior": {
   "status": "catalogue",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "counts": {
-   "other": 579
+   "other": 585,
+   "kids": 3
   },
   "via": "sitemap",
   "kidsCollections": []
  },
  "chloe": {
   "status": "catalogue",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "counts": {
-   "kids": 193,
-   "other": 94
+   "kids": 216,
+   "other": 78
   },
   "via": "sitemap",
   "kidsCollections": []
  },
  "petit-bateau": {
   "status": "catalogue",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "counts": {
    "men": 15,
    "kids": 174,
@@ -7100,29 +7105,87 @@
  },
  "sandro": {
   "status": "catalogue",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "counts": {
    "women": 190,
-   "men": 269
+   "men": 268
   },
   "via": "sitemap",
   "kidsCollections": []
  },
  "catimini": {
-  "status": "unreachable",
-  "checked": "2026-11-04",
-  "reason": "site did not respond"
+  "status": "website",
+  "checked": "2026-11-11",
+  "reason": "site blocks automatic reading or has no readable product list"
  },
  "tartine-et-chocolat": {
-  "status": "unreachable",
-  "checked": "2026-11-04",
-  "reason": "site did not respond"
+  "status": "catalogue",
+  "checked": "2026-11-11",
+  "counts": {
+   "kids": 1200,
+   "women": 4,
+   "men": 1
+  },
+  "via": "shopify",
+  "kidsCollections": [
+   "Accessoires|Enfant fille",
+   "Accessoires|Enfant garçon",
+   "Baby Ride|Collaboration",
+   "Cardigans - Gilets|enfant fille",
+   "Cardigans - Pulls - Sweats|Enfant fille",
+   "Chaussures|enfant fille",
+   "Chaussures|enfant garçon",
+   "Chemises|enfant garçon",
+   "Cérémonie enfant",
+   "Cérémonie junior fille",
+   "Cérémonie junior garçon",
+   "Enfant Fille|Les Petits Prix",
+   "Enfant Fille|Outlet",
+   "Enfant fille|Ventes privées",
+   "Enfant garçon",
+   "Enfant Garçon|Les Petits Prix",
+   "Enfant Garçon|Outlet",
+   "Enfant garçon|Ventes privées",
+   "Enfant|Collection Hiver",
+   "Enfant|Outlet",
+   "Ensembles - Combinaisons|enfant Fille",
+   "Garçon|Collection Hiver",
+   "Kujten Enfant",
+   "Les coups de coeur de la saison|enfant",
+   "Looks enfant fille",
+   "Looks enfant garçon",
+   "Mailles Garçon",
+   "Maillots de bain|enfant fille",
+   "Maillots de bain|enfant garçon",
+   "Manteaux et Vestes | Fille",
+   "Manteaux|enfant garçon",
+   "Nouveautés chaussures enfant",
+   "Pantalons - Shorts |enfant garçon",
+   "Pantalons|enfant fille",
+   "Pulls - Gilets - Sweats|enfant garçon",
+   "Pulls - Sweats|enfant fille",
+   "Robes | Fille",
+   "Shorts - Jupes|enfant fille",
+   "Shorts|enfant garçon",
+   "Silhouettes Fleuries | Enfant Fille",
+   "Soldes enfant fille",
+   "Soldes enfant garçon",
+   "Soldes vêtements enfant",
+   "T-shirts - Blouses|enfant fille",
+   "T-shirts - Polos|enfant garçon",
+   "Tenues baptême enfant",
+   "Veste enfant hiver",
+   "Vêtements Enfant",
+   "Vêtements Enfant Fille"
+  ]
  },
  "sergent-major": {
   "status": "catalogue",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "counts": {
-   "kids": 415
+   "kids": 1200,
+   "men": 3,
+   "women": 2
   },
   "via": "shopify",
   "kidsCollections": [
@@ -7138,12 +7201,12 @@
  },
  "vertbaudet": {
   "status": "website",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "du-pareil-au-meme": {
   "status": "catalogue",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "counts": {
    "kids": 1200
   },
@@ -7167,10 +7230,10 @@
  },
  "bonton": {
   "status": "catalogue",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "counts": {
-   "kids": 630,
-   "other": 480,
+   "kids": 780,
+   "other": 582,
    "home": 1,
    "women": 3
   },
@@ -7221,11 +7284,11 @@
  },
  "louise-misha": {
   "status": "catalogue",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "counts": {
-   "women": 383,
-   "other": 197,
-   "kids": 415
+   "kids": 416,
+   "women": 390,
+   "other": 201
   },
   "via": "shopify",
   "kidsCollections": [
@@ -7335,22 +7398,22 @@
  },
  "emile-et-ida": {
   "status": "catalogue",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "counts": {
-   "kids": 395,
-   "women": 190
+   "women": 193,
+   "kids": 425
   },
   "via": "shopify",
   "kidsCollections": []
  },
  "agnes-b": {
   "status": "website",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "promod": {
   "status": "catalogue",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "counts": {
    "kids": 23,
    "women": 577
@@ -7360,22 +7423,22 @@
  },
  "sessun": {
   "status": "catalogue",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "counts": {
-   "women": 518
+   "women": 414
   },
   "via": "sitemap",
   "kidsCollections": []
  },
  "souleiado": {
   "status": "catalogue",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "counts": {
-   "kids": 5,
-   "men": 37,
-   "women": 66,
-   "home": 293,
-   "other": 199
+   "kids": 7,
+   "men": 23,
+   "women": 68,
+   "other": 208,
+   "home": 294
   },
   "via": "sitemap",
   "kidsCollections": []
