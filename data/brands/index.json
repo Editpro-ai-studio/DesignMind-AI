@@ -8349,74 +8349,113 @@
  },
  "mothercare-ae": {
   "status": "website",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "max-fashion": {
   "status": "website",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "splash": {
   "status": "website",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "babyshop": {
   "status": "website",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "ounass": {
-  "status": "unreachable",
-  "checked": "2026-11-04",
-  "reason": "site did not respond"
+  "status": "website",
+  "checked": "2026-11-11",
+  "reason": "site blocks automatic reading or has no readable product list"
  },
  "lifestyle": {
-  "status": "unreachable",
-  "checked": "2026-11-04",
-  "reason": "site did not respond"
+  "status": "catalogue",
+  "checked": "2026-11-11",
+  "counts": {
+   "men": 303,
+   "women": 1500,
+   "other": 97,
+   "kids": 1104
+  },
+  "via": "shopify",
+  "kidsCollections": [
+   "All Styles - Fashion for Women, Men, Boys & Girls",
+   "Boys",
+   "Boys Collection",
+   "Boys ethnic wear",
+   "Boys Sherwani Set",
+   "Boys Shirt",
+   "Boys Sleepwear",
+   "Boys Western Wear",
+   "Boys’ Activewear",
+   "Boys’ Ethnic & Festive Wear",
+   "Boys’ Kurta Sets",
+   "Boys’ T-Shirts",
+   "Ethnic and Fusion Wear (B)",
+   "Girl's Ethnic Wear",
+   "Girl's Indo Western Dresses",
+   "Girl's Tops",
+   "Girls",
+   "Girls Bottoms",
+   "Girls Collection",
+   "Girls Jumpsuits",
+   "Girls Lehenga Choli Sets",
+   "Girls Nightwear",
+   "Girls Sweatshirts",
+   "Girls’ Dresses",
+   "Girls’ Ethnic Wear",
+   "Girls’ Western Wear",
+   "Jeans",
+   "Kids’ Clothing Online in UAE",
+   "Kurta Set For Girls",
+   "Nehru Jackets & Blazers for Boys",
+   "Noh.Voh – SASSAFRAS Kids"
+  ]
  },
  "r-and-b": {
-  "status": "unreachable",
-  "checked": "2026-11-04",
-  "reason": "site did not respond"
+  "status": "website",
+  "checked": "2026-11-11",
+  "reason": "site blocks automatic reading or has no readable product list"
  },
  "brands-for-less": {
   "status": "website",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "centrepoint-uae": {
   "status": "website",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "bouguessa": {
   "status": "catalogue",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "counts": {
-   "women": 389,
+   "women": 392,
    "kids": 9
   },
   "via": "shopify",
   "kidsCollections": []
  },
  "dar-sara": {
-  "status": "unreachable",
-  "checked": "2026-11-04",
-  "reason": "site did not respond"
+  "status": "website",
+  "checked": "2026-11-11",
+  "reason": "site blocks automatic reading or has no readable product list"
  },
  "home-centre": {
   "status": "website",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "taller-marmo": {
   "status": "catalogue",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "counts": {
-   "women": 381,
+   "women": 410,
    "kids": 3
   },
   "via": "shopify",
@@ -8424,9 +8463,9 @@
  },
  "bambah": {
   "status": "catalogue",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "counts": {
-   "women": 1003,
+   "women": 1008,
    "kids": 52
   },
   "via": "shopify",
@@ -8434,11 +8473,11 @@
  },
  "the-giving-movement": {
   "status": "catalogue",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "counts": {
+   "women": 320,
+   "men": 272,
    "kids": 283,
-   "men": 266,
-   "women": 310,
    "other": 1
   },
   "via": "shopify",
@@ -8529,6 +8568,7 @@
    "KIDS NEW SEASON",
    "KIDS NOSTALGIA EDIT",
    "KIDS NOVEMBER SALE",
+   "KIDS NOVEMBER SALE - LAST CHANCE TO BUY",
    "KIDS NOVEMBER SALE: ACTIVEWEAR",
    "KIDS NOVEMBER SALE: BACK IN STOCK",
    "KIDS NOVEMBER SALE: BESTSELLERS",
@@ -8541,6 +8581,7 @@
    "KIDS NOVEMBER SALE: TOP PICKS",
    "KIDS NOVEMBER SALE: TOPS",
    "KIDS NOVEMBER SALE: UNDER 200 AED",
+   "KIDS NOVEMBER SALE: WINTER PICKS",
    "KIDS PASTEL GELATO",
    "KIDS POPULAR",
    "KIDS POWDER BLUE",
@@ -8613,7 +8654,7 @@
  },
  "namshi": {
   "status": "unreachable",
-  "checked": "2026-11-04",
+  "checked": "2026-11-11",
   "reason": "site did not respond"
  },
  "honayda": {
