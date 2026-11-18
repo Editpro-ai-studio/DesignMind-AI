@@ -8784,7 +8784,7 @@
  },
  "shushu-tong": {
   "status": "website",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "shein": {
@@ -8797,16 +8797,25 @@
    "other": 1
   },
   "via": "sitemap",
-  "kidsCollections": []
+  "kidsCollections": [],
+  "stale": true,
+  "lastError": "site blocks automatic reading or has no readable product list"
  },
  "peacebird": {
-  "status": "website",
-  "checked": "2026-11-11",
-  "reason": "site blocks automatic reading or has no readable product list"
+  "status": "catalogue",
+  "checked": "2026-11-18",
+  "counts": {
+   "women": 1210,
+   "men": 1000,
+   "kids": 1,
+   "other": 1
+  },
+  "via": "shopify",
+  "kidsCollections": []
  },
  "commense": {
   "status": "catalogue",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "counts": {
    "women": 1500
   },
@@ -8815,34 +8824,34 @@
  },
  "li-ning": {
   "status": "website",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "semir": {
   "status": "website",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "urban-revivo": {
   "status": "catalogue",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "counts": {
-   "men": 225,
+   "other": 7,
+   "men": 245,
    "women": 1500,
-   "kids": 1,
-   "other": 7
+   "kids": 1
   },
   "via": "shopify",
   "kidsCollections": []
  },
  "icicle": {
   "status": "error",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "reason": "Invalid URL"
  },
  "jnby": {
   "status": "catalogue",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "counts": {
    "women": 1500
   },
@@ -8913,12 +8922,12 @@
  },
  "angel-chen": {
   "status": "website",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "mo-and-co": {
   "status": "catalogue",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "counts": {
    "women": 1500
   },
@@ -8927,58 +8936,80 @@
  },
  "feng-chen-wang": {
   "status": "catalogue",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "counts": {
-   "men": 256,
-   "women": 113,
-   "other": 12
+   "men": 263,
+   "other": 14,
+   "women": 113
   },
   "via": "shopify",
   "kidsCollections": []
  },
  "ms-min": {
   "status": "website",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "shiatzy-chen": {
   "status": "website",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "uma-wang": {
   "status": "website",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "bosideng": {
-  "status": "website",
-  "checked": "2026-11-11",
-  "reason": "site blocks automatic reading or has no readable product list"
+  "status": "catalogue",
+  "checked": "2026-11-18",
+  "counts": {
+   "women": 161,
+   "men": 159,
+   "kids": 21,
+   "other": 11
+  },
+  "via": "shopify",
+  "kidsCollections": [
+   "Boys' Down Jackets",
+   "Clearance - Shop Kids'",
+   "Kid's Puffer Jackets",
+   "Kids",
+   "Kids (Age 2-7 years)",
+   "Kids Accessories",
+   "Kids Trousers / Skirts",
+   "Kids' All-Weather Jackets",
+   "Kids' Down Gilets",
+   "Kids' Extreme Down Jackets",
+   "Kids' Lightweight Down Jackets",
+   "Kids' Multi-Layer System",
+   "Kids' Sun Protection Clothing",
+   "Kids' T-shirts / Tops"
+  ]
  },
  "cider": {
   "status": "catalogue",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "counts": {
-   "kids": 2,
+   "kids": 1,
    "men": 1,
-   "women": 399
+   "women": 468
   },
   "via": "sitemap",
   "kidsCollections": []
  },
  "balabala": {
   "status": "catalogue",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "counts": {
-   "kids": 195
+   "kids": 255
   },
   "via": "sitemap",
   "kidsCollections": []
  },
  "halara": {
   "status": "catalogue",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "counts": {
    "kids": 8,
    "women": 190
