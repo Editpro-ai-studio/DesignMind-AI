@@ -7475,7 +7475,7 @@
  },
  "familiar": {
   "status": "catalogue",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "counts": {
    "kids": 1200
   },
@@ -7634,7 +7634,7 @@
  },
  "miki-house": {
   "status": "catalogue",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "counts": {
    "kids": 1200
   },
@@ -7679,27 +7679,27 @@
  },
  "comme-des-garcons": {
   "status": "website",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "yohji-yamamoto": {
   "status": "website",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "gu": {
   "status": "website",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "mina-perhonen": {
   "status": "website",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "issey-miyake": {
   "status": "catalogue",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "counts": {
    "other": 600,
    "men": 23
@@ -7709,29 +7709,29 @@
  },
  "kapital": {
   "status": "website",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "visvim": {
   "status": "website",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "united-arrows": {
   "status": "website",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "journal-standard": {
   "status": "website",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "sacai": {
   "status": "catalogue",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "counts": {
-   "women": 398,
+   "women": 399,
    "men": 217,
    "other": 37
   },
@@ -7740,7 +7740,7 @@
  },
  "sousou": {
   "status": "catalogue",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "counts": {
    "other": 600,
    "kids": 30,
@@ -7757,16 +7757,16 @@
  },
  "uniqlo": {
   "status": "website",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "muji": {
   "status": "catalogue",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "counts": {
    "home": 400,
-   "men": 809,
    "other": 600,
+   "men": 812,
    "women": 807,
    "kids": 5
   },
@@ -7775,12 +7775,12 @@
  },
  "beams": {
   "status": "catalogue",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "counts": {
-   "kids": 128,
+   "kids": 129,
    "men": 1000,
-   "women": 314,
-   "other": 201
+   "women": 315,
+   "other": 200
   },
   "via": "shopify",
   "kidsCollections": [
@@ -7794,24 +7794,24 @@
  },
  "tsumori-chisato": {
   "status": "website",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "petit-main": {
   "status": "website",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "hakka-kids": {
   "status": "website",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "neighborhood": {
   "status": "catalogue",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "counts": {
-   "men": 325
+   "men": 338
   },
   "via": "shopify",
   "kidsCollections": [
@@ -7821,26 +7821,26 @@
  },
  "branshes": {
   "status": "website",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "snidel": {
   "status": "catalogue",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "counts": {
-   "women": 204
+   "women": 150
   },
   "via": "sitemap",
   "kidsCollections": []
  },
  "nishimatsuya": {
   "status": "website",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "earth-music-and-ecology": {
   "status": "catalogue",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "counts": {
    "women": 595,
    "kids": 5
