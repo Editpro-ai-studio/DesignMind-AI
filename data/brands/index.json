@@ -9882,31 +9882,31 @@
  },
  "hm": {
   "status": "website",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "zara-global": {
   "status": "website",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "marimekko": {
   "status": "website",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "adidas": {
   "status": "website",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "farm-rio": {
   "status": "catalogue",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "counts": {
-   "other": 475,
-   "men": 18,
-   "women": 5,
+   "other": 473,
+   "men": 19,
+   "women": 6,
    "kids": 1
   },
   "via": "shopify",
@@ -9914,7 +9914,7 @@
  },
  "johanna-ortiz": {
   "status": "catalogue",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "counts": {
    "women": 723
   },
@@ -9923,7 +9923,7 @@
  },
  "lemlem": {
   "status": "catalogue",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "counts": {
    "other": 600,
    "men": 6,
@@ -9937,23 +9937,23 @@
  },
  "faithfull-the-brand": {
   "status": "catalogue",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "counts": {
-   "women": 854
+   "women": 878
   },
   "via": "shopify",
   "kidsCollections": []
  },
  "realisation-par": {
   "status": "website",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "spell": {
   "status": "catalogue",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "counts": {
-   "women": 527,
+   "women": 530,
    "kids": 3
   },
   "via": "shopify",
@@ -9961,12 +9961,12 @@
  },
  "nike": {
   "status": "website",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "aje": {
   "status": "catalogue",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "counts": {
    "women": 1500,
    "kids": 50
@@ -9979,51 +9979,51 @@
  },
  "uniqlo-global": {
   "status": "website",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "cos": {
   "status": "website",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "and-other-stories": {
   "status": "website",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "levi-s": {
   "status": "website",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "acne-studios": {
   "status": "website",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "arket": {
   "status": "website",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "puma": {
   "status": "website",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "cotton-on": {
   "status": "website",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "liewood": {
   "status": "catalogue",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "counts": {
-   "other": 600,
-   "kids": 493,
-   "home": 63
+   "kids": 548,
+   "home": 72,
+   "other": 600
   },
   "via": "shopify",
   "kidsCollections": [
@@ -10042,12 +10042,12 @@
  },
  "konges-sljd": {
   "status": "website",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "ganni": {
   "status": "catalogue",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "counts": {
    "kids": 23,
    "women": 526
@@ -10057,20 +10057,20 @@
  },
  "lindex": {
   "status": "website",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "polarn-o-pyret": {
   "status": "website",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "jamie-kay": {
   "status": "catalogue",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "counts": {
    "kids": 1200,
-   "women": 9
+   "women": 10
   },
   "via": "shopify",
   "kidsCollections": [
@@ -10137,9 +10137,9 @@
    "Baby Week - Playsuits",
    "Baby Week - Snuggle Bunnies",
    "Baby Week 2026",
-   "Black Friday Baby 2025",
-   "Black Friday Boys 2025",
-   "Black Friday Girls 2025",
+   "Black Friday - Baby",
+   "Black Friday - Boy",
+   "Black Friday - Girls",
    "Bonjour Cherie - Boys",
    "Bonjour Cherie - Girls",
    "Bonjour Cherie Vol. 2 - Boys",
@@ -10279,34 +10279,30 @@
    "New Arrivals - Boys",
    "New Arrivals - Girls",
    "Newborn",
-   "Newborn Boys' Clothes",
-   "Newborn Girls' Clothes",
-   "Newborn Outfits",
-   "Organic Cotton Modal Baby",
-   "Organic Cotton Modal Boys",
-   "Organic Cotton Modal Girls"
+   "Newborn Boys' Clothes"
   ]
  },
  "quincy-mae": {
   "status": "website",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "mothercare": {
   "status": "website",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "nununu": {
   "status": "catalogue",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "counts": {
-   "kids": 984,
+   "kids": 977,
    "women": 21,
    "men": 13
   },
   "via": "shopify",
   "kidsCollections": [
+   "1+1 BABY",
    "BABIES",
    "BABIES SALE | BABY SETS",
    "BABIES SALE | BOTTOMS",
@@ -10362,7 +10358,7 @@
  },
  "wolf-and-rita": {
   "status": "catalogue",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "counts": {
    "kids": 897
   },
@@ -10374,16 +10370,16 @@
  },
  "molo": {
   "status": "catalogue",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "counts": {
-   "kids": 300
+   "kids": 310
   },
   "via": "sitemap",
   "kidsCollections": []
  },
  "mini-rodini": {
   "status": "catalogue",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "counts": {
    "kids": 597
   },
@@ -10392,7 +10388,7 @@
  },
  "name-it": {
   "status": "catalogue",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "counts": {
    "kids": 600
   },
@@ -10401,11 +10397,11 @@
  },
  "stella-mccartney": {
   "status": "catalogue",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "counts": {
-   "kids": 198,
-   "men": 6,
-   "women": 198,
+   "kids": 199,
+   "men": 4,
+   "women": 199,
    "other": 198
   },
   "via": "sitemap",
@@ -10413,11 +10409,11 @@
  },
  "zimmermann": {
   "status": "catalogue",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "counts": {
-   "kids": 279,
+   "kids": 280,
    "men": 42,
-   "other": 279
+   "other": 278
   },
   "via": "sitemap",
   "kidsCollections": []
