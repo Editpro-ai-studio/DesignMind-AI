@@ -8688,12 +8688,12 @@
  },
  "honayda": {
   "status": "website",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "redtag": {
   "status": "catalogue",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "counts": {
    "other": 8
   },
@@ -8702,12 +8702,12 @@
  },
  "centrepoint": {
   "status": "website",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "arwa-al-banawi": {
   "status": "catalogue",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "counts": {
    "women": 23
   },
@@ -8716,7 +8716,7 @@
  },
  "lomar": {
   "status": "catalogue",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "counts": {
    "men": 172
   },
@@ -8725,22 +8725,22 @@
  },
  "ashi-studio": {
   "status": "website",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "leem": {
   "status": "website",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "hindamme": {
   "status": "website",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "toby": {
   "status": "catalogue",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "counts": {
    "men": 2
   },
@@ -8749,34 +8749,34 @@
  },
  "mothercare-ksa": {
   "status": "website",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "max-fashion-ksa": {
   "status": "website",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "babyshop-ksa": {
   "status": "website",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "nice-things": {
   "status": "catalogue",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "counts": {
    "kids": 14,
-   "women": 576
+   "women": 578
   },
   "via": "sitemap",
   "kidsCollections": []
  },
  "femi9": {
   "status": "catalogue",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "counts": {
-   "women": 400,
+   "women": 393,
    "kids": 56
   },
   "via": "sitemap",
