@@ -9019,72 +9019,72 @@
  },
  "mango": {
   "status": "website",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "zara": {
   "status": "website",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "neck-and-neck": {
   "status": "unreachable",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "reason": "site did not respond"
  },
  "massimo-dutti": {
   "status": "website",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "bershka": {
   "status": "website",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "pull-and-bear": {
   "status": "website",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "stradivarius": {
   "status": "website",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "oysho": {
   "status": "website",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "lefties": {
   "status": "website",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "zara-home": {
   "status": "website",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "bimba-y-lola": {
   "status": "website",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "mayoral": {
   "status": "website",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "sfera": {
   "status": "website",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "tuc-tuc": {
   "status": "catalogue",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "counts": {
    "kids": 1200
   },
@@ -9194,16 +9194,16 @@
  },
  "springfield": {
   "status": "website",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "paloma-wool": {
   "status": "catalogue",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "counts": {
    "other": 600,
-   "men": 158,
-   "women": 52
+   "men": 156,
+   "women": 51
   },
   "via": "shopify",
   "kidsCollections": [
@@ -9212,10 +9212,11 @@
  },
  "ecoalf": {
   "status": "catalogue",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "counts": {
-   "women": 142,
-   "men": 765
+   "men": 812,
+   "women": 206,
+   "other": 1
   },
   "via": "shopify",
   "kidsCollections": [
@@ -9264,18 +9265,18 @@
  },
  "laagam": {
   "status": "catalogue",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "counts": {
-   "women": 352
+   "women": 277
   },
   "via": "shopify",
   "kidsCollections": []
  },
  "bobo-choses": {
   "status": "catalogue",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "counts": {
-   "kids": 1005,
+   "kids": 1008,
    "women": 162,
    "other": 600
   },
@@ -9344,8 +9345,8 @@
    "Skirts for kid",
    "Socks & Tights for baby",
    "Socks & tights for kids",
-   "Special Prices Baby – 20% OFF",
-   "Special Prices Kid – 20% OFF",
+   "Special Prices Baby",
+   "Special Prices Kid",
    "Spring Selection Baby",
    "Spring Selection Kids",
    "SS26 Pickles Collection for kids",
@@ -9365,10 +9366,10 @@
  },
  "the-animals-observatory": {
   "status": "catalogue",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "counts": {
    "kids": 1200,
-   "women": 86,
+   "women": 87,
    "men": 1
   },
   "via": "shopify",
@@ -9405,27 +9406,27 @@
  },
  "gocco": {
   "status": "website",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "nanos": {
   "status": "website",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "loewe": {
   "status": "website",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "pili-carrera": {
   "status": "website",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "paz-rodriguez": {
   "status": "catalogue",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "counts": {
    "kids": 1200
   },
@@ -9472,9 +9473,9 @@
  },
  "la-coqueta": {
   "status": "catalogue",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "counts": {
-   "kids": 741,
+   "kids": 739,
    "women": 13
   },
   "via": "shopify",
@@ -9511,6 +9512,7 @@
    "Baby Sleepsuits & Body Vests",
    "Baby T-shirts & Tops",
    "Baby's First Christmas",
+   "Black Friday Baby & Toddler View All",
    "Boy Clothing (Aged 4-6 Years)",
    "Boy Clothing (Aged 7-10 Years)",
    "Boys Accessories",
@@ -9579,7 +9581,6 @@
    "Kids Knee High Socks",
    "Knitted Baby Clothes",
    "La Coqueta New In Boys Clothing",
-   "Newborn Essentials - 3 for 20% Off",
    "Newborn Occasionwear",
    "Newborns Body Vests",
    "Newborns Bonnets, Booties & Blankets",
@@ -9590,58 +9591,68 @@
    "Newborns Knitwear",
    "Newborns Outfits",
    "Newborns Sleepsuits",
+   "Shop Black Friday Baby & Toddler Clothing",
+   "Shop Black Friday Baby & Toddler Shoes & Accessories",
+   "Shop Black Friday Boy's Shoes & Accessories",
+   "Shop Black Friday Clothing Discounts for Boys",
+   "Shop Black Friday Clothing Discounts for Girls",
+   "Shop Black Friday Girls Shoes & Accessories",
+   "Shop Kids Black Friday Clothing Deals",
    "Toddler Boy Clothing (Aged 2-3 Years)",
    "Toddler Clothing (Aged 2-3 Years)",
-   "Toddler Girl Clothing (Aged 2-3 Years)"
+   "Toddler Girl Clothing (Aged 2-3 Years)",
+   "View All Black Friday Boy's Clothing Discounts",
+   "View All Black Friday Clothing Discounts for Girls",
+   "View All Black Friday Kids Clothing Discounts & Offers"
   ]
  },
  "bonnet-a-pompon": {
   "status": "catalogue",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "counts": {
-   "kids": 296
+   "kids": 301
   },
   "via": "sitemap",
   "kidsCollections": []
  },
  "desigual": {
   "status": "catalogue",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "counts": {
-   "other": 320,
-   "women": 256,
-   "men": 23,
-   "kids": 1
+   "other": 219,
+   "women": 339,
+   "men": 21,
+   "kids": 6
   },
   "via": "sitemap",
   "kidsCollections": []
  },
  "cortefiel": {
   "status": "catalogue",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "counts": {
    "kids": 150,
    "men": 150,
    "women": 150,
-   "other": 139
+   "other": 149
   },
   "via": "sitemap",
   "kidsCollections": []
  },
  "adolfo-dominguez": {
   "status": "catalogue",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "counts": {
-   "men": 16,
-   "women": 40,
-   "other": 544
+   "men": 14,
+   "women": 30,
+   "other": 556
   },
   "via": "sitemap",
   "kidsCollections": []
  },
  "boboli": {
   "status": "catalogue",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "counts": {
    "kids": 600
   },
