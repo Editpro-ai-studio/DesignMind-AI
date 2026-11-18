@@ -8008,26 +8008,26 @@
  },
  "jaypore": {
   "status": "error",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "reason": "URI malformed"
  },
  "firstcry": {
   "status": "website",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "anokhi": {
   "status": "website",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "house-of-masaba": {
   "status": "catalogue",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "counts": {
-   "women": 414,
-   "men": 448,
-   "kids": 57
+   "kids": 57,
+   "men": 451,
+   "women": 417
   },
   "via": "shopify",
   "kidsCollections": [
@@ -8037,7 +8037,7 @@
  },
  "w-for-woman": {
   "status": "catalogue",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "counts": {
    "women": 1500,
    "men": 25
@@ -8047,9 +8047,9 @@
  },
  "nicobar": {
   "status": "catalogue",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "counts": {
-   "women": 1410,
+   "women": 1425,
    "men": 545,
    "home": 400,
    "other": 600,
@@ -8064,12 +8064,12 @@
  },
  "okhai": {
   "status": "catalogue",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "counts": {
-   "women": 1500,
    "other": 600,
-   "men": 220,
-   "kids": 745
+   "kids": 770,
+   "women": 1500,
+   "men": 220
   },
   "via": "shopify",
   "kidsCollections": [
@@ -8087,9 +8087,9 @@
  },
  "bunaai": {
   "status": "catalogue",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "counts": {
-   "women": 243,
+   "women": 247,
    "men": 5
   },
   "via": "shopify",
@@ -8097,11 +8097,11 @@
  },
  "suta": {
   "status": "catalogue",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "counts": {
    "women": 1500,
-   "men": 170,
-   "kids": 93
+   "men": 158,
+   "kids": 100
   },
   "via": "shopify",
   "kidsCollections": [
@@ -8110,6 +8110,7 @@
    "Bol Baby Bol",
    "Bol Baby Bol Blouses",
    "Bol Baby Bol Sarees",
+   "Children's Day Sale",
    "Girl of the Alps Blouses",
    "Girl Of The Alps Sarees",
    "Hey Girl Let’s Swirl Sarees",
@@ -8119,12 +8120,12 @@
  },
  "good-earth": {
   "status": "website",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "global-desi": {
   "status": "catalogue",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "counts": {
    "women": 5
   },
@@ -8133,16 +8134,16 @@
  },
  "ritu-kumar": {
   "status": "website",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "libas": {
   "status": "catalogue",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "counts": {
    "women": 1500,
-   "men": 49,
-   "kids": 34
+   "men": 47,
+   "kids": 32
   },
   "via": "shopify",
   "kidsCollections": [
@@ -8167,59 +8168,59 @@
  },
  "biba": {
   "status": "catalogue",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "counts": {
-   "kids": 72,
+   "kids": 69,
    "women": 247,
-   "other": 127
+   "other": 129
   },
   "via": "sitemap",
   "kidsCollections": []
  },
  "sabyasachi": {
   "status": "website",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "manyavar": {
   "status": "catalogue",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "counts": {
    "kids": 162,
-   "men": 35,
-   "women": 324
+   "men": 197,
+   "women": 162
   },
   "via": "sitemap",
   "kidsCollections": []
  },
  "tarun-tahiliani": {
   "status": "catalogue",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "counts": {
-   "women": 690,
-   "other": 355,
-   "men": 336
+   "women": 691,
+   "men": 335,
+   "other": 324
   },
   "via": "shopify",
   "kidsCollections": []
  },
  "manish-malhotra": {
   "status": "catalogue",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "counts": {
-   "women": 837,
-   "other": 537,
-   "men": 334
+   "other": 573,
+   "women": 845,
+   "men": 351
   },
   "via": "shopify",
   "kidsCollections": []
  },
  "raw-mango": {
   "status": "catalogue",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "counts": {
-   "women": 987,
-   "kids": 63
+   "women": 997,
+   "kids": 64
   },
   "via": "shopify",
   "kidsCollections": [
@@ -8228,7 +8229,7 @@
  },
  "payal-singhal": {
   "status": "catalogue",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "counts": {
    "women": 1370,
    "men": 270,
@@ -8250,15 +8251,15 @@
  },
  "taneira": {
   "status": "website",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "torani": {
   "status": "catalogue",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "counts": {
    "women": 1500,
-   "men": 729,
+   "men": 730,
    "kids": 107
   },
   "via": "shopify",
@@ -8271,12 +8272,12 @@
  },
  "kalki-fashion": {
   "status": "catalogue",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "counts": {
+   "women": 1500,
    "other": 600,
    "men": 1000,
-   "women": 1500,
-   "kids": 239
+   "kids": 233
   },
   "via": "shopify",
   "kidsCollections": [
@@ -8299,10 +8300,10 @@
  },
  "aurelia": {
   "status": "catalogue",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "counts": {
    "women": 1500,
-   "kids": 41
+   "kids": 40
   },
   "via": "shopify",
   "kidsCollections": [
@@ -8311,12 +8312,12 @@
  },
  "tasva": {
   "status": "website",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "raymond": {
   "status": "catalogue",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "counts": {
    "men": 1000
   },
@@ -8325,39 +8326,39 @@
  },
  "soch": {
   "status": "website",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "hopscotch": {
   "status": "website",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "anita-dongre": {
   "status": "catalogue",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "counts": {
-   "men": 187,
+   "men": 188,
    "women": 206,
-   "other": 204
+   "other": 205
   },
   "via": "sitemap",
   "kidsCollections": []
  },
  "and": {
   "status": "catalogue",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "counts": {
-   "women": 560
+   "women": 558
   },
   "via": "sitemap",
   "kidsCollections": []
  },
  "fabindia": {
   "status": "catalogue",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "counts": {
-   "kids": 25,
+   "kids": 31,
    "home": 400
   },
   "via": "sitemap",
@@ -8365,11 +8366,11 @@
  },
  "indya": {
   "status": "catalogue",
-  "checked": "2026-11-11",
+  "checked": "2026-11-18",
   "counts": {
    "kids": 39,
-   "men": 256,
-   "women": 59
+   "men": 261,
+   "women": 60
   },
   "via": "sitemap",
   "kidsCollections": []
