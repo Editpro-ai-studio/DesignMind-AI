@@ -6141,21 +6141,21 @@
  },
  "max-mara": {
   "status": "website",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "missoni": {
   "status": "website",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "emilio-pucci": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
-   "women": 801,
+   "women": 807,
    "kids": 181,
-   "men": 15
+   "men": 4
   },
   "via": "shopify",
   "kidsCollections": [
@@ -6165,10 +6165,10 @@
  },
  "benetton": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
    "kids": 1200,
-   "men": 630,
+   "men": 659,
    "other": 600,
    "women": 11
   },
@@ -6180,6 +6180,7 @@
    "Accessori per baby",
    "Accessori per baby articoli in offerta",
    "Back to School Kids",
+   "Bambina (4-14 anni)",
    "Bambina (6-14 anni)",
    "Bambino (6-14 anni)",
    "Basic Shirts and Polo Shirts Kid Boy",
@@ -6208,14 +6209,8 @@
    "Cappotti e piumini per baby",
    "Cappotti e piumini per baby articoli in offerta",
    "Capsule Benetton Rugby per Bambini",
-   "Cardigan da bambino",
    "Cinture da bambino",
-   "Guida ai look natalizi per bambina (6-14 anni)",
-   "Guida ai look natalizi per bambini",
-   "Guida ai look natalizi per bambino (6-14 anni)",
-   "Guida ai look natalizi per bimba (1-6 anni)",
-   "Guida ai look natalizi per bimbo (1-6 anni)",
-   "Guida ai look natalizi per neonato (0-18 mesi)",
+   "Hello Kitty",
    "I nostri Basici baby (0-18 mesi)",
    "Intimo Basico Bambino (6 - 14 anni)",
    "Look Esotici",
@@ -6224,6 +6219,12 @@
    "Look Esotici Bimba (1 - 6 Anni)",
    "Look Esotici Bimbo (1 - 6 Anni)",
    "Look Esotici Neonato (0-18 Mesi)",
+   "Look natalizi per bambina 6-14 anni",
+   "Look natalizi per bambini",
+   "Look natalizi per bambino 6-14 anni",
+   "Look natalizi per bimba 1-6 anni",
+   "Look natalizi per bimbo 1-6 anni",
+   "Look natalizi per neonati 0-18 mesi",
    "Look per l'Autunno bambina 6-14 anni",
    "Look per l'Autunno bambino 6-14 anni",
    "Look per l'Autunno bimba 1-6 anni",
@@ -6261,8 +6262,8 @@
    "Abbigliamento Bambini Looney Tunes",
    "Abbigliamento Denim per Bambini",
    "Abbigliamento Looney Tunes Bambino 6-14 anni",
+   "Articoli in offerta baby 0-18 mesi",
    "Articoli in offerta bambini",
-   "Bambina (4-14 anni)",
    "BAMBINI",
    "Bambino (6-14 Anni)",
    "Best Sellers bambini",
@@ -6278,7 +6279,6 @@
    "Felpe con cappuccio da bambino",
    "Giubbini da bambino",
    "Giubbotti e giubbini da bambino",
-   "Hello Kitty",
    "I look dell’estate bambini",
    "Jean's West bambina 6-14 anni",
    "Jean's West bambini",
@@ -6301,14 +6301,10 @@
    "Nuovi Arrivi Abbigliamento Bambini",
    "Nuovi Arrivi Abbigliamento Bambino",
    "Nuovi Arrivi Accessori e scarpe da bambino",
-   "Nuovi Arrivi Accessori per baby",
    "Nuovi Arrivi Body e tutine per baby",
    "Nuovi Arrivi Cappotti e giubbotti da bambino",
-   "Nuovi Arrivi Cappotti e piumini per baby",
    "Nuovi Arrivi Completini e salopette per baby",
-   "Nuovi Arrivi Maglie e maglioni da bambino",
    "Nuovi Arrivi Piumini da bambino",
-   "Nuovi Arrivi Polo da bambino",
    "Nuovi Arrivi Vestiti per baby",
    "Piumini leggeri da bambino",
    "Polo a manica lunga da bambino",
@@ -6317,7 +6313,6 @@
    "Vacanze al mare bambini",
    "Vacanze in città bambini",
    "Abiti in cotone biologico per baby",
-   "Articoli in offerta baby 0-18 mesi",
    "Articoli in offerta bambina 6-14 anni",
    "Articoli in offerta bambino 6-14 anni",
    "Articoli in offerta bimba 1-6 anni",
@@ -6351,7 +6346,6 @@
    "Maglie e maglioncini per baby articoli in offerta",
    "Maglie e maglioni da bambino",
    "Maglie e maglioni da bambino articoli in offerta",
-   "Nuovi Arrivi Felpe e T-shirt per baby",
    "Nuovi Arrivi Felpe e tute da bambino",
    "Nuovi Arrivi Intimo e pigiami da bambino",
    "Nuovi Arrivi Pantaloni e jeans da bambino",
@@ -6381,36 +6375,36 @@
  },
  "gucci": {
   "status": "unreachable",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site did not respond"
  },
  "versace": {
   "status": "website",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "dolce-and-gabbana": {
   "status": "website",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "etro": {
   "status": "website",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "marni": {
   "status": "website",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "moschino": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
-   "women": 437,
-   "men": 244,
-   "kids": 174
+   "men": 273,
+   "kids": 175,
+   "women": 462
   },
   "via": "shopify",
   "kidsCollections": [
@@ -6419,6 +6413,7 @@
    "Black Friday Moschino 2026: Bambini",
    "Neonato e Bambino | 0-3 Anni",
    "Regali Bambino",
+   "Saldi Accessori per neonati",
    "Saldi Bambino",
    "Saldi Bambino (4-8 Anni)",
    "Saldi Neonata",
@@ -6437,7 +6432,7 @@
  },
  "monnalisa": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
    "kids": 66
   },
@@ -6741,17 +6736,17 @@
  },
  "zegna": {
   "status": "website",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "brunello-cucinelli": {
   "status": "website",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "twinset": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
    "other": 600,
    "women": 1,
@@ -6763,26 +6758,26 @@
  },
  "liu-jo": {
   "status": "website",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "ovs": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
-   "kids": 309,
-   "men": 117,
-   "women": 131,
-   "other": 43
+   "men": 46,
+   "women": 33,
+   "other": 239,
+   "kids": 279
   },
   "via": "sitemap",
   "kidsCollections": []
  },
  "pinko": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
-   "women": 1205,
+   "women": 1204,
    "kids": 13
   },
   "via": "shopify",
@@ -6790,28 +6785,29 @@
  },
  "giorgio-armani": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
    "kids": 71,
-   "men": 356,
-   "women": 173
+   "men": 177,
+   "women": 145,
+   "other": 206
   },
   "via": "sitemap",
   "kidsCollections": []
  },
  "elisabetta-franchi": {
   "status": "website",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "patrizia-pepe": {
   "status": "website",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "motivi": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
    "women": 600
   },
@@ -6820,53 +6816,54 @@
  },
  "piccola-ludo": {
   "status": "unreachable",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site did not respond"
  },
  "alberta-ferretti": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
-   "women": 619
+   "women": 666
   },
   "via": "shopify",
   "kidsCollections": []
  },
  "valentino": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
    "kids": 48,
-   "men": 100,
-   "women": 372,
-   "other": 54
+   "men": 93,
+   "women": 374,
+   "other": 59
   },
   "via": "sitemap",
   "kidsCollections": []
  },
  "il-gufo": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
-   "kids": 227
+   "kids": 193
   },
   "via": "sitemap",
   "kidsCollections": []
  },
  "prada": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
    "kids": 10,
-   "men": 2,
-   "other": 582
+   "men": 92,
+   "other": 438,
+   "women": 60
   },
   "via": "sitemap",
   "kidsCollections": []
  },
  "simonetta": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
    "kids": 594
   },
@@ -6875,10 +6872,11 @@
  },
  "prenatal": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
-   "men": 1,
-   "kids": 2
+   "kids": 584,
+   "women": 7,
+   "men": 6
   },
   "via": "sitemap",
   "kidsCollections": []
