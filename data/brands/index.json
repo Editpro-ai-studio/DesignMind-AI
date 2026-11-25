@@ -1,15 +1,15 @@
 {
  "khaadi": {
   "status": "website",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "maria-b": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
+   "kids": 765,
    "women": 1500,
-   "kids": 767,
    "men": 111,
    "other": 93
   },
@@ -34,13 +34,13 @@
  },
  "alkaram": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
-   "men": 305,
+   "kids": 45,
+   "men": 292,
    "women": 1500,
-   "home": 98,
-   "kids": 54,
-   "other": 6
+   "home": 52,
+   "other": 7
   },
   "via": "shopify",
   "kidsCollections": [
@@ -57,9 +57,7 @@
    "GIRLS SIGNATURE",
    "GIRLS WESTERN",
    "Kids",
-   "KIDS",
    "KIDS SALE",
-   "KIDS SALE 50% OFF",
    "KIDS' ROOM",
    "New In Boys",
    "New In Girls",
@@ -68,12 +66,11 @@
  },
  "limelight": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
+   "kids": 98,
    "women": 1500,
-   "kids": 94,
-   "other": 1,
-   "men": 117
+   "men": 123
   },
   "via": "shopify",
   "kidsCollections": [
@@ -95,23 +92,23 @@
  },
  "nishat-linen": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
-   "men": 265,
-   "women": 1500,
-   "other": 600
+   "other": 600,
+   "women": 1446,
+   "men": 267
   },
   "via": "shopify",
   "kidsCollections": []
  },
  "junaid-jamshed": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
-   "kids": 1200,
+   "kids": 1187,
    "men": 1000,
    "women": 1500,
-   "other": 46
+   "other": 12
   },
   "via": "shopify",
   "kidsCollections": [
@@ -158,11 +155,11 @@
  },
  "beechtree": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
-   "women": 603,
-   "kids": 143,
-   "other": 431
+   "women": 648,
+   "kids": 148,
+   "other": 433
   },
   "via": "shopify",
   "kidsCollections": [
@@ -289,13 +286,13 @@
  },
  "gul-ahmed": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
-   "kids": 378,
+   "kids": 372,
    "men": 1000,
    "women": 1500,
    "home": 400,
-   "other": 567
+   "other": 546
   },
   "via": "shopify",
   "kidsCollections": [
@@ -338,12 +335,12 @@
  },
  "bonanza-satrangi": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
+   "men": 961,
    "women": 1500,
-   "men": 938,
-   "other": 109,
-   "kids": 195
+   "other": 105,
+   "kids": 192
   },
   "via": "shopify",
   "kidsCollections": [
@@ -364,12 +361,12 @@
  },
  "bareeze": {
   "status": "website",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "sana-safinaz": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
    "women": 1500,
    "kids": 488
@@ -384,15 +381,14 @@
  },
  "sapphire": {
   "status": "website",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "cross-stitch": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
    "women": 1500,
-   "men": 27,
    "kids": 1
   },
   "via": "shopify",
@@ -400,7 +396,7 @@
  },
  "lulusar": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
    "women": 1500
   },
@@ -409,12 +405,12 @@
  },
  "hopscotch-pk": {
   "status": "website",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "generation": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
    "other": 600,
    "women": 1500,
@@ -425,7 +421,7 @@
  },
  "minnie-minors": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
    "kids": 1200,
    "men": 5
@@ -667,17 +663,17 @@
  },
  "breakout": {
   "status": "website",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "zellbury": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
    "other": 600,
-   "men": 1000,
    "women": 1500,
-   "kids": 315
+   "men": 1000,
+   "kids": 321
   },
   "via": "shopify",
   "kidsCollections": [
@@ -698,7 +694,7 @@
  },
  "zeezou": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
    "kids": 473
   },
@@ -727,12 +723,12 @@
  },
  "leisure-club": {
   "status": "website",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "beri-and-coral": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
    "kids": 69,
    "women": 50
@@ -742,7 +738,7 @@
  },
  "hummingbirds": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
    "kids": 247,
    "men": 53
@@ -811,11 +807,11 @@
  },
  "edenrobe": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
-   "kids": 1200,
-   "men": 1000,
    "women": 1500,
+   "men": 1000,
+   "kids": 1200,
    "other": 53
   },
   "via": "shopify",
@@ -823,6 +819,7 @@
    "All Aboard - Boys Winter Collection '26",
    "Boys",
    "Boys - Special Prices",
+   "Boys Blazers",
    "Boys Bottoms",
    "Boys Casual Shirts",
    "Boys Ceremonial",
@@ -886,9 +883,9 @@
  },
  "cuddle-cradle": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
-   "kids": 129
+   "kids": 132
   },
   "via": "shopify",
   "kidsCollections": [
@@ -929,29 +926,29 @@
  },
  "baroque": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
-   "women": 846
+   "women": 892
   },
   "via": "shopify",
   "kidsCollections": []
  },
  "zara-shahjahan": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
-   "women": 1041
+   "women": 1058
   },
   "via": "shopify",
   "kidsCollections": []
  },
  "outfitters": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
-   "women": 919,
-   "men": 1000,
    "kids": 1200,
+   "men": 1000,
+   "women": 906,
    "other": 2
   },
   "via": "shopify",
@@ -1076,6 +1073,7 @@
    "Boys Winter Sale - Bottoms",
    "Boys Winter Sale Tops",
    "Boys- Outerwear",
+   "Boys-Outerwear-26",
    "Boys-Special Prices",
    "Girl 4 years - 14 years",
    "Girl Shirt Sale",
@@ -1136,6 +1134,7 @@
    "Girls Winter Sale Footwear",
    "Girls-Baby Girls Accessories Sale",
    "Girls-Most Popular Products",
+   "Girls-Outerwear-26",
    "Girls-Special Prices",
    "Junior Accessories",
    "Junior Boy Dungaree",
@@ -1143,6 +1142,7 @@
    "Junior Boy Polos",
    "Junior Boys - Last Chance 60% Off & Beyond",
    "Junior Boys and Girls Frequently Selling Products",
+   "Junior Boys Sale Week Flat 30% Off",
    "Junior Boys Sweater",
    "Junior Boys View All Collection",
    "Junior Boys Winter Sale Flat 50% Off",
@@ -1150,6 +1150,7 @@
    "Junior Girl Shorts Sale",
    "Junior Girl Sweater",
    "Junior Girls - Last Chance 60% Off & Beyond",
+   "Junior Girls Sale Week Flat 30% Off",
    "Junior Girls Sell Hot",
    "Junior Girls Sweatshirts",
    "Junior Girls View All Collection",
@@ -1168,6 +1169,7 @@
    "Juniors Tops Summer 25",
    "Juniors View All Collection",
    "Juniors-Frequently Bought Added",
+   "Juniors-Sale Week Flat 30% Off",
    "JUNIORS-SELLER-PRODUCTS",
    "Juniors-Special Prices",
    "Juniors-Summer Sale",
@@ -1193,6 +1195,7 @@
    "Toddler Boys Outerwear Sale",
    "Toddler Boys Sale Bottom",
    "Toddler Boys Sale Tops",
+   "Toddler Boys Sale Week Flat 30% Off",
    "Toddler Boys Socks",
    "Toddler Boys Summer Sale",
    "Toddler Boys Sweatshirt",
@@ -1214,6 +1217,7 @@
    "Toddler Girls - Last Chance 60% Off & Beyond",
    "Toddler Girls Sale Bottoms",
    "Toddler Girls Sale Tops",
+   "Toddler Girls Sale Week Flat 30% Off",
    "Toddler Girls Season End Sale Upto 50% Off",
    "Toddler Girls Skirt Sale",
    "Toddler Girls Socks",
@@ -1225,12 +1229,12 @@
  },
  "mushq": {
   "status": "website",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "elan": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
    "women": 1125
   },
@@ -1239,7 +1243,7 @@
  },
  "rollover": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
    "kids": 1200
   },
@@ -1357,6 +1361,7 @@
    "Summer Sale Girls",
    "Summer Sale Little Boys",
    "Summer Sale Little Girls",
+   "Winter Infants",
    "Winter Sale Boys",
    "Winter Sale girl",
    "Winter Sale Little Boys",
@@ -1368,10 +1373,10 @@
  },
  "bachaa-party": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
    "kids": 1200,
-   "men": 21
+   "men": 25
   },
   "via": "shopify",
   "kidsCollections": [
@@ -1627,7 +1632,6 @@
    "Backpacks for Girls & Boys in Pakistan",
    "Best Sellers",
    "Bouncer & Rocker",
-   "Boy Ethnic | Summer 2024",
    "Boys Accessories",
    "Boys Apparel",
    "Boys Apparel - Season 2024",
@@ -1682,6 +1686,7 @@
    "Boys Hoodies & Sweatshirts",
    "Boys Hoodies & Sweatshirts Fall Winter",
    "Boys Hoodies & Sweatshirts | Boys Apparel | Sale",
+   "Boys Hoodies & Sweatshirts | Teens",
    "Boys Independence Day",
    "Boys Jersey Shorts",
    "Boys Joggers",
@@ -1755,7 +1760,6 @@
    "Boys | Sale",
    "Boys | Sale 2022",
    "Boys | Summer 2023",
-   "Boys | Summer 2024",
    "Boys' Stationery for School",
    "Carriers & Furniture",
    "Carriers & Furniture | Online Sale",
@@ -1825,7 +1829,6 @@
    "Girls Casual Tops",
    "Girls Casual Tops",
    "Girls Clogs",
-   "Girls Clogs Fall  2025",
    "Girls Clothing | Teens",
    "Girls Coats & Jackets",
    "Girls Coats & Jackets Fall/Winter",
@@ -1897,7 +1900,7 @@
  },
  "zubaidas": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
    "kids": 1200
   },
@@ -1931,6 +1934,7 @@
    "Baby Feeding and Nursing Products at Zubaidas",
    "Baby Feeding Chairs and Baby High Chairs at Zubaidas",
    "Baby Feeding Chairs and Baby High Chairs Bambies® at Zubaidas Official™ Pakistan",
+   "Baby Feeding Chairs and Baby High Chairs Chicco® at Zubaidas Official™ Pakistan",
    "Baby Feeding Chairs and Baby High Chairs Graco® at Zubaidas Official™ Pakistan",
    "Baby Footwear Upto 50% Off",
    "Baby Gears 50% Off Collection",
@@ -1944,6 +1948,7 @@
    "Baby Girl Footwear",
    "Baby Girl Hairbands",
    "Baby Girl Jackets",
+   "Baby Girl Jeans",
    "Baby Girl Outerwear",
    "Baby Girl Rompers & Jumpsuits",
    "Baby Girl Sandals",
@@ -1951,6 +1956,7 @@
    "Baby Girl Slip-on",
    "Baby Girl Socks",
    "Baby Girl Suit Sets",
+   "Baby Girl Sweatshirts & Hoodies",
    "Baby Girl Tops & T-Shirts",
    "Baby Girls and Girls Tights at Zubaidas",
    "Baby Girls Body Suits Collection at Zubaidas",
@@ -1986,6 +1992,7 @@
    "Bambies Exclusive Baby Rockers at Zubaidas",
    "Bambies Exclusive Baby Swings at Zubaidas",
    "Bambies Newborn Essentials at Zubaidas",
+   "Bambies® Baby Suits Fox Theme Collection at Zubaidas Official™ Pakistan",
    "Bambies® Exclusive Baby Bouncers at Zubaidas Official™ Pakistan",
    "Bambies® Exclusive Baby Gears at Zubaidas Official™ Pakistan",
    "Bambies® Exclusive Baby Walkers at Zubaidas Official™ Pakistan",
@@ -2106,14 +2113,14 @@
  },
  "ethnic": {
   "status": "website",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "charizma": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
-   "women": 1020,
+   "women": 1031,
    "kids": 28
   },
   "via": "shopify",
@@ -2127,12 +2134,12 @@
  },
  "rang-ja": {
   "status": "website",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "mausummery": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
    "women": 156
   },
@@ -2141,12 +2148,12 @@
  },
  "kayseria": {
   "status": "website",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "warda": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
    "women": 174,
    "kids": 1
@@ -2156,7 +2163,7 @@
  },
  "motifz": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
    "women": 1500,
    "kids": 10
@@ -2168,10 +2175,10 @@
  },
  "so-kamal": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
-   "other": 213,
    "women": 1500,
+   "other": 121,
    "men": 73
   },
   "via": "shopify",
@@ -2179,9 +2186,9 @@
  },
  "ego": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
-   "women": 701,
+   "women": 716,
    "kids": 14
   },
   "via": "shopify",
@@ -2189,11 +2196,11 @@
  },
  "asim-jofa": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
    "women": 1500,
    "kids": 91,
-   "men": 69
+   "men": 67
   },
   "via": "shopify",
   "kidsCollections": [
@@ -2215,16 +2222,16 @@
  },
  "jazmin": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
-   "women": 710
+   "women": 718
   },
   "via": "shopify",
   "kidsCollections": []
  },
  "sobia-nazir": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
    "women": 435
   },
@@ -2233,16 +2240,16 @@
  },
  "chinyere": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
-   "women": 875
+   "women": 874
   },
   "via": "shopify",
   "kidsCollections": []
  },
  "afrozeh": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
    "women": 536
   },
@@ -2251,28 +2258,28 @@
  },
  "saira-rizwan": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
-   "women": 461
+   "women": 462
   },
   "via": "shopify",
   "kidsCollections": []
  },
  "qalamkar": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
-   "women": 285,
-   "men": 15
+   "women": 243,
+   "men": 12
   },
   "via": "shopify",
   "kidsCollections": []
  },
  "faiza-saqlain": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
-   "men": 311,
+   "men": 317,
    "women": 675,
    "kids": 7
   },
@@ -2283,11 +2290,11 @@
  },
  "saya": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
-   "kids": 1200,
-   "men": 291,
-   "women": 1500
+   "men": 297,
+   "women": 1500,
+   "kids": 1200
   },
   "via": "shopify",
   "kidsCollections": [
@@ -2335,21 +2342,21 @@
  },
  "republic-womenswear": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
-   "women": 1435
+   "women": 1450
   },
   "via": "shopify",
   "kidsCollections": []
  },
  "almirah": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
    "men": 1000,
-   "women": 1500,
-   "other": 97,
-   "kids": 383
+   "kids": 224,
+   "women": 1386,
+   "other": 72
   },
   "via": "shopify",
   "kidsCollections": [
@@ -2360,6 +2367,7 @@
    "Ethos Teen Boys",
    "Girls",
    "Girls",
+   "Girls in the City '24",
    "Kid Boys",
    "Kid Boys Kameez Shalwar",
    "Kid Boys Kurta",
@@ -2386,7 +2394,7 @@
  },
  "kross-kulture": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
    "women": 169,
    "kids": 11
@@ -2396,9 +2404,9 @@
  },
  "nureh": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
-   "women": 561
+   "women": 579
   },
   "via": "shopify",
   "kidsCollections": [
@@ -2409,20 +2417,20 @@
  },
  "image": {
   "status": "website",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "lama": {
   "status": "website",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "agha-noor": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
-   "women": 695,
-   "kids": 48,
+   "women": 510,
+   "kids": 32,
    "men": 1
   },
   "via": "shopify",
@@ -2433,25 +2441,25 @@
  },
  "imrozia": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
-   "women": 146
+   "women": 145
   },
   "via": "shopify",
   "kidsCollections": []
  },
  "emaan-adeel": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
-   "women": 477
+   "women": 486
   },
   "via": "shopify",
   "kidsCollections": []
  },
  "rang-rasiya": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
    "women": 1230
   },
@@ -2460,12 +2468,12 @@
  },
  "ittehad-textiles": {
   "status": "website",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "zeen": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
    "women": 1500,
    "kids": 46
@@ -2480,16 +2488,16 @@
  },
  "al-zohaib": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
-   "women": 248
+   "women": 247
   },
   "via": "shopify",
   "kidsCollections": []
  },
  "firdous": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
    "women": 343
   },
@@ -2498,12 +2506,12 @@
  },
  "tawakkal-fabrics": {
   "status": "website",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "orient-textiles": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
    "women": 234
   },
@@ -2512,16 +2520,16 @@
  },
  "iznik": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
-   "women": 280
+   "women": 296
   },
   "via": "shopify",
   "kidsCollections": []
  },
  "gulaal": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
    "women": 458
   },
@@ -2532,45 +2540,45 @@
  },
  "hsy": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
-   "men": 127,
-   "women": 101,
-   "other": 78
+   "men": 130,
+   "women": 106,
+   "other": 84
   },
   "via": "shopify",
   "kidsCollections": []
  },
  "bin-saeed": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
-   "women": 954
+   "women": 987
   },
   "via": "shopify",
   "kidsCollections": []
  },
  "taana-baana": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
-   "women": 373
+   "women": 372
   },
   "via": "shopify",
   "kidsCollections": []
  },
  "ramsha": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
-   "women": 625
+   "women": 634
   },
   "via": "shopify",
   "kidsCollections": []
  },
  "ali-xeeshan": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
    "other": 513,
    "men": 97,
@@ -2582,14 +2590,14 @@
  },
  "faraz-manan": {
   "status": "website",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "misha-lakhani": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
-   "women": 831,
+   "women": 827,
    "kids": 2
   },
   "via": "shopify",
@@ -2597,12 +2605,12 @@
  },
  "nomi-ansari": {
   "status": "website",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "tena-durrani": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
    "women": 167
   },
@@ -2611,9 +2619,9 @@
  },
  "saira-shakira": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
-   "women": 745,
+   "women": 750,
    "kids": 2
   },
   "via": "shopify",
@@ -2621,12 +2629,12 @@
  },
  "fahad-hussayn": {
   "status": "website",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "nida-azwer": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
    "women": 1500,
    "men": 20
@@ -2638,7 +2646,7 @@
  },
  "lakhany-by-lsm": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
    "women": 1500,
    "men": 541
@@ -2648,9 +2656,9 @@
  },
  "sania-maskatiya": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
-   "women": 1391,
+   "women": 1394,
    "men": 109
   },
   "via": "shopify",
@@ -2658,7 +2666,7 @@
  },
  "shiza-hassan": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
    "women": 438
   },
@@ -2667,7 +2675,7 @@
  },
  "ansab-jahangir": {
   "status": "website",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "mohsin-naveed-ranjha": {
@@ -2678,21 +2686,23 @@
    "men": 500
   },
   "via": "shopify",
-  "kidsCollections": []
+  "kidsCollections": [],
+  "stale": true,
+  "lastError": "site blocks automatic reading or has no readable product list"
  },
  "farah-talib-aziz": {
   "status": "website",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "annus-abrar": {
   "status": "website",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "kamiar-rokni": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
    "women": 7
   },
@@ -2701,7 +2711,7 @@
  },
  "hussain-rehar": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
    "women": 1500,
    "men": 50
@@ -2711,17 +2721,17 @@
  },
  "bunto-kazmi": {
   "status": "unreachable",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site did not respond"
  },
  "erum-khan": {
   "status": "website",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "suffuse-by-sana-yasir": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
    "women": 575
   },
@@ -2730,18 +2740,18 @@
  },
  "ammara-khan": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
-   "women": 161
+   "women": 160
   },
   "via": "shopify",
   "kidsCollections": []
  },
  "amir-adnan": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
-   "men": 447,
+   "men": 377,
    "women": 15
   },
   "via": "shopify",
@@ -2749,26 +2759,25 @@
  },
  "deepak-perwani": {
   "status": "website",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "maryum-n-maria": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
-   "women": 421
+   "women": 394
   },
   "via": "shopify",
   "kidsCollections": [
    "AMAYA KIDS",
    "JHILMIL KIDS",
-   "KIDS EDIT'24",
-   "MNM KIDS"
+   "KIDS EDIT'24"
   ]
  },
  "zainab-chottani": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
    "women": 1073,
    "men": 35
@@ -2778,7 +2787,7 @@
  },
  "emraan-rajput": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
    "men": 810,
    "women": 64,
@@ -2792,7 +2801,7 @@
  },
  "uniworth": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
    "men": 1000,
    "women": 28
@@ -2802,7 +2811,7 @@
  },
  "mahgul": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
    "women": 936
   },
@@ -2811,7 +2820,7 @@
  },
  "cambridge": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
    "men": 1000,
    "kids": 182
@@ -2835,7 +2844,7 @@
  },
  "charcoal": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
    "men": 1000,
    "kids": 1
@@ -2845,11 +2854,11 @@
  },
  "brumano": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
    "men": 1000,
-   "women": 50,
-   "kids": 912
+   "women": 49,
+   "kids": 911
   },
   "via": "shopify",
   "kidsCollections": [
@@ -2889,28 +2898,29 @@
  },
  "gentry": {
   "status": "website",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "stoneage": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
-   "women": 30,
-   "other": 1,
-   "men": 9
+   "other": 47,
+   "men": 36,
+   "kids": 1,
+   "women": 16
   },
   "via": "shopify",
   "kidsCollections": []
  },
  "chenone": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
-   "home": 302,
-   "men": 273,
-   "women": 149,
-   "other": 75,
+   "women": 159,
+   "men": 266,
+   "home": 296,
+   "other": 74,
    "kids": 15
   },
   "via": "shopify",
@@ -2921,10 +2931,10 @@
  },
  "dynasty-fabrics": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
-   "women": 413,
-   "men": 45
+   "men": 59,
+   "women": 498
   },
   "via": "shopify",
   "kidsCollections": [
@@ -2936,10 +2946,10 @@
  },
  "monark": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
    "men": 1000,
-   "women": 44,
+   "women": 45,
    "kids": 17
   },
   "via": "shopify",
@@ -2949,11 +2959,11 @@
  },
  "diners": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
    "men": 1000,
-   "women": 1313,
-   "kids": 934
+   "kids": 933,
+   "women": 1330
   },
   "via": "shopify",
   "kidsCollections": [
@@ -3013,7 +3023,6 @@
    "Kids Eastern Wear - Sale",
    "Kids Eastern Western",
    "Kids Festive Collection",
-   "Kids Festive Collection Vol II",
    "Kids Sale",
    "Kids Western Wear",
    "Kids Western Wear - Sale",
@@ -3027,20 +3036,22 @@
  },
  "cougar": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
-   "other": 600
+   "kids": 1,
+   "women": 2,
+   "other": 597
   },
   "via": "sitemap",
   "kidsCollections": []
  },
  "engine": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
    "men": 1000,
-   "kids": 1200,
-   "women": 1500
+   "women": 1500,
+   "kids": 1200
   },
   "via": "shopify",
   "kidsCollections": [
@@ -3073,7 +3084,6 @@
    "Baby Girls Sweaters",
    "Baby Girls Sweatshirts",
    "Baby Girls Tights",
-   "Baby Girls Tops",
    "Baby Girls Tops",
    "Baby Girls Trousers",
    "Baby Girls Trousers",
@@ -3155,7 +3165,6 @@
    "Girls Top 50%",
    "Girls Tops",
    "Girls Tops",
-   "Girls Tops",
    "Girls Tops Sale",
    "Girls Tops Sale",
    "Girls Trousers",
@@ -3165,7 +3174,6 @@
    "Girls Uppers & Sweatshirts",
    "Highest Inventory Kids",
    "Junior Boys Suits",
-   "junior Girl Shirts",
    "Kids",
    "Kids 50%",
    "Kids All",
