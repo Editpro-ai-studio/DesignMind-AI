@@ -7837,7 +7837,7 @@
  },
  "ader-error": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
    "other": 599
   },
@@ -7846,32 +7846,32 @@
  },
  "spao": {
   "status": "website",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site asks not to be read automatically (robots.txt)"
  },
  "mixxo": {
   "status": "website",
-  "checked": "2026-11-18",
-  "reason": "site blocks automatic reading or has no readable product list"
+  "checked": "2026-11-25",
+  "reason": "site asks not to be read automatically (robots.txt)"
  },
  "8seconds": {
   "status": "website",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site asks not to be read automatically (robots.txt)"
  },
  "thisisneverthat": {
   "status": "website",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "musinsa": {
   "status": "website",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "topten10": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
    "other": 600
   },
@@ -7880,7 +7880,7 @@
  },
  "low-classic": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
    "women": 9
   },
@@ -7889,7 +7889,7 @@
  },
  "recto": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
    "men": 33,
    "women": 327
@@ -7899,12 +7899,12 @@
  },
  "covernat": {
   "status": "website",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "nerdy": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
    "other": 21
   },
@@ -7913,40 +7913,40 @@
  },
  "juun-j": {
   "status": "website",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "system": {
   "status": "website",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "bean-pole": {
   "status": "website",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site asks not to be read automatically (robots.txt)"
  },
  "wooyoungmi": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
-   "men": 600
+   "men": 488
   },
   "via": "sitemap",
   "kidsCollections": []
  },
  "andersson-bell": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
-   "other": 46
+   "other": 45
   },
   "via": "sitemap",
   "kidsCollections": []
  },
  "kirsh": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
    "women": 600
   },
@@ -7955,7 +7955,7 @@
  },
  "mardi-mercredi": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
    "kids": 300,
    "women": 300
@@ -7965,30 +7965,30 @@
  },
  "matin-kim": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
-   "kids": 5,
-   "men": 91,
-   "women": 258
+   "kids": 3,
+   "men": 87,
+   "women": 472
   },
   "via": "sitemap",
   "kidsCollections": []
  },
  "agabang": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
-   "kids": 61
+   "kids": 145
   },
   "via": "sitemap",
   "kidsCollections": []
  },
  "bebe-de-pino": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
-   "kids": 108,
-   "women": 4
+   "kids": 256,
+   "women": 6
   },
   "via": "sitemap",
   "kidsCollections": []
