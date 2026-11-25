@@ -9140,72 +9140,72 @@
  },
  "mango": {
   "status": "website",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "zara": {
   "status": "website",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "neck-and-neck": {
   "status": "unreachable",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site did not respond"
  },
  "massimo-dutti": {
   "status": "website",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "bershka": {
   "status": "website",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "pull-and-bear": {
   "status": "website",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "stradivarius": {
   "status": "website",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "oysho": {
   "status": "website",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "lefties": {
   "status": "website",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "zara-home": {
   "status": "website",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "bimba-y-lola": {
   "status": "website",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "mayoral": {
   "status": "website",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "sfera": {
   "status": "website",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "tuc-tuc": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
    "kids": 1200
   },
@@ -9217,10 +9217,17 @@
    "Bañadores niño",
    "Baño niño y niña",
    "Bebé niño",
-   "Bebé niño Black Friday",
    "Bermudas bebé niño",
    "Bermudas niño",
+   "Black Friday abrigos niño",
+   "Black Friday calzado y accesorios niño",
+   "Black Friday camisetas y tops niño",
+   "Black Friday chándales niño",
+   "Black Friday conjuntos niño",
+   "Black Friday jerséis y punto niño",
    "Black Friday niño",
+   "Black Friday pantalones niño",
+   "Black Friday sudaderas niño",
    "Calzado bebe niño",
    "Calzado niño",
    "Calzado y Accesorios Niño",
@@ -9315,15 +9322,15 @@
  },
  "springfield": {
   "status": "website",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "paloma-wool": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
    "other": 600,
-   "men": 156,
+   "men": 154,
    "women": 51
   },
   "via": "shopify",
@@ -9333,11 +9340,11 @@
  },
  "ecoalf": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
-   "men": 812,
-   "women": 206,
-   "other": 1
+   "other": 4,
+   "men": 822,
+   "women": 207
   },
   "via": "shopify",
   "kidsCollections": [
@@ -9380,24 +9387,23 @@
    "color-CAMISETA DUGONG NIÑO",
    "color-CAMISETA GREAT B NIÑOS",
    "color-CAMISETA GUNNE NIÑOS",
-   "color-CAMISETA INDUS NIÑO",
-   "color-CAMISETA ISAL NIÑOS"
+   "color-CAMISETA INDUS NIÑO"
   ]
  },
  "laagam": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
-   "women": 277
+   "women": 282
   },
   "via": "shopify",
   "kidsCollections": []
  },
  "bobo-choses": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
-   "kids": 1008,
+   "kids": 1005,
    "women": 162,
    "other": 600
   },
@@ -9436,6 +9442,9 @@
    "Dresses & Overalls for kid",
    "Footwear for baby",
    "Footwear for kid",
+   "Gift ideas for Baby",
+   "Gift ideas for Kid",
+   "Gift packs for baby",
    "Hats for Baby",
    "Hats for children",
    "Hats for kid",
@@ -9447,6 +9456,8 @@
    "Kid’s Best Sellers",
    "Knitwear for Baby",
    "Knitwear for kid",
+   "LIMITED TIME SALE Baby",
+   "LIMITED TIME SALE Kid",
    "Loungewear for Kids",
    "New Arrivals Kid",
    "NEW ICONIC KID",
@@ -9466,8 +9477,6 @@
    "Skirts for kid",
    "Socks & Tights for baby",
    "Socks & tights for kids",
-   "Special Prices Baby",
-   "Special Prices Kid",
    "Spring Selection Baby",
    "Spring Selection Kids",
    "SS26 Pickles Collection for kids",
@@ -9487,10 +9496,10 @@
  },
  "the-animals-observatory": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
    "kids": 1200,
-   "women": 87,
+   "women": 86,
    "men": 1
   },
   "via": "shopify",
@@ -9527,27 +9536,27 @@
  },
  "gocco": {
   "status": "website",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "nanos": {
   "status": "website",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "loewe": {
   "status": "website",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "pili-carrera": {
   "status": "website",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "paz-rodriguez": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
    "kids": 1200
   },
@@ -9558,6 +9567,7 @@
    "Accesorios",
    "Baño",
    "BEBÉ NIÑO (0-24M)",
+   "Black Week - Niño",
    "Blusas y Camisas",
    "Camisas y camisetas",
    "Chaquetas",
@@ -9585,7 +9595,6 @@
    "Rebajas - Gorros y Capotas Bebé Niño",
    "Rebajas - Jerséis Niño",
    "Rebajas - Jubones y Polainas Bebé Niño",
-   "Rebajas - Niño",
    "Rebajas - Pantalones Bebé Niño",
    "Rebajas - Pantalones Niño",
    "Rebajas - Peleles y Petos Bebé Niño",
@@ -9594,7 +9603,7 @@
  },
  "la-coqueta": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
    "kids": 739,
    "women": 13
@@ -9734,35 +9743,36 @@
    "kids": 301
   },
   "via": "sitemap",
-  "kidsCollections": []
+  "kidsCollections": [],
+  "stale": true,
+  "lastError": "site blocks automatic reading or has no readable product list"
  },
  "desigual": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
-   "other": 219,
-   "women": 339,
-   "men": 21,
-   "kids": 6
+   "other": 420,
+   "men": 32,
+   "women": 148
   },
   "via": "sitemap",
   "kidsCollections": []
  },
  "cortefiel": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
    "kids": 150,
    "men": 150,
-   "women": 150,
-   "other": 149
+   "women": 149,
+   "other": 150
   },
   "via": "sitemap",
   "kidsCollections": []
  },
  "adolfo-dominguez": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
    "men": 14,
    "women": 30,
@@ -9773,7 +9783,7 @@
  },
  "boboli": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
    "kids": 600
   },
