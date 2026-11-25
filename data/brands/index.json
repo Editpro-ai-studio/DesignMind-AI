@@ -4461,20 +4461,20 @@
  },
  "carters": {
   "status": "website",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "hanna-andersson": {
   "status": "website",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "primary": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
    "kids": 1200,
-   "women": 70
+   "women": 69
   },
   "via": "shopify",
   "kidsCollections": [
@@ -4726,8 +4726,8 @@
    "[breaker:baby-long-sleeve-bodysuits] Long Sleeve Bodysuits",
    "[breaker:baby-long-sleeve-tees] Long Sleeve Tees",
    "[breaker:baby-midweight-puffer] Warmer Puffers",
-   "[breaker:baby-modal-zip-footie-exposed-colors] Stretch Modal Zip Footies",
-   "[breaker:baby-modal-zip-footie] Stretch Modal Zip Footies",
+   "[breaker:baby-modal-zip-footie-exposed-colors] StretchSoft Zip Footies",
+   "[breaker:baby-modal-zip-footie] StretchSoft Zip Footies",
    "[breaker:baby-new-baby-essentials] Best of the Basics",
    "[breaker:baby-newborn-accessories] Socks",
    "[breaker:baby-newborn-bodysuits] Bodysuits & Tees",
@@ -4736,23 +4736,22 @@
    "[breaker:baby-organic-accessories] Organic Accessories",
    "[breaker:baby-organic-bottoms] Organic Bottoms",
    "[breaker:baby-organic-footies-rompers] Baby Organic Footies & Rompers",
-   "[breaker:baby-organic-interlock-set] Organic Playsuit Sets",
-   "[breaker:baby-outfitting] Shop Spring Outfits"
+   "[breaker:baby-organic-interlock-set] Organic Playsuit Sets"
   ]
  },
  "oshkosh-b-gosh": {
   "status": "website",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "the-children-s-place": {
   "status": "website",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "tea-collection": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
    "kids": 1200,
    "women": 1
@@ -4816,16 +4815,16 @@
  },
  "janie-and-jack": {
   "status": "website",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "kyte-baby": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
    "kids": 1200,
-   "women": 497,
-   "men": 101
+   "women": 512,
+   "men": 102
   },
   "via": "shopify",
   "kidsCollections": [
@@ -4953,16 +4952,16 @@
  },
  "rylee-and-cru": {
   "status": "website",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "posh-peanut": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
-   "women": 145,
    "kids": 1200,
-   "men": 21
+   "women": 297,
+   "men": 56
   },
   "via": "shopify",
   "kidsCollections": [
@@ -5121,9 +5120,9 @@
  },
  "burt-s-bees-baby": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
-   "kids": 662,
+   "kids": 664,
    "men": 12,
    "women": 19
   },
@@ -5237,11 +5236,11 @@
  },
  "little-sleepies": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
-   "kids": 1094,
-   "men": 95,
-   "women": 155
+   "kids": 1200,
+   "women": 446,
+   "men": 300
   },
   "via": "shopify",
   "kidsCollections": [
@@ -5256,6 +5255,7 @@
    "Baby Must Haves",
    "Baby Pants, Leggings, & Shorts",
    "Baby Sleep Sacks",
+   "Baby Styles On Sale",
    "Baby Swaddle Sets",
    "Baby's First Holiday",
    "Bamboo Baby Clothes",
@@ -5286,6 +5286,7 @@
    "Kids Dresses",
    "Kids Jackets",
    "Kids Pajama Sets",
+   "Kids Styles on Sale",
    "Kids Tops & Tees",
    "Kids' Hoodies & Sweatshirts",
    "Kids' Leggings",
@@ -5301,11 +5302,11 @@
    "lunaluxe_tag:harry-potter-toddler-kid",
    "lunaluxe_tag:marvel-baby",
    "lunaluxe_tag:marvel-toddler-kid",
-   "lunaluxe_tag:sesame-street-baby",
    "lunaluxe_tag:star-wars-baby",
    "lunaluxe_tag:star-wars-toddler-kid",
    "lunaluxe_tag:toddler-kid",
    "lunaluxe_tag:wtwta-baby",
+   "lunaluxe_tag:wtwta-toddler-kid",
    "matching_bundler:Baby",
    "matching_bundler:Kid",
    "matching_bundler:Toddler",
@@ -5329,11 +5330,11 @@
  },
  "pink-chicken": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
-   "kids": 908,
-   "women": 62,
-   "other": 109
+   "kids": 956,
+   "other": 94,
+   "women": 67
   },
   "via": "shopify",
   "kidsCollections": [
@@ -5347,7 +5348,6 @@
    "Baby Bamboo Romper Collection",
    "Baby Bamboo Romper Collection",
    "Baby Bamboo Romper Spring 26 Collection",
-   "Baby Black Friday 2025",
    "Baby Block Prints",
    "Baby Bodysuits",
    "Baby Books and Stuffies",
@@ -5368,7 +5368,6 @@
    "Baby Boy Swim",
    "Baby Boy Tops & Jumpers",
    "Baby Boys Albert Rugby Jumper Collection",
-   "Baby Boys Black Friday 2025",
    "Baby Boys Easton Jumper Collection",
    "Baby Boys Jack Shirt",
    "Baby Boys Jackson Short",
@@ -5385,7 +5384,6 @@
    "Baby Gifting",
    "Baby Gifting - Accessories & More",
    "Baby Girl",
-   "Baby Girl Black Friday 2025",
    "Baby Girl Bodysuit",
    "Baby Girl Coop Kids",
    "Baby Girl Jumpers",
@@ -5398,7 +5396,6 @@
    "Baby Girl's Accessories",
    "Baby Girl's Harper Bubble Collection",
    "Baby Girls Arden Suit Collection",
-   "Baby Girls Black Friday 2025",
    "Baby Girls Brooke Dress Set Collection",
    "Baby Girls Connie Sweater",
    "Baby Girls Dawson 2-PC Set Collection",
@@ -5470,9 +5467,7 @@
    "Boys Back to School Accessories",
    "Boys Bags and Backpacks",
    "Boys Bamboo Pajamas",
-   "Boys Bamboo Pajamas Black Friday 2025",
    "Boys Best Sellers",
-   "Boys Black Friday 2025",
    "Boys Cargo Pant",
    "Boys Fall '26",
    "Boys Gift Guide",
@@ -5489,23 +5484,17 @@
    "Boys Oliver Sweater Collection",
    "Boys Organics",
    "Boys Pants & Shorts",
-   "Boys Pants & Shorts Black Friday 2025",
    "Boys Rash Guard Collection",
    "Boys Red, White, and Blue Collection '26",
    "Boys Sale",
    "Boys Seperates",
-   "Boys Shoes & Accessories Black Friday 2025",
    "Boys Spring '26",
    "Boys Sweaters & Outerwear",
-   "Boys Sweaters & Outerwear Black Friday 2025",
    "Boys Sweatshirts & Sweatpants",
-   "Boys Sweatshirts & Sweatpants Black Friday 2025",
    "Boys Swim",
    "Boys Swim '26",
-   "Boys Swim Black Friday 2025",
    "Boys Swim Trunk Collection",
    "Boys Tops",
-   "Boys Tops Black Friday 2025",
    "Boys Varsity Zip Sweaters",
    "Boys' Books and Stuffies",
    "Boys' Hats & Beanies",
@@ -5517,7 +5506,6 @@
    "Celeste - Newborn Knee-high Socks Collection",
    "CHANNABLE FEED-COOP KIDS",
    "Coop Baby",
-   "Coop Baby Black Friday 2025",
    "Coop Baby Bloomers",
    "Coop Baby Jogger Sets",
    "Coop Baby Rompers",
@@ -5533,11 +5521,8 @@
    "Coop Kids - Tennis",
    "Coop Kids - Watermelon",
    "Coop Kids Best Sellers",
-   "Coop Kids Black Friday 2025",
    "Coop Kids Boys",
-   "Coop Kids Boys Black Friday 2025",
    "Coop Kids Girls",
-   "Coop Kids Girls Black Friday 2025",
    "Coop Kids Print Drop '25",
    "Coop Kids Sale",
    "Coop Kids Socks",
@@ -5546,6 +5531,8 @@
    "Coop Kids: Ice Cream",
    "Coop Sets",
    "Courtside Kids",
+   "Fall Bamboo Sale - Kids",
+   "Fall Bamboo Sale Baby",
    "Fall Girls Dresses-Homepage",
    "For the Pink Chicken Girls",
    "FP Baby Jax Jogger Set Collection",
@@ -5575,13 +5562,11 @@
    "Girls Back to School",
    "Girls Bailey Ruffle Pant",
    "Girls Bamboo Pajamas",
-   "Girls Bamboo Pajamas & Dresses Black Friday 2025",
    "Girls Bamboo Steph Dress Collection",
    "Girls Bamboo Steph Dress Collection",
    "Girls Beck Peacoat Collection",
    "Girls Best Sellers",
    "Girls Bikinis",
-   "Girls Black Friday 2025",
    "Girls Block Prints",
    "Girls Breyton Dress Collection",
    "Girls Brooke Dress Collection",
@@ -5635,7 +5620,6 @@
    "Girls Organic Steph Dress Collection",
    "Girls Organics",
    "Girls Outerwear & Sweaters",
-   "Girls Outerwear & Sweaters Black Friday 2025",
    "Girls Pajamas",
    "Girls Palmer Tankini Collection",
    "Girls Peachy Dress Collection",
@@ -5656,22 +5640,18 @@
    "Girls Scallop Short Collection",
    "Girls Separates",
    "Girls Shoes",
-   "Girls Shoes & Accessories Black Friday 2025",
    "Girls Skirts & Bottoms",
-   "Girls Skirts & Bottoms Black Friday 2025",
    "Girls Spring '26",
    "Girls Spring Bamboo Steph Dress Collection",
    "Girls Spring Dresses",
    "Girls Stevie Dress Collection",
    "Girls Sweatshirts & Sweatpants",
    "Girls Swim '26",
-   "Girls Swim Black Friday 2025",
    "Girls Sylvie Bow Suit Collection",
    "Girls Terry Coverup Collection",
    "Girls Theodore Pant",
    "Girls Theodore Short Collection",
    "Girls Tia Dress Collection",
-   "Girls Tops Black Friday 2025",
    "Girls Valentine's Day",
    "Girls Velour Bow",
    "Girls Velour Harper",
@@ -5719,22 +5699,22 @@
  },
  "ralph-lauren": {
   "status": "website",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "tommy-hilfiger": {
   "status": "website",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "anthropologie": {
   "status": "website",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "mabel-and-honey": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
    "kids": 634
   },
@@ -5771,21 +5751,21 @@
  },
  "free-people": {
   "status": "website",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "urban-outfitters": {
   "status": "website",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "gap": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
-   "women": 236,
+   "women": 234,
    "men": 142,
-   "other": 28,
+   "other": 30,
    "kids": 190
   },
   "via": "sitemap",
@@ -5793,11 +5773,11 @@
  },
  "old-navy": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
    "kids": 147,
-   "men": 217,
-   "women": 208,
+   "men": 213,
+   "women": 212,
    "other": 28
   },
   "via": "sitemap",
@@ -5805,78 +5785,78 @@
  },
  "j-crew": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
-   "kids": 194,
-   "men": 196,
-   "women": 208
+   "kids": 191,
+   "men": 205,
+   "women": 200
   },
   "via": "sitemap",
   "kidsCollections": []
  },
  "abercrombie-and-fitch": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
-   "kids": 39,
-   "other": 42,
-   "women": 1,
-   "men": 1
+   "kids": 35,
+   "men": 3,
+   "other": 32,
+   "women": 2
   },
   "via": "sitemap",
   "kidsCollections": []
  },
  "reformation": {
   "status": "website",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "lululemon": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
-   "kids": 16,
+   "kids": 18,
    "men": 154,
-   "women": 195,
-   "other": 235
+   "women": 194,
+   "other": 234
   },
   "via": "sitemap",
   "kidsCollections": []
  },
  "monica-and-andy": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
-   "kids": 482
+   "kids": 537
   },
   "via": "sitemap",
   "kidsCollections": []
  },
  "everlane": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
    "men": 1000,
    "women": 1500,
-   "other": 7,
-   "kids": 1
+   "other": 7
   },
   "via": "shopify",
   "kidsCollections": []
  },
  "faherty": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
-   "kids": 49,
    "men": 1000,
-   "women": 785,
-   "other": 64
+   "women": 837,
+   "other": 73,
+   "kids": 63
   },
   "via": "shopify",
   "kidsCollections": [
    "Big Kids Collection",
    "Gifts for Kids",
+   "Kids Sweaters",
    "Kids' Bottoms",
    "Kids' Shirts",
    "Kids' Sweatshirts",
@@ -5887,23 +5867,23 @@
  },
  "banana-republic": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
    "kids": 10,
-   "men": 267,
-   "women": 253,
-   "other": 67
+   "men": 268,
+   "women": 254,
+   "other": 65
   },
   "via": "sitemap",
   "kidsCollections": []
  },
  "rails": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
-   "women": 1317,
-   "men": 377,
-   "other": 155,
+   "women": 1297,
+   "other": 153,
+   "men": 373,
    "kids": 3
   },
   "via": "shopify",
@@ -5911,12 +5891,12 @@
  },
  "tory-burch": {
   "status": "website",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "american-eagle": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
    "kids": 130,
    "men": 157,
@@ -5928,9 +5908,9 @@
  },
  "diane-von-furstenberg": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
-   "women": 492,
+   "women": 487,
    "kids": 7
   },
   "via": "shopify",
@@ -5940,7 +5920,7 @@
  },
  "staud": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
    "women": 1500
   },
@@ -5949,9 +5929,9 @@
  },
  "christy-dawn": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
-   "women": 501,
+   "women": 493,
    "kids": 10,
    "men": 5
   },
@@ -5966,7 +5946,7 @@
  },
  "doen": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
    "other": 600,
    "women": 2,
@@ -5979,11 +5959,11 @@
  },
  "hill-house-home": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
+   "kids": 179,
    "other": 600,
-   "kids": 181,
-   "home": 93,
+   "home": 87,
    "women": 17,
    "men": 2
   },
@@ -6049,17 +6029,17 @@
  },
  "todd-snyder": {
   "status": "website",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "loveshackfancy": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
-   "kids": 632,
-   "other": 422,
-   "women": 603,
-   "men": 5
+   "kids": 701,
+   "women": 402,
+   "other": 600,
+   "men": 12
   },
   "via": "shopify",
   "kidsCollections": [
@@ -6102,7 +6082,7 @@
  },
  "alice-and-olivia": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
    "women": 1500,
    "kids": 10
@@ -6112,12 +6092,12 @@
  },
  "kate-spade": {
   "status": "website",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "madewell": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
    "kids": 4,
    "men": 296,
@@ -6129,7 +6109,7 @@
  },
  "taylor-stitch": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
    "men": 1000,
    "kids": 5,
@@ -6140,7 +6120,7 @@
  },
  "buck-mason": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
    "other": 304
   },
@@ -6149,7 +6129,7 @@
  },
  "lilly-pulitzer": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
    "kids": 156,
    "men": 14,
