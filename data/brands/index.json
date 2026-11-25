@@ -9792,32 +9792,32 @@
  },
  "esprit": {
   "status": "website",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "sanetta": {
   "status": "website",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "hugo-boss": {
   "status": "website",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "jako-o": {
   "status": "website",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "jil-sander": {
   "status": "website",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "escada": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
    "women": 160
   },
@@ -9826,54 +9826,54 @@
  },
  "closed": {
   "status": "website",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "gerry-weber": {
   "status": "website",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "tom-tailor": {
   "status": "website",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "opus": {
   "status": "unreachable",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site did not respond"
  },
  "marc-o-polo": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
-   "kids": 248,
-   "men": 114,
-   "women": 222,
-   "other": 16
+   "kids": 246,
+   "men": 121,
+   "women": 216,
+   "other": 17
   },
   "via": "sitemap",
   "kidsCollections": []
  },
  "marc-cain": {
   "status": "website",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "riani": {
   "status": "website",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "armedangels": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
+   "other": 600,
    "men": 1000,
    "women": 1500,
-   "other": 600,
-   "kids": 8
+   "kids": 7
   },
   "via": "shopify",
   "kidsCollections": [
@@ -9884,37 +9884,37 @@
  },
  "street-one": {
   "status": "website",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "lala-berlin": {
   "status": "website",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "cecil": {
   "status": "website",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "hessnatur": {
   "status": "website",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "living-crafts": {
   "status": "website",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "engel-natur": {
   "status": "website",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "bellybutton": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
    "kids": 1200
   },
@@ -9967,46 +9967,46 @@
  },
  "sense-organics": {
   "status": "website",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site asks not to be read automatically (robots.txt)"
  },
  "steiff-kids": {
   "status": "website",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "blutsgeschwister": {
   "status": "unreachable",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site did not respond"
  },
  "comma": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
-   "women": 599
+   "women": 593
   },
   "via": "sitemap",
   "kidsCollections": []
  },
  "bogner": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
-   "kids": 82,
-   "women": 231,
-   "men": 281
+   "kids": 127,
+   "women": 264,
+   "men": 200
   },
   "via": "sitemap",
   "kidsCollections": []
  },
  "s-oliver": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
-   "women": 347,
+   "women": 346,
    "men": 138,
-   "kids": 112
+   "kids": 114
   },
   "via": "sitemap",
   "kidsCollections": []
