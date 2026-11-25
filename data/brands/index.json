@@ -8499,36 +8499,36 @@
  },
  "mothercare-ae": {
   "status": "website",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "max-fashion": {
   "status": "website",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "splash": {
   "status": "website",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "babyshop": {
   "status": "website",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "ounass": {
   "status": "website",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "lifestyle": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
+   "kids": 1100,
+   "men": 362,
    "women": 1500,
-   "men": 402,
-   "kids": 1101,
    "other": 97
   },
   "via": "shopify",
@@ -8568,24 +8568,24 @@
  },
  "r-and-b": {
   "status": "website",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "brands-for-less": {
   "status": "website",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "centrepoint-uae": {
   "status": "website",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "bouguessa": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
-   "women": 392,
+   "women": 397,
    "kids": 9
   },
   "via": "shopify",
@@ -8593,19 +8593,19 @@
  },
  "dar-sara": {
   "status": "website",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "home-centre": {
   "status": "website",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "taller-marmo": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
-   "women": 424,
+   "women": 435,
    "kids": 3
   },
   "via": "shopify",
@@ -8613,21 +8613,21 @@
  },
  "bambah": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
-   "women": 1006,
-   "kids": 52
+   "kids": 80,
+   "women": 1006
   },
   "via": "shopify",
   "kidsCollections": []
  },
  "the-giving-movement": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
-   "kids": 291,
-   "men": 273,
-   "women": 326,
+   "kids": 297,
+   "men": 277,
+   "women": 333,
    "other": 1
   },
   "via": "shopify",
@@ -8728,13 +8728,13 @@
    "KIDS NOVEMBER SALE: JACKET",
    "KIDS NOVEMBER SALE: LEGGINGS & SHORTS",
    "KIDS NOVEMBER SALE: LOUNGEWEAR",
+   "KIDS NOVEMBER SALE: SELLING FAST",
    "KIDS NOVEMBER SALE: T-SHIRTS",
    "KIDS NOVEMBER SALE: TOP PICKS",
    "KIDS NOVEMBER SALE: TOPS",
    "KIDS NOVEMBER SALE: UNDER 200 AED",
    "KIDS NOVEMBER SALE: WINTER PICKS",
    "KIDS PASTEL GELATO",
-   "KIDS POPULAR",
    "KIDS POWDER BLUE",
    "KIDS PREMIUM GIFTING",
    "KIDS PRIDE OF SAUDI",
@@ -8788,7 +8788,6 @@
    "KIDS' COTTON FLEECE",
    "KIDS' HAND IN HAND",
    "KIDS' HEAVYWEIGHT LOUNGE",
-   "KIDS' IVORY",
    "KIDS' LIGHTWEIGHT LOUNGE",
    "KIDS' LOUNGEWEAR",
    "KIDS' MIDWEIGHT LOUNGE",
@@ -8805,7 +8804,7 @@
  },
  "namshi": {
   "status": "website",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "honayda": {
