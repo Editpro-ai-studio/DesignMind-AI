@@ -7995,26 +7995,26 @@
  },
  "jaypore": {
   "status": "error",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "URI malformed"
  },
  "firstcry": {
   "status": "website",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "anokhi": {
   "status": "website",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "house-of-masaba": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
-   "kids": 57,
+   "kids": 53,
    "men": 451,
-   "women": 417
+   "women": 420
   },
   "via": "shopify",
   "kidsCollections": [
@@ -8024,7 +8024,7 @@
  },
  "w-for-woman": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
    "women": 1500,
    "men": 25
@@ -8034,12 +8034,12 @@
  },
  "nicobar": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
-   "women": 1425,
-   "men": 545,
-   "home": 400,
+   "men": 556,
    "other": 600,
+   "home": 400,
+   "women": 1423,
    "kids": 5
   },
   "via": "shopify",
@@ -8051,12 +8051,12 @@
  },
  "okhai": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
    "other": 600,
-   "kids": 770,
+   "kids": 775,
    "women": 1500,
-   "men": 220
+   "men": 219
   },
   "via": "shopify",
   "kidsCollections": [
@@ -8074,9 +8074,9 @@
  },
  "bunaai": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
-   "women": 247,
+   "women": 252,
    "men": 5
   },
   "via": "shopify",
@@ -8084,11 +8084,11 @@
  },
  "suta": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
    "women": 1500,
-   "men": 158,
-   "kids": 100
+   "men": 155,
+   "kids": 88
   },
   "via": "shopify",
   "kidsCollections": [
@@ -8098,7 +8098,6 @@
    "Bol Baby Bol Blouses",
    "Bol Baby Bol Sarees",
    "Children's Day Sale",
-   "Girl of the Alps Blouses",
    "Girl Of The Alps Sarees",
    "Hey Girl Let’s Swirl Sarees",
    "Kids Saree",
@@ -8107,12 +8106,12 @@
  },
  "good-earth": {
   "status": "website",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "global-desi": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
    "women": 5
   },
@@ -8121,16 +8120,16 @@
  },
  "ritu-kumar": {
   "status": "website",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "libas": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
    "women": 1500,
-   "men": 47,
-   "kids": 32
+   "kids": 31,
+   "men": 46
   },
   "via": "shopify",
   "kidsCollections": [
@@ -8155,23 +8154,23 @@
  },
  "biba": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
-   "kids": 69,
-   "women": 247,
-   "other": 129
+   "other": 122,
+   "kids": 72,
+   "women": 247
   },
   "via": "sitemap",
   "kidsCollections": []
  },
  "sabyasachi": {
   "status": "website",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "manyavar": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
    "kids": 162,
    "men": 197,
@@ -8182,32 +8181,32 @@
  },
  "tarun-tahiliani": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
-   "women": 691,
-   "men": 335,
-   "other": 324
+   "women": 697,
+   "other": 320,
+   "men": 329
   },
   "via": "shopify",
   "kidsCollections": []
  },
  "manish-malhotra": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
-   "other": 573,
-   "women": 845,
-   "men": 351
+   "men": 373,
+   "women": 866,
+   "other": 600
   },
   "via": "shopify",
   "kidsCollections": []
  },
  "raw-mango": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
-   "women": 997,
-   "kids": 64
+   "women": 1002,
+   "kids": 63
   },
   "via": "shopify",
   "kidsCollections": [
@@ -8216,10 +8215,10 @@
  },
  "payal-singhal": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
-   "women": 1370,
-   "men": 270,
+   "women": 1359,
+   "men": 266,
    "kids": 59
   },
   "via": "shopify",
@@ -8238,15 +8237,15 @@
  },
  "taneira": {
   "status": "website",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "torani": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
+   "men": 732,
    "women": 1500,
-   "men": 730,
    "kids": 107
   },
   "via": "shopify",
@@ -8259,12 +8258,12 @@
  },
  "kalki-fashion": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
    "women": 1500,
    "other": 600,
    "men": 1000,
-   "kids": 233
+   "kids": 231
   },
   "via": "shopify",
   "kidsCollections": [
@@ -8287,10 +8286,10 @@
  },
  "aurelia": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
    "women": 1500,
-   "kids": 40
+   "kids": 41
   },
   "via": "shopify",
   "kidsCollections": [
@@ -8299,12 +8298,12 @@
  },
  "tasva": {
   "status": "website",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "raymond": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
    "men": 1000
   },
@@ -8313,17 +8312,17 @@
  },
  "soch": {
   "status": "website",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "hopscotch": {
   "status": "website",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "reason": "site blocks automatic reading or has no readable product list"
  },
  "anita-dongre": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
    "men": 188,
    "women": 206,
@@ -8334,26 +8333,162 @@
  },
  "and": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
-   "women": 558
+   "women": 556
   },
   "via": "sitemap",
   "kidsCollections": []
  },
  "fabindia": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
-   "kids": 31,
-   "home": 400
+   "men": 1000,
+   "home": 400,
+   "other": 62,
+   "kids": 1200,
+   "women": 1500
   },
-  "via": "sitemap",
-  "kidsCollections": []
+  "via": "shopify",
+  "kidsCollections": [
+   "Best Seller in Boys",
+   "Best Seller in Girls",
+   "Best Seller in Infant Boys",
+   "Best Seller in Infant Girls",
+   "Boys",
+   "Boys 10-12Y",
+   "Boys 12-14Y",
+   "Boys 2-3Y",
+   "Boys 3-4Y",
+   "Boys 4-6Y",
+   "Boys 6-8Y",
+   "Boys 8-10Y",
+   "Boys Chikankari",
+   "Boys Western Sets",
+   "Churidars, Pyjamas & Dhotis for Boys",
+   "Churidars, Pyjamas & Dhotis for Boys on Sale",
+   "Churidars, Pyjamas & Dhotis for Infant Boys",
+   "Clothing for Infant Boys",
+   "Clothing for Infant Girls",
+   "Dresses & Jumpsuits for Girls",
+   "Dresses & Jumpsuits for Girls on Sale",
+   "Dresses & Jumpsuits for Infant Girls",
+   "Everyday Living Clothing for Boys",
+   "Everyday Living Clothing for Girls",
+   "Everyday Living Clothing for Infant Boys",
+   "Everyday Living Clothing for Infant Girls",
+   "Festive Wear for Boys",
+   "Festive Wear for Girls",
+   "Festive Wear for Infant Boys",
+   "Festive Wear for Infant Girls",
+   "Gifts for Boys",
+   "Gifts for Girls",
+   "Gifts for Kids",
+   "Girls",
+   "Girls 10-12Y",
+   "Girls 12-14Y",
+   "Girls 2-3Y",
+   "Girls 3-4Y",
+   "Girls 4-6Y",
+   "Girls 6-8Y",
+   "Girls 8-10Y",
+   "Girls Chikankari",
+   "Indian Sets for Infant Boys",
+   "Indian Sets for Infant Girls",
+   "Indian Wear for Boys",
+   "Indian Wear for Girls",
+   "Indigo Clothing for Boys",
+   "Indigo Clothing for Girls",
+   "Indigo Clothing for Infant Boys",
+   "Indigo Clothing for Infant Girls",
+   "Infant Boys 12-18M",
+   "Infant Boys 18-24M",
+   "Infant Boys 3-6M",
+   "Infant Boys 6-12M",
+   "Infant Boys Chikankari",
+   "Infant Boys Indian Wear",
+   "Infant Girls 12-18M",
+   "Infant Girls 18-24M",
+   "Infant Girls 3-6M",
+   "Infant Girls 6-12M",
+   "Infant Girls Chikankari",
+   "Infant Girls Indian Wear",
+   "Infant Girls Western Sets",
+   "Jackets for Boys",
+   "Jackets for Girls",
+   "Kids - Boys Indian Sets",
+   "Kids - Boys Kurtas",
+   "Kids - Boys Shirts",
+   "Kids - Chikankari",
+   "Kids - Dresses & Jumpsuits",
+   "Kids - Everyday Living",
+   "Kids - Festive",
+   "Kids - Gifting",
+   "Kids - Girls Dresses & Jumpsuits",
+   "Kids - Girls Kurta Sets",
+   "Kids - Girls Leggings",
+   "Kids - Girls Lehenga Choli",
+   "Kids - Girls Tops",
+   "Kids - Girls Western Sets",
+   "Kids - Indian Sets",
+   "Kids - Indigo",
+   "Kids - Jackets",
+   "Kids - Kurta Sets",
+   "Kids - Kurtas",
+   "Kids - Leggings",
+   "Kids - Lehenga Choli",
+   "Kids - Nehru Jackets",
+   "Kids - Pants & Shorts",
+   "Kids - Saris",
+   "Kids - Shirts",
+   "Kids - Shirts & Short Kurtas",
+   "Kids - Short Kurtas",
+   "Kids - Shorts & Skirts",
+   "Kids - Summer",
+   "Kids - Tops & T-Shirts",
+   "Kids - Wedding",
+   "Kids - Western Sets",
+   "Kids - Winter",
+   "Kids 10-12Y Sale",
+   "Kids 12-14Y Sale",
+   "Kids 12-18M Sale",
+   "Kids 18-24M Sale",
+   "Kids 2-3Y Sale",
+   "Kids 3-4Y Sale",
+   "Kids 3-6M Sale",
+   "Kids 4-6Y Sale",
+   "Kids 6-12M Sale",
+   "Kids 6-8Y Sale",
+   "Kids 8-10Y Sale",
+   "Kids Clothing",
+   "Kids Fashion Sale",
+   "Kids Furniture",
+   "Kids Party Edit",
+   "Kids- Chappals ",
+   "Kids- Jutties ",
+   "Kurta Sets for Boys",
+   "Kurta Sets for Boys on Sale",
+   "Kurta Sets for Girls",
+   "Kurta Sets for Girls on Sale",
+   "Kurtas for Boys",
+   "Kurtas for Boys on Sale",
+   "Kurtas for Infant Boys",
+   "Leggings & Pants for Girls",
+   "Leggings for Girls on Sale",
+   "Lehenga Choli for Girls",
+   "Lehenga Choli for Girls on Sale",
+   "Nehru Jackets for Boys",
+   "New Arrivals for Kids",
+   "New Churidars, Pyjamas & Dhotis for Boys",
+   "New Dresses & Jumpsuits for Girls",
+   "New in Boys",
+   "New in Girls"
+  ]
  },
  "indya": {
   "status": "catalogue",
-  "checked": "2026-11-18",
+  "checked": "2026-11-25",
   "counts": {
    "kids": 39,
    "men": 261,
